@@ -17,10 +17,61 @@ MonoBehaviour:
   timeHorizon: 1
   sampleRate: 30
   m_Data:
-    syncedWithBinary: 0
-    animationLibrary: []
-    destinationAvatar: {fileID: 0}
-    metrics: []
+    syncedWithBinary: 1
+    animationLibrary:
+    - m_PreBoundaryClipGuid:
+        val0: 151725851
+        val1: -1889247521
+        val2: 201217706
+        val3: -1453852019
+      m_PostBoundaryClipGuid:
+        val0: 151725851
+        val1: -1889247521
+        val2: 201217706
+        val3: -1453852019
+      m_PreBoundaryClip: {fileID: 0}
+      m_PostBoundaryClip: {fileID: 0}
+      m_AnimationClipReference: {fileID: 0}
+      m_AnimationClipGuid:
+        val0: 151725851
+        val1: -1889247521
+        val2: 201217706
+        val3: -1453852019
+      m_CachedClipVersion: 7
+      m_CachedClipName: Idle
+      m_CachedClipDuration: 2.9333334
+      m_CachedSampleRate: 30
+      m_RetargetSourceAvatar: {fileID: 0}
+      tags:
+      - startTime: 0
+        duration: 2.9333334
+        payload:
+          serializedData: '{}'
+          assemblyQualifiedTypeName: Tech.Animation.Annotation.IdleTag, Assembly-CSharp,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        name: 
+      markers: []
+      m_Asset: {fileID: 11400000}
+    destinationAvatar: {fileID: 9000000, guid: 090b271b5edf8f64aa56fe0b8dfa57a9, type: 3}
+    metrics:
+    - name: New Metric
+      tagTypes:
+        m_TagTypeNames:
+        - Tech.Animation.Annotation.IdleTag
+        - Tech.Animation.Annotation.LocomotionTag
+      numPoses: 2
+      poseSampleRatio: 0.3333
+      joints:
+      - mixamorig:Neck
+      - mixamorig:LeftFoot
+      - mixamorig:RightFoot
+      trajectorySampleRatio: 0.3333
+      trajectorySampleRange: -1
+      trajectoryDisplacements: 0
+      numAttempts: 1
+      numIterations: 25
+      minimumNumberSamples: 32
+      maximumNumberSamples: 256
     timeHorizon: 1
     sampleRate: 30
   m_SerializeVersion: 3

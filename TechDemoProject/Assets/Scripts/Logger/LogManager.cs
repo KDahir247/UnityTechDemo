@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Reflection;
 using Cysharp.Text;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using UniRx;
 using UnityEngine;
@@ -13,38 +12,45 @@ namespace Tech.Core
     {
         private static readonly Microsoft.Extensions.Logging.ILogger GlobalLogger;
         private static readonly ILoggerFactory LoggerFactory;
-        private static readonly CompositeDisposable Disposable = new CompositeDisposable();
+        //private static readonly CompositeDisposable Disposable = new CompositeDisposable();
+
         static LogManager()
         {
             LoggerFactory = UnityLoggerFactory.Create(builder =>
             {
                 builder.SetMinimumLevel(LogLevel.Trace);
-                //Filter
-                //Set Option for logger
+
+               // var dataTime = DateTime.Today.ToFileTime();
+               //TODO Create Log Directory automatically depending on the day and store the correct log file in the correct folder
+                //TODO use a UTF8ZStringBuilder to avoid/minimize allocation
                 builder.AddZLoggerFile(
-                    @"C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoProject\Assets\Log\EditorLog.log",
+                    $@"{Environment.CurrentDirectory}\Assets\Log\EditorLog{DateTime.Today.ToFileTime()}.log",
                     options =>
                     {
-                        var prefixFormat = ZString.PrepareUtf8<DateTime,LogLevel, DateTime, Exception>("[{0}]\n[{1}][{2}]{3}");
-                        options.PrefixFormatter = (writer, info) => prefixFormat.FormatTo(ref writer, DateTime.Now, info.LogLevel,
+                        var prefixFormat =
+                            ZString.PrepareUtf8<DateTime, LogLevel, DateTime, Exception>("[{0}]\n[{1}][{2}]{3}\n");
+                        options.PrefixFormatter = (writer, info) => prefixFormat.FormatTo(ref writer, DateTime.Now,
+                            info.LogLevel,
                             info.Timestamp.Date.ToLocalTime(), info.Exception);
 
 
                         var exceptionFormat =
-                            ZString.PrepareUtf8<DateTime ,string, string, MethodBase, Exception, string>(
+                            ZString.PrepareUtf8<DateTime, string, string, MethodBase, Exception, string>(
                                 " [{0}] \n\n[{1}][{2}][{3}][{4}] {5}");
-                        options.ExceptionFormatter = (writer, exception) => exceptionFormat.FormatTo(ref writer, DateTime.Now, 
+                        options.ExceptionFormatter = (writer, exception) => exceptionFormat.FormatTo(ref writer,
+                            DateTime.Now,
                             exception.Source, exception.Message, exception.TargetSite, exception.InnerException,
                             exception.StackTrace);
 
                         // options.StructuredLoggingFormatter = (writer, info) => { };
                         // options.EnableStructuredLogging = true;
-                        
+
                         options.JsonSerializerOptions.WriteIndented = true;
 
                     });
+
                 
-                builder.AddZLoggerUnityDebug(options =>
+                builder.AddZLoggerUnityDebug(options => 
                 {
                     var prefixFormat = ZString.PrepareUtf8<LogLevel, DateTime>("[{0}][{1}]");
                     options.PrefixFormatter = (writer, info) => prefixFormat.FormatTo(ref writer, info.LogLevel, info.Timestamp.DateTime.ToLocalTime());
@@ -56,7 +62,7 @@ namespace Tech.Core
                         exception.Source, exception.Message, exception.TargetSite, exception.InnerException,
                         exception.StackTrace); 
                     
-                    options.EnableStructuredLogging = true;
+                    options.EnableStructuredLogging = true; 
                 });
             });
 

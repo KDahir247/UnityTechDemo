@@ -54,7 +54,7 @@ namespace Tech.Core
                 {
                     objects.Add(await assetReference
                         .InstantiateAsync()
-                        .ToUniTask(progress, PlayerLoopTiming.Update, cancellationToken) as T);   
+                        .ToUniTask(progress, PlayerLoopTiming.Update, cancellationToken) as T);
                 }
                 else
                 {

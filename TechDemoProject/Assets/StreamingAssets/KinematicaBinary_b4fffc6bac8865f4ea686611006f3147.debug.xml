@@ -1,0 +1,168 @@
+<Binary>
+  <AnimationRig>
+    <Joint name="Simple_Character" parent="-1">
+      <Position x="0" y="0" z="0" />
+      <Rotation x="0" y="0" z="0" w="1" />
+    </Joint>
+    <Joint name="Armature.001" parent="0">
+      <Position x="0" y="0" z="0" />
+      <Rotation x="8.146034E-08" y="0" z="0" w="1" />
+    </Joint>
+    <Joint name="mixamorig:Hips" parent="1">
+      <Position x="0.007647211" y="0.5956067" z="-0.01566093" />
+      <Rotation x="-0.008132378" y="0.007913154" z="0.009376217" w="0.9998917" />
+    </Joint>
+    <Joint name="mixamorig:LeftUpLeg" parent="2">
+      <Position x="-0.179351" y="-0.05157904" z="-0.008903001" />
+      <Rotation x="-0.06751934" y="0.0672694" z="0.994159" w="0.05063528" />
+    </Joint>
+    <Joint name="mixamorig:LeftLeg" parent="3">
+      <Position x="-1.683831E-08" y="0.2737121" z="-1.192093E-09" />
+      <Rotation x="-0.2370658" y="0.01392624" z="-0.01598112" w="0.9712623" />
+    </Joint>
+    <Joint name="mixamorig:LeftFoot" parent="4">
+      <Position x="-5.662441E-09" y="0.2435981" z="-1.192093E-09" />
+      <Rotation x="0.7500412" y="0.3077825" z="-0.1475063" w="0.5665244" />
+    </Joint>
+    <Joint name="mixamorig:LeftToeBase" parent="5">
+      <Position x="-1.132488E-08" y="0.04460679" z="3.72529E-10" />
+      <Rotation x="-0.006630894" y="0.0002690573" z="-0.03947042" w="0.9991987" />
+    </Joint>
+    <Joint name="mixamorig:LeftToe_End" parent="6">
+      <Position x="1.933426E-08" y="0.04589565" z="-1.210719E-09" />
+      <Rotation x="9.313226E-10" y="6.565824E-08" z="1.753506E-09" w="1" />
+    </Joint>
+    <Joint name="mixamorig:LeftToe_End_end" parent="7">
+      <Position x="0" y="0.04581501" z="0" />
+      <Rotation x="0" y="0" z="0" w="1" />
+    </Joint>
+    <Joint name="mixamorig:RightUpLeg" parent="2">
+      <Position x="0.179351" y="-0.05157907" z="-0.011907" />
+      <Rotation x="0.09832609" y="-0.0144238" z="0.9933487" w="-0.05815844" />
+    </Joint>
+    <Joint name="mixamorig:RightLeg" parent="9">
+      <Position x="-2.384186E-08" y="0.2737051" z="3.278255E-09" />
+      <Rotation x="-0.132659" y="-0.05176108" z="0.01667249" w="0.9896688" />
+    </Joint>
+    <Joint name="mixamorig:RightFoot" parent="10">
+      <Position x="-1.847744E-08" y="0.2435981" z="1.311302E-08" />
+      <Rotation x="0.7200924" y="-0.304437" z="0.1438308" w="0.6067107" />
+    </Joint>
+    <Joint name="mixamorig:RightToeBase" parent="11">
+      <Position x="-5.066395E-09" y="0.0456708" z="-1.713633E-09" />
+      <Rotation x="-0.006292361" y="7.990462E-05" z="0.08667567" w="0.9962167" />
+    </Joint>
+    <Joint name="mixamorig:RightToe_End" parent="12">
+      <Position x="-1.66893E-08" y="0.0424338" z="1.490116E-10" />
+      <Rotation x="-8.149073E-10" y="-1.271837E-07" z="-2.339948E-08" w="1" />
+    </Joint>
+    <Joint name="mixamorig:RightToe_End_end" parent="13">
+      <Position x="0" y="0.042439" z="0" />
+      <Rotation x="0" y="0" z="0" w="1" />
+    </Joint>
+    <Joint name="mixamorig:Spine" parent="2">
+      <Position x="8.195639E-10" y="0.092963" z="-0.002257001" />
+      <Rotation x="-0.002793132" y="0.001552709" z="0.01714332" w="0.9998479" />
+    </Joint>
+    <Joint name="mixamorig:Spine1" parent="15">
+      <Position x="-4.768371E-09" y="0.108489" z="1.362496E-09" />
+      <Rotation x="-0.03352355" y="-0.0006357715" z="0.0008754109" w="0.9994374" />
+    </Joint>
+    <Joint name="mixamorig:Spine2" parent="16">
+      <Position x="9.462237E-09" y="0.123987" z="1.396984E-10" />
+      <Rotation x="-0.03352302" y="-0.0006842829" z="0.0008906931" w="0.9994373" />
+    </Joint>
+    <Joint name="mixamorig:LeftShoulder" parent="17">
+      <Position x="-0.11122" y="0.1109731" z="-0.0003150043" />
+      <Rotation x="0.6062461" y="-0.3674993" z="0.6336738" w="0.3096249" />
+    </Joint>
+    <Joint name="mixamorig:LeftArm" parent="18">
+      <Position x="-3.576279E-09" y="0.229274" z="9.000301E-08" />
+      <Rotation x="0.366769" y="-0.1827512" z="-0.04476712" w="0.9110864" />
+    </Joint>
+    <Joint name="mixamorig:LeftForeArm" parent="19">
+      <Position x="-9.536743E-09" y="0.2241089" z="5.245209E-08" />
+      <Rotation x="0.001821309" y="0.0002660408" z="-0.07688595" w="0.9970382" />
+    </Joint>
+    <Joint name="mixamorig:LeftHand" parent="20">
+      <Position x="-1.072884E-08" y="0.2794962" z="-2.086163E-08" />
+      <Rotation x="2.793968E-09" y="-1.303852E-08" z="-1.862646E-09" w="1" />
+    </Joint>
+    <Joint name="mixamorig:LeftHand_end" parent="21">
+      <Position x="0" y="0.279496" z="0" />
+      <Rotation x="0" y="0" z="0" w="1" />
+    </Joint>
+    <Joint name="mixamorig:Neck" parent="17">
+      <Position x="4.991889E-09" y="0.1394861" z="9.434298E-09" />
+      <Rotation x="-0.01130132" y="0.002618444" z="0.00380032" w="0.9999255" />
+    </Joint>
+    <Joint name="mixamorig:Head" parent="23">
+      <Position x="1.490116E-09" y="0.04593498" z="-0.000230986" />
+      <Rotation x="-0.06719461" y="0.04998757" z="0.07913488" w="0.9933397" />
+    </Joint>
+    <Joint name="mixamorig:HeadTop_End" parent="24">
+      <Position x="2.384186E-08" y="0.94346" z="-0.004753985" />
+      <Rotation x="-6.519258E-09" y="-9.313226E-10" z="9.313226E-10" w="1" />
+    </Joint>
+    <Joint name="mixamorig:HeadTop_End_end" parent="25">
+      <Position x="0" y="0.943472" z="0" />
+      <Rotation x="0" y="0" z="0" w="1" />
+    </Joint>
+    <Joint name="mixamorig:RightShoulder" parent="17">
+      <Position x="0.11122" y="0.1109921" z="-0.001069011" />
+      <Rotation x="-0.5836641" y="-0.4011591" z="0.6198145" w="-0.3379907" />
+    </Joint>
+    <Joint name="mixamorig:RightArm" parent="27">
+      <Position x="0" y="0.2292739" z="3.755093E-08" />
+      <Rotation x="0.4580756" y="-0.005976751" z="-0.06896706" w="0.8862137" />
+    </Joint>
+    <Joint name="mixamorig:RightForeArm" parent="28">
+      <Position x="-3.576279E-09" y="0.224106" z="-1.430511E-08" />
+      <Rotation x="0.003365612" y="-4.280042E-05" z="0.1252138" w="0.9921241" />
+    </Joint>
+    <Joint name="mixamorig:RightHand" parent="29">
+      <Position x="-6.556511E-09" y="0.279496" z="-2.905726E-08" />
+      <Rotation x="9.313224E-10" y="1.862645E-09" z="-1.862645E-09" w="1" />
+    </Joint>
+    <Joint name="mixamorig:RightHand_end" parent="30">
+      <Position x="0" y="0.279496" z="0" />
+      <Rotation x="0" y="0" z="0" w="1" />
+    </Joint>
+    <Joint name="Simple.Character" parent="0">
+      <Position x="0" y="0" z="0" />
+      <Rotation x="-0.7071068" y="0" z="0" w="0.7071067" />
+    </Joint>
+  </AnimationRig>
+  <Types>
+    <Type name="Idle" size="1" />
+  </Types>
+  <Traits>
+    <Trait index="0" type="Idle" payload="00" />
+  </Traits>
+  <Segments>
+    <Segment index="0" name="Idle" tagIndex="0" numTags="1" markerIndex="-1" numMarkers="0" intervalIndex="0" numIntervals="1">
+      <Source firstFrame="0" numFrames="88" />
+      <Destination firstFrame="0" numFrames="88" />
+    </Segment>
+  </Segments>
+  <Tags>
+    <Tag index="0" trait="0" segment="0" firstFrame="0" numFrames="88" />
+  </Tags>
+  <Markers />
+  <Intervals>
+    <Interval index="0" segment="0" firstFrame="0" numFrames="88" tagList="0" codeBook="0" />
+  </Intervals>
+  <TagLists>
+    <TagList index="0" indices="0;" />
+  </TagLists>
+  <Metrics>
+    <Metric index="0" poseTimeSpan="0.06666667">
+      <Joint name="mixamorig:Neck" index="23" />
+      <Joint name="mixamorig:LeftFoot" index="5" />
+      <Joint name="mixamorig:RightFoot" index="11" />
+    </Metric>
+  </Metrics>
+  <CodeBooks>
+    <CodeBook index="0" metric="0" trait="0" />
+  </CodeBooks>
+</Binary>
