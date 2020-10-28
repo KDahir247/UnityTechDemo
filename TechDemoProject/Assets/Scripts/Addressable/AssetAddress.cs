@@ -102,7 +102,7 @@ namespace Tech.Core
             CancellationToken cancellationToken = default(CancellationToken))
         where T : Object
         {
-            IList<IResourceLocation> resourceLocations= await Addressables.LoadResourceLocationsAsync(nameOrLabel).ToUniTask();
+            IList<IResourceLocation> resourceLocations= await Addressables.LoadResourceLocationsAsync(nameOrLabel).ToUniTask(progress, PlayerLoopTiming.Update, cancellationToken);
 
            foreach (IResourceLocation location in resourceLocations)
            {
