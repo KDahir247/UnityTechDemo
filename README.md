@@ -17,6 +17,7 @@ Shadergraph
 Packages using
 UniTask,
 UniRx,
+Dotween,
 ZLogger, and
 ZString
 
