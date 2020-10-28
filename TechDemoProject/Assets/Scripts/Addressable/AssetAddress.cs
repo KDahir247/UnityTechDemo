@@ -7,6 +7,8 @@ using UnityEngine.ResourceManagement.ResourceLocations;
 using ZLogger;
 using Object = UnityEngine.Object;
 
+//Script Happens Separately from ECS System 
+
 namespace Tech.Core
 {
     public static class AssetAddress

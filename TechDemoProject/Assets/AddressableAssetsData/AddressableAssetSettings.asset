@@ -72,6 +72,7 @@ MonoBehaviour:
     - Prop
     - Sfx
     - Music
+    - Scene
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: f67c744d30d40d9499a06643db06ffb6, type: 2}

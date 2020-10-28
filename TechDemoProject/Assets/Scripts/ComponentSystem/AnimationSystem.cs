@@ -23,7 +23,6 @@ namespace Tech.Component
                         .PlayFirstSequence(synthesizer
                             .Query
                             .Where(Idle.Default));
-
                 });
         }
         

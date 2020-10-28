@@ -1,4 +1,5 @@
 ﻿using System;
+using Tech.Core;
 using Unity.Entities;
 using Unity.Kinematica;
 using Unity.Transforms;
@@ -21,7 +22,7 @@ namespace Tech.Authoring
         // For example,
         //    public float scale;
 
-        
+
         private Kinematica _kinematica;
         private Entity _entity;
         private EntityManager _dstManager;

@@ -1,72 +1,132 @@
-[10/28/2020 11:27:42]
+[10/28/2020 13:22:53]
 [Information][10/27/2020 19:00:00]
 ReInitialized Unitask after Initialization of ECS is complete
-[10/28/2020 11:27:42]
+[10/28/2020 13:22:53]
 [Information][10/27/2020 19:00:00]
 Unitask Player loop is ready? True
-[10/28/2020 11:27:42]
+[10/28/2020 13:22:53]
 [Information][10/27/2020 19:00:00]
 Initialized Unitask correctly for ECS
-[10/28/2020 11:27:44]
+[10/28/2020 13:22:57]
 [Information][10/27/2020 19:00:00]
 Closing Logger and Disposing
-[10/28/2020 11:33:56]
+[10/28/2020 13:26:34]
 [Information][10/27/2020 19:00:00]
 ReInitialized Unitask after Initialization of ECS is complete
-[10/28/2020 11:33:56]
+[10/28/2020 13:26:34]
 [Information][10/27/2020 19:00:00]
 Unitask Player loop is ready? True
-[10/28/2020 11:33:56]
+[10/28/2020 13:26:34]
 [Information][10/27/2020 19:00:00]
 Initialized Unitask correctly for ECS
-[10/28/2020 11:34:00]
+[10/28/2020 13:26:37]
 [Information][10/27/2020 19:00:00]
 Closing Logger and Disposing
-[10/28/2020 11:35:03]
+[10/28/2020 18:02:20]
 [Information][10/27/2020 19:00:00]
 ReInitialized Unitask after Initialization of ECS is complete
-[10/28/2020 11:35:03]
+[10/28/2020 18:02:20]
 [Information][10/27/2020 19:00:00]
 Unitask Player loop is ready? True
-[10/28/2020 11:35:03]
+[10/28/2020 18:02:20]
 [Information][10/27/2020 19:00:00]
 Initialized Unitask correctly for ECS
-[10/28/2020 11:35:20]
+[10/28/2020 18:02:35]
 [Information][10/27/2020 19:00:00]
 Closing Logger and Disposing
-[10/28/2020 11:35:56]
+[10/28/2020 18:12:29]
 [Information][10/27/2020 19:00:00]
 ReInitialized Unitask after Initialization of ECS is complete
-[10/28/2020 11:35:56]
+[10/28/2020 18:12:29]
 [Information][10/27/2020 19:00:00]
 Unitask Player loop is ready? True
-[10/28/2020 11:35:56]
+[10/28/2020 18:12:29]
 [Information][10/27/2020 19:00:00]
 Initialized Unitask correctly for ECS
-[10/28/2020 11:35:59]
+[10/28/2020 18:13:37]
 [Information][10/27/2020 19:00:00]
 Closing Logger and Disposing
-[10/28/2020 11:37:23]
+[10/28/2020 18:14:15]
 [Information][10/27/2020 19:00:00]
 ReInitialized Unitask after Initialization of ECS is complete
-[10/28/2020 11:37:23]
+[10/28/2020 18:14:15]
 [Information][10/27/2020 19:00:00]
 Unitask Player loop is ready? True
-[10/28/2020 11:37:23]
+[10/28/2020 18:14:15]
 [Information][10/27/2020 19:00:00]
 Initialized Unitask correctly for ECS
-[10/28/2020 11:37:29]
+[10/28/2020 18:14:35]
 [Information][10/27/2020 19:00:00]
 Closing Logger and Disposing
-[10/28/2020 11:38:11]
+[10/28/2020 18:18:15]
 [Information][10/27/2020 19:00:00]
 ReInitialized Unitask after Initialization of ECS is complete
-[10/28/2020 11:38:11]
+[10/28/2020 18:18:15]
 [Information][10/27/2020 19:00:00]
 Unitask Player loop is ready? True
-[10/28/2020 11:38:11]
+[10/28/2020 18:18:15]
 [Information][10/27/2020 19:00:00]
 Initialized Unitask correctly for ECS
-[10/28/2020 11:38:24]
+[10/28/2020 18:18:23]
+[Information][10/27/2020 19:00:00]
+Closing Logger and Disposing
+[10/28/2020 18:22:22]
+[Information][10/27/2020 19:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[10/28/2020 18:22:22]
+[Information][10/27/2020 19:00:00]
+Unitask Player loop is ready? True
+[10/28/2020 18:22:22]
+[Information][10/27/2020 19:00:00]
+Initialized Unitask correctly for ECS
+[10/28/2020 18:22:32]
+[Information][10/27/2020 19:00:00]
+Closing Logger and Disposing
+[10/28/2020 18:31:09]
+[Information][10/27/2020 19:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[10/28/2020 18:31:09]
+[Information][10/27/2020 19:00:00]
+Unitask Player loop is ready? True
+[10/28/2020 18:31:09]
+[Information][10/27/2020 19:00:00]
+Initialized Unitask correctly for ECS
+[10/28/2020 18:31:30]
+[Information][10/27/2020 19:00:00]
+Closing Logger and Disposing
+[10/28/2020 18:32:12]
+[Information][10/27/2020 19:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[10/28/2020 18:32:12]
+[Information][10/27/2020 19:00:00]
+Unitask Player loop is ready? True
+[10/28/2020 18:32:12]
+[Information][10/27/2020 19:00:00]
+Initialized Unitask correctly for ECS
+[10/28/2020 18:32:23]
+[Information][10/27/2020 19:00:00]
+Closing Logger and Disposing
+[10/28/2020 18:32:34]
+[Information][10/27/2020 19:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[10/28/2020 18:32:34]
+[Information][10/27/2020 19:00:00]
+Unitask Player loop is ready? True
+[10/28/2020 18:32:34]
+[Information][10/27/2020 19:00:00]
+Initialized Unitask correctly for ECS
+[10/28/2020 18:32:42]
+[Information][10/27/2020 19:00:00]
+Closing Logger and Disposing
+[10/28/2020 18:36:11]
+[Information][10/27/2020 19:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[10/28/2020 18:36:11]
+[Information][10/27/2020 19:00:00]
+Unitask Player loop is ready? True
+[10/28/2020 18:36:11]
+[Information][10/27/2020 19:00:00]
+Initialized Unitask correctly for ECS
+[10/28/2020 18:36:20]
 [Information][10/27/2020 19:00:00]
 Closing Logger and Disposing
