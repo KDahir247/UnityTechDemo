@@ -18,7 +18,7 @@ Device Simulator
 
 Packages using
 UniTask,
-UniRx,asdas
+UniRx,
 Dotween,
 ZLogger, and
 ZString
