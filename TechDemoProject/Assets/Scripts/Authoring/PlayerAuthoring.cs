@@ -21,8 +21,7 @@ namespace Tech.Authoring
         //
         // For example,
         //    public float scale;
-
-
+        
         private Kinematica _kinematica;
         private Entity _entity;
         private EntityManager _dstManager;

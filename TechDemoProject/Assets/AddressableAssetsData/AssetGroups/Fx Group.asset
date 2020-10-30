@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Fx Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Fx Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: f12ff42d122972c4d808f81f4bf624c7
+  m_SerializeEntries:
+  - m_GUID: 614f518dce377b249a6536e2bab36fdc
+    m_Address: Assets/AddressablePrefab/CFX3_Hit_Misc_B.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Vfx
+    m_MainAsset: {fileID: 4222542839509156388, guid: 614f518dce377b249a6536e2bab36fdc,
+      type: 3}
+    m_TargetAsset: {fileID: 4222542839509156388, guid: 614f518dce377b249a6536e2bab36fdc,
+      type: 3}
+  - m_GUID: 62e54f8b4058aea4db6d6ffd3cc4477a
+    m_Address: Assets/AddressablePrefab/CFX_Poof.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Vfx
+    m_MainAsset: {fileID: 7998082132496953930, guid: 62e54f8b4058aea4db6d6ffd3cc4477a,
+      type: 3}
+    m_TargetAsset: {fileID: 7998082132496953930, guid: 62e54f8b4058aea4db6d6ffd3cc4477a,
+      type: 3}
+  - m_GUID: 728ac8214f68c0d4098d2fa258e5de45
+    m_Address: Assets/AddressablePrefab/CFX3_Hit_Misc_D.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Vfx
+    m_MainAsset: {fileID: 7472619480906239965, guid: 728ac8214f68c0d4098d2fa258e5de45,
+      type: 3}
+    m_TargetAsset: {fileID: 7472619480906239965, guid: 728ac8214f68c0d4098d2fa258e5de45,
+      type: 3}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: a2cc6ec24cb6f134d8a2845b265779b5, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 43ba47d8d7d478e44a69d8a204f6763b, type: 2}
+    - {fileID: 11400000, guid: accbf000d131b974d9945b2f0a0a83ab, type: 2}
