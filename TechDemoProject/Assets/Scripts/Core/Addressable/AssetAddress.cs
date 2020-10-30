@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Threading;
 using Cysharp.Threading.Tasks;
 using UniRx;
+using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.ResourceLocations;
 using UnityEngine.ResourceManagement.ResourceProviders;
@@ -120,14 +121,14 @@ namespace Tech.Core
             CancellationToken cancellationToken = default(CancellationToken))
         where T : Object
         {
-            IList<IResourceLocation> resourceLocations= await Addressables.LoadResourceLocationsAsync(nameOrLabel).ToUniTask(progress, PlayerLoopTiming.Update, cancellationToken);
+            IList<IResourceLocation> resourceLocations= await Addressables.LoadResourceLocationsAsync(nameOrLabel).ToUniTask(Progress.Create<float>((f => Debug.Log(f))));
 
            foreach (IResourceLocation location in resourceLocations)
            {
                objects.Add(await Addressables
                    .InstantiateAsync(location,
                        instantiationParameters)
-                   .ToUniTask(progress, PlayerLoopTiming.Update, cancellationToken) as T);
+                   .ToUniTask(Progress.Create<float>((f => Debug.Log(f))), PlayerLoopTiming.Update, cancellationToken) as T);
            }
         }
 

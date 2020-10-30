@@ -35,6 +35,7 @@ namespace Tech.Core
                     {
                         Utf8PreparedFormat<DateTime, LogLevel, DateTime,Exception> prefixFormat =
                             ZString.PrepareUtf8<DateTime, LogLevel, DateTime, Exception>("[{0}]\n[{1}][{2}]{3}\n");
+                        
                         options.PrefixFormatter = (writer, info) => prefixFormat.FormatTo(ref writer, DateTime.Now,
                             info.LogLevel,
                             info.Timestamp.Date.ToLocalTime(), info.Exception);
