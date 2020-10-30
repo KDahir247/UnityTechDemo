@@ -28,3 +28,10 @@ Scene and Assets are loaded via by addressable thus requiring them to be release
 Asset not loaded by addressable should be destroyed and not released by the addressable.
 
 LogManager.cs will store all Editor log in a Log file under Asset->Log by date to file time. LogHelper will remove any Editorlog file in Asset->Log that are 10 days old.
+
+Console will be written in the Editor Log if it uses type Microsoft.Extensions.Logging.ILogger
+ex.        private static readonly Microsoft.Extensions.Logging.ILogger Logger = LogManager.GetLogger("SceneLogger");
+ Logger.ZLogError("Print Error in Console and store it in Editor Log");
+                 Logger.ZLogInformation("Print info in Console and store it in Editor Log");
+
+
