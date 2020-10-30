@@ -11,7 +11,9 @@ Jobs,
 Kinematica,
 Mathametics, 
 unity physics, havok physics, and
-Shadergraph
+Shadergraph,
+Universal RP,
+Device Simulator
 
 
 Packages using
