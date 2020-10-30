@@ -44,7 +44,7 @@ ex.        private readonly Microsoft.Extensions.Logging.ILogger Logger = LogMan
  <br />
                  Logger.ZLogInformation("Print info in Console and store it in Editor Log");
                  
-                 <br/>
-                 Editor Log can take two format type Exception Format and Prefix Format
+<br/>                 
+Editor Log can take two format type Exception Format and Prefix Format
 
 
