@@ -1,0 +1,1 @@
+﻿I own none of the art within this folder

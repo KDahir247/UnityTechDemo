@@ -33,7 +33,7 @@ public class CursorFx : MonoBehaviour
             .ObserveAdd()
             .Subscribe(clickVfx =>
             {
-                float timer = clickVfx.Value.GetComponent<ParticleSystem>().main.duration / 2.0f;
+                float timer = clickVfx.Value.GetComponent<ParticleSystem>().main.duration;
                 AssetAddress.Release(clickVfx.Value, timer);
                 
             }).AddTo(this);
