@@ -521,3 +521,1764 @@ UniTaskLoopRunnerLastPostLateUpdate
 Cysharp.Threading.Tasks.PlayerLoopHelper:DumpCurrentPlayerLoop() (at Assets/Plugins/UniTask/Runtime/PlayerLoopHelper.cs:370)
 Tech.Core.UnitaskBootstrap:Initialize() (at Assets/Scripts/Core/BootStrap/UnitaskBootstrap.cs:39)
 
+[10/31/2020 01:59:30]
+[Warning][10/30/2020 19:00:00]
+Low on Memory
+[10/31/2020 01:59:30]
+[Warning][10/30/2020 19:00:00]
+[Warning] [Warning][10/31/2020 01:59:30]Low on Memory UnityEngine.Debug:LogWarning(Object)
+ZLogger.Providers.UnityDebugLogProcessor:Post(IZLoggerEntry) (at Assets/Scripts/ZLogger/Unity/ZLoggerUnityLoggerProvider.cs:60)
+ZLogger.AsyncProcessZLogger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3) (at Assets/Scripts/ZLogger/AsyncProcessZLogger.cs:28)
+Microsoft.Extensions.Logging.Logger:<Log>g__LoggerLog|12_0(LogLevel, EventId, ILogger, Exception, Func`3, List`1&, MessageLogState`1&)
+Microsoft.Extensions.Logging.Logger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3)
+ZLogger.ZLoggerExtensions:ZLogWarning(ILogger, EventId, Exception, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4803)
+ZLogger.ZLoggerExtensions:ZLogWarning(ILogger, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4788)
+Tech.Core.LogHelper:ApplicationOnlowMemory() (at Assets/Scripts/Core/Logger/LogHelper.cs:53)
+UnityEngine.ApplicationShimBase:OnLowMemory()
+Unity.DeviceSimulator.SimulatorApplicationSettingsUI:<.ctor>b__4_2() (at Library/PackageCache/com.unity.device-simulator@2.2.3-preview/Editor/SimulatorApplicationSettings.cs:33)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr, Boolean&)
+
+[10/31/2020 01:59:30]
+[Warning][10/30/2020 19:00:00]
+[Warning] [Warning][10/31/2020 01:59:30]Low on Memory UnityEngine.Debug:LogWarning(Object)
+ZLogger.Providers.UnityDebugLogProcessor:Post(IZLoggerEntry) (at Assets/Scripts/ZLogger/Unity/ZLoggerUnityLoggerProvider.cs:60)
+ZLogger.AsyncProcessZLogger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3) (at Assets/Scripts/ZLogger/AsyncProcessZLogger.cs:28)
+Microsoft.Extensions.Logging.Logger:<Log>g__LoggerLog|12_0(LogLevel, EventId, ILogger, Exception, Func`3, List`1&, MessageLogState`1&)
+Microsoft.Extensions.Logging.Logger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3)
+ZLogger.ZLoggerExtensions:ZLogWarning(ILogger, EventId, Exception, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4803)
+ZLogger.ZLoggerExtensions:ZLogWarning(ILogger, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4788)
+Tech.Core.LogHelper:ApplicationOnlowMemory() (at Assets/Scripts/Core/Logger/LogHelper.cs:53)
+UnityEngine.ApplicationShimBase:OnLowMemory()
+Unity.DeviceSimulator.SimulatorApplicationSettingsUI:<.ctor>b__4_2() (at Library/PackageCache/com.unity.device-simulator@2.2.3-preview/Editor/SimulatorApplicationSettings.cs:33)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr, Boolean&)
+
+[10/31/2020 01:59:31]
+[Warning][10/30/2020 19:00:00]
+Low on Memory
+[10/31/2020 01:59:31]
+[Warning][10/30/2020 19:00:00]
+[Warning] [Warning][10/31/2020 01:59:31]Low on Memory UnityEngine.Debug:LogWarning(Object)
+ZLogger.Providers.UnityDebugLogProcessor:Post(IZLoggerEntry) (at Assets/Scripts/ZLogger/Unity/ZLoggerUnityLoggerProvider.cs:60)
+ZLogger.AsyncProcessZLogger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3) (at Assets/Scripts/ZLogger/AsyncProcessZLogger.cs:28)
+Microsoft.Extensions.Logging.Logger:<Log>g__LoggerLog|12_0(LogLevel, EventId, ILogger, Exception, Func`3, List`1&, MessageLogState`1&)
+Microsoft.Extensions.Logging.Logger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3)
+ZLogger.ZLoggerExtensions:ZLogWarning(ILogger, EventId, Exception, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4803)
+ZLogger.ZLoggerExtensions:ZLogWarning(ILogger, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4788)
+Tech.Core.LogHelper:ApplicationOnlowMemory() (at Assets/Scripts/Core/Logger/LogHelper.cs:53)
+UnityEngine.ApplicationShimBase:OnLowMemory()
+Unity.DeviceSimulator.SimulatorApplicationSettingsUI:<.ctor>b__4_2() (at Library/PackageCache/com.unity.device-simulator@2.2.3-preview/Editor/SimulatorApplicationSettings.cs:33)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr, Boolean&)
+
+[10/31/2020 01:59:31]
+[Warning][10/30/2020 19:00:00]
+[Warning] [Warning][10/31/2020 01:59:31]Low on Memory UnityEngine.Debug:LogWarning(Object)
+ZLogger.Providers.UnityDebugLogProcessor:Post(IZLoggerEntry) (at Assets/Scripts/ZLogger/Unity/ZLoggerUnityLoggerProvider.cs:60)
+ZLogger.AsyncProcessZLogger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3) (at Assets/Scripts/ZLogger/AsyncProcessZLogger.cs:28)
+Microsoft.Extensions.Logging.Logger:<Log>g__LoggerLog|12_0(LogLevel, EventId, ILogger, Exception, Func`3, List`1&, MessageLogState`1&)
+Microsoft.Extensions.Logging.Logger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3)
+ZLogger.ZLoggerExtensions:ZLogWarning(ILogger, EventId, Exception, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4803)
+ZLogger.ZLoggerExtensions:ZLogWarning(ILogger, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4788)
+Tech.Core.LogHelper:ApplicationOnlowMemory() (at Assets/Scripts/Core/Logger/LogHelper.cs:53)
+UnityEngine.ApplicationShimBase:OnLowMemory()
+Unity.DeviceSimulator.SimulatorApplicationSettingsUI:<.ctor>b__4_2() (at Library/PackageCache/com.unity.device-simulator@2.2.3-preview/Editor/SimulatorApplicationSettings.cs:33)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr, Boolean&)
+
+[10/31/2020 02:00:50]
+[Information][10/30/2020 19:00:00]
+Closing Logger and Disposing
+[10/31/2020 02:00:50]
+[Information][10/30/2020 19:00:00]
+[Log] [Information][10/31/2020 02:00:50]Closing Logger and Disposing UnityEngine.Debug:Log(Object)
+ZLogger.Providers.UnityDebugLogProcessor:Post(IZLoggerEntry) (at Assets/Scripts/ZLogger/Unity/ZLoggerUnityLoggerProvider.cs:56)
+ZLogger.AsyncProcessZLogger:Log(LogLevel, EventId, FormatLogState`2, Exception, Func`3) (at Assets/Scripts/ZLogger/AsyncProcessZLogger.cs:28)
+Microsoft.Extensions.Logging.Logger:<Log>g__LoggerLog|12_0(LogLevel, EventId, ILogger, Exception, Func`3, List`1&, FormatLogState`2&)
+Microsoft.Extensions.Logging.Logger:Log(LogLevel, EventId, FormatLogState`2, Exception, Func`3)
+ZLogger.ZLoggerExtensions:ZLog(ILogger, LogLevel, EventId, Exception, String, Object) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:27)
+ZLogger.ZLoggerExtensions:ZLog(ILogger, LogLevel, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4604)
+Tech.Core.<>c:<.cctor>b__2_1() (at Assets/Scripts/Core/Logger/LogManager.cs:78)
+UnityEngine.Application:Internal_ApplicationQuit()
+
+[10/31/2020 02:00:50]
+[Information][10/30/2020 19:00:00]
+[Log] [Information][10/31/2020 02:00:50]Closing Logger and Disposing UnityEngine.Debug:Log(Object)
+ZLogger.Providers.UnityDebugLogProcessor:Post(IZLoggerEntry) (at Assets/Scripts/ZLogger/Unity/ZLoggerUnityLoggerProvider.cs:56)
+ZLogger.AsyncProcessZLogger:Log(LogLevel, EventId, FormatLogState`2, Exception, Func`3) (at Assets/Scripts/ZLogger/AsyncProcessZLogger.cs:28)
+Microsoft.Extensions.Logging.Logger:<Log>g__LoggerLog|12_0(LogLevel, EventId, ILogger, Exception, Func`3, List`1&, FormatLogState`2&)
+Microsoft.Extensions.Logging.Logger:Log(LogLevel, EventId, FormatLogState`2, Exception, Func`3)
+ZLogger.ZLoggerExtensions:ZLog(ILogger, LogLevel, EventId, Exception, String, Object) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:27)
+ZLogger.ZLoggerExtensions:ZLog(ILogger, LogLevel, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4604)
+Tech.Core.<>c:<.cctor>b__2_1() (at Assets/Scripts/Core/Logger/LogManager.cs:78)
+UnityEngine.Application:Internal_ApplicationQuit()
+
+[10/31/2020 02:02:52]
+[Information][10/30/2020 19:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[10/31/2020 02:02:52]
+[Information][10/30/2020 19:00:00]
+[Log] [Information][10/31/2020 02:02:52]ReInitialized Unitask after Initialization of ECS is complete UnityEngine.Debug:Log(Object)
+ZLogger.Providers.UnityDebugLogProcessor:Post(IZLoggerEntry) (at Assets/Scripts/ZLogger/Unity/ZLoggerUnityLoggerProvider.cs:56)
+ZLogger.AsyncProcessZLogger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3) (at Assets/Scripts/ZLogger/AsyncProcessZLogger.cs:28)
+Microsoft.Extensions.Logging.Logger:<Log>g__LoggerLog|12_0(LogLevel, EventId, ILogger, Exception, Func`3, List`1&, MessageLogState`1&)
+Microsoft.Extensions.Logging.Logger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3)
+ZLogger.ZLoggerExtensions:ZLogInformation(ILogger, EventId, Exception, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4757)
+ZLogger.ZLoggerExtensions:ZLogInformation(ILogger, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4742)
+Tech.Core.UnitaskBootstrap:Initialize() (at Assets/Scripts/Core/BootStrap/UnitaskBootstrap.cs:21)
+
+[10/31/2020 02:02:52]
+[Information][10/30/2020 19:00:00]
+[Log] [Information][10/31/2020 02:02:52]ReInitialized Unitask after Initialization of ECS is complete UnityEngine.Debug:Log(Object)
+ZLogger.Providers.UnityDebugLogProcessor:Post(IZLoggerEntry) (at Assets/Scripts/ZLogger/Unity/ZLoggerUnityLoggerProvider.cs:56)
+ZLogger.AsyncProcessZLogger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3) (at Assets/Scripts/ZLogger/AsyncProcessZLogger.cs:28)
+Microsoft.Extensions.Logging.Logger:<Log>g__LoggerLog|12_0(LogLevel, EventId, ILogger, Exception, Func`3, List`1&, MessageLogState`1&)
+Microsoft.Extensions.Logging.Logger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3)
+ZLogger.ZLoggerExtensions:ZLogInformation(ILogger, EventId, Exception, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4757)
+ZLogger.ZLoggerExtensions:ZLogInformation(ILogger, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4742)
+Tech.Core.UnitaskBootstrap:Initialize() (at Assets/Scripts/Core/BootStrap/UnitaskBootstrap.cs:21)
+
+[10/31/2020 02:02:52]
+[Information][10/30/2020 19:00:00]
+Unitask Player loop is ready? True
+[10/31/2020 02:02:52]
+[Information][10/30/2020 19:00:00]
+[Log] [Information][10/31/2020 02:02:52]Unitask Player loop is ready? True UnityEngine.Debug:Log(Object)
+ZLogger.Providers.UnityDebugLogProcessor:Post(IZLoggerEntry) (at Assets/Scripts/ZLogger/Unity/ZLoggerUnityLoggerProvider.cs:56)
+ZLogger.AsyncProcessZLogger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3) (at Assets/Scripts/ZLogger/AsyncProcessZLogger.cs:28)
+Microsoft.Extensions.Logging.Logger:<Log>g__LoggerLog|12_0(LogLevel, EventId, ILogger, Exception, Func`3, List`1&, MessageLogState`1&)
+Microsoft.Extensions.Logging.Logger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3)
+ZLogger.ZLoggerExtensions:ZLogInformation(ILogger, EventId, Exception, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4757)
+ZLogger.ZLoggerExtensions:ZLogInformation(ILogger, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4742)
+Tech.Core.UnitaskBootstrap:Initialize() (at Assets/Scripts/Core/BootStrap/UnitaskBootstrap.cs:28)
+
+[10/31/2020 02:02:52]
+[Information][10/30/2020 19:00:00]
+[Log] [Information][10/31/2020 02:02:52]Unitask Player loop is ready? True UnityEngine.Debug:Log(Object)
+ZLogger.Providers.UnityDebugLogProcessor:Post(IZLoggerEntry) (at Assets/Scripts/ZLogger/Unity/ZLoggerUnityLoggerProvider.cs:56)
+ZLogger.AsyncProcessZLogger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3) (at Assets/Scripts/ZLogger/AsyncProcessZLogger.cs:28)
+Microsoft.Extensions.Logging.Logger:<Log>g__LoggerLog|12_0(LogLevel, EventId, ILogger, Exception, Func`3, List`1&, MessageLogState`1&)
+Microsoft.Extensions.Logging.Logger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3)
+ZLogger.ZLoggerExtensions:ZLogInformation(ILogger, EventId, Exception, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4757)
+ZLogger.ZLoggerExtensions:ZLogInformation(ILogger, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4742)
+Tech.Core.UnitaskBootstrap:Initialize() (at Assets/Scripts/Core/BootStrap/UnitaskBootstrap.cs:28)
+
+[10/31/2020 02:02:52]
+[Information][10/30/2020 19:00:00]
+Initialized Unitask correctly for ECS
+[10/31/2020 02:02:52]
+[Information][10/30/2020 19:00:00]
+[Log] [Information][10/31/2020 02:02:52]Initialized Unitask correctly for ECS UnityEngine.Debug:Log(Object)
+ZLogger.Providers.UnityDebugLogProcessor:Post(IZLoggerEntry) (at Assets/Scripts/ZLogger/Unity/ZLoggerUnityLoggerProvider.cs:56)
+ZLogger.AsyncProcessZLogger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3) (at Assets/Scripts/ZLogger/AsyncProcessZLogger.cs:28)
+Microsoft.Extensions.Logging.Logger:<Log>g__LoggerLog|12_0(LogLevel, EventId, ILogger, Exception, Func`3, List`1&, MessageLogState`1&)
+Microsoft.Extensions.Logging.Logger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3)
+ZLogger.ZLoggerExtensions:ZLogInformation(ILogger, EventId, Exception, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4757)
+ZLogger.ZLoggerExtensions:ZLogInformation(ILogger, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4742)
+Tech.Core.UnitaskBootstrap:Initialize() (at Assets/Scripts/Core/BootStrap/UnitaskBootstrap.cs:32)
+
+[10/31/2020 02:02:52]
+[Information][10/30/2020 19:00:00]
+[Log] [Information][10/31/2020 02:02:52]Initialized Unitask correctly for ECS UnityEngine.Debug:Log(Object)
+ZLogger.Providers.UnityDebugLogProcessor:Post(IZLoggerEntry) (at Assets/Scripts/ZLogger/Unity/ZLoggerUnityLoggerProvider.cs:56)
+ZLogger.AsyncProcessZLogger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3) (at Assets/Scripts/ZLogger/AsyncProcessZLogger.cs:28)
+Microsoft.Extensions.Logging.Logger:<Log>g__LoggerLog|12_0(LogLevel, EventId, ILogger, Exception, Func`3, List`1&, MessageLogState`1&)
+Microsoft.Extensions.Logging.Logger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3)
+ZLogger.ZLoggerExtensions:ZLogInformation(ILogger, EventId, Exception, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4757)
+ZLogger.ZLoggerExtensions:ZLogInformation(ILogger, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4742)
+Tech.Core.UnitaskBootstrap:Initialize() (at Assets/Scripts/Core/BootStrap/UnitaskBootstrap.cs:32)
+
+[10/31/2020 02:02:52]
+[Information][10/30/2020 19:00:00]
+[Log] PlayerLoop List
+------Initialization------
+UniTaskLoopRunnerYieldInitialization
+UniTaskLoopRunnerInitialization
+PlayerUpdateTime
+DirectorSampleTime
+AsyncUploadTimeSlicedUpdate
+SynchronizeInputs
+SynchronizeState
+XREarlyUpdate
+InitializationSystemGroup
+UniTaskLoopRunnerLastYieldInitialization
+UniTaskLoopRunnerLastInitialization
+------EarlyUpdate------
+UniTaskLoopRunnerYieldEarlyUpdate
+UniTaskLoopRunnerEarlyUpdate
+PollPlayerConnection
+ProfilerStartFrame
+GpuTimestamp
+AnalyticsCoreStatsUpdate
+UnityWebRequestUpdate
+ExecuteMainThreadJobs
+ProcessMouseInWindow
+ClearIntermediateRenderers
+ClearLines
+PresentBeforeUpdate
+ResetFrameStatsAfterPresent
+UpdateAsyncReadbackManager
+UpdateStreamingManager
+UpdateTextureStreamingManager
+UpdatePreloading
+RendererNotifyInvisible
+PlayerCleanupCachedData
+UpdateMainGameViewRect
+UpdateCanvasRectTransform
+XRUpdate
+UpdateInputManager
+ProcessRemoteInput
+ScriptRunDelayedStartupFrame
+UpdateKinect
+DeliverIosPlatformEvents
+ARCoreUpdate
+DispatchEventQueueEvents
+PhysicsResetInterpolatedTransformPosition
+SpriteAtlasManagerUpdate
+PerformanceAnalyticsUpdate
+UniTaskLoopRunnerLastYieldEarlyUpdate
+UniTaskLoopRunnerLastEarlyUpdate
+------FixedUpdate------
+UniTaskLoopRunnerYieldFixedUpdate
+UniTaskLoopRunnerFixedUpdate
+ClearLines
+NewInputFixedUpdate
+DirectorFixedSampleTime
+AudioFixedUpdate
+ScriptRunBehaviourFixedUpdate
+DirectorFixedUpdate
+LegacyFixedAnimationUpdate
+XRFixedUpdate
+PhysicsFixedUpdate
+Physics2DFixedUpdate
+DirectorFixedUpdatePostPhysics
+ScriptRunDelayedFixedFrameRate
+UniTaskLoopRunnerLastYieldFixedUpdate
+UniTaskLoopRunnerLastFixedUpdate
+------PreUpdate------
+UniTaskLoopRunnerYieldPreUpdate
+UniTaskLoopRunnerPreUpdate
+PhysicsUpdate
+Physics2DUpdate
+CheckTexFieldInput
+IMGUISendQueuedEvents
+NewInputUpdate
+SendMouseEvents
+AIUpdate
+WindUpdate
+UpdateVideo
+UniTaskLoopRunnerLastYieldPreUpdate
+UniTaskLoopRunnerLastPreUpdate
+------Update------
+UniTaskLoopRunnerYieldUpdate
+UniTaskLoopRunnerUpdate
+ScriptRunBehaviourUpdate
+ScriptRunDelayedDynamicFrameRate
+ScriptRunDelayedTasks
+UniTaskSynchronizationContext
+DirectorUpdate
+SimulationSystemGroup
+UniTaskLoopRunnerLastYieldUpdate
+UniTaskLoopRunnerLastUpdate
+------PreLateUpdate------
+UniTaskLoopRunnerYieldPreLateUpdate
+UniTaskLoopRunnerPreLateUpdate
+AIUpdatePostScript
+DirectorUpdateAnimationBegin
+LegacyAnimationUpdate
+DirectorUpdateAnimationEnd
+DirectorDeferredEvaluate
+UIElementsUpdatePanels
+EndGraphicsJobsAfterScriptUpdate
+ParticleSystemBeginUpdateAll
+ConstraintManagerUpdate
+ScriptRunBehaviourLateUpdate
+PresentationSystemGroup
+UniTaskLoopRunnerLastYieldPreLateUpdate
+UniTaskLoopRunnerLastPreLateUpdate
+------PostLateUpdate------
+UniTaskLoopRunnerYieldPostLateUpdate
+UniTaskLoopRunnerPostLateUpdate
+PlayerSendFrameStarted
+DirectorLateUpdate
+ScriptRunDelayedDynamicFrameRate
+PhysicsSkinnedClothBeginUpdate
+UpdateRectTransform
+UpdateCanvasRectTransform
+PlayerUpdateCanvases
+UpdateAudio
+VFXUpdate
+ParticleSystemEndUpdateAll
+EndGraphicsJobsAfterScriptLateUpdate
+UpdateCustomRenderTextures
+UpdateAllRenderers
+UpdateLightProbeProxyVolumes
+EnlightenRuntimeUpdate
+UpdateAllSkinnedMeshes
+ProcessWebSendMessages
+SortingGroupsUpdate
+UpdateVideoTextures
+UpdateVideo
+DirectorRenderImage
+PlayerEmitCanvasGeometry
+PhysicsSkinnedClothFinishUpdate
+FinishFrameRendering
+BatchModeUpdate
+PlayerSendFrameComplete
+UpdateCaptureScreenshot
+PresentAfterDraw
+ClearImmediateRenderers
+PlayerSendFramePostPresent
+UpdateResolution
+InputEndFrame
+TriggerEndOfFrameCallbacks
+GUIClearEvents
+ShaderHandleErrors
+ResetInputAxis
+ThreadedLoadingDebug
+ProfilerSynchronizeStats
+MemoryFrameMaintenance
+ExecuteGameCenterCallbacks
+ProfilerEndFrame
+UniTaskLoopRunnerLastYieldPostLateUpdate
+UniTaskLoopRunnerLastPostLateUpdate
+ UnityEngine.Debug:Log(Object)
+Cysharp.Threading.Tasks.PlayerLoopHelper:DumpCurrentPlayerLoop() (at Assets/Plugins/UniTask/Runtime/PlayerLoopHelper.cs:370)
+Tech.Core.UnitaskBootstrap:Initialize() (at Assets/Scripts/Core/BootStrap/UnitaskBootstrap.cs:39)
+
+[10/31/2020 02:02:52]
+[Information][10/30/2020 19:00:00]
+[Log] PlayerLoop List
+------Initialization------
+UniTaskLoopRunnerYieldInitialization
+UniTaskLoopRunnerInitialization
+PlayerUpdateTime
+DirectorSampleTime
+AsyncUploadTimeSlicedUpdate
+SynchronizeInputs
+SynchronizeState
+XREarlyUpdate
+InitializationSystemGroup
+UniTaskLoopRunnerLastYieldInitialization
+UniTaskLoopRunnerLastInitialization
+------EarlyUpdate------
+UniTaskLoopRunnerYieldEarlyUpdate
+UniTaskLoopRunnerEarlyUpdate
+PollPlayerConnection
+ProfilerStartFrame
+GpuTimestamp
+AnalyticsCoreStatsUpdate
+UnityWebRequestUpdate
+ExecuteMainThreadJobs
+ProcessMouseInWindow
+ClearIntermediateRenderers
+ClearLines
+PresentBeforeUpdate
+ResetFrameStatsAfterPresent
+UpdateAsyncReadbackManager
+UpdateStreamingManager
+UpdateTextureStreamingManager
+UpdatePreloading
+RendererNotifyInvisible
+PlayerCleanupCachedData
+UpdateMainGameViewRect
+UpdateCanvasRectTransform
+XRUpdate
+UpdateInputManager
+ProcessRemoteInput
+ScriptRunDelayedStartupFrame
+UpdateKinect
+DeliverIosPlatformEvents
+ARCoreUpdate
+DispatchEventQueueEvents
+PhysicsResetInterpolatedTransformPosition
+SpriteAtlasManagerUpdate
+PerformanceAnalyticsUpdate
+UniTaskLoopRunnerLastYieldEarlyUpdate
+UniTaskLoopRunnerLastEarlyUpdate
+------FixedUpdate------
+UniTaskLoopRunnerYieldFixedUpdate
+UniTaskLoopRunnerFixedUpdate
+ClearLines
+NewInputFixedUpdate
+DirectorFixedSampleTime
+AudioFixedUpdate
+ScriptRunBehaviourFixedUpdate
+DirectorFixedUpdate
+LegacyFixedAnimationUpdate
+XRFixedUpdate
+PhysicsFixedUpdate
+Physics2DFixedUpdate
+DirectorFixedUpdatePostPhysics
+ScriptRunDelayedFixedFrameRate
+UniTaskLoopRunnerLastYieldFixedUpdate
+UniTaskLoopRunnerLastFixedUpdate
+------PreUpdate------
+UniTaskLoopRunnerYieldPreUpdate
+UniTaskLoopRunnerPreUpdate
+PhysicsUpdate
+Physics2DUpdate
+CheckTexFieldInput
+IMGUISendQueuedEvents
+NewInputUpdate
+SendMouseEvents
+AIUpdate
+WindUpdate
+UpdateVideo
+UniTaskLoopRunnerLastYieldPreUpdate
+UniTaskLoopRunnerLastPreUpdate
+------Update------
+UniTaskLoopRunnerYieldUpdate
+UniTaskLoopRunnerUpdate
+ScriptRunBehaviourUpdate
+ScriptRunDelayedDynamicFrameRate
+ScriptRunDelayedTasks
+UniTaskSynchronizationContext
+DirectorUpdate
+SimulationSystemGroup
+UniTaskLoopRunnerLastYieldUpdate
+UniTaskLoopRunnerLastUpdate
+------PreLateUpdate------
+UniTaskLoopRunnerYieldPreLateUpdate
+UniTaskLoopRunnerPreLateUpdate
+AIUpdatePostScript
+DirectorUpdateAnimationBegin
+LegacyAnimationUpdate
+DirectorUpdateAnimationEnd
+DirectorDeferredEvaluate
+UIElementsUpdatePanels
+EndGraphicsJobsAfterScriptUpdate
+ParticleSystemBeginUpdateAll
+ConstraintManagerUpdate
+ScriptRunBehaviourLateUpdate
+PresentationSystemGroup
+UniTaskLoopRunnerLastYieldPreLateUpdate
+UniTaskLoopRunnerLastPreLateUpdate
+------PostLateUpdate------
+UniTaskLoopRunnerYieldPostLateUpdate
+UniTaskLoopRunnerPostLateUpdate
+PlayerSendFrameStarted
+DirectorLateUpdate
+ScriptRunDelayedDynamicFrameRate
+PhysicsSkinnedClothBeginUpdate
+UpdateRectTransform
+UpdateCanvasRectTransform
+PlayerUpdateCanvases
+UpdateAudio
+VFXUpdate
+ParticleSystemEndUpdateAll
+EndGraphicsJobsAfterScriptLateUpdate
+UpdateCustomRenderTextures
+UpdateAllRenderers
+UpdateLightProbeProxyVolumes
+EnlightenRuntimeUpdate
+UpdateAllSkinnedMeshes
+ProcessWebSendMessages
+SortingGroupsUpdate
+UpdateVideoTextures
+UpdateVideo
+DirectorRenderImage
+PlayerEmitCanvasGeometry
+PhysicsSkinnedClothFinishUpdate
+FinishFrameRendering
+BatchModeUpdate
+PlayerSendFrameComplete
+UpdateCaptureScreenshot
+PresentAfterDraw
+ClearImmediateRenderers
+PlayerSendFramePostPresent
+UpdateResolution
+InputEndFrame
+TriggerEndOfFrameCallbacks
+GUIClearEvents
+ShaderHandleErrors
+ResetInputAxis
+ThreadedLoadingDebug
+ProfilerSynchronizeStats
+MemoryFrameMaintenance
+ExecuteGameCenterCallbacks
+ProfilerEndFrame
+UniTaskLoopRunnerLastYieldPostLateUpdate
+UniTaskLoopRunnerLastPostLateUpdate
+ UnityEngine.Debug:Log(Object)
+Cysharp.Threading.Tasks.PlayerLoopHelper:DumpCurrentPlayerLoop() (at Assets/Plugins/UniTask/Runtime/PlayerLoopHelper.cs:370)
+Tech.Core.UnitaskBootstrap:Initialize() (at Assets/Scripts/Core/BootStrap/UnitaskBootstrap.cs:39)
+
+[10/31/2020 02:03:04]
+[Information][10/30/2020 19:00:00]
+Closing Logger and Disposing
+[10/31/2020 02:03:04]
+[Information][10/30/2020 19:00:00]
+[Log] [Information][10/31/2020 02:03:04]Closing Logger and Disposing UnityEngine.Debug:Log(Object)
+ZLogger.Providers.UnityDebugLogProcessor:Post(IZLoggerEntry) (at Assets/Scripts/ZLogger/Unity/ZLoggerUnityLoggerProvider.cs:56)
+ZLogger.AsyncProcessZLogger:Log(LogLevel, EventId, FormatLogState`2, Exception, Func`3) (at Assets/Scripts/ZLogger/AsyncProcessZLogger.cs:28)
+Microsoft.Extensions.Logging.Logger:<Log>g__LoggerLog|12_0(LogLevel, EventId, ILogger, Exception, Func`3, List`1&, FormatLogState`2&)
+Microsoft.Extensions.Logging.Logger:Log(LogLevel, EventId, FormatLogState`2, Exception, Func`3)
+ZLogger.ZLoggerExtensions:ZLog(ILogger, LogLevel, EventId, Exception, String, Object) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:27)
+ZLogger.ZLoggerExtensions:ZLog(ILogger, LogLevel, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4604)
+Tech.Core.<>c:<.cctor>b__2_1() (at Assets/Scripts/Core/Logger/LogManager.cs:78)
+UnityEngine.Application:Internal_ApplicationQuit()
+
+[10/31/2020 02:03:04]
+[Information][10/30/2020 19:00:00]
+[Log] [Information][10/31/2020 02:03:04]Closing Logger and Disposing UnityEngine.Debug:Log(Object)
+ZLogger.Providers.UnityDebugLogProcessor:Post(IZLoggerEntry) (at Assets/Scripts/ZLogger/Unity/ZLoggerUnityLoggerProvider.cs:56)
+ZLogger.AsyncProcessZLogger:Log(LogLevel, EventId, FormatLogState`2, Exception, Func`3) (at Assets/Scripts/ZLogger/AsyncProcessZLogger.cs:28)
+Microsoft.Extensions.Logging.Logger:<Log>g__LoggerLog|12_0(LogLevel, EventId, ILogger, Exception, Func`3, List`1&, FormatLogState`2&)
+Microsoft.Extensions.Logging.Logger:Log(LogLevel, EventId, FormatLogState`2, Exception, Func`3)
+ZLogger.ZLoggerExtensions:ZLog(ILogger, LogLevel, EventId, Exception, String, Object) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:27)
+ZLogger.ZLoggerExtensions:ZLog(ILogger, LogLevel, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4604)
+Tech.Core.<>c:<.cctor>b__2_1() (at Assets/Scripts/Core/Logger/LogManager.cs:78)
+UnityEngine.Application:Internal_ApplicationQuit()
+
+[10/31/2020 11:05:22]
+[Information][10/30/2020 19:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[10/31/2020 11:05:22]
+[Information][10/30/2020 19:00:00]
+[Log] [Information][10/31/2020 11:05:22]ReInitialized Unitask after Initialization of ECS is complete UnityEngine.Debug:Log(Object)
+ZLogger.Providers.UnityDebugLogProcessor:Post(IZLoggerEntry) (at Assets/Scripts/ZLogger/Unity/ZLoggerUnityLoggerProvider.cs:56)
+ZLogger.AsyncProcessZLogger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3) (at Assets/Scripts/ZLogger/AsyncProcessZLogger.cs:28)
+Microsoft.Extensions.Logging.Logger:<Log>g__LoggerLog|12_0(LogLevel, EventId, ILogger, Exception, Func`3, List`1&, MessageLogState`1&)
+Microsoft.Extensions.Logging.Logger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3)
+ZLogger.ZLoggerExtensions:ZLogInformation(ILogger, EventId, Exception, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4757)
+ZLogger.ZLoggerExtensions:ZLogInformation(ILogger, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4742)
+Tech.Core.UnitaskBootstrap:Initialize() (at Assets/Scripts/Core/BootStrap/UnitaskBootstrap.cs:21)
+
+[10/31/2020 11:05:22]
+[Information][10/30/2020 19:00:00]
+[Log] [Information][10/31/2020 11:05:22]ReInitialized Unitask after Initialization of ECS is complete UnityEngine.Debug:Log(Object)
+ZLogger.Providers.UnityDebugLogProcessor:Post(IZLoggerEntry) (at Assets/Scripts/ZLogger/Unity/ZLoggerUnityLoggerProvider.cs:56)
+ZLogger.AsyncProcessZLogger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3) (at Assets/Scripts/ZLogger/AsyncProcessZLogger.cs:28)
+Microsoft.Extensions.Logging.Logger:<Log>g__LoggerLog|12_0(LogLevel, EventId, ILogger, Exception, Func`3, List`1&, MessageLogState`1&)
+Microsoft.Extensions.Logging.Logger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3)
+ZLogger.ZLoggerExtensions:ZLogInformation(ILogger, EventId, Exception, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4757)
+ZLogger.ZLoggerExtensions:ZLogInformation(ILogger, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4742)
+Tech.Core.UnitaskBootstrap:Initialize() (at Assets/Scripts/Core/BootStrap/UnitaskBootstrap.cs:21)
+
+[10/31/2020 11:05:22]
+[Information][10/30/2020 19:00:00]
+Unitask Player loop is ready? True
+[10/31/2020 11:05:22]
+[Information][10/30/2020 19:00:00]
+[Log] [Information][10/31/2020 11:05:22]Unitask Player loop is ready? True UnityEngine.Debug:Log(Object)
+ZLogger.Providers.UnityDebugLogProcessor:Post(IZLoggerEntry) (at Assets/Scripts/ZLogger/Unity/ZLoggerUnityLoggerProvider.cs:56)
+ZLogger.AsyncProcessZLogger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3) (at Assets/Scripts/ZLogger/AsyncProcessZLogger.cs:28)
+Microsoft.Extensions.Logging.Logger:<Log>g__LoggerLog|12_0(LogLevel, EventId, ILogger, Exception, Func`3, List`1&, MessageLogState`1&)
+Microsoft.Extensions.Logging.Logger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3)
+ZLogger.ZLoggerExtensions:ZLogInformation(ILogger, EventId, Exception, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4757)
+ZLogger.ZLoggerExtensions:ZLogInformation(ILogger, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4742)
+Tech.Core.UnitaskBootstrap:Initialize() (at Assets/Scripts/Core/BootStrap/UnitaskBootstrap.cs:28)
+
+[10/31/2020 11:05:22]
+[Information][10/30/2020 19:00:00]
+[Log] [Information][10/31/2020 11:05:22]Unitask Player loop is ready? True UnityEngine.Debug:Log(Object)
+ZLogger.Providers.UnityDebugLogProcessor:Post(IZLoggerEntry) (at Assets/Scripts/ZLogger/Unity/ZLoggerUnityLoggerProvider.cs:56)
+ZLogger.AsyncProcessZLogger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3) (at Assets/Scripts/ZLogger/AsyncProcessZLogger.cs:28)
+Microsoft.Extensions.Logging.Logger:<Log>g__LoggerLog|12_0(LogLevel, EventId, ILogger, Exception, Func`3, List`1&, MessageLogState`1&)
+Microsoft.Extensions.Logging.Logger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3)
+ZLogger.ZLoggerExtensions:ZLogInformation(ILogger, EventId, Exception, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4757)
+ZLogger.ZLoggerExtensions:ZLogInformation(ILogger, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4742)
+Tech.Core.UnitaskBootstrap:Initialize() (at Assets/Scripts/Core/BootStrap/UnitaskBootstrap.cs:28)
+
+[10/31/2020 11:05:22]
+[Information][10/30/2020 19:00:00]
+Initialized Unitask correctly for ECS
+[10/31/2020 11:05:22]
+[Information][10/30/2020 19:00:00]
+[Log] [Information][10/31/2020 11:05:22]Initialized Unitask correctly for ECS UnityEngine.Debug:Log(Object)
+ZLogger.Providers.UnityDebugLogProcessor:Post(IZLoggerEntry) (at Assets/Scripts/ZLogger/Unity/ZLoggerUnityLoggerProvider.cs:56)
+ZLogger.AsyncProcessZLogger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3) (at Assets/Scripts/ZLogger/AsyncProcessZLogger.cs:28)
+Microsoft.Extensions.Logging.Logger:<Log>g__LoggerLog|12_0(LogLevel, EventId, ILogger, Exception, Func`3, List`1&, MessageLogState`1&)
+Microsoft.Extensions.Logging.Logger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3)
+ZLogger.ZLoggerExtensions:ZLogInformation(ILogger, EventId, Exception, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4757)
+ZLogger.ZLoggerExtensions:ZLogInformation(ILogger, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4742)
+Tech.Core.UnitaskBootstrap:Initialize() (at Assets/Scripts/Core/BootStrap/UnitaskBootstrap.cs:32)
+
+[10/31/2020 11:05:22]
+[Information][10/30/2020 19:00:00]
+[Log] [Information][10/31/2020 11:05:22]Initialized Unitask correctly for ECS UnityEngine.Debug:Log(Object)
+ZLogger.Providers.UnityDebugLogProcessor:Post(IZLoggerEntry) (at Assets/Scripts/ZLogger/Unity/ZLoggerUnityLoggerProvider.cs:56)
+ZLogger.AsyncProcessZLogger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3) (at Assets/Scripts/ZLogger/AsyncProcessZLogger.cs:28)
+Microsoft.Extensions.Logging.Logger:<Log>g__LoggerLog|12_0(LogLevel, EventId, ILogger, Exception, Func`3, List`1&, MessageLogState`1&)
+Microsoft.Extensions.Logging.Logger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3)
+ZLogger.ZLoggerExtensions:ZLogInformation(ILogger, EventId, Exception, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4757)
+ZLogger.ZLoggerExtensions:ZLogInformation(ILogger, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4742)
+Tech.Core.UnitaskBootstrap:Initialize() (at Assets/Scripts/Core/BootStrap/UnitaskBootstrap.cs:32)
+
+[10/31/2020 11:05:22]
+[Information][10/30/2020 19:00:00]
+[Log] PlayerLoop List
+------Initialization------
+UniTaskLoopRunnerYieldInitialization
+UniTaskLoopRunnerInitialization
+PlayerUpdateTime
+DirectorSampleTime
+AsyncUploadTimeSlicedUpdate
+SynchronizeInputs
+SynchronizeState
+XREarlyUpdate
+InitializationSystemGroup
+UniTaskLoopRunnerLastYieldInitialization
+UniTaskLoopRunnerLastInitialization
+------EarlyUpdate------
+UniTaskLoopRunnerYieldEarlyUpdate
+UniTaskLoopRunnerEarlyUpdate
+PollPlayerConnection
+ProfilerStartFrame
+GpuTimestamp
+AnalyticsCoreStatsUpdate
+UnityWebRequestUpdate
+ExecuteMainThreadJobs
+ProcessMouseInWindow
+ClearIntermediateRenderers
+ClearLines
+PresentBeforeUpdate
+ResetFrameStatsAfterPresent
+UpdateAsyncReadbackManager
+UpdateStreamingManager
+UpdateTextureStreamingManager
+UpdatePreloading
+RendererNotifyInvisible
+PlayerCleanupCachedData
+UpdateMainGameViewRect
+UpdateCanvasRectTransform
+XRUpdate
+UpdateInputManager
+ProcessRemoteInput
+ScriptRunDelayedStartupFrame
+UpdateKinect
+DeliverIosPlatformEvents
+ARCoreUpdate
+DispatchEventQueueEvents
+PhysicsResetInterpolatedTransformPosition
+SpriteAtlasManagerUpdate
+PerformanceAnalyticsUpdate
+UniTaskLoopRunnerLastYieldEarlyUpdate
+UniTaskLoopRunnerLastEarlyUpdate
+------FixedUpdate------
+UniTaskLoopRunnerYieldFixedUpdate
+UniTaskLoopRunnerFixedUpdate
+ClearLines
+NewInputFixedUpdate
+DirectorFixedSampleTime
+AudioFixedUpdate
+ScriptRunBehaviourFixedUpdate
+DirectorFixedUpdate
+LegacyFixedAnimationUpdate
+XRFixedUpdate
+PhysicsFixedUpdate
+Physics2DFixedUpdate
+DirectorFixedUpdatePostPhysics
+ScriptRunDelayedFixedFrameRate
+UniTaskLoopRunnerLastYieldFixedUpdate
+UniTaskLoopRunnerLastFixedUpdate
+------PreUpdate------
+UniTaskLoopRunnerYieldPreUpdate
+UniTaskLoopRunnerPreUpdate
+PhysicsUpdate
+Physics2DUpdate
+CheckTexFieldInput
+IMGUISendQueuedEvents
+NewInputUpdate
+SendMouseEvents
+AIUpdate
+WindUpdate
+UpdateVideo
+UniTaskLoopRunnerLastYieldPreUpdate
+UniTaskLoopRunnerLastPreUpdate
+------Update------
+UniTaskLoopRunnerYieldUpdate
+UniTaskLoopRunnerUpdate
+ScriptRunBehaviourUpdate
+ScriptRunDelayedDynamicFrameRate
+ScriptRunDelayedTasks
+UniTaskSynchronizationContext
+DirectorUpdate
+SimulationSystemGroup
+UniTaskLoopRunnerLastYieldUpdate
+UniTaskLoopRunnerLastUpdate
+------PreLateUpdate------
+UniTaskLoopRunnerYieldPreLateUpdate
+UniTaskLoopRunnerPreLateUpdate
+AIUpdatePostScript
+DirectorUpdateAnimationBegin
+LegacyAnimationUpdate
+DirectorUpdateAnimationEnd
+DirectorDeferredEvaluate
+UIElementsUpdatePanels
+EndGraphicsJobsAfterScriptUpdate
+ParticleSystemBeginUpdateAll
+ConstraintManagerUpdate
+ScriptRunBehaviourLateUpdate
+PresentationSystemGroup
+UniTaskLoopRunnerLastYieldPreLateUpdate
+UniTaskLoopRunnerLastPreLateUpdate
+------PostLateUpdate------
+UniTaskLoopRunnerYieldPostLateUpdate
+UniTaskLoopRunnerPostLateUpdate
+PlayerSendFrameStarted
+DirectorLateUpdate
+ScriptRunDelayedDynamicFrameRate
+PhysicsSkinnedClothBeginUpdate
+UpdateRectTransform
+UpdateCanvasRectTransform
+PlayerUpdateCanvases
+UpdateAudio
+VFXUpdate
+ParticleSystemEndUpdateAll
+EndGraphicsJobsAfterScriptLateUpdate
+UpdateCustomRenderTextures
+UpdateAllRenderers
+UpdateLightProbeProxyVolumes
+EnlightenRuntimeUpdate
+UpdateAllSkinnedMeshes
+ProcessWebSendMessages
+SortingGroupsUpdate
+UpdateVideoTextures
+UpdateVideo
+DirectorRenderImage
+PlayerEmitCanvasGeometry
+PhysicsSkinnedClothFinishUpdate
+FinishFrameRendering
+BatchModeUpdate
+PlayerSendFrameComplete
+UpdateCaptureScreenshot
+PresentAfterDraw
+ClearImmediateRenderers
+PlayerSendFramePostPresent
+UpdateResolution
+InputEndFrame
+TriggerEndOfFrameCallbacks
+GUIClearEvents
+ShaderHandleErrors
+ResetInputAxis
+ThreadedLoadingDebug
+ProfilerSynchronizeStats
+MemoryFrameMaintenance
+ExecuteGameCenterCallbacks
+ProfilerEndFrame
+UniTaskLoopRunnerLastYieldPostLateUpdate
+UniTaskLoopRunnerLastPostLateUpdate
+ UnityEngine.Debug:Log(Object)
+Cysharp.Threading.Tasks.PlayerLoopHelper:DumpCurrentPlayerLoop() (at Assets/Plugins/UniTask/Runtime/PlayerLoopHelper.cs:370)
+Tech.Core.UnitaskBootstrap:Initialize() (at Assets/Scripts/Core/BootStrap/UnitaskBootstrap.cs:39)
+
+[10/31/2020 11:05:22]
+[Information][10/30/2020 19:00:00]
+[Log] PlayerLoop List
+------Initialization------
+UniTaskLoopRunnerYieldInitialization
+UniTaskLoopRunnerInitialization
+PlayerUpdateTime
+DirectorSampleTime
+AsyncUploadTimeSlicedUpdate
+SynchronizeInputs
+SynchronizeState
+XREarlyUpdate
+InitializationSystemGroup
+UniTaskLoopRunnerLastYieldInitialization
+UniTaskLoopRunnerLastInitialization
+------EarlyUpdate------
+UniTaskLoopRunnerYieldEarlyUpdate
+UniTaskLoopRunnerEarlyUpdate
+PollPlayerConnection
+ProfilerStartFrame
+GpuTimestamp
+AnalyticsCoreStatsUpdate
+UnityWebRequestUpdate
+ExecuteMainThreadJobs
+ProcessMouseInWindow
+ClearIntermediateRenderers
+ClearLines
+PresentBeforeUpdate
+ResetFrameStatsAfterPresent
+UpdateAsyncReadbackManager
+UpdateStreamingManager
+UpdateTextureStreamingManager
+UpdatePreloading
+RendererNotifyInvisible
+PlayerCleanupCachedData
+UpdateMainGameViewRect
+UpdateCanvasRectTransform
+XRUpdate
+UpdateInputManager
+ProcessRemoteInput
+ScriptRunDelayedStartupFrame
+UpdateKinect
+DeliverIosPlatformEvents
+ARCoreUpdate
+DispatchEventQueueEvents
+PhysicsResetInterpolatedTransformPosition
+SpriteAtlasManagerUpdate
+PerformanceAnalyticsUpdate
+UniTaskLoopRunnerLastYieldEarlyUpdate
+UniTaskLoopRunnerLastEarlyUpdate
+------FixedUpdate------
+UniTaskLoopRunnerYieldFixedUpdate
+UniTaskLoopRunnerFixedUpdate
+ClearLines
+NewInputFixedUpdate
+DirectorFixedSampleTime
+AudioFixedUpdate
+ScriptRunBehaviourFixedUpdate
+DirectorFixedUpdate
+LegacyFixedAnimationUpdate
+XRFixedUpdate
+PhysicsFixedUpdate
+Physics2DFixedUpdate
+DirectorFixedUpdatePostPhysics
+ScriptRunDelayedFixedFrameRate
+UniTaskLoopRunnerLastYieldFixedUpdate
+UniTaskLoopRunnerLastFixedUpdate
+------PreUpdate------
+UniTaskLoopRunnerYieldPreUpdate
+UniTaskLoopRunnerPreUpdate
+PhysicsUpdate
+Physics2DUpdate
+CheckTexFieldInput
+IMGUISendQueuedEvents
+NewInputUpdate
+SendMouseEvents
+AIUpdate
+WindUpdate
+UpdateVideo
+UniTaskLoopRunnerLastYieldPreUpdate
+UniTaskLoopRunnerLastPreUpdate
+------Update------
+UniTaskLoopRunnerYieldUpdate
+UniTaskLoopRunnerUpdate
+ScriptRunBehaviourUpdate
+ScriptRunDelayedDynamicFrameRate
+ScriptRunDelayedTasks
+UniTaskSynchronizationContext
+DirectorUpdate
+SimulationSystemGroup
+UniTaskLoopRunnerLastYieldUpdate
+UniTaskLoopRunnerLastUpdate
+------PreLateUpdate------
+UniTaskLoopRunnerYieldPreLateUpdate
+UniTaskLoopRunnerPreLateUpdate
+AIUpdatePostScript
+DirectorUpdateAnimationBegin
+LegacyAnimationUpdate
+DirectorUpdateAnimationEnd
+DirectorDeferredEvaluate
+UIElementsUpdatePanels
+EndGraphicsJobsAfterScriptUpdate
+ParticleSystemBeginUpdateAll
+ConstraintManagerUpdate
+ScriptRunBehaviourLateUpdate
+PresentationSystemGroup
+UniTaskLoopRunnerLastYieldPreLateUpdate
+UniTaskLoopRunnerLastPreLateUpdate
+------PostLateUpdate------
+UniTaskLoopRunnerYieldPostLateUpdate
+UniTaskLoopRunnerPostLateUpdate
+PlayerSendFrameStarted
+DirectorLateUpdate
+ScriptRunDelayedDynamicFrameRate
+PhysicsSkinnedClothBeginUpdate
+UpdateRectTransform
+UpdateCanvasRectTransform
+PlayerUpdateCanvases
+UpdateAudio
+VFXUpdate
+ParticleSystemEndUpdateAll
+EndGraphicsJobsAfterScriptLateUpdate
+UpdateCustomRenderTextures
+UpdateAllRenderers
+UpdateLightProbeProxyVolumes
+EnlightenRuntimeUpdate
+UpdateAllSkinnedMeshes
+ProcessWebSendMessages
+SortingGroupsUpdate
+UpdateVideoTextures
+UpdateVideo
+DirectorRenderImage
+PlayerEmitCanvasGeometry
+PhysicsSkinnedClothFinishUpdate
+FinishFrameRendering
+BatchModeUpdate
+PlayerSendFrameComplete
+UpdateCaptureScreenshot
+PresentAfterDraw
+ClearImmediateRenderers
+PlayerSendFramePostPresent
+UpdateResolution
+InputEndFrame
+TriggerEndOfFrameCallbacks
+GUIClearEvents
+ShaderHandleErrors
+ResetInputAxis
+ThreadedLoadingDebug
+ProfilerSynchronizeStats
+MemoryFrameMaintenance
+ExecuteGameCenterCallbacks
+ProfilerEndFrame
+UniTaskLoopRunnerLastYieldPostLateUpdate
+UniTaskLoopRunnerLastPostLateUpdate
+ UnityEngine.Debug:Log(Object)
+Cysharp.Threading.Tasks.PlayerLoopHelper:DumpCurrentPlayerLoop() (at Assets/Plugins/UniTask/Runtime/PlayerLoopHelper.cs:370)
+Tech.Core.UnitaskBootstrap:Initialize() (at Assets/Scripts/Core/BootStrap/UnitaskBootstrap.cs:39)
+
+[10/31/2020 11:05:34]
+[Information][10/30/2020 19:00:00]
+Closing Logger and Disposing
+[10/31/2020 11:05:34]
+[Information][10/30/2020 19:00:00]
+[Log] [Information][10/31/2020 11:05:34]Closing Logger and Disposing UnityEngine.Debug:Log(Object)
+ZLogger.Providers.UnityDebugLogProcessor:Post(IZLoggerEntry) (at Assets/Scripts/ZLogger/Unity/ZLoggerUnityLoggerProvider.cs:56)
+ZLogger.AsyncProcessZLogger:Log(LogLevel, EventId, FormatLogState`2, Exception, Func`3) (at Assets/Scripts/ZLogger/AsyncProcessZLogger.cs:28)
+Microsoft.Extensions.Logging.Logger:<Log>g__LoggerLog|12_0(LogLevel, EventId, ILogger, Exception, Func`3, List`1&, FormatLogState`2&)
+Microsoft.Extensions.Logging.Logger:Log(LogLevel, EventId, FormatLogState`2, Exception, Func`3)
+ZLogger.ZLoggerExtensions:ZLog(ILogger, LogLevel, EventId, Exception, String, Object) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:27)
+ZLogger.ZLoggerExtensions:ZLog(ILogger, LogLevel, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4604)
+Tech.Core.<>c:<.cctor>b__2_1() (at Assets/Scripts/Core/Logger/LogManager.cs:78)
+UnityEngine.Application:Internal_ApplicationQuit()
+
+[10/31/2020 11:05:34]
+[Information][10/30/2020 19:00:00]
+[Log] [Information][10/31/2020 11:05:34]Closing Logger and Disposing UnityEngine.Debug:Log(Object)
+ZLogger.Providers.UnityDebugLogProcessor:Post(IZLoggerEntry) (at Assets/Scripts/ZLogger/Unity/ZLoggerUnityLoggerProvider.cs:56)
+ZLogger.AsyncProcessZLogger:Log(LogLevel, EventId, FormatLogState`2, Exception, Func`3) (at Assets/Scripts/ZLogger/AsyncProcessZLogger.cs:28)
+Microsoft.Extensions.Logging.Logger:<Log>g__LoggerLog|12_0(LogLevel, EventId, ILogger, Exception, Func`3, List`1&, FormatLogState`2&)
+Microsoft.Extensions.Logging.Logger:Log(LogLevel, EventId, FormatLogState`2, Exception, Func`3)
+ZLogger.ZLoggerExtensions:ZLog(ILogger, LogLevel, EventId, Exception, String, Object) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:27)
+ZLogger.ZLoggerExtensions:ZLog(ILogger, LogLevel, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4604)
+Tech.Core.<>c:<.cctor>b__2_1() (at Assets/Scripts/Core/Logger/LogManager.cs:78)
+UnityEngine.Application:Internal_ApplicationQuit()
+
+[10/31/2020 12:10:43]
+[Information][10/30/2020 19:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[10/31/2020 12:10:43]
+[Information][10/30/2020 19:00:00]
+[Log] [Information][10/31/2020 12:10:43]ReInitialized Unitask after Initialization of ECS is complete UnityEngine.Debug:Log(Object)
+ZLogger.Providers.UnityDebugLogProcessor:Post(IZLoggerEntry) (at Assets/Scripts/ZLogger/Unity/ZLoggerUnityLoggerProvider.cs:56)
+ZLogger.AsyncProcessZLogger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3) (at Assets/Scripts/ZLogger/AsyncProcessZLogger.cs:28)
+Microsoft.Extensions.Logging.Logger:<Log>g__LoggerLog|12_0(LogLevel, EventId, ILogger, Exception, Func`3, List`1&, MessageLogState`1&)
+Microsoft.Extensions.Logging.Logger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3)
+ZLogger.ZLoggerExtensions:ZLogInformation(ILogger, EventId, Exception, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4757)
+ZLogger.ZLoggerExtensions:ZLogInformation(ILogger, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4742)
+Tech.Core.UnitaskBootstrap:Initialize() (at Assets/Scripts/Core/BootStrap/UnitaskBootstrap.cs:21)
+
+[10/31/2020 12:10:43]
+[Information][10/30/2020 19:00:00]
+[Log] [Information][10/31/2020 12:10:43]ReInitialized Unitask after Initialization of ECS is complete UnityEngine.Debug:Log(Object)
+ZLogger.Providers.UnityDebugLogProcessor:Post(IZLoggerEntry) (at Assets/Scripts/ZLogger/Unity/ZLoggerUnityLoggerProvider.cs:56)
+ZLogger.AsyncProcessZLogger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3) (at Assets/Scripts/ZLogger/AsyncProcessZLogger.cs:28)
+Microsoft.Extensions.Logging.Logger:<Log>g__LoggerLog|12_0(LogLevel, EventId, ILogger, Exception, Func`3, List`1&, MessageLogState`1&)
+Microsoft.Extensions.Logging.Logger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3)
+ZLogger.ZLoggerExtensions:ZLogInformation(ILogger, EventId, Exception, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4757)
+ZLogger.ZLoggerExtensions:ZLogInformation(ILogger, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4742)
+Tech.Core.UnitaskBootstrap:Initialize() (at Assets/Scripts/Core/BootStrap/UnitaskBootstrap.cs:21)
+
+[10/31/2020 12:10:43]
+[Information][10/30/2020 19:00:00]
+Unitask Player loop is ready? True
+[10/31/2020 12:10:43]
+[Information][10/30/2020 19:00:00]
+[Log] [Information][10/31/2020 12:10:43]Unitask Player loop is ready? True UnityEngine.Debug:Log(Object)
+ZLogger.Providers.UnityDebugLogProcessor:Post(IZLoggerEntry) (at Assets/Scripts/ZLogger/Unity/ZLoggerUnityLoggerProvider.cs:56)
+ZLogger.AsyncProcessZLogger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3) (at Assets/Scripts/ZLogger/AsyncProcessZLogger.cs:28)
+Microsoft.Extensions.Logging.Logger:<Log>g__LoggerLog|12_0(LogLevel, EventId, ILogger, Exception, Func`3, List`1&, MessageLogState`1&)
+Microsoft.Extensions.Logging.Logger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3)
+ZLogger.ZLoggerExtensions:ZLogInformation(ILogger, EventId, Exception, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4757)
+ZLogger.ZLoggerExtensions:ZLogInformation(ILogger, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4742)
+Tech.Core.UnitaskBootstrap:Initialize() (at Assets/Scripts/Core/BootStrap/UnitaskBootstrap.cs:28)
+
+[10/31/2020 12:10:43]
+[Information][10/30/2020 19:00:00]
+[Log] [Information][10/31/2020 12:10:43]Unitask Player loop is ready? True UnityEngine.Debug:Log(Object)
+ZLogger.Providers.UnityDebugLogProcessor:Post(IZLoggerEntry) (at Assets/Scripts/ZLogger/Unity/ZLoggerUnityLoggerProvider.cs:56)
+ZLogger.AsyncProcessZLogger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3) (at Assets/Scripts/ZLogger/AsyncProcessZLogger.cs:28)
+Microsoft.Extensions.Logging.Logger:<Log>g__LoggerLog|12_0(LogLevel, EventId, ILogger, Exception, Func`3, List`1&, MessageLogState`1&)
+Microsoft.Extensions.Logging.Logger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3)
+ZLogger.ZLoggerExtensions:ZLogInformation(ILogger, EventId, Exception, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4757)
+ZLogger.ZLoggerExtensions:ZLogInformation(ILogger, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4742)
+Tech.Core.UnitaskBootstrap:Initialize() (at Assets/Scripts/Core/BootStrap/UnitaskBootstrap.cs:28)
+
+[10/31/2020 12:10:43]
+[Information][10/30/2020 19:00:00]
+Initialized Unitask correctly for ECS
+[10/31/2020 12:10:43]
+[Information][10/30/2020 19:00:00]
+[Log] [Information][10/31/2020 12:10:43]Initialized Unitask correctly for ECS UnityEngine.Debug:Log(Object)
+ZLogger.Providers.UnityDebugLogProcessor:Post(IZLoggerEntry) (at Assets/Scripts/ZLogger/Unity/ZLoggerUnityLoggerProvider.cs:56)
+ZLogger.AsyncProcessZLogger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3) (at Assets/Scripts/ZLogger/AsyncProcessZLogger.cs:28)
+Microsoft.Extensions.Logging.Logger:<Log>g__LoggerLog|12_0(LogLevel, EventId, ILogger, Exception, Func`3, List`1&, MessageLogState`1&)
+Microsoft.Extensions.Logging.Logger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3)
+ZLogger.ZLoggerExtensions:ZLogInformation(ILogger, EventId, Exception, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4757)
+ZLogger.ZLoggerExtensions:ZLogInformation(ILogger, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4742)
+Tech.Core.UnitaskBootstrap:Initialize() (at Assets/Scripts/Core/BootStrap/UnitaskBootstrap.cs:32)
+
+[10/31/2020 12:10:44]
+[Information][10/30/2020 19:00:00]
+[Log] [Information][10/31/2020 12:10:43]Initialized Unitask correctly for ECS UnityEngine.Debug:Log(Object)
+ZLogger.Providers.UnityDebugLogProcessor:Post(IZLoggerEntry) (at Assets/Scripts/ZLogger/Unity/ZLoggerUnityLoggerProvider.cs:56)
+ZLogger.AsyncProcessZLogger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3) (at Assets/Scripts/ZLogger/AsyncProcessZLogger.cs:28)
+Microsoft.Extensions.Logging.Logger:<Log>g__LoggerLog|12_0(LogLevel, EventId, ILogger, Exception, Func`3, List`1&, MessageLogState`1&)
+Microsoft.Extensions.Logging.Logger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3)
+ZLogger.ZLoggerExtensions:ZLogInformation(ILogger, EventId, Exception, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4757)
+ZLogger.ZLoggerExtensions:ZLogInformation(ILogger, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4742)
+Tech.Core.UnitaskBootstrap:Initialize() (at Assets/Scripts/Core/BootStrap/UnitaskBootstrap.cs:32)
+
+[10/31/2020 12:10:44]
+[Information][10/30/2020 19:00:00]
+[Log] PlayerLoop List
+------Initialization------
+UniTaskLoopRunnerYieldInitialization
+UniTaskLoopRunnerInitialization
+PlayerUpdateTime
+DirectorSampleTime
+AsyncUploadTimeSlicedUpdate
+SynchronizeInputs
+SynchronizeState
+XREarlyUpdate
+InitializationSystemGroup
+UniTaskLoopRunnerLastYieldInitialization
+UniTaskLoopRunnerLastInitialization
+------EarlyUpdate------
+UniTaskLoopRunnerYieldEarlyUpdate
+UniTaskLoopRunnerEarlyUpdate
+PollPlayerConnection
+ProfilerStartFrame
+GpuTimestamp
+AnalyticsCoreStatsUpdate
+UnityWebRequestUpdate
+ExecuteMainThreadJobs
+ProcessMouseInWindow
+ClearIntermediateRenderers
+ClearLines
+PresentBeforeUpdate
+ResetFrameStatsAfterPresent
+UpdateAsyncReadbackManager
+UpdateStreamingManager
+UpdateTextureStreamingManager
+UpdatePreloading
+RendererNotifyInvisible
+PlayerCleanupCachedData
+UpdateMainGameViewRect
+UpdateCanvasRectTransform
+XRUpdate
+UpdateInputManager
+ProcessRemoteInput
+ScriptRunDelayedStartupFrame
+UpdateKinect
+DeliverIosPlatformEvents
+ARCoreUpdate
+DispatchEventQueueEvents
+PhysicsResetInterpolatedTransformPosition
+SpriteAtlasManagerUpdate
+PerformanceAnalyticsUpdate
+UniTaskLoopRunnerLastYieldEarlyUpdate
+UniTaskLoopRunnerLastEarlyUpdate
+------FixedUpdate------
+UniTaskLoopRunnerYieldFixedUpdate
+UniTaskLoopRunnerFixedUpdate
+ClearLines
+NewInputFixedUpdate
+DirectorFixedSampleTime
+AudioFixedUpdate
+ScriptRunBehaviourFixedUpdate
+DirectorFixedUpdate
+LegacyFixedAnimationUpdate
+XRFixedUpdate
+PhysicsFixedUpdate
+Physics2DFixedUpdate
+DirectorFixedUpdatePostPhysics
+ScriptRunDelayedFixedFrameRate
+UniTaskLoopRunnerLastYieldFixedUpdate
+UniTaskLoopRunnerLastFixedUpdate
+------PreUpdate------
+UniTaskLoopRunnerYieldPreUpdate
+UniTaskLoopRunnerPreUpdate
+PhysicsUpdate
+Physics2DUpdate
+CheckTexFieldInput
+IMGUISendQueuedEvents
+NewInputUpdate
+SendMouseEvents
+AIUpdate
+WindUpdate
+UpdateVideo
+UniTaskLoopRunnerLastYieldPreUpdate
+UniTaskLoopRunnerLastPreUpdate
+------Update------
+UniTaskLoopRunnerYieldUpdate
+UniTaskLoopRunnerUpdate
+ScriptRunBehaviourUpdate
+ScriptRunDelayedDynamicFrameRate
+ScriptRunDelayedTasks
+UniTaskSynchronizationContext
+DirectorUpdate
+SimulationSystemGroup
+UniTaskLoopRunnerLastYieldUpdate
+UniTaskLoopRunnerLastUpdate
+------PreLateUpdate------
+UniTaskLoopRunnerYieldPreLateUpdate
+UniTaskLoopRunnerPreLateUpdate
+AIUpdatePostScript
+DirectorUpdateAnimationBegin
+LegacyAnimationUpdate
+DirectorUpdateAnimationEnd
+DirectorDeferredEvaluate
+UIElementsUpdatePanels
+EndGraphicsJobsAfterScriptUpdate
+ParticleSystemBeginUpdateAll
+ConstraintManagerUpdate
+ScriptRunBehaviourLateUpdate
+PresentationSystemGroup
+UniTaskLoopRunnerLastYieldPreLateUpdate
+UniTaskLoopRunnerLastPreLateUpdate
+------PostLateUpdate------
+UniTaskLoopRunnerYieldPostLateUpdate
+UniTaskLoopRunnerPostLateUpdate
+PlayerSendFrameStarted
+DirectorLateUpdate
+ScriptRunDelayedDynamicFrameRate
+PhysicsSkinnedClothBeginUpdate
+UpdateRectTransform
+UpdateCanvasRectTransform
+PlayerUpdateCanvases
+UpdateAudio
+VFXUpdate
+ParticleSystemEndUpdateAll
+EndGraphicsJobsAfterScriptLateUpdate
+UpdateCustomRenderTextures
+UpdateAllRenderers
+UpdateLightProbeProxyVolumes
+EnlightenRuntimeUpdate
+UpdateAllSkinnedMeshes
+ProcessWebSendMessages
+SortingGroupsUpdate
+UpdateVideoTextures
+UpdateVideo
+DirectorRenderImage
+PlayerEmitCanvasGeometry
+PhysicsSkinnedClothFinishUpdate
+FinishFrameRendering
+BatchModeUpdate
+PlayerSendFrameComplete
+UpdateCaptureScreenshot
+PresentAfterDraw
+ClearImmediateRenderers
+PlayerSendFramePostPresent
+UpdateResolution
+InputEndFrame
+TriggerEndOfFrameCallbacks
+GUIClearEvents
+ShaderHandleErrors
+ResetInputAxis
+ThreadedLoadingDebug
+ProfilerSynchronizeStats
+MemoryFrameMaintenance
+ExecuteGameCenterCallbacks
+ProfilerEndFrame
+UniTaskLoopRunnerLastYieldPostLateUpdate
+UniTaskLoopRunnerLastPostLateUpdate
+ UnityEngine.Debug:Log(Object)
+Cysharp.Threading.Tasks.PlayerLoopHelper:DumpCurrentPlayerLoop() (at Assets/Plugins/UniTask/Runtime/PlayerLoopHelper.cs:370)
+Tech.Core.UnitaskBootstrap:Initialize() (at Assets/Scripts/Core/BootStrap/UnitaskBootstrap.cs:39)
+
+[10/31/2020 12:10:44]
+[Information][10/30/2020 19:00:00]
+[Log] PlayerLoop List
+------Initialization------
+UniTaskLoopRunnerYieldInitialization
+UniTaskLoopRunnerInitialization
+PlayerUpdateTime
+DirectorSampleTime
+AsyncUploadTimeSlicedUpdate
+SynchronizeInputs
+SynchronizeState
+XREarlyUpdate
+InitializationSystemGroup
+UniTaskLoopRunnerLastYieldInitialization
+UniTaskLoopRunnerLastInitialization
+------EarlyUpdate------
+UniTaskLoopRunnerYieldEarlyUpdate
+UniTaskLoopRunnerEarlyUpdate
+PollPlayerConnection
+ProfilerStartFrame
+GpuTimestamp
+AnalyticsCoreStatsUpdate
+UnityWebRequestUpdate
+ExecuteMainThreadJobs
+ProcessMouseInWindow
+ClearIntermediateRenderers
+ClearLines
+PresentBeforeUpdate
+ResetFrameStatsAfterPresent
+UpdateAsyncReadbackManager
+UpdateStreamingManager
+UpdateTextureStreamingManager
+UpdatePreloading
+RendererNotifyInvisible
+PlayerCleanupCachedData
+UpdateMainGameViewRect
+UpdateCanvasRectTransform
+XRUpdate
+UpdateInputManager
+ProcessRemoteInput
+ScriptRunDelayedStartupFrame
+UpdateKinect
+DeliverIosPlatformEvents
+ARCoreUpdate
+DispatchEventQueueEvents
+PhysicsResetInterpolatedTransformPosition
+SpriteAtlasManagerUpdate
+PerformanceAnalyticsUpdate
+UniTaskLoopRunnerLastYieldEarlyUpdate
+UniTaskLoopRunnerLastEarlyUpdate
+------FixedUpdate------
+UniTaskLoopRunnerYieldFixedUpdate
+UniTaskLoopRunnerFixedUpdate
+ClearLines
+NewInputFixedUpdate
+DirectorFixedSampleTime
+AudioFixedUpdate
+ScriptRunBehaviourFixedUpdate
+DirectorFixedUpdate
+LegacyFixedAnimationUpdate
+XRFixedUpdate
+PhysicsFixedUpdate
+Physics2DFixedUpdate
+DirectorFixedUpdatePostPhysics
+ScriptRunDelayedFixedFrameRate
+UniTaskLoopRunnerLastYieldFixedUpdate
+UniTaskLoopRunnerLastFixedUpdate
+------PreUpdate------
+UniTaskLoopRunnerYieldPreUpdate
+UniTaskLoopRunnerPreUpdate
+PhysicsUpdate
+Physics2DUpdate
+CheckTexFieldInput
+IMGUISendQueuedEvents
+NewInputUpdate
+SendMouseEvents
+AIUpdate
+WindUpdate
+UpdateVideo
+UniTaskLoopRunnerLastYieldPreUpdate
+UniTaskLoopRunnerLastPreUpdate
+------Update------
+UniTaskLoopRunnerYieldUpdate
+UniTaskLoopRunnerUpdate
+ScriptRunBehaviourUpdate
+ScriptRunDelayedDynamicFrameRate
+ScriptRunDelayedTasks
+UniTaskSynchronizationContext
+DirectorUpdate
+SimulationSystemGroup
+UniTaskLoopRunnerLastYieldUpdate
+UniTaskLoopRunnerLastUpdate
+------PreLateUpdate------
+UniTaskLoopRunnerYieldPreLateUpdate
+UniTaskLoopRunnerPreLateUpdate
+AIUpdatePostScript
+DirectorUpdateAnimationBegin
+LegacyAnimationUpdate
+DirectorUpdateAnimationEnd
+DirectorDeferredEvaluate
+UIElementsUpdatePanels
+EndGraphicsJobsAfterScriptUpdate
+ParticleSystemBeginUpdateAll
+ConstraintManagerUpdate
+ScriptRunBehaviourLateUpdate
+PresentationSystemGroup
+UniTaskLoopRunnerLastYieldPreLateUpdate
+UniTaskLoopRunnerLastPreLateUpdate
+------PostLateUpdate------
+UniTaskLoopRunnerYieldPostLateUpdate
+UniTaskLoopRunnerPostLateUpdate
+PlayerSendFrameStarted
+DirectorLateUpdate
+ScriptRunDelayedDynamicFrameRate
+PhysicsSkinnedClothBeginUpdate
+UpdateRectTransform
+UpdateCanvasRectTransform
+PlayerUpdateCanvases
+UpdateAudio
+VFXUpdate
+ParticleSystemEndUpdateAll
+EndGraphicsJobsAfterScriptLateUpdate
+UpdateCustomRenderTextures
+UpdateAllRenderers
+UpdateLightProbeProxyVolumes
+EnlightenRuntimeUpdate
+UpdateAllSkinnedMeshes
+ProcessWebSendMessages
+SortingGroupsUpdate
+UpdateVideoTextures
+UpdateVideo
+DirectorRenderImage
+PlayerEmitCanvasGeometry
+PhysicsSkinnedClothFinishUpdate
+FinishFrameRendering
+BatchModeUpdate
+PlayerSendFrameComplete
+UpdateCaptureScreenshot
+PresentAfterDraw
+ClearImmediateRenderers
+PlayerSendFramePostPresent
+UpdateResolution
+InputEndFrame
+TriggerEndOfFrameCallbacks
+GUIClearEvents
+ShaderHandleErrors
+ResetInputAxis
+ThreadedLoadingDebug
+ProfilerSynchronizeStats
+MemoryFrameMaintenance
+ExecuteGameCenterCallbacks
+ProfilerEndFrame
+UniTaskLoopRunnerLastYieldPostLateUpdate
+UniTaskLoopRunnerLastPostLateUpdate
+ UnityEngine.Debug:Log(Object)
+Cysharp.Threading.Tasks.PlayerLoopHelper:DumpCurrentPlayerLoop() (at Assets/Plugins/UniTask/Runtime/PlayerLoopHelper.cs:370)
+Tech.Core.UnitaskBootstrap:Initialize() (at Assets/Scripts/Core/BootStrap/UnitaskBootstrap.cs:39)
+
+[10/31/2020 12:11:24]
+[Information][10/30/2020 19:00:00]
+Closing Logger and Disposing
+[10/31/2020 12:11:24]
+[Information][10/30/2020 19:00:00]
+[Log] [Information][10/31/2020 12:11:24]Closing Logger and Disposing UnityEngine.Debug:Log(Object)
+ZLogger.Providers.UnityDebugLogProcessor:Post(IZLoggerEntry) (at Assets/Scripts/ZLogger/Unity/ZLoggerUnityLoggerProvider.cs:56)
+ZLogger.AsyncProcessZLogger:Log(LogLevel, EventId, FormatLogState`2, Exception, Func`3) (at Assets/Scripts/ZLogger/AsyncProcessZLogger.cs:28)
+Microsoft.Extensions.Logging.Logger:<Log>g__LoggerLog|12_0(LogLevel, EventId, ILogger, Exception, Func`3, List`1&, FormatLogState`2&)
+Microsoft.Extensions.Logging.Logger:Log(LogLevel, EventId, FormatLogState`2, Exception, Func`3)
+ZLogger.ZLoggerExtensions:ZLog(ILogger, LogLevel, EventId, Exception, String, Object) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:27)
+ZLogger.ZLoggerExtensions:ZLog(ILogger, LogLevel, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4604)
+Tech.Core.<>c:<.cctor>b__2_1() (at Assets/Scripts/Core/Logger/LogManager.cs:78)
+UnityEngine.Application:Internal_ApplicationQuit()
+
+[10/31/2020 12:11:24]
+[Information][10/30/2020 19:00:00]
+[Log] [Information][10/31/2020 12:11:24]Closing Logger and Disposing UnityEngine.Debug:Log(Object)
+ZLogger.Providers.UnityDebugLogProcessor:Post(IZLoggerEntry) (at Assets/Scripts/ZLogger/Unity/ZLoggerUnityLoggerProvider.cs:56)
+ZLogger.AsyncProcessZLogger:Log(LogLevel, EventId, FormatLogState`2, Exception, Func`3) (at Assets/Scripts/ZLogger/AsyncProcessZLogger.cs:28)
+Microsoft.Extensions.Logging.Logger:<Log>g__LoggerLog|12_0(LogLevel, EventId, ILogger, Exception, Func`3, List`1&, FormatLogState`2&)
+Microsoft.Extensions.Logging.Logger:Log(LogLevel, EventId, FormatLogState`2, Exception, Func`3)
+ZLogger.ZLoggerExtensions:ZLog(ILogger, LogLevel, EventId, Exception, String, Object) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:27)
+ZLogger.ZLoggerExtensions:ZLog(ILogger, LogLevel, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4604)
+Tech.Core.<>c:<.cctor>b__2_1() (at Assets/Scripts/Core/Logger/LogManager.cs:78)
+UnityEngine.Application:Internal_ApplicationQuit()
+
+[10/31/2020 12:28:45]
+[Information][10/30/2020 19:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[10/31/2020 12:28:45]
+[Information][10/30/2020 19:00:00]
+[Log] [Information][10/31/2020 12:28:45]ReInitialized Unitask after Initialization of ECS is complete UnityEngine.Debug:Log(Object)
+ZLogger.Providers.UnityDebugLogProcessor:Post(IZLoggerEntry) (at Assets/Scripts/ZLogger/Unity/ZLoggerUnityLoggerProvider.cs:56)
+ZLogger.AsyncProcessZLogger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3) (at Assets/Scripts/ZLogger/AsyncProcessZLogger.cs:28)
+Microsoft.Extensions.Logging.Logger:<Log>g__LoggerLog|12_0(LogLevel, EventId, ILogger, Exception, Func`3, List`1&, MessageLogState`1&)
+Microsoft.Extensions.Logging.Logger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3)
+ZLogger.ZLoggerExtensions:ZLogInformation(ILogger, EventId, Exception, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4757)
+ZLogger.ZLoggerExtensions:ZLogInformation(ILogger, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4742)
+Tech.Core.UnitaskBootstrap:Initialize() (at Assets/Scripts/Core/BootStrap/UnitaskBootstrap.cs:21)
+
+[10/31/2020 12:28:45]
+[Information][10/30/2020 19:00:00]
+[Log] [Information][10/31/2020 12:28:45]ReInitialized Unitask after Initialization of ECS is complete UnityEngine.Debug:Log(Object)
+ZLogger.Providers.UnityDebugLogProcessor:Post(IZLoggerEntry) (at Assets/Scripts/ZLogger/Unity/ZLoggerUnityLoggerProvider.cs:56)
+ZLogger.AsyncProcessZLogger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3) (at Assets/Scripts/ZLogger/AsyncProcessZLogger.cs:28)
+Microsoft.Extensions.Logging.Logger:<Log>g__LoggerLog|12_0(LogLevel, EventId, ILogger, Exception, Func`3, List`1&, MessageLogState`1&)
+Microsoft.Extensions.Logging.Logger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3)
+ZLogger.ZLoggerExtensions:ZLogInformation(ILogger, EventId, Exception, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4757)
+ZLogger.ZLoggerExtensions:ZLogInformation(ILogger, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4742)
+Tech.Core.UnitaskBootstrap:Initialize() (at Assets/Scripts/Core/BootStrap/UnitaskBootstrap.cs:21)
+
+[10/31/2020 12:28:45]
+[Information][10/30/2020 19:00:00]
+Unitask Player loop is ready? True
+[10/31/2020 12:28:45]
+[Information][10/30/2020 19:00:00]
+[Log] [Information][10/31/2020 12:28:45]Unitask Player loop is ready? True UnityEngine.Debug:Log(Object)
+ZLogger.Providers.UnityDebugLogProcessor:Post(IZLoggerEntry) (at Assets/Scripts/ZLogger/Unity/ZLoggerUnityLoggerProvider.cs:56)
+ZLogger.AsyncProcessZLogger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3) (at Assets/Scripts/ZLogger/AsyncProcessZLogger.cs:28)
+Microsoft.Extensions.Logging.Logger:<Log>g__LoggerLog|12_0(LogLevel, EventId, ILogger, Exception, Func`3, List`1&, MessageLogState`1&)
+Microsoft.Extensions.Logging.Logger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3)
+ZLogger.ZLoggerExtensions:ZLogInformation(ILogger, EventId, Exception, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4757)
+ZLogger.ZLoggerExtensions:ZLogInformation(ILogger, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4742)
+Tech.Core.UnitaskBootstrap:Initialize() (at Assets/Scripts/Core/BootStrap/UnitaskBootstrap.cs:28)
+
+[10/31/2020 12:28:45]
+[Information][10/30/2020 19:00:00]
+[Log] [Information][10/31/2020 12:28:45]Unitask Player loop is ready? True UnityEngine.Debug:Log(Object)
+ZLogger.Providers.UnityDebugLogProcessor:Post(IZLoggerEntry) (at Assets/Scripts/ZLogger/Unity/ZLoggerUnityLoggerProvider.cs:56)
+ZLogger.AsyncProcessZLogger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3) (at Assets/Scripts/ZLogger/AsyncProcessZLogger.cs:28)
+Microsoft.Extensions.Logging.Logger:<Log>g__LoggerLog|12_0(LogLevel, EventId, ILogger, Exception, Func`3, List`1&, MessageLogState`1&)
+Microsoft.Extensions.Logging.Logger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3)
+ZLogger.ZLoggerExtensions:ZLogInformation(ILogger, EventId, Exception, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4757)
+ZLogger.ZLoggerExtensions:ZLogInformation(ILogger, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4742)
+Tech.Core.UnitaskBootstrap:Initialize() (at Assets/Scripts/Core/BootStrap/UnitaskBootstrap.cs:28)
+
+[10/31/2020 12:28:45]
+[Information][10/30/2020 19:00:00]
+Initialized Unitask correctly for ECS
+[10/31/2020 12:28:45]
+[Information][10/30/2020 19:00:00]
+[Log] [Information][10/31/2020 12:28:45]Initialized Unitask correctly for ECS UnityEngine.Debug:Log(Object)
+ZLogger.Providers.UnityDebugLogProcessor:Post(IZLoggerEntry) (at Assets/Scripts/ZLogger/Unity/ZLoggerUnityLoggerProvider.cs:56)
+ZLogger.AsyncProcessZLogger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3) (at Assets/Scripts/ZLogger/AsyncProcessZLogger.cs:28)
+Microsoft.Extensions.Logging.Logger:<Log>g__LoggerLog|12_0(LogLevel, EventId, ILogger, Exception, Func`3, List`1&, MessageLogState`1&)
+Microsoft.Extensions.Logging.Logger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3)
+ZLogger.ZLoggerExtensions:ZLogInformation(ILogger, EventId, Exception, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4757)
+ZLogger.ZLoggerExtensions:ZLogInformation(ILogger, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4742)
+Tech.Core.UnitaskBootstrap:Initialize() (at Assets/Scripts/Core/BootStrap/UnitaskBootstrap.cs:32)
+
+[10/31/2020 12:28:45]
+[Information][10/30/2020 19:00:00]
+[Log] [Information][10/31/2020 12:28:45]Initialized Unitask correctly for ECS UnityEngine.Debug:Log(Object)
+ZLogger.Providers.UnityDebugLogProcessor:Post(IZLoggerEntry) (at Assets/Scripts/ZLogger/Unity/ZLoggerUnityLoggerProvider.cs:56)
+ZLogger.AsyncProcessZLogger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3) (at Assets/Scripts/ZLogger/AsyncProcessZLogger.cs:28)
+Microsoft.Extensions.Logging.Logger:<Log>g__LoggerLog|12_0(LogLevel, EventId, ILogger, Exception, Func`3, List`1&, MessageLogState`1&)
+Microsoft.Extensions.Logging.Logger:Log(LogLevel, EventId, MessageLogState`1, Exception, Func`3)
+ZLogger.ZLoggerExtensions:ZLogInformation(ILogger, EventId, Exception, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4757)
+ZLogger.ZLoggerExtensions:ZLogInformation(ILogger, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4742)
+Tech.Core.UnitaskBootstrap:Initialize() (at Assets/Scripts/Core/BootStrap/UnitaskBootstrap.cs:32)
+
+[10/31/2020 12:28:45]
+[Information][10/30/2020 19:00:00]
+[Log] PlayerLoop List
+------Initialization------
+UniTaskLoopRunnerYieldInitialization
+UniTaskLoopRunnerInitialization
+PlayerUpdateTime
+DirectorSampleTime
+AsyncUploadTimeSlicedUpdate
+SynchronizeInputs
+SynchronizeState
+XREarlyUpdate
+InitializationSystemGroup
+UniTaskLoopRunnerLastYieldInitialization
+UniTaskLoopRunnerLastInitialization
+------EarlyUpdate------
+UniTaskLoopRunnerYieldEarlyUpdate
+UniTaskLoopRunnerEarlyUpdate
+PollPlayerConnection
+ProfilerStartFrame
+GpuTimestamp
+AnalyticsCoreStatsUpdate
+UnityWebRequestUpdate
+ExecuteMainThreadJobs
+ProcessMouseInWindow
+ClearIntermediateRenderers
+ClearLines
+PresentBeforeUpdate
+ResetFrameStatsAfterPresent
+UpdateAsyncReadbackManager
+UpdateStreamingManager
+UpdateTextureStreamingManager
+UpdatePreloading
+RendererNotifyInvisible
+PlayerCleanupCachedData
+UpdateMainGameViewRect
+UpdateCanvasRectTransform
+XRUpdate
+UpdateInputManager
+ProcessRemoteInput
+ScriptRunDelayedStartupFrame
+UpdateKinect
+DeliverIosPlatformEvents
+ARCoreUpdate
+DispatchEventQueueEvents
+PhysicsResetInterpolatedTransformPosition
+SpriteAtlasManagerUpdate
+PerformanceAnalyticsUpdate
+UniTaskLoopRunnerLastYieldEarlyUpdate
+UniTaskLoopRunnerLastEarlyUpdate
+------FixedUpdate------
+UniTaskLoopRunnerYieldFixedUpdate
+UniTaskLoopRunnerFixedUpdate
+ClearLines
+NewInputFixedUpdate
+DirectorFixedSampleTime
+AudioFixedUpdate
+ScriptRunBehaviourFixedUpdate
+DirectorFixedUpdate
+LegacyFixedAnimationUpdate
+XRFixedUpdate
+PhysicsFixedUpdate
+Physics2DFixedUpdate
+DirectorFixedUpdatePostPhysics
+ScriptRunDelayedFixedFrameRate
+UniTaskLoopRunnerLastYieldFixedUpdate
+UniTaskLoopRunnerLastFixedUpdate
+------PreUpdate------
+UniTaskLoopRunnerYieldPreUpdate
+UniTaskLoopRunnerPreUpdate
+PhysicsUpdate
+Physics2DUpdate
+CheckTexFieldInput
+IMGUISendQueuedEvents
+NewInputUpdate
+SendMouseEvents
+AIUpdate
+WindUpdate
+UpdateVideo
+UniTaskLoopRunnerLastYieldPreUpdate
+UniTaskLoopRunnerLastPreUpdate
+------Update------
+UniTaskLoopRunnerYieldUpdate
+UniTaskLoopRunnerUpdate
+ScriptRunBehaviourUpdate
+ScriptRunDelayedDynamicFrameRate
+ScriptRunDelayedTasks
+UniTaskSynchronizationContext
+DirectorUpdate
+SimulationSystemGroup
+UniTaskLoopRunnerLastYieldUpdate
+UniTaskLoopRunnerLastUpdate
+------PreLateUpdate------
+UniTaskLoopRunnerYieldPreLateUpdate
+UniTaskLoopRunnerPreLateUpdate
+AIUpdatePostScript
+DirectorUpdateAnimationBegin
+LegacyAnimationUpdate
+DirectorUpdateAnimationEnd
+DirectorDeferredEvaluate
+UIElementsUpdatePanels
+EndGraphicsJobsAfterScriptUpdate
+ParticleSystemBeginUpdateAll
+ConstraintManagerUpdate
+ScriptRunBehaviourLateUpdate
+PresentationSystemGroup
+UniTaskLoopRunnerLastYieldPreLateUpdate
+UniTaskLoopRunnerLastPreLateUpdate
+------PostLateUpdate------
+UniTaskLoopRunnerYieldPostLateUpdate
+UniTaskLoopRunnerPostLateUpdate
+PlayerSendFrameStarted
+DirectorLateUpdate
+ScriptRunDelayedDynamicFrameRate
+PhysicsSkinnedClothBeginUpdate
+UpdateRectTransform
+UpdateCanvasRectTransform
+PlayerUpdateCanvases
+UpdateAudio
+VFXUpdate
+ParticleSystemEndUpdateAll
+EndGraphicsJobsAfterScriptLateUpdate
+UpdateCustomRenderTextures
+UpdateAllRenderers
+UpdateLightProbeProxyVolumes
+EnlightenRuntimeUpdate
+UpdateAllSkinnedMeshes
+ProcessWebSendMessages
+SortingGroupsUpdate
+UpdateVideoTextures
+UpdateVideo
+DirectorRenderImage
+PlayerEmitCanvasGeometry
+PhysicsSkinnedClothFinishUpdate
+FinishFrameRendering
+BatchModeUpdate
+PlayerSendFrameComplete
+UpdateCaptureScreenshot
+PresentAfterDraw
+ClearImmediateRenderers
+PlayerSendFramePostPresent
+UpdateResolution
+InputEndFrame
+TriggerEndOfFrameCallbacks
+GUIClearEvents
+ShaderHandleErrors
+ResetInputAxis
+ThreadedLoadingDebug
+ProfilerSynchronizeStats
+MemoryFrameMaintenance
+ExecuteGameCenterCallbacks
+ProfilerEndFrame
+UniTaskLoopRunnerLastYieldPostLateUpdate
+UniTaskLoopRunnerLastPostLateUpdate
+ UnityEngine.Debug:Log(Object)
+Cysharp.Threading.Tasks.PlayerLoopHelper:DumpCurrentPlayerLoop() (at Assets/Plugins/UniTask/Runtime/PlayerLoopHelper.cs:370)
+Tech.Core.UnitaskBootstrap:Initialize() (at Assets/Scripts/Core/BootStrap/UnitaskBootstrap.cs:39)
+
+[10/31/2020 12:28:45]
+[Information][10/30/2020 19:00:00]
+[Log] PlayerLoop List
+------Initialization------
+UniTaskLoopRunnerYieldInitialization
+UniTaskLoopRunnerInitialization
+PlayerUpdateTime
+DirectorSampleTime
+AsyncUploadTimeSlicedUpdate
+SynchronizeInputs
+SynchronizeState
+XREarlyUpdate
+InitializationSystemGroup
+UniTaskLoopRunnerLastYieldInitialization
+UniTaskLoopRunnerLastInitialization
+------EarlyUpdate------
+UniTaskLoopRunnerYieldEarlyUpdate
+UniTaskLoopRunnerEarlyUpdate
+PollPlayerConnection
+ProfilerStartFrame
+GpuTimestamp
+AnalyticsCoreStatsUpdate
+UnityWebRequestUpdate
+ExecuteMainThreadJobs
+ProcessMouseInWindow
+ClearIntermediateRenderers
+ClearLines
+PresentBeforeUpdate
+ResetFrameStatsAfterPresent
+UpdateAsyncReadbackManager
+UpdateStreamingManager
+UpdateTextureStreamingManager
+UpdatePreloading
+RendererNotifyInvisible
+PlayerCleanupCachedData
+UpdateMainGameViewRect
+UpdateCanvasRectTransform
+XRUpdate
+UpdateInputManager
+ProcessRemoteInput
+ScriptRunDelayedStartupFrame
+UpdateKinect
+DeliverIosPlatformEvents
+ARCoreUpdate
+DispatchEventQueueEvents
+PhysicsResetInterpolatedTransformPosition
+SpriteAtlasManagerUpdate
+PerformanceAnalyticsUpdate
+UniTaskLoopRunnerLastYieldEarlyUpdate
+UniTaskLoopRunnerLastEarlyUpdate
+------FixedUpdate------
+UniTaskLoopRunnerYieldFixedUpdate
+UniTaskLoopRunnerFixedUpdate
+ClearLines
+NewInputFixedUpdate
+DirectorFixedSampleTime
+AudioFixedUpdate
+ScriptRunBehaviourFixedUpdate
+DirectorFixedUpdate
+LegacyFixedAnimationUpdate
+XRFixedUpdate
+PhysicsFixedUpdate
+Physics2DFixedUpdate
+DirectorFixedUpdatePostPhysics
+ScriptRunDelayedFixedFrameRate
+UniTaskLoopRunnerLastYieldFixedUpdate
+UniTaskLoopRunnerLastFixedUpdate
+------PreUpdate------
+UniTaskLoopRunnerYieldPreUpdate
+UniTaskLoopRunnerPreUpdate
+PhysicsUpdate
+Physics2DUpdate
+CheckTexFieldInput
+IMGUISendQueuedEvents
+NewInputUpdate
+SendMouseEvents
+AIUpdate
+WindUpdate
+UpdateVideo
+UniTaskLoopRunnerLastYieldPreUpdate
+UniTaskLoopRunnerLastPreUpdate
+------Update------
+UniTaskLoopRunnerYieldUpdate
+UniTaskLoopRunnerUpdate
+ScriptRunBehaviourUpdate
+ScriptRunDelayedDynamicFrameRate
+ScriptRunDelayedTasks
+UniTaskSynchronizationContext
+DirectorUpdate
+SimulationSystemGroup
+UniTaskLoopRunnerLastYieldUpdate
+UniTaskLoopRunnerLastUpdate
+------PreLateUpdate------
+UniTaskLoopRunnerYieldPreLateUpdate
+UniTaskLoopRunnerPreLateUpdate
+AIUpdatePostScript
+DirectorUpdateAnimationBegin
+LegacyAnimationUpdate
+DirectorUpdateAnimationEnd
+DirectorDeferredEvaluate
+UIElementsUpdatePanels
+EndGraphicsJobsAfterScriptUpdate
+ParticleSystemBeginUpdateAll
+ConstraintManagerUpdate
+ScriptRunBehaviourLateUpdate
+PresentationSystemGroup
+UniTaskLoopRunnerLastYieldPreLateUpdate
+UniTaskLoopRunnerLastPreLateUpdate
+------PostLateUpdate------
+UniTaskLoopRunnerYieldPostLateUpdate
+UniTaskLoopRunnerPostLateUpdate
+PlayerSendFrameStarted
+DirectorLateUpdate
+ScriptRunDelayedDynamicFrameRate
+PhysicsSkinnedClothBeginUpdate
+UpdateRectTransform
+UpdateCanvasRectTransform
+PlayerUpdateCanvases
+UpdateAudio
+VFXUpdate
+ParticleSystemEndUpdateAll
+EndGraphicsJobsAfterScriptLateUpdate
+UpdateCustomRenderTextures
+UpdateAllRenderers
+UpdateLightProbeProxyVolumes
+EnlightenRuntimeUpdate
+UpdateAllSkinnedMeshes
+ProcessWebSendMessages
+SortingGroupsUpdate
+UpdateVideoTextures
+UpdateVideo
+DirectorRenderImage
+PlayerEmitCanvasGeometry
+PhysicsSkinnedClothFinishUpdate
+FinishFrameRendering
+BatchModeUpdate
+PlayerSendFrameComplete
+UpdateCaptureScreenshot
+PresentAfterDraw
+ClearImmediateRenderers
+PlayerSendFramePostPresent
+UpdateResolution
+InputEndFrame
+TriggerEndOfFrameCallbacks
+GUIClearEvents
+ShaderHandleErrors
+ResetInputAxis
+ThreadedLoadingDebug
+ProfilerSynchronizeStats
+MemoryFrameMaintenance
+ExecuteGameCenterCallbacks
+ProfilerEndFrame
+UniTaskLoopRunnerLastYieldPostLateUpdate
+UniTaskLoopRunnerLastPostLateUpdate
+ UnityEngine.Debug:Log(Object)
+Cysharp.Threading.Tasks.PlayerLoopHelper:DumpCurrentPlayerLoop() (at Assets/Plugins/UniTask/Runtime/PlayerLoopHelper.cs:370)
+Tech.Core.UnitaskBootstrap:Initialize() (at Assets/Scripts/Core/BootStrap/UnitaskBootstrap.cs:39)
+
+[10/31/2020 12:29:23]
+[Information][10/30/2020 19:00:00]
+Closing Logger and Disposing
+[10/31/2020 12:29:23]
+[Information][10/30/2020 19:00:00]
+[Log] [Information][10/31/2020 12:29:23]Closing Logger and Disposing UnityEngine.Debug:Log(Object)
+ZLogger.Providers.UnityDebugLogProcessor:Post(IZLoggerEntry) (at Assets/Scripts/ZLogger/Unity/ZLoggerUnityLoggerProvider.cs:56)
+ZLogger.AsyncProcessZLogger:Log(LogLevel, EventId, FormatLogState`2, Exception, Func`3) (at Assets/Scripts/ZLogger/AsyncProcessZLogger.cs:28)
+Microsoft.Extensions.Logging.Logger:<Log>g__LoggerLog|12_0(LogLevel, EventId, ILogger, Exception, Func`3, List`1&, FormatLogState`2&)
+Microsoft.Extensions.Logging.Logger:Log(LogLevel, EventId, FormatLogState`2, Exception, Func`3)
+ZLogger.ZLoggerExtensions:ZLog(ILogger, LogLevel, EventId, Exception, String, Object) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:27)
+ZLogger.ZLoggerExtensions:ZLog(ILogger, LogLevel, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4604)
+Tech.Core.<>c:<.cctor>b__2_1() (at Assets/Scripts/Core/Logger/LogManager.cs:78)
+UnityEngine.Application:Internal_ApplicationQuit()
+
+[10/31/2020 12:29:23]
+[Information][10/30/2020 19:00:00]
+[Log] [Information][10/31/2020 12:29:23]Closing Logger and Disposing UnityEngine.Debug:Log(Object)
+ZLogger.Providers.UnityDebugLogProcessor:Post(IZLoggerEntry) (at Assets/Scripts/ZLogger/Unity/ZLoggerUnityLoggerProvider.cs:56)
+ZLogger.AsyncProcessZLogger:Log(LogLevel, EventId, FormatLogState`2, Exception, Func`3) (at Assets/Scripts/ZLogger/AsyncProcessZLogger.cs:28)
+Microsoft.Extensions.Logging.Logger:<Log>g__LoggerLog|12_0(LogLevel, EventId, ILogger, Exception, Func`3, List`1&, FormatLogState`2&)
+Microsoft.Extensions.Logging.Logger:Log(LogLevel, EventId, FormatLogState`2, Exception, Func`3)
+ZLogger.ZLoggerExtensions:ZLog(ILogger, LogLevel, EventId, Exception, String, Object) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:27)
+ZLogger.ZLoggerExtensions:ZLog(ILogger, LogLevel, String) (at Assets/Scripts/ZLogger/ZLoggerExtensions.cs:4604)
+Tech.Core.<>c:<.cctor>b__2_1() (at Assets/Scripts/Core/Logger/LogManager.cs:78)
+UnityEngine.Application:Internal_ApplicationQuit()
+
