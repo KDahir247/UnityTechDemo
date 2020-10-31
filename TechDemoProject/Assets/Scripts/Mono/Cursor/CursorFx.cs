@@ -1,7 +1,12 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using Cysharp.Threading.Tasks.Linq;
+using Cysharp.Threading.Tasks.Triggers;
 using DG.Tweening;
 using Tech.Core;
+using Tech.Runtime;
 using UniRx;
+using UniRx.Triggers;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.ResourceProviders;
@@ -22,7 +27,7 @@ public class CursorFx : MonoBehaviour
     [SerializeField] private float clickVfxDepth = 15f; 
     
     // Start is called before the first frame update
-    void Awake()
+    async void  Awake()
     {
         DOTween.Init().SetCapacity(200, 25);
         MessageBroker.Default

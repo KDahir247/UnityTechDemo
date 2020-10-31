@@ -24,13 +24,20 @@ MonoBehaviour:
     - Scene
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
-  - m_GUID: 8335854fc5b61f84592e6ad83cc0caf7
-    m_Address: Assets/Scenes/Sample.unity
+  - m_GUID: 3722d822b926d944ca8139bd77c1a077
+    m_Address: Assets/Scenes/Creation.unity
     m_ReadOnly: 0
     m_SerializedLabels:
-    - default
-    m_MainAsset: {fileID: 102900000, guid: 8335854fc5b61f84592e6ad83cc0caf7, type: 3}
-    m_TargetAsset: {fileID: 102900000, guid: 8335854fc5b61f84592e6ad83cc0caf7, type: 3}
+    - Scene
+    m_MainAsset: {fileID: 102900000, guid: 3722d822b926d944ca8139bd77c1a077, type: 3}
+    m_TargetAsset: {fileID: 102900000, guid: 3722d822b926d944ca8139bd77c1a077, type: 3}
+  - m_GUID: 8335854fc5b61f84592e6ad83cc0caf7
+    m_Address: Assets/Scenes/Game.unity
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Scene
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: a2cc6ec24cb6f134d8a2845b265779b5, type: 2}
   m_SchemaSet:

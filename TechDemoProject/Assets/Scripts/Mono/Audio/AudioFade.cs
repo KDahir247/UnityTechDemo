@@ -6,6 +6,7 @@ using Cysharp.Threading.Tasks.Linq;
 using Cysharp.Threading.Tasks.Triggers;
 using DG.Tweening;
 using Tech.Core;
+using Tech.Utility;
 using UniRx;
 using UniRx.Triggers;
 using UnityEngine;
@@ -31,7 +32,7 @@ public class AudioFade : MonoBehaviour
 
     async void stuff()
     {
-        // await SceneAddress
-        //     .SceneLoadByNameOrLabel("Assets/Scenes/Sample.unity");
+        // await await SceneAddress
+        //     .SceneLoadByNameOrLabel("Assets/Scenes/Sample.unity",GlobalSetting<float>.ScheduledNotifier);
     }
 }
