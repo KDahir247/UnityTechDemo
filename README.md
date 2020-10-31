@@ -46,5 +46,10 @@ ex.        private readonly Microsoft.Extensions.Logging.ILogger Logger = LogMan
                  
 <br/>                 
 Editor Log can take two format type Exception Format and Prefix Format
+<br/>
+
+Menu Layout
+<br/>
+<img src="https://github.com/KDahir247/UnityTechDemo/blob/main/TechDemoProject/Assets/Images/MenuGifReal.gif" width="500" height="300">
 
 
