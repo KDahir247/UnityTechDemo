@@ -20,8 +20,12 @@ Packages using
 UniTask,
 UniRx,
 Dotween,
-ZLogger, and
+ZLogger, 
+ITween,
+ITweenExtension,
+Surge, and
 ZString
+
 <br />
 <br />
 rebuild the kinematica asset before playing whisch is located in. Assets->KinematicaAsset by opening the Kinematica asset builder and pressing build button on the top left.
