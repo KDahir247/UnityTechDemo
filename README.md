@@ -50,6 +50,6 @@ Editor Log can take two format type Exception Format and Prefix Format
 
 Menu Layout
 <br/>
-<img src="https://github.com/KDahir247/UnityTechDemo/blob/main/TechDemoProject/Assets/Images/MenuGifReal.gif" width="500" height="300">
+<img src="https://github.com/KDahir247/UnityTechDemo/blob/main/TechDemoProject/Assets/Images/MenuGif%201.gif" width="500" height="300">
 
 
