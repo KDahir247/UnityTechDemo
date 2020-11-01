@@ -1,13 +1,15 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using System.Globalization;
 using UnityEngine;
 
-public class SceneProgress : IProgress<float>
+namespace Tech.Report
 {
-    public void Report(float value)
+    public class SceneProgress : IProgress<float>
     {
-        Debug.Log(value.ToString(CultureInfo.InvariantCulture));
+        public void Report(float value)
+        {
+            //DO some tween for loadbar
+            Debug.Log(value.ToString(CultureInfo.InvariantCulture));
+        }
     }
 }

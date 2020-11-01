@@ -1,8 +1,9 @@
-﻿using Unity.Kinematica.Editor;
+﻿using System;
+using Unity.Kinematica.Editor;
 
 namespace Tech.Animation.Annotation
-{ 
-    [System.Serializable]
+{
+    [Serializable]
     [Tag("Idle", "#16c3c9")]
     public struct IdleTag : Payload<Idle>
     {

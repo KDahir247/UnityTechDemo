@@ -8,37 +8,27 @@
 /// </summary>
 
 using UnityEngine;
-using System.Collections;
 
 namespace Pixelplacement
 {
-    public class State : MonoBehaviour 
+    public class State : MonoBehaviour
     {
+        //Private Variables:
+        private StateMachine _stateMachine;
+
         //Public Properties:
         /// <summary>
-        /// Gets a value indicating whether this instance is the first state in this state machine.
+        ///     Gets a value indicating whether this instance is the first state in this state machine.
         /// </summary>
-        public bool IsFirst
-        {
-            get
-            {
-                return transform.GetSiblingIndex () == 0;
-            }
-        }
+        public bool IsFirst => transform.GetSiblingIndex() == 0;
 
         /// <summary>
-        /// Gets a value indicating whether this instance is the last state in this state machine.
+        ///     Gets a value indicating whether this instance is the last state in this state machine.
         /// </summary>
-        public bool IsLast
-        {
-            get
-            {
-                return transform.GetSiblingIndex () == transform.parent.childCount - 1;
-            }
-        }
+        public bool IsLast => transform.GetSiblingIndex() == transform.parent.childCount - 1;
 
         /// <summary>
-        /// Gets or sets the state machine.
+        ///     Gets or sets the state machine.
         /// </summary>
         public StateMachine StateMachine
         {
@@ -58,12 +48,9 @@ namespace Pixelplacement
             }
         }
 
-        //Private Variables:
-        StateMachine _stateMachine;
-
         //Public Methods
         /// <summary>
-        /// Changes the state.
+        ///     Changes the state.
         /// </summary>
         public void ChangeState(int childIndex)
         {
@@ -71,44 +58,44 @@ namespace Pixelplacement
         }
 
         /// <summary>
-        /// Changes the state.
+        ///     Changes the state.
         /// </summary>
-        public void ChangeState (GameObject state)
+        public void ChangeState(GameObject state)
         {
-            StateMachine.ChangeState (state.name);
+            StateMachine.ChangeState(state.name);
         }
 
         /// <summary>
-        /// Changes the state.
+        ///     Changes the state.
         /// </summary>
-        public void ChangeState (string state)
+        public void ChangeState(string state)
         {
             if (StateMachine == null) return;
-            StateMachine.ChangeState (state);
+            StateMachine.ChangeState(state);
         }
 
         /// <summary>
-        /// Change to the next state if possible.
+        ///     Change to the next state if possible.
         /// </summary>
-        public GameObject Next ()
+        public GameObject Next()
         {
-            return StateMachine.Next ();
+            return StateMachine.Next();
         }
 
         /// <summary>
-        /// Change to the previous state if possible.
+        ///     Change to the previous state if possible.
         /// </summary>
-        public GameObject Previous ()
+        public GameObject Previous()
         {
-            return StateMachine.Previous ();
+            return StateMachine.Previous();
         }
 
         /// <summary>
-        /// Exit the current state.
+        ///     Exit the current state.
         /// </summary>
-        public void Exit ()
+        public void Exit()
         {
-            StateMachine.Exit ();
+            StateMachine.Exit();
         }
     }
 }

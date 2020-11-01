@@ -1,4 +1,5 @@
-﻿using Unity.Kinematica.Editor;
+﻿using System;
+using Unity.Kinematica.Editor;
 
 namespace Tech.Animation.Annotation
 {
@@ -7,7 +8,7 @@ namespace Tech.Animation.Annotation
     {
         public Locomotion Build(PayloadBuilder builder)
         {
-            throw new System.NotImplementedException();
+            throw new NotImplementedException();
         }
     }
 }

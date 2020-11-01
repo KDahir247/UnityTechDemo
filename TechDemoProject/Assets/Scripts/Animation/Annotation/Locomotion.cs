@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using Unity.Kinematica;
-using UnityEngine;
+﻿using Unity.Kinematica;
 
 namespace Tech.Animation.Annotation
 {

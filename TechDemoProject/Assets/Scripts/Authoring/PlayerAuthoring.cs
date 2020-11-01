@@ -1,6 +1,4 @@
-﻿using System;
-using Tech.Core;
-using Unity.Entities;
+﻿using Unity.Entities;
 using Unity.Kinematica;
 using Unity.Transforms;
 using UnityEngine;
@@ -11,6 +9,9 @@ namespace Tech.Authoring
     [RequiresEntityConversion]
     public class PlayerAuthoring : MonoBehaviour, IConvertGameObjectToEntity
     {
+        private EntityManager _dstManager;
+
+        private Entity _entity;
         // Add fields to your component here. Remember that:
         //
         // * The purpose of this class is to store data for authoring purposes - it is not for use while the game is
@@ -21,18 +22,15 @@ namespace Tech.Authoring
         //
         // For example,
         //    public float scale;
-        
+
         private Kinematica _kinematica;
-        private Entity _entity;
-        private EntityManager _dstManager;
 
         public void Convert(Entity entity, EntityManager dstManager, GameObjectConversionSystem conversionSystem)
         {
             _entity = entity;
             _dstManager = dstManager;
-            
+
             InitializeDataStack(entity, ref dstManager);
-            
         }
 
         private void InitializeDataStack(in Entity entity, ref EntityManager entityManager)
