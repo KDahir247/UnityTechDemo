@@ -56,4 +56,27 @@ Menu Layout
 <br/>
 <img src="https://github.com/KDahir247/UnityTechDemo/blob/main/TechDemoProject/Assets/Images/MenuGif%201.gif" width="500" height="300">
 
+<br/>
+<br/>
+Scene Structure 
+<br/>
+Core Scene:
+<br/>
+MainMenu (Through Scene Addressable Loading)
+<br/>
+Creation (Through Scene Addressable Loading)
+<br/>
+Game (Game scene will be the only Scene that will have ECS and DOTS Logic to drive it) within Game Scene there will be SubScene (Through Scene Addressable Loading and SubScene with ECS, DOTS)
+<br/>
+
+<br/>
+TODO:
+<br/>
+Remove PostProcess Volume for Custom Shader using Shader graph in main menu.
+<br/>
+Remove AnimationController for Custom Shader using Shader graph in main menu (Lerp)
+<br/>
+Add functionality to top right buttons on main menu
+<br/>
+update the version in main menu so it reflect the Application version
 
