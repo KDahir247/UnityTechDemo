@@ -84,8 +84,7 @@ namespace Tech.Core
             foreach (var file in directory)
             {
                 var date = File.GetLastWriteTimeUtc(file);
-
-                if (Mathf.Abs(date.Date.ToLocalTime().Day - DateTime.Today.Day) > 10)
+                if (Mathf.Abs(date.Subtract(DateTime.Now).Days) > 10.0)
                 {
                     OnDelete?.Invoke(date.Day, $@"{Environment.CurrentDirectory}\Assets\Log\", file);
                     File.Delete(file);
