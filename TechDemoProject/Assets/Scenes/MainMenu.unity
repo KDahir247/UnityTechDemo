@@ -576,8 +576,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 537150170}
-  - component: {fileID: 537150171}
   - component: {fileID: 537150169}
+  - component: {fileID: 537150171}
   m_Layer: 0
   m_Name: MenuScene
   m_TagString: Untagged
@@ -598,6 +598,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   onNextScene: Asset/Scenes/Creation.scene
+  key: State
+  fadeOutEase: 6
+  fadeOutTime: 2
+  fadeInEase: 1
+  fadeInTime: 4
+  clip: {fileID: 8300000, guid: aea5e25abfe37004f9667f31fbe94624, type: 3}
 --- !u!4 &537150170
 Transform:
   m_ObjectHideFlags: 0
@@ -621,13 +627,12 @@ AudioSource:
   m_GameObject: {fileID: 537150168}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: cc3b614355bd3174fb5a84c4a1bd944e,
-    type: 2}
-  m_audioClip: {fileID: 8300000, guid: aea5e25abfe37004f9667f31fbe94624, type: 3}
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.06
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1022,7 +1027,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _dontDestroyOnLoad: 1
-  index: 0
 --- !u!1 &1164454406
 GameObject:
   m_ObjectHideFlags: 0
@@ -1425,8 +1429,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1408379773}
-  - component: {fileID: 1408379777}
   - component: {fileID: 1408379774}
+  - component: {fileID: 1408379775}
   m_Layer: 0
   m_Name: CreationScene
   m_TagString: Untagged
@@ -1461,7 +1465,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   onNextScene: Asset/Scenes/Game.scene
---- !u!82 &1408379777
+  key: State
+  fadeOutEase: 6
+  fadeOutTime: 2
+  fadeInEase: 0
+  fadeInTime: 4
+  clip: {fileID: 8300000, guid: aea5e25abfe37004f9667f31fbe94624, type: 3}
+--- !u!82 &1408379775
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1470,13 +1480,12 @@ AudioSource:
   m_GameObject: {fileID: 1408379772}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: cc3b614355bd3174fb5a84c4a1bd944e,
-    type: 2}
-  m_audioClip: {fileID: 8300000, guid: aea5e25abfe37004f9667f31fbe94624, type: 3}
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1798,7 +1807,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1624241079}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.580564, y: -18.125925, z: 60.099823}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2372,8 +2381,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1905359317}
-  - component: {fileID: 1905359321}
   - component: {fileID: 1905359318}
+  - component: {fileID: 1905359319}
   m_Layer: 0
   m_Name: GameScene
   m_TagString: Untagged
@@ -2407,8 +2416,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70d4cede38bb32e46b1721ce3349a344, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onNextScene: Asset/Scenes/MainMenu.scene
---- !u!82 &1905359321
+  onNextScene: 
+  key: 
+  fadeOutEase: 0
+  fadeOutTime: 2
+  fadeInEase: 0
+  fadeInTime: 1
+  clip: {fileID: 0}
+--- !u!82 &1905359319
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2417,13 +2432,12 @@ AudioSource:
   m_GameObject: {fileID: 1905359316}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: cc3b614355bd3174fb5a84c4a1bd944e,
-    type: 2}
-  m_audioClip: {fileID: 8300000, guid: aea5e25abfe37004f9667f31fbe94624, type: 3}
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -2921,51 +2935,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Main Camera
       objectReference: {fileID: 0}
-    - target: {fileID: 2771304373096215011, guid: 3e71f16bfdda38f4ba442461db2f9780,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 2771304373096215021, guid: 3e71f16bfdda38f4ba442461db2f9780,
-        type: 3}
-      propertyPath: m_ClearFlags
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2771304373096215021, guid: 3e71f16bfdda38f4ba442461db2f9780,
-        type: 3}
-      propertyPath: m_BackGroundColor.r
-      value: 0.08859915
-      objectReference: {fileID: 0}
-    - target: {fileID: 2771304373096215021, guid: 3e71f16bfdda38f4ba442461db2f9780,
-        type: 3}
-      propertyPath: m_BackGroundColor.g
-      value: 0.090285204
-      objectReference: {fileID: 0}
-    - target: {fileID: 2771304373096215021, guid: 3e71f16bfdda38f4ba442461db2f9780,
-        type: 3}
-      propertyPath: m_BackGroundColor.b
-      value: 0.103773594
-      objectReference: {fileID: 0}
-    - target: {fileID: 2771304373096215021, guid: 3e71f16bfdda38f4ba442461db2f9780,
-        type: 3}
-      propertyPath: far clip plane
-      value: 300
-      objectReference: {fileID: 0}
-    - target: {fileID: 2771304373096215021, guid: 3e71f16bfdda38f4ba442461db2f9780,
-        type: 3}
-      propertyPath: m_BackGroundColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2771304373096215021, guid: 3e71f16bfdda38f4ba442461db2f9780,
-        type: 3}
-      propertyPath: m_FOVAxisMode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2771304373096215021, guid: 3e71f16bfdda38f4ba442461db2f9780,
-        type: 3}
-      propertyPath: m_OcclusionCulling
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2771304373096215022, guid: 3e71f16bfdda38f4ba442461db2f9780,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3020,26 +2989,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2908054426891668776, guid: 3e71f16bfdda38f4ba442461db2f9780,
-        type: 3}
-      propertyPath: m_CameraType
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2908054426891668776, guid: 3e71f16bfdda38f4ba442461db2f9780,
-        type: 3}
-      propertyPath: m_RenderPostProcessing
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2908054426891668776, guid: 3e71f16bfdda38f4ba442461db2f9780,
-        type: 3}
-      propertyPath: m_VolumeTrigger
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2908054426891668776, guid: 3e71f16bfdda38f4ba442461db2f9780,
-        type: 3}
-      propertyPath: m_RendererIndex
-      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e71f16bfdda38f4ba442461db2f9780, type: 3}

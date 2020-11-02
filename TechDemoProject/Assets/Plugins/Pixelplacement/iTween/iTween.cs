@@ -3281,6 +3281,10 @@ public class iTween : MonoBehaviour
 		if(tweenArguments.Contains("volume")){
 			audioSource.volume=(float)tweenArguments["volume"];
 		}
+		if (tweenArguments.Contains("loop"))
+		{
+			audioSource.loop = (bool) tweenArguments["loop"];
+		}
 			
 		//set run time based on length of clip after pitch is augmented
 		time=audioSource.clip.length/audioSource.pitch;

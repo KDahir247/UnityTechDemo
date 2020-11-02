@@ -34,8 +34,10 @@ namespace Tech.Core
                 .Where(nullableObj => nullableObj != null)
                 .Subscribe(obj =>
                 {
-                    if (obj.TryGetComponent(out Button button) && obj.CompareTag("State"))
-                        _states[Index].gameObject.GetComponent<AudioSource>().DOFade(0, 2).onComplete += () =>
+                    if (obj.TryGetComponent(out Button button) && obj.CompareTag(_states[Index].key))
+                        _states[Index].gameObject.GetComponent<AudioSource>().DOFade(0, 2)
+                            .SetEase(_states[Index].fadeOutEase)
+                            .onComplete += () =>
                         {
                             if (Index == _states.Count)
                             {
