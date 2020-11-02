@@ -79,4 +79,6 @@ Remove AnimationController for Custom Shader using Shader graph in main menu (Le
 Add functionality to top right buttons on main menu
 <br/>
 update the version in main menu so it reflect the Application version
+<br/>
+restructure custom packages to suit my project (ITween, ITweenExtension, Surge)
 
