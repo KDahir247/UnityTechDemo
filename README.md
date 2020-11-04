@@ -13,7 +13,12 @@ Mathametics,
 unity physics, havok physics, and
 Shadergraph,
 Universal RP,
-Device Simulator
+Device Simulator,
+Cinemachine,
+Hybrid Renderer,
+UI Builder,
+UI Toolkit
+
 <br />
 
 Packages using
@@ -23,7 +28,10 @@ Dotween,
 ZLogger, 
 ITween,
 ITweenExtension,
-Surge, and
+Surge,
+Castle Core,
+Moq,
+Photon 2,and
 ZString
 
 <br />
@@ -75,13 +83,15 @@ Game (Game scene will be the only Scene that will have ECS and DOTS Logic to dri
 <br/>
 TODO:
 <br/>
-Remove PostProcess Volume for Custom Shader using Shader graph in main menu.
-<br/>
-Remove AnimationController for Custom Shader using Shader graph in main menu (Lerp)
+Remove AnimationController for Custom Shader using Shader graph in main menu (Lerp) 
 <br/>
 Add functionality to top right buttons on main menu
 <br/>
 update the version in main menu so it reflect the Application version
 <br/>
 restructure custom packages to suit my project (ITween, ITweenExtension, Surge)
+<br/>
+replace all canvas (Unity classic UI system) with UI Document (Unity's newer UI System). Since it is customizable and more scalable.
+<br/>
+replace all animator in scene with kinematica animator.
 
