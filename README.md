@@ -54,6 +54,8 @@ Editor Log can take two format type Exception Format and Prefix Format
 
 Menu Layout
 <br/>
+<br/>
+Youtube video on current development
 [![Watch the video](https://github.com/KDahir247/UnityTechDemo/blob/main/TechDemoProject/Assets/Images/2020.11.03-21.59.png)](https://www.youtube.com/watch?v=N7ExiAEQPE4&feature=youtu.be)
 
 
