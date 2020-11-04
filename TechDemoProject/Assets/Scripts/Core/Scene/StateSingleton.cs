@@ -2,12 +2,10 @@
 using Cysharp.Threading.Tasks;
 using DG.Tweening;
 using Pixelplacement;
-using Tech.scenestate;
+using Tech.Event;
 using UniRx;
 using UnityEngine;
-using UnityEngine.EventSystems;
 using UnityEngine.Serialization;
-using UnityEngine.UI;
 
 namespace Tech.Core
 {
@@ -30,28 +28,26 @@ namespace Tech.Core
 
         private void Start()
         {
-            EventSystem.current.ObserveEveryValueChanged(eventSystem => eventSystem.currentSelectedGameObject)
-                .Where(nullableObj => nullableObj != null)
-                .Subscribe(obj =>
-                {
-                    if (obj.TryGetComponent(out Button button) && obj.CompareTag(_states[Index].key))
-                        _states[Index].gameObject.GetComponent<AudioSource>().DOFade(0, 2)
-                            .SetEase(_states[Index].fadeOutEase)
-                            .onComplete += () =>
+            TouchTrigger.TouchTriggerAsObservable().Subscribe(val =>
+            {
+                if (val.Key == _states[Index].key)
+                    _states[Index].gameObject.GetComponent<AudioSource>().DOFade(0, _states[Index].fadeOutTime)
+                        .SetEase(_states[Index].fadeOutEase)
+                        .onComplete += () =>
+                    {
+                        if (Index == _states.Count)
                         {
-                            if (Index == _states.Count)
-                            {
-                                Index = 0;
-                                SceneAddress.SceneLoadByNameOrLabel(_states[Index].onNextScene).Forget();
-                                Machine.ChangeState(Index);
-                            }
-                            else
-                            {
-                                SceneAddress.SceneLoadByNameOrLabel(_states[Index++].onNextScene).Forget();
-                                Machine.Next();
-                            }
-                        };
-                }).AddTo(this);
+                            Index = 0;
+                            SceneAddress.SceneLoadByNameOrLabel(_states[Index].onNextScene).Forget();
+                            Machine.ChangeState(Index);
+                        }
+                        else
+                        {
+                            SceneAddress.SceneLoadByNameOrLabel(_states[Index++].onNextScene).Forget();
+                            Machine.Next();
+                        }
+                    };
+            }).AddTo(this);
         }
     }
 }

@@ -83,7 +83,7 @@ namespace Tech.Core
 
         public static ILogger<T> GetLogger<T>() where T : class
         {
-            return LoggerFactory.CreateLogger<T>();
+            return LoggerFactory?.CreateLogger<T>();
         }
 
         public static ILogger GetLogger(string category)

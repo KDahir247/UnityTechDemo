@@ -11,6 +11,7 @@ using UnityEngine;
 
 namespace Pixelplacement
 {
+    //TODO redesign this class to fit project scope
     public class State : MonoBehaviour
     {
         //Private Variables:

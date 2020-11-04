@@ -7,21 +7,19 @@
 /// 
 /// </summary>
 
-using UnityEngine;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEditor;
+using UnityEngine;
 
 namespace Pixelplacement
 {
-    [CustomEditor (typeof (StateMachine), true)]
-    public class StateMachineEditor : Editor 
+    [CustomEditor(typeof(StateMachine), true)]
+    public class StateMachineEditor : Editor
     {
         //Private Variables:
-        StateMachine _target;
+        private StateMachine _target;
 
         //Init:
-        void OnEnable()
+        private void OnEnable()
         {
             _target = target as StateMachine;
         }
@@ -37,28 +35,13 @@ namespace Pixelplacement
             }
 
             //change buttons:
-            if (EditorApplication.isPlaying)
-            {
-                DrawStateChangeButtons();
-            }
+            if (EditorApplication.isPlaying) DrawStateChangeButtons();
 
             serializedObject.Update();
 
-            DrawPropertiesExcluding(serializedObject, new string[] {
-                "currentState",
-                "_unityEventsFolded",
-                "defaultState",
-                "verbose",
-                "allowReentry",
-                "returnToDefaultOnDisable",
-                "Unity Events",
-                "OnStateExited",
-                "OnStateEntered",
-                "OnFirstStateEntered",
-                "OnFirstStateExited",
-                "OnLastStateEntered",
-                "OnLastStateExited"
-            });
+            DrawPropertiesExcluding(serializedObject, "currentState", "_unityEventsFolded", "defaultState", "verbose",
+                "allowReentry", "returnToDefaultOnDisable", "Unity Events", "OnStateExited", "OnStateEntered",
+                "OnFirstStateEntered", "OnFirstStateExited", "OnLastStateEntered", "OnLastStateExited");
 
             EditorGUILayout.PropertyField(serializedObject.FindProperty("defaultState"));
             EditorGUILayout.PropertyField(serializedObject.FindProperty("verbose"));
@@ -79,55 +62,47 @@ namespace Pixelplacement
 
             serializedObject.ApplyModifiedProperties();
 
-            if (!EditorApplication.isPlaying)
-            {
-                DrawHideAllButton();
-            }
+            if (!EditorApplication.isPlaying) DrawHideAllButton();
         }
 
         //GUI Draw Methods:
-        void DrawStateChangeButtons()
+        private void DrawStateChangeButtons()
         {
             if (_target.transform.childCount == 0) return;
-            Color currentColor = GUI.color;
-            for (int i = 0; i < _target.transform.childCount; i++)
+            var currentColor = GUI.color;
+            for (var i = 0; i < _target.transform.childCount; i++)
             {
-                GameObject current = _target.transform.GetChild(i).gameObject;
+                var current = _target.transform.GetChild(i).gameObject;
 
-                if (_target.currentState != null && current == _target.currentState)
-                {
+                if (_target.currentState != null && current == _target.currentState.Value)
                     GUI.color = Color.green;
-                }
                 else
-                {
                     GUI.color = Color.white;
-                }
 
                 if (GUILayout.Button(current.name)) _target.ChangeState(current);
             }
+
             GUI.color = currentColor;
             if (GUILayout.Button("Exit")) _target.Exit();
         }
 
-        void DrawHideAllButton()
+        private void DrawHideAllButton()
         {
             GUI.color = Color.red;
             GUILayout.BeginHorizontal();
             if (GUILayout.Button("Hide All"))
             {
                 Undo.RegisterCompleteObjectUndo(_target.transform, "Hide All");
-                foreach (Transform item in _target.transform)
-                {
-                    item.gameObject.SetActive(false);
-                }
+                foreach (Transform item in _target.transform) item.gameObject.SetActive(false);
             }
+
             GUILayout.EndHorizontal();
             GUI.color = Color.white;
         }
 
-        void DrawNotification(string message, Color color)
+        private void DrawNotification(string message, Color color)
         {
-            Color currentColor = GUI.color;
+            var currentColor = GUI.color;
             GUI.color = color;
             EditorGUILayout.HelpBox(message, MessageType.Warning);
             GUI.color = currentColor;

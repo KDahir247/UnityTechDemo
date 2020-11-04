@@ -5,6 +5,7 @@ using UnityEngine;
 
 namespace Tech.Authoring
 {
+    //Uses Kinematic Query to handle complex animation used in game scene
     [DisallowMultipleComponent]
     [RequiresEntityConversion]
     public class PlayerAuthoring : MonoBehaviour, IConvertGameObjectToEntity

@@ -7,211 +7,231 @@
 /// 
 /// </summary>
 
+//TODO redesign this class to fit project scope
 // Used to disable the lack of usage of the exception in a try/catch:
+
 #pragma warning disable 168
 
+using Tech.Core;
+using UniRx;
 using UnityEngine;
-using System.Collections;
-using System.Collections.Generic;
-using System;
 using UnityEngine.Events;
+using UnityEngine.Serialization;
+using ZLogger;
+using ILogger = Microsoft.Extensions.Logging.ILogger;
 
 namespace Pixelplacement
 {
-    [RequireComponent (typeof (Initialization))]
-    public class StateMachine : MonoBehaviour 
+    [RequireComponent(typeof(Initialization))]
+    public class StateMachine : MonoBehaviour
     {
-        //Public Variables:
-        public GameObject defaultState;
-        public GameObject currentState;
+        private bool _atFirst;
+        private bool _atLast;
+
+        //Private Variables:
+        private bool _initialized;
+
+        [FormerlySerializedAs("OnStateChanged")]
         public bool _unityEventsFolded;
 
         /// <summary>
-        /// Should log messages be thrown during usage?
-        /// </summary>
-        [Tooltip("Should log messages be thrown during usage?")]
-        public bool verbose = true;
-
-        /// <summary>
-        /// Can States within this StateMachine be reentered?
+        ///     Can States within this StateMachine be reentered?
         /// </summary>
         [Tooltip("Can States within this StateMachine be reentered?")]
-        public bool allowReentry = false;
+        public bool allowReentry;
 
-        /// <summary>
-        /// Return to default state on disable?
-        /// </summary>
-        [Tooltip("Return to default state on disable?")]
-        public bool returnToDefaultOnDisable = true;
+        public ReactiveProperty<GameObject> currentState;
 
-        //Publice Events:
-        public GameObjectEvent OnStateExited;
-        public GameObjectEvent OnStateEntered;
+
+        //Public Variables:
+        public GameObject defaultState;
+        private readonly ILogger Logger = LogManager.Logger;
         public UnityEvent OnFirstStateEntered;
         public UnityEvent OnFirstStateExited;
         public UnityEvent OnLastStateEntered;
         public UnityEvent OnLastStateExited;
+        public GameObjectEvent OnStateEntered;
+
+        //Publice Events:
+        public GameObjectEvent OnStateExited;
+
+        /// <summary>
+        ///     Return to default state on disable?
+        /// </summary>
+        [Tooltip("Return to default state on disable?")]
+        public bool returnToDefaultOnDisable = true;
+
+        /// <summary>
+        ///     Should log messages be thrown during usage?
+        /// </summary>
+        [Tooltip("Should log messages be thrown during usage?")]
+        public bool verbose = true;
+
 
         //Public Properties:
         /// <summary>
-        /// Internal flag used to determine if the StateMachine is set up properly.
+        ///     Internal flag used to determine if the StateMachine is set up properly.
         /// </summary>
-        public bool CleanSetup 
-        { 
-            get; 
-            private set; 
-        }
+        public bool CleanSetup { get; private set; }
 
         /// <summary>
-        /// Are we at the first state in this state machine.
+        ///     Are we at the first state in this state machine.
         /// </summary>
         public bool AtFirst
         {
-            get
-            {
-                return _atFirst;
-            }
+            get => _atFirst;
 
             private set
             {
                 if (_atFirst)
                 {
                     _atFirst = false;
-                    if (OnFirstStateExited != null) OnFirstStateExited.Invoke ();
-                } else {
+                    if (OnFirstStateExited != null) OnFirstStateExited.Invoke();
+                }
+                else
+                {
                     _atFirst = true;
-                    if (OnFirstStateEntered != null) OnFirstStateEntered.Invoke ();
+                    if (OnFirstStateEntered != null) OnFirstStateEntered.Invoke();
                 }
             }
         }
 
         /// <summary>
-        /// Are we at the last state in this state machine.
+        ///     Are we at the last state in this state machine.
         /// </summary>
         public bool AtLast
         {
-            get
-            {
-                return _atLast;
-            }
+            get => _atLast;
 
             private set
             {
                 if (_atLast)
                 {
                     _atLast = false;
-                    if (OnLastStateExited != null) OnLastStateExited.Invoke ();
-                } else {
+                    if (OnLastStateExited != null) OnLastStateExited.Invoke();
+                }
+                else
+                {
                     _atLast = true;
-                    if (OnLastStateEntered != null) OnLastStateEntered.Invoke ();
+                    if (OnLastStateEntered != null) OnLastStateEntered.Invoke();
                 }
             }
         }
 
-        //Private Variables:
-        bool _initialized;
-        bool _atFirst;
-        bool _atLast;
-
         //Public Methods:
         /// <summary>
-        /// Change to the next state if possible.
+        ///     Change to the next state if possible.
         /// </summary>
-        public GameObject Next ()
+        public GameObject Next()
         {
-            if (currentState == null) return ChangeState (0);
-            int currentIndex = currentState.transform.GetSiblingIndex();
+            if (currentState.Value == null) return ChangeState(0);
+            var currentIndex = currentState.Value.transform.GetSiblingIndex();
+
             if (currentIndex == transform.childCount - 1)
-            {
-                return currentState;	
-            }else{
-                return ChangeState (++currentIndex);
-            }
+                return currentState.Value;
+            return ChangeState(++currentIndex);
         }
 
         /// <summary>
-        /// Change to the previous state if possible.
+        ///     Change to the previous state if possible.
         /// </summary>
-        public GameObject Previous ()
+        public GameObject Previous()
         {
-            if (currentState == null) return ChangeState(0);
-            int currentIndex = currentState.transform.GetSiblingIndex();
+            if (currentState.Value == null) return ChangeState(0);
+            var currentIndex = currentState.Value.transform.GetSiblingIndex();
             if (currentIndex == 0)
-            {
-                return currentState;	
-            }else{
-                return ChangeState(--currentIndex);
-            }
+                return currentState.Value;
+            return ChangeState(--currentIndex);
         }
 
         /// <summary>
-        /// Exit the current state.
+        ///     Exit the current state.
         /// </summary>
-        public void Exit ()
+        public void Exit()
         {
-            if (currentState == null) return;
-            Log ("(-) " + name + " EXITED state: " + currentState.name);
-            int currentIndex = currentState.transform.GetSiblingIndex ();
+            if (currentState.Value == null) return;
+            Log("(-) " + name + " EXITED state: " + currentState.Value.name);
+            var currentIndex = currentState.Value.transform.GetSiblingIndex();
 
             //no longer at first:
             if (currentIndex == 0) AtFirst = false;
 
             //no longer at last:
-            if (currentIndex == transform.childCount - 1) AtLast = false;	
+            if (currentIndex == transform.childCount - 1) AtLast = false;
 
-            if (OnStateExited != null) OnStateExited.Invoke (currentState);
-            currentState.SetActive (false);
-            currentState = null;
+            if (OnStateExited != null) OnStateExited.Invoke(currentState.Value);
+            currentState.Value.SetActive(false);
+            currentState.Value = null;
         }
 
         /// <summary>
-        /// Changes the state.
+        ///     Changes the state.
         /// </summary>
-        public GameObject ChangeState (int childIndex)
+        public GameObject ChangeState(int childIndex)
         {
-            if (childIndex > transform.childCount-1)
+            if (childIndex > transform.childCount - 1)
             {
-                Log("Index is greater than the amount of states in the StateMachine \"" + gameObject.name + "\" please verify the index you are trying to change to.");
+                Log("Index is greater than the amount of states in the StateMachine \"" + gameObject.name +
+                    "\" please verify the index you are trying to change to.");
                 return null;
             }
+
             return ChangeState(transform.GetChild(childIndex).gameObject);
         }
 
         /// <summary>
-        /// Changes the state.
+        ///     Changes the state.
         /// </summary>
-        public GameObject ChangeState (GameObject state)
+        public GameObject ChangeState(GameObject state)
         {
-            if (currentState != null)
-            {
-                if (!allowReentry && state == currentState)
+            if (currentState.Value != null)
+                if (!allowReentry && state == currentState.Value)
                 {
-                    Log("State change ignored. State machine \"" + name + "\" already in \"" + state.name + "\" state.");
+                    Log("State change ignored. State machine \"" + name + "\" already in \"" + state.name +
+                        "\" state.");
                     return null;
                 }
-            }
 
             if (state.transform.parent != transform)
             {
-                Log("State \"" + state.name + "\" is not a child of \"" + name + "\" StateMachine state change canceled.");
+                Log("State \"" + state.name + "\" is not a child of \"" + name +
+                    "\" StateMachine state change canceled.");
                 return null;
             }
 
             Exit();
             Enter(state);
 
-            return currentState;
+            return currentState.Value;
         }
 
-        /// <summary>
-        /// Changes the state.
-        /// </summary>
-        public GameObject ChangeState (string state)
+
+        public void ChangeStateNoReturn(int index)
         {
-            Transform found = transform.Find(state);
+            ChangeState(index);
+        }
+
+        public void ChangeStateNoReturn(GameObject state)
+        {
+            ChangeState(state);
+        }
+
+        public void ChangeStateNoReturn(string state)
+        {
+            ChangeState(state);
+        }
+
+
+        /// <summary>
+        ///     Changes the state.
+        /// </summary>
+        public GameObject ChangeState(string state)
+        {
+            var found = transform.Find(state);
             if (!found)
             {
-                Log("\"" + name + "\" does not contain a state by the name of \"" + state + "\" please verify the name of the state you are trying to reach.");
+                Log("\"" + name + "\" does not contain a state by the name of \"" + state +
+                    "\" please verify the name of the state you are trying to reach.");
                 return null;
             }
 
@@ -219,53 +239,44 @@ namespace Pixelplacement
         }
 
         /// <summary>
-        /// Internally used within the framework to auto start the state machine.
+        ///     Internally used within the framework to auto start the state machine.
         /// </summary>
         public void Initialize()
         {
             //turn off all states:
-            for (int i = 0; i < transform.childCount; i++)
-            {
-                transform.GetChild(i).gameObject.SetActive(false);
-            }
+            for (var i = 0; i < transform.childCount; i++) transform.GetChild(i).gameObject.SetActive(false);
         }
-        
+
         /// <summary>
-        /// Internally used within the framework to auto start the state machine.
+        ///     Internally used within the framework to auto start the state machine.
         /// </summary>
-        public void StartMachine ()
+        public void StartMachine()
         {
             //start the machine:
-            if (Application.isPlaying && defaultState != null) ChangeState (defaultState.name);
+            if (Application.isPlaying && defaultState != null) ChangeState(defaultState.name);
         }
 
         //Private Methods:
-        void Enter (GameObject state)
+        private void Enter(GameObject state)
         {
-            currentState = state;
-            int index = currentState.transform.GetSiblingIndex ();
+            currentState.Value = state;
+            var index = currentState.Value.transform.GetSiblingIndex();
 
             //entering first:
-            if (index == 0)
-            {
-                AtFirst = true;
-            }
+            if (index == 0) AtFirst = true;
 
             //entering last:
-            if (index == transform.childCount - 1)
-            {
-                AtLast = true;	
-            }
+            if (index == transform.childCount - 1) AtLast = true;
 
-            Log( "(+) " + name + " ENTERED state: " + state.name);
-            if (OnStateEntered != null) OnStateEntered.Invoke (currentState);
-            currentState.SetActive (true);
+            Log("(+) " + name + " ENTERED state: " + state.name);
+            if (OnStateEntered != null) OnStateEntered.Invoke(currentState.Value);
+            currentState.Value.SetActive(true);
         }
 
-        void Log (string message)
+        private void Log(string message)
         {
             if (!verbose) return;
-            Debug.Log (message, gameObject);
+            Logger.ZLogInformation(message, gameObject);
         }
     }
 }

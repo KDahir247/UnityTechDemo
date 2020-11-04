@@ -6,7 +6,7 @@ using UniRx;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.Serialization;
-using Button = UnityEngine.UI.Button;
+using UnityEngine.UI;
 
 namespace Tech.Mono
 {
@@ -19,37 +19,42 @@ namespace Tech.Mono
     [RequireComponent(typeof(Button))]
     public class RotateModel : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     {
-        [FormerlySerializedAs("_rotationDirection")] 
-        [SerializeField]
-        private RotationDirection rotationDirection;
-
-        [FormerlySerializedAs("RotationEase")]
-        [SerializeField]
-        private Ease rotationEase = Ease.Linear;
-        
-        [FormerlySerializedAs("_stateMachine")]
-        [SerializeField]
-        private StateMachine stateMachine;
+        private GameObject _currentPlayerState;
 
         private bool _isHeld;
 
-        [FormerlySerializedAs("rotationSpeed")]
-        [FormerlySerializedAs("RotationSpeed")]
-        [SerializeField]
-        private  float rotationSensitivity = 3;
-
-        [SerializeField]
-        private float rotationDuration = 1;
-        
         private TweenerCore<Quaternion, Vector3, QuaternionOptions> _rotationTween;
-        private GameObject _currentPlayerState;
+
+        [FormerlySerializedAs("_rotationDirection")] [SerializeField]
+        private RotationDirection rotationDirection;
+
+        [SerializeField] private float rotationDuration = 1;
+
+        [FormerlySerializedAs("RotationEase")] [SerializeField]
+        private Ease rotationEase = Ease.Linear;
+
+        [FormerlySerializedAs("rotationSpeed")] [FormerlySerializedAs("RotationSpeed")] [SerializeField]
+        private float rotationSensitivity = 3;
+
+        [FormerlySerializedAs("_stateMachine")] [SerializeField]
+        private StateMachine stateMachine;
+
+        public void OnPointerDown(PointerEventData eventData)
+        {
+            Debug.Log("pressed");
+            _isHeld = true;
+        }
+
+        public void OnPointerUp(PointerEventData eventData)
+        {
+            _isHeld = false;
+        }
+
         private void Start()
         {
-            _currentPlayerState = stateMachine.currentState;
-            stateMachine.ObserveEveryValueChanged(machine => machine.currentState).Subscribe(state =>
+            stateMachine.ObserveEveryValueChanged(machine => machine.currentState.Value).Subscribe(state =>
             {
                 _rotationTween?.Kill();
-                _currentPlayerState.gameObject.transform.eulerAngles = new Vector3(0, 180, 0);
                 _currentPlayerState = state;
             }).AddTo(this);
         }
@@ -57,22 +62,12 @@ namespace Tech.Mono
         private void Update()
         {
             if (_isHeld)
-            {
                 _rotationTween = _currentPlayerState.transform
-                    .DORotate((rotationDirection == RotationDirection.Right ? Vector3.down : Vector3.up) * rotationSensitivity, rotationDuration,
+                    .DORotate(
+                        (rotationDirection == RotationDirection.Right ? Vector3.down : Vector3.up) *
+                        rotationSensitivity, rotationDuration,
                         RotateMode.WorldAxisAdd).SetEase(rotationEase)
                     .Play();
-            }
-        }
-
-        public void OnPointerDown(PointerEventData eventData)
-        {
-            _isHeld = true;
-        }
-
-        public void OnPointerUp(PointerEventData eventData)
-        {
-            _isHeld = false;
         }
     }
 }

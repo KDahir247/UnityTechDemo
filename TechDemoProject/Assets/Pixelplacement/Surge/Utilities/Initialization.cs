@@ -7,21 +7,21 @@
 /// 
 /// </summary>
 
-using UnityEngine;
-using System.Collections;
-using System;
 using System.Reflection;
+using UnityEngine;
 
 namespace Pixelplacement
 {
+    //Todo modify this to the scope of the project
     public class Initialization : MonoBehaviour
     {
+        private DisplayObject _displayObject;
+
         //Private Variables:
-        StateMachine _stateMachine;
-        DisplayObject _displayObject;
+        private StateMachine _stateMachine;
 
         //Init:
-        void Awake()
+        private void Awake()
         {
             //singleton initialization:
             InitializeSingleton();
@@ -37,14 +37,14 @@ namespace Pixelplacement
             if (_stateMachine != null) _stateMachine.Initialize();
         }
 
-        void Start()
+        private void Start()
         {
             //state machine start:
             if (_stateMachine != null) _stateMachine.StartMachine();
         }
 
         //Deinit:
-        void OnDisable()
+        private void OnDisable()
         {
             if (_stateMachine != null)
             {
@@ -56,17 +56,15 @@ namespace Pixelplacement
                     return;
                 }
 
-                if (_stateMachine.currentState != _stateMachine.defaultState)
-                {
+                if (_stateMachine.currentState.Value != _stateMachine.defaultState)
                     _stateMachine.ChangeState(_stateMachine.defaultState);
-                }
             }
         }
 
         //Private Methods:
-        void InitializeSingleton()
+        private void InitializeSingleton()
         {
-            foreach (Component item in GetComponents<Component>())
+            foreach (var item in GetComponents<Component>())
             {
                 string baseType;
 
@@ -81,12 +79,13 @@ namespace Pixelplacement
                     MethodInfo m;
 
 #if NETFX_CORE
-                    m = item.GetType ().GetTypeInfo ().BaseType.GetMethod ("Initialize", BindingFlags.NonPublic | BindingFlags.Instance);
+                    m =
+ item.GetType ().GetTypeInfo ().BaseType.GetMethod ("Initialize", BindingFlags.NonPublic | BindingFlags.Instance);
 #else
                     m = item.GetType().BaseType.GetMethod("Initialize", BindingFlags.NonPublic | BindingFlags.Instance);
 #endif
 
-                    m.Invoke(item, new Component[] { item });
+                    m.Invoke(item, new[] {item});
                 }
             }
         }

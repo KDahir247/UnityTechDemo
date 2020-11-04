@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using DG.Tweening;
+using Pixelplacement;
 using Tech.Core;
 using UniRx;
 using UnityEngine;
@@ -23,6 +24,7 @@ namespace Tech.Mono
         // Start is called before the first frame update
         private void Awake()
         {
+            DisplayObject ob;
             DOTween.Init().SetCapacity(200, 25);
 
             MessageBroker.Default
@@ -52,7 +54,7 @@ namespace Tech.Mono
                  _reactiveCollection, new InstantiationParameters(worldPointTouch, Quaternion.identity, null)).Forget();
         }
 #else
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetMouseButtonDown(0) && _camera)
             {
                 var mousePos = Input.mousePosition;
                 mousePos.z = clickVfxDepth;
