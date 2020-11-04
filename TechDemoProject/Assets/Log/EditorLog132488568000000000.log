@@ -2935,3 +2935,243 @@ State change ignored. State machine "SpawnPos" already in "Assassin" state.
 [11/03/2020 21:22:22]
 [Information][11/03/2020 18:00:00]
 Closing Logger and Disposing
+[11/03/2020 21:29:04]
+[Information][11/03/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/03/2020 21:29:04]
+[Information][11/03/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/03/2020 21:29:04]
+[Information][11/03/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/03/2020 21:29:05]
+[Information][11/03/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/03/2020 21:29:10]
+[Information][11/03/2020 18:00:00]
+Closing Logger and Disposing
+[11/03/2020 21:29:24]
+[Information][11/03/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/03/2020 21:29:24]
+[Information][11/03/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/03/2020 21:29:24]
+[Information][11/03/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/03/2020 21:29:25]
+[Information][11/03/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/03/2020 21:30:27]
+[Information][11/03/2020 18:00:00]
+Closing Logger and Disposing
+[11/03/2020 21:30:55]
+[Information][11/03/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/03/2020 21:30:55]
+[Information][11/03/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/03/2020 21:30:55]
+[Information][11/03/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/03/2020 21:30:56]
+[Information][11/03/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/03/2020 21:31:29]
+[Information][11/03/2020 18:00:00]
+Closing Logger and Disposing
+[11/03/2020 21:32:29]
+[Information][11/03/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/03/2020 21:32:29]
+[Information][11/03/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/03/2020 21:32:29]
+[Information][11/03/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/03/2020 21:32:30]
+[Information][11/03/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/03/2020 21:32:33]
+[Information][11/03/2020 18:00:00]
+Closing Logger and Disposing
+[11/03/2020 21:34:06]
+[Information][11/03/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/03/2020 21:34:06]
+[Information][11/03/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/03/2020 21:34:06]
+[Information][11/03/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/03/2020 21:34:07]
+[Information][11/03/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/03/2020 21:34:10]
+[Information][11/03/2020 18:00:00]
+Closing Logger and Disposing
+[11/03/2020 21:34:35]
+[Information][11/03/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/03/2020 21:34:35]
+[Information][11/03/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/03/2020 21:34:35]
+[Information][11/03/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/03/2020 21:34:36]
+[Information][11/03/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/03/2020 21:34:37]
+[Information][11/03/2020 18:00:00]
+Closing Logger and Disposing
+[11/03/2020 21:35:06]
+[Information][11/03/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/03/2020 21:35:06]
+[Information][11/03/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/03/2020 21:35:06]
+[Information][11/03/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/03/2020 21:35:07]
+[Information][11/03/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/03/2020 21:35:30]
+[Information][11/03/2020 18:00:00]
+(-) [Scene State] EXITED state: MenuScene
+[11/03/2020 21:35:30]
+[Information][11/03/2020 18:00:00]
+(+) [Scene State] ENTERED state: CreationScene
+[11/03/2020 21:35:30]
+[Information][11/03/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/03/2020 21:35:52]
+[Information][11/03/2020 18:00:00]
+(-) SpawnPos EXITED state: Assassin
+[11/03/2020 21:35:52]
+[Information][11/03/2020 18:00:00]
+(+) SpawnPos ENTERED state: Necromancer
+[11/03/2020 21:36:10]
+[Information][11/03/2020 18:00:00]
+(-) SpawnPos EXITED state: Necromancer
+[11/03/2020 21:36:10]
+[Information][11/03/2020 18:00:00]
+(+) SpawnPos ENTERED state: Oracle
+[11/03/2020 21:36:29]
+[Information][11/03/2020 18:00:00]
+(-) SpawnPos EXITED state: Oracle
+[11/03/2020 21:36:29]
+[Information][11/03/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/03/2020 21:36:30]
+[Information][11/03/2020 18:00:00]
+(-) SpawnPos EXITED state: Assassin
+[11/03/2020 21:36:30]
+[Information][11/03/2020 18:00:00]
+(+) SpawnPos ENTERED state: Necromancer
+[11/03/2020 21:36:31]
+[Information][11/03/2020 18:00:00]
+(-) SpawnPos EXITED state: Necromancer
+[11/03/2020 21:36:31]
+[Information][11/03/2020 18:00:00]
+(+) SpawnPos ENTERED state: Oracle
+[11/03/2020 21:36:32]
+[Information][11/03/2020 18:00:00]
+(-) SpawnPos EXITED state: Oracle
+[11/03/2020 21:36:32]
+[Information][11/03/2020 18:00:00]
+(+) SpawnPos ENTERED state: Necromancer
+[11/03/2020 21:36:34]
+[Information][11/03/2020 18:00:00]
+(-) SpawnPos EXITED state: Necromancer
+[11/03/2020 21:36:34]
+[Information][11/03/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/03/2020 21:36:51]
+[Information][11/03/2020 18:00:00]
+Closing Logger and Disposing
+[11/03/2020 21:39:12]
+[Information][11/03/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/03/2020 21:39:12]
+[Information][11/03/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/03/2020 21:39:12]
+[Information][11/03/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/03/2020 21:39:13]
+[Information][11/03/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/03/2020 21:39:41]
+[Information][11/03/2020 18:00:00]
+(-) [Scene State] EXITED state: MenuScene
+[11/03/2020 21:39:41]
+[Information][11/03/2020 18:00:00]
+(+) [Scene State] ENTERED state: CreationScene
+[11/03/2020 21:39:41]
+[Information][11/03/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/03/2020 21:40:13]
+[Information][11/03/2020 18:00:00]
+(-) SpawnPos EXITED state: Assassin
+[11/03/2020 21:40:13]
+[Information][11/03/2020 18:00:00]
+(+) SpawnPos ENTERED state: Necromancer
+[11/03/2020 21:40:32]
+[Information][11/03/2020 18:00:00]
+(-) SpawnPos EXITED state: Necromancer
+[11/03/2020 21:40:32]
+[Information][11/03/2020 18:00:00]
+(+) SpawnPos ENTERED state: Oracle
+[11/03/2020 21:41:50]
+[Information][11/03/2020 18:00:00]
+Closing Logger and Disposing
+[11/03/2020 21:45:41]
+[Information][11/03/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/03/2020 21:45:41]
+[Information][11/03/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/03/2020 21:45:41]
+[Information][11/03/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/03/2020 21:45:42]
+[Information][11/03/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/03/2020 21:46:47]
+[Information][11/03/2020 18:00:00]
+(-) [Scene State] EXITED state: MenuScene
+[11/03/2020 21:46:47]
+[Information][11/03/2020 18:00:00]
+(+) [Scene State] ENTERED state: CreationScene
+[11/03/2020 21:46:47]
+[Information][11/03/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/03/2020 21:47:20]
+[Information][11/03/2020 18:00:00]
+(-) SpawnPos EXITED state: Assassin
+[11/03/2020 21:47:20]
+[Information][11/03/2020 18:00:00]
+(+) SpawnPos ENTERED state: Necromancer
+[11/03/2020 21:47:42]
+[Information][11/03/2020 18:00:00]
+(-) SpawnPos EXITED state: Necromancer
+[11/03/2020 21:47:42]
+[Information][11/03/2020 18:00:00]
+(+) SpawnPos ENTERED state: Oracle
+[11/03/2020 21:49:08]
+[Information][11/03/2020 18:00:00]
+Closing Logger and Disposing
+[11/03/2020 21:58:54]
+[Information][11/03/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/03/2020 21:58:54]
+[Information][11/03/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/03/2020 21:58:54]
+[Information][11/03/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/03/2020 21:58:54]
+[Information][11/03/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene

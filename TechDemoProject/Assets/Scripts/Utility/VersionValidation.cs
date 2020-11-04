@@ -19,7 +19,7 @@ namespace Tech.Utility
             }
         }
 
-        public void PrintVersion()
+        public void Awake()
         {
             GlobalSetting<VersionValidation>.ReactiveVersion.SubscribeToText(versionText);
         }

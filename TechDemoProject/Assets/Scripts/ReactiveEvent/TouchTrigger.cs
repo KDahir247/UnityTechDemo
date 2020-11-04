@@ -140,7 +140,6 @@ namespace Tech.Event
             if (_touchSubject != null)
             {
                 _touchSubject.OnCompleted();
-                _touchSubject.Dispose();
             }
         }
     }
