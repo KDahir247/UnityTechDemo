@@ -1,10 +1,12 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <ui:Template name="MainMenu_Document" src="MainMenu_Document.uxml" />
-    <ui:Template name="Option_Document" src="Option_Document.uxml" />
     <ui:Template name="Support_Document" src="Support_Document.uxml" />
+    <ui:Template name="Option_Document" src="Option_Document.uxml" />
+    <ui:Template name="MainMenu_Document" src="MainMenu_Document.uxml" />
     <ui:Template name="News_Document" src="News_Document.uxml" />
-    <ui:Instance template="MainMenu_Document" name="MainMenu_Document" />
-    <ui:Instance template="Option_Document" name="Option_Document" style="display: none;" />
-    <ui:Instance template="Support_Document" name="Support_Document" style="display: none;" />
-    <ui:Instance template="News_Document" name="News_Document" style="display: none;" />
+    <Tech.UI.Panel.TitleScreen_Document>
+        <ui:Instance template="Support_Document" name="Support_Document" style="display: none;" />
+        <ui:Instance template="Option_Document" name="Option_Document" style="display: none;" />
+        <ui:Instance template="MainMenu_Document" name="MainMenu_Document" style="display: flex;" />
+        <ui:Instance template="News_Document" name="News_Document" style="display: none;" />
+    </Tech.UI.Panel.TitleScreen_Document>
 </ui:UXML>

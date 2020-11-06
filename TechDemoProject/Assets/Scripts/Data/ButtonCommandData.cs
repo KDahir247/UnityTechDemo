@@ -1,5 +1,6 @@
 ﻿namespace Tech.Data
 {
+    //TODO Remove
     public enum ButtonCommand
     {
         None,
