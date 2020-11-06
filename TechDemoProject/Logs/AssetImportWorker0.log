@@ -1,0 +1,198 @@
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-kdahi" (connect: 0.00s, validation: 0.00s, handshake: 0.65s)
+Entitlement-based licensing initiated
+[LicensingClient] Licenses updated successfully
+
+LICENSE SYSTEM [2020115 21:18:30] Next license update check is after 2020-10-28T15:05:18
+
+
+LICENSE SYSTEM [2020115 21:18:30] Current license is already valid and activated. Skipping license activation process (Provided username/password will be ignored).
+Built from '2020.1/release' branch; Version is '2020.1.3f1 (cf5c4788e1d8) revision 13589575'; Using compiler version '192227905'; Build Type 'Release'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 65465 MB
+[Licensing::Module] Serial number assigned to: "F4-JA4R-Y2C5-8D6G-MZPH-XXXX"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.1.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/kdahi/OneDrive/Documents/Unity/TechDemo/TechDemoProject
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54505
+Successfully changed project path to: C:/Users/kdahi/OneDrive/Documents/Unity/TechDemo/TechDemoProject
+C:/Users/kdahi/OneDrive/Documents/Unity/TechDemo/TechDemoProject
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 138.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.1.3f1 (cf5c4788e1d8)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.1.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/kdahi/OneDrive/Documents/Unity/TechDemo/TechDemoProject/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 5700 XT (ID=0x731f)
+    Vendor:   
+    VRAM:     8152 MB
+    Driver:   27.20.12033.1007
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.1.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.1.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56376
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.3f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.3f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.3f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.3f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.3f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.3f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.3f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
+Registered in 0.004637 seconds.
+Native extension for Lumin target not found
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for AppleTV target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 112.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.082 seconds
+Registering precompiled user dll's ...
+Registered in 0.221870 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoProject\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for Lumin target not found
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 142.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.671 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6007 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 329.9 MB.
+System memory in use after: 330.2 MB.
+
+Unloading 56 unused Assets to reduce memory usage. Loaded Objects now: 6470.
+Total: 5.234200 ms (FindLiveObjects: 0.975600 ms CreateObjectMapping: 0.309800 ms MarkObjects: 3.906200 ms  DeleteObjects: 0.040700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/SceneDependencyCache/e633fa4b68a67ebacaa1763d484424ff.sceneWithBuildSettings
+  artifactKey: Guid(e633fa4b68a67ebacaa1763d484424ff) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/e633fa4b68a67ebacaa1763d484424ff.sceneWithBuildSettings using Guid(e633fa4b68a67ebacaa1763d484424ff) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/Game/AdventureSubScene.unity additively'
+Loaded scene 'Assets/Scenes/Game/AdventureSubScene.unity'
+	Deserialize:            0.526 ms
+	Integration:            1.019 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       19.128 ms
+	Total Operation Time:   20.677 ms
+ -> (target hash: '4dc904b3454c8fba06c2bd78345252a6') in 1.074535 seconds
+  Import took 1.089667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 114.643304 seconds.
+  path: Assets/SceneDependencyCache/a0f54816ec35249553490dd39b271c5e.sceneWithBuildSettings
+  artifactKey: Guid(a0f54816ec35249553490dd39b271c5e) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/a0f54816ec35249553490dd39b271c5e.sceneWithBuildSettings using Guid(a0f54816ec35249553490dd39b271c5e) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/Game/SummoningSubScene.unity additively'
+Loaded scene 'Assets/Scenes/Game/SummoningSubScene.unity'
+	Deserialize:            0.419 ms
+	Integration:            0.232 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       19.599 ms
+	Total Operation Time:   20.252 ms
+ -> (target hash: 'd3dc885ce21ad9d27acb5a6c600f1e35') in 0.055532 seconds
+  Import took 0.068938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.277763 seconds.
+  path: Assets/SceneDependencyCache/0b45bc00ff3f9a1065e9d6e5e13bdc70.sceneWithBuildSettings
+  artifactKey: Guid(0b45bc00ff3f9a1065e9d6e5e13bdc70) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/0b45bc00ff3f9a1065e9d6e5e13bdc70.sceneWithBuildSettings using Guid(0b45bc00ff3f9a1065e9d6e5e13bdc70) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/Game/EquipmentSubScene.unity additively'
+Loaded scene 'Assets/Scenes/Game/EquipmentSubScene.unity'
+	Deserialize:            0.395 ms
+	Integration:            0.340 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       18.719 ms
+	Total Operation Time:   19.458 ms
+ -> (target hash: '05b5e5d4a6c37fc5a0417ec6754ae346') in 0.054430 seconds
+  Import took 0.067172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.823845 seconds.
+  path: Assets/SceneDependencyCache/abb776b535261fda2bbb6409e6842216.sceneWithBuildSettings
+  artifactKey: Guid(abb776b535261fda2bbb6409e6842216) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/abb776b535261fda2bbb6409e6842216.sceneWithBuildSettings using Guid(abb776b535261fda2bbb6409e6842216) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/Game/MissionSubScene.unity additively'
+Loaded scene 'Assets/Scenes/Game/MissionSubScene.unity'
+	Deserialize:            0.386 ms
+	Integration:            0.226 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       18.819 ms
+	Total Operation Time:   19.434 ms
+ -> (target hash: '3cc01dc9eeb89334f4fd568be93b92b5') in 0.054195 seconds
+  Import took 0.067187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.421507 seconds.
+  path: Assets/SceneDependencyCache/3b7420472cec6e91d52e895d4e4a848a.sceneWithBuildSettings
+  artifactKey: Guid(3b7420472cec6e91d52e895d4e4a848a) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/3b7420472cec6e91d52e895d4e4a848a.sceneWithBuildSettings using Guid(3b7420472cec6e91d52e895d4e4a848a) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/Game/CharacterSubScene.unity additively'
+Loaded scene 'Assets/Scenes/Game/CharacterSubScene.unity'
+	Deserialize:            0.385 ms
+	Integration:            0.252 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       18.936 ms
+	Total Operation Time:   19.577 ms
+ -> (target hash: '2c25c3b6c01e3aebe6e7397b887e46d6') in 0.053851 seconds
+  Import took 0.066377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.151960 seconds.
+  path: Assets/SceneDependencyCache/0ba610035854fb0b624b1fcd791c3d9b.sceneWithBuildSettings
+  artifactKey: Guid(0ba610035854fb0b624b1fcd791c3d9b) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/0ba610035854fb0b624b1fcd791c3d9b.sceneWithBuildSettings using Guid(0ba610035854fb0b624b1fcd791c3d9b) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/Game/ShopSubScene.unity additively'
+Loaded scene 'Assets/Scenes/Game/ShopSubScene.unity'
+	Deserialize:            0.357 ms
+	Integration:            0.242 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       19.357 ms
+	Total Operation Time:   19.960 ms
+ -> (target hash: '5167be4b6039032208ad06bbbbf6e9c7') in 0.054236 seconds
+  Import took 0.066705 seconds .
+

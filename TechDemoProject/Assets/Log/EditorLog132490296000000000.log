@@ -1,0 +1,129 @@
+[11/05/2020 19:45:46]
+[Information][11/05/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/05/2020 19:45:46]
+[Information][11/05/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/05/2020 19:45:46]
+[Information][11/05/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/05/2020 19:45:47]
+[Information][11/05/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/05/2020 19:45:54]
+[Information][11/05/2020 18:00:00]
+Closing Logger and Disposing
+[11/05/2020 19:59:23]
+[Information][11/05/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/05/2020 19:59:23]
+[Information][11/05/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/05/2020 19:59:23]
+[Information][11/05/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/05/2020 19:59:24]
+[Information][11/05/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/05/2020 20:01:20]
+[Information][11/05/2020 18:00:00]
+Closing Logger and Disposing
+[11/05/2020 20:25:56]
+[Information][11/05/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/05/2020 20:25:56]
+[Information][11/05/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/05/2020 20:25:56]
+[Information][11/05/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/05/2020 20:25:56]
+[Information][11/05/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/05/2020 20:26:17]
+[Information][11/05/2020 18:00:00]
+Closing Logger and Disposing
+[11/05/2020 20:29:08]
+[Information][11/05/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/05/2020 20:29:08]
+[Information][11/05/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/05/2020 20:29:08]
+[Information][11/05/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/05/2020 20:29:08]
+[Information][11/05/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/05/2020 20:29:11]
+[Information][11/05/2020 18:00:00]
+Closing Logger and Disposing
+[11/05/2020 20:49:51]
+[Information][11/05/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/05/2020 20:49:51]
+[Information][11/05/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/05/2020 20:49:51]
+[Information][11/05/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/05/2020 20:49:51]
+[Information][11/05/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/05/2020 20:49:56]
+[Error][11/05/2020 18:00:00]
+Couldn't find Addressable Scene with the parameter passed through
+[11/05/2020 20:49:56]
+[Information][11/05/2020 18:00:00]
+(-) [Scene State] EXITED state: MenuScene
+[11/05/2020 20:49:56]
+[Information][11/05/2020 18:00:00]
+(+) [Scene State] ENTERED state: CreationScene
+[11/05/2020 20:50:11]
+[Information][11/05/2020 18:00:00]
+Closing Logger and Disposing
+[11/05/2020 21:15:36]
+[Information][11/05/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/05/2020 21:15:36]
+[Information][11/05/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/05/2020 21:15:36]
+[Information][11/05/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/05/2020 21:15:37]
+[Information][11/05/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/05/2020 21:15:44]
+[Information][11/05/2020 18:00:00]
+Closing Logger and Disposing
+[11/05/2020 21:15:59]
+[Information][11/05/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/05/2020 21:15:59]
+[Information][11/05/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/05/2020 21:15:59]
+[Information][11/05/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/05/2020 21:15:59]
+[Information][11/05/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/05/2020 21:16:04]
+[Information][11/05/2020 18:00:00]
+Closing Logger and Disposing
+[11/05/2020 21:16:13]
+[Information][11/05/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/05/2020 21:16:13]
+[Information][11/05/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/05/2020 21:16:13]
+[Information][11/05/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/05/2020 21:16:13]
+[Information][11/05/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/05/2020 21:16:17]
+[Information][11/05/2020 18:00:00]
+Closing Logger and Disposing

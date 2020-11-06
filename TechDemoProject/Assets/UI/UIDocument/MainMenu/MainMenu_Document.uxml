@@ -1,0 +1,20 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="Header_Panel" style="height: 196px; flex-direction: row;">
+        <ui:VisualElement name="Statistic_Panel" style="width: 1025px; margin-left: 0; margin-top: 43px; justify-content: flex-start; align-items: flex-start; padding-left: 130px; font-size: 0;">
+            <ui:Label text="ID. 12345" display-tooltip-when-elided="True" name="ID_Text" style="height: auto; font-size: 45px; color: rgb(219, 198, 198); margin-left: 0; -unity-font: url(&apos;/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Roboto-Bold.ttf&apos;); padding-left: 0; padding-right: 0;" />
+            <ui:Label text="Ver. 0000" display-tooltip-when-elided="True" name="Version_Text" style="height: auto; font-size: 45px; color: rgb(219, 198, 198); margin-left: 0; -unity-font: url(&apos;/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Roboto-Bold.ttf&apos;); padding-left: 0; padding-right: 0; margin-right: 0; align-items: auto;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Selectable_Panel" style="width: 1224px; flex-direction: row; justify-content: flex-end; margin-right: 0; align-items: center; margin-top: 43px; margin-left: 0;">
+            <ui:Button text="&#10;" display-tooltip-when-elided="True" name="Option_Button" style="height: 90px; width: 90px; border-left-color: rgba(255, 255, 255, 0); border-right-color: rgba(255, 255, 255, 0); border-top-color: rgba(255, 255, 255, 0); border-bottom-color: rgba(255, 255, 255, 0); background-color: rgba(88, 88, 88, 0); background-image: url(&apos;/Assets/AssetStore/Simple Vector Icons/PNG icons/UI PNG/Gear.png&apos;); right: 20px; margin-left: 0; margin-right: 0; color: rgba(227, 176, 176, 255); -unity-background-image-tint-color: rgba(219, 198, 198, 255);" />
+            <ui:Button display-tooltip-when-elided="True" name="Support_Button" style="width: 90px; height: 90px; background-image: url(&apos;/Assets/AssetStore/Simple Vector Icons/PSD vector icons/UI PSD/Question.psd&apos;); background-color: rgba(255, 255, 255, 0); border-left-color: rgba(255, 255, 255, 0); border-right-color: rgba(255, 255, 255, 0); border-top-color: rgba(255, 255, 255, 0); border-bottom-color: rgba(255, 255, 255, 0); -unity-background-image-tint-color: rgba(219, 198, 198, 255);" />
+            <ui:Button text="&#10;" display-tooltip-when-elided="True" name="Mail_Button" style="width: 90px; height: 90px; background-image: url(&apos;/Assets/AssetStore/Simple Vector Icons/PNG icons/UI PNG/Letter.png&apos;); -unity-background-scale-mode: stretch-to-fill; background-color: rgba(255, 255, 255, 0); border-left-color: rgba(255, 255, 255, 0); border-right-color: rgba(255, 255, 255, 0); border-top-color: rgba(255, 255, 255, 0); border-bottom-color: rgba(255, 255, 255, 0); left: 20px; margin-right: 63px; -unity-background-image-tint-color: rgba(219, 197, 197, 255);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="Middle_Panel" style="height: 234px;" />
+    <ui:VisualElement name="Footer_Panel" style="height: 972px; align-items: center; justify-content: center; margin-top: 0;">
+        <ui:Label text="burden of the past" display-tooltip-when-elided="True" name="Title_Text" style="height: auto; font-size: 110px; -unity-font: url(&apos;/Assets/Font/endgame/Endgame DEMO.otf&apos;); color: rgba(115, 90, 90, 255); margin-top: 230px;" />
+    </ui:VisualElement>
+    <ui:VisualElement style="height: 228px; align-items: center; margin-bottom: 0;">
+        <ui:Label text="© antidire studio . inc. Developer by khalid dahir KDahir247&#10;" display-tooltip-when-elided="True" style="font-size: 50px; color: rgba(255, 255, 255, 255); -unity-font: resource(&apos;UI Builder/TanksStatsBox/Teko-Regular&apos;); margin-top: 0;" />
+    </ui:VisualElement>
+</ui:UXML>
