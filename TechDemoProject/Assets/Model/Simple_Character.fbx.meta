@@ -22,7 +22,7 @@ ModelImporter:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
     resampleCurves: 1
-    optimizeGameObjects: 1
+    optimizeGameObjects: 0
     motionNodeName: 
     rigImportErrors: 
     rigImportWarnings: 
@@ -192,6 +192,6 @@ ModelImporter:
   humanoidOversampling: 1
   avatarSetup: 1
   additionalBone: 0
-  userData: ClipVersion=21,
+  userData: ClipVersion=22,
   assetBundleName: 
   assetBundleVariant: 

@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="MainMenu_Panel" src="MainMenu_Panel.uxml" />
+    <ui:Template name="News_Panel" src="News_Panel.uxml" />
+    <ui:Template name="Option_Panel" src="Option_Panel.uxml" />
+    <ui:Template name="Support_Panel" src="Support_Panel.uxml" />
+    <ui:Instance template="MainMenu_Panel" name="MainMenu_Panel" />
+    <ui:Instance template="News_Panel" name="News_Panel" style="display: none;" />
+    <ui:Instance template="Option_Panel" name="Option_Panel" style="display: none;" />
+    <ui:Instance template="Support_Panel" name="Support_Panel" style="display: none;" />
+</ui:UXML>

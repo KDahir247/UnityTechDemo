@@ -77,15 +77,18 @@ namespace Tech.Event
                     LogManager.Logger.ZLogWarning("Not implemented yet.");
                     break;
                 case ButtonCommand.DisableOther:
+                    _disposable.Dispose();
                     foreach (var key in buttonKeyRef)
                         if (SelectableGameObject.TryGetValue(key, out var refButton))
                             refButton.interactable = false;
                     break;
                 case ButtonCommand.DisableAll:
-                    foreach (var keyValuePair in SelectableGameObject) keyValuePair.Value.interactable = false;
+                    foreach (var keyValuePair in SelectableGameObject)
+                    {
+                        keyValuePair.Value.interactable = false;
+                    }
                     break;
                 case ButtonCommand.EnableOtherExceptSelf:
-
                     foreach (var key in buttonKeyRef)
                         if (SelectableGameObject.TryGetValue(key, out var refButton))
                             refButton.interactable = true;
