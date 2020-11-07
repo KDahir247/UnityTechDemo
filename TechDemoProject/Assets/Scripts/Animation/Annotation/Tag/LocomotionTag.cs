@@ -8,7 +8,7 @@ namespace Tech.Animation.Annotation
     {
         public Locomotion Build(PayloadBuilder builder)
         {
-            throw new NotImplementedException();
+            return Locomotion.Default;
         }
     }
 }

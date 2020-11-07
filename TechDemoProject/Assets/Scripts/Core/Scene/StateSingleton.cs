@@ -2,8 +2,6 @@
 using Cysharp.Threading.Tasks;
 using DG.Tweening;
 using Pixelplacement;
-using Tech.Event;
-using UniRx;
 using UnityEngine;
 using UnityEngine.Serialization;
 
@@ -26,28 +24,26 @@ namespace Tech.Core
             state = new List<SceneState>(_states);
         }
 
-        private void Start()
+
+        //Wrapper Method for StateMachine class
+        public void Next()
         {
-            TouchTrigger.TouchTriggerAsObservable().Subscribe(val =>
+            _states[Index].gameObject.GetComponent<AudioSource>().DOFade(0, _states[Index].fadeOutTime)
+                .SetEase(_states[Index].fadeOutEase)
+                .onComplete += () =>
             {
-                if (val.Key == _states[Index].key)
-                    _states[Index].gameObject.GetComponent<AudioSource>().DOFade(0, _states[Index].fadeOutTime)
-                        .SetEase(_states[Index].fadeOutEase)
-                        .onComplete += () =>
-                    {
-                        if (Index == _states.Count)
-                        {
-                            Index = 0;
-                            SceneAddress.SceneLoadByNameOrLabel(_states[Index].onNextScene).Forget();
-                            Machine.ChangeState(Index);
-                        }
-                        else
-                        {
-                            SceneAddress.SceneLoadByNameOrLabel(_states[Index++].onNextScene).Forget();
-                            Machine.Next();
-                        }
-                    };
-            }).AddTo(this);
+                if (Index == _states.Count)
+                {
+                    Index = 0;
+                    SceneAddress.SceneLoadByNameOrLabel(_states[Index].onNextScene).Forget();
+                    Machine.ChangeState(Index);
+                }
+                else
+                {
+                    SceneAddress.SceneLoadByNameOrLabel(_states[Index++].onNextScene).Forget();
+                    Machine.Next();
+                }
+            };
         }
     }
 }

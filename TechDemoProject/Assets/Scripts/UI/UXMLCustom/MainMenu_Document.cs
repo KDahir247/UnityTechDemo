@@ -8,9 +8,7 @@ namespace Tech.UI.Panel
     {
         private VisualElement _coreElement;
         
-        public new class UxmlFactory : UxmlFactory<MainMenu_Document, UxmlTraits>
-        {
-        }
+        public new class UxmlFactory : UxmlFactory<MainMenu_Document, UxmlTraits> { }
 
         public new class UxmlTraits : VisualElement.UxmlTraits
         {
@@ -20,11 +18,8 @@ namespace Tech.UI.Panel
             }
         }
 
-        public MainMenu_Document()
-        {
-            this.RegisterCallback<GeometryChangedEvent>(OnGeometryChange);
-        }
-
+        public MainMenu_Document() => RegisterCallback<GeometryChangedEvent>(OnGeometryChange);
+        
         void OnGeometryChange(GeometryChangedEvent evt)
         {
         }

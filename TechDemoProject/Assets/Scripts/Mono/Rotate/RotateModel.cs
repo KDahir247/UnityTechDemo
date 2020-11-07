@@ -12,6 +12,7 @@ using UnityEngine.UI;
 //TODO Refactor this to UIElement
 namespace Tech.Mono
 {
+    //TODO remove
     public enum RotationDirection
     {
         Left,
