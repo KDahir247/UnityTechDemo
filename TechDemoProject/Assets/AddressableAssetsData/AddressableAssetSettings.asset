@@ -29,6 +29,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 0068d186a61851b45a1df36f915a523c, type: 2}
   - {fileID: 11400000, guid: 257564c9027eb3848bd631585876e989, type: 2}
   - {fileID: 11400000, guid: 1a27e4b1a3c3bbf4c941339f34dab081, type: 2}
+  - {fileID: 11400000, guid: 7a46489acb22829439b85e1efe51299f, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
@@ -76,6 +77,9 @@ MonoBehaviour:
     - Scene
     - Camera
     - Vfx
+    - AssassinSkill
+    - NecromancerSkill
+    - OracleSkill
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: f67c744d30d40d9499a06643db06ffb6, type: 2}

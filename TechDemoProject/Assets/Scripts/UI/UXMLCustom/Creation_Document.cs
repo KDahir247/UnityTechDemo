@@ -1,4 +1,5 @@
-﻿using Tech.Data;
+﻿using Tech.Core;
+using Tech.Data;
 using UniRx;
 using UnityEngine;
 using UnityEngine.UIElements;
@@ -13,10 +14,10 @@ namespace Tech.UI.Panel
         private string _headScene = string.Empty;
         private string _tailScene = string.Empty;
 
-        private Button _skill1, _skill2, _skill3;
+        private Button[] _skills = new Button[3];
 
         private RotationDirection _modelRotateDirection;
-        
+
         public new class UxmlFactory : UxmlFactory<Creation_Document, UxmlTraits>{}
 
         public new class UxmlTraits : VisualElement.UxmlTraits
@@ -40,47 +41,27 @@ namespace Tech.UI.Panel
 
         void OnGeometryChange(GeometryChangedEvent evt)
         {
-            //Class Choose
-            this.Q<Button>("Assassin_Button")
-                .RegisterCallback<ClickEvent>(ChooseAssassin);
-            
-            this.Q<Button>("Necromancer_Button")
-                .RegisterCallback<ClickEvent>(ChooseNecromancer);
-            
-            this.Q<Button>("Oracle_Button")
-                .RegisterCallback<ClickEvent>(ChooseOracle);
-
             //Skill Button
             //TODO might use 3 Visual Element for the skill
-            _skill1 = this.Q<Button>("Skill1_Button");
-            _skill2 = this.Q<Button>("Skill2_Button");
-            _skill3 = this.Q<Button>("Skill3_Button");
+            _skills[0] = this.Q<Button>("Skill1_Button");
+            _skills[1] = this.Q<Button>("Skill2_Button");
+            _skills[2] = this.Q<Button>("Skill3_Button");
 
             //Rotating Model Button
-            this.Q<Button>("RotationArrowR_Button").RegisterCallback<PointerEnterEvent>(RotateModelRight);
-            this.Q<Button>("RotationArrowL_Button").RegisterCallback<PointerEnterEvent>(RotateModelRight);
-            RegisterCallback<PointerUpEvent>(RotateModelNeutral);
-            
+            //TODO trying to get Click Event this isn't click event but pointerEnter event
+            this.Q<Button>("RotationArrowR_Button").RegisterCallback<ClickEvent>(RotateModelRight);
+            this.Q<Button>("RotationArrowL_Button").RegisterCallback<ClickEvent>(RotateModelLeft);
+            this.Q<Button>("RotationArrowR_Button").RegisterCallback<PointerLeaveEvent>(RotateModelNeutral);
+            this.Q<Button>("RotationArrowL_Button").RegisterCallback<PointerLeaveEvent>(RotateModelNeutral);
+
             UnregisterCallback<GeometryChangedEvent>(OnGeometryChange);
         }
 
-        private void ChooseAssassin<T>(T evt)
-            where T : PointerEventBase<T>, new()
+        public void SetSkillTexture(Texture2D texture2D,int index)
         {
-            Debug.Log("You have pressed Assassin");
+            _skills[index].style.backgroundImage = texture2D;
         }
-
-        private void ChooseNecromancer<T>(T evt)
-            where T : PointerEventBase<T>, new()
-        {
-            Debug.Log("You have pressed Necromancer");
-        }
-
-        private void ChooseOracle<T>(T evt)
-            where T : PointerEventBase<T>, new()
-        {
-            Debug.Log("You have pressed Oracle");
-        }
+        
 
         //Send RotationDirection to MessageBroker so anybody can subscribe to the event.
         //The event get propagated to other classes 

@@ -69,6 +69,8 @@ namespace Tech.Core
                     var resourceLocations =
                         await Addressables.LoadResourceLocationsAsync(nameOrLabel).ToUniTask(progressLoadAddress,
                             cancellationToken: cancellationTokenLoadAddress);
+                    
+                    progressLoadAddress?.Report(1.0f);
 
                     if (resourceLocations.Count <= 0)
                     {
@@ -79,11 +81,16 @@ namespace Tech.Core
                     _sceneInstance = await Addressables.LoadSceneAsync(resourceLocations[0])
                         .ToUniTask(progressLoadScene, PlayerLoopTiming.Update, cancellationTokenLoadScene);
                     _readyToLoad = false;
+                    
+                    progressLoadScene?.Report(1.0f);
                 }
                 else
                 {
                     await Addressables.UnloadSceneAsync(_sceneInstance).ToUniTask(progressUnloadScene,
                         PlayerLoopTiming.Update, cancellationTokenUnloadScene);
+                    
+                    progressUnloadScene?.Report(1.0f);
+                    
                     _readyToLoad = true;
                     _sceneInstance = new SceneInstance();
                 }

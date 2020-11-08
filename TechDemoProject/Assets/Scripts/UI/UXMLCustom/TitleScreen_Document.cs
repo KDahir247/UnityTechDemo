@@ -74,7 +74,7 @@ namespace Tech.UI.Panel
             _version = _titleScreen.Q<Label>("Version_Text");
             
             _id.text = "ID." + "1444";
-            _version.text = "VER."+ GlobalSetting<TitleScreen_Document>.ReactiveVersion.Value;
+            _version.text = "VER."+ Application.version;
             
             //creating a single instance of Style Value since AnimationTouchScreen is recursive and it will recursively create instance
             _fadeInStyle = new StyleValues{opacity = 1};

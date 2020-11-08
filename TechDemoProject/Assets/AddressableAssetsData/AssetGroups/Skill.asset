@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Skill
+  m_EditorClassIdentifier: 
+  m_GroupName: Skill
+  m_Data:
+    m_SerializedData: []
+  m_GUID: cd0486b6fb18c6940b06e2febf0d95e0
+  m_SerializeEntries:
+  - m_GUID: 45b9be9b0b9a6554d81d9cab2a5c84aa
+    m_Address: Assets/ScriptableObject/Skill/Oracle/7Virtues.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OracleSkill
+    m_MainAsset: {fileID: 11400000, guid: 45b9be9b0b9a6554d81d9cab2a5c84aa, type: 2}
+    m_TargetAsset: {fileID: 11400000, guid: 45b9be9b0b9a6554d81d9cab2a5c84aa, type: 2}
+  - m_GUID: 463309dbdb86d1c4d9ba9806a078f06a
+    m_Address: Assets/ScriptableObject/Skill/Oracle/AngelOfRetribution.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OracleSkill
+    m_MainAsset: {fileID: 11400000, guid: 463309dbdb86d1c4d9ba9806a078f06a, type: 2}
+    m_TargetAsset: {fileID: 11400000, guid: 463309dbdb86d1c4d9ba9806a078f06a, type: 2}
+  - m_GUID: 601ea91cb7ea3d94fa00fd216d15af0a
+    m_Address: Assets/ScriptableObject/Skill/Necromancer/SummonCerberus.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - NecromancerSkill
+    m_MainAsset: {fileID: 11400000, guid: 601ea91cb7ea3d94fa00fd216d15af0a, type: 2}
+    m_TargetAsset: {fileID: 11400000, guid: 601ea91cb7ea3d94fa00fd216d15af0a, type: 2}
+  - m_GUID: 6fac80418e9d2394ba58e2b2c17e57ba
+    m_Address: Assets/ScriptableObject/Skill/Assassin/DoubleStrike.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - AssassinSkill
+    m_MainAsset: {fileID: 11400000, guid: 6fac80418e9d2394ba58e2b2c17e57ba, type: 2}
+    m_TargetAsset: {fileID: 11400000, guid: 6fac80418e9d2394ba58e2b2c17e57ba, type: 2}
+  - m_GUID: 7289823b138354540964ef9520048a02
+    m_Address: Assets/ScriptableObject/Skill/Assassin/CritHit.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - AssassinSkill
+    m_MainAsset: {fileID: 11400000, guid: 7289823b138354540964ef9520048a02, type: 2}
+    m_TargetAsset: {fileID: 11400000, guid: 7289823b138354540964ef9520048a02, type: 2}
+  - m_GUID: 786182a8fbdbadf48b2f2e50dafc4e3a
+    m_Address: Assets/ScriptableObject/Skill/Assassin/ReapWhatIsOwed.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - AssassinSkill
+    m_MainAsset: {fileID: 11400000, guid: 786182a8fbdbadf48b2f2e50dafc4e3a, type: 2}
+    m_TargetAsset: {fileID: 11400000, guid: 786182a8fbdbadf48b2f2e50dafc4e3a, type: 2}
+  - m_GUID: 890ce191a848b7a4aaef895d374228d5
+    m_Address: Assets/ScriptableObject/Skill/Necromancer/ContractWithDeath.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - NecromancerSkill
+    m_MainAsset: {fileID: 11400000, guid: 890ce191a848b7a4aaef895d374228d5, type: 2}
+    m_TargetAsset: {fileID: 11400000, guid: 890ce191a848b7a4aaef895d374228d5, type: 2}
+  - m_GUID: 95a268808ca42dd488fb673b5a282969
+    m_Address: Assets/ScriptableObject/Skill/Necromancer/Hallow.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - NecromancerSkill
+    m_MainAsset: {fileID: 11400000, guid: 95a268808ca42dd488fb673b5a282969, type: 2}
+    m_TargetAsset: {fileID: 11400000, guid: 95a268808ca42dd488fb673b5a282969, type: 2}
+  - m_GUID: b5c9d9ccc05e8ab4cb69565a52072ab2
+    m_Address: Assets/ScriptableObject/Skill/Oracle/Forgiveness.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OracleSkill
+    m_MainAsset: {fileID: 11400000, guid: b5c9d9ccc05e8ab4cb69565a52072ab2, type: 2}
+    m_TargetAsset: {fileID: 11400000, guid: b5c9d9ccc05e8ab4cb69565a52072ab2, type: 2}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: a2cc6ec24cb6f134d8a2845b265779b5, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: d804732d5ee442f4795341d0d58728e9, type: 2}
+    - {fileID: 11400000, guid: 523f06c262e43f64ab744ea8eac22130, type: 2}

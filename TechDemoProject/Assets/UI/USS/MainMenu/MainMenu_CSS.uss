@@ -1,1 +1,8 @@
-﻿VisualElement {}
+VisualElement {
+}
+
+.unity-text-element {
+}
+
+.unity-label {
+}

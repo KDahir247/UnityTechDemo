@@ -199,3 +199,2262 @@ Initialized Unitask correctly for ECS
 [11/07/2020 01:12:31]
 [Information][11/06/2020 18:00:00]
 Closing Logger and Disposing
+[11/07/2020 01:52:28]
+[Information][11/06/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 01:52:28]
+[Information][11/06/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 01:52:28]
+[Information][11/06/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 01:52:32]
+[Information][11/06/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/07/2020 01:52:48]
+[Information][11/06/2020 18:00:00]
+(-) [Scene State] EXITED state: MenuScene
+[11/07/2020 01:52:48]
+[Information][11/06/2020 18:00:00]
+(+) [Scene State] ENTERED state: CreationScene
+[11/07/2020 01:52:48]
+[Information][11/06/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 01:53:05]
+[Information][11/06/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 01:53:34]
+[Information][11/06/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 01:53:34]
+[Information][11/06/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 01:53:34]
+[Information][11/06/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 01:53:37]
+[Information][11/06/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/07/2020 01:54:54]
+[Information][11/06/2020 18:00:00]
+(-) [Scene State] EXITED state: MenuScene
+[11/07/2020 01:54:54]
+[Information][11/06/2020 18:00:00]
+(+) [Scene State] ENTERED state: CreationScene
+[11/07/2020 01:54:55]
+[Information][11/06/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 01:55:39]
+[Information][11/06/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 01:56:15]
+[Information][11/06/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 01:56:15]
+[Information][11/06/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 01:56:15]
+[Information][11/06/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 01:56:19]
+[Information][11/06/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 01:57:01]
+[Information][11/06/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 08:58:59]
+[Information][11/06/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 08:58:59]
+[Information][11/06/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 08:58:59]
+[Information][11/06/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 08:59:03]
+[Information][11/06/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 09:03:16]
+[Information][11/06/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 09:03:46]
+[Information][11/06/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 09:03:46]
+[Information][11/06/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 09:03:46]
+[Information][11/06/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 09:03:49]
+[Information][11/06/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/07/2020 09:04:10]
+[Information][11/06/2020 18:00:00]
+(-) [Scene State] EXITED state: MenuScene
+[11/07/2020 09:04:10]
+[Information][11/06/2020 18:00:00]
+(+) [Scene State] ENTERED state: CreationScene
+[11/07/2020 09:04:11]
+[Information][11/06/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 09:06:01]
+[Information][11/06/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 10:48:13]
+[Information][11/06/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 10:48:13]
+[Information][11/06/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 10:48:13]
+[Information][11/06/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 10:48:13]
+[Information][11/06/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 10:48:18]
+[Information][11/06/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 12:39:08]
+[Information][11/06/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 12:39:08]
+[Information][11/06/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 12:39:08]
+[Information][11/06/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 12:39:08]
+[Information][11/06/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/07/2020 12:39:22]
+[Information][11/06/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 12:39:38]
+[Information][11/06/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 12:39:38]
+[Information][11/06/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 12:39:38]
+[Information][11/06/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 12:39:38]
+[Information][11/06/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/07/2020 12:39:45]
+[Information][11/06/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 12:39:55]
+[Information][11/06/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 12:39:55]
+[Information][11/06/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 12:39:55]
+[Information][11/06/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 12:39:56]
+[Information][11/06/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/07/2020 12:40:01]
+[Information][11/06/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 12:41:34]
+[Information][11/06/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 12:41:34]
+[Information][11/06/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 12:41:34]
+[Information][11/06/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 12:41:34]
+[Information][11/06/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/07/2020 12:41:53]
+[Information][11/06/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 12:52:23]
+[Information][11/06/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 12:52:23]
+[Information][11/06/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 12:52:23]
+[Information][11/06/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 12:52:23]
+[Information][11/06/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/07/2020 12:52:26]
+[Information][11/06/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 13:02:37]
+[Information][11/06/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 13:02:37]
+[Information][11/06/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 13:02:37]
+[Information][11/06/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 13:02:37]
+[Information][11/06/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/07/2020 13:05:15]
+[Information][11/06/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 15:53:48]
+[Information][11/06/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 15:53:48]
+[Information][11/06/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 15:53:48]
+[Information][11/06/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 15:53:48]
+[Information][11/06/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/07/2020 15:54:03]
+[Information][11/06/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 15:54:52]
+[Information][11/06/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 15:54:52]
+[Information][11/06/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 15:54:52]
+[Information][11/06/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 15:54:53]
+[Information][11/06/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/07/2020 15:55:17]
+[Information][11/06/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 15:59:21]
+[Information][11/06/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 15:59:21]
+[Information][11/06/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 15:59:21]
+[Information][11/06/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 15:59:22]
+[Information][11/06/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/07/2020 15:59:28]
+[Information][11/06/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 16:11:09]
+[Information][11/06/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 16:11:09]
+[Information][11/06/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 16:11:09]
+[Information][11/06/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 16:11:09]
+[Information][11/06/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/07/2020 16:11:19]
+[Information][11/06/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 16:12:18]
+[Information][11/06/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 16:12:18]
+[Information][11/06/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 16:12:18]
+[Information][11/06/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 16:12:18]
+[Information][11/06/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/07/2020 16:12:31]
+[Information][11/06/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 16:12:43]
+[Information][11/06/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 16:12:43]
+[Information][11/06/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 16:12:43]
+[Information][11/06/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 16:12:43]
+[Information][11/06/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/07/2020 16:12:49]
+[Information][11/06/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 16:13:25]
+[Information][11/06/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 16:13:25]
+[Information][11/06/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 16:13:25]
+[Information][11/06/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 16:13:25]
+[Information][11/06/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/07/2020 16:13:29]
+[Information][11/06/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 16:13:44]
+[Information][11/06/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 16:13:44]
+[Information][11/06/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 16:13:44]
+[Information][11/06/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 16:13:45]
+[Information][11/06/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/07/2020 16:13:57]
+[Information][11/06/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 16:14:41]
+[Information][11/06/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 16:14:41]
+[Information][11/06/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 16:14:41]
+[Information][11/06/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 16:14:41]
+[Information][11/06/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/07/2020 16:14:45]
+[Information][11/06/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 16:17:01]
+[Information][11/06/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 16:17:01]
+[Information][11/06/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 16:17:01]
+[Information][11/06/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 16:17:02]
+[Information][11/06/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/07/2020 16:17:06]
+[Information][11/06/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 16:24:21]
+[Information][11/06/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 16:24:21]
+[Information][11/06/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 16:24:21]
+[Information][11/06/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 16:24:22]
+[Information][11/06/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/07/2020 16:24:56]
+[Information][11/06/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 16:25:30]
+[Information][11/06/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 16:25:31]
+[Information][11/06/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 16:25:31]
+[Information][11/06/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 16:25:31]
+[Information][11/06/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/07/2020 16:25:47]
+[Information][11/06/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 18:18:42]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 18:18:42]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 18:18:42]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 18:18:42]
+[Information][11/07/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/07/2020 18:18:43]
+[Error][11/07/2020 18:00:00]
+Failed to initialize Character Asset
+[11/07/2020 18:18:53]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 18:19:25]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 18:19:25]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 18:19:25]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 18:19:26]
+[Information][11/07/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/07/2020 18:19:27]
+[Error][11/07/2020 18:00:00]
+Failed to initialize Character Asset
+[11/07/2020 18:19:31]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 18:20:46]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 18:20:46]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 18:20:46]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 18:20:47]
+[Information][11/07/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/07/2020 18:21:22]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 18:48:21]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 18:48:21]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 18:48:21]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 18:48:22]
+[Information][11/07/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/07/2020 18:48:30]
+[Information][11/07/2020 18:00:00]
+(-) [Scene State] EXITED state: MenuScene
+[11/07/2020 18:48:30]
+[Information][11/07/2020 18:00:00]
+(+) [Scene State] ENTERED state: CreationScene
+[11/07/2020 18:48:30]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 18:48:36]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 18:49:06]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 18:49:06]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 18:49:06]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 18:49:06]
+[Information][11/07/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/07/2020 18:49:12]
+[Information][11/07/2020 18:00:00]
+(-) [Scene State] EXITED state: MenuScene
+[11/07/2020 18:49:12]
+[Information][11/07/2020 18:00:00]
+(+) [Scene State] ENTERED state: CreationScene
+[11/07/2020 18:49:13]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 18:49:17]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 18:54:27]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 18:54:27]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 18:54:27]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 18:54:28]
+[Information][11/07/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/07/2020 18:54:35]
+[Information][11/07/2020 18:00:00]
+(-) [Scene State] EXITED state: MenuScene
+[11/07/2020 18:54:35]
+[Information][11/07/2020 18:00:00]
+(+) [Scene State] ENTERED state: CreationScene
+[11/07/2020 18:54:35]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 18:54:38]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 18:56:19]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 18:56:19]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 18:56:19]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 18:56:19]
+[Information][11/07/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/07/2020 18:56:24]
+[Information][11/07/2020 18:00:00]
+(-) [Scene State] EXITED state: MenuScene
+[11/07/2020 18:56:24]
+[Information][11/07/2020 18:00:00]
+(+) [Scene State] ENTERED state: CreationScene
+[11/07/2020 18:56:24]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 18:56:29]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 18:58:36]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 18:58:36]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 18:58:36]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 18:58:36]
+[Information][11/07/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/07/2020 18:58:40]
+[Information][11/07/2020 18:00:00]
+(-) [Scene State] EXITED state: MenuScene
+[11/07/2020 18:58:40]
+[Information][11/07/2020 18:00:00]
+(+) [Scene State] ENTERED state: CreationScene
+[11/07/2020 18:58:40]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 18:58:54]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 19:08:22]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 19:08:22]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 19:08:22]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 19:08:22]
+[Information][11/07/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/07/2020 19:08:28]
+[Information][11/07/2020 18:00:00]
+(-) [Scene State] EXITED state: MenuScene
+[11/07/2020 19:08:28]
+[Information][11/07/2020 18:00:00]
+(+) [Scene State] ENTERED state: CreationScene
+[11/07/2020 19:08:28]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 19:09:52]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 19:14:31]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 19:14:31]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 19:14:31]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 19:14:32]
+[Information][11/07/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/07/2020 19:14:40]
+[Information][11/07/2020 18:00:00]
+(-) [Scene State] EXITED state: MenuScene
+[11/07/2020 19:14:40]
+[Information][11/07/2020 18:00:00]
+(+) [Scene State] ENTERED state: CreationScene
+[11/07/2020 19:14:40]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 19:20:10]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 19:47:09]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 19:47:09]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 19:47:09]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 19:47:09]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 19:47:17]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 19:47:32]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 19:47:32]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 19:47:32]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 19:47:32]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 19:47:40]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 19:47:53]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 19:47:53]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 19:47:53]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 19:47:53]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 19:48:07]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 19:49:30]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 19:49:30]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 19:49:30]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 19:49:30]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 19:50:41]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 19:51:06]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 19:51:06]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 19:51:06]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 19:51:07]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 19:51:29]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 19:52:42]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 19:52:42]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 19:52:42]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 19:52:42]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 19:52:57]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 19:53:49]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 19:53:49]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 19:53:49]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 19:53:50]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 19:54:13]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 19:55:37]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 19:55:37]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 19:55:37]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 19:55:37]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 19:55:46]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 19:56:30]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 19:56:30]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 19:56:30]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 19:56:30]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 19:56:59]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 19:58:09]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 19:58:09]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 19:58:09]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 19:58:09]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 19:58:34]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 19:59:33]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 19:59:33]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 19:59:33]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 19:59:34]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 19:59:52]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 20:01:53]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 20:01:53]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 20:01:53]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 20:01:54]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 20:02:03]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 20:02:20]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 20:02:20]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 20:02:20]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 20:02:21]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 20:02:28]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 20:02:46]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 20:02:46]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 20:02:46]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 20:02:47]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 20:02:55]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 20:07:05]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 20:07:05]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 20:07:05]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 20:07:05]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 20:07:14]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 20:09:31]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 20:09:31]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 20:09:31]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 20:09:32]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 20:09:50]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 20:11:13]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 20:11:13]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 20:11:13]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 20:11:14]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 20:11:20]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 20:12:45]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 20:12:45]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 20:12:45]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 20:12:45]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 20:12:56]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 20:16:11]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 20:16:11]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 20:16:11]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 20:16:11]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 20:16:15]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 20:16:34]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 20:16:34]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 20:16:34]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 20:16:34]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 20:16:56]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 20:18:04]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 20:18:04]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 20:18:04]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 20:18:05]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 20:18:08]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 20:18:34]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 20:18:34]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 20:18:34]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 20:18:34]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 20:19:12]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 20:20:19]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 20:20:19]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 20:20:19]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 20:20:20]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 20:20:37]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 20:21:02]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 20:21:02]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 20:21:02]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 20:21:03]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 20:21:32]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 20:21:59]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 20:21:59]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 20:21:59]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 20:22:00]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 20:22:22]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 20:25:25]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 20:25:25]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 20:25:25]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 20:25:25]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 20:26:42]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 20:28:32]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 20:28:32]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 20:28:32]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 20:28:33]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 20:28:38]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 20:34:24]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 20:34:24]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 20:34:24]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 20:34:25]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 20:34:29]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 20:35:06]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 20:35:06]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 20:35:06]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 20:35:07]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 20:35:11]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 20:35:29]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 20:35:29]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 20:35:29]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 20:35:30]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 20:35:35]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 20:36:12]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 20:36:12]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 20:36:12]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 20:36:13]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 20:36:20]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 20:36:55]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 20:36:55]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 20:36:55]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 20:36:57]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 20:40:36]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 20:44:50]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 20:44:50]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 20:44:50]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 20:44:51]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 20:44:56]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 20:45:45]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 20:45:45]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 20:45:45]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 20:45:47]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 20:45:57]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 20:46:18]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 20:46:18]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 20:46:18]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 20:46:20]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 20:46:26]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 20:49:02]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 20:49:02]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 20:49:02]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 20:49:04]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 20:49:15]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 20:49:43]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 20:49:43]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 20:49:43]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 20:49:45]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 20:49:54]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 20:50:14]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 20:50:14]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 20:50:14]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 20:50:16]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 20:50:23]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 20:50:45]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 20:50:45]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 20:50:45]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 20:50:47]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 20:51:04]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 20:51:38]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 20:51:38]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 20:51:38]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 20:51:40]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 20:51:50]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 20:53:44]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 20:53:44]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 20:53:44]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 20:53:46]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 20:53:50]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 20:54:10]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 20:54:10]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 20:54:10]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 20:54:12]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 20:54:38]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 20:55:07]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 20:55:07]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 20:55:07]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 20:55:09]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 20:55:19]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 20:55:43]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 20:55:43]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 20:55:43]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 20:55:45]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 20:55:59]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 20:56:26]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 20:56:26]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 20:56:26]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 20:56:28]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 20:56:59]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 20:59:15]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 20:59:15]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 20:59:15]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 20:59:17]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 20:59:22]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 20:59:55]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 20:59:55]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 20:59:55]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 20:59:57]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 21:00:01]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 21:00:19]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 21:00:20]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 21:00:20]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 21:00:22]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 21:00:32]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 21:01:05]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 21:01:05]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 21:01:05]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 21:01:07]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 21:01:27]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 21:13:04]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 21:13:04]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 21:13:04]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 21:13:06]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 21:16:44]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 21:17:27]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 21:17:27]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 21:17:27]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 21:17:29]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 21:17:37]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 21:19:02]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 21:19:02]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 21:19:02]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 21:19:03]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 21:19:15]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 21:19:37]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 21:19:37]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 21:19:37]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 21:19:40]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 21:19:49]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 21:20:20]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 21:20:20]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 21:20:20]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 21:20:23]
+[Information][11/07/2020 18:00:00]
+"SpawnPos" does not contain a state by the name of "Assassin" please verify the name of the state you are trying to reach.
+[11/07/2020 21:20:32]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 21:20:56]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 21:20:56]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 21:20:56]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 21:20:58]
+[Information][11/07/2020 18:00:00]
+"SpawnPos" does not contain a state by the name of "Assassin" please verify the name of the state you are trying to reach.
+[11/07/2020 21:21:20]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 21:21:40]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 21:21:40]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 21:21:40]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 21:21:43]
+[Information][11/07/2020 18:00:00]
+"SpawnPos" does not contain a state by the name of "Assassin" please verify the name of the state you are trying to reach.
+[11/07/2020 21:21:59]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 21:22:42]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 21:22:42]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 21:22:42]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 21:22:44]
+[Information][11/07/2020 18:00:00]
+"SpawnPos" does not contain a state by the name of "Assassin" please verify the name of the state you are trying to reach.
+[11/07/2020 21:22:50]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 21:23:16]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 21:23:16]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 21:23:16]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 21:23:18]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 21:23:25]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 21:23:45]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 21:23:45]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 21:23:45]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 21:23:47]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 21:24:01]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 21:24:31]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 21:24:31]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 21:24:31]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 21:24:33]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Cube
+[11/07/2020 21:24:44]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 21:25:06]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 21:25:06]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 21:25:06]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 21:25:08]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Cube
+[11/07/2020 21:25:18]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 21:25:38]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 21:25:38]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 21:25:38]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 21:25:40]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Cube
+[11/07/2020 21:25:49]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 21:26:38]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 21:26:38]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 21:26:38]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 21:26:41]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Cube
+[11/07/2020 21:26:57]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 21:28:23]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 21:28:23]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 21:28:23]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 21:28:25]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Cube
+[11/07/2020 21:28:57]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 21:30:18]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 21:30:18]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 21:30:18]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 21:30:20]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Cube
+[11/07/2020 21:30:47]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 21:34:04]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 21:34:04]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 21:34:04]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 21:34:07]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 21:34:19]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 21:34:52]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 21:34:52]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 21:34:52]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 21:34:55]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 21:35:05]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 21:35:41]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 21:35:41]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 21:35:41]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 21:35:44]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 21:35:57]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 21:36:34]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 21:36:34]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 21:36:34]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 21:36:37]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 21:36:41]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 21:37:09]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 21:37:09]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 21:37:09]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 21:37:12]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 21:37:15]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 21:37:43]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 21:37:43]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 21:37:43]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 21:37:45]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 21:37:54]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 21:38:37]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 21:38:37]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 21:38:37]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 21:38:39]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 21:38:52]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 21:40:41]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 21:40:41]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 21:40:41]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 21:41:11]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 21:44:21]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 21:44:21]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 21:44:21]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 21:44:31]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 21:44:55]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 21:44:55]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 21:44:55]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 21:44:57]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 21:45:03]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 21:45:46]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 21:45:46]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 21:45:46]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 21:45:49]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 21:50:14]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 21:51:11]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 21:51:11]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 21:51:11]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 21:51:14]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 21:52:37]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 21:53:04]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 21:53:04]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 21:53:04]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 21:53:07]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 21:53:16]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 21:53:59]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 21:53:59]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 21:53:59]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 21:54:01]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 21:54:20]
+[Information][11/07/2020 18:00:00]
+(-) SpawnPos EXITED state: Assassin
+[11/07/2020 21:54:20]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Necromancer
+[11/07/2020 21:54:28]
+[Information][11/07/2020 18:00:00]
+(-) SpawnPos EXITED state: Necromancer
+[11/07/2020 21:54:28]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Oracle
+[11/07/2020 21:55:19]
+[Information][11/07/2020 18:00:00]
+(-) SpawnPos EXITED state: Oracle
+[11/07/2020 21:55:19]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 21:55:39]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 22:13:10]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 22:13:10]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 22:13:10]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 22:13:13]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 22:13:55]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 22:23:42]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 22:23:42]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 22:23:42]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 22:23:44]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 22:23:50]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 22:24:40]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 22:24:40]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 22:24:40]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 22:24:44]
+[Information][11/07/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/07/2020 22:24:52]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 22:26:35]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 22:26:35]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 22:26:35]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 22:26:39]
+[Information][11/07/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/07/2020 22:26:44]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 23:00:54]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 23:00:54]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 23:00:54]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 23:00:57]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 23:01:05]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 23:01:29]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 23:01:29]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 23:01:29]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 23:01:32]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 23:01:46]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 23:03:26]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 23:03:27]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 23:03:27]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 23:03:29]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 23:03:40]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 23:04:30]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 23:04:30]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 23:04:30]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 23:04:33]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 23:04:41]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 23:05:10]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 23:05:10]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 23:05:10]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 23:05:13]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 23:05:20]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 23:05:44]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 23:05:44]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 23:05:44]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 23:05:47]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 23:05:55]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 23:06:24]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 23:06:24]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 23:06:24]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 23:06:27]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 23:06:34]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 23:06:57]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 23:06:58]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 23:06:58]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 23:07:00]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 23:07:16]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 23:08:28]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 23:08:28]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 23:08:28]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 23:08:31]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 23:08:41]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 23:11:49]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 23:11:49]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 23:11:49]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 23:11:52]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 23:12:28]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 23:14:23]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 23:14:23]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 23:14:23]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 23:14:27]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 23:14:54]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 23:15:19]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 23:15:19]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 23:15:19]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 23:15:23]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 23:15:34]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 23:16:34]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 23:16:34]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 23:16:34]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 23:16:38]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 23:16:49]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 23:17:20]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 23:17:20]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 23:17:20]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 23:17:24]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 23:17:47]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 23:18:53]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 23:18:53]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 23:18:53]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 23:18:56]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 23:19:12]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 23:19:37]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 23:19:37]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 23:19:37]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 23:19:40]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 23:19:56]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 23:20:33]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 23:20:33]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 23:20:33]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 23:20:37]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 23:21:56]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 23:22:47]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 23:22:47]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 23:22:47]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 23:22:51]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 23:23:01]
+[Information][11/07/2020 18:00:00]
+(-) SpawnPos EXITED state: Assassin
+[11/07/2020 23:23:01]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Necromancer
+[11/07/2020 23:23:06]
+[Information][11/07/2020 18:00:00]
+(-) SpawnPos EXITED state: Necromancer
+[11/07/2020 23:23:06]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 23:23:10]
+[Information][11/07/2020 18:00:00]
+(-) SpawnPos EXITED state: Assassin
+[11/07/2020 23:23:10]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Necromancer
+[11/07/2020 23:23:12]
+[Information][11/07/2020 18:00:00]
+(-) SpawnPos EXITED state: Necromancer
+[11/07/2020 23:23:12]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Oracle
+[11/07/2020 23:23:24]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 23:24:36]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 23:24:36]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 23:24:36]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 23:24:39]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 23:24:48]
+[Information][11/07/2020 18:00:00]
+(-) SpawnPos EXITED state: Assassin
+[11/07/2020 23:24:48]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Necromancer
+[11/07/2020 23:24:52]
+[Information][11/07/2020 18:00:00]
+(-) SpawnPos EXITED state: Necromancer
+[11/07/2020 23:24:52]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Oracle
+[11/07/2020 23:24:58]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 23:29:56]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 23:29:56]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 23:29:56]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 23:30:00]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 23:33:59]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing
+[11/07/2020 23:34:50]
+[Information][11/07/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/07/2020 23:34:50]
+[Information][11/07/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/07/2020 23:34:50]
+[Information][11/07/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/07/2020 23:34:54]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 23:35:04]
+[Information][11/07/2020 18:00:00]
+(-) SpawnPos EXITED state: Assassin
+[11/07/2020 23:35:04]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Oracle
+[11/07/2020 23:35:04]
+[Information][11/07/2020 18:00:00]
+(-) SpawnPos EXITED state: Oracle
+[11/07/2020 23:35:04]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Necromancer
+[11/07/2020 23:35:05]
+[Information][11/07/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Necromancer" state.
+[11/07/2020 23:35:06]
+[Information][11/07/2020 18:00:00]
+(-) SpawnPos EXITED state: Necromancer
+[11/07/2020 23:35:06]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 23:35:08]
+[Information][11/07/2020 18:00:00]
+(-) SpawnPos EXITED state: Assassin
+[11/07/2020 23:35:08]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Necromancer
+[11/07/2020 23:35:09]
+[Information][11/07/2020 18:00:00]
+(-) SpawnPos EXITED state: Necromancer
+[11/07/2020 23:35:09]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 23:35:15]
+[Information][11/07/2020 18:00:00]
+(-) SpawnPos EXITED state: Assassin
+[11/07/2020 23:35:15]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Necromancer
+[11/07/2020 23:35:15]
+[Information][11/07/2020 18:00:00]
+(-) SpawnPos EXITED state: Necromancer
+[11/07/2020 23:35:15]
+[Information][11/07/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/07/2020 23:35:19]
+[Information][11/07/2020 18:00:00]
+Closing Logger and Disposing

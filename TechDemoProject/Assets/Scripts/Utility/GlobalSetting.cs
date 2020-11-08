@@ -1,4 +1,6 @@
-﻿using Tech.Core;
+﻿using System.Collections.Generic;
+using Tech.Core;
+using Tech.Data.Scriptable;
 using UniRx;
 using UnityEngine;
 
@@ -7,15 +9,15 @@ using UnityEngine;
 
 namespace Tech.Utility
 {
-    public static class GlobalSetting<T>
+    public static class GlobalSetting
     {
-        public static readonly ScheduledNotifier<T> ScheduledNotifier = new ScheduledNotifier<T>();
-
         public static readonly StringReactiveProperty ReactiveUnityVersion =
             new StringReactiveProperty(Application.unityVersion);
 
         public static readonly StringReactiveProperty ReactiveVersion = new StringReactiveProperty(Application.version);
 
+        public static readonly Dictionary<string, CharacterData> StoredCharacter = new Dictionary<string, CharacterData>();
+        
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
         public static void ValidateVersion()
         {
