@@ -94,4 +94,9 @@ restructure custom packages to suit my project (ITween, ITweenExtension, Surge)
 replace all canvas (Unity classic UI system) with UI Document (Unity's newer UI System). Since it is customizable and more scalable.
 <br/>
 replace all animator in scene with kinematica animator.
-
+<br/>
+Hook up the Progress Script so it show a loading bar with the percentange and a description of asset loading when Report is called on IProgress<float>
+<br/>
+Add required Preprocessor macro in required script to determine platform. If on mobile enable touch support and otherwise enable mouse.
+<br/>
+ Add Safety check system to see if there an exception to rollback the scene to MainMenu
