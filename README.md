@@ -83,11 +83,13 @@ Game (Game scene will be the only Scene that will have ECS and DOTS Logic to dri
 <br/>
 TODO:
 <br/>
-Remove AnimationController for Custom Shader using Shader graph in main menu (Lerp) 
+Decide on the animation system. Common Animator, Kinematica, animation ecs job 
+<br/>
+Remove AnimationController for Custom Shader using Shader graph in main menu (Lerp) (Complete)
 <br/>
 Add functionality to top right buttons on main menu
 <br/>
-update the version in main menu so it reflect the Application version
+update the version in main menu so it reflect the Application version (Complete)
 <br/>
 restructure custom packages to suit my project (ITween, ITweenExtension, Surge)
 <br/>
