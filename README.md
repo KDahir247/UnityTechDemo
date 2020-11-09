@@ -83,15 +83,23 @@ Game (Game scene will be the only Scene that will have ECS and DOTS Logic to dri
 <br/>
 TODO:
 <br/>
-Remove AnimationController for Custom Shader using Shader graph in main menu (Lerp) 
+Decide on the animation system. Common Animator, Kinematica, animation ecs job 
+<br/>
+Decide on the Network Tool. Pun2, Mirror, DotsNet
+Remove AnimationController for Custom Shader using Shader graph in main menu (Lerp) (Complete)
 <br/>
 Add functionality to top right buttons on main menu
 <br/>
-update the version in main menu so it reflect the Application version
+update the version in main menu so it reflect the Application version (Complete)
 <br/>
 restructure custom packages to suit my project (ITween, ITweenExtension, Surge)
 <br/>
 replace all canvas (Unity classic UI system) with UI Document (Unity's newer UI System). Since it is customizable and more scalable.
 <br/>
 replace all animator in scene with kinematica animator.
-
+<br/>
+Hook up the Progress Script so it show a loading bar with the percentange and a description of asset loading when Report is called on IProgress<float>
+<br/>
+Add required Preprocessor macro in required script to determine platform. If on mobile enable touch support and otherwise enable mouse.
+<br/>
+ Add Safety check system to see if there an exception to rollback the scene to MainMenu
