@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="/Assets/UI/USS/Loading/Loading_USS.uss" />
+    <Tech.UI.Panel.Loading_Document picking-mode="Ignore" style="align-items: flex-start; justify-content: flex-end; flex-grow: 1; visibility: visible; display: flex; overflow: visible;">
+        <ui:Label text="Label" display-tooltip-when-elided="True" name="Loading_Text" style="color: rgb(255, 255, 255); -unity-font: url(&apos;/Assets/Font/endgame/Endgame DEMO.otf&apos;); font-size: 36px; margin-left: 79px; width: 374px;" />
+        <ui:VisualElement name="Progress_Panel" style="height: 50px; width: 450px; color: rgb(231, 110, 110); background-color: rgb(255, 255, 255); flex-direction: row; margin-left: 72px; border-top-left-radius: 25px; border-bottom-left-radius: 25px; border-top-right-radius: 25px; border-bottom-right-radius: 25px;">
+            <ui:VisualElement name="Tracker_Panel" style="background-color: rgba(200, 31, 31, 0.96); height: 50px; width: 450px; border-top-left-radius: 25px; border-bottom-left-radius: 25px; border-top-right-radius: 25px; border-bottom-right-radius: 25px;" />
+        </ui:VisualElement>
+    </Tech.UI.Panel.Loading_Document>
+</ui:UXML>

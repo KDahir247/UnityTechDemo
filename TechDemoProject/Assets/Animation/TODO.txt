@@ -1,1 +1,1 @@
-﻿Make a shader to substitute the EyeBackGround Glow animation and PressStart animation
+﻿TODO Choose animation system. Common animation, Kinemtaica, ECS Animation

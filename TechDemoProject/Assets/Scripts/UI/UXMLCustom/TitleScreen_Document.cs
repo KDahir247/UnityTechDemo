@@ -6,6 +6,7 @@ using UnityEngine.UIElements;
 using UnityEngine.UIElements.Experimental;
 
 //Passes
+//TODO make more Visual Element script for the different panel state in Title Screen so this script doesn't handle all responsibility for all the panel 
 //TODO use utf8 string builder 
 namespace Tech.UI.Panel
 {
@@ -23,7 +24,7 @@ namespace Tech.UI.Panel
         private const int AnimationFadeOutDuration = 1000;
 
         private bool _isTransitioning;
-
+        public bool OutOfBound = true;
         private bool _hasPressedSelectable;
 
         private string _headSceneName = string.Empty;
@@ -59,16 +60,36 @@ namespace Tech.UI.Panel
 
         void OnGeometryChange(GeometryChangedEvent evt)
         {
+            //Visual Element Panel that MainMenu can Transition to 
             _titleScreen = this.Q<VisualElement>("MainMenu_Document");
             _optionScreen = this.Q<VisualElement>("Option_Document");
             _supportScreen = this.Q<VisualElement>("Support_Document");
             _newsScreen = this.Q<VisualElement>("News_Document");
             
-            _titleScreen.Q<Button>("Option_Button").RegisterCallback<ClickEvent>(EnableOptionScreen);
-            _titleScreen.Q<Button>("Support_Button").RegisterCallback<ClickEvent>(EnableSupportButton);
-            _titleScreen.Q<Button>("Mail_Button").RegisterCallback<ClickEvent>(EnableNewsButton);
-
+            //The Button to Transition to the correct VisualElement Panel in MainMenu
+            _titleScreen.Q<Button>("Option_Button").RegisterCallback<ClickEvent>((evnt => FadeToNewScreen(evnt, _optionScreen, _titleScreen) ));
+            _titleScreen.Q<Button>("Support_Button").RegisterCallback<ClickEvent>((evnt => FadeToNewScreen(evnt, _supportScreen, _titleScreen)));
+            _titleScreen.Q<Button>("Mail_Button").RegisterCallback<ClickEvent>((evnt => FadeToNewScreen(evnt,_newsScreen, _titleScreen)));
+            
+            
+            //TODO Find a better solution to handle screen transition in sub Visual Element
+            //Out Of Panel Click Handle
+            _optionScreen.Q<VisualElement>("Core_Panel").RegisterCallback<PointerEnterEvent>(evnt => OutOfBound = false);
+            //Not very precise of PointerLeaveEvent. Unity's New UI is still in preview and this is bound to change
+            _optionScreen.Q<VisualElement>("Core_Panel").RegisterCallback<PointerLeaveEvent>(evnt => OutOfBound = true); 
+            
+            
+            //
+            
+            
+            _optionScreen.Q<VisualElement>("Base_Panel").RegisterCallback<ClickEvent>(evnt => {
+                if (OutOfBound)
+                {
+                   FadeToNewScreen(evnt, _titleScreen, _optionScreen);
+                }});
+            
             _titleScreen.Q<VisualElement>("Base_Panel").RegisterCallback<ClickEvent>(LoadScene);
+
             
             _id = _titleScreen.Q<Label>("ID_Text");
             _version = _titleScreen.Q<Label>("Version_Text");
@@ -101,28 +122,14 @@ namespace Tech.UI.Panel
                 });
         }
 
-        private void EnableOptionScreen<T>(T evt)
+        private void FadeToNewScreen<T>(T evt, VisualElement fadeInTarget, VisualElement fadeOutTarget)
             where T : PointerEventBase<T>, new()
         {
-            if(!_isTransitioning)
-                FadeOut(evt, _titleScreen, () => FadeIn(evt, _optionScreen, () => {}));
+            if (!_isTransitioning)
+            {
+                FadeOut(evt, fadeOutTarget, () => FadeIn(evt, fadeInTarget,fadeOutTarget, () => { _isTransitioning = false; }));
+            }
         }
-
-        private void EnableSupportButton<T>(T evt)
-            where T : PointerEventBase<T>, new()
-        {
-            if(!_isTransitioning)
-                FadeOut(evt, _titleScreen, () => FadeIn(evt, _supportScreen, () => {}));
-        }
-
-        private void EnableNewsButton<T>(T evt)
-            where T : PointerEventBase<T> , new()
-        {
-            if(!_isTransitioning)
-                FadeOut(evt, _titleScreen, () => FadeIn(evt, _newsScreen, () => {}));
-        }
-        
-
         private void FadeOut<T>(T evt, VisualElement visualElementToFadeOut, Action onComplete)
             where T : PointerEventBase<T>, new()
         {
@@ -135,11 +142,11 @@ namespace Tech.UI.Panel
         }
 
 
-        private void FadeIn<T>(T evt, VisualElement visualElementToFadeIn, Action onComplete)
+        private void FadeIn<T>(T evt, VisualElement visualElementToFadeIn, VisualElement visualElementThatFadeOut, Action onComplete)
             where T : PointerEventBase<T>, new()
         {
             
-            _titleScreen.style.display = DisplayStyle.None;
+            visualElementThatFadeOut.style.display = DisplayStyle.None;
             visualElementToFadeIn.style.display = DisplayStyle.Flex;
             
             visualElementToFadeIn.experimental.animation

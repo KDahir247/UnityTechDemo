@@ -6,15 +6,16 @@ using DG.Tweening.Plugins.Options;
 using Tech.Component;
 using Tech.Data;
 using UniRx;
+using Unity.Burst;
 using Unity.Collections;
 using Unity.Entities;
 using Unity.Jobs;
 using Unity.Mathematics;
 using Unity.Transforms;
 using UnityEngine;
-
 namespace Tech.Job
 {
+    [BurstCompile(FloatPrecision.Low, FloatMode.Fast)]
     public class RotationSystem : ComponentSystem
     {
         private RotationDirection _direction;

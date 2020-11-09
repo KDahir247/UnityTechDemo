@@ -22,7 +22,7 @@ namespace Tech.Initialization
         {
             foreach (var data in characterData)
             {
-                 pass = await DataAddress.LoadCharacterData(data, new DataProgress());
+                 pass = await DataAddress.LoadCharacterData(data, new DataProgress("Get Character Data"));
                  GlobalSetting.StoredCharacter.Add(data.key, data);
             }
             if (pass)

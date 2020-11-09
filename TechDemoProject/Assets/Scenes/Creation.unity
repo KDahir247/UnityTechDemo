@@ -322,6 +322,11 @@ MonoBehaviour:
     x: 0
     y: 1
     z: 0
+  rotationDuration: 0
+  rotateMode: 0
+  rotateEase: 0
+  rotationAmplitude: 0
+  rotationPeriod: 0
 --- !u!114 &454478578
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -837,6 +842,11 @@ MonoBehaviour:
     x: 0
     y: 1
     z: 0
+  rotationDuration: 0
+  rotateMode: 0
+  rotateEase: 0
+  rotationAmplitude: 0
+  rotationPeriod: 0
 --- !u!114 &1226300339
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1498,11 +1508,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a78b86afe552cac429fd808145431b44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 180
+  rotationSpeed: 40
   direction:
     x: 0
     y: 1
     z: 0
+  rotationDuration: 1
+  rotateMode: 3
+  rotateEase: 1
+  rotationAmplitude: 1
+  rotationPeriod: 1
 --- !u!114 &919132148591441746
 MonoBehaviour:
   m_ObjectHideFlags: 0
