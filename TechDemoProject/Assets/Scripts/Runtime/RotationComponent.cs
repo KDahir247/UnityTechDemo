@@ -10,18 +10,16 @@ namespace Tech.Component
     [Serializable]
     public struct RotationComponent : IComponentData
     {
-        [FormerlySerializedAs("RotationSpeed")] 
+        [FormerlySerializedAs("RotationSpeed")]
         public float rotationSpeed;
+
         public float3 direction;
         public float rotationDuration;
-        [FormerlySerializedAs("RotateMode")] 
-        public RotateMode rotateMode;
-        
-        
+        [FormerlySerializedAs("RotateMode")] public RotateMode rotateMode;
+
+
         public Ease rotateEase;
         public float rotationAmplitude;
         public float rotationPeriod;
-
-
     }
 }

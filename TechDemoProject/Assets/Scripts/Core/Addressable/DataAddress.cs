@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Threading;
 using Cysharp.Threading.Tasks;
 using Tech.Data.Scriptable;
@@ -11,12 +10,12 @@ namespace Tech.Core
     {
         public static async UniTask<bool> LoadCharacterData(CharacterData obj, IProgress<float> progress = null,
             CancellationToken cancellationToken = default
-            ,Action<SkillData> skillCallback = null)
+            , Action<SkillData> skillCallback = null)
         {
             try
             {
-                IList<SkillData> skillDatas = await Addressables
-                    .LoadAssetsAsync<SkillData>(obj.labelToInclude[0].labelString, skillCallback)
+                var skillDatas = await Addressables
+                    .LoadAssetsAsync(obj.labelToInclude[0].labelString, skillCallback)
                     .ToUniTask(null, PlayerLoopTiming.Update, cancellationToken);
 
                 progress?.Report(1);

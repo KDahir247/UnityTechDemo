@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using Pixelplacement;
+﻿using Pixelplacement;
 using Tech.Core;
-using Tech.Report;
 using Tech.UI.Panel;
 using UniRx;
 using UnityEngine;
@@ -18,39 +14,33 @@ namespace Tech.Initialization
     [RequireComponent(typeof(UIDocument))]
     public class LoadManager : Singleton<LoadManager>
     {
-        [FormerlySerializedAs("_progressQueue")] 
-       public ReactiveProperty<(string, float)> progressQueue = new ReactiveProperty<(string, float)>();
-        
         private Loading_Document _coreUxmlDocument;
         private UIDocument _uiDocument;
+
+        [FormerlySerializedAs("_progressQueue")]
+        public ReactiveProperty<(string, float)> progressQueue = new ReactiveProperty<(string, float)>();
+
         private void Awake()
         {
             _uiDocument = gameObject.GetComponent<UIDocument>();
             _coreUxmlDocument = _uiDocument.rootVisualElement?.Q<Loading_Document>();
 
             if (_coreUxmlDocument != null)
-            {
                 _coreUxmlDocument.PanelSettings = _uiDocument.panelSettings;
-            }
             else
-            {
-                LogManager.Logger.ZLogError("Failed to Get Loading_Document Visual Element script and Element from the UI Document");
-                return;
-            }
+                LogManager.Logger.ZLogError(
+                    "Failed to Get Loading_Document Visual Element script and Element from the UI Document");
         }
 
         private void Start()
         {
             progressQueue.ObserveEveryValueChanged(cond => cond.Value.Item2).Select(_ => progressQueue.Value).Subscribe(
-                val =>
-                {
-                    UpdateProgress(val.Item1, val.Item2);
-                }).AddTo(this);
+                val => { UpdateProgress(val.Item1, val.Item2); }).AddTo(this);
         }
 
         private void UpdateProgress(string loadingInfo, float percentage)
         {
-            _coreUxmlDocument.ChangeText(loadingInfo); 
+            _coreUxmlDocument.ChangeText(loadingInfo);
             _coreUxmlDocument.ChangeSlider(percentage);
         }
     }

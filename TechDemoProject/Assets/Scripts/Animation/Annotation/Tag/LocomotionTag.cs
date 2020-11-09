@@ -1,5 +1,4 @@
-﻿using System;
-using Unity.Kinematica.Editor;
+﻿using Unity.Kinematica.Editor;
 
 namespace Tech.Animation.Annotation
 {

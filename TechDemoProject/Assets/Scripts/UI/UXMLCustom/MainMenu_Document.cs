@@ -1,14 +1,23 @@
 ﻿using UnityEngine.UIElements;
 
-
-
 namespace Tech.UI.Panel
 {
     public class MainMenu_Document : VisualElement
     {
         private VisualElement _coreElement;
-        
-        public new class UxmlFactory : UxmlFactory<MainMenu_Document, UxmlTraits> { }
+
+        public MainMenu_Document()
+        {
+            RegisterCallback<GeometryChangedEvent>(OnGeometryChange);
+        }
+
+        private void OnGeometryChange(GeometryChangedEvent evt)
+        {
+        }
+
+        public new class UxmlFactory : UxmlFactory<MainMenu_Document, UxmlTraits>
+        {
+        }
 
         public new class UxmlTraits : VisualElement.UxmlTraits
         {
@@ -17,12 +26,5 @@ namespace Tech.UI.Panel
                 base.Init(ve, bag, cc);
             }
         }
-
-        public MainMenu_Document() => RegisterCallback<GeometryChangedEvent>(OnGeometryChange);
-        
-        void OnGeometryChange(GeometryChangedEvent evt)
-        {
-        }
-
     }
 }

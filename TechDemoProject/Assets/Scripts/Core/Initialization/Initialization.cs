@@ -18,21 +18,19 @@ namespace Tech.Initialization
         private List<CharacterData> characterData = new List<CharacterData>();
 
         private bool pass;
+
         private async UniTaskVoid Awake()
         {
             foreach (var data in characterData)
             {
-                 pass = await DataAddress.LoadCharacterData(data, new DataProgress("Get Character Data"));
-                 GlobalSetting.StoredCharacter.Add(data.key, data);
+                pass = await DataAddress.LoadCharacterData(data, new DataProgress("Get Character Data"));
+                GlobalSetting.StoredCharacter.Add(data.key, data);
             }
+
             if (pass)
-            {
-                Destroy(this.gameObject, 1);
-            }
+                Destroy(gameObject, 1);
             else
-            {
                 LogManager.Logger.LogError("Failed to initialize Character Asset");
-            }
         }
     }
 }

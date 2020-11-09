@@ -16,8 +16,9 @@ namespace Tech.Utility
 
         public static readonly StringReactiveProperty ReactiveVersion = new StringReactiveProperty(Application.version);
 
-        public static readonly Dictionary<string, CharacterData> StoredCharacter = new Dictionary<string, CharacterData>();
-        
+        public static readonly Dictionary<string, CharacterData> StoredCharacter =
+            new Dictionary<string, CharacterData>();
+
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
         public static void ValidateVersion()
         {

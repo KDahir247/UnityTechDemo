@@ -1,45 +1,26 @@
-﻿using Tech.Core;
-using Tech.Data;
+﻿using Tech.Data;
 using UniRx;
 using UnityEngine;
 using UnityEngine.UIElements;
-using UnityEngine.UIElements.Experimental;
 
 namespace Tech.UI.Panel
 {
     public class Creation_Document : VisualElement
     {
+        private readonly Button[] _skills = new Button[3];
         private VisualElement _coreElement;
 
         private string _headScene = string.Empty;
-        private string _tailScene = string.Empty;
-
-        private Button[] _skills = new Button[3];
 
         private RotationDirection _modelRotateDirection;
+        private string _tailScene = string.Empty;
 
-        public new class UxmlFactory : UxmlFactory<Creation_Document, UxmlTraits>{}
-
-        public new class UxmlTraits : VisualElement.UxmlTraits
+        public Creation_Document()
         {
-            readonly  UxmlStringAttributeDescription _headScene = new UxmlStringAttributeDescription{name = "start-scene", defaultValue = "Assets/Scenes/Creation.unity"};
-            
-            readonly  UxmlStringAttributeDescription _tailScene = new UxmlStringAttributeDescription{name = "next-scene", defaultValue = "Assets/Scenes/Game.unity"};
-            //set the _headScene 
-            //and set the _tailScene
-            public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
-            {
-                base.Init(ve, bag, cc);
-                var sceneName = _headScene.GetValueFromBag(bag, cc);
-                var nextSceneName = _tailScene.GetValueFromBag(bag, cc);
-                
-                ((Creation_Document)ve).Init(sceneName, nextSceneName);
-            }
+            RegisterCallback<GeometryChangedEvent>(OnGeometryChange);
         }
-        
-        public Creation_Document() => RegisterCallback<GeometryChangedEvent>(OnGeometryChange);
 
-        void OnGeometryChange(GeometryChangedEvent evt)
+        private void OnGeometryChange(GeometryChangedEvent evt)
         {
             //Skill Button
             //TODO might use 3 Visual Element for the skill
@@ -57,32 +38,61 @@ namespace Tech.UI.Panel
             UnregisterCallback<GeometryChangedEvent>(OnGeometryChange);
         }
 
-        public void SetSkillTexture(Texture2D texture2D,int index)
+        public void SetSkillTexture(Texture2D texture2D, int index)
         {
             _skills[index].style.backgroundImage = texture2D;
         }
-        
+
 
         //Send RotationDirection to MessageBroker so anybody can subscribe to the event.
         //The event get propagated to other classes 
         private void RotateModelRight<T>(T evt)
-            where T : PointerEventBase<T>, new() =>
-            MessageBroker.Default.Publish<RotationDirection>(RotationDirection.Right);
+            where T : PointerEventBase<T>, new()
+        {
+            MessageBroker.Default.Publish(RotationDirection.Right);
+        }
 
 
         private void RotateModelLeft<T>(T evt)
-            where T : PointerEventBase<T>, new() =>
-            MessageBroker.Default.Publish<RotationDirection>(RotationDirection.Left);
+            where T : PointerEventBase<T>, new()
+        {
+            MessageBroker.Default.Publish(RotationDirection.Left);
+        }
 
         private void RotateModelNeutral<T>(T evt)
-            where T : PointerEventBase<T>, new() =>
-            MessageBroker.Default.Publish<RotationDirection>(RotationDirection.None);
+            where T : PointerEventBase<T>, new()
+        {
+            MessageBroker.Default.Publish(RotationDirection.None);
+        }
 
-        private void Init(in string scene,in string nextScene)
+        private void Init(in string scene, in string nextScene)
         {
             _headScene = scene;
             _tailScene = nextScene;
         }
-        
+
+        public new class UxmlFactory : UxmlFactory<Creation_Document, UxmlTraits>
+        {
+        }
+
+        public new class UxmlTraits : VisualElement.UxmlTraits
+        {
+            private readonly UxmlStringAttributeDescription _headScene = new UxmlStringAttributeDescription
+                {name = "start-scene", defaultValue = "Assets/Scenes/Creation.unity"};
+
+            private readonly UxmlStringAttributeDescription _tailScene = new UxmlStringAttributeDescription
+                {name = "next-scene", defaultValue = "Assets/Scenes/Game.unity"};
+
+            //set the _headScene 
+            //and set the _tailScene
+            public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
+            {
+                base.Init(ve, bag, cc);
+                var sceneName = _headScene.GetValueFromBag(bag, cc);
+                var nextSceneName = _tailScene.GetValueFromBag(bag, cc);
+
+                ((Creation_Document) ve).Init(sceneName, nextSceneName);
+            }
+        }
     }
 }

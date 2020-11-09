@@ -8,39 +8,29 @@ namespace Tech.UI.Panel
 {
     public class Loading_Document : VisualElement
     {
-        private Label _loadingDescription;
-        private VisualElement _trackerProgress;
-        private VisualElement _progress;
-
-        private bool _isFaded = false;
         private readonly CompositeDisposable _disposable = new CompositeDisposable();
 
-        //TODO going to temp set the layer to prevent click until loading is done as a temp solution
+        private bool _isFaded;
+        private Label _loadingDescription;
+        private VisualElement _progress;
+        private VisualElement _trackerProgress;
 
-        public PanelSettings PanelSettings { get; set; }
-
-        public new class UxmlFactory : UxmlFactory<Loading_Document, UxmlTraits> { }
-
-        public new class UxmlTraits : VisualElement.UxmlTraits
-        {
-            public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
-            {
-                base.Init(ve, bag, cc);
-            }
-        }
-        
         public Loading_Document()
         {
             Application.quitting += () =>
             {
                 PanelSettings.sortingOrder = 0;
-                
-                if(!_disposable.IsDisposed)
+
+                if (!_disposable.IsDisposed)
                     _disposable.Dispose();
             };
-            
+
             RegisterCallback<GeometryChangedEvent>(OnGeometryChange);
         }
+
+        //TODO going to temp set the layer to prevent click until loading is done as a temp solution
+
+        public PanelSettings PanelSettings { get; set; }
 
         private void OnGeometryChange(GeometryChangedEvent evt)
         {
@@ -54,32 +44,34 @@ namespace Tech.UI.Panel
         public void ChangeSlider(float loadingProgress)
         {
             if (_trackerProgress == null || _progress == null) return;
-            
+
             _trackerProgress.style.width = 450.0f * loadingProgress;
-            
+
             if (Math.Abs(loadingProgress - 1) <= 0)
             {
                 _loadingDescription.text = "Loaded status: Complete";
 
                 FadeOutLoader();
             }
-            else if(_isFaded)
+            else if (_isFaded)
+            {
                 FadeInLoader();
+            }
         }
 
         private void FadeInLoader()
         {
             PanelSettings.sortingOrder = 0;
-            
+
             _isFaded = false;
             Observable.Timer(TimeSpan.FromSeconds(1)).Subscribe(_ =>
             {
                 _progress.experimental.animation
-                    .Size(new Vector2(450, 50), 1000).OnCompleted((() =>
+                    .Size(new Vector2(450, 50), 1000).OnCompleted(() =>
                     {
                         _loadingDescription.experimental.animation
                             .Start(new StyleValues {opacity = 0}, new StyleValues {opacity = 1}, 1000);
-                    }));
+                    });
             }).AddTo(_disposable);
         }
 
@@ -93,15 +85,24 @@ namespace Tech.UI.Panel
                     {
                         _loadingDescription.experimental.animation
                             .Start(new StyleValues {opacity = 1}, new StyleValues {opacity = 0}, 1000);
-                    }).onAnimationCompleted += () => { PanelSettings.sortingOrder = 100;};
+                    }).onAnimationCompleted += () => { PanelSettings.sortingOrder = 100; };
             }).AddTo(_disposable);
         }
 
         public void ChangeText(string loadingInfo)
         {
-            if (_loadingDescription != null)
+            if (_loadingDescription != null) _loadingDescription.text = loadingInfo;
+        }
+
+        public new class UxmlFactory : UxmlFactory<Loading_Document, UxmlTraits>
+        {
+        }
+
+        public new class UxmlTraits : VisualElement.UxmlTraits
+        {
+            public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
             {
-                _loadingDescription.text = loadingInfo;
+                base.Init(ve, bag, cc);
             }
         }
     }

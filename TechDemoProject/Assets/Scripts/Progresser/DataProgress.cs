@@ -1,6 +1,5 @@
 ﻿using System;
 using Tech.Initialization;
-using UnityEngine;
 
 namespace Tech.Report
 {
@@ -8,13 +7,12 @@ namespace Tech.Report
     public class DataProgress : IProgress<float>
     {
         public readonly string Description;
-        
+
         public DataProgress(string description)
         {
             Description = description;
-
         }
-        
+
         public void Report(float value)
         {
             LoadManager
