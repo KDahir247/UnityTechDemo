@@ -85,6 +85,8 @@ Game (Game scene will be the only Scene that will have ECS and DOTS Logic to dri
 <br/>
 TODO:
 <br/>
+Error with the addressable layout. Can't build project due to it but it is still playable in the editor
+<br/>
 Decide on the animation system. Common Animator, Kinematica, animation ecs job 
 <br/>
 Decide on the Network Tool. Pun2, Mirror, DotsNet (Complete Going to use MagicOnion with a custom server client logic. gRPC with Bi-directional real-time communication. cross language support)
