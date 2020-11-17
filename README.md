@@ -1,7 +1,7 @@
 # UnityTechDemo
-Currently familiarizing and learning  MagicOnion framework to implement it with custom server client and client server logic along side this project  
+Going to implement basic networking gRPC with magicOnion where client can connect and disconnect from the server. (Starting)
 
-Self teaching on some of unity's packages and some other plugin.
+Self teaching on some of unity's packages and some other plugin. (Ongoing)
 
 Unity Packages using:
 Addressables,
