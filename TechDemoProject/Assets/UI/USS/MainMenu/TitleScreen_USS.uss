@@ -1,1 +1,8 @@
-﻿VisualElement {}
+VisualElement {
+}
+
+.TitleChild_Layout {
+    align-items: center;
+    margin-top: 175px;
+    background-color: rgba(113, 113, 113, 255);
+}

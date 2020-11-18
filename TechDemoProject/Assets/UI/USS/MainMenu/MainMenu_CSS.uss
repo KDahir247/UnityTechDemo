@@ -6,3 +6,7 @@ VisualElement {
 
 .unity-label {
 }
+
+.base_panel {
+    flex-grow: 1;
+}

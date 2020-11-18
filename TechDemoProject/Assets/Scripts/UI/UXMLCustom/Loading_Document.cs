@@ -27,9 +27,7 @@ namespace Tech.UI.Panel
 
             RegisterCallback<GeometryChangedEvent>(OnGeometryChange);
         }
-
-        //TODO going to temp set the layer to prevent click until loading is done as a temp solution
-
+        
         public PanelSettings PanelSettings { get; set; }
 
         private void OnGeometryChange(GeometryChangedEvent evt)

@@ -24,7 +24,6 @@ namespace Tech.Mono
         // Start is called before the first frame update
         private void Awake()
         {
-            DisplayObject ob;
             DOTween.Init().SetCapacity(200, 25);
 
             MessageBroker.Default

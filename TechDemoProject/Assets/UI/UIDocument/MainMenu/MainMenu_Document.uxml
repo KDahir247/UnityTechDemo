@@ -1,6 +1,6 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="/Assets/UI/USS/MainMenu/MainMenu_CSS.uss" />
-    <ui:VisualElement name="Base_Panel" style="visibility: visible;">
+    <Tech.UI.Panel.MainMenu_Document class="base_panel">
         <ui:VisualElement name="Header_Panel" style="height: 196px; flex-direction: row; width: auto;">
             <ui:VisualElement name="Statistic_Panel" style="width: 1025px; margin-left: 0; margin-top: 43px; justify-content: flex-start; align-items: flex-start; padding-left: 130px; font-size: 0;">
                 <ui:Label text="ID. 12345" display-tooltip-when-elided="True" name="ID_Text" style="height: auto; font-size: 45px; color: rgb(219, 198, 198); margin-left: 0; -unity-font: url(&apos;/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Roboto-Bold.ttf&apos;); padding-left: 0; padding-right: 0;" />
@@ -20,5 +20,5 @@
         <ui:VisualElement name="Ending_Panel" style="height: 228px; align-items: center; margin-bottom: 0;">
             <ui:Label text="© antidire studio . inc. Developer by khalid dahir KDahir247&#10;" display-tooltip-when-elided="True" style="font-size: 50px; color: rgb(255, 255, 255); -unity-font: resource(&apos;UI Builder/TanksStatsBox/Teko-Regular&apos;); margin-top: 0;" />
         </ui:VisualElement>
-    </ui:VisualElement>
+    </Tech.UI.Panel.MainMenu_Document>
 </ui:UXML>

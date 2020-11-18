@@ -1,0 +1,534 @@
+[11/10/2020 09:19:08]
+[Information][11/09/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/10/2020 09:19:08]
+[Information][11/09/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/10/2020 09:19:08]
+[Information][11/09/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/10/2020 09:19:09]
+[Information][11/09/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/10/2020 09:34:14]
+[Information][11/09/2020 18:00:00]
+(-) [Scene State] EXITED state: MenuScene
+[11/10/2020 09:34:14]
+[Information][11/09/2020 18:00:00]
+(+) [Scene State] ENTERED state: CreationScene
+[11/10/2020 09:34:15]
+[Information][11/09/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/10/2020 09:34:16]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:16]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:16]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:16]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:16]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:16]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:17]
+[Information][11/09/2020 18:00:00]
+(-) SpawnPos EXITED state: Assassin
+[11/10/2020 09:34:17]
+[Information][11/09/2020 18:00:00]
+(+) SpawnPos ENTERED state: Necromancer
+[11/10/2020 09:34:17]
+[Information][11/09/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Necromancer" state.
+[11/10/2020 09:34:17]
+[Information][11/09/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Necromancer" state.
+[11/10/2020 09:34:17]
+[Information][11/09/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Necromancer" state.
+[11/10/2020 09:34:17]
+[Information][11/09/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Necromancer" state.
+[11/10/2020 09:34:17]
+[Information][11/09/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Necromancer" state.
+[11/10/2020 09:34:18]
+[Information][11/09/2020 18:00:00]
+(-) SpawnPos EXITED state: Necromancer
+[11/10/2020 09:34:18]
+[Information][11/09/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/10/2020 09:34:18]
+[Information][11/09/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Assassin" state.
+[11/10/2020 09:34:18]
+[Information][11/09/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Assassin" state.
+[11/10/2020 09:34:18]
+[Information][11/09/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Assassin" state.
+[11/10/2020 09:34:18]
+[Information][11/09/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Assassin" state.
+[11/10/2020 09:34:18]
+[Information][11/09/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Assassin" state.
+[11/10/2020 09:34:18]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:18]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:18]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:18]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:18]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:18]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:19]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:19]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:19]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:19]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:19]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:19]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:19]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:19]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:19]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:19]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:19]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:19]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:19]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:19]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:19]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:19]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:19]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:19]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:19]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:19]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:19]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:19]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:19]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:19]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:20]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:20]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:20]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:20]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:20]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:20]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:20]
+[Information][11/09/2020 18:00:00]
+(-) SpawnPos EXITED state: Assassin
+[11/10/2020 09:34:20]
+[Information][11/09/2020 18:00:00]
+(+) SpawnPos ENTERED state: Necromancer
+[11/10/2020 09:34:20]
+[Information][11/09/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Necromancer" state.
+[11/10/2020 09:34:20]
+[Information][11/09/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Necromancer" state.
+[11/10/2020 09:34:20]
+[Information][11/09/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Necromancer" state.
+[11/10/2020 09:34:20]
+[Information][11/09/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Necromancer" state.
+[11/10/2020 09:34:20]
+[Information][11/09/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Necromancer" state.
+[11/10/2020 09:34:21]
+[Information][11/09/2020 18:00:00]
+(-) SpawnPos EXITED state: Necromancer
+[11/10/2020 09:34:21]
+[Information][11/09/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/10/2020 09:34:21]
+[Information][11/09/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Assassin" state.
+[11/10/2020 09:34:21]
+[Information][11/09/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Assassin" state.
+[11/10/2020 09:34:21]
+[Information][11/09/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Assassin" state.
+[11/10/2020 09:34:21]
+[Information][11/09/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Assassin" state.
+[11/10/2020 09:34:21]
+[Information][11/09/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Assassin" state.
+[11/10/2020 09:34:23]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:23]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:23]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:23]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:23]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:23]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:23]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:23]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:23]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:23]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:23]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:23]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:25]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:25]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:25]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:25]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:25]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:25]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:25]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:25]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:25]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:25]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:25]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:25]
+[Information][11/09/2020 18:00:00]
+Index is greater than the amount of states in the StateMachine "SpawnPos" please verify the index you are trying to change to.
+[11/10/2020 09:34:44]
+[Information][11/09/2020 18:00:00]
+Closing Logger and Disposing
+[11/10/2020 16:05:46]
+[Information][11/09/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/10/2020 16:05:46]
+[Information][11/09/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/10/2020 16:05:46]
+[Information][11/09/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/10/2020 16:05:47]
+[Information][11/09/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/10/2020 16:05:55]
+[Information][11/09/2020 18:00:00]
+(-) [Scene State] EXITED state: MenuScene
+[11/10/2020 16:05:55]
+[Information][11/09/2020 18:00:00]
+(+) [Scene State] ENTERED state: CreationScene
+[11/10/2020 16:05:56]
+[Information][11/09/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/10/2020 16:05:56]
+[Information][11/09/2020 18:00:00]
+Closing Logger and Disposing
+[11/10/2020 16:06:10]
+[Information][11/09/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/10/2020 16:06:10]
+[Information][11/09/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/10/2020 16:06:10]
+[Information][11/09/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/10/2020 16:06:11]
+[Information][11/09/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/10/2020 16:06:31]
+[Information][11/09/2020 18:00:00]
+Closing Logger and Disposing
+[11/10/2020 16:08:22]
+[Information][11/09/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/10/2020 16:08:22]
+[Information][11/09/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/10/2020 16:08:22]
+[Information][11/09/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/10/2020 16:08:24]
+[Information][11/09/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/10/2020 16:08:31]
+[Information][11/09/2020 18:00:00]
+Closing Logger and Disposing
+[11/10/2020 16:08:45]
+[Information][11/09/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/10/2020 16:08:45]
+[Information][11/09/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/10/2020 16:08:45]
+[Information][11/09/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/10/2020 16:08:46]
+[Information][11/09/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/10/2020 16:09:02]
+[Information][11/09/2020 18:00:00]
+Closing Logger and Disposing
+[11/10/2020 16:09:44]
+[Information][11/09/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/10/2020 16:09:44]
+[Information][11/09/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/10/2020 16:09:44]
+[Information][11/09/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/10/2020 16:09:45]
+[Information][11/09/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/10/2020 16:10:29]
+[Information][11/09/2020 18:00:00]
+Closing Logger and Disposing
+[11/10/2020 16:10:56]
+[Information][11/09/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/10/2020 16:10:56]
+[Information][11/09/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/10/2020 16:10:56]
+[Information][11/09/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/10/2020 16:10:58]
+[Information][11/09/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/10/2020 16:11:16]
+[Information][11/09/2020 18:00:00]
+Closing Logger and Disposing
+[11/10/2020 16:12:22]
+[Information][11/09/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/10/2020 16:12:22]
+[Information][11/09/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/10/2020 16:12:22]
+[Information][11/09/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/10/2020 16:12:23]
+[Information][11/09/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/10/2020 16:12:46]
+[Information][11/09/2020 18:00:00]
+Closing Logger and Disposing
+[11/10/2020 16:29:55]
+[Information][11/09/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/10/2020 16:29:55]
+[Information][11/09/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/10/2020 16:29:55]
+[Information][11/09/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/10/2020 16:29:57]
+[Information][11/09/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/10/2020 16:30:17]
+[Information][11/09/2020 18:00:00]
+Closing Logger and Disposing
+[11/10/2020 21:34:37]
+[Information][11/10/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/10/2020 21:34:37]
+[Information][11/10/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/10/2020 21:34:37]
+[Information][11/10/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/10/2020 21:34:39]
+[Information][11/10/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/10/2020 21:35:04]
+[Information][11/10/2020 18:00:00]
+Closing Logger and Disposing
+[11/10/2020 21:58:28]
+[Information][11/10/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/10/2020 21:58:28]
+[Information][11/10/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/10/2020 21:58:28]
+[Information][11/10/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/10/2020 21:58:30]
+[Information][11/10/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/10/2020 22:03:40]
+[Information][11/10/2020 18:00:00]
+Closing Logger and Disposing
+[11/10/2020 22:03:53]
+[Information][11/10/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/10/2020 22:03:53]
+[Information][11/10/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/10/2020 22:03:53]
+[Information][11/10/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/10/2020 22:03:54]
+[Information][11/10/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/10/2020 22:04:02]
+[Information][11/10/2020 18:00:00]
+(-) [Scene State] EXITED state: MenuScene
+[11/10/2020 22:04:02]
+[Information][11/10/2020 18:00:00]
+(+) [Scene State] ENTERED state: CreationScene
+[11/10/2020 22:04:03]
+[Information][11/10/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/10/2020 22:04:04]
+[Information][11/10/2020 18:00:00]
+Closing Logger and Disposing
+[11/10/2020 22:04:18]
+[Information][11/10/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/10/2020 22:04:18]
+[Information][11/10/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/10/2020 22:04:18]
+[Information][11/10/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/10/2020 22:04:19]
+[Information][11/10/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/10/2020 22:04:36]
+[Information][11/10/2020 18:00:00]
+Closing Logger and Disposing
+[11/10/2020 23:27:16]
+[Information][11/10/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/10/2020 23:27:16]
+[Information][11/10/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/10/2020 23:27:16]
+[Information][11/10/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/10/2020 23:27:17]
+[Information][11/10/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/10/2020 23:27:54]
+[Information][11/10/2020 18:00:00]
+Closing Logger and Disposing
+[11/10/2020 23:31:36]
+[Information][11/10/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/10/2020 23:31:36]
+[Information][11/10/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/10/2020 23:31:36]
+[Information][11/10/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/10/2020 23:31:37]
+[Information][11/10/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/10/2020 23:31:47]
+[Information][11/10/2020 18:00:00]
+Closing Logger and Disposing

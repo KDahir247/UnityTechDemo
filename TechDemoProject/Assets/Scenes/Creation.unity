@@ -322,11 +322,11 @@ MonoBehaviour:
     x: 0
     y: 1
     z: 0
-  rotationDuration: 0
-  rotateMode: 0
-  rotateEase: 0
-  rotationAmplitude: 0
-  rotationPeriod: 0
+  rotationDuration: 1
+  rotateMode: 3
+  rotateEase: 1
+  rotationAmplitude: 1
+  rotationPeriod: 1
 --- !u!114 &454478578
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -411,7 +411,19 @@ MonoBehaviour:
       m_Calls: []
   OnStateEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 860284106}
+        m_TargetAssemblyTypeName: CreationDocumentQ, Assembly-CSharp
+        m_MethodName: OnStateChange
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnStateExited:
     m_PersistentCalls:
       m_Calls: []
@@ -842,11 +854,11 @@ MonoBehaviour:
     x: 0
     y: 1
     z: 0
-  rotationDuration: 0
-  rotateMode: 0
-  rotateEase: 0
-  rotationAmplitude: 0
-  rotationPeriod: 0
+  rotationDuration: 1
+  rotateMode: 3
+  rotateEase: 1
+  rotationAmplitude: 1
+  rotationPeriod: 1
 --- !u!114 &1226300339
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -1,4 +1,5 @@
-﻿using Tech.Data;
+﻿using Pixelplacement;
+using Tech.Data;
 using UniRx;
 using UnityEngine;
 using UnityEngine.UIElements;
@@ -7,6 +8,9 @@ namespace Tech.UI.Panel
 {
     public class Creation_Document : VisualElement
     {
+
+        private StateMachine _characterStateMachine;
+        
         private readonly Button[] _skills = new Button[3];
         private VisualElement _coreElement;
 
@@ -38,8 +42,9 @@ namespace Tech.UI.Panel
             UnregisterCallback<GeometryChangedEvent>(OnGeometryChange);
         }
 
-        public void SetSkillTexture(Texture2D texture2D, int index)
+        public void SetSkillTexture(Texture2D texture2D, int index, int stateIndex)
         {
+            _characterStateMachine.ChangeState(stateIndex);
             _skills[index].style.backgroundImage = texture2D;
         }
 
@@ -71,8 +76,23 @@ namespace Tech.UI.Panel
             _tailScene = nextScene;
         }
 
+
+        public void RetrieveStateMachine(StateMachine stateMachine)
+        {
+            _characterStateMachine = stateMachine;
+        }
+        
         public new class UxmlFactory : UxmlFactory<Creation_Document, UxmlTraits>
         {
+            public override VisualElement Create(IUxmlAttributes bag, CreationContext cc)
+            {
+                return base.Create(bag, cc);
+            }
+
+            public override bool AcceptsAttributeBag(IUxmlAttributes bag, CreationContext cc)
+            {
+                return base.AcceptsAttributeBag(bag, cc);
+            }
         }
 
         public new class UxmlTraits : VisualElement.UxmlTraits

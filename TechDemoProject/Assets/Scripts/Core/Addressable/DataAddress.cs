@@ -16,14 +16,14 @@ namespace Tech.Core
             {
                 var skillDatas = await Addressables
                     .LoadAssetsAsync(obj.labelToInclude[0].labelString, skillCallback)
-                    .ToUniTask(null, PlayerLoopTiming.Update, cancellationToken);
+                    .ToUniTask(progress, PlayerLoopTiming.Update, cancellationToken);
 
                 progress?.Report(1);
 
                 obj.SkillRetrieved(skillDatas);
                 return true;
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 return false;
             }
