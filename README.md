@@ -35,7 +35,7 @@ Castle Core,
 Moq,
 MagicOnion,
 GRpc,
-Ulid
+Ulid,
 System libraries
 Microsoft libraries,and
 ZString
