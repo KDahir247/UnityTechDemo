@@ -1,0 +1,67 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Users\\kdahi\\OneDrive\\Documents\\Unity\\TechDemo\\Tech.Unity.Shared\\Tech.Unity.Shared.csproj",
+    "projectName": "Tech.Unity.Shared",
+    "projectPath": "C:\\Users\\kdahi\\OneDrive\\Documents\\Unity\\TechDemo\\Tech.Unity.Shared\\Tech.Unity.Shared.csproj",
+    "outputPath": "C:\\Users\\kdahi\\OneDrive\\Documents\\Unity\\TechDemo\\Tech.Unity.Shared\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Microsoft\\Xamarin\\NuGet",
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netstandard2.0"
+    ],
+    "sources": {
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+      "http://teamcity.monogame.net/guestAuth/app/nuget/feed/_Root/default/v3/index.json": {},
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netstandard2.0": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netstandard2.0": {
+      "dependencies": {
+        "MagicOnion.Abstractions": {
+          "target": "Package",
+          "version": "[4.0.1, )"
+        },
+        "MessagePack.UnityShims": {
+          "target": "Package",
+          "version": "[2.2.60, )"
+        },
+        "NETStandard.Library": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.3, )",
+          "autoReferenced": true
+        },
+        "Ulid": {
+          "target": "Package",
+          "version": "[1.1.0, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true,
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+    }
+  }
+}
