@@ -14,15 +14,4 @@ namespace Tech.Network.Hub
 
         Task DisconnectAsync();
     }
-
-
-    //Client API
-    public interface INetworkHubReceiver
-    {
-        void OnJoin(Player player);
-
-        void OnLeave(string name);
-
-        void OnDisconnect(string name);
-    }
 }

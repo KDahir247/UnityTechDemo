@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "P3cMKD+TD0ynpKgE+S1Cu/5ODssaXyXQ8tTvuv803P1snu34VDRJvhTbfwGIQjUY22cuBZZXTSHCoKmGemtEew==",
+  "dgSpecHash": "PYSRQam2rfxwqQD0MMuTS51r6e761hqcxTrY9vLBtno326oU2wG+19+/kEwlZp7zsk1NpSi4gbSHBBOSEao8WA==",
   "success": true,
   "projectFilePath": "C:\\Users\\kdahi\\OneDrive\\Documents\\Unity\\TechDemo\\Tech.Server\\Tech.Server.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\kdahi\\.nuget\\packages\\magiconion\\3.0.13\\magiconion.3.0.13.nupkg.sha512",
     "C:\\Users\\kdahi\\.nuget\\packages\\magiconion.abstractions\\4.0.1\\magiconion.abstractions.4.0.1.nupkg.sha512",
     "C:\\Users\\kdahi\\.nuget\\packages\\magiconion.hosting\\3.0.13\\magiconion.hosting.3.0.13.nupkg.sha512",
+    "C:\\Users\\kdahi\\.nuget\\packages\\magiconion.msbuild.tasks\\3.0.11\\magiconion.msbuild.tasks.3.0.11.nupkg.sha512",
     "C:\\Users\\kdahi\\.nuget\\packages\\messagepack\\2.2.60\\messagepack.2.2.60.nupkg.sha512",
     "C:\\Users\\kdahi\\.nuget\\packages\\messagepack.annotations\\2.2.60\\messagepack.annotations.2.2.60.nupkg.sha512",
     "C:\\Users\\kdahi\\.nuget\\packages\\messagepack.unityshims\\2.2.60\\messagepack.unityshims.2.2.60.nupkg.sha512",

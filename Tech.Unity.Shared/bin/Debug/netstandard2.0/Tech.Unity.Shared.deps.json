@@ -10,6 +10,8 @@
       "Tech.Unity.Shared/1.0.0": {
         "dependencies": {
           "MagicOnion.Abstractions": "4.0.1",
+          "MagicOnion.MSBuild.Tasks": "3.0.11",
+          "MessagePack.MSBuild.Tasks": "2.1.152",
           "MessagePack.UnityShims": "2.2.60",
           "NETStandard.Library": "2.0.3",
           "Ulid": "1.1.0"
@@ -41,6 +43,7 @@
           }
         }
       },
+      "MagicOnion.MSBuild.Tasks/3.0.11": {},
       "MessagePack/2.2.60": {
         "dependencies": {
           "MessagePack.Annotations": "2.2.60",
@@ -67,6 +70,7 @@
           }
         }
       },
+      "MessagePack.MSBuild.Tasks/2.1.152": {},
       "MessagePack.UnityShims/2.2.60": {
         "dependencies": {
           "MessagePack": "2.2.60"
@@ -215,6 +219,13 @@
       "path": "magiconion.abstractions/4.0.1",
       "hashPath": "magiconion.abstractions.4.0.1.nupkg.sha512"
     },
+    "MagicOnion.MSBuild.Tasks/3.0.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aU3Sce6nQus2UwA8FdXX26xRbgSIuYuIxE7/8IKd+76ryxud7B7mC834ndwpLLMmDavzlz5yF06zL3vpJwfBkg==",
+      "path": "magiconion.msbuild.tasks/3.0.11",
+      "hashPath": "magiconion.msbuild.tasks.3.0.11.nupkg.sha512"
+    },
     "MessagePack/2.2.60": {
       "type": "package",
       "serviceable": true,
@@ -228,6 +239,13 @@
       "sha512": "sha512-+abBMY8ehLvA8+ksdBH5BihOD5ifffU/U6sd1le1qITIRQDwEwb/A1zdSHbZwKZf7HHEIn7yNBM4EYLUYseJeQ==",
       "path": "messagepack.annotations/2.2.60",
       "hashPath": "messagepack.annotations.2.2.60.nupkg.sha512"
+    },
+    "MessagePack.MSBuild.Tasks/2.1.152": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JX9R8LrguJMU1yo5YFazwnIy/HUYsNUfq4u9Apu0wZpp4nPs9ZxeQ9PnXujcyvtocUwJ96ipVHSfvnXFPeehOA==",
+      "path": "messagepack.msbuild.tasks/2.1.152",
+      "hashPath": "messagepack.msbuild.tasks.2.1.152.nupkg.sha512"
     },
     "MessagePack.UnityShims/2.2.60": {
       "type": "package",

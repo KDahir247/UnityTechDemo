@@ -1,8 +1,8 @@
 C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\Tech.Unity.Shared\bin\Debug\netstandard2.0\Tech.Unity.Shared.deps.json
 C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\Tech.Unity.Shared\bin\Debug\netstandard2.0\Tech.Unity.Shared.dll
+C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\Tech.Unity.Shared\bin\Debug\netstandard2.0\Tech.Unity.Shared.pdb
 C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\Tech.Unity.Shared\obj\Debug\netstandard2.0\Tech.Unity.Shared.AssemblyInfoInputs.cache
 C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\Tech.Unity.Shared\obj\Debug\netstandard2.0\Tech.Unity.Shared.AssemblyInfo.cs
-C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\Tech.Unity.Shared\bin\Debug\netstandard2.0\Tech.Unity.Shared.pdb
 C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\Tech.Unity.Shared\obj\Debug\netstandard2.0\Tech.Unity.Shared.csproj.CoreCompileInputs.cache
 C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\Tech.Unity.Shared\obj\Debug\netstandard2.0\Tech.Unity.Shared.dll
 C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\Tech.Unity.Shared\obj\Debug\netstandard2.0\Tech.Unity.Shared.pdb

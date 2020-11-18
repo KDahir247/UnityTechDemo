@@ -1,13 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "2DU6DSuOThTo+xVYizw1IriDA9sIApvkDt15IM9Mqffof2QzwtnJ0PC2+ldmzBL+LT/QEIBGrXGbcyNfss3xzg==",
+  "dgSpecHash": "Zgv1qyTgrCqHUlD7P6VQRmYXOLeNXs9T+gqEMeHpWd7awIAYeGDh14X2Mq/mTAyNzI7HGI4qTSmRURMKywlQ1Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\kdahi\\OneDrive\\Documents\\Unity\\TechDemo\\Tech.Unity.Shared\\Tech.Unity.Shared.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kdahi\\.nuget\\packages\\grpc.core.api\\2.25.0\\grpc.core.api.2.25.0.nupkg.sha512",
     "C:\\Users\\kdahi\\.nuget\\packages\\magiconion.abstractions\\4.0.1\\magiconion.abstractions.4.0.1.nupkg.sha512",
+    "C:\\Users\\kdahi\\.nuget\\packages\\magiconion.msbuild.tasks\\3.0.11\\magiconion.msbuild.tasks.3.0.11.nupkg.sha512",
     "C:\\Users\\kdahi\\.nuget\\packages\\messagepack\\2.2.60\\messagepack.2.2.60.nupkg.sha512",
     "C:\\Users\\kdahi\\.nuget\\packages\\messagepack.annotations\\2.2.60\\messagepack.annotations.2.2.60.nupkg.sha512",
+    "C:\\Users\\kdahi\\.nuget\\packages\\messagepack.msbuild.tasks\\2.1.152\\messagepack.msbuild.tasks.2.1.152.nupkg.sha512",
     "C:\\Users\\kdahi\\.nuget\\packages\\messagepack.unityshims\\2.2.60\\messagepack.unityshims.2.2.60.nupkg.sha512",
     "C:\\Users\\kdahi\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.0.0\\microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

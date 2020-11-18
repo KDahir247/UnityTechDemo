@@ -12,4 +12,8 @@
   <PropertyGroup>
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
   </PropertyGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)messagepack.msbuild.tasks\2.1.152\build\MessagePack.MSBuild.Tasks.props" Condition="Exists('$(NuGetPackageRoot)messagepack.msbuild.tasks\2.1.152\build\MessagePack.MSBuild.Tasks.props')" />
+    <Import Project="$(NuGetPackageRoot)magiconion.msbuild.tasks\3.0.11\build\MagicOnion.MSBuild.Tasks.props" Condition="Exists('$(NuGetPackageRoot)magiconion.msbuild.tasks\3.0.11\build\MagicOnion.MSBuild.Tasks.props')" />
+  </ImportGroup>
 </Project>

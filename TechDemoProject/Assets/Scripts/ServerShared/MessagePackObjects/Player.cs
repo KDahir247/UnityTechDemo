@@ -23,11 +23,12 @@ namespace Tech.Network.Param
     [MessagePackObject()]
     public class Player
     {
+        // [Key(0)][MessagePackObject()] public Ulid ID { get; set; }
         
         [Key(0)] public string Name { get; set; }
         
-        // [Key(2)] public uint Level { get; set; }
-        //
+        [Key(1)] public uint Level { get; set; }
+        
         // [Key(3)] public string GuildName { get; set; }
         //
         // [Key(4)] public string Bio { get; set; }

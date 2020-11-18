@@ -30,6 +30,8 @@ public class NetworkManager : MonoBehaviour, INetworkHubReceiver
         var player = new Player()
         {
             Name = "Bob",
+            // ID = Ulid.Empty, 
+            Level = 0
         };
 
         await _networkHub.JoinAsync(player);

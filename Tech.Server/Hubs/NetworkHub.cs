@@ -16,7 +16,9 @@ namespace Tech.Server.Hubs
             const string roomName = "Title";
             room = await Group.AddAsync(roomName);
 
+            // player.ID = new Ulid(ConnectionId);
             this.player = player;
+            
             Console.WriteLine("joined");
             this.BroadcastToSelf(room)
                 .OnJoin(player);
