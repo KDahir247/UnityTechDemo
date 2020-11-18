@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using MessagePack;
-using UnityEngine;
 
 namespace Tech.Network.Param
 {
@@ -26,22 +23,21 @@ namespace Tech.Network.Param
     [MessagePackObject()]
     public class Player
     {
-        [Key(0)] public Ulid ID { get; set; }
         
-        [Key(1)] public string Name { get; set; }
+        [Key(0)] public string Name { get; set; }
         
-        [Key(2)] public uint Level { get; set; }
-        
-        [Key(3)] public string GuildName { get; set; }
-        
-        [Key(4)] public string Bio { get; set; }
-        
-        [Key(5)] public uint GoldAmount { get; set; }
-        
-        [Key(6)] public uint GemAmount { get; set; }
-        
-        [Key(7)] public uint ResourceAmount { get; set; }
-        
-        [Key(8)] public uint StaminaAmount { get; set; }
+        // [Key(2)] public uint Level { get; set; }
+        //
+        // [Key(3)] public string GuildName { get; set; }
+        //
+        // [Key(4)] public string Bio { get; set; }
+        //
+        // [Key(5)] public uint GoldAmount { get; set; }
+        //
+        // [Key(6)] public uint GemAmount { get; set; }
+        //
+        // [Key(7)] public uint ResourceAmount { get; set; }
+        //
+        // [Key(8)] public uint StaminaAmount { get; set; }
     }
 }
