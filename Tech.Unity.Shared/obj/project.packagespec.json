@@ -38,13 +38,13 @@
         },
         "MagicOnion.MSBuild.Tasks": {
           "target": "Package",
-          "version": "[4.0.1, )"
+          "version": "[3.0.11, )"
         },
         "MessagePack.MSBuild.Tasks": {
           "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
           "suppressParent": "All",
           "target": "Package",
-          "version": "[2.2.60, )"
+          "version": "[2.1.152, )"
         },
         "MessagePack.UnityShims": {
           "target": "Package",

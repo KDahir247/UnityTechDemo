@@ -6,7 +6,6 @@ namespace Experimental.Network
     {
         private static void SendTCPData(Packet packet)
         {
-            
             packet.WriteLength();
             Client.instance.tcp.SendData(packet);
         }
@@ -16,21 +15,20 @@ namespace Experimental.Network
             packet.WriteLength();
             Client.instance.udp.SendData(packet);
         }
-        
+
         #region Packets
 
         public static void WelcomeReceived()
         {
-            using (Packet packet = new Packet((int)ClientPackets.WelcomeReceived))
+            using (var packet = new Packet((int) ClientPackets.WelcomeReceived))
             {
                 packet.Write(Client.instance.myId);
                 packet.Write("Boby");
-                
+
                 SendTCPData(packet);
             }
         }
 
         #endregion
-
     }
 }

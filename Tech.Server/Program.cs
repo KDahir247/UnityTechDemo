@@ -1,21 +1,23 @@
-﻿using System;
-using System.Threading.Tasks;
+﻿using System.Threading;
 using MagicOnion.Hosting;
-using MagicOnion.Server;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using System.Threading.Tasks;
 
 namespace Tech.Server
 {
-    class Program
+
+    public class Program
     {
+        public static CancellationTokenSource Source = new CancellationTokenSource();
         static async Task Main(string[] args)
         {
-            //you can define address and port 
-            await MagicOnionHost.CreateDefaultBuilder(true, LogLevel.Information)
+            using (var taskConsoleAsync = MagicOnionHost.CreateDefaultBuilder(true, LogLevel.Information)
                 .UseMagicOnion()
-                .RunConsoleAsync();
-
+                .RunConsoleAsync(Source.Token))
+            {
+                await taskConsoleAsync;
+            }
         }
     }
 }

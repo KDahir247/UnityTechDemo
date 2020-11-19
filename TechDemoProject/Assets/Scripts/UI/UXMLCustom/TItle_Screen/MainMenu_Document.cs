@@ -1,5 +1,4 @@
-﻿using UniRx;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UIElements;
 using UnityEngine.UIElements.Experimental;
 
@@ -17,16 +16,14 @@ namespace Tech.UI.Panel
 {
     public class MainMenu_Document : VisualElement
     {
-        private TitleScreen_Document _parentDocument;
-
-        private Label _idLabel;
-        private Label _versionLabel;
-        
-        
         private const int AnimRecurInDuration = 2000;
         private const int AnimRecurOutDuration = 2000;
         private StyleValues _fadeInStyle;
         private StyleValues _fadeOutStyle;
+
+        private Label _idLabel;
+        private TitleScreen_Document _parentDocument;
+        private Label _versionLabel;
 
         public MainMenu_Document()
         {
@@ -41,25 +38,21 @@ namespace Tech.UI.Panel
             _idLabel.text = "ID. 1111";
             _versionLabel.text = $"Ver.{Application.version}.{Application.unityVersion}";
 
-            
+
             //creating a single instance of Style Value since AnimationTouchScreen is recursive and it will recursively create instance
             _fadeInStyle = new StyleValues {opacity = 1};
             _fadeOutStyle = new StyleValues {opacity = 0};
-            
-            AnimationTouchScreen();
 
-              
+            AnimationTouchScreen();
 
 
             UnregisterCallback<GeometryChangedEvent>(OnGeometryChange);
-            
         }
 
         public void OnInitialize(TitleScreen_Document elementParent)
         {
-      
         }
-        
+
         //TODO add a label as a parameter to make it more generic 
         //Uses Recursion since there is not looping currently in the UIElement animation. Animation is still in experimental 
         //going to redo when UIElement animation is capable of looping.
@@ -77,8 +70,7 @@ namespace Tech.UI.Panel
                 });
         }
 
-        
-        
+
         public new class UxmlFactory : UxmlFactory<MainMenu_Document, UxmlTraits>
         {
             public override VisualElement Create(IUxmlAttributes bag, CreationContext cc)

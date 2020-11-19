@@ -27,7 +27,7 @@ namespace Tech.UI.Panel
 
             RegisterCallback<GeometryChangedEvent>(OnGeometryChange);
         }
-        
+
         public PanelSettings PanelSettings { get; set; }
 
         private void OnGeometryChange(GeometryChangedEvent evt)

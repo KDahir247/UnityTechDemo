@@ -1,16 +1,13 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using Tech.Network.Param;
+﻿using Tech.Network.Param;
+
 namespace Tech.Network.Hub
 {
     public interface INetworkHubReceiver
     {
-
         void OnJoin(Player player);
 
-        void OnLeave(string name);
+        void OnLeave(Player player);
 
-        void OnDisconnect(string name);
+        void OnDisconnect(Player player);
     }
 }

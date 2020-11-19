@@ -1,6 +1,5 @@
 ﻿using System;
 using Tech.Core;
-using UniRx;
 using UnityEngine;
 using UnityEngine.UIElements;
 using UnityEngine.UIElements.Experimental;
@@ -14,47 +13,50 @@ namespace Tech.UI.Panel
     {
         private const int AnimationFadeInDuration = 1000;
         private const int AnimationFadeOutDuration = 1000;
-        
+
         //variables for the recursive animation
         private bool _hasPressedSelectable;
+
+        private string _headSceneName = string.Empty;
         private bool _isTransitioning;
-        
+        private string _tailSceneName = string.Empty;
+
+        public bool OutOfBound = true;
+
+        public TitleScreen_Document()
+        {
+            RegisterCallback<GeometryChangedEvent>(OnGeometryChange);
+        }
+
         public VisualElement NewsScreen { get; private set; }
         public VisualElement OptionScreen { get; private set; }
         public VisualElement SupportScreen { get; private set; }
         public VisualElement MainMenuVisualElement { get; private set; }
 
-        private string _headSceneName = string.Empty;
-        private string _tailSceneName = string.Empty;
-        
-        public bool OutOfBound = true;
-        
-        public TitleScreen_Document() => RegisterCallback<GeometryChangedEvent>(OnGeometryChange);
-        
         private void OnGeometryChange(GeometryChangedEvent evt)
         {
             //Visual Element Panel that MainMenu can Transition to 
             Initialize();
             ButtonInitialize();
-            
+
             //TODO issue with the event call
             OptionScreen.Q<VisualElement>("Core_Panel")
                 .RegisterCallback<MouseLeaveEvent>(evnt =>
-                   FadeToNewScreen(MainMenuVisualElement, OptionScreen));
+                    FadeToNewScreen(MainMenuVisualElement, OptionScreen));
 
             SupportScreen.Q<VisualElement>("Core_Panel")
                 .RegisterCallback<MouseLeaveEvent>(evnt => FadeToNewScreen(MainMenuVisualElement, SupportScreen));
 
             NewsScreen.Q<VisualElement>("Core_Panel")
                 .RegisterCallback<MouseLeaveEvent>(evnt => FadeToNewScreen(MainMenuVisualElement, NewsScreen));
-            
-            
+
+
             MainMenuVisualElement.RegisterCallback<ClickEvent>(evnt =>
             {
-                if(!_isTransitioning)
+                if (!_isTransitioning)
                     LoadScene(evnt);
-            } );
-            
+            });
+
             UnregisterCallback<GeometryChangedEvent>(OnGeometryChange);
         }
 
@@ -83,15 +85,15 @@ namespace Tech.UI.Panel
         }
 
 
-        public void FadeToNewScreen( VisualElement fadeInTarget, VisualElement fadeOutTarget)
+        public void FadeToNewScreen(VisualElement fadeInTarget, VisualElement fadeOutTarget)
         {
             if (!_isTransitioning)
-                FadeOut( fadeOutTarget,
-                    () => FadeIn( fadeInTarget, fadeOutTarget, () => { _isTransitioning = false; }));
+                FadeOut(fadeOutTarget,
+                    () => FadeIn(fadeInTarget, fadeOutTarget, () => { _isTransitioning = false; }));
         }
 
-        
-        private void FadeOut( VisualElement visualElementToFadeOut, Action onComplete)
+
+        private void FadeOut(VisualElement visualElementToFadeOut, Action onComplete)
         {
             _isTransitioning = true;
 
@@ -102,7 +104,7 @@ namespace Tech.UI.Panel
         }
 
 
-        private void FadeIn( VisualElement visualElementToFadeIn, VisualElement visualElementThatFadeOut,
+        private void FadeIn(VisualElement visualElementToFadeIn, VisualElement visualElementThatFadeOut,
             Action onComplete)
         {
             visualElementToFadeIn.style.display = DisplayStyle.Flex;

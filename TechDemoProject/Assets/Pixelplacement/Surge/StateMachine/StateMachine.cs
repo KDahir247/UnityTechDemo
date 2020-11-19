@@ -25,6 +25,7 @@ namespace Pixelplacement
     [RequireComponent(typeof(Initialization))]
     public class StateMachine : MonoBehaviour
     {
+        private readonly ILogger Logger = LogManager.Logger;
         private bool _atFirst;
         private bool _atLast;
 
@@ -45,7 +46,6 @@ namespace Pixelplacement
 
         //Public Variables:
         public GameObject defaultState;
-        private readonly ILogger Logger = LogManager.Logger;
         public UnityEvent OnFirstStateEntered;
         public UnityEvent OnFirstStateExited;
         public UnityEvent OnLastStateEntered;

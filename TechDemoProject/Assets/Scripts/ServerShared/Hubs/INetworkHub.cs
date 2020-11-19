@@ -8,10 +8,12 @@ namespace Tech.Network.Hub
     //Client -> Server API
     public interface INetworkHub : IStreamingHub<INetworkHub, INetworkHubReceiver>
     {
-        Task JoinAsync(Player player);
+        Task<Player[]> JoinAsync(string username);
 
         Task LeaveAsync();
 
         Task DisconnectAsync();
+
+        Task TerminateAsync();
     }
 }

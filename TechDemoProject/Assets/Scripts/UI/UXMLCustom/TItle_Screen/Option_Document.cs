@@ -1,10 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using Tech.UI.Panel;
-using UniRx;
-using UnityEngine;
-using UnityEngine.UIElements;
-using UnityEngine.UIElements.Experimental;
+﻿using UnityEngine.UIElements;
 
 //Handles Logic in the Option Document.
 namespace Tech.UI.Panel
@@ -20,13 +14,14 @@ namespace Tech.UI.Panel
 
         private void OnGeometryChange(GeometryChangedEvent evt)
         {
-                
-                UnregisterCallback<GeometryChangedEvent>(OnGeometryChange);
+            UnregisterCallback<GeometryChangedEvent>(OnGeometryChange);
         }
 
 
-        public void OnInitialize(TitleScreen_Document elementParent) { }
-        
+        public void OnInitialize(TitleScreen_Document elementParent)
+        {
+        }
+
         public new class UxmlFactory : UxmlFactory<Option_Document, UxmlTraits>
         {
             public override VisualElement Create(IUxmlAttributes bag, CreationContext cc)
@@ -39,7 +34,7 @@ namespace Tech.UI.Panel
                 return base.AcceptsAttributeBag(bag, cc);
             }
         }
-        
+
         public new class UxmlTraits : VisualElement.UxmlTraits
         {
             public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
@@ -47,6 +42,5 @@ namespace Tech.UI.Panel
                 base.Init(ve, bag, cc);
             }
         }
-        
     }
 }

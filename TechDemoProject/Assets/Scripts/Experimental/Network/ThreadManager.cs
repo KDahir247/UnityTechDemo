@@ -6,7 +6,7 @@ public class ThreadManager : MonoBehaviour
 {
     private static readonly List<Action> executeOnMainThread = new List<Action>();
     private static readonly List<Action> executeCopiedOnMainThread = new List<Action>();
-    private static bool actionToExecuteOnMainThread = false;
+    private static bool actionToExecuteOnMainThread;
 
     private void Update()
     {
@@ -43,10 +43,7 @@ public class ThreadManager : MonoBehaviour
                 actionToExecuteOnMainThread = false;
             }
 
-            for (int i = 0; i < executeCopiedOnMainThread.Count; i++)
-            {
-                executeCopiedOnMainThread[i]();
-            }
+            for (var i = 0; i < executeCopiedOnMainThread.Count; i++) executeCopiedOnMainThread[i]();
         }
     }
 }

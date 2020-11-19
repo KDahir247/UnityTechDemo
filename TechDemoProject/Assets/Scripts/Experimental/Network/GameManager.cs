@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 namespace Experimental.Network
@@ -12,18 +11,13 @@ namespace Experimental.Network
 
         public GameObject localPlayerPrefab;
         public GameObject playerPrefab;
-        
-        
+
+
         private void Awake()
         {
             if (instance == null)
-            {
                 instance = this;
-            }
-            else if (instance != this)
-            {
-                Destroy(this);
-            }
+            else if (instance != this) Destroy(this);
         }
 
 
@@ -32,18 +26,13 @@ namespace Experimental.Network
             GameObject player;
 
             if (id == Client.instance.myId)
-            {
                 player = Instantiate(localPlayerPrefab, position, rotation);
-            }
             else
-            {
                 player = Instantiate(playerPrefab, position, rotation);
-            }
 
             player.GetComponent<PlayerManager>().id = id;
             player.GetComponent<PlayerManager>().username = userName;
             players.Add(id, player.GetComponent<PlayerManager>());
         }
-        
     }
 }

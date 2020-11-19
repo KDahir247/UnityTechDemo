@@ -247,3 +247,18 @@ Initialized Unitask correctly for ECS
 [11/17/2020 23:00:08]
 [Information][11/17/2020 18:00:00]
 Closing Logger and Disposing
+[11/17/2020 23:16:33]
+[Information][11/17/2020 18:00:00]
+ReInitialized Unitask after Initialization of ECS is complete
+[11/17/2020 23:16:33]
+[Information][11/17/2020 18:00:00]
+Unitask Player loop is ready? True
+[11/17/2020 23:16:33]
+[Information][11/17/2020 18:00:00]
+Initialized Unitask correctly for ECS
+[11/17/2020 23:16:34]
+[Information][11/17/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/17/2020 23:16:54]
+[Information][11/17/2020 18:00:00]
+Closing Logger and Disposing

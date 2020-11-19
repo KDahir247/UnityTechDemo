@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Threading.Tasks;
 using MagicOnion.Server.Hubs;
 using Tech.Network.Hub;
@@ -6,34 +7,50 @@ using Tech.Network.Param;
 
 namespace Tech.Server.Hubs
 {
+    //TODO Create Helpers
     class NetworkHub : StreamingHubBase<INetworkHub, INetworkHubReceiver>, INetworkHub
     {
         private IGroup room;
-        Player player;
+        private IInMemoryStorage<Player> playerMemoryStorage;
+        Player self;
+       // private IInMemoryStorage<self> storage;
 
-        public async Task JoinAsync(Player player)
+        public async Task<Player[]> JoinAsync(string username)
         {
-            const string roomName = "Title";
-            room = await Group.AddAsync(roomName);
 
-            // player.ID = new Ulid(ConnectionId);
-            this.player = player;
+            self = new Player(){Level = 0, Name = username};
+
+            const string roomName = "Title";
+
+            (room, playerMemoryStorage) = await Group.AddAsync(roomName, self);
+
             
             Console.WriteLine("joined");
+
             this.BroadcastToSelf(room)
-                .OnJoin(player);
+                .OnJoin(self);
+
+            return playerMemoryStorage.AllValues.ToArray();
+
         }
 
         public async Task LeaveAsync()
         {
             await room.RemoveAsync(this.Context);
-            this.Broadcast(room).OnLeave(player.Name);
+            this.Broadcast(room).OnLeave(self);
         }
 
         public async Task DisconnectAsync()
         {
             throw new NotImplementedException();
         }
+
+        public async Task TerminateAsync()
+        {
+             Program.Source.Cancel(false);
+             Environment.Exit(0);   
+        }
+
 
         protected override ValueTask OnConnecting()
         {
@@ -44,7 +61,7 @@ namespace Tech.Server.Hubs
 
         protected override ValueTask OnDisconnected()
         {
-
+            Console.WriteLine("Disconnected");
 
             return CompletedTask;
         }

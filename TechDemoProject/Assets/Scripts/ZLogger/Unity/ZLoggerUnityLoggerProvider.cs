@@ -1,22 +1,24 @@
+using System;
+using System.Threading.Tasks;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Configuration;
 using Microsoft.Extensions.Options;
-using System;
-using System.Threading.Tasks;
+using UnityEngine;
 using ZLogger.Providers;
+using ILogger = Microsoft.Extensions.Logging.ILogger;
 
 namespace ZLogger.Providers
 {
     [ProviderAlias("ZLoggerUnity")]
     public class ZLoggerUnityLoggerProvider : ILoggerProvider
     {
-        UnityDebugLogProcessor debugLogProcessor;
+        private readonly UnityDebugLogProcessor debugLogProcessor;
 
         public ZLoggerUnityLoggerProvider(IOptions<ZLoggerOptions> options)
         {
-            this.debugLogProcessor = new UnityDebugLogProcessor(options.Value);
+            debugLogProcessor = new UnityDebugLogProcessor(options.Value);
         }
 
         public ILogger CreateLogger(string categoryName)
@@ -31,7 +33,7 @@ namespace ZLogger.Providers
 
     public class UnityDebugLogProcessor : IAsyncLogProcessor
     {
-        readonly ZLoggerOptions options;
+        private readonly ZLoggerOptions options;
 
         public UnityDebugLogProcessor(ZLoggerOptions options)
         {
@@ -53,25 +55,19 @@ namespace ZLogger.Providers
                     case LogLevel.Trace:
                     case LogLevel.Debug:
                     case LogLevel.Information:
-                        UnityEngine.Debug.Log(msg);
+                        Debug.Log(msg);
                         break;
                     case LogLevel.Warning:
                     case LogLevel.Critical:
-                        UnityEngine.Debug.LogWarning(msg);
+                        Debug.LogWarning(msg);
                         break;
                     case LogLevel.Error:
                         if (log.LogInfo.Exception != null)
-                        {
-                            UnityEngine.Debug.LogException(log.LogInfo.Exception);
-                        }
+                            Debug.LogException(log.LogInfo.Exception);
                         else
-                        {
-                            UnityEngine.Debug.LogError(msg);
-                        }
+                            Debug.LogError(msg);
                         break;
                     case LogLevel.None:
-                        break;
-                    default:
                         break;
                 }
             }
@@ -91,18 +87,18 @@ namespace ZLogger
         {
             builder.AddConfiguration();
 
-            builder.Services.TryAddEnumerable(ServiceDescriptor.Singleton<ILoggerProvider, ZLoggerUnityLoggerProvider>(x => new ZLoggerUnityLoggerProvider(x.GetService<IOptions<ZLoggerOptions>>())));
+            builder.Services.TryAddEnumerable(
+                ServiceDescriptor.Singleton<ILoggerProvider, ZLoggerUnityLoggerProvider>(x =>
+                    new ZLoggerUnityLoggerProvider(x.GetService<IOptions<ZLoggerOptions>>())));
             LoggerProviderOptions.RegisterProviderOptions<ZLoggerOptions, ZLoggerUnityLoggerProvider>(builder.Services);
 
             return builder;
         }
 
-        public static ILoggingBuilder AddZLoggerUnityDebug(this ILoggingBuilder builder, Action<ZLoggerOptions> configure)
+        public static ILoggingBuilder AddZLoggerUnityDebug(this ILoggingBuilder builder,
+            Action<ZLoggerOptions> configure)
         {
-            if (configure == null)
-            {
-                throw new ArgumentNullException(nameof(configure));
-            }
+            if (configure == null) throw new ArgumentNullException(nameof(configure));
 
             builder.AddZLoggerUnityDebug();
             builder.Services.Configure(configure);

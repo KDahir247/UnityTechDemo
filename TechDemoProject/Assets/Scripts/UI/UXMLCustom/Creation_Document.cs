@@ -8,10 +8,9 @@ namespace Tech.UI.Panel
 {
     public class Creation_Document : VisualElement
     {
+        private readonly Button[] _skills = new Button[3];
 
         private StateMachine _characterStateMachine;
-        
-        private readonly Button[] _skills = new Button[3];
         private VisualElement _coreElement;
 
         private string _headScene = string.Empty;
@@ -81,7 +80,7 @@ namespace Tech.UI.Panel
         {
             _characterStateMachine = stateMachine;
         }
-        
+
         public new class UxmlFactory : UxmlFactory<Creation_Document, UxmlTraits>
         {
             public override VisualElement Create(IUxmlAttributes bag, CreationContext cc)

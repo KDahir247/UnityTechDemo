@@ -4,6 +4,5 @@ namespace Experimental.Network
 {
     public class PlayerController : MonoBehaviour
     {
-        
     }
 }

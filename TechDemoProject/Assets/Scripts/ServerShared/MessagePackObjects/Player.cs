@@ -1,9 +1,7 @@
-﻿using System;
-using MessagePack;
+﻿using MessagePack;
 
 namespace Tech.Network.Param
 {
-
     /*
      * Order
      * ID GUID or Ulid,
@@ -18,17 +16,17 @@ namespace Tech.Network.Param
      * stamina unsigned int
      * 
      */
-    
+
     //TODO got to verify that non primitive type are valid for MessagePack before including (Icon Image)
-    [MessagePackObject()]
+    [MessagePackObject]
     public class Player
     {
         // [Key(0)][MessagePackObject()] public Ulid ID { get; set; }
-        
+
         [Key(0)] public string Name { get; set; }
-        
+
         [Key(1)] public uint Level { get; set; }
-        
+
         // [Key(3)] public string GuildName { get; set; }
         //
         // [Key(4)] public string Bio { get; set; }

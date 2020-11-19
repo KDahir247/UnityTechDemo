@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UIElements;
+﻿using UnityEngine.UIElements;
 
 //Handles logic in the New Panel
 namespace Tech.UI.Panel
@@ -9,12 +6,13 @@ namespace Tech.UI.Panel
     public class News_Document : VisualElement
     {
         private VisualElement _coreElement;
-        public TitleScreen_Document ParentDocument { get; set; }
 
         public News_Document()
         {
             RegisterCallback<GeometryChangedEvent>(OnGeometryChange);
         }
+
+        public TitleScreen_Document ParentDocument { get; set; }
 
         private void OnGeometryChange(GeometryChangedEvent evt)
         {
@@ -23,9 +21,8 @@ namespace Tech.UI.Panel
 
         public void OnInitialize(TitleScreen_Document elementParent)
         {
-            
         }
-        
+
         public new class UxmlFactory : UxmlFactory<News_Document, UxmlTraits>
         {
             public override VisualElement Create(IUxmlAttributes bag, CreationContext cc)
@@ -38,7 +35,7 @@ namespace Tech.UI.Panel
                 return base.AcceptsAttributeBag(bag, cc);
             }
         }
-        
+
         public new class UxmlTraits : VisualElement.UxmlTraits
         {
             public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
@@ -46,6 +43,5 @@ namespace Tech.UI.Panel
                 base.Init(ve, bag, cc);
             }
         }
-        
     }
 }
