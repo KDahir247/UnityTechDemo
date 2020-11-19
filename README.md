@@ -98,6 +98,8 @@ Decide on the animation system. Common Animator, Kinematica, animation ecs job
 <br/>
 Decide on the Network Tool. Pun2, Mirror, DotsNet (Complete Going to use MagicOnion with a custom server client logic. gRPC with Bi-directional real-time communication. cross language support)
 <br/>
+Remove mirror networking framework, since it isn't used anymore
+<br/>
 Remove AnimationController for Custom Shader using Shader graph in main menu (Lerp) (Complete)
 <br/>
 Add functionality to top right buttons on main menu (Complete)
