@@ -1,7 +1,10 @@
 # UnityTechDemo
 Going to implement basic networking gRPC with magicOnion where client can connect and disconnect from the dedicated server. (Starting)
 
-Self teaching on some of unity's packages and some other plugin. (Ongoing)
+Self teaching on some of unity's packages and some other plugin. (Ongoing) 
+
+Task Today: continue study on networking TCP and UDP to implement a better server and client.
+
 
 Unity Packages using:
 Addressables,
