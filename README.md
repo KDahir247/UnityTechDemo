@@ -100,13 +100,13 @@ Decide on the Network Tool. Pun2, Mirror, DotsNet (Complete Going to use MagicOn
 <br/>
 Remove AnimationController for Custom Shader using Shader graph in main menu (Lerp) (Complete)
 <br/>
-Add functionality to top right buttons on main menu
+Add functionality to top right buttons on main menu (Complete)
 <br/>
 update the version in main menu so it reflect the Application version (Complete)
 <br/>
 restructure custom packages to suit my project (ITween, ITweenExtension, Surge)
 <br/>
-replace all canvas (Unity classic UI system) with UI Document (Unity's newer UI System). Since it is customizable and more scalable.
+replace all canvas (Unity classic UI system) with UI Document (Unity's newer UI System). Since it is customizable and more scalable. (Complete)
 <br/>
 replace all animator in scene with kinematica animator.
 <br/>
