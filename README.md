@@ -92,9 +92,9 @@ Game (Game scene will be the only Scene that will have ECS and DOTS Logic to dri
 <br/>
 TODO:
 <br/>
-__Complete the creation scene__
+Complete the creation scene
 <br/>
-__Create in-memory database to store data__
+Create in-memory database to store data
 <br/>
 Error with the addressable layout. Can't build project due to it but it is still playable in the editor
 <br/>
