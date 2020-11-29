@@ -95,7 +95,7 @@ public class MasterMemoryWindow : EditorWindow
             UseShellExecute = false,
             FileName = filePath + exeFileName,
             Arguments =
-                $@"-i ""{Application.dataPath}/Scripts/Tables"" -o ""{Application.dataPath}/Scripts/Generated"" -n {_nameSpaceGenerated} {(returnNull ? "-t" : "")} -c",
+                $@"-i ""{Application.dataPath}/Scripts/Database/Tables"" -o ""{Application.dataPath}/Scripts/Generated"" -n {_nameSpaceGenerated} {(returnNull ? "-t" : "")} -c",
         };
 
         var p = Process.Start(psi);
