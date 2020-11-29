@@ -6,7 +6,7 @@
     <Style src="/Assets/UI/USS/MainMenu/TitleScreen_USS.uss" />
     <Tech.UI.Panel.TitleScreen_Document style="display: flex; align-items: center; justify-content: center; flex-grow: 1;">
         <ui:Instance template="MainMenu_Document" name="MainMenu_Document" style="display: flex; flex-grow: 1; align-items: flex-start; justify-content: flex-start; flex-direction: row; flex-wrap: nowrap;" />
-        <ui:Instance template="Option_Document" name="Option_Document" class="TitleChild_Layout" style="display: none; flex-grow: 0; align-items: center; justify-content: flex-start; margin-top: 175px;" />
+        <ui:Instance template="Option_Document" name="Option_Document" class="TitleChild_Layout" style="display: flex; flex-grow: 0; align-items: center; justify-content: flex-start; margin-top: 175px;" />
         <ui:Instance template="Support_Document" name="Support_Document" class="TitleChild_Layout" style="display: none;" />
         <ui:Instance template="News_Document" name="News_Document" class="TitleChild_Layout" style="display: none;" />
     </Tech.UI.Panel.TitleScreen_Document>

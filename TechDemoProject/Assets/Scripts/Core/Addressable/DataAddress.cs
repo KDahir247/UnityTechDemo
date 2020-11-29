@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Threading;
+using System.Threading.Tasks;
 using Cysharp.Threading.Tasks;
 using Tech.Data.Scriptable;
 using UnityEngine.AddressableAssets;
@@ -18,6 +19,7 @@ namespace Tech.Core
                     .LoadAssetsAsync(obj.labelToInclude[0].labelString, skillCallback)
                     .ToUniTask(progress, PlayerLoopTiming.Update, cancellationToken);
 
+                
                 progress?.Report(1);
 
                 obj.SkillRetrieved(skillDatas);

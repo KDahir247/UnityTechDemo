@@ -189,13 +189,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70d4cede38bb32e46b1721ce3349a344, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clip: {fileID: 8300000, guid: aea5e25abfe37004f9667f31fbe94624, type: 3}
-  fadeInEase: 5
-  fadeInTime: 4
-  fadeOutEase: 6
+  clip: {fileID: 0}
+  fadeInEase: 0
+  fadeInTime: 1
+  fadeOutEase: 0
   fadeOutTime: 2
-  key: Creation
-  onNextScene: Assets/Scenes/Creation.unity
+  key: 
+  onNextScene: 
 --- !u!4 &537150170
 Transform:
   m_ObjectHideFlags: 0
@@ -362,12 +362,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 560838882}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7e131c30b23ea06498b7d61bbdfd173f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dontDestroyOnLoad: 1
+  _dontDestroyOnLoad: 0
 --- !u!114 &560838886
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -686,11 +686,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e0b24e2f2ad54cc09940c320ed3cf4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _unityEventsFolded: 1
+  _unityEventsFolded: 0
   allowReentry: 0
   currentState:
     value: {fileID: 0}
-  defaultState: {fileID: 537150168}
+  defaultState: {fileID: 0}
   OnFirstStateEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -735,7 +735,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dda9a211032c16c40a60f68d0624b616, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dontDestroyOnLoad: 1
+  _dontDestroyOnLoad: 0
 --- !u!1 &1408379772
 GameObject:
   m_ObjectHideFlags: 0
@@ -780,13 +780,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70d4cede38bb32e46b1721ce3349a344, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clip: {fileID: 8300000, guid: b0fe2d19728482941a92bad0074d05f0, type: 3}
-  fadeInEase: 5
-  fadeInTime: 4
-  fadeOutEase: 6
+  clip: {fileID: 0}
+  fadeInEase: 0
+  fadeInTime: 1
+  fadeOutEase: 0
   fadeOutTime: 2
-  key: Game
-  onNextScene: Assets/Scenes/Game.unity
+  key: 
+  onNextScene: 
 --- !u!82 &1408379775
 AudioSource:
   m_ObjectHideFlags: 0
@@ -912,10 +912,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83f7ee8f8993d9d4093112705fb715fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  assetRef:
-  - m_AssetGUID: 728ac8214f68c0d4098d2fa258e5de45
-    m_SubObjectName: 
-  clickVfxDepth: 8
+  assetRef: []
+  clickVfxDepth: 15
 --- !u!4 &1624241081
 Transform:
   m_ObjectHideFlags: 0
@@ -1066,8 +1064,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5349d0d65e891db4f919d24d9ed71967, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dontDestroyOnLoad: 1
-  verbose: 1
+  _dontDestroyOnLoad: 0
+  verbose: 0
 --- !u!4 &1813358164
 Transform:
   m_ObjectHideFlags: 0
@@ -1219,13 +1217,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70d4cede38bb32e46b1721ce3349a344, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clip: {fileID: 8300000, guid: c073e41f9601c0c48a5fda7a2a6e337a, type: 3}
+  clip: {fileID: 0}
   fadeInEase: 0
   fadeInTime: 1
   fadeOutEase: 0
   fadeOutTime: 2
-  key: Menu
-  onNextScene: Assets/Scenes/MainMenu.unity
+  key: 
+  onNextScene: 
 --- !u!82 &1905359319
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1366,8 +1364,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ip: 127.0.0.1
-  port: 26950
   myId: 0
+  port: 26950
 --- !u!4 &2006796977
 Transform:
   m_ObjectHideFlags: 0

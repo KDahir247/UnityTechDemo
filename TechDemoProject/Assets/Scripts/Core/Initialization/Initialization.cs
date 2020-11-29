@@ -8,6 +8,7 @@ using Tech.Utility;
 using UnityEngine;
 using UnityEngine.Serialization;
 
+//TODO remove for in memory database
 namespace Tech.Initialization
 {
     //Initialize all the character skill

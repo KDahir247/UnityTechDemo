@@ -18,7 +18,6 @@ namespace Tech.Data.Scriptable
         {
             var skillDataCount = skillDataDownloaded.Count;
             skills = new SkillData[skillDataCount];
-
             for (var i = 0; i < skillDataCount; i++) skills[i] = skillDataDownloaded[i];
         }
     }
