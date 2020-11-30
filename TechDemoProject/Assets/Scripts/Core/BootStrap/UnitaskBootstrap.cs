@@ -1,5 +1,6 @@
 ﻿using Cysharp.Text;
 using Cysharp.Threading.Tasks;
+using Tech.Utility;
 using UnityEngine;
 using UnityEngine.LowLevel;
 using ZLogger;
@@ -13,13 +14,14 @@ namespace Tech.Core
             LogManager.GetLogger("UnitaskBootStrapLogger");
 
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
-        public static void Initialize()
+        public static void InitializeUnitask()
         {
             var loop = PlayerLoop.GetCurrentPlayerLoop();
             PlayerLoopHelper.Initialize(ref loop);
 
-            Logger.ZLogInformation("ReInitialized Unitask after Initialization of ECS is complete");
+            if (!GlobalSetting.EnableVerbosityUnitaskBootstrap) return;
 
+            Logger.ZLogInformation("ReInitialized Unitask after Initialization of ECS is complete");
 
             var stringBuilder = ZString.CreateUtf8StringBuilder();
             stringBuilder.AppendFormat("Unitask Player loop is ready? {0}",

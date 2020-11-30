@@ -9,6 +9,7 @@ using UnityEngine;
 
 namespace Tech.Utility
 {
+    //TODO fix
     public static class GlobalSetting
     {
         public static readonly StringReactiveProperty ReactiveUnityVersion =
@@ -18,6 +19,9 @@ namespace Tech.Utility
 
         public static readonly Dictionary<string, CharacterData> StoredCharacter =
             new Dictionary<string, CharacterData>();
+
+        public static bool EnableVerbosityUnitaskBootstrap;
+
 
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
         public static void ValidateVersion()

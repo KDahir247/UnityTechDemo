@@ -7,6 +7,7 @@ using UnityEngine.Serialization;
 
 namespace Tech.Core
 {
+    //TODO look at
     public class StateSingleton : Singleton<StateSingleton>
     {
         private readonly List<SceneState> _states = new List<SceneState>(3);

@@ -5,7 +5,7 @@ namespace Tech.Network
     public static class InternConnection
     {
         [DllImport("wininet.dll")]
-        private static extern bool InternetGetConnectedState(out int Description, int ReservedValue);
+        private static extern bool InternetGetConnectedState(out int description, int reservedValue);
 
         public static bool IsConnectedToInternet()
         {

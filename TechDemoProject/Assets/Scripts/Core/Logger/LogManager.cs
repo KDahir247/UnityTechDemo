@@ -24,7 +24,6 @@ namespace Tech.Core
 
                 builder.SetMinimumLevel(LogLevel.Trace);
 
-                //TODO Create Log Directory automatically depending on the day and store the correct log file in the correct folder
                 var valueStringBuilder = new Utf8ValueStringBuilder(true);
                 valueStringBuilder.AppendFormat(@"{0}\Assets\Log\EditorLog{1}.log", Environment.CurrentDirectory,
                     DateTime.Today.ToFileTime());

@@ -6,6 +6,7 @@ using MessagePack;
 using System.Collections.Generic;
 using System;
 using Tech.DB;
+using UnityEngine;
 using MasterData.Tables;
 
 namespace MasterData
@@ -13,12 +14,15 @@ namespace MasterData
    public sealed class MemoryDatabase : MemoryDatabaseBase
    {
         public CharacterTable CharacterTable { get; private set; }
+        public SkillTable SkillTable { get; private set; }
 
         public MemoryDatabase(
-            CharacterTable CharacterTable
+            CharacterTable CharacterTable,
+            SkillTable SkillTable
         )
         {
             this.CharacterTable = CharacterTable;
+            this.SkillTable = SkillTable;
         }
 
         public MemoryDatabase(byte[] databaseBinary, bool internString = true, MessagePack.IFormatterResolver formatterResolver = null)
@@ -29,6 +33,7 @@ namespace MasterData
         protected override void Init(Dictionary<string, (int offset, int count)> header, System.ReadOnlyMemory<byte> databaseBinary, MessagePack.MessagePackSerializerOptions options)
         {
             this.CharacterTable = ExtractTableData<Character, CharacterTable>(header, databaseBinary, options, xs => new CharacterTable(xs));
+            this.SkillTable = ExtractTableData<Skill, SkillTable>(header, databaseBinary, options, xs => new SkillTable(xs));
         }
 
         public ImmutableBuilder ToImmutableBuilder()
@@ -40,6 +45,7 @@ namespace MasterData
         {
             var builder = new DatabaseBuilder();
             builder.Append(this.CharacterTable.GetRawDataUnsafe());
+            builder.Append(this.SkillTable.GetRawDataUnsafe());
             return builder;
         }
 
@@ -47,6 +53,7 @@ namespace MasterData
         {
             var builder = new DatabaseBuilder(resolver);
             builder.Append(this.CharacterTable.GetRawDataUnsafe());
+            builder.Append(this.SkillTable.GetRawDataUnsafe());
             return builder;
         }
 
@@ -56,10 +63,13 @@ namespace MasterData
             var database = new ValidationDatabase(new object[]
             {
                 CharacterTable,
+                SkillTable,
             });
 
             ((ITableUniqueValidate)CharacterTable).ValidateUnique(result);
             ValidateTable(CharacterTable.All, database, "Index", CharacterTable.PrimaryKeySelector, result);
+            ((ITableUniqueValidate)SkillTable).ValidateUnique(result);
+            ValidateTable(SkillTable.All, database, "index", SkillTable.PrimaryKeySelector, result);
 
             return result;
         }
@@ -72,6 +82,8 @@ namespace MasterData
             {
                 case "character":
                     return db.CharacterTable;
+                case "Image":
+                    return db.SkillTable;
                 
                 default:
                     return null;
@@ -84,6 +96,7 @@ namespace MasterData
 
             var dict = new Dictionary<string, MasterMemory.Meta.MetaTable>();
             dict.Add("character", MasterData.Tables.CharacterTable.CreateMetaTable());
+            dict.Add("Image", MasterData.Tables.SkillTable.CreateMetaTable());
 
             metaTable = new MasterMemory.Meta.MetaDatabase(dict);
             return metaTable;

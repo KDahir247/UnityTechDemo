@@ -2,6 +2,7 @@
 using System.Threading;
 using Cysharp.Text;
 using Cysharp.Threading.Tasks;
+using JetBrains.Annotations;
 using Microsoft.Extensions.Logging;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
@@ -48,9 +49,9 @@ namespace Tech.Core
         }
 
         public static async UniTask SceneLoadByNameOrLabel(string nameOrLabel,
-            IProgress<float> progressLoadAddress = null,
-            IProgress<float> progressLoadScene = null,
-            IProgress<float> progressUnloadScene = null,
+            [CanBeNull] IProgress<float> progressLoadAddress = null,
+            [CanBeNull] IProgress<float> progressLoadScene = null,
+            [CanBeNull] IProgress<float> progressUnloadScene = null,
             CancellationToken cancellationTokenLoadAddress = default,
             CancellationToken cancellationTokenLoadScene = default,
             CancellationToken cancellationTokenUnloadScene = default)
@@ -101,7 +102,7 @@ namespace Tech.Core
             }
         }
 
-        public static void SceneLoad(IResourceLocation resourceLocation,
+        public static void SceneLoad([CanBeNull] IResourceLocation resourceLocation,
             LoadSceneMode sceneMode = LoadSceneMode.Single,
             bool loadOnComplete = true)
         {

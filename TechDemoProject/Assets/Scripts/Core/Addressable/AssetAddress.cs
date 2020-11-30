@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Threading;
 using Cysharp.Threading.Tasks;
+using JetBrains.Annotations;
 using UniRx;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
@@ -30,10 +31,10 @@ namespace Tech.Core
             };
         }
 
-        public static async UniTaskVoid CreateAssetList<T>(AssetReference assetReference,
+        public static async UniTaskVoid CreateAssetList<T>([NotNull] AssetReference assetReference,
             IList<T> objects,
             InstantiationParameters instantiationParameters,
-            IProgress<float> progress = null,
+            [CanBeNull] IProgress<float> progress = null,
             CancellationToken cancellationToken = default)
             where T : Object
         {
@@ -57,10 +58,10 @@ namespace Tech.Core
             }
         }
 
-        public static async UniTaskVoid CreateAssetList<T>(IList<AssetReference> assetReferences,
+        public static async UniTaskVoid CreateAssetList<T>(IEnumerable<AssetReference> assetReferences,
             IList<T> objects,
             InstantiationParameters instantiationParameters,
-            IProgress<float> progress = null,
+            [CanBeNull] IProgress<float> progress = null,
             CancellationToken cancellationToken = default)
             where T : Object
         {
@@ -90,7 +91,7 @@ namespace Tech.Core
 
         public static async UniTaskVoid GetAllLocation(string label,
             IList<IResourceLocation> loadedLocation,
-            IProgress<float> progress = null,
+            [CanBeNull] IProgress<float> progress = null,
             CancellationToken cancellationToken = default)
         {
             if (cancellationToken.IsCancellationRequested)
@@ -104,10 +105,10 @@ namespace Tech.Core
             foreach (var location in unloadLocation) loadedLocation.Add(location);
         }
 
-        public static async UniTaskVoid LoadByLocation<T>(IList<IResourceLocation> resourceLocations,
+        public static async UniTaskVoid LoadByLocation<T>([NotNull] IList<IResourceLocation> resourceLocations,
             IList<T> objects,
             InstantiationParameters instantiationParameters,
-            IProgress<float> progress = null,
+            [CanBeNull] IProgress<float> progress = null,
             CancellationToken cancellationToken = default)
             where T : Object
         {
@@ -127,7 +128,7 @@ namespace Tech.Core
         public static async UniTaskVoid LoadByNameOrLabel<T>(string nameOrLabel,
             IList<T> objects,
             InstantiationParameters instantiationParameters,
-            IProgress<float> progress = null,
+            [CanBeNull] IProgress<float> progress = null,
             CancellationToken cancellationToken = default)
             where T : Object
         {
@@ -141,29 +142,25 @@ namespace Tech.Core
                 objects.Add(await Addressables
                     .InstantiateAsync(location,
                         instantiationParameters)
-                    .ToUniTask(Progress.Create<float>(f => Debug.Log(f)), PlayerLoopTiming.Update,
+                    .ToUniTask(progress, PlayerLoopTiming.Update,
                         cancellationToken) as T);
 
                 progress?.Report(1.0f);
             }
         }
 
-        //TODO de-subscribe from event and make a collection to store the IDisposable
         public static void Release(IList<Object> objects, float timer = 0)
         {
             if (timer <= 0)
-            {
                 foreach (var o in objects)
                     Addressables.Release(o);
-            }
             else
-            {
-                var disposible = Observable.Timer(TimeSpan.FromSeconds(timer))
+                Observable.Timer(TimeSpan.FromSeconds(timer))
                     .Subscribe(_ =>
                     {
                         foreach (var o in objects) Addressables.Release(o);
-                    }).AddTo(Disposable);
-            }
+                    })
+                    .AddTo(Disposable);
         }
 
         public static void Release(Object obj, float timer = 0)
@@ -172,7 +169,8 @@ namespace Tech.Core
                 Addressables.Release(obj);
             else
                 Observable.Timer(TimeSpan.FromSeconds(timer))
-                    .Subscribe(_ => { Addressables.Release(obj); }).AddTo(Disposable);
+                    .Subscribe(_ => Addressables.Release(obj))
+                    .AddTo(Disposable);
         }
     }
 }

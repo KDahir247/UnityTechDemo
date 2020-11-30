@@ -49,10 +49,11 @@ namespace MessagePack.Resolvers
 
         static GeneratedResolverGetFormatterHelper()
         {
-            lookup = new global::System.Collections.Generic.Dictionary<Type, int>(2)
+            lookup = new global::System.Collections.Generic.Dictionary<Type, int>(3)
             {
                 { typeof(global::Tech.DB.Character), 0 },
-                { typeof(global::Tech.Network.Param.Player), 1 },
+                { typeof(global::Tech.DB.Skill), 1 },
+                { typeof(global::Tech.Network.Param.Player), 2 },
             };
         }
 
@@ -67,7 +68,8 @@ namespace MessagePack.Resolvers
             switch (key)
             {
                 case 0: return new MessagePack.Formatters.Tech.DB.CharacterFormatter();
-                case 1: return new MessagePack.Formatters.Tech.Network.Param.PlayerFormatter();
+                case 1: return new MessagePack.Formatters.Tech.DB.SkillFormatter();
+                case 2: return new MessagePack.Formatters.Tech.Network.Param.PlayerFormatter();
                 default: return null;
             }
         }
@@ -2017,6 +2019,100 @@ namespace MessagePack.Formatters.Tech.DB
             ____result.Index = __Index__;
             ____result.Name = __Name__;
             ____result.Description = __Description__;
+            ____result.OnAfterDeserialize();
+            reader.Depth--;
+            return ____result;
+        }
+    }
+
+    public sealed class SkillFormatter : global::MessagePack.Formatters.IMessagePackFormatter<global::Tech.DB.Skill>
+    {
+
+
+        private readonly global::MessagePack.Internal.AutomataDictionary ____keyMapping;
+        private readonly byte[][] ____stringByteKeys;
+
+        public SkillFormatter()
+        {
+            this.____keyMapping = new global::MessagePack.Internal.AutomataDictionary()
+            {
+                { "index", 0 },
+                { "name", 1 },
+                { "Bytes", 2 },
+            };
+
+            this.____stringByteKeys = new byte[][]
+            {
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("index"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("name"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Bytes"),
+            };
+        }
+
+        public void Serialize(ref MessagePackWriter writer, global::Tech.DB.Skill value, global::MessagePack.MessagePackSerializerOptions options)
+        {
+            if (value == null)
+            {
+                writer.WriteNil();
+                return;
+            }
+
+            IFormatterResolver formatterResolver = options.Resolver;
+            value.OnBeforeSerialize();
+            writer.WriteMapHeader(3);
+            writer.WriteRaw(this.____stringByteKeys[0]);
+            writer.Write(value.index);
+            writer.WriteRaw(this.____stringByteKeys[1]);
+            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.name, options);
+            writer.WriteRaw(this.____stringByteKeys[2]);
+            formatterResolver.GetFormatterWithVerify<byte[]>().Serialize(ref writer, value.Bytes, options);
+        }
+
+        public global::Tech.DB.Skill Deserialize(ref MessagePackReader reader, global::MessagePack.MessagePackSerializerOptions options)
+        {
+            if (reader.TryReadNil())
+            {
+                return null;
+            }
+
+            options.Security.DepthStep(ref reader);
+            IFormatterResolver formatterResolver = options.Resolver;
+            var length = reader.ReadMapHeader();
+            var __index__ = default(int);
+            var __name__ = default(string);
+            var __Bytes__ = default(byte[]);
+
+            for (int i = 0; i < length; i++)
+            {
+                ReadOnlySpan<byte> stringKey = global::MessagePack.Internal.CodeGenHelpers.ReadStringSpan(ref reader);
+                int key;
+                if (!this.____keyMapping.TryGetValue(stringKey, out key))
+                {
+                    reader.Skip();
+                    continue;
+                }
+
+                switch (key)
+                {
+                    case 0:
+                        __index__ = reader.ReadInt32();
+                        break;
+                    case 1:
+                        __name__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
+                        break;
+                    case 2:
+                        __Bytes__ = formatterResolver.GetFormatterWithVerify<byte[]>().Deserialize(ref reader, options);
+                        break;
+                    default:
+                        reader.Skip();
+                        break;
+                }
+            }
+
+            var ____result = new global::Tech.DB.Skill();
+            ____result.index = __index__;
+            ____result.name = __name__;
+            ____result.Bytes = __Bytes__;
             ____result.OnAfterDeserialize();
             reader.Depth--;
             return ____result;

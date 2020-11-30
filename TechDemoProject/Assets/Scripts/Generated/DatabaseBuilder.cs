@@ -6,6 +6,7 @@ using MessagePack;
 using System.Collections.Generic;
 using System;
 using Tech.DB;
+using UnityEngine;
 using MasterData.Tables;
 
 namespace MasterData
@@ -18,6 +19,12 @@ namespace MasterData
         public DatabaseBuilder Append(System.Collections.Generic.IEnumerable<Character> dataSource)
         {
             AppendCore(dataSource, x => x.Index, System.Collections.Generic.Comparer<int>.Default);
+            return this;
+        }
+
+        public DatabaseBuilder Append(System.Collections.Generic.IEnumerable<Skill> dataSource)
+        {
+            AppendCore(dataSource, x => x.index, System.Collections.Generic.Comparer<int>.Default);
             return this;
         }
 

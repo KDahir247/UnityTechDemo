@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using DG.Tweening;
 using Tech.Core;
 using UniRx;
 using UnityEngine;
@@ -23,17 +22,21 @@ namespace Tech.Mono
         // Start is called before the first frame update
         private void Awake()
         {
-            DOTween.Init().SetCapacity(200, 25);
-
             MessageBroker.Default
                 .Receive<Camera>()
-                .Subscribe(cam => _camera = cam).AddTo(this);
+                .Subscribe(cam => _camera = cam)
+                .AddTo(this);
 
             _reactiveCollection
                 .ObserveAdd()
                 .Subscribe(clickVfx =>
                 {
-                    var timer = clickVfx.Value.GetComponent<ParticleSystem>().main.duration;
+                    var timer = clickVfx
+                        .Value
+                        .GetComponent<ParticleSystem>()
+                        .main
+                        .duration;
+
                     AssetAddress.Release(clickVfx.Value, timer);
                 }).AddTo(this);
         }

@@ -1,83 +1,80 @@
 ﻿using System;
 using System.Diagnostics;
-using UnityEngine;
 using UnityEditor;
+using UnityEngine;
+using Debug = UnityEngine.Debug;
 
-public class MasterMemoryWindow : EditorWindow
+namespace Tech.Editor
 {
-    private static string _nameSpaceGenerated = "MasterData";
-    private static bool _returnNull = true;
-
-    private static bool _immutable = true;
-
-    // Add menu item
-    [MenuItem("MasterMemory/Generator")]
-    static void Init()
+    public class MasterMemoryWindow : EditorWindow
     {
-        EditorWindow window = EditorWindow.CreateInstance<MasterMemoryWindow>();
-        window.minSize = new Vector2(400, 400);
-        window.maxSize = new Vector2(450, 450);
-        window.Show();
-    }
+        private static string _nameSpaceGenerated = "MasterData";
+        private static bool _returnNull = true;
 
-    void OnGUI()
-    {
+        private static bool _immutable = true;
+
+        // Add menu item
+        [MenuItem("MasterMemory/Generator")]
+        private static void Init()
         {
-            GUILayout.BeginArea(new Rect(Screen.width / 4.0f, 0, Screen.width / 2.0f, Screen.height));
-            GUILayout.FlexibleSpace();
-            GUILayout.FlexibleSpace();
+            EditorWindow window = CreateInstance<MasterMemoryWindow>();
+            window.minSize = new Vector2(400, 400);
+            window.maxSize = new Vector2(450, 450);
+            window.Show();
+        }
 
-            GUILayout.Label("MasterMemory Initialization", EditorStyles.boldLabel);
-            GUILayout.Space(20);
-
-            GUILayout.Label("MasterMemory Namespace");
-            _nameSpaceGenerated = GUILayout.TextArea(_nameSpaceGenerated);
-
-            _returnNull = GUILayout.Toggle(_returnNull, "Return null");
-
-            _immutable = GUILayout.Toggle(_immutable, "Immutable");
-
-            GUILayout.Space(20);
-            if (GUILayout.Button("MasterMemory Generator"))
+        private void OnGUI()
+        {
             {
-                if (string.IsNullOrEmpty(_nameSpaceGenerated))
+                GUILayout.BeginArea(new Rect(Screen.width / 4.0f, 0, Screen.width / 2.0f, Screen.height));
+                GUILayout.FlexibleSpace();
+                GUILayout.FlexibleSpace();
+
+                GUILayout.Label("MasterMemory Initialization", EditorStyles.boldLabel);
+                GUILayout.Space(20);
+
+                GUILayout.Label("MasterMemory Namespace");
+                _nameSpaceGenerated = GUILayout.TextArea(_nameSpaceGenerated);
+
+                _returnNull = GUILayout.Toggle(_returnNull, "Return null");
+
+                _immutable = GUILayout.Toggle(_immutable, "Immutable");
+
+                GUILayout.Space(20);
+                if (GUILayout.Button("MasterMemory Generator"))
                 {
-                    throw new Exception("Can't Generate the MasterMemory code with an empty namespace");
+                    if (string.IsNullOrEmpty(_nameSpaceGenerated))
+                        throw new Exception("Can't Generate the MasterMemory code with an empty namespace");
+
+                    ExecuteMasterMemoryCodeGenerator(_returnNull, _immutable);
                 }
 
-                ExecuteMasterMemoryCodeGenerator(_returnNull, _immutable);
+                GUILayout.Space(5);
+                if (GUILayout.Button("MessagePack Generator")) ExecuteMessagePackCodeGenerator();
+                // GUILayout.Space(5);
+                // if (GUILayout.Button("Build"))
+                // {
+                //     
+                // }
+
+                GUILayout.FlexibleSpace();
+                GUILayout.FlexibleSpace();
+                GUILayout.EndArea();
             }
-
-            GUILayout.Space(5);
-            if (GUILayout.Button("MessagePack Generator"))
-            {
-                ExecuteMessagePackCodeGenerator();
-            }
-            // GUILayout.Space(5);
-            // if (GUILayout.Button("Build"))
-            // {
-            //     
-            // }
-
-            GUILayout.FlexibleSpace();
-            GUILayout.FlexibleSpace();
-            GUILayout.EndArea();
-
         }
-    }
 
 
-    private static void ExecuteMasterMemoryCodeGenerator(bool returnNull, bool immutable)
-    {
-        UnityEngine.Debug.Log($"{nameof(ExecuteMasterMemoryCodeGenerator)} : start");
+        private static void ExecuteMasterMemoryCodeGenerator(bool returnNull, bool immutable)
+        {
+            Debug.Log($"{nameof(ExecuteMasterMemoryCodeGenerator)} : start");
 
-        var exProcess = new Process();
+            var exProcess = new Process();
 
-        var rootPath = Application.dataPath + "/..";
-        var filePath = rootPath + "/GeneratorTools/MasterMemory.Generator";
-        var exeFileName = "";
+            var rootPath = Application.dataPath + "/..";
+            var filePath = rootPath + "/GeneratorTools/MasterMemory.Generator";
+            var exeFileName = "";
 #if UNITY_EDITOR_WIN
-        exeFileName = "/win-x64/MasterMemory.Generator.exe";
+            exeFileName = "/win-x64/MasterMemory.Generator.exe";
 #elif UNITY_EDITOR_OSX
         exeFileName = "/osx-x64/MasterMemory.Generator";
 #elif UNITY_EDITOR_LINUX
@@ -86,43 +83,43 @@ public class MasterMemoryWindow : EditorWindow
         return;
 #endif
 
-        var psi = new ProcessStartInfo()
+            var psi = new ProcessStartInfo
+            {
+                CreateNoWindow = true,
+                WindowStyle = ProcessWindowStyle.Hidden,
+                RedirectStandardOutput = true,
+                RedirectStandardError = true,
+                UseShellExecute = false,
+                FileName = filePath + exeFileName,
+                Arguments =
+                    $@"-i ""{Application.dataPath}/Scripts/Database/Tables"" -o ""{Application.dataPath}/Scripts/Generated"" -n {_nameSpaceGenerated} {(returnNull ? "-t" : "")} {(immutable ? "-c" : "")}"
+            };
+
+            var p = Process.Start(psi);
+
+            p.EnableRaisingEvents = true;
+            p.Exited += (sender, e) =>
+            {
+                var data = p.StandardOutput.ReadToEnd();
+                Debug.Log($"{data}");
+                Debug.Log($"{nameof(ExecuteMasterMemoryCodeGenerator)} : end");
+                p.Dispose();
+                p = null;
+            };
+        }
+
+
+        private static void ExecuteMessagePackCodeGenerator()
         {
-            CreateNoWindow = true,
-            WindowStyle = ProcessWindowStyle.Hidden,
-            RedirectStandardOutput = true,
-            RedirectStandardError = true,
-            UseShellExecute = false,
-            FileName = filePath + exeFileName,
-            Arguments =
-                $@"-i ""{Application.dataPath}/Scripts/Database/Tables"" -o ""{Application.dataPath}/Scripts/Generated"" -n {_nameSpaceGenerated} {(returnNull ? "-t" : "")} -c",
-        };
+            Debug.Log($"{nameof(ExecuteMessagePackCodeGenerator)} : start");
 
-        var p = Process.Start(psi);
+            var exProcess = new Process();
 
-        p.EnableRaisingEvents = true;
-        p.Exited += (object sender, System.EventArgs e) =>
-        {
-            var data = p.StandardOutput.ReadToEnd();
-            UnityEngine.Debug.Log($"{data}");
-            UnityEngine.Debug.Log($"{nameof(ExecuteMasterMemoryCodeGenerator)} : end");
-            p.Dispose();
-            p = null;
-        };
-    }
-
-
-    private static void ExecuteMessagePackCodeGenerator()
-    {
-        UnityEngine.Debug.Log($"{nameof(ExecuteMessagePackCodeGenerator)} : start");
-
-        var exProcess = new Process();
-
-        var rootPath = Application.dataPath + "/..";
-        var filePath = rootPath + "/GeneratorTools/MessagePackUniversalCodeGenerator";
-        var exeFileName = "";
+            var rootPath = Application.dataPath + "/..";
+            var filePath = rootPath + "/GeneratorTools/MessagePackUniversalCodeGenerator";
+            var exeFileName = "";
 #if UNITY_EDITOR_WIN
-        exeFileName = "/win-x64/mpc.exe";
+            exeFileName = "/win-x64/mpc.exe";
 #elif UNITY_EDITOR_OSX
         exeFileName = "/osx-x64/mpc";
 #elif UNITY_EDITOR_LINUX
@@ -131,29 +128,29 @@ public class MasterMemoryWindow : EditorWindow
         return;
 #endif
 
-        var psi = new ProcessStartInfo()
-        {
-            CreateNoWindow = true,
-            WindowStyle = ProcessWindowStyle.Hidden,
-            RedirectStandardOutput = true,
-            RedirectStandardError = true,
-            UseShellExecute = false,
-            FileName = filePath + exeFileName,
-            Arguments =
-                $@"-i ""{Application.dataPath}/../Assembly-CSharp.csproj"" -o ""{Application.dataPath}/Scripts/Generated/MessagePack.Generated.cs""",
-        };
+            var psi = new ProcessStartInfo
+            {
+                CreateNoWindow = true,
+                WindowStyle = ProcessWindowStyle.Hidden,
+                RedirectStandardOutput = true,
+                RedirectStandardError = true,
+                UseShellExecute = false,
+                FileName = filePath + exeFileName,
+                Arguments =
+                    $@"-i ""{Application.dataPath}/../Assembly-CSharp.csproj"" -o ""{Application.dataPath}/Scripts/Generated/MessagePack.Generated.cs"""
+            };
 
-        var p = Process.Start(psi);
+            var p = Process.Start(psi);
 
-        p.EnableRaisingEvents = true;
-        p.Exited += (object sender, System.EventArgs e) =>
-        {
-            var data = p.StandardOutput.ReadToEnd();
-            UnityEngine.Debug.Log($"{data}");
-            UnityEngine.Debug.Log($"{nameof(ExecuteMessagePackCodeGenerator)} : end");
-            p.Dispose();
-            p = null;
-        };
+            p.EnableRaisingEvents = true;
+            p.Exited += (sender, e) =>
+            {
+                var data = p.StandardOutput.ReadToEnd();
+                Debug.Log($"{data}");
+                Debug.Log($"{nameof(ExecuteMessagePackCodeGenerator)} : end");
+                p.Dispose();
+                p = null;
+            };
+        }
     }
 }
-    

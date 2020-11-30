@@ -1,0 +1,513 @@
+[11/30/2020 00:21:11]
+[Information][11/29/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/30/2020 00:21:21]
+[Information][11/29/2020 18:00:00]
+(-) [Scene State] EXITED state: MenuScene
+[11/30/2020 00:21:21]
+[Information][11/29/2020 18:00:00]
+(+) [Scene State] ENTERED state: CreationScene
+[11/30/2020 00:21:22]
+[Information][11/29/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/30/2020 00:21:34]
+[Information][11/29/2020 18:00:00]
+(-) SpawnPos EXITED state: Assassin
+[11/30/2020 00:21:34]
+[Information][11/29/2020 18:00:00]
+(+) SpawnPos ENTERED state: Oracle
+[11/30/2020 00:21:34]
+[Information][11/29/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Oracle" state.
+[11/30/2020 00:21:34]
+[Information][11/29/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Oracle" state.
+[11/30/2020 00:21:38]
+[Information][11/29/2020 18:00:00]
+(-) SpawnPos EXITED state: Oracle
+[11/30/2020 00:21:38]
+[Information][11/29/2020 18:00:00]
+(+) SpawnPos ENTERED state: Necromancer
+[11/30/2020 00:21:38]
+[Information][11/29/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Necromancer" state.
+[11/30/2020 00:21:38]
+[Information][11/29/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Necromancer" state.
+[11/30/2020 00:21:40]
+[Information][11/29/2020 18:00:00]
+(-) SpawnPos EXITED state: Necromancer
+[11/30/2020 00:21:40]
+[Information][11/29/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/30/2020 00:21:40]
+[Information][11/29/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Assassin" state.
+[11/30/2020 00:21:40]
+[Information][11/29/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Assassin" state.
+[11/30/2020 00:21:50]
+[Information][11/29/2020 18:00:00]
+(-) SpawnPos EXITED state: Assassin
+[11/30/2020 00:21:50]
+[Information][11/29/2020 18:00:00]
+(+) SpawnPos ENTERED state: Necromancer
+[11/30/2020 00:21:50]
+[Information][11/29/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Necromancer" state.
+[11/30/2020 00:21:50]
+[Information][11/29/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Necromancer" state.
+[11/30/2020 00:21:51]
+[Information][11/29/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Necromancer" state.
+[11/30/2020 00:21:51]
+[Information][11/29/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Necromancer" state.
+[11/30/2020 00:21:51]
+[Information][11/29/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Necromancer" state.
+[11/30/2020 00:21:52]
+[Information][11/29/2020 18:00:00]
+(-) SpawnPos EXITED state: Necromancer
+[11/30/2020 00:21:52]
+[Information][11/29/2020 18:00:00]
+(+) SpawnPos ENTERED state: Oracle
+[11/30/2020 00:21:52]
+[Information][11/29/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Oracle" state.
+[11/30/2020 00:21:52]
+[Information][11/29/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Oracle" state.
+[11/30/2020 00:21:53]
+[Information][11/29/2020 18:00:00]
+(-) SpawnPos EXITED state: Oracle
+[11/30/2020 00:21:53]
+[Information][11/29/2020 18:00:00]
+(+) SpawnPos ENTERED state: Necromancer
+[11/30/2020 00:21:53]
+[Information][11/29/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Necromancer" state.
+[11/30/2020 00:21:53]
+[Information][11/29/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Necromancer" state.
+[11/30/2020 00:21:53]
+[Information][11/29/2020 18:00:00]
+(-) SpawnPos EXITED state: Necromancer
+[11/30/2020 00:21:53]
+[Information][11/29/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/30/2020 00:21:53]
+[Information][11/29/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Assassin" state.
+[11/30/2020 00:21:53]
+[Information][11/29/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Assassin" state.
+[11/30/2020 00:21:54]
+[Information][11/29/2020 18:00:00]
+(-) SpawnPos EXITED state: Assassin
+[11/30/2020 00:21:54]
+[Information][11/29/2020 18:00:00]
+(+) SpawnPos ENTERED state: Necromancer
+[11/30/2020 00:21:54]
+[Information][11/29/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Necromancer" state.
+[11/30/2020 00:21:54]
+[Information][11/29/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Necromancer" state.
+[11/30/2020 00:21:55]
+[Information][11/29/2020 18:00:00]
+(-) SpawnPos EXITED state: Necromancer
+[11/30/2020 00:21:55]
+[Information][11/29/2020 18:00:00]
+(+) SpawnPos ENTERED state: Oracle
+[11/30/2020 00:21:55]
+[Information][11/29/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Oracle" state.
+[11/30/2020 00:21:55]
+[Information][11/29/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Oracle" state.
+[11/30/2020 00:22:01]
+[Information][11/29/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Oracle" state.
+[11/30/2020 00:22:01]
+[Information][11/29/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Oracle" state.
+[11/30/2020 00:22:01]
+[Information][11/29/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Oracle" state.
+[11/30/2020 00:22:01]
+[Information][11/29/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Oracle" state.
+[11/30/2020 00:22:01]
+[Information][11/29/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Oracle" state.
+[11/30/2020 00:22:01]
+[Information][11/29/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Oracle" state.
+[11/30/2020 00:22:02]
+[Information][11/29/2020 18:00:00]
+(-) SpawnPos EXITED state: Oracle
+[11/30/2020 00:22:02]
+[Information][11/29/2020 18:00:00]
+(+) SpawnPos ENTERED state: Necromancer
+[11/30/2020 00:22:02]
+[Information][11/29/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Necromancer" state.
+[11/30/2020 00:22:02]
+[Information][11/29/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Necromancer" state.
+[11/30/2020 00:22:06]
+[Information][11/29/2020 18:00:00]
+(-) SpawnPos EXITED state: Necromancer
+[11/30/2020 00:22:06]
+[Information][11/29/2020 18:00:00]
+(+) SpawnPos ENTERED state: Oracle
+[11/30/2020 00:22:06]
+[Information][11/29/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Oracle" state.
+[11/30/2020 00:22:06]
+[Information][11/29/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Oracle" state.
+[11/30/2020 00:22:09]
+[Information][11/29/2020 18:00:00]
+(-) SpawnPos EXITED state: Oracle
+[11/30/2020 00:22:09]
+[Information][11/29/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/30/2020 00:22:09]
+[Information][11/29/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Assassin" state.
+[11/30/2020 00:22:09]
+[Information][11/29/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Assassin" state.
+[11/30/2020 00:22:14]
+[Information][11/29/2020 18:00:00]
+Closing Logger and Disposing
+[11/30/2020 00:47:50]
+[Information][11/29/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/30/2020 00:47:55]
+[Information][11/29/2020 18:00:00]
+Closing Logger and Disposing
+[11/30/2020 00:50:08]
+[Information][11/29/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/30/2020 00:50:55]
+[Information][11/29/2020 18:00:00]
+Closing Logger and Disposing
+[11/30/2020 00:51:50]
+[Information][11/29/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/30/2020 00:52:05]
+[Information][11/29/2020 18:00:00]
+Closing Logger and Disposing
+[11/30/2020 01:02:09]
+[Information][11/29/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/30/2020 01:02:23]
+[Information][11/29/2020 18:00:00]
+Closing Logger and Disposing
+[11/30/2020 01:19:44]
+[Information][11/29/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/30/2020 01:20:07]
+[Information][11/29/2020 18:00:00]
+Closing Logger and Disposing
+[11/30/2020 01:22:44]
+[Information][11/29/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/30/2020 01:22:53]
+[Information][11/29/2020 18:00:00]
+Closing Logger and Disposing
+[11/30/2020 01:26:48]
+[Information][11/29/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/30/2020 01:26:54]
+[Information][11/29/2020 18:00:00]
+Closing Logger and Disposing
+[11/30/2020 01:29:22]
+[Information][11/29/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/30/2020 01:29:35]
+[Information][11/29/2020 18:00:00]
+Closing Logger and Disposing
+[11/30/2020 01:30:24]
+[Information][11/29/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/30/2020 01:30:33]
+[Information][11/29/2020 18:00:00]
+Closing Logger and Disposing
+[11/30/2020 01:31:18]
+[Information][11/29/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/30/2020 01:31:23]
+[Information][11/29/2020 18:00:00]
+Closing Logger and Disposing
+[11/30/2020 01:32:31]
+[Information][11/29/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/30/2020 01:33:27]
+[Information][11/29/2020 18:00:00]
+Closing Logger and Disposing
+[11/30/2020 01:34:07]
+[Information][11/29/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/30/2020 01:35:15]
+[Information][11/29/2020 18:00:00]
+Closing Logger and Disposing
+[11/30/2020 01:35:56]
+[Information][11/29/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/30/2020 01:36:02]
+[Information][11/29/2020 18:00:00]
+Closing Logger and Disposing
+[11/30/2020 01:36:51]
+[Information][11/29/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/30/2020 01:37:04]
+[Information][11/29/2020 18:00:00]
+Closing Logger and Disposing
+[11/30/2020 01:41:36]
+[Information][11/29/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/30/2020 01:41:44]
+[Information][11/29/2020 18:00:00]
+Closing Logger and Disposing
+[11/30/2020 01:43:57]
+[Information][11/29/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/30/2020 01:44:06]
+[Information][11/29/2020 18:00:00]
+Closing Logger and Disposing
+[11/30/2020 01:44:49]
+[Information][11/29/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/30/2020 01:45:27]
+[Information][11/29/2020 18:00:00]
+Closing Logger and Disposing
+[11/30/2020 01:52:37]
+[Information][11/29/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/30/2020 01:53:34]
+[Information][11/29/2020 18:00:00]
+Closing Logger and Disposing
+[11/30/2020 01:55:41]
+[Information][11/29/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/30/2020 01:55:49]
+[Information][11/29/2020 18:00:00]
+Closing Logger and Disposing
+[11/30/2020 01:57:15]
+[Information][11/29/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/30/2020 01:57:23]
+[Information][11/29/2020 18:00:00]
+Closing Logger and Disposing
+[11/30/2020 01:58:37]
+[Information][11/29/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/30/2020 01:58:53]
+[Information][11/29/2020 18:00:00]
+Closing Logger and Disposing
+[11/30/2020 02:01:06]
+[Information][11/29/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/30/2020 02:02:32]
+[Information][11/29/2020 18:00:00]
+Closing Logger and Disposing
+[11/30/2020 13:56:22]
+[Information][11/29/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/30/2020 13:58:40]
+[Information][11/29/2020 18:00:00]
+Closing Logger and Disposing
+[11/30/2020 13:59:39]
+[Information][11/29/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/30/2020 13:59:49]
+[Information][11/29/2020 18:00:00]
+Closing Logger and Disposing
+[11/30/2020 14:05:52]
+[Information][11/29/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/30/2020 14:06:00]
+[Information][11/29/2020 18:00:00]
+Closing Logger and Disposing
+[11/30/2020 14:09:51]
+[Information][11/29/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/30/2020 14:10:11]
+[Information][11/29/2020 18:00:00]
+Closing Logger and Disposing
+[11/30/2020 14:26:36]
+[Information][11/29/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/30/2020 14:28:10]
+[Information][11/29/2020 18:00:00]
+Closing Logger and Disposing
+[11/30/2020 14:41:57]
+[Information][11/29/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/30/2020 14:42:04]
+[Information][11/29/2020 18:00:00]
+Closing Logger and Disposing
+[11/30/2020 14:43:47]
+[Information][11/29/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/30/2020 14:43:58]
+[Information][11/29/2020 18:00:00]
+Closing Logger and Disposing
+[11/30/2020 15:33:10]
+[Information][11/29/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/30/2020 15:33:18]
+[Information][11/29/2020 18:00:00]
+Closing Logger and Disposing
+[11/30/2020 15:34:51]
+[Information][11/29/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/30/2020 15:35:09]
+[Information][11/29/2020 18:00:00]
+Closing Logger and Disposing
+[11/30/2020 15:35:43]
+[Error][11/29/2020 18:00:00]
+Failed to Get Loading_Document Visual Element script and Element from the UI Document
+[11/30/2020 15:35:48]
+[Information][11/29/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/30/2020 15:36:02]
+[Information][11/29/2020 18:00:00]
+(-) [Scene State] EXITED state: MenuScene
+[11/30/2020 15:36:02]
+[Information][11/29/2020 18:00:00]
+(+) [Scene State] ENTERED state: CreationScene
+[11/30/2020 15:36:03]
+[Information][11/29/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/30/2020 15:36:22]
+[Information][11/29/2020 18:00:00]
+Closing Logger and Disposing
+[11/30/2020 15:38:20]
+[Error][11/29/2020 18:00:00]
+Failed to Get Loading_Document Visual Element script and Element from the UI Document
+[11/30/2020 15:38:24]
+[Information][11/29/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/30/2020 15:38:45]
+[Information][11/29/2020 18:00:00]
+(-) [Scene State] EXITED state: MenuScene
+[11/30/2020 15:38:45]
+[Information][11/29/2020 18:00:00]
+(+) [Scene State] ENTERED state: CreationScene
+[11/30/2020 15:38:46]
+[Information][11/29/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/30/2020 15:40:37]
+[Information][11/29/2020 18:00:00]
+Closing Logger and Disposing
+[11/30/2020 15:53:01]
+[Information][11/29/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/30/2020 15:53:31]
+[Information][11/29/2020 18:00:00]
+(-) SpawnPos EXITED state: Assassin
+[11/30/2020 15:53:31]
+[Information][11/29/2020 18:00:00]
+(+) SpawnPos ENTERED state: Oracle
+[11/30/2020 15:53:32]
+[Information][11/29/2020 18:00:00]
+(-) SpawnPos EXITED state: Oracle
+[11/30/2020 15:53:32]
+[Information][11/29/2020 18:00:00]
+(+) SpawnPos ENTERED state: Necromancer
+[11/30/2020 15:53:33]
+[Information][11/29/2020 18:00:00]
+(-) SpawnPos EXITED state: Necromancer
+[11/30/2020 15:53:33]
+[Information][11/29/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/30/2020 15:53:34]
+[Information][11/29/2020 18:00:00]
+(-) SpawnPos EXITED state: Assassin
+[11/30/2020 15:53:34]
+[Information][11/29/2020 18:00:00]
+(+) SpawnPos ENTERED state: Necromancer
+[11/30/2020 15:53:34]
+[Information][11/29/2020 18:00:00]
+(-) SpawnPos EXITED state: Necromancer
+[11/30/2020 15:53:34]
+[Information][11/29/2020 18:00:00]
+(+) SpawnPos ENTERED state: Oracle
+[11/30/2020 15:53:35]
+[Information][11/29/2020 18:00:00]
+(-) SpawnPos EXITED state: Oracle
+[11/30/2020 15:53:35]
+[Information][11/29/2020 18:00:00]
+(+) SpawnPos ENTERED state: Necromancer
+[11/30/2020 15:53:35]
+[Information][11/29/2020 18:00:00]
+(-) SpawnPos EXITED state: Necromancer
+[11/30/2020 15:53:35]
+[Information][11/29/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/30/2020 15:53:38]
+[Information][11/29/2020 18:00:00]
+(-) SpawnPos EXITED state: Assassin
+[11/30/2020 15:53:38]
+[Information][11/29/2020 18:00:00]
+(+) SpawnPos ENTERED state: Necromancer
+[11/30/2020 15:53:38]
+[Information][11/29/2020 18:00:00]
+(-) SpawnPos EXITED state: Necromancer
+[11/30/2020 15:53:38]
+[Information][11/29/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/30/2020 15:53:39]
+[Information][11/29/2020 18:00:00]
+(-) SpawnPos EXITED state: Assassin
+[11/30/2020 15:53:39]
+[Information][11/29/2020 18:00:00]
+(+) SpawnPos ENTERED state: Oracle
+[11/30/2020 15:53:42]
+[Information][11/29/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Oracle" state.
+[11/30/2020 15:53:42]
+[Information][11/29/2020 18:00:00]
+State change ignored. State machine "SpawnPos" already in "Oracle" state.
+[11/30/2020 15:53:43]
+[Information][11/29/2020 18:00:00]
+(-) SpawnPos EXITED state: Oracle
+[11/30/2020 15:53:43]
+[Information][11/29/2020 18:00:00]
+(+) SpawnPos ENTERED state: Necromancer
+[11/30/2020 15:53:44]
+[Information][11/29/2020 18:00:00]
+(-) SpawnPos EXITED state: Necromancer
+[11/30/2020 15:53:44]
+[Information][11/29/2020 18:00:00]
+(+) SpawnPos ENTERED state: Assassin
+[11/30/2020 15:53:46]
+[Information][11/29/2020 18:00:00]
+(-) SpawnPos EXITED state: Assassin
+[11/30/2020 15:53:46]
+[Information][11/29/2020 18:00:00]
+(+) SpawnPos ENTERED state: Necromancer
+[11/30/2020 15:53:47]
+[Information][11/29/2020 18:00:00]
+(-) SpawnPos EXITED state: Necromancer
+[11/30/2020 15:53:47]
+[Information][11/29/2020 18:00:00]
+(+) SpawnPos ENTERED state: Oracle
+[11/30/2020 15:53:48]
+[Information][11/29/2020 18:00:00]
+Closing Logger and Disposing
+[11/30/2020 16:02:58]
+[Error][11/29/2020 18:00:00]
+Failed to Get Loading_Document Visual Element script and Element from the UI Document
+[11/30/2020 16:03:03]
+[Information][11/29/2020 18:00:00]
+(+) [Scene State] ENTERED state: MenuScene
+[11/30/2020 16:03:11]
+[Information][11/29/2020 18:00:00]
+Closing Logger and Disposing

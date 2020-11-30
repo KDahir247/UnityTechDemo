@@ -6,10 +6,8 @@ using ZLogger;
 
 
 //small wrapper for State from Pixelplacement
-//TODO refactor since it works with UIElement (Visual Element class)
 namespace Tech.Core
 {
-    //TODO might also include an audioSource
     [DisallowMultipleComponent]
     [RequireComponent(typeof(AudioSource))]
     public class SceneState : State

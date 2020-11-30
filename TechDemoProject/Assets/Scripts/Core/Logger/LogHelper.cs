@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using Cysharp.Text;
 using Unity.Entities.UniversalDelegates;
 using UnityEngine;
 using ZLogger;
@@ -52,24 +53,26 @@ namespace Tech.Core
 
         private static void ApplicationOnlogMessageReceived(string condition, string stacktrace, LogType type)
         {
-            //TODO use a utf8 StringBuilder
-            var format = $"[{type}] {condition} {stacktrace}";
+            var valueStringBuilder = new Utf8ValueStringBuilder(true);
+            valueStringBuilder.AppendFormat(@"[{0}] {1} {2}", type, condition, stacktrace);
+            var builder = valueStringBuilder.ToString();
+
             switch (type)
             {
                 case LogType.Log:
-                    Logger.ZLogInformation(format);
+                    Logger.ZLogInformation(builder);
                     break;
                 case LogType.Warning:
-                    Logger.ZLogWarning(format);
+                    Logger.ZLogWarning(builder);
                     break;
                 case LogType.Assert:
-                    Logger.ZLogDebug(format);
+                    Logger.ZLogDebug(builder);
                     break;
                 case LogType.Error:
-                    Logger.ZLogError(format);
+                    Logger.ZLogError(builder);
                     break;
                 case LogType.Exception:
-                    Logger.ZLogCritical(format);
+                    Logger.ZLogCritical(builder);
                     break;
                 default:
                     Logger.ZLogCritical("Switch has reach out of bounds on Unity Log");

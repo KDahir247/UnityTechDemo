@@ -6,6 +6,7 @@ using MessagePack;
 using System.Collections.Generic;
 using System;
 using Tech.DB;
+using UnityEngine;
 using MasterData.Tables;
 
 namespace MasterData
@@ -45,9 +46,10 @@ namespace MasterData
 
         static MasterMemoryResolverGetFormatterHelper()
         {
-            lookup = new global::System.Collections.Generic.Dictionary<Type, int>(1)
+            lookup = new global::System.Collections.Generic.Dictionary<Type, int>(2)
             {
                 {typeof(Character[]), 0 },
+                {typeof(Skill[]), 1 },
             };
         }
 
@@ -59,6 +61,7 @@ namespace MasterData
             switch (key)
             {
                 case 0: return new MessagePack.Formatters.ArrayFormatter<Character>();
+                case 1: return new MessagePack.Formatters.ArrayFormatter<Skill>();
                 default: return null;
             }
         }

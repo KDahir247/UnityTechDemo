@@ -6,6 +6,7 @@ using MessagePack;
 using System.Collections.Generic;
 using System;
 using Tech.DB;
+using UnityEngine;
 using MasterData.Tables;
 
 namespace MasterData
@@ -29,7 +30,8 @@ namespace MasterData
             var newData = CloneAndSortBy(data, x => x.Index, System.Collections.Generic.Comparer<int>.Default);
             var table = new CharacterTable(newData);
             memory = new MemoryDatabase(
-                table
+                table,
+                memory.SkillTable
             
             );
         }
@@ -40,7 +42,8 @@ namespace MasterData
             var newData = CloneAndSortBy(data, x => x.Index, System.Collections.Generic.Comparer<int>.Default);
             var table = new CharacterTable(newData);
             memory = new MemoryDatabase(
-                table
+                table,
+                memory.SkillTable
             
             );
         }
@@ -51,6 +54,42 @@ namespace MasterData
             var newData = CloneAndSortBy(data, x => x.Index, System.Collections.Generic.Comparer<int>.Default);
             var table = new CharacterTable(newData);
             memory = new MemoryDatabase(
+                table,
+                memory.SkillTable
+            
+            );
+        }
+
+        public void ReplaceAll(System.Collections.Generic.IList<Skill> data)
+        {
+            var newData = CloneAndSortBy(data, x => x.index, System.Collections.Generic.Comparer<int>.Default);
+            var table = new SkillTable(newData);
+            memory = new MemoryDatabase(
+                memory.CharacterTable,
+                table
+            
+            );
+        }
+
+        public void RemoveSkill(int[] keys)
+        {
+            var data = RemoveCore(memory.SkillTable.GetRawDataUnsafe(), keys, x => x.index, System.Collections.Generic.Comparer<int>.Default);
+            var newData = CloneAndSortBy(data, x => x.index, System.Collections.Generic.Comparer<int>.Default);
+            var table = new SkillTable(newData);
+            memory = new MemoryDatabase(
+                memory.CharacterTable,
+                table
+            
+            );
+        }
+
+        public void Diff(Skill[] addOrReplaceData)
+        {
+            var data = DiffCore(memory.SkillTable.GetRawDataUnsafe(), addOrReplaceData, x => x.index, System.Collections.Generic.Comparer<int>.Default);
+            var newData = CloneAndSortBy(data, x => x.index, System.Collections.Generic.Comparer<int>.Default);
+            var table = new SkillTable(newData);
+            memory = new MemoryDatabase(
+                memory.CharacterTable,
                 table
             
             );

@@ -12,7 +12,7 @@ using UnityEngine.Serialization;
 namespace Tech.Initialization
 {
     //Initialize all the character skill
-    //TODO make the main screen stall until this script is done.
+    //TODO remove
     public class Initialization : MonoBehaviour
     {
         [FormerlySerializedAs("_characterData")] [SerializeField]
