@@ -45,5 +45,7 @@ public class temp : MonoBehaviour
             builder.Append(_skills);
             return builder;
         }, GlobalSetting.SkillDataPath);
+
+        
     }
 }

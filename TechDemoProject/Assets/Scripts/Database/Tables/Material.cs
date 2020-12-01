@@ -17,7 +17,7 @@ namespace Tech.DB
 
         public byte[] ImageBytes { get; set; }
 
-        [NonUnique] public Rarity Rarity { get; set; }
+        public MaterialInfo MaterialInfo { get; set; }
 
         [SecondaryKey(0)] public int Index { get; set; }
 

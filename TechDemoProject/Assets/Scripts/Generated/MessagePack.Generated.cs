@@ -49,19 +49,38 @@ namespace MessagePack.Resolvers
 
         static GeneratedResolverGetFormatterHelper()
         {
-            lookup = new global::System.Collections.Generic.Dictionary<Type, int>(11)
+            lookup = new global::System.Collections.Generic.Dictionary<Type, int>(30)
             {
-                { typeof(global::Tech.Data.DB.EquipmentType), 0 },
-                { typeof(global::Tech.Data.DB.Rarity), 1 },
-                { typeof(global::Tech.Data.DB.WeaponType), 2 },
-                { typeof(global::Tech.Data.DB.Stat), 3 },
-                { typeof(global::Tech.DB.Character), 4 },
-                { typeof(global::Tech.DB.Equipment), 5 },
-                { typeof(global::Tech.DB.Item), 6 },
-                { typeof(global::Tech.DB.Material), 7 },
-                { typeof(global::Tech.DB.Skill), 8 },
-                { typeof(global::Tech.DB.Weapon), 9 },
-                { typeof(global::Tech.Network.Param.Player), 10 },
+                { typeof(global::Tech.Data.DB.Ailment), 0 },
+                { typeof(global::Tech.Data.DB.Element), 1 },
+                { typeof(global::Tech.Data.DB.EquipmentType), 2 },
+                { typeof(global::Tech.Data.DB.ItemType), 3 },
+                { typeof(global::Tech.Data.DB.ParameterType), 4 },
+                { typeof(global::Tech.Data.DB.RaceType), 5 },
+                { typeof(global::Tech.Data.DB.Rarity), 6 },
+                { typeof(global::Tech.Data.DB.Target), 7 },
+                { typeof(global::Tech.Data.DB.TargetStat), 8 },
+                { typeof(global::Tech.Data.DB.TraitType), 9 },
+                { typeof(global::Tech.Data.DB.UnitType), 10 },
+                { typeof(global::Tech.Data.DB.WeaponType), 11 },
+                { typeof(global::Tech.Data.DB.AbilityInfo), 12 },
+                { typeof(global::Tech.Data.DB.EnemyInfo), 13 },
+                { typeof(global::Tech.Data.DB.EquipmentInfo), 14 },
+                { typeof(global::Tech.Data.DB.ItemInfo), 15 },
+                { typeof(global::Tech.Data.DB.MaterialInfo), 16 },
+                { typeof(global::Tech.Data.DB.SkillInfo), 17 },
+                { typeof(global::Tech.Data.DB.Stat), 18 },
+                { typeof(global::Tech.Data.DB.UnitInfo), 19 },
+                { typeof(global::Tech.Data.DB.WeaponInfo), 20 },
+                { typeof(global::Tech.DB.Ability), 21 },
+                { typeof(global::Tech.DB.Enemy), 22 },
+                { typeof(global::Tech.DB.Equipment), 23 },
+                { typeof(global::Tech.DB.Item), 24 },
+                { typeof(global::Tech.DB.Material), 25 },
+                { typeof(global::Tech.DB.Skill), 26 },
+                { typeof(global::Tech.DB.Unit), 27 },
+                { typeof(global::Tech.DB.Weapon), 28 },
+                { typeof(global::Tech.Network.Param.Player), 29 },
             };
         }
 
@@ -75,17 +94,36 @@ namespace MessagePack.Resolvers
 
             switch (key)
             {
-                case 0: return new MessagePack.Formatters.Tech.Data.DB.EquipmentTypeFormatter();
-                case 1: return new MessagePack.Formatters.Tech.Data.DB.RarityFormatter();
-                case 2: return new MessagePack.Formatters.Tech.Data.DB.WeaponTypeFormatter();
-                case 3: return new MessagePack.Formatters.Tech.Data.DB.StatFormatter();
-                case 4: return new MessagePack.Formatters.Tech.DB.CharacterFormatter();
-                case 5: return new MessagePack.Formatters.Tech.DB.EquipmentFormatter();
-                case 6: return new MessagePack.Formatters.Tech.DB.ItemFormatter();
-                case 7: return new MessagePack.Formatters.Tech.DB.MaterialFormatter();
-                case 8: return new MessagePack.Formatters.Tech.DB.SkillFormatter();
-                case 9: return new MessagePack.Formatters.Tech.DB.WeaponFormatter();
-                case 10: return new MessagePack.Formatters.Tech.Network.Param.PlayerFormatter();
+                case 0: return new MessagePack.Formatters.Tech.Data.DB.AilmentFormatter();
+                case 1: return new MessagePack.Formatters.Tech.Data.DB.ElementFormatter();
+                case 2: return new MessagePack.Formatters.Tech.Data.DB.EquipmentTypeFormatter();
+                case 3: return new MessagePack.Formatters.Tech.Data.DB.ItemTypeFormatter();
+                case 4: return new MessagePack.Formatters.Tech.Data.DB.ParameterTypeFormatter();
+                case 5: return new MessagePack.Formatters.Tech.Data.DB.RaceTypeFormatter();
+                case 6: return new MessagePack.Formatters.Tech.Data.DB.RarityFormatter();
+                case 7: return new MessagePack.Formatters.Tech.Data.DB.TargetFormatter();
+                case 8: return new MessagePack.Formatters.Tech.Data.DB.TargetStatFormatter();
+                case 9: return new MessagePack.Formatters.Tech.Data.DB.TraitTypeFormatter();
+                case 10: return new MessagePack.Formatters.Tech.Data.DB.UnitTypeFormatter();
+                case 11: return new MessagePack.Formatters.Tech.Data.DB.WeaponTypeFormatter();
+                case 12: return new MessagePack.Formatters.Tech.Data.DB.AbilityInfoFormatter();
+                case 13: return new MessagePack.Formatters.Tech.Data.DB.EnemyInfoFormatter();
+                case 14: return new MessagePack.Formatters.Tech.Data.DB.EquipmentInfoFormatter();
+                case 15: return new MessagePack.Formatters.Tech.Data.DB.ItemInfoFormatter();
+                case 16: return new MessagePack.Formatters.Tech.Data.DB.MaterialInfoFormatter();
+                case 17: return new MessagePack.Formatters.Tech.Data.DB.SkillInfoFormatter();
+                case 18: return new MessagePack.Formatters.Tech.Data.DB.StatFormatter();
+                case 19: return new MessagePack.Formatters.Tech.Data.DB.UnitInfoFormatter();
+                case 20: return new MessagePack.Formatters.Tech.Data.DB.WeaponInfoFormatter();
+                case 21: return new MessagePack.Formatters.Tech.DB.AbilityFormatter();
+                case 22: return new MessagePack.Formatters.Tech.DB.EnemyFormatter();
+                case 23: return new MessagePack.Formatters.Tech.DB.EquipmentFormatter();
+                case 24: return new MessagePack.Formatters.Tech.DB.ItemFormatter();
+                case 25: return new MessagePack.Formatters.Tech.DB.MaterialFormatter();
+                case 26: return new MessagePack.Formatters.Tech.DB.SkillFormatter();
+                case 27: return new MessagePack.Formatters.Tech.DB.UnitFormatter();
+                case 28: return new MessagePack.Formatters.Tech.DB.WeaponFormatter();
+                case 29: return new MessagePack.Formatters.Tech.Network.Param.PlayerFormatter();
                 default: return null;
             }
         }
@@ -121,6 +159,32 @@ namespace MessagePack.Formatters.Tech.Data.DB
     using System.Buffers;
     using MessagePack;
 
+    public sealed class AilmentFormatter : global::MessagePack.Formatters.IMessagePackFormatter<global::Tech.Data.DB.Ailment>
+    {
+        public void Serialize(ref MessagePackWriter writer, global::Tech.Data.DB.Ailment value, global::MessagePack.MessagePackSerializerOptions options)
+        {
+            writer.Write((Int32)value);
+        }
+
+        public global::Tech.Data.DB.Ailment Deserialize(ref MessagePackReader reader, global::MessagePack.MessagePackSerializerOptions options)
+        {
+            return (global::Tech.Data.DB.Ailment)reader.ReadInt32();
+        }
+    }
+
+    public sealed class ElementFormatter : global::MessagePack.Formatters.IMessagePackFormatter<global::Tech.Data.DB.Element>
+    {
+        public void Serialize(ref MessagePackWriter writer, global::Tech.Data.DB.Element value, global::MessagePack.MessagePackSerializerOptions options)
+        {
+            writer.Write((Int32)value);
+        }
+
+        public global::Tech.Data.DB.Element Deserialize(ref MessagePackReader reader, global::MessagePack.MessagePackSerializerOptions options)
+        {
+            return (global::Tech.Data.DB.Element)reader.ReadInt32();
+        }
+    }
+
     public sealed class EquipmentTypeFormatter : global::MessagePack.Formatters.IMessagePackFormatter<global::Tech.Data.DB.EquipmentType>
     {
         public void Serialize(ref MessagePackWriter writer, global::Tech.Data.DB.EquipmentType value, global::MessagePack.MessagePackSerializerOptions options)
@@ -134,6 +198,45 @@ namespace MessagePack.Formatters.Tech.Data.DB
         }
     }
 
+    public sealed class ItemTypeFormatter : global::MessagePack.Formatters.IMessagePackFormatter<global::Tech.Data.DB.ItemType>
+    {
+        public void Serialize(ref MessagePackWriter writer, global::Tech.Data.DB.ItemType value, global::MessagePack.MessagePackSerializerOptions options)
+        {
+            writer.Write((Int32)value);
+        }
+
+        public global::Tech.Data.DB.ItemType Deserialize(ref MessagePackReader reader, global::MessagePack.MessagePackSerializerOptions options)
+        {
+            return (global::Tech.Data.DB.ItemType)reader.ReadInt32();
+        }
+    }
+
+    public sealed class ParameterTypeFormatter : global::MessagePack.Formatters.IMessagePackFormatter<global::Tech.Data.DB.ParameterType>
+    {
+        public void Serialize(ref MessagePackWriter writer, global::Tech.Data.DB.ParameterType value, global::MessagePack.MessagePackSerializerOptions options)
+        {
+            writer.Write((Int32)value);
+        }
+
+        public global::Tech.Data.DB.ParameterType Deserialize(ref MessagePackReader reader, global::MessagePack.MessagePackSerializerOptions options)
+        {
+            return (global::Tech.Data.DB.ParameterType)reader.ReadInt32();
+        }
+    }
+
+    public sealed class RaceTypeFormatter : global::MessagePack.Formatters.IMessagePackFormatter<global::Tech.Data.DB.RaceType>
+    {
+        public void Serialize(ref MessagePackWriter writer, global::Tech.Data.DB.RaceType value, global::MessagePack.MessagePackSerializerOptions options)
+        {
+            writer.Write((Int32)value);
+        }
+
+        public global::Tech.Data.DB.RaceType Deserialize(ref MessagePackReader reader, global::MessagePack.MessagePackSerializerOptions options)
+        {
+            return (global::Tech.Data.DB.RaceType)reader.ReadInt32();
+        }
+    }
+
     public sealed class RarityFormatter : global::MessagePack.Formatters.IMessagePackFormatter<global::Tech.Data.DB.Rarity>
     {
         public void Serialize(ref MessagePackWriter writer, global::Tech.Data.DB.Rarity value, global::MessagePack.MessagePackSerializerOptions options)
@@ -144,6 +247,58 @@ namespace MessagePack.Formatters.Tech.Data.DB
         public global::Tech.Data.DB.Rarity Deserialize(ref MessagePackReader reader, global::MessagePack.MessagePackSerializerOptions options)
         {
             return (global::Tech.Data.DB.Rarity)reader.ReadInt32();
+        }
+    }
+
+    public sealed class TargetFormatter : global::MessagePack.Formatters.IMessagePackFormatter<global::Tech.Data.DB.Target>
+    {
+        public void Serialize(ref MessagePackWriter writer, global::Tech.Data.DB.Target value, global::MessagePack.MessagePackSerializerOptions options)
+        {
+            writer.Write((Int32)value);
+        }
+
+        public global::Tech.Data.DB.Target Deserialize(ref MessagePackReader reader, global::MessagePack.MessagePackSerializerOptions options)
+        {
+            return (global::Tech.Data.DB.Target)reader.ReadInt32();
+        }
+    }
+
+    public sealed class TargetStatFormatter : global::MessagePack.Formatters.IMessagePackFormatter<global::Tech.Data.DB.TargetStat>
+    {
+        public void Serialize(ref MessagePackWriter writer, global::Tech.Data.DB.TargetStat value, global::MessagePack.MessagePackSerializerOptions options)
+        {
+            writer.Write((Int32)value);
+        }
+
+        public global::Tech.Data.DB.TargetStat Deserialize(ref MessagePackReader reader, global::MessagePack.MessagePackSerializerOptions options)
+        {
+            return (global::Tech.Data.DB.TargetStat)reader.ReadInt32();
+        }
+    }
+
+    public sealed class TraitTypeFormatter : global::MessagePack.Formatters.IMessagePackFormatter<global::Tech.Data.DB.TraitType>
+    {
+        public void Serialize(ref MessagePackWriter writer, global::Tech.Data.DB.TraitType value, global::MessagePack.MessagePackSerializerOptions options)
+        {
+            writer.Write((Int32)value);
+        }
+
+        public global::Tech.Data.DB.TraitType Deserialize(ref MessagePackReader reader, global::MessagePack.MessagePackSerializerOptions options)
+        {
+            return (global::Tech.Data.DB.TraitType)reader.ReadInt32();
+        }
+    }
+
+    public sealed class UnitTypeFormatter : global::MessagePack.Formatters.IMessagePackFormatter<global::Tech.Data.DB.UnitType>
+    {
+        public void Serialize(ref MessagePackWriter writer, global::Tech.Data.DB.UnitType value, global::MessagePack.MessagePackSerializerOptions options)
+        {
+            writer.Write((Int32)value);
+        }
+
+        public global::Tech.Data.DB.UnitType Deserialize(ref MessagePackReader reader, global::MessagePack.MessagePackSerializerOptions options)
+        {
+            return (global::Tech.Data.DB.UnitType)reader.ReadInt32();
         }
     }
 
@@ -2015,59 +2170,71 @@ namespace MessagePack.Formatters.Tech.Data.DB
     using System.Buffers;
     using MessagePack;
 
-    public sealed class StatFormatter : global::MessagePack.Formatters.IMessagePackFormatter<global::Tech.Data.DB.Stat>
+    public sealed class AbilityInfoFormatter : global::MessagePack.Formatters.IMessagePackFormatter<global::Tech.Data.DB.AbilityInfo>
     {
 
 
         private readonly global::MessagePack.Internal.AutomataDictionary ____keyMapping;
         private readonly byte[][] ____stringByteKeys;
 
-        public StatFormatter()
+        public AbilityInfoFormatter()
         {
             this.____keyMapping = new global::MessagePack.Internal.AutomataDictionary()
             {
-                { "health", 0 },
-                { "attack", 1 },
-                { "defence", 2 },
-                { "manapoint", 3 },
-                { "magic", 4 },
-                { "spirit", 5 },
-                { "speed", 6 },
+                { "InnocenceCost", 0 },
+                { "TargetParameter", 1 },
+                { "ElementType", 2 },
+                { "AbilityType", 3 },
+                { "AbilityTarget", 4 },
+                { "Ailment", 5 },
+                { "NumberOfHits", 6 },
+                { "Duration", 7 },
+                { "Amount", 8 },
+                { "Buff", 9 },
             };
 
             this.____stringByteKeys = new byte[][]
             {
-                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("health"),
-                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("attack"),
-                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("defence"),
-                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("manapoint"),
-                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("magic"),
-                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("spirit"),
-                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("speed"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("InnocenceCost"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("TargetParameter"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("ElementType"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("AbilityType"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("AbilityTarget"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Ailment"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("NumberOfHits"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Duration"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Amount"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Buff"),
             };
         }
 
-        public void Serialize(ref MessagePackWriter writer, global::Tech.Data.DB.Stat value, global::MessagePack.MessagePackSerializerOptions options)
+        public void Serialize(ref MessagePackWriter writer, global::Tech.Data.DB.AbilityInfo value, global::MessagePack.MessagePackSerializerOptions options)
         {
             IFormatterResolver formatterResolver = options.Resolver;
-            writer.WriteMapHeader(7);
+            writer.WriteMapHeader(10);
             writer.WriteRaw(this.____stringByteKeys[0]);
-            writer.Write(value.health);
+            writer.Write(value.InnocenceCost);
             writer.WriteRaw(this.____stringByteKeys[1]);
-            writer.Write(value.attack);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.TargetStat>().Serialize(ref writer, value.TargetParameter, options);
             writer.WriteRaw(this.____stringByteKeys[2]);
-            writer.Write(value.defence);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Element>().Serialize(ref writer, value.ElementType, options);
             writer.WriteRaw(this.____stringByteKeys[3]);
-            writer.Write(value.manapoint);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.ParameterType>().Serialize(ref writer, value.AbilityType, options);
             writer.WriteRaw(this.____stringByteKeys[4]);
-            writer.Write(value.magic);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Target>().Serialize(ref writer, value.AbilityTarget, options);
             writer.WriteRaw(this.____stringByteKeys[5]);
-            writer.Write(value.spirit);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Ailment>().Serialize(ref writer, value.Ailment, options);
             writer.WriteRaw(this.____stringByteKeys[6]);
-            writer.Write(value.speed);
+            writer.Write(value.NumberOfHits);
+            writer.WriteRaw(this.____stringByteKeys[7]);
+            writer.Write(value.Duration);
+            writer.WriteRaw(this.____stringByteKeys[8]);
+            writer.Write(value.Amount);
+            writer.WriteRaw(this.____stringByteKeys[9]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Stat>().Serialize(ref writer, value.Buff, options);
         }
 
-        public global::Tech.Data.DB.Stat Deserialize(ref MessagePackReader reader, global::MessagePack.MessagePackSerializerOptions options)
+        public global::Tech.Data.DB.AbilityInfo Deserialize(ref MessagePackReader reader, global::MessagePack.MessagePackSerializerOptions options)
         {
             if (reader.TryReadNil())
             {
@@ -2077,13 +2244,16 @@ namespace MessagePack.Formatters.Tech.Data.DB
             options.Security.DepthStep(ref reader);
             IFormatterResolver formatterResolver = options.Resolver;
             var length = reader.ReadMapHeader();
-            var __health__ = default(uint);
-            var __attack__ = default(uint);
-            var __defence__ = default(uint);
-            var __manapoint__ = default(uint);
-            var __magic__ = default(uint);
-            var __spirit__ = default(uint);
-            var __speed__ = default(uint);
+            var __InnocenceCost__ = default(uint);
+            var __TargetParameter__ = default(global::Tech.Data.DB.TargetStat);
+            var __ElementType__ = default(global::Tech.Data.DB.Element);
+            var __AbilityType__ = default(global::Tech.Data.DB.ParameterType);
+            var __AbilityTarget__ = default(global::Tech.Data.DB.Target);
+            var __Ailment__ = default(global::Tech.Data.DB.Ailment);
+            var __NumberOfHits__ = default(uint);
+            var __Duration__ = default(uint);
+            var __Amount__ = default(uint);
+            var __Buff__ = default(global::Tech.Data.DB.Stat);
 
             for (int i = 0; i < length; i++)
             {
@@ -2098,25 +2268,742 @@ namespace MessagePack.Formatters.Tech.Data.DB
                 switch (key)
                 {
                     case 0:
-                        __health__ = reader.ReadUInt32();
+                        __InnocenceCost__ = reader.ReadUInt32();
                         break;
                     case 1:
-                        __attack__ = reader.ReadUInt32();
+                        __TargetParameter__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.TargetStat>().Deserialize(ref reader, options);
                         break;
                     case 2:
-                        __defence__ = reader.ReadUInt32();
+                        __ElementType__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Element>().Deserialize(ref reader, options);
                         break;
                     case 3:
-                        __manapoint__ = reader.ReadUInt32();
+                        __AbilityType__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.ParameterType>().Deserialize(ref reader, options);
                         break;
                     case 4:
-                        __magic__ = reader.ReadUInt32();
+                        __AbilityTarget__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Target>().Deserialize(ref reader, options);
                         break;
                     case 5:
-                        __spirit__ = reader.ReadUInt32();
+                        __Ailment__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Ailment>().Deserialize(ref reader, options);
                         break;
                     case 6:
-                        __speed__ = reader.ReadUInt32();
+                        __NumberOfHits__ = reader.ReadUInt32();
+                        break;
+                    case 7:
+                        __Duration__ = reader.ReadUInt32();
+                        break;
+                    case 8:
+                        __Amount__ = reader.ReadUInt32();
+                        break;
+                    case 9:
+                        __Buff__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Stat>().Deserialize(ref reader, options);
+                        break;
+                    default:
+                        reader.Skip();
+                        break;
+                }
+            }
+
+            var ____result = new global::Tech.Data.DB.AbilityInfo();
+            ____result.InnocenceCost = __InnocenceCost__;
+            ____result.TargetParameter = __TargetParameter__;
+            ____result.ElementType = __ElementType__;
+            ____result.AbilityType = __AbilityType__;
+            ____result.AbilityTarget = __AbilityTarget__;
+            ____result.Ailment = __Ailment__;
+            ____result.NumberOfHits = __NumberOfHits__;
+            ____result.Duration = __Duration__;
+            ____result.Amount = __Amount__;
+            ____result.Buff = __Buff__;
+            reader.Depth--;
+            return ____result;
+        }
+    }
+
+    public sealed class EnemyInfoFormatter : global::MessagePack.Formatters.IMessagePackFormatter<global::Tech.Data.DB.EnemyInfo>
+    {
+
+
+        private readonly global::MessagePack.Internal.AutomataDictionary ____keyMapping;
+        private readonly byte[][] ____stringByteKeys;
+
+        public EnemyInfoFormatter()
+        {
+            this.____keyMapping = new global::MessagePack.Internal.AutomataDictionary()
+            {
+                { "Level", 0 },
+                { "Rarity", 1 },
+                { "Stat", 2 },
+                { "RaceType", 3 },
+                { "ElementAttack", 4 },
+                { "ElementResistance", 5 },
+                { "StatusAilmentResistance", 6 },
+            };
+
+            this.____stringByteKeys = new byte[][]
+            {
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Level"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Rarity"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Stat"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("RaceType"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("ElementAttack"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("ElementResistance"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("StatusAilmentResistance"),
+            };
+        }
+
+        public void Serialize(ref MessagePackWriter writer, global::Tech.Data.DB.EnemyInfo value, global::MessagePack.MessagePackSerializerOptions options)
+        {
+            IFormatterResolver formatterResolver = options.Resolver;
+            writer.WriteMapHeader(7);
+            writer.WriteRaw(this.____stringByteKeys[0]);
+            writer.Write(value.Level);
+            writer.WriteRaw(this.____stringByteKeys[1]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Rarity>().Serialize(ref writer, value.Rarity, options);
+            writer.WriteRaw(this.____stringByteKeys[2]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Stat>().Serialize(ref writer, value.Stat, options);
+            writer.WriteRaw(this.____stringByteKeys[3]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.RaceType>().Serialize(ref writer, value.RaceType, options);
+            writer.WriteRaw(this.____stringByteKeys[4]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Element>().Serialize(ref writer, value.ElementAttack, options);
+            writer.WriteRaw(this.____stringByteKeys[5]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Element>().Serialize(ref writer, value.ElementResistance, options);
+            writer.WriteRaw(this.____stringByteKeys[6]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Ailment>().Serialize(ref writer, value.StatusAilmentResistance, options);
+        }
+
+        public global::Tech.Data.DB.EnemyInfo Deserialize(ref MessagePackReader reader, global::MessagePack.MessagePackSerializerOptions options)
+        {
+            if (reader.TryReadNil())
+            {
+                throw new InvalidOperationException("typecode is null, struct not supported");
+            }
+
+            options.Security.DepthStep(ref reader);
+            IFormatterResolver formatterResolver = options.Resolver;
+            var length = reader.ReadMapHeader();
+            var __Level__ = default(uint);
+            var __Rarity__ = default(global::Tech.Data.DB.Rarity);
+            var __Stat__ = default(global::Tech.Data.DB.Stat);
+            var __RaceType__ = default(global::Tech.Data.DB.RaceType);
+            var __ElementAttack__ = default(global::Tech.Data.DB.Element);
+            var __ElementResistance__ = default(global::Tech.Data.DB.Element);
+            var __StatusAilmentResistance__ = default(global::Tech.Data.DB.Ailment);
+
+            for (int i = 0; i < length; i++)
+            {
+                ReadOnlySpan<byte> stringKey = global::MessagePack.Internal.CodeGenHelpers.ReadStringSpan(ref reader);
+                int key;
+                if (!this.____keyMapping.TryGetValue(stringKey, out key))
+                {
+                    reader.Skip();
+                    continue;
+                }
+
+                switch (key)
+                {
+                    case 0:
+                        __Level__ = reader.ReadUInt32();
+                        break;
+                    case 1:
+                        __Rarity__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Rarity>().Deserialize(ref reader, options);
+                        break;
+                    case 2:
+                        __Stat__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Stat>().Deserialize(ref reader, options);
+                        break;
+                    case 3:
+                        __RaceType__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.RaceType>().Deserialize(ref reader, options);
+                        break;
+                    case 4:
+                        __ElementAttack__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Element>().Deserialize(ref reader, options);
+                        break;
+                    case 5:
+                        __ElementResistance__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Element>().Deserialize(ref reader, options);
+                        break;
+                    case 6:
+                        __StatusAilmentResistance__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Ailment>().Deserialize(ref reader, options);
+                        break;
+                    default:
+                        reader.Skip();
+                        break;
+                }
+            }
+
+            var ____result = new global::Tech.Data.DB.EnemyInfo();
+            ____result.Level = __Level__;
+            ____result.Rarity = __Rarity__;
+            ____result.Stat = __Stat__;
+            ____result.RaceType = __RaceType__;
+            ____result.ElementAttack = __ElementAttack__;
+            ____result.ElementResistance = __ElementResistance__;
+            ____result.StatusAilmentResistance = __StatusAilmentResistance__;
+            reader.Depth--;
+            return ____result;
+        }
+    }
+
+    public sealed class EquipmentInfoFormatter : global::MessagePack.Formatters.IMessagePackFormatter<global::Tech.Data.DB.EquipmentInfo>
+    {
+
+
+        private readonly global::MessagePack.Internal.AutomataDictionary ____keyMapping;
+        private readonly byte[][] ____stringByteKeys;
+
+        public EquipmentInfoFormatter()
+        {
+            this.____keyMapping = new global::MessagePack.Internal.AutomataDictionary()
+            {
+                { "Level", 0 },
+                { "Rarity", 1 },
+                { "EquipmentType", 2 },
+                { "EquipmentStat", 3 },
+                { "ElementalAttack", 4 },
+                { "StatusAilment", 5 },
+            };
+
+            this.____stringByteKeys = new byte[][]
+            {
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Level"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Rarity"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("EquipmentType"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("EquipmentStat"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("ElementalAttack"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("StatusAilment"),
+            };
+        }
+
+        public void Serialize(ref MessagePackWriter writer, global::Tech.Data.DB.EquipmentInfo value, global::MessagePack.MessagePackSerializerOptions options)
+        {
+            IFormatterResolver formatterResolver = options.Resolver;
+            writer.WriteMapHeader(6);
+            writer.WriteRaw(this.____stringByteKeys[0]);
+            writer.Write(value.Level);
+            writer.WriteRaw(this.____stringByteKeys[1]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Rarity>().Serialize(ref writer, value.Rarity, options);
+            writer.WriteRaw(this.____stringByteKeys[2]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.EquipmentType>().Serialize(ref writer, value.EquipmentType, options);
+            writer.WriteRaw(this.____stringByteKeys[3]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Stat>().Serialize(ref writer, value.EquipmentStat, options);
+            writer.WriteRaw(this.____stringByteKeys[4]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Element>().Serialize(ref writer, value.ElementalAttack, options);
+            writer.WriteRaw(this.____stringByteKeys[5]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Ailment>().Serialize(ref writer, value.StatusAilment, options);
+        }
+
+        public global::Tech.Data.DB.EquipmentInfo Deserialize(ref MessagePackReader reader, global::MessagePack.MessagePackSerializerOptions options)
+        {
+            if (reader.TryReadNil())
+            {
+                throw new InvalidOperationException("typecode is null, struct not supported");
+            }
+
+            options.Security.DepthStep(ref reader);
+            IFormatterResolver formatterResolver = options.Resolver;
+            var length = reader.ReadMapHeader();
+            var __Level__ = default(uint);
+            var __Rarity__ = default(global::Tech.Data.DB.Rarity);
+            var __EquipmentType__ = default(global::Tech.Data.DB.EquipmentType);
+            var __EquipmentStat__ = default(global::Tech.Data.DB.Stat);
+            var __ElementalAttack__ = default(global::Tech.Data.DB.Element);
+            var __StatusAilment__ = default(global::Tech.Data.DB.Ailment);
+
+            for (int i = 0; i < length; i++)
+            {
+                ReadOnlySpan<byte> stringKey = global::MessagePack.Internal.CodeGenHelpers.ReadStringSpan(ref reader);
+                int key;
+                if (!this.____keyMapping.TryGetValue(stringKey, out key))
+                {
+                    reader.Skip();
+                    continue;
+                }
+
+                switch (key)
+                {
+                    case 0:
+                        __Level__ = reader.ReadUInt32();
+                        break;
+                    case 1:
+                        __Rarity__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Rarity>().Deserialize(ref reader, options);
+                        break;
+                    case 2:
+                        __EquipmentType__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.EquipmentType>().Deserialize(ref reader, options);
+                        break;
+                    case 3:
+                        __EquipmentStat__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Stat>().Deserialize(ref reader, options);
+                        break;
+                    case 4:
+                        __ElementalAttack__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Element>().Deserialize(ref reader, options);
+                        break;
+                    case 5:
+                        __StatusAilment__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Ailment>().Deserialize(ref reader, options);
+                        break;
+                    default:
+                        reader.Skip();
+                        break;
+                }
+            }
+
+            var ____result = new global::Tech.Data.DB.EquipmentInfo();
+            ____result.Level = __Level__;
+            ____result.Rarity = __Rarity__;
+            ____result.EquipmentType = __EquipmentType__;
+            ____result.EquipmentStat = __EquipmentStat__;
+            ____result.ElementalAttack = __ElementalAttack__;
+            ____result.StatusAilment = __StatusAilment__;
+            reader.Depth--;
+            return ____result;
+        }
+    }
+
+    public sealed class ItemInfoFormatter : global::MessagePack.Formatters.IMessagePackFormatter<global::Tech.Data.DB.ItemInfo>
+    {
+
+
+        private readonly global::MessagePack.Internal.AutomataDictionary ____keyMapping;
+        private readonly byte[][] ____stringByteKeys;
+
+        public ItemInfoFormatter()
+        {
+            this.____keyMapping = new global::MessagePack.Internal.AutomataDictionary()
+            {
+                { "Level", 0 },
+                { "Rarity", 1 },
+                { "ItemType", 2 },
+                { "CureAilment", 3 },
+                { "InflictAilment", 4 },
+                { "Target", 5 },
+            };
+
+            this.____stringByteKeys = new byte[][]
+            {
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Level"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Rarity"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("ItemType"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("CureAilment"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("InflictAilment"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Target"),
+            };
+        }
+
+        public void Serialize(ref MessagePackWriter writer, global::Tech.Data.DB.ItemInfo value, global::MessagePack.MessagePackSerializerOptions options)
+        {
+            IFormatterResolver formatterResolver = options.Resolver;
+            writer.WriteMapHeader(6);
+            writer.WriteRaw(this.____stringByteKeys[0]);
+            writer.Write(value.Level);
+            writer.WriteRaw(this.____stringByteKeys[1]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Rarity>().Serialize(ref writer, value.Rarity, options);
+            writer.WriteRaw(this.____stringByteKeys[2]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.ItemType>().Serialize(ref writer, value.ItemType, options);
+            writer.WriteRaw(this.____stringByteKeys[3]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Ailment>().Serialize(ref writer, value.CureAilment, options);
+            writer.WriteRaw(this.____stringByteKeys[4]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Ailment>().Serialize(ref writer, value.InflictAilment, options);
+            writer.WriteRaw(this.____stringByteKeys[5]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Target>().Serialize(ref writer, value.Target, options);
+        }
+
+        public global::Tech.Data.DB.ItemInfo Deserialize(ref MessagePackReader reader, global::MessagePack.MessagePackSerializerOptions options)
+        {
+            if (reader.TryReadNil())
+            {
+                throw new InvalidOperationException("typecode is null, struct not supported");
+            }
+
+            options.Security.DepthStep(ref reader);
+            IFormatterResolver formatterResolver = options.Resolver;
+            var length = reader.ReadMapHeader();
+            var __Level__ = default(uint);
+            var __Rarity__ = default(global::Tech.Data.DB.Rarity);
+            var __ItemType__ = default(global::Tech.Data.DB.ItemType);
+            var __CureAilment__ = default(global::Tech.Data.DB.Ailment);
+            var __InflictAilment__ = default(global::Tech.Data.DB.Ailment);
+            var __Target__ = default(global::Tech.Data.DB.Target);
+
+            for (int i = 0; i < length; i++)
+            {
+                ReadOnlySpan<byte> stringKey = global::MessagePack.Internal.CodeGenHelpers.ReadStringSpan(ref reader);
+                int key;
+                if (!this.____keyMapping.TryGetValue(stringKey, out key))
+                {
+                    reader.Skip();
+                    continue;
+                }
+
+                switch (key)
+                {
+                    case 0:
+                        __Level__ = reader.ReadUInt32();
+                        break;
+                    case 1:
+                        __Rarity__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Rarity>().Deserialize(ref reader, options);
+                        break;
+                    case 2:
+                        __ItemType__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.ItemType>().Deserialize(ref reader, options);
+                        break;
+                    case 3:
+                        __CureAilment__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Ailment>().Deserialize(ref reader, options);
+                        break;
+                    case 4:
+                        __InflictAilment__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Ailment>().Deserialize(ref reader, options);
+                        break;
+                    case 5:
+                        __Target__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Target>().Deserialize(ref reader, options);
+                        break;
+                    default:
+                        reader.Skip();
+                        break;
+                }
+            }
+
+            var ____result = new global::Tech.Data.DB.ItemInfo();
+            ____result.Level = __Level__;
+            ____result.Rarity = __Rarity__;
+            ____result.ItemType = __ItemType__;
+            ____result.CureAilment = __CureAilment__;
+            ____result.InflictAilment = __InflictAilment__;
+            ____result.Target = __Target__;
+            reader.Depth--;
+            return ____result;
+        }
+    }
+
+    public sealed class MaterialInfoFormatter : global::MessagePack.Formatters.IMessagePackFormatter<global::Tech.Data.DB.MaterialInfo>
+    {
+
+
+        private readonly global::MessagePack.Internal.AutomataDictionary ____keyMapping;
+        private readonly byte[][] ____stringByteKeys;
+
+        public MaterialInfoFormatter()
+        {
+            this.____keyMapping = new global::MessagePack.Internal.AutomataDictionary()
+            {
+                { "Level", 0 },
+                { "Rarity", 1 },
+            };
+
+            this.____stringByteKeys = new byte[][]
+            {
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Level"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Rarity"),
+            };
+        }
+
+        public void Serialize(ref MessagePackWriter writer, global::Tech.Data.DB.MaterialInfo value, global::MessagePack.MessagePackSerializerOptions options)
+        {
+            IFormatterResolver formatterResolver = options.Resolver;
+            writer.WriteMapHeader(2);
+            writer.WriteRaw(this.____stringByteKeys[0]);
+            writer.Write(value.Level);
+            writer.WriteRaw(this.____stringByteKeys[1]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Rarity>().Serialize(ref writer, value.Rarity, options);
+        }
+
+        public global::Tech.Data.DB.MaterialInfo Deserialize(ref MessagePackReader reader, global::MessagePack.MessagePackSerializerOptions options)
+        {
+            if (reader.TryReadNil())
+            {
+                throw new InvalidOperationException("typecode is null, struct not supported");
+            }
+
+            options.Security.DepthStep(ref reader);
+            IFormatterResolver formatterResolver = options.Resolver;
+            var length = reader.ReadMapHeader();
+            var __Level__ = default(uint);
+            var __Rarity__ = default(global::Tech.Data.DB.Rarity);
+
+            for (int i = 0; i < length; i++)
+            {
+                ReadOnlySpan<byte> stringKey = global::MessagePack.Internal.CodeGenHelpers.ReadStringSpan(ref reader);
+                int key;
+                if (!this.____keyMapping.TryGetValue(stringKey, out key))
+                {
+                    reader.Skip();
+                    continue;
+                }
+
+                switch (key)
+                {
+                    case 0:
+                        __Level__ = reader.ReadUInt32();
+                        break;
+                    case 1:
+                        __Rarity__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Rarity>().Deserialize(ref reader, options);
+                        break;
+                    default:
+                        reader.Skip();
+                        break;
+                }
+            }
+
+            var ____result = new global::Tech.Data.DB.MaterialInfo();
+            ____result.Level = __Level__;
+            ____result.Rarity = __Rarity__;
+            reader.Depth--;
+            return ____result;
+        }
+    }
+
+    public sealed class SkillInfoFormatter : global::MessagePack.Formatters.IMessagePackFormatter<global::Tech.Data.DB.SkillInfo>
+    {
+
+
+        private readonly global::MessagePack.Internal.AutomataDictionary ____keyMapping;
+        private readonly byte[][] ____stringByteKeys;
+
+        public SkillInfoFormatter()
+        {
+            this.____keyMapping = new global::MessagePack.Internal.AutomataDictionary()
+            {
+                { "ManapointCost", 0 },
+                { "TraitType", 1 },
+                { "TargetParameter", 2 },
+                { "ElementType", 3 },
+                { "SkillType", 4 },
+                { "SkillTarget", 5 },
+                { "Ailment", 6 },
+                { "NumberOfHits", 7 },
+                { "Duration", 8 },
+                { "Amount", 9 },
+                { "Buff", 10 },
+            };
+
+            this.____stringByteKeys = new byte[][]
+            {
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("ManapointCost"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("TraitType"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("TargetParameter"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("ElementType"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("SkillType"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("SkillTarget"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Ailment"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("NumberOfHits"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Duration"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Amount"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Buff"),
+            };
+        }
+
+        public void Serialize(ref MessagePackWriter writer, global::Tech.Data.DB.SkillInfo value, global::MessagePack.MessagePackSerializerOptions options)
+        {
+            IFormatterResolver formatterResolver = options.Resolver;
+            writer.WriteMapHeader(11);
+            writer.WriteRaw(this.____stringByteKeys[0]);
+            writer.Write(value.ManapointCost);
+            writer.WriteRaw(this.____stringByteKeys[1]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.TraitType>().Serialize(ref writer, value.TraitType, options);
+            writer.WriteRaw(this.____stringByteKeys[2]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.TargetStat>().Serialize(ref writer, value.TargetParameter, options);
+            writer.WriteRaw(this.____stringByteKeys[3]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Element>().Serialize(ref writer, value.ElementType, options);
+            writer.WriteRaw(this.____stringByteKeys[4]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.ParameterType>().Serialize(ref writer, value.SkillType, options);
+            writer.WriteRaw(this.____stringByteKeys[5]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Target>().Serialize(ref writer, value.SkillTarget, options);
+            writer.WriteRaw(this.____stringByteKeys[6]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Ailment>().Serialize(ref writer, value.Ailment, options);
+            writer.WriteRaw(this.____stringByteKeys[7]);
+            writer.Write(value.NumberOfHits);
+            writer.WriteRaw(this.____stringByteKeys[8]);
+            writer.Write(value.Duration);
+            writer.WriteRaw(this.____stringByteKeys[9]);
+            writer.Write(value.Amount);
+            writer.WriteRaw(this.____stringByteKeys[10]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Stat>().Serialize(ref writer, value.Buff, options);
+        }
+
+        public global::Tech.Data.DB.SkillInfo Deserialize(ref MessagePackReader reader, global::MessagePack.MessagePackSerializerOptions options)
+        {
+            if (reader.TryReadNil())
+            {
+                throw new InvalidOperationException("typecode is null, struct not supported");
+            }
+
+            options.Security.DepthStep(ref reader);
+            IFormatterResolver formatterResolver = options.Resolver;
+            var length = reader.ReadMapHeader();
+            var __ManapointCost__ = default(uint);
+            var __TraitType__ = default(global::Tech.Data.DB.TraitType);
+            var __TargetParameter__ = default(global::Tech.Data.DB.TargetStat);
+            var __ElementType__ = default(global::Tech.Data.DB.Element);
+            var __SkillType__ = default(global::Tech.Data.DB.ParameterType);
+            var __SkillTarget__ = default(global::Tech.Data.DB.Target);
+            var __Ailment__ = default(global::Tech.Data.DB.Ailment);
+            var __NumberOfHits__ = default(uint);
+            var __Duration__ = default(uint);
+            var __Amount__ = default(uint);
+            var __Buff__ = default(global::Tech.Data.DB.Stat);
+
+            for (int i = 0; i < length; i++)
+            {
+                ReadOnlySpan<byte> stringKey = global::MessagePack.Internal.CodeGenHelpers.ReadStringSpan(ref reader);
+                int key;
+                if (!this.____keyMapping.TryGetValue(stringKey, out key))
+                {
+                    reader.Skip();
+                    continue;
+                }
+
+                switch (key)
+                {
+                    case 0:
+                        __ManapointCost__ = reader.ReadUInt32();
+                        break;
+                    case 1:
+                        __TraitType__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.TraitType>().Deserialize(ref reader, options);
+                        break;
+                    case 2:
+                        __TargetParameter__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.TargetStat>().Deserialize(ref reader, options);
+                        break;
+                    case 3:
+                        __ElementType__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Element>().Deserialize(ref reader, options);
+                        break;
+                    case 4:
+                        __SkillType__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.ParameterType>().Deserialize(ref reader, options);
+                        break;
+                    case 5:
+                        __SkillTarget__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Target>().Deserialize(ref reader, options);
+                        break;
+                    case 6:
+                        __Ailment__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Ailment>().Deserialize(ref reader, options);
+                        break;
+                    case 7:
+                        __NumberOfHits__ = reader.ReadUInt32();
+                        break;
+                    case 8:
+                        __Duration__ = reader.ReadUInt32();
+                        break;
+                    case 9:
+                        __Amount__ = reader.ReadUInt32();
+                        break;
+                    case 10:
+                        __Buff__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Stat>().Deserialize(ref reader, options);
+                        break;
+                    default:
+                        reader.Skip();
+                        break;
+                }
+            }
+
+            var ____result = new global::Tech.Data.DB.SkillInfo();
+            ____result.ManapointCost = __ManapointCost__;
+            ____result.TraitType = __TraitType__;
+            ____result.TargetParameter = __TargetParameter__;
+            ____result.ElementType = __ElementType__;
+            ____result.SkillType = __SkillType__;
+            ____result.SkillTarget = __SkillTarget__;
+            ____result.Ailment = __Ailment__;
+            ____result.NumberOfHits = __NumberOfHits__;
+            ____result.Duration = __Duration__;
+            ____result.Amount = __Amount__;
+            ____result.Buff = __Buff__;
+            reader.Depth--;
+            return ____result;
+        }
+    }
+
+    public sealed class StatFormatter : global::MessagePack.Formatters.IMessagePackFormatter<global::Tech.Data.DB.Stat>
+    {
+
+
+        private readonly global::MessagePack.Internal.AutomataDictionary ____keyMapping;
+        private readonly byte[][] ____stringByteKeys;
+
+        public StatFormatter()
+        {
+            this.____keyMapping = new global::MessagePack.Internal.AutomataDictionary()
+            {
+                { "Health", 0 },
+                { "Attack", 1 },
+                { "Defence", 2 },
+                { "Manapoint", 3 },
+                { "Magic", 4 },
+                { "Spirit", 5 },
+                { "Speed", 6 },
+            };
+
+            this.____stringByteKeys = new byte[][]
+            {
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Health"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Attack"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Defence"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Manapoint"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Magic"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Spirit"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Speed"),
+            };
+        }
+
+        public void Serialize(ref MessagePackWriter writer, global::Tech.Data.DB.Stat value, global::MessagePack.MessagePackSerializerOptions options)
+        {
+            IFormatterResolver formatterResolver = options.Resolver;
+            writer.WriteMapHeader(7);
+            writer.WriteRaw(this.____stringByteKeys[0]);
+            writer.Write(value.Health);
+            writer.WriteRaw(this.____stringByteKeys[1]);
+            writer.Write(value.Attack);
+            writer.WriteRaw(this.____stringByteKeys[2]);
+            writer.Write(value.Defence);
+            writer.WriteRaw(this.____stringByteKeys[3]);
+            writer.Write(value.Manapoint);
+            writer.WriteRaw(this.____stringByteKeys[4]);
+            writer.Write(value.Magic);
+            writer.WriteRaw(this.____stringByteKeys[5]);
+            writer.Write(value.Spirit);
+            writer.WriteRaw(this.____stringByteKeys[6]);
+            writer.Write(value.Speed);
+        }
+
+        public global::Tech.Data.DB.Stat Deserialize(ref MessagePackReader reader, global::MessagePack.MessagePackSerializerOptions options)
+        {
+            if (reader.TryReadNil())
+            {
+                throw new InvalidOperationException("typecode is null, struct not supported");
+            }
+
+            options.Security.DepthStep(ref reader);
+            IFormatterResolver formatterResolver = options.Resolver;
+            var length = reader.ReadMapHeader();
+            var __Health__ = default(uint);
+            var __Attack__ = default(uint);
+            var __Defence__ = default(uint);
+            var __Manapoint__ = default(uint);
+            var __Magic__ = default(uint);
+            var __Spirit__ = default(uint);
+            var __Speed__ = default(uint);
+
+            for (int i = 0; i < length; i++)
+            {
+                ReadOnlySpan<byte> stringKey = global::MessagePack.Internal.CodeGenHelpers.ReadStringSpan(ref reader);
+                int key;
+                if (!this.____keyMapping.TryGetValue(stringKey, out key))
+                {
+                    reader.Skip();
+                    continue;
+                }
+
+                switch (key)
+                {
+                    case 0:
+                        __Health__ = reader.ReadUInt32();
+                        break;
+                    case 1:
+                        __Attack__ = reader.ReadUInt32();
+                        break;
+                    case 2:
+                        __Defence__ = reader.ReadUInt32();
+                        break;
+                    case 3:
+                        __Manapoint__ = reader.ReadUInt32();
+                        break;
+                    case 4:
+                        __Magic__ = reader.ReadUInt32();
+                        break;
+                    case 5:
+                        __Spirit__ = reader.ReadUInt32();
+                        break;
+                    case 6:
+                        __Speed__ = reader.ReadUInt32();
                         break;
                     default:
                         reader.Skip();
@@ -2125,13 +3012,275 @@ namespace MessagePack.Formatters.Tech.Data.DB
             }
 
             var ____result = new global::Tech.Data.DB.Stat();
-            ____result.health = __health__;
-            ____result.attack = __attack__;
-            ____result.defence = __defence__;
-            ____result.manapoint = __manapoint__;
-            ____result.magic = __magic__;
-            ____result.spirit = __spirit__;
-            ____result.speed = __speed__;
+            ____result.Health = __Health__;
+            ____result.Attack = __Attack__;
+            ____result.Defence = __Defence__;
+            ____result.Manapoint = __Manapoint__;
+            ____result.Magic = __Magic__;
+            ____result.Spirit = __Spirit__;
+            ____result.Speed = __Speed__;
+            reader.Depth--;
+            return ____result;
+        }
+    }
+
+    public sealed class UnitInfoFormatter : global::MessagePack.Formatters.IMessagePackFormatter<global::Tech.Data.DB.UnitInfo>
+    {
+
+
+        private readonly global::MessagePack.Internal.AutomataDictionary ____keyMapping;
+        private readonly byte[][] ____stringByteKeys;
+
+        public UnitInfoFormatter()
+        {
+            this.____keyMapping = new global::MessagePack.Internal.AutomataDictionary()
+            {
+                { "Level", 0 },
+                { "Rarity", 1 },
+                { "Stat", 2 },
+                { "RaceType", 3 },
+                { "ElementAttack", 4 },
+                { "ElementResistance", 5 },
+                { "StatusAilmentResistance", 6 },
+                { "WeaponCompatibility", 7 },
+                { "UnitType", 8 },
+            };
+
+            this.____stringByteKeys = new byte[][]
+            {
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Level"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Rarity"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Stat"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("RaceType"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("ElementAttack"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("ElementResistance"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("StatusAilmentResistance"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("WeaponCompatibility"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("UnitType"),
+            };
+        }
+
+        public void Serialize(ref MessagePackWriter writer, global::Tech.Data.DB.UnitInfo value, global::MessagePack.MessagePackSerializerOptions options)
+        {
+            IFormatterResolver formatterResolver = options.Resolver;
+            writer.WriteMapHeader(9);
+            writer.WriteRaw(this.____stringByteKeys[0]);
+            writer.Write(value.Level);
+            writer.WriteRaw(this.____stringByteKeys[1]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Rarity>().Serialize(ref writer, value.Rarity, options);
+            writer.WriteRaw(this.____stringByteKeys[2]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Stat>().Serialize(ref writer, value.Stat, options);
+            writer.WriteRaw(this.____stringByteKeys[3]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.RaceType>().Serialize(ref writer, value.RaceType, options);
+            writer.WriteRaw(this.____stringByteKeys[4]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Element>().Serialize(ref writer, value.ElementAttack, options);
+            writer.WriteRaw(this.____stringByteKeys[5]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Element>().Serialize(ref writer, value.ElementResistance, options);
+            writer.WriteRaw(this.____stringByteKeys[6]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Ailment>().Serialize(ref writer, value.StatusAilmentResistance, options);
+            writer.WriteRaw(this.____stringByteKeys[7]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.WeaponType>().Serialize(ref writer, value.WeaponCompatibility, options);
+            writer.WriteRaw(this.____stringByteKeys[8]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.UnitType>().Serialize(ref writer, value.UnitType, options);
+        }
+
+        public global::Tech.Data.DB.UnitInfo Deserialize(ref MessagePackReader reader, global::MessagePack.MessagePackSerializerOptions options)
+        {
+            if (reader.TryReadNil())
+            {
+                throw new InvalidOperationException("typecode is null, struct not supported");
+            }
+
+            options.Security.DepthStep(ref reader);
+            IFormatterResolver formatterResolver = options.Resolver;
+            var length = reader.ReadMapHeader();
+            var __Level__ = default(uint);
+            var __Rarity__ = default(global::Tech.Data.DB.Rarity);
+            var __Stat__ = default(global::Tech.Data.DB.Stat);
+            var __RaceType__ = default(global::Tech.Data.DB.RaceType);
+            var __ElementAttack__ = default(global::Tech.Data.DB.Element);
+            var __ElementResistance__ = default(global::Tech.Data.DB.Element);
+            var __StatusAilmentResistance__ = default(global::Tech.Data.DB.Ailment);
+            var __WeaponCompatibility__ = default(global::Tech.Data.DB.WeaponType);
+            var __UnitType__ = default(global::Tech.Data.DB.UnitType);
+
+            for (int i = 0; i < length; i++)
+            {
+                ReadOnlySpan<byte> stringKey = global::MessagePack.Internal.CodeGenHelpers.ReadStringSpan(ref reader);
+                int key;
+                if (!this.____keyMapping.TryGetValue(stringKey, out key))
+                {
+                    reader.Skip();
+                    continue;
+                }
+
+                switch (key)
+                {
+                    case 0:
+                        __Level__ = reader.ReadUInt32();
+                        break;
+                    case 1:
+                        __Rarity__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Rarity>().Deserialize(ref reader, options);
+                        break;
+                    case 2:
+                        __Stat__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Stat>().Deserialize(ref reader, options);
+                        break;
+                    case 3:
+                        __RaceType__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.RaceType>().Deserialize(ref reader, options);
+                        break;
+                    case 4:
+                        __ElementAttack__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Element>().Deserialize(ref reader, options);
+                        break;
+                    case 5:
+                        __ElementResistance__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Element>().Deserialize(ref reader, options);
+                        break;
+                    case 6:
+                        __StatusAilmentResistance__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Ailment>().Deserialize(ref reader, options);
+                        break;
+                    case 7:
+                        __WeaponCompatibility__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.WeaponType>().Deserialize(ref reader, options);
+                        break;
+                    case 8:
+                        __UnitType__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.UnitType>().Deserialize(ref reader, options);
+                        break;
+                    default:
+                        reader.Skip();
+                        break;
+                }
+            }
+
+            var ____result = new global::Tech.Data.DB.UnitInfo();
+            ____result.Level = __Level__;
+            ____result.Rarity = __Rarity__;
+            ____result.Stat = __Stat__;
+            ____result.RaceType = __RaceType__;
+            ____result.ElementAttack = __ElementAttack__;
+            ____result.ElementResistance = __ElementResistance__;
+            ____result.StatusAilmentResistance = __StatusAilmentResistance__;
+            ____result.WeaponCompatibility = __WeaponCompatibility__;
+            ____result.UnitType = __UnitType__;
+            reader.Depth--;
+            return ____result;
+        }
+    }
+
+    public sealed class WeaponInfoFormatter : global::MessagePack.Formatters.IMessagePackFormatter<global::Tech.Data.DB.WeaponInfo>
+    {
+
+
+        private readonly global::MessagePack.Internal.AutomataDictionary ____keyMapping;
+        private readonly byte[][] ____stringByteKeys;
+
+        public WeaponInfoFormatter()
+        {
+            this.____keyMapping = new global::MessagePack.Internal.AutomataDictionary()
+            {
+                { "Level", 0 },
+                { "Rarity", 1 },
+                { "WeaponType", 2 },
+                { "WeaponStat", 3 },
+                { "ElementAttack", 4 },
+                { "StatusAliment", 5 },
+                { "NumberOfAttack", 6 },
+            };
+
+            this.____stringByteKeys = new byte[][]
+            {
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Level"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Rarity"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("WeaponType"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("WeaponStat"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("ElementAttack"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("StatusAliment"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("NumberOfAttack"),
+            };
+        }
+
+        public void Serialize(ref MessagePackWriter writer, global::Tech.Data.DB.WeaponInfo value, global::MessagePack.MessagePackSerializerOptions options)
+        {
+            IFormatterResolver formatterResolver = options.Resolver;
+            writer.WriteMapHeader(7);
+            writer.WriteRaw(this.____stringByteKeys[0]);
+            writer.Write(value.Level);
+            writer.WriteRaw(this.____stringByteKeys[1]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Rarity>().Serialize(ref writer, value.Rarity, options);
+            writer.WriteRaw(this.____stringByteKeys[2]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.WeaponType>().Serialize(ref writer, value.WeaponType, options);
+            writer.WriteRaw(this.____stringByteKeys[3]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Stat>().Serialize(ref writer, value.WeaponStat, options);
+            writer.WriteRaw(this.____stringByteKeys[4]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Element>().Serialize(ref writer, value.ElementAttack, options);
+            writer.WriteRaw(this.____stringByteKeys[5]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Ailment>().Serialize(ref writer, value.StatusAliment, options);
+            writer.WriteRaw(this.____stringByteKeys[6]);
+            writer.Write(value.NumberOfAttack);
+        }
+
+        public global::Tech.Data.DB.WeaponInfo Deserialize(ref MessagePackReader reader, global::MessagePack.MessagePackSerializerOptions options)
+        {
+            if (reader.TryReadNil())
+            {
+                throw new InvalidOperationException("typecode is null, struct not supported");
+            }
+
+            options.Security.DepthStep(ref reader);
+            IFormatterResolver formatterResolver = options.Resolver;
+            var length = reader.ReadMapHeader();
+            var __Level__ = default(uint);
+            var __Rarity__ = default(global::Tech.Data.DB.Rarity);
+            var __WeaponType__ = default(global::Tech.Data.DB.WeaponType);
+            var __WeaponStat__ = default(global::Tech.Data.DB.Stat);
+            var __ElementAttack__ = default(global::Tech.Data.DB.Element);
+            var __StatusAliment__ = default(global::Tech.Data.DB.Ailment);
+            var __NumberOfAttack__ = default(uint);
+
+            for (int i = 0; i < length; i++)
+            {
+                ReadOnlySpan<byte> stringKey = global::MessagePack.Internal.CodeGenHelpers.ReadStringSpan(ref reader);
+                int key;
+                if (!this.____keyMapping.TryGetValue(stringKey, out key))
+                {
+                    reader.Skip();
+                    continue;
+                }
+
+                switch (key)
+                {
+                    case 0:
+                        __Level__ = reader.ReadUInt32();
+                        break;
+                    case 1:
+                        __Rarity__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Rarity>().Deserialize(ref reader, options);
+                        break;
+                    case 2:
+                        __WeaponType__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.WeaponType>().Deserialize(ref reader, options);
+                        break;
+                    case 3:
+                        __WeaponStat__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Stat>().Deserialize(ref reader, options);
+                        break;
+                    case 4:
+                        __ElementAttack__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Element>().Deserialize(ref reader, options);
+                        break;
+                    case 5:
+                        __StatusAliment__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Ailment>().Deserialize(ref reader, options);
+                        break;
+                    case 6:
+                        __NumberOfAttack__ = reader.ReadUInt32();
+                        break;
+                    default:
+                        reader.Skip();
+                        break;
+                }
+            }
+
+            var ____result = new global::Tech.Data.DB.WeaponInfo();
+            ____result.Level = __Level__;
+            ____result.Rarity = __Rarity__;
+            ____result.WeaponType = __WeaponType__;
+            ____result.WeaponStat = __WeaponStat__;
+            ____result.ElementAttack = __ElementAttack__;
+            ____result.StatusAliment = __StatusAliment__;
+            ____result.NumberOfAttack = __NumberOfAttack__;
             reader.Depth--;
             return ____result;
         }
@@ -2172,31 +3321,37 @@ namespace MessagePack.Formatters.Tech.DB
     using System.Buffers;
     using MessagePack;
 
-    public sealed class CharacterFormatter : global::MessagePack.Formatters.IMessagePackFormatter<global::Tech.DB.Character>
+    public sealed class AbilityFormatter : global::MessagePack.Formatters.IMessagePackFormatter<global::Tech.DB.Ability>
     {
 
 
         private readonly global::MessagePack.Internal.AutomataDictionary ____keyMapping;
         private readonly byte[][] ____stringByteKeys;
 
-        public CharacterFormatter()
+        public AbilityFormatter()
         {
             this.____keyMapping = new global::MessagePack.Internal.AutomataDictionary()
             {
                 { "Name", 0 },
-                { "Index", 1 },
-                { "Description", 2 },
+                { "Description", 1 },
+                { "AbilityDescription", 2 },
+                { "ImageBytes", 3 },
+                { "AbilityInfo", 4 },
+                { "Index", 5 },
             };
 
             this.____stringByteKeys = new byte[][]
             {
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Name"),
-                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Index"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Description"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("AbilityDescription"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("ImageBytes"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("AbilityInfo"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Index"),
             };
         }
 
-        public void Serialize(ref MessagePackWriter writer, global::Tech.DB.Character value, global::MessagePack.MessagePackSerializerOptions options)
+        public void Serialize(ref MessagePackWriter writer, global::Tech.DB.Ability value, global::MessagePack.MessagePackSerializerOptions options)
         {
             if (value == null)
             {
@@ -2206,16 +3361,139 @@ namespace MessagePack.Formatters.Tech.DB
 
             IFormatterResolver formatterResolver = options.Resolver;
             value.OnBeforeSerialize();
-            writer.WriteMapHeader(3);
+            writer.WriteMapHeader(6);
+            writer.WriteRaw(this.____stringByteKeys[0]);
+            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.Name, options);
+            writer.WriteRaw(this.____stringByteKeys[1]);
+            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.Description, options);
+            writer.WriteRaw(this.____stringByteKeys[2]);
+            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.AbilityDescription, options);
+            writer.WriteRaw(this.____stringByteKeys[3]);
+            formatterResolver.GetFormatterWithVerify<byte[]>().Serialize(ref writer, value.ImageBytes, options);
+            writer.WriteRaw(this.____stringByteKeys[4]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.AbilityInfo>().Serialize(ref writer, value.AbilityInfo, options);
+            writer.WriteRaw(this.____stringByteKeys[5]);
+            writer.Write(value.Index);
+        }
+
+        public global::Tech.DB.Ability Deserialize(ref MessagePackReader reader, global::MessagePack.MessagePackSerializerOptions options)
+        {
+            if (reader.TryReadNil())
+            {
+                return null;
+            }
+
+            options.Security.DepthStep(ref reader);
+            IFormatterResolver formatterResolver = options.Resolver;
+            var length = reader.ReadMapHeader();
+            var __Name__ = default(string);
+            var __Description__ = default(string);
+            var __AbilityDescription__ = default(string);
+            var __ImageBytes__ = default(byte[]);
+            var __AbilityInfo__ = default(global::Tech.Data.DB.AbilityInfo);
+            var __Index__ = default(int);
+
+            for (int i = 0; i < length; i++)
+            {
+                ReadOnlySpan<byte> stringKey = global::MessagePack.Internal.CodeGenHelpers.ReadStringSpan(ref reader);
+                int key;
+                if (!this.____keyMapping.TryGetValue(stringKey, out key))
+                {
+                    reader.Skip();
+                    continue;
+                }
+
+                switch (key)
+                {
+                    case 0:
+                        __Name__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
+                        break;
+                    case 1:
+                        __Description__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
+                        break;
+                    case 2:
+                        __AbilityDescription__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
+                        break;
+                    case 3:
+                        __ImageBytes__ = formatterResolver.GetFormatterWithVerify<byte[]>().Deserialize(ref reader, options);
+                        break;
+                    case 4:
+                        __AbilityInfo__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.AbilityInfo>().Deserialize(ref reader, options);
+                        break;
+                    case 5:
+                        __Index__ = reader.ReadInt32();
+                        break;
+                    default:
+                        reader.Skip();
+                        break;
+                }
+            }
+
+            var ____result = new global::Tech.DB.Ability();
+            ____result.Name = __Name__;
+            ____result.Description = __Description__;
+            ____result.AbilityDescription = __AbilityDescription__;
+            ____result.ImageBytes = __ImageBytes__;
+            ____result.AbilityInfo = __AbilityInfo__;
+            ____result.Index = __Index__;
+            ____result.OnAfterDeserialize();
+            reader.Depth--;
+            return ____result;
+        }
+    }
+
+    public sealed class EnemyFormatter : global::MessagePack.Formatters.IMessagePackFormatter<global::Tech.DB.Enemy>
+    {
+
+
+        private readonly global::MessagePack.Internal.AutomataDictionary ____keyMapping;
+        private readonly byte[][] ____stringByteKeys;
+
+        public EnemyFormatter()
+        {
+            this.____keyMapping = new global::MessagePack.Internal.AutomataDictionary()
+            {
+                { "Name", 0 },
+                { "Index", 1 },
+                { "Description", 2 },
+                { "ImageBytes", 3 },
+                { "EnemyInfo", 4 },
+            };
+
+            this.____stringByteKeys = new byte[][]
+            {
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Name"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Index"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Description"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("ImageBytes"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("EnemyInfo"),
+            };
+        }
+
+        public void Serialize(ref MessagePackWriter writer, global::Tech.DB.Enemy value, global::MessagePack.MessagePackSerializerOptions options)
+        {
+            if (value == null)
+            {
+                writer.WriteNil();
+                return;
+            }
+
+            IFormatterResolver formatterResolver = options.Resolver;
+            value.OnBeforeSerialize();
+            writer.WriteMapHeader(5);
             writer.WriteRaw(this.____stringByteKeys[0]);
             formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.Name, options);
             writer.WriteRaw(this.____stringByteKeys[1]);
             writer.Write(value.Index);
             writer.WriteRaw(this.____stringByteKeys[2]);
             formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.Description, options);
+            writer.WriteRaw(this.____stringByteKeys[3]);
+            formatterResolver.GetFormatterWithVerify<byte[]>().Serialize(ref writer, value.ImageBytes, options);
+            writer.WriteRaw(this.____stringByteKeys[4]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.EnemyInfo>().Serialize(ref writer, value.EnemyInfo, options);
         }
 
-        public global::Tech.DB.Character Deserialize(ref MessagePackReader reader, global::MessagePack.MessagePackSerializerOptions options)
+        public global::Tech.DB.Enemy Deserialize(ref MessagePackReader reader, global::MessagePack.MessagePackSerializerOptions options)
         {
             if (reader.TryReadNil())
             {
@@ -2228,6 +3506,8 @@ namespace MessagePack.Formatters.Tech.DB
             var __Name__ = default(string);
             var __Index__ = default(int);
             var __Description__ = default(string);
+            var __ImageBytes__ = default(byte[]);
+            var __EnemyInfo__ = default(global::Tech.Data.DB.EnemyInfo);
 
             for (int i = 0; i < length; i++)
             {
@@ -2250,16 +3530,24 @@ namespace MessagePack.Formatters.Tech.DB
                     case 2:
                         __Description__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
                         break;
+                    case 3:
+                        __ImageBytes__ = formatterResolver.GetFormatterWithVerify<byte[]>().Deserialize(ref reader, options);
+                        break;
+                    case 4:
+                        __EnemyInfo__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.EnemyInfo>().Deserialize(ref reader, options);
+                        break;
                     default:
                         reader.Skip();
                         break;
                 }
             }
 
-            var ____result = new global::Tech.DB.Character();
+            var ____result = new global::Tech.DB.Enemy();
             ____result.Name = __Name__;
             ____result.Index = __Index__;
             ____result.Description = __Description__;
+            ____result.ImageBytes = __ImageBytes__;
+            ____result.EnemyInfo = __EnemyInfo__;
             ____result.OnAfterDeserialize();
             reader.Depth--;
             return ____result;
@@ -2278,25 +3566,19 @@ namespace MessagePack.Formatters.Tech.DB
             this.____keyMapping = new global::MessagePack.Internal.AutomataDictionary()
             {
                 { "Name", 0 },
-                { "Stat", 1 },
-                { "Description", 2 },
-                { "ImageBytes", 3 },
-                { "Level", 4 },
-                { "EquipmentType", 5 },
-                { "Index", 6 },
-                { "Rarity", 7 },
+                { "Description", 1 },
+                { "ImageBytes", 2 },
+                { "EquipmentInfo", 3 },
+                { "Index", 4 },
             };
 
             this.____stringByteKeys = new byte[][]
             {
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Name"),
-                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Stat"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Description"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("ImageBytes"),
-                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Level"),
-                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("EquipmentType"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("EquipmentInfo"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Index"),
-                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Rarity"),
             };
         }
 
@@ -2310,23 +3592,17 @@ namespace MessagePack.Formatters.Tech.DB
 
             IFormatterResolver formatterResolver = options.Resolver;
             value.OnBeforeSerialize();
-            writer.WriteMapHeader(8);
+            writer.WriteMapHeader(5);
             writer.WriteRaw(this.____stringByteKeys[0]);
             formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.Name, options);
             writer.WriteRaw(this.____stringByteKeys[1]);
-            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Stat>().Serialize(ref writer, value.Stat, options);
-            writer.WriteRaw(this.____stringByteKeys[2]);
             formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.Description, options);
-            writer.WriteRaw(this.____stringByteKeys[3]);
+            writer.WriteRaw(this.____stringByteKeys[2]);
             formatterResolver.GetFormatterWithVerify<byte[]>().Serialize(ref writer, value.ImageBytes, options);
+            writer.WriteRaw(this.____stringByteKeys[3]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.EquipmentInfo>().Serialize(ref writer, value.EquipmentInfo, options);
             writer.WriteRaw(this.____stringByteKeys[4]);
-            writer.Write(value.Level);
-            writer.WriteRaw(this.____stringByteKeys[5]);
-            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.EquipmentType>().Serialize(ref writer, value.EquipmentType, options);
-            writer.WriteRaw(this.____stringByteKeys[6]);
             writer.Write(value.Index);
-            writer.WriteRaw(this.____stringByteKeys[7]);
-            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Rarity>().Serialize(ref writer, value.Rarity, options);
         }
 
         public global::Tech.DB.Equipment Deserialize(ref MessagePackReader reader, global::MessagePack.MessagePackSerializerOptions options)
@@ -2340,13 +3616,10 @@ namespace MessagePack.Formatters.Tech.DB
             IFormatterResolver formatterResolver = options.Resolver;
             var length = reader.ReadMapHeader();
             var __Name__ = default(string);
-            var __Stat__ = default(global::Tech.Data.DB.Stat);
             var __Description__ = default(string);
             var __ImageBytes__ = default(byte[]);
-            var __Level__ = default(uint);
-            var __EquipmentType__ = default(global::Tech.Data.DB.EquipmentType);
+            var __EquipmentInfo__ = default(global::Tech.Data.DB.EquipmentInfo);
             var __Index__ = default(int);
-            var __Rarity__ = default(global::Tech.Data.DB.Rarity);
 
             for (int i = 0; i < length; i++)
             {
@@ -2364,25 +3637,16 @@ namespace MessagePack.Formatters.Tech.DB
                         __Name__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
                         break;
                     case 1:
-                        __Stat__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Stat>().Deserialize(ref reader, options);
-                        break;
-                    case 2:
                         __Description__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
                         break;
-                    case 3:
+                    case 2:
                         __ImageBytes__ = formatterResolver.GetFormatterWithVerify<byte[]>().Deserialize(ref reader, options);
                         break;
+                    case 3:
+                        __EquipmentInfo__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.EquipmentInfo>().Deserialize(ref reader, options);
+                        break;
                     case 4:
-                        __Level__ = reader.ReadUInt32();
-                        break;
-                    case 5:
-                        __EquipmentType__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.EquipmentType>().Deserialize(ref reader, options);
-                        break;
-                    case 6:
                         __Index__ = reader.ReadInt32();
-                        break;
-                    case 7:
-                        __Rarity__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Rarity>().Deserialize(ref reader, options);
                         break;
                     default:
                         reader.Skip();
@@ -2392,13 +3656,10 @@ namespace MessagePack.Formatters.Tech.DB
 
             var ____result = new global::Tech.DB.Equipment();
             ____result.Name = __Name__;
-            ____result.Stat = __Stat__;
             ____result.Description = __Description__;
             ____result.ImageBytes = __ImageBytes__;
-            ____result.Level = __Level__;
-            ____result.EquipmentType = __EquipmentType__;
+            ____result.EquipmentInfo = __EquipmentInfo__;
             ____result.Index = __Index__;
-            ____result.Rarity = __Rarity__;
             ____result.OnAfterDeserialize();
             reader.Depth--;
             return ____result;
@@ -2419,7 +3680,8 @@ namespace MessagePack.Formatters.Tech.DB
                 { "Name", 0 },
                 { "Description", 1 },
                 { "ImageBytes", 2 },
-                { "Index", 3 },
+                { "ItemInfo", 3 },
+                { "Index", 4 },
             };
 
             this.____stringByteKeys = new byte[][]
@@ -2427,6 +3689,7 @@ namespace MessagePack.Formatters.Tech.DB
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Name"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Description"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("ImageBytes"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("ItemInfo"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Index"),
             };
         }
@@ -2441,7 +3704,7 @@ namespace MessagePack.Formatters.Tech.DB
 
             IFormatterResolver formatterResolver = options.Resolver;
             value.OnBeforeSerialize();
-            writer.WriteMapHeader(4);
+            writer.WriteMapHeader(5);
             writer.WriteRaw(this.____stringByteKeys[0]);
             formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.Name, options);
             writer.WriteRaw(this.____stringByteKeys[1]);
@@ -2449,6 +3712,8 @@ namespace MessagePack.Formatters.Tech.DB
             writer.WriteRaw(this.____stringByteKeys[2]);
             formatterResolver.GetFormatterWithVerify<byte[]>().Serialize(ref writer, value.ImageBytes, options);
             writer.WriteRaw(this.____stringByteKeys[3]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.ItemInfo>().Serialize(ref writer, value.ItemInfo, options);
+            writer.WriteRaw(this.____stringByteKeys[4]);
             writer.Write(value.Index);
         }
 
@@ -2465,6 +3730,7 @@ namespace MessagePack.Formatters.Tech.DB
             var __Name__ = default(string);
             var __Description__ = default(string);
             var __ImageBytes__ = default(byte[]);
+            var __ItemInfo__ = default(global::Tech.Data.DB.ItemInfo);
             var __Index__ = default(int);
 
             for (int i = 0; i < length; i++)
@@ -2489,6 +3755,9 @@ namespace MessagePack.Formatters.Tech.DB
                         __ImageBytes__ = formatterResolver.GetFormatterWithVerify<byte[]>().Deserialize(ref reader, options);
                         break;
                     case 3:
+                        __ItemInfo__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.ItemInfo>().Deserialize(ref reader, options);
+                        break;
+                    case 4:
                         __Index__ = reader.ReadInt32();
                         break;
                     default:
@@ -2501,6 +3770,7 @@ namespace MessagePack.Formatters.Tech.DB
             ____result.Name = __Name__;
             ____result.Description = __Description__;
             ____result.ImageBytes = __ImageBytes__;
+            ____result.ItemInfo = __ItemInfo__;
             ____result.Index = __Index__;
             ____result.OnAfterDeserialize();
             reader.Depth--;
@@ -2522,7 +3792,7 @@ namespace MessagePack.Formatters.Tech.DB
                 { "Name", 0 },
                 { "Description", 1 },
                 { "ImageBytes", 2 },
-                { "Rarity", 3 },
+                { "MaterialInfo", 3 },
                 { "Index", 4 },
             };
 
@@ -2531,7 +3801,7 @@ namespace MessagePack.Formatters.Tech.DB
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Name"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Description"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("ImageBytes"),
-                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Rarity"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("MaterialInfo"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Index"),
             };
         }
@@ -2554,7 +3824,7 @@ namespace MessagePack.Formatters.Tech.DB
             writer.WriteRaw(this.____stringByteKeys[2]);
             formatterResolver.GetFormatterWithVerify<byte[]>().Serialize(ref writer, value.ImageBytes, options);
             writer.WriteRaw(this.____stringByteKeys[3]);
-            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Rarity>().Serialize(ref writer, value.Rarity, options);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.MaterialInfo>().Serialize(ref writer, value.MaterialInfo, options);
             writer.WriteRaw(this.____stringByteKeys[4]);
             writer.Write(value.Index);
         }
@@ -2572,7 +3842,7 @@ namespace MessagePack.Formatters.Tech.DB
             var __Name__ = default(string);
             var __Description__ = default(string);
             var __ImageBytes__ = default(byte[]);
-            var __Rarity__ = default(global::Tech.Data.DB.Rarity);
+            var __MaterialInfo__ = default(global::Tech.Data.DB.MaterialInfo);
             var __Index__ = default(int);
 
             for (int i = 0; i < length; i++)
@@ -2597,7 +3867,7 @@ namespace MessagePack.Formatters.Tech.DB
                         __ImageBytes__ = formatterResolver.GetFormatterWithVerify<byte[]>().Deserialize(ref reader, options);
                         break;
                     case 3:
-                        __Rarity__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Rarity>().Deserialize(ref reader, options);
+                        __MaterialInfo__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.MaterialInfo>().Deserialize(ref reader, options);
                         break;
                     case 4:
                         __Index__ = reader.ReadInt32();
@@ -2612,7 +3882,7 @@ namespace MessagePack.Formatters.Tech.DB
             ____result.Name = __Name__;
             ____result.Description = __Description__;
             ____result.ImageBytes = __ImageBytes__;
-            ____result.Rarity = __Rarity__;
+            ____result.MaterialInfo = __MaterialInfo__;
             ____result.Index = __Index__;
             ____result.OnAfterDeserialize();
             reader.Depth--;
@@ -2632,15 +3902,21 @@ namespace MessagePack.Formatters.Tech.DB
             this.____keyMapping = new global::MessagePack.Internal.AutomataDictionary()
             {
                 { "Name", 0 },
-                { "Index", 1 },
-                { "ImageBytes", 2 },
+                { "Description", 1 },
+                { "SkillDescription", 2 },
+                { "ImageBytes", 3 },
+                { "SkillInfo", 4 },
+                { "Index", 5 },
             };
 
             this.____stringByteKeys = new byte[][]
             {
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Name"),
-                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Index"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Description"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("SkillDescription"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("ImageBytes"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("SkillInfo"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Index"),
             };
         }
 
@@ -2654,13 +3930,19 @@ namespace MessagePack.Formatters.Tech.DB
 
             IFormatterResolver formatterResolver = options.Resolver;
             value.OnBeforeSerialize();
-            writer.WriteMapHeader(3);
+            writer.WriteMapHeader(6);
             writer.WriteRaw(this.____stringByteKeys[0]);
             formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.Name, options);
             writer.WriteRaw(this.____stringByteKeys[1]);
-            writer.Write(value.Index);
+            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.Description, options);
             writer.WriteRaw(this.____stringByteKeys[2]);
+            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.SkillDescription, options);
+            writer.WriteRaw(this.____stringByteKeys[3]);
             formatterResolver.GetFormatterWithVerify<byte[]>().Serialize(ref writer, value.ImageBytes, options);
+            writer.WriteRaw(this.____stringByteKeys[4]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.SkillInfo>().Serialize(ref writer, value.SkillInfo, options);
+            writer.WriteRaw(this.____stringByteKeys[5]);
+            writer.Write(value.Index);
         }
 
         public global::Tech.DB.Skill Deserialize(ref MessagePackReader reader, global::MessagePack.MessagePackSerializerOptions options)
@@ -2674,8 +3956,127 @@ namespace MessagePack.Formatters.Tech.DB
             IFormatterResolver formatterResolver = options.Resolver;
             var length = reader.ReadMapHeader();
             var __Name__ = default(string);
-            var __Index__ = default(int);
+            var __Description__ = default(string);
+            var __SkillDescription__ = default(string);
             var __ImageBytes__ = default(byte[]);
+            var __SkillInfo__ = default(global::Tech.Data.DB.SkillInfo);
+            var __Index__ = default(int);
+
+            for (int i = 0; i < length; i++)
+            {
+                ReadOnlySpan<byte> stringKey = global::MessagePack.Internal.CodeGenHelpers.ReadStringSpan(ref reader);
+                int key;
+                if (!this.____keyMapping.TryGetValue(stringKey, out key))
+                {
+                    reader.Skip();
+                    continue;
+                }
+
+                switch (key)
+                {
+                    case 0:
+                        __Name__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
+                        break;
+                    case 1:
+                        __Description__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
+                        break;
+                    case 2:
+                        __SkillDescription__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
+                        break;
+                    case 3:
+                        __ImageBytes__ = formatterResolver.GetFormatterWithVerify<byte[]>().Deserialize(ref reader, options);
+                        break;
+                    case 4:
+                        __SkillInfo__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.SkillInfo>().Deserialize(ref reader, options);
+                        break;
+                    case 5:
+                        __Index__ = reader.ReadInt32();
+                        break;
+                    default:
+                        reader.Skip();
+                        break;
+                }
+            }
+
+            var ____result = new global::Tech.DB.Skill();
+            ____result.Name = __Name__;
+            ____result.Description = __Description__;
+            ____result.SkillDescription = __SkillDescription__;
+            ____result.ImageBytes = __ImageBytes__;
+            ____result.SkillInfo = __SkillInfo__;
+            ____result.Index = __Index__;
+            ____result.OnAfterDeserialize();
+            reader.Depth--;
+            return ____result;
+        }
+    }
+
+    public sealed class UnitFormatter : global::MessagePack.Formatters.IMessagePackFormatter<global::Tech.DB.Unit>
+    {
+
+
+        private readonly global::MessagePack.Internal.AutomataDictionary ____keyMapping;
+        private readonly byte[][] ____stringByteKeys;
+
+        public UnitFormatter()
+        {
+            this.____keyMapping = new global::MessagePack.Internal.AutomataDictionary()
+            {
+                { "Name", 0 },
+                { "Index", 1 },
+                { "Description", 2 },
+                { "ImageBytes", 3 },
+                { "CharacterInfo", 4 },
+            };
+
+            this.____stringByteKeys = new byte[][]
+            {
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Name"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Index"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Description"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("ImageBytes"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("CharacterInfo"),
+            };
+        }
+
+        public void Serialize(ref MessagePackWriter writer, global::Tech.DB.Unit value, global::MessagePack.MessagePackSerializerOptions options)
+        {
+            if (value == null)
+            {
+                writer.WriteNil();
+                return;
+            }
+
+            IFormatterResolver formatterResolver = options.Resolver;
+            value.OnBeforeSerialize();
+            writer.WriteMapHeader(5);
+            writer.WriteRaw(this.____stringByteKeys[0]);
+            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.Name, options);
+            writer.WriteRaw(this.____stringByteKeys[1]);
+            writer.Write(value.Index);
+            writer.WriteRaw(this.____stringByteKeys[2]);
+            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.Description, options);
+            writer.WriteRaw(this.____stringByteKeys[3]);
+            formatterResolver.GetFormatterWithVerify<byte[]>().Serialize(ref writer, value.ImageBytes, options);
+            writer.WriteRaw(this.____stringByteKeys[4]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.UnitInfo>().Serialize(ref writer, value.CharacterInfo, options);
+        }
+
+        public global::Tech.DB.Unit Deserialize(ref MessagePackReader reader, global::MessagePack.MessagePackSerializerOptions options)
+        {
+            if (reader.TryReadNil())
+            {
+                return null;
+            }
+
+            options.Security.DepthStep(ref reader);
+            IFormatterResolver formatterResolver = options.Resolver;
+            var length = reader.ReadMapHeader();
+            var __Name__ = default(string);
+            var __Index__ = default(int);
+            var __Description__ = default(string);
+            var __ImageBytes__ = default(byte[]);
+            var __CharacterInfo__ = default(global::Tech.Data.DB.UnitInfo);
 
             for (int i = 0; i < length; i++)
             {
@@ -2696,7 +4097,13 @@ namespace MessagePack.Formatters.Tech.DB
                         __Index__ = reader.ReadInt32();
                         break;
                     case 2:
+                        __Description__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
+                        break;
+                    case 3:
                         __ImageBytes__ = formatterResolver.GetFormatterWithVerify<byte[]>().Deserialize(ref reader, options);
+                        break;
+                    case 4:
+                        __CharacterInfo__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.UnitInfo>().Deserialize(ref reader, options);
                         break;
                     default:
                         reader.Skip();
@@ -2704,10 +4111,12 @@ namespace MessagePack.Formatters.Tech.DB
                 }
             }
 
-            var ____result = new global::Tech.DB.Skill();
+            var ____result = new global::Tech.DB.Unit();
             ____result.Name = __Name__;
             ____result.Index = __Index__;
+            ____result.Description = __Description__;
             ____result.ImageBytes = __ImageBytes__;
+            ____result.CharacterInfo = __CharacterInfo__;
             ____result.OnAfterDeserialize();
             reader.Depth--;
             return ____result;
@@ -2729,10 +4138,8 @@ namespace MessagePack.Formatters.Tech.DB
                 { "Stat", 1 },
                 { "Description", 2 },
                 { "ImageBytes", 3 },
-                { "Level", 4 },
-                { "WeaponType", 5 },
-                { "Index", 6 },
-                { "Rarity", 7 },
+                { "WeaponInfo", 4 },
+                { "Index", 5 },
             };
 
             this.____stringByteKeys = new byte[][]
@@ -2741,10 +4148,8 @@ namespace MessagePack.Formatters.Tech.DB
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Stat"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Description"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("ImageBytes"),
-                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Level"),
-                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("WeaponType"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("WeaponInfo"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Index"),
-                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Rarity"),
             };
         }
 
@@ -2758,7 +4163,7 @@ namespace MessagePack.Formatters.Tech.DB
 
             IFormatterResolver formatterResolver = options.Resolver;
             value.OnBeforeSerialize();
-            writer.WriteMapHeader(8);
+            writer.WriteMapHeader(6);
             writer.WriteRaw(this.____stringByteKeys[0]);
             formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.Name, options);
             writer.WriteRaw(this.____stringByteKeys[1]);
@@ -2768,13 +4173,9 @@ namespace MessagePack.Formatters.Tech.DB
             writer.WriteRaw(this.____stringByteKeys[3]);
             formatterResolver.GetFormatterWithVerify<byte[]>().Serialize(ref writer, value.ImageBytes, options);
             writer.WriteRaw(this.____stringByteKeys[4]);
-            writer.Write(value.Level);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.WeaponInfo>().Serialize(ref writer, value.WeaponInfo, options);
             writer.WriteRaw(this.____stringByteKeys[5]);
-            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.WeaponType>().Serialize(ref writer, value.WeaponType, options);
-            writer.WriteRaw(this.____stringByteKeys[6]);
             writer.Write(value.Index);
-            writer.WriteRaw(this.____stringByteKeys[7]);
-            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Rarity>().Serialize(ref writer, value.Rarity, options);
         }
 
         public global::Tech.DB.Weapon Deserialize(ref MessagePackReader reader, global::MessagePack.MessagePackSerializerOptions options)
@@ -2791,10 +4192,8 @@ namespace MessagePack.Formatters.Tech.DB
             var __Stat__ = default(global::Tech.Data.DB.Stat);
             var __Description__ = default(string);
             var __ImageBytes__ = default(byte[]);
-            var __Level__ = default(uint);
-            var __WeaponType__ = default(global::Tech.Data.DB.WeaponType);
+            var __WeaponInfo__ = default(global::Tech.Data.DB.WeaponInfo);
             var __Index__ = default(int);
-            var __Rarity__ = default(global::Tech.Data.DB.Rarity);
 
             for (int i = 0; i < length; i++)
             {
@@ -2821,16 +4220,10 @@ namespace MessagePack.Formatters.Tech.DB
                         __ImageBytes__ = formatterResolver.GetFormatterWithVerify<byte[]>().Deserialize(ref reader, options);
                         break;
                     case 4:
-                        __Level__ = reader.ReadUInt32();
+                        __WeaponInfo__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.WeaponInfo>().Deserialize(ref reader, options);
                         break;
                     case 5:
-                        __WeaponType__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.WeaponType>().Deserialize(ref reader, options);
-                        break;
-                    case 6:
                         __Index__ = reader.ReadInt32();
-                        break;
-                    case 7:
-                        __Rarity__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Rarity>().Deserialize(ref reader, options);
                         break;
                     default:
                         reader.Skip();
@@ -2843,10 +4236,8 @@ namespace MessagePack.Formatters.Tech.DB
             ____result.Stat = __Stat__;
             ____result.Description = __Description__;
             ____result.ImageBytes = __ImageBytes__;
-            ____result.Level = __Level__;
-            ____result.WeaponType = __WeaponType__;
+            ____result.WeaponInfo = __WeaponInfo__;
             ____result.Index = __Index__;
-            ____result.Rarity = __Rarity__;
             ____result.OnAfterDeserialize();
             reader.Depth--;
             return ____result;

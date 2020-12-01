@@ -25,48 +25,107 @@ namespace MasterData
             return memory;
         }
 
-        public void ReplaceAll(System.Collections.Generic.IList<Character> data)
+        public void ReplaceAll(System.Collections.Generic.IList<Ability> data)
         {
             var newData = CloneAndSortBy(data, x => x.Name, System.StringComparer.Ordinal);
-            var table = new CharacterTable(newData);
+            var table = new AbilityTable(newData);
             memory = new MemoryDatabase(
                 table,
+                memory.EnemyTable,
                 memory.EquipmentTable,
                 memory.ItemTable,
                 memory.MaterialTable,
                 memory.SkillTable,
+                memory.UnitTable,
                 memory.WeaponTable
             
             );
         }
 
-        public void RemoveCharacter(string[] keys)
+        public void RemoveAbility(string[] keys)
         {
-            var data = RemoveCore(memory.CharacterTable.GetRawDataUnsafe(), keys, x => x.Name, System.StringComparer.Ordinal);
+            var data = RemoveCore(memory.AbilityTable.GetRawDataUnsafe(), keys, x => x.Name, System.StringComparer.Ordinal);
             var newData = CloneAndSortBy(data, x => x.Name, System.StringComparer.Ordinal);
-            var table = new CharacterTable(newData);
+            var table = new AbilityTable(newData);
             memory = new MemoryDatabase(
                 table,
+                memory.EnemyTable,
                 memory.EquipmentTable,
                 memory.ItemTable,
                 memory.MaterialTable,
                 memory.SkillTable,
+                memory.UnitTable,
                 memory.WeaponTable
             
             );
         }
 
-        public void Diff(Character[] addOrReplaceData)
+        public void Diff(Ability[] addOrReplaceData)
         {
-            var data = DiffCore(memory.CharacterTable.GetRawDataUnsafe(), addOrReplaceData, x => x.Name, System.StringComparer.Ordinal);
+            var data = DiffCore(memory.AbilityTable.GetRawDataUnsafe(), addOrReplaceData, x => x.Name, System.StringComparer.Ordinal);
             var newData = CloneAndSortBy(data, x => x.Name, System.StringComparer.Ordinal);
-            var table = new CharacterTable(newData);
+            var table = new AbilityTable(newData);
             memory = new MemoryDatabase(
+                table,
+                memory.EnemyTable,
+                memory.EquipmentTable,
+                memory.ItemTable,
+                memory.MaterialTable,
+                memory.SkillTable,
+                memory.UnitTable,
+                memory.WeaponTable
+            
+            );
+        }
+
+        public void ReplaceAll(System.Collections.Generic.IList<Enemy> data)
+        {
+            var newData = CloneAndSortBy(data, x => x.Name, System.StringComparer.Ordinal);
+            var table = new EnemyTable(newData);
+            memory = new MemoryDatabase(
+                memory.AbilityTable,
                 table,
                 memory.EquipmentTable,
                 memory.ItemTable,
                 memory.MaterialTable,
                 memory.SkillTable,
+                memory.UnitTable,
+                memory.WeaponTable
+            
+            );
+        }
+
+        public void RemoveEnemy(string[] keys)
+        {
+            var data = RemoveCore(memory.EnemyTable.GetRawDataUnsafe(), keys, x => x.Name, System.StringComparer.Ordinal);
+            var newData = CloneAndSortBy(data, x => x.Name, System.StringComparer.Ordinal);
+            var table = new EnemyTable(newData);
+            memory = new MemoryDatabase(
+                memory.AbilityTable,
+                table,
+                memory.EquipmentTable,
+                memory.ItemTable,
+                memory.MaterialTable,
+                memory.SkillTable,
+                memory.UnitTable,
+                memory.WeaponTable
+            
+            );
+        }
+
+        public void Diff(Enemy[] addOrReplaceData)
+        {
+            var data = DiffCore(memory.EnemyTable.GetRawDataUnsafe(), addOrReplaceData, x => x.Name, System.StringComparer.Ordinal);
+            var newData = CloneAndSortBy(data, x => x.Name, System.StringComparer.Ordinal);
+            var table = new EnemyTable(newData);
+            memory = new MemoryDatabase(
+                memory.AbilityTable,
+                table,
+                memory.EquipmentTable,
+                memory.ItemTable,
+                memory.MaterialTable,
+                memory.SkillTable,
+                memory.UnitTable,
                 memory.WeaponTable
             
             );
@@ -77,11 +136,13 @@ namespace MasterData
             var newData = CloneAndSortBy(data, x => x.Name, System.StringComparer.Ordinal);
             var table = new EquipmentTable(newData);
             memory = new MemoryDatabase(
-                memory.CharacterTable,
+                memory.AbilityTable,
+                memory.EnemyTable,
                 table,
                 memory.ItemTable,
                 memory.MaterialTable,
                 memory.SkillTable,
+                memory.UnitTable,
                 memory.WeaponTable
             
             );
@@ -93,11 +154,13 @@ namespace MasterData
             var newData = CloneAndSortBy(data, x => x.Name, System.StringComparer.Ordinal);
             var table = new EquipmentTable(newData);
             memory = new MemoryDatabase(
-                memory.CharacterTable,
+                memory.AbilityTable,
+                memory.EnemyTable,
                 table,
                 memory.ItemTable,
                 memory.MaterialTable,
                 memory.SkillTable,
+                memory.UnitTable,
                 memory.WeaponTable
             
             );
@@ -109,11 +172,13 @@ namespace MasterData
             var newData = CloneAndSortBy(data, x => x.Name, System.StringComparer.Ordinal);
             var table = new EquipmentTable(newData);
             memory = new MemoryDatabase(
-                memory.CharacterTable,
+                memory.AbilityTable,
+                memory.EnemyTable,
                 table,
                 memory.ItemTable,
                 memory.MaterialTable,
                 memory.SkillTable,
+                memory.UnitTable,
                 memory.WeaponTable
             
             );
@@ -124,11 +189,13 @@ namespace MasterData
             var newData = CloneAndSortBy(data, x => x.Name, System.StringComparer.Ordinal);
             var table = new ItemTable(newData);
             memory = new MemoryDatabase(
-                memory.CharacterTable,
+                memory.AbilityTable,
+                memory.EnemyTable,
                 memory.EquipmentTable,
                 table,
                 memory.MaterialTable,
                 memory.SkillTable,
+                memory.UnitTable,
                 memory.WeaponTable
             
             );
@@ -140,11 +207,13 @@ namespace MasterData
             var newData = CloneAndSortBy(data, x => x.Name, System.StringComparer.Ordinal);
             var table = new ItemTable(newData);
             memory = new MemoryDatabase(
-                memory.CharacterTable,
+                memory.AbilityTable,
+                memory.EnemyTable,
                 memory.EquipmentTable,
                 table,
                 memory.MaterialTable,
                 memory.SkillTable,
+                memory.UnitTable,
                 memory.WeaponTable
             
             );
@@ -156,11 +225,13 @@ namespace MasterData
             var newData = CloneAndSortBy(data, x => x.Name, System.StringComparer.Ordinal);
             var table = new ItemTable(newData);
             memory = new MemoryDatabase(
-                memory.CharacterTable,
+                memory.AbilityTable,
+                memory.EnemyTable,
                 memory.EquipmentTable,
                 table,
                 memory.MaterialTable,
                 memory.SkillTable,
+                memory.UnitTable,
                 memory.WeaponTable
             
             );
@@ -171,11 +242,13 @@ namespace MasterData
             var newData = CloneAndSortBy(data, x => x.Name, System.StringComparer.Ordinal);
             var table = new MaterialTable(newData);
             memory = new MemoryDatabase(
-                memory.CharacterTable,
+                memory.AbilityTable,
+                memory.EnemyTable,
                 memory.EquipmentTable,
                 memory.ItemTable,
                 table,
                 memory.SkillTable,
+                memory.UnitTable,
                 memory.WeaponTable
             
             );
@@ -187,11 +260,13 @@ namespace MasterData
             var newData = CloneAndSortBy(data, x => x.Name, System.StringComparer.Ordinal);
             var table = new MaterialTable(newData);
             memory = new MemoryDatabase(
-                memory.CharacterTable,
+                memory.AbilityTable,
+                memory.EnemyTable,
                 memory.EquipmentTable,
                 memory.ItemTable,
                 table,
                 memory.SkillTable,
+                memory.UnitTable,
                 memory.WeaponTable
             
             );
@@ -203,11 +278,13 @@ namespace MasterData
             var newData = CloneAndSortBy(data, x => x.Name, System.StringComparer.Ordinal);
             var table = new MaterialTable(newData);
             memory = new MemoryDatabase(
-                memory.CharacterTable,
+                memory.AbilityTable,
+                memory.EnemyTable,
                 memory.EquipmentTable,
                 memory.ItemTable,
                 table,
                 memory.SkillTable,
+                memory.UnitTable,
                 memory.WeaponTable
             
             );
@@ -218,11 +295,13 @@ namespace MasterData
             var newData = CloneAndSortBy(data, x => x.Name, System.StringComparer.Ordinal);
             var table = new SkillTable(newData);
             memory = new MemoryDatabase(
-                memory.CharacterTable,
+                memory.AbilityTable,
+                memory.EnemyTable,
                 memory.EquipmentTable,
                 memory.ItemTable,
                 memory.MaterialTable,
                 table,
+                memory.UnitTable,
                 memory.WeaponTable
             
             );
@@ -234,11 +313,13 @@ namespace MasterData
             var newData = CloneAndSortBy(data, x => x.Name, System.StringComparer.Ordinal);
             var table = new SkillTable(newData);
             memory = new MemoryDatabase(
-                memory.CharacterTable,
+                memory.AbilityTable,
+                memory.EnemyTable,
                 memory.EquipmentTable,
                 memory.ItemTable,
                 memory.MaterialTable,
                 table,
+                memory.UnitTable,
                 memory.WeaponTable
             
             );
@@ -250,10 +331,65 @@ namespace MasterData
             var newData = CloneAndSortBy(data, x => x.Name, System.StringComparer.Ordinal);
             var table = new SkillTable(newData);
             memory = new MemoryDatabase(
-                memory.CharacterTable,
+                memory.AbilityTable,
+                memory.EnemyTable,
                 memory.EquipmentTable,
                 memory.ItemTable,
                 memory.MaterialTable,
+                table,
+                memory.UnitTable,
+                memory.WeaponTable
+            
+            );
+        }
+
+        public void ReplaceAll(System.Collections.Generic.IList<Unit> data)
+        {
+            var newData = CloneAndSortBy(data, x => x.Name, System.StringComparer.Ordinal);
+            var table = new UnitTable(newData);
+            memory = new MemoryDatabase(
+                memory.AbilityTable,
+                memory.EnemyTable,
+                memory.EquipmentTable,
+                memory.ItemTable,
+                memory.MaterialTable,
+                memory.SkillTable,
+                table,
+                memory.WeaponTable
+            
+            );
+        }
+
+        public void RemoveUnit(string[] keys)
+        {
+            var data = RemoveCore(memory.UnitTable.GetRawDataUnsafe(), keys, x => x.Name, System.StringComparer.Ordinal);
+            var newData = CloneAndSortBy(data, x => x.Name, System.StringComparer.Ordinal);
+            var table = new UnitTable(newData);
+            memory = new MemoryDatabase(
+                memory.AbilityTable,
+                memory.EnemyTable,
+                memory.EquipmentTable,
+                memory.ItemTable,
+                memory.MaterialTable,
+                memory.SkillTable,
+                table,
+                memory.WeaponTable
+            
+            );
+        }
+
+        public void Diff(Unit[] addOrReplaceData)
+        {
+            var data = DiffCore(memory.UnitTable.GetRawDataUnsafe(), addOrReplaceData, x => x.Name, System.StringComparer.Ordinal);
+            var newData = CloneAndSortBy(data, x => x.Name, System.StringComparer.Ordinal);
+            var table = new UnitTable(newData);
+            memory = new MemoryDatabase(
+                memory.AbilityTable,
+                memory.EnemyTable,
+                memory.EquipmentTable,
+                memory.ItemTable,
+                memory.MaterialTable,
+                memory.SkillTable,
                 table,
                 memory.WeaponTable
             
@@ -265,11 +401,13 @@ namespace MasterData
             var newData = CloneAndSortBy(data, x => x.Name, System.StringComparer.Ordinal);
             var table = new WeaponTable(newData);
             memory = new MemoryDatabase(
-                memory.CharacterTable,
+                memory.AbilityTable,
+                memory.EnemyTable,
                 memory.EquipmentTable,
                 memory.ItemTable,
                 memory.MaterialTable,
                 memory.SkillTable,
+                memory.UnitTable,
                 table
             
             );
@@ -281,11 +419,13 @@ namespace MasterData
             var newData = CloneAndSortBy(data, x => x.Name, System.StringComparer.Ordinal);
             var table = new WeaponTable(newData);
             memory = new MemoryDatabase(
-                memory.CharacterTable,
+                memory.AbilityTable,
+                memory.EnemyTable,
                 memory.EquipmentTable,
                 memory.ItemTable,
                 memory.MaterialTable,
                 memory.SkillTable,
+                memory.UnitTable,
                 table
             
             );
@@ -297,11 +437,13 @@ namespace MasterData
             var newData = CloneAndSortBy(data, x => x.Name, System.StringComparer.Ordinal);
             var table = new WeaponTable(newData);
             memory = new MemoryDatabase(
-                memory.CharacterTable,
+                memory.AbilityTable,
+                memory.EnemyTable,
                 memory.EquipmentTable,
                 memory.ItemTable,
                 memory.MaterialTable,
                 memory.SkillTable,
+                memory.UnitTable,
                 table
             
             );

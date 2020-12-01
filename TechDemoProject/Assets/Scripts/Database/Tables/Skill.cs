@@ -1,6 +1,7 @@
 using System;
 using MasterMemory;
 using MessagePack;
+using Tech.Data.DB;
 
 namespace Tech.DB
 {
@@ -9,11 +10,18 @@ namespace Tech.DB
     public class Skill : IMessagePackSerializationCallbackReceiver
     {
         //attributes
-        public byte[] ImageBytes;
         [IgnoreMember] public Ulid Id { get; set; }
-
+    
         [PrimaryKey] public string Name { get; set; }
 
+        public string Description { get; set; }
+        
+        public string SkillDescription { get; set; }
+        
+        public byte[] ImageBytes { get; set; }
+
+        public SkillInfo SkillInfo { get; set; }
+        
         [SecondaryKey(0)] public int Index { get; set; }
 
         public void OnBeforeSerialize()

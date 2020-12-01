@@ -13,20 +13,15 @@ namespace Tech.DB
         [IgnoreMember] public Ulid Id { get; set; }
 
         [PrimaryKey] public string Name { get; set; }
-
-        [NonUnique] public Stat Stat { get; set; }
-
+        
         public string Description { get; set; }
 
         public byte[] ImageBytes { get; set; }
-
-        [SecondaryKey(0)] [NonUnique] public uint Level { get; set; }
-
-        [SecondaryKey(1)] [NonUnique] public EquipmentType EquipmentType { get; set; }
-
+        
+        public EquipmentInfo EquipmentInfo { get; set; }
+        
         [SecondaryKey(2)] public int Index { get; set; }
 
-        [NonUnique] public Rarity Rarity { get; set; }
 
         //stats // done
         //name //done

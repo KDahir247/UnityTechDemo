@@ -15,10 +15,6 @@ namespace MasterData.Tables
         public Func<Equipment, string> PrimaryKeySelector => primaryIndexSelector;
         readonly Func<Equipment, string> primaryIndexSelector;
 
-        readonly Equipment[] secondaryIndex0;
-        readonly Func<Equipment, uint> secondaryIndex0Selector;
-        readonly Equipment[] secondaryIndex1;
-        readonly Func<Equipment, EquipmentType> secondaryIndex1Selector;
         readonly Equipment[] secondaryIndex2;
         readonly Func<Equipment, int> secondaryIndex2Selector;
 
@@ -26,10 +22,6 @@ namespace MasterData.Tables
             : base(sortedData)
         {
             this.primaryIndexSelector = x => x.Name;
-            this.secondaryIndex0Selector = x => x.Level;
-            this.secondaryIndex0 = CloneAndSortBy(this.secondaryIndex0Selector, System.Collections.Generic.Comparer<uint>.Default);
-            this.secondaryIndex1Selector = x => x.EquipmentType;
-            this.secondaryIndex1 = CloneAndSortBy(this.secondaryIndex1Selector, System.Collections.Generic.Comparer<EquipmentType>.Default);
             this.secondaryIndex2Selector = x => x.Index;
             this.secondaryIndex2 = CloneAndSortBy(this.secondaryIndex2Selector, System.Collections.Generic.Comparer<int>.Default);
             OnAfterConstruct();
@@ -37,8 +29,6 @@ namespace MasterData.Tables
 
         partial void OnAfterConstruct();
 
-        public RangeView<Equipment> SortByLevel => new RangeView<Equipment>(secondaryIndex0, 0, secondaryIndex0.Length - 1, true);
-        public RangeView<Equipment> SortByEquipmentType => new RangeView<Equipment>(secondaryIndex1, 0, secondaryIndex1.Length - 1, true);
         public RangeView<Equipment> SortByIndex => new RangeView<Equipment>(secondaryIndex2, 0, secondaryIndex2.Length - 1, true);
 
         public Equipment FindByName(string key)
@@ -59,46 +49,6 @@ namespace MasterData.Tables
         public RangeView<Equipment> FindRangeByName(string min, string max, bool ascendant = true)
         {
             return FindUniqueRangeCore(data, primaryIndexSelector, System.StringComparer.Ordinal, min, max, ascendant);
-        }
-
-        public Equipment FindByLevel(uint key)
-        {
-            return FindUniqueCore(secondaryIndex0, secondaryIndex0Selector, System.Collections.Generic.Comparer<uint>.Default, key, false);
-        }
-        
-        public bool TryFindByLevel(uint key, out Equipment result)
-        {
-            return TryFindUniqueCore(secondaryIndex0, secondaryIndex0Selector, System.Collections.Generic.Comparer<uint>.Default, key, out result);
-        }
-
-        public Equipment FindClosestByLevel(uint key, bool selectLower = true)
-        {
-            return FindUniqueClosestCore(secondaryIndex0, secondaryIndex0Selector, System.Collections.Generic.Comparer<uint>.Default, key, selectLower);
-        }
-
-        public RangeView<Equipment> FindRangeByLevel(uint min, uint max, bool ascendant = true)
-        {
-            return FindUniqueRangeCore(secondaryIndex0, secondaryIndex0Selector, System.Collections.Generic.Comparer<uint>.Default, min, max, ascendant);
-        }
-
-        public Equipment FindByEquipmentType(EquipmentType key)
-        {
-            return FindUniqueCore(secondaryIndex1, secondaryIndex1Selector, System.Collections.Generic.Comparer<EquipmentType>.Default, key, false);
-        }
-        
-        public bool TryFindByEquipmentType(EquipmentType key, out Equipment result)
-        {
-            return TryFindUniqueCore(secondaryIndex1, secondaryIndex1Selector, System.Collections.Generic.Comparer<EquipmentType>.Default, key, out result);
-        }
-
-        public Equipment FindClosestByEquipmentType(EquipmentType key, bool selectLower = true)
-        {
-            return FindUniqueClosestCore(secondaryIndex1, secondaryIndex1Selector, System.Collections.Generic.Comparer<EquipmentType>.Default, key, selectLower);
-        }
-
-        public RangeView<Equipment> FindRangeByEquipmentType(EquipmentType min, EquipmentType max, bool ascendant = true)
-        {
-            return FindUniqueRangeCore(secondaryIndex1, secondaryIndex1Selector, System.Collections.Generic.Comparer<EquipmentType>.Default, min, max, ascendant);
         }
 
         public Equipment FindByIndex(int key)
@@ -125,8 +75,6 @@ namespace MasterData.Tables
         void ITableUniqueValidate.ValidateUnique(ValidateResult resultSet)
         {
             ValidateUniqueCore(data, primaryIndexSelector, "Name", resultSet);       
-            ValidateUniqueCore(secondaryIndex0, secondaryIndex0Selector, "Level", resultSet);       
-            ValidateUniqueCore(secondaryIndex1, secondaryIndex1Selector, "EquipmentType", resultSet);       
             ValidateUniqueCore(secondaryIndex2, secondaryIndex2Selector, "Index", resultSet);       
         }
 
@@ -136,24 +84,15 @@ namespace MasterData.Tables
                 new MasterMemory.Meta.MetaProperty[]
                 {
                     new MasterMemory.Meta.MetaProperty(typeof(Equipment).GetProperty("Name")),
-                    new MasterMemory.Meta.MetaProperty(typeof(Equipment).GetProperty("Stat")),
                     new MasterMemory.Meta.MetaProperty(typeof(Equipment).GetProperty("Description")),
                     new MasterMemory.Meta.MetaProperty(typeof(Equipment).GetProperty("ImageBytes")),
-                    new MasterMemory.Meta.MetaProperty(typeof(Equipment).GetProperty("Level")),
-                    new MasterMemory.Meta.MetaProperty(typeof(Equipment).GetProperty("EquipmentType")),
+                    new MasterMemory.Meta.MetaProperty(typeof(Equipment).GetProperty("EquipmentInfo")),
                     new MasterMemory.Meta.MetaProperty(typeof(Equipment).GetProperty("Index")),
-                    new MasterMemory.Meta.MetaProperty(typeof(Equipment).GetProperty("Rarity")),
                 },
                 new MasterMemory.Meta.MetaIndex[]{
                     new MasterMemory.Meta.MetaIndex(new System.Reflection.PropertyInfo[] {
                         typeof(Equipment).GetProperty("Name"),
                     }, true, true, System.StringComparer.Ordinal),
-                    new MasterMemory.Meta.MetaIndex(new System.Reflection.PropertyInfo[] {
-                        typeof(Equipment).GetProperty("Level"),
-                    }, false, true, System.Collections.Generic.Comparer<uint>.Default),
-                    new MasterMemory.Meta.MetaIndex(new System.Reflection.PropertyInfo[] {
-                        typeof(Equipment).GetProperty("EquipmentType"),
-                    }, false, true, System.Collections.Generic.Comparer<EquipmentType>.Default),
                     new MasterMemory.Meta.MetaIndex(new System.Reflection.PropertyInfo[] {
                         typeof(Equipment).GetProperty("Index"),
                     }, false, true, System.Collections.Generic.Comparer<int>.Default),

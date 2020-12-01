@@ -8,14 +8,12 @@ namespace Tech.Data.DB
     [MessagePackObject(true)]
     public struct Stat
     {
-        [FormerlySerializedAs("Health")] public uint health;
-        [FormerlySerializedAs("Attack")] public uint attack;
-        [FormerlySerializedAs("Defence")] public uint defence;
-
-        [FormerlySerializedAs("Manapoint")] public uint manapoint;
-        [FormerlySerializedAs("Magic")] public uint magic;
-        [FormerlySerializedAs("Spirit")] public uint spirit;
-
-        [FormerlySerializedAs("Speed")] public uint speed;
+        public uint Health { get; set; }
+        public uint Attack { get; set; }
+        public uint Defence { get; set; }
+        public uint Manapoint { get; set; }
+        public uint Magic { get; set; }
+        public uint Spirit { get; set; }
+        public uint Speed { get; set; }
     }
 }

@@ -16,7 +16,13 @@ namespace MasterData
         public DatabaseBuilder() : this(null) { }
         public DatabaseBuilder(MessagePack.IFormatterResolver resolver) : base(resolver) { }
 
-        public DatabaseBuilder Append(System.Collections.Generic.IEnumerable<Character> dataSource)
+        public DatabaseBuilder Append(System.Collections.Generic.IEnumerable<Ability> dataSource)
+        {
+            AppendCore(dataSource, x => x.Name, System.StringComparer.Ordinal);
+            return this;
+        }
+
+        public DatabaseBuilder Append(System.Collections.Generic.IEnumerable<Enemy> dataSource)
         {
             AppendCore(dataSource, x => x.Name, System.StringComparer.Ordinal);
             return this;
@@ -41,6 +47,12 @@ namespace MasterData
         }
 
         public DatabaseBuilder Append(System.Collections.Generic.IEnumerable<Skill> dataSource)
+        {
+            AppendCore(dataSource, x => x.Name, System.StringComparer.Ordinal);
+            return this;
+        }
+
+        public DatabaseBuilder Append(System.Collections.Generic.IEnumerable<Unit> dataSource)
         {
             AppendCore(dataSource, x => x.Name, System.StringComparer.Ordinal);
             return this;

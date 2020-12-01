@@ -46,14 +46,16 @@ namespace MasterData
 
         static MasterMemoryResolverGetFormatterHelper()
         {
-            lookup = new global::System.Collections.Generic.Dictionary<Type, int>(6)
+            lookup = new global::System.Collections.Generic.Dictionary<Type, int>(8)
             {
-                {typeof(Character[]), 0 },
-                {typeof(Equipment[]), 1 },
-                {typeof(Item[]), 2 },
-                {typeof(Material[]), 3 },
-                {typeof(Skill[]), 4 },
-                {typeof(Weapon[]), 5 },
+                {typeof(Ability[]), 0 },
+                {typeof(Enemy[]), 1 },
+                {typeof(Equipment[]), 2 },
+                {typeof(Item[]), 3 },
+                {typeof(Material[]), 4 },
+                {typeof(Skill[]), 5 },
+                {typeof(Unit[]), 6 },
+                {typeof(Weapon[]), 7 },
             };
         }
 
@@ -64,12 +66,14 @@ namespace MasterData
 
             switch (key)
             {
-                case 0: return new MessagePack.Formatters.ArrayFormatter<Character>();
-                case 1: return new MessagePack.Formatters.ArrayFormatter<Equipment>();
-                case 2: return new MessagePack.Formatters.ArrayFormatter<Item>();
-                case 3: return new MessagePack.Formatters.ArrayFormatter<Material>();
-                case 4: return new MessagePack.Formatters.ArrayFormatter<Skill>();
-                case 5: return new MessagePack.Formatters.ArrayFormatter<Weapon>();
+                case 0: return new MessagePack.Formatters.ArrayFormatter<Ability>();
+                case 1: return new MessagePack.Formatters.ArrayFormatter<Enemy>();
+                case 2: return new MessagePack.Formatters.ArrayFormatter<Equipment>();
+                case 3: return new MessagePack.Formatters.ArrayFormatter<Item>();
+                case 4: return new MessagePack.Formatters.ArrayFormatter<Material>();
+                case 5: return new MessagePack.Formatters.ArrayFormatter<Skill>();
+                case 6: return new MessagePack.Formatters.ArrayFormatter<Unit>();
+                case 7: return new MessagePack.Formatters.ArrayFormatter<Weapon>();
                 default: return null;
             }
         }

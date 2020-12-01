@@ -5,6 +5,7 @@ using MasterMemory;
 using MessagePack;
 using System.Collections.Generic;
 using System;
+using Tech.Data.DB;
 using Tech.DB;
 
 namespace MasterData.Tables
@@ -83,6 +84,10 @@ namespace MasterData.Tables
                 new MasterMemory.Meta.MetaProperty[]
                 {
                     new MasterMemory.Meta.MetaProperty(typeof(Skill).GetProperty("Name")),
+                    new MasterMemory.Meta.MetaProperty(typeof(Skill).GetProperty("Description")),
+                    new MasterMemory.Meta.MetaProperty(typeof(Skill).GetProperty("SkillDescription")),
+                    new MasterMemory.Meta.MetaProperty(typeof(Skill).GetProperty("ImageBytes")),
+                    new MasterMemory.Meta.MetaProperty(typeof(Skill).GetProperty("SkillInfo")),
                     new MasterMemory.Meta.MetaProperty(typeof(Skill).GetProperty("Index")),
                 },
                 new MasterMemory.Meta.MetaIndex[]{

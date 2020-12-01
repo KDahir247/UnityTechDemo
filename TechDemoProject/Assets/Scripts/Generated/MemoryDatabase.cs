@@ -13,27 +13,33 @@ namespace MasterData
 {
    public sealed class MemoryDatabase : MemoryDatabaseBase
    {
-        public CharacterTable CharacterTable { get; private set; }
+        public AbilityTable AbilityTable { get; private set; }
+        public EnemyTable EnemyTable { get; private set; }
         public EquipmentTable EquipmentTable { get; private set; }
         public ItemTable ItemTable { get; private set; }
         public MaterialTable MaterialTable { get; private set; }
         public SkillTable SkillTable { get; private set; }
+        public UnitTable UnitTable { get; private set; }
         public WeaponTable WeaponTable { get; private set; }
 
         public MemoryDatabase(
-            CharacterTable CharacterTable,
+            AbilityTable AbilityTable,
+            EnemyTable EnemyTable,
             EquipmentTable EquipmentTable,
             ItemTable ItemTable,
             MaterialTable MaterialTable,
             SkillTable SkillTable,
+            UnitTable UnitTable,
             WeaponTable WeaponTable
         )
         {
-            this.CharacterTable = CharacterTable;
+            this.AbilityTable = AbilityTable;
+            this.EnemyTable = EnemyTable;
             this.EquipmentTable = EquipmentTable;
             this.ItemTable = ItemTable;
             this.MaterialTable = MaterialTable;
             this.SkillTable = SkillTable;
+            this.UnitTable = UnitTable;
             this.WeaponTable = WeaponTable;
         }
 
@@ -44,11 +50,13 @@ namespace MasterData
 
         protected override void Init(Dictionary<string, (int offset, int count)> header, System.ReadOnlyMemory<byte> databaseBinary, MessagePack.MessagePackSerializerOptions options)
         {
-            this.CharacterTable = ExtractTableData<Character, CharacterTable>(header, databaseBinary, options, xs => new CharacterTable(xs));
+            this.AbilityTable = ExtractTableData<Ability, AbilityTable>(header, databaseBinary, options, xs => new AbilityTable(xs));
+            this.EnemyTable = ExtractTableData<Enemy, EnemyTable>(header, databaseBinary, options, xs => new EnemyTable(xs));
             this.EquipmentTable = ExtractTableData<Equipment, EquipmentTable>(header, databaseBinary, options, xs => new EquipmentTable(xs));
             this.ItemTable = ExtractTableData<Item, ItemTable>(header, databaseBinary, options, xs => new ItemTable(xs));
             this.MaterialTable = ExtractTableData<Material, MaterialTable>(header, databaseBinary, options, xs => new MaterialTable(xs));
             this.SkillTable = ExtractTableData<Skill, SkillTable>(header, databaseBinary, options, xs => new SkillTable(xs));
+            this.UnitTable = ExtractTableData<Unit, UnitTable>(header, databaseBinary, options, xs => new UnitTable(xs));
             this.WeaponTable = ExtractTableData<Weapon, WeaponTable>(header, databaseBinary, options, xs => new WeaponTable(xs));
         }
 
@@ -60,11 +68,13 @@ namespace MasterData
         public DatabaseBuilder ToDatabaseBuilder()
         {
             var builder = new DatabaseBuilder();
-            builder.Append(this.CharacterTable.GetRawDataUnsafe());
+            builder.Append(this.AbilityTable.GetRawDataUnsafe());
+            builder.Append(this.EnemyTable.GetRawDataUnsafe());
             builder.Append(this.EquipmentTable.GetRawDataUnsafe());
             builder.Append(this.ItemTable.GetRawDataUnsafe());
             builder.Append(this.MaterialTable.GetRawDataUnsafe());
             builder.Append(this.SkillTable.GetRawDataUnsafe());
+            builder.Append(this.UnitTable.GetRawDataUnsafe());
             builder.Append(this.WeaponTable.GetRawDataUnsafe());
             return builder;
         }
@@ -72,11 +82,13 @@ namespace MasterData
         public DatabaseBuilder ToDatabaseBuilder(MessagePack.IFormatterResolver resolver)
         {
             var builder = new DatabaseBuilder(resolver);
-            builder.Append(this.CharacterTable.GetRawDataUnsafe());
+            builder.Append(this.AbilityTable.GetRawDataUnsafe());
+            builder.Append(this.EnemyTable.GetRawDataUnsafe());
             builder.Append(this.EquipmentTable.GetRawDataUnsafe());
             builder.Append(this.ItemTable.GetRawDataUnsafe());
             builder.Append(this.MaterialTable.GetRawDataUnsafe());
             builder.Append(this.SkillTable.GetRawDataUnsafe());
+            builder.Append(this.UnitTable.GetRawDataUnsafe());
             builder.Append(this.WeaponTable.GetRawDataUnsafe());
             return builder;
         }
@@ -86,16 +98,20 @@ namespace MasterData
             var result = new ValidateResult();
             var database = new ValidationDatabase(new object[]
             {
-                CharacterTable,
+                AbilityTable,
+                EnemyTable,
                 EquipmentTable,
                 ItemTable,
                 MaterialTable,
                 SkillTable,
+                UnitTable,
                 WeaponTable,
             });
 
-            ((ITableUniqueValidate)CharacterTable).ValidateUnique(result);
-            ValidateTable(CharacterTable.All, database, "Name", CharacterTable.PrimaryKeySelector, result);
+            ((ITableUniqueValidate)AbilityTable).ValidateUnique(result);
+            ValidateTable(AbilityTable.All, database, "Name", AbilityTable.PrimaryKeySelector, result);
+            ((ITableUniqueValidate)EnemyTable).ValidateUnique(result);
+            ValidateTable(EnemyTable.All, database, "Name", EnemyTable.PrimaryKeySelector, result);
             ((ITableUniqueValidate)EquipmentTable).ValidateUnique(result);
             ValidateTable(EquipmentTable.All, database, "Name", EquipmentTable.PrimaryKeySelector, result);
             ((ITableUniqueValidate)ItemTable).ValidateUnique(result);
@@ -104,6 +120,8 @@ namespace MasterData
             ValidateTable(MaterialTable.All, database, "Name", MaterialTable.PrimaryKeySelector, result);
             ((ITableUniqueValidate)SkillTable).ValidateUnique(result);
             ValidateTable(SkillTable.All, database, "Name", SkillTable.PrimaryKeySelector, result);
+            ((ITableUniqueValidate)UnitTable).ValidateUnique(result);
+            ValidateTable(UnitTable.All, database, "Name", UnitTable.PrimaryKeySelector, result);
             ((ITableUniqueValidate)WeaponTable).ValidateUnique(result);
             ValidateTable(WeaponTable.All, database, "Name", WeaponTable.PrimaryKeySelector, result);
 
@@ -116,8 +134,10 @@ namespace MasterData
         {
             switch (tableName)
             {
-                case "character":
-                    return db.CharacterTable;
+                case "ability":
+                    return db.AbilityTable;
+                case "enemy":
+                    return db.EnemyTable;
                 case "equipment":
                     return db.EquipmentTable;
                 case "item":
@@ -126,6 +146,8 @@ namespace MasterData
                     return db.MaterialTable;
                 case "Image":
                     return db.SkillTable;
+                case "unit":
+                    return db.UnitTable;
                 case "weapon":
                     return db.WeaponTable;
                 
@@ -139,11 +161,13 @@ namespace MasterData
             if (metaTable != null) return metaTable;
 
             var dict = new Dictionary<string, MasterMemory.Meta.MetaTable>();
-            dict.Add("character", MasterData.Tables.CharacterTable.CreateMetaTable());
+            dict.Add("ability", MasterData.Tables.AbilityTable.CreateMetaTable());
+            dict.Add("enemy", MasterData.Tables.EnemyTable.CreateMetaTable());
             dict.Add("equipment", MasterData.Tables.EquipmentTable.CreateMetaTable());
             dict.Add("item", MasterData.Tables.ItemTable.CreateMetaTable());
             dict.Add("material", MasterData.Tables.MaterialTable.CreateMetaTable());
             dict.Add("Image", MasterData.Tables.SkillTable.CreateMetaTable());
+            dict.Add("unit", MasterData.Tables.UnitTable.CreateMetaTable());
             dict.Add("weapon", MasterData.Tables.WeaponTable.CreateMetaTable());
 
             metaTable = new MasterMemory.Meta.MetaDatabase(dict);

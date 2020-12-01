@@ -1,23 +1,27 @@
 using System;
 using MasterMemory;
 using MessagePack;
+using Tech.Data.DB;
 
 namespace Tech.DB
 {
     //TODO should be inheritance since there will be enemy and both character and enemy have similarity.
-    [MemoryTable("character")]
+    [MemoryTable("unit")]
     [MessagePackObject(true)]
-    public class Character : IMessagePackSerializationCallbackReceiver
+    public class Unit : IMessagePackSerializationCallbackReceiver
     {
         [IgnoreMember] public Ulid Id { get; set; }
 
         [PrimaryKey] public string Name { get; set; }
 
         [SecondaryKey(0)] public int Index { get; set; }
-
-
+        
         public string Description { get; set; }
-
+        
+        public byte[] ImageBytes { get; set; }
+        
+        public UnitInfo CharacterInfo { get; set; }
+        
         public void OnBeforeSerialize()
         {
             //Called Before Serialization

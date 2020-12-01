@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using Cysharp.Threading.Tasks;
 using JetBrains.Annotations;
 using MasterData;
@@ -42,7 +43,7 @@ namespace Tech.DB
             builder = builderAction.Invoke(builder);
 
             var bufferData = builder.Build();
-
+            
             //TODO find a better solution to SequenceEqual to compare the bytes
             if (File.Exists($"{Application.dataPath}/Resources/{name}.bytes") &&
                 bufferData.SequenceEqual(Resources.Load<TextAsset>(name)?.bytes ?? new byte[1] {0xff}))

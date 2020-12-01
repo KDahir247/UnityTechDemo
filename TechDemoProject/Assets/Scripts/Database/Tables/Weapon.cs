@@ -19,14 +19,11 @@ namespace Tech.DB
         public string Description { get; set; }
 
         public byte[] ImageBytes { get; set; }
-
-        [SecondaryKey(0)] [NonUnique] public uint Level { get; set; }
-
-        [SecondaryKey(1)] [NonUnique] public WeaponType WeaponType { get; set; }
-
+        
+        public WeaponInfo WeaponInfo { get; set; }
+        
         [SecondaryKey(2)] public int Index { get; set; }
 
-        [NonUnique] public Rarity Rarity { get; set; }
 
         //Passive 
         public void OnBeforeSerialize()

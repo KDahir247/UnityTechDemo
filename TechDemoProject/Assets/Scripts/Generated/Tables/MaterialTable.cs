@@ -86,7 +86,7 @@ namespace MasterData.Tables
                     new MasterMemory.Meta.MetaProperty(typeof(Material).GetProperty("Name")),
                     new MasterMemory.Meta.MetaProperty(typeof(Material).GetProperty("Description")),
                     new MasterMemory.Meta.MetaProperty(typeof(Material).GetProperty("ImageBytes")),
-                    new MasterMemory.Meta.MetaProperty(typeof(Material).GetProperty("Rarity")),
+                    new MasterMemory.Meta.MetaProperty(typeof(Material).GetProperty("MaterialInfo")),
                     new MasterMemory.Meta.MetaProperty(typeof(Material).GetProperty("Index")),
                 },
                 new MasterMemory.Meta.MetaIndex[]{
