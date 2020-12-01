@@ -5,8 +5,8 @@ using MasterMemory;
 using MessagePack;
 using System.Collections.Generic;
 using System;
+using Tech.Data.DB;
 using Tech.DB;
-using UnityEngine;
 using MasterData.Tables;
 
 namespace MasterData
@@ -46,10 +46,14 @@ namespace MasterData
 
         static MasterMemoryResolverGetFormatterHelper()
         {
-            lookup = new global::System.Collections.Generic.Dictionary<Type, int>(2)
+            lookup = new global::System.Collections.Generic.Dictionary<Type, int>(6)
             {
                 {typeof(Character[]), 0 },
-                {typeof(Skill[]), 1 },
+                {typeof(Equipment[]), 1 },
+                {typeof(Item[]), 2 },
+                {typeof(Material[]), 3 },
+                {typeof(Skill[]), 4 },
+                {typeof(Weapon[]), 5 },
             };
         }
 
@@ -61,7 +65,11 @@ namespace MasterData
             switch (key)
             {
                 case 0: return new MessagePack.Formatters.ArrayFormatter<Character>();
-                case 1: return new MessagePack.Formatters.ArrayFormatter<Skill>();
+                case 1: return new MessagePack.Formatters.ArrayFormatter<Equipment>();
+                case 2: return new MessagePack.Formatters.ArrayFormatter<Item>();
+                case 3: return new MessagePack.Formatters.ArrayFormatter<Material>();
+                case 4: return new MessagePack.Formatters.ArrayFormatter<Skill>();
+                case 5: return new MessagePack.Formatters.ArrayFormatter<Weapon>();
                 default: return null;
             }
         }

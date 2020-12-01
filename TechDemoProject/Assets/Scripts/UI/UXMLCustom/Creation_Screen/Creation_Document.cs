@@ -12,36 +12,31 @@ namespace Tech.UI.Panel
 {
     public class Creation_Document : Base_Document
     {
+        private readonly MemoryDatabase _db = TechDB.LoadDataBase(GlobalSetting.SkillDataPath);
         private readonly Button[] _skills = new Button[3];
+
+        private Button _assassinButton;
+        private int _characterIndex = 0;
+
+        private string _characterName = "Assassin";
+
+        private StateMachine _characterStateMachine;
+        private Button _createButton;
+
+        private string _headScene = string.Empty;
+
+        private RotationDirection _modelRotateDirection;
+        private Button _necromancerButton;
+        private Button _oracleButton;
 
         private Button _rotationLeftButton;
         private Button _rotationRightButton;
-        private Button _createButton;
-
-        private Button _assassinButton;
-        private Button _necromancerButton;
-        private Button _oracleButton;
-        
-        private StateMachine _characterStateMachine;
-
-        private RotationDirection _modelRotateDirection;
-        
-        private string _headScene = string.Empty;
         private string _tailScene = string.Empty;
-        
-        private string _characterName = "Assassin";
-        private int _characterIndex = 0;
 
-
-        readonly MemoryDatabase _db = TechDB.LoadDataBase("master-data", true);
-        public Creation_Document() : base()
-        {
-        }
-        
         protected override void Init(params string[] scenes)
         {
-            if(scenes == null) return;
-            
+            if (scenes == null) return;
+
             _headScene = scenes[0];
             _tailScene = scenes[1];
         }
@@ -55,7 +50,7 @@ namespace Tech.UI.Panel
             _assassinButton = this.Q<Button>("Assassin_Button");
             _necromancerButton = this.Q<Button>("Necromancer_Button");
             _oracleButton = this.Q<Button>("Oracle_Button");
-            
+
             _rotationLeftButton = this.Q<Button>("RotationArrowL_Button");
             _rotationRightButton = this.Q<Button>("RotationArrowR_Button");
 
@@ -64,26 +59,26 @@ namespace Tech.UI.Panel
 
         protected override void Start()
         {
-           _rotationRightButton.RegisterCallback(RotateModel<ClickEvent>(RotationDirection.Right));
-           _rotationLeftButton.RegisterCallback(RotateModel<ClickEvent>(RotationDirection.Left));
-           _rotationRightButton.RegisterCallback(RotateModel<PointerLeaveEvent>(RotationDirection.None));
-           _rotationLeftButton.RegisterCallback(RotateModel<PointerLeaveEvent>(RotationDirection.None));
-           
-          // this.Q<Button>("Create_Button").RegisterCallback<ClickEvent>();
-          _assassinButton.RegisterCallback(ChangeSkillTexture<ClickEvent>(0,
-              "CritHit",
-              "DoubleStrike",
-              "ReapWhatIsOwed"));
-          
-          _necromancerButton.RegisterCallback(ChangeSkillTexture<ClickEvent>(1,
-              "ContractWithDeath",
-              "Hallow",
-              "Summon Cerberus"));
-          
-          _oracleButton.RegisterCallback(ChangeSkillTexture<ClickEvent>(2,
-              "Forgiveness",
-              "7Virtues",
-              "AngelOfRetribution"));
+            _rotationRightButton.RegisterCallback(RotateModel<ClickEvent>(RotationDirection.Right));
+            _rotationLeftButton.RegisterCallback(RotateModel<ClickEvent>(RotationDirection.Left));
+            _rotationRightButton.RegisterCallback(RotateModel<PointerLeaveEvent>(RotationDirection.None));
+            _rotationLeftButton.RegisterCallback(RotateModel<PointerLeaveEvent>(RotationDirection.None));
+
+            // this.Q<Button>("Create_Button").RegisterCallback<ClickEvent>();
+            _assassinButton.RegisterCallback(ChangeSkillTexture<ClickEvent>(0,
+                "CritHit",
+                "DoubleStrike",
+                "ReapWhatIsOwed"));
+
+            _necromancerButton.RegisterCallback(ChangeSkillTexture<ClickEvent>(1,
+                "ContractWithDeath",
+                "Hallow",
+                "Summon Cerberus"));
+
+            _oracleButton.RegisterCallback(ChangeSkillTexture<ClickEvent>(2,
+                "Forgiveness",
+                "7Virtues",
+                "AngelOfRetribution"));
         }
 
         protected override void OnDestroy()
@@ -91,37 +86,36 @@ namespace Tech.UI.Panel
         }
 
         [NotNull]
-        private EventCallback<T> ChangeSkillTexture<T>(int index,params string[] skillDatabase)
+        private EventCallback<T> ChangeSkillTexture<T>(int index, params string[] skillDatabase)
             where T : PointerEventBase<T>, new()
         {
             return evt =>
             {
                 _characterStateMachine.ChangeState(index);
-                
-                for (int i = 0; i < _skills.Length; i++)
+
+                for (var i = 0; i < _skills.Length; i++)
                 {
-                    var skill = _db.SkillTable.FindByname(skillDatabase[i]);
-                    Texture2D tex = new Texture2D(256,256, TextureFormat.DXT1, false);
-                    tex.LoadRawTextureData(skill.Bytes);
+                    var skill = _db.SkillTable.FindByName(skillDatabase[i]);
+                    var tex = new Texture2D(256, 256, TextureFormat.DXT1, false);
+                    tex.LoadRawTextureData(skill.ImageBytes);
                     tex.Apply();
-                    
+
                     var styleBackgroundImage = _skills[i].style.backgroundImage;
                     styleBackgroundImage.value = Background.FromTexture2D(tex);
                     _skills[i].style.backgroundImage = styleBackgroundImage;
                 }
             };
         }
-        
+
         [NotNull]
-        private EventCallback<T> RotateModel<T>( RotationDirection direction)
+        private EventCallback<T> RotateModel<T>(RotationDirection direction)
             where T : PointerEventBase<T>, new()
         {
             return s => MessageBroker.Default.Publish(direction);
         }
-        
-      
+
         //TODO Remove
-        public void RetrieveStateMachine(StateMachine stateMachine)
+        public void RetrieveStateMachine([NotNull] StateMachine stateMachine)
         {
             _characterStateMachine = stateMachine;
         }
@@ -158,6 +152,5 @@ namespace Tech.UI.Panel
                 ((Creation_Document) ve).Init(sceneName, nextSceneName);
             }
         }
-
     }
 }

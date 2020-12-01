@@ -1,12 +1,11 @@
 ﻿using System;
 using System.IO;
+using System.Linq;
 using Cysharp.Threading.Tasks;
 using JetBrains.Annotations;
 using MasterData;
 using MessagePack;
 using MessagePack.Resolvers;
-using MessagePack.Unity;
-using MessagePack.Unity.Extension;
 using UnityEditor;
 using UnityEngine;
 
@@ -21,23 +20,14 @@ namespace Tech.DB
     MasterMemoryResolver.Instance,
     StandardResolver.Instance,
     */
-    
+
     public class TechDBBuilder
     {
         public TechDBBuilder(params IFormatterResolver[] resolvers)
         {
             try
             {
-                StaticCompositeResolver.Instance.Register(new[]
-                {
-                    GeneratedResolver.Instance,
-                    BuiltinResolver.Instance,
-                    PrimitiveObjectResolver.Instance,
-                    UnityResolver.Instance,
-                    UnityBlitResolver.Instance,
-                    MasterMemoryResolver.Instance,
-                    StandardResolver.Instance,
-                });
+                StaticCompositeResolver.Instance.Register(resolvers);
             }
             catch
             {
@@ -45,13 +35,22 @@ namespace Tech.DB
             }
         }
 
-        public async UniTask Build([NotNull] Func<DatabaseBuilder,DatabaseBuilder> builderAction, string name)
+        public async UniTask Build([NotNull] Func<DatabaseBuilder, DatabaseBuilder> builderAction, string name)
         {
-            DatabaseBuilder builder = new DatabaseBuilder();
-            
+            var builder = new DatabaseBuilder();
+
             builder = builderAction.Invoke(builder);
-            
-            byte[] bufferData = builder.Build();
+
+            var bufferData = builder.Build();
+
+            //TODO find a better solution to SequenceEqual to compare the bytes
+            if (File.Exists($"{Application.dataPath}/Resources/{name}.bytes") &&
+                bufferData.SequenceEqual(Resources.Load<TextAsset>(name)?.bytes ?? new byte[1] {0xff}))
+            {
+                Debug.Log("returning");
+                return;
+            }
+
 
             var resourceDir = $"{Application.dataPath}/Resources";
             Directory.CreateDirectory(resourceDir);
@@ -61,6 +60,7 @@ namespace Tech.DB
             {
                 await fs.WriteAsync(bufferData, 0, bufferData.Length);
             }
+
             AssetDatabase.Refresh();
         }
     }

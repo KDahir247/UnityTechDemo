@@ -5,19 +5,20 @@ using MasterMemory;
 using MessagePack;
 using System.Collections.Generic;
 using System;
+using Tech.Data.DB;
 using Tech.DB;
 
 namespace MasterData.Tables
 {
-   public sealed partial class CharacterTable : TableBase<Character>, ITableUniqueValidate
+   public sealed partial class MaterialTable : TableBase<Material>, ITableUniqueValidate
    {
-        public Func<Character, string> PrimaryKeySelector => primaryIndexSelector;
-        readonly Func<Character, string> primaryIndexSelector;
+        public Func<Material, string> PrimaryKeySelector => primaryIndexSelector;
+        readonly Func<Material, string> primaryIndexSelector;
 
-        readonly Character[] secondaryIndex0;
-        readonly Func<Character, int> secondaryIndex0Selector;
+        readonly Material[] secondaryIndex0;
+        readonly Func<Material, int> secondaryIndex0Selector;
 
-        public CharacterTable(Character[] sortedData)
+        public MaterialTable(Material[] sortedData)
             : base(sortedData)
         {
             this.primaryIndexSelector = x => x.Name;
@@ -28,44 +29,44 @@ namespace MasterData.Tables
 
         partial void OnAfterConstruct();
 
-        public RangeView<Character> SortByIndex => new RangeView<Character>(secondaryIndex0, 0, secondaryIndex0.Length - 1, true);
+        public RangeView<Material> SortByIndex => new RangeView<Material>(secondaryIndex0, 0, secondaryIndex0.Length - 1, true);
 
-        public Character FindByName(string key)
+        public Material FindByName(string key)
         {
             return FindUniqueCore(data, primaryIndexSelector, System.StringComparer.Ordinal, key, false);
         }
         
-        public bool TryFindByName(string key, out Character result)
+        public bool TryFindByName(string key, out Material result)
         {
             return TryFindUniqueCore(data, primaryIndexSelector, System.StringComparer.Ordinal, key, out result);
         }
 
-        public Character FindClosestByName(string key, bool selectLower = true)
+        public Material FindClosestByName(string key, bool selectLower = true)
         {
             return FindUniqueClosestCore(data, primaryIndexSelector, System.StringComparer.Ordinal, key, selectLower);
         }
 
-        public RangeView<Character> FindRangeByName(string min, string max, bool ascendant = true)
+        public RangeView<Material> FindRangeByName(string min, string max, bool ascendant = true)
         {
             return FindUniqueRangeCore(data, primaryIndexSelector, System.StringComparer.Ordinal, min, max, ascendant);
         }
 
-        public Character FindByIndex(int key)
+        public Material FindByIndex(int key)
         {
             return FindUniqueCoreInt(secondaryIndex0, secondaryIndex0Selector, System.Collections.Generic.Comparer<int>.Default, key, false);
         }
         
-        public bool TryFindByIndex(int key, out Character result)
+        public bool TryFindByIndex(int key, out Material result)
         {
             return TryFindUniqueCoreInt(secondaryIndex0, secondaryIndex0Selector, System.Collections.Generic.Comparer<int>.Default, key, out result);
         }
 
-        public Character FindClosestByIndex(int key, bool selectLower = true)
+        public Material FindClosestByIndex(int key, bool selectLower = true)
         {
             return FindUniqueClosestCore(secondaryIndex0, secondaryIndex0Selector, System.Collections.Generic.Comparer<int>.Default, key, selectLower);
         }
 
-        public RangeView<Character> FindRangeByIndex(int min, int max, bool ascendant = true)
+        public RangeView<Material> FindRangeByIndex(int min, int max, bool ascendant = true)
         {
             return FindUniqueRangeCore(secondaryIndex0, secondaryIndex0Selector, System.Collections.Generic.Comparer<int>.Default, min, max, ascendant);
         }
@@ -79,19 +80,21 @@ namespace MasterData.Tables
 
         public static MasterMemory.Meta.MetaTable CreateMetaTable()
         {
-            return new MasterMemory.Meta.MetaTable(typeof(Character), typeof(CharacterTable), "character",
+            return new MasterMemory.Meta.MetaTable(typeof(Material), typeof(MaterialTable), "material",
                 new MasterMemory.Meta.MetaProperty[]
                 {
-                    new MasterMemory.Meta.MetaProperty(typeof(Character).GetProperty("Name")),
-                    new MasterMemory.Meta.MetaProperty(typeof(Character).GetProperty("Index")),
-                    new MasterMemory.Meta.MetaProperty(typeof(Character).GetProperty("Description")),
+                    new MasterMemory.Meta.MetaProperty(typeof(Material).GetProperty("Name")),
+                    new MasterMemory.Meta.MetaProperty(typeof(Material).GetProperty("Description")),
+                    new MasterMemory.Meta.MetaProperty(typeof(Material).GetProperty("ImageBytes")),
+                    new MasterMemory.Meta.MetaProperty(typeof(Material).GetProperty("Rarity")),
+                    new MasterMemory.Meta.MetaProperty(typeof(Material).GetProperty("Index")),
                 },
                 new MasterMemory.Meta.MetaIndex[]{
                     new MasterMemory.Meta.MetaIndex(new System.Reflection.PropertyInfo[] {
-                        typeof(Character).GetProperty("Name"),
+                        typeof(Material).GetProperty("Name"),
                     }, true, true, System.StringComparer.Ordinal),
                     new MasterMemory.Meta.MetaIndex(new System.Reflection.PropertyInfo[] {
-                        typeof(Character).GetProperty("Index"),
+                        typeof(Material).GetProperty("Index"),
                     }, false, true, System.Collections.Generic.Comparer<int>.Default),
                 });
         }

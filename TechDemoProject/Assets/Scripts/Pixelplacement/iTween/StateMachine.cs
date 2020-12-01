@@ -13,6 +13,7 @@
 #pragma warning disable 168
 
 using Tech.Core;
+using Tech.Utility;
 using UniRx;
 using UnityEngine;
 using UnityEngine.Events;
@@ -275,7 +276,7 @@ namespace Pixelplacement
 
         private void Log(string message)
         {
-            if (!verbose) return;
+            if (!GlobalSetting.EnableVerbosityState) return;
             Logger.ZLogInformation(message, gameObject);
         }
     }

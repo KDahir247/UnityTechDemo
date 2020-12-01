@@ -11,7 +11,7 @@ namespace Tech.Editor
         private static string _nameSpaceGenerated = "MasterData";
         private static bool _returnNull = true;
 
-        private static bool _immutable = true;
+        private static bool _immutable;
 
         // Add menu item
         [MenuItem("MasterMemory/Generator")]

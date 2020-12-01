@@ -5,8 +5,8 @@ using MasterMemory;
 using MessagePack;
 using System.Collections.Generic;
 using System;
+using Tech.Data.DB;
 using Tech.DB;
-using UnityEngine;
 using MasterData.Tables;
 
 namespace MasterData
@@ -18,13 +18,37 @@ namespace MasterData
 
         public DatabaseBuilder Append(System.Collections.Generic.IEnumerable<Character> dataSource)
         {
-            AppendCore(dataSource, x => x.Index, System.Collections.Generic.Comparer<int>.Default);
+            AppendCore(dataSource, x => x.Name, System.StringComparer.Ordinal);
+            return this;
+        }
+
+        public DatabaseBuilder Append(System.Collections.Generic.IEnumerable<Equipment> dataSource)
+        {
+            AppendCore(dataSource, x => x.Name, System.StringComparer.Ordinal);
+            return this;
+        }
+
+        public DatabaseBuilder Append(System.Collections.Generic.IEnumerable<Item> dataSource)
+        {
+            AppendCore(dataSource, x => x.Name, System.StringComparer.Ordinal);
+            return this;
+        }
+
+        public DatabaseBuilder Append(System.Collections.Generic.IEnumerable<Material> dataSource)
+        {
+            AppendCore(dataSource, x => x.Name, System.StringComparer.Ordinal);
             return this;
         }
 
         public DatabaseBuilder Append(System.Collections.Generic.IEnumerable<Skill> dataSource)
         {
-            AppendCore(dataSource, x => x.index, System.Collections.Generic.Comparer<int>.Default);
+            AppendCore(dataSource, x => x.Name, System.StringComparer.Ordinal);
+            return this;
+        }
+
+        public DatabaseBuilder Append(System.Collections.Generic.IEnumerable<Weapon> dataSource)
+        {
+            AppendCore(dataSource, x => x.Name, System.StringComparer.Ordinal);
             return this;
         }
 
