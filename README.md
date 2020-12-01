@@ -2,7 +2,8 @@
 
 Self teaching on some of unity's packages and some other plugin. (Ongoing) 
 <br/>
-Working on the Database Data for all the table (currently)
+<br/>
+Working on the Database Data for all the database tables (currently)
 
 Unity Packages using:
 Addressables,
