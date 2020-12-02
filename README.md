@@ -3,7 +3,7 @@
 Self teaching on some of unity's packages and some other plugin. (Ongoing) 
 <br/>
 <br/>
-I will be working on the snapshot provider system and architecture (Animation that are utilizing the burst compiler), which can be
+I will be working on the snapshot provider system and architecture (Animation that are utilizing the burst compiler and Jobs), which can be
 located in Assets->Scripts->Animation->Provider
 <br/> Current Kinematica Package Caveats:
 <br/>
