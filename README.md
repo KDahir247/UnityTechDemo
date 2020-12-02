@@ -16,7 +16,9 @@ Not fully integrated with DOTS.
 Animation must be generic and can't be anything else.
 <br/>
 <br/>
-
+Current Progress on Kinematica in Project. https://streamable.com/b0i5qk
+<br/>
+<br/>
 
 Unity Packages using:
 Addressables,
