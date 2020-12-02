@@ -7,6 +7,7 @@ namespace Tech.Data.DB
     [MessagePackObject(true)]
     public struct EquipmentInfo
     {
+        
         //TODO add a passive to the equipment
         public uint Level { get; set; }
         public Rarity Rarity { get; set; }
