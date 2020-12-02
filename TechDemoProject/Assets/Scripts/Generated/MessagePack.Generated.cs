@@ -2181,12 +2181,12 @@ namespace MessagePack.Formatters.Tech.Data.DB
         {
             this.____keyMapping = new global::MessagePack.Internal.AutomataDictionary()
             {
-                { "InnocenceCost", 0 },
+                { "ElementType", 0 },
                 { "TargetParameter", 1 },
-                { "ElementType", 2 },
-                { "AbilityType", 3 },
-                { "AbilityTarget", 4 },
-                { "Ailment", 5 },
+                { "AbilityType", 2 },
+                { "AbilityTarget", 3 },
+                { "Ailment", 4 },
+                { "InnocenceCost", 5 },
                 { "NumberOfHits", 6 },
                 { "Duration", 7 },
                 { "Amount", 8 },
@@ -2195,12 +2195,12 @@ namespace MessagePack.Formatters.Tech.Data.DB
 
             this.____stringByteKeys = new byte[][]
             {
-                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("InnocenceCost"),
-                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("TargetParameter"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("ElementType"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("TargetParameter"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("AbilityType"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("AbilityTarget"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Ailment"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("InnocenceCost"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("NumberOfHits"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Duration"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Amount"),
@@ -2213,17 +2213,17 @@ namespace MessagePack.Formatters.Tech.Data.DB
             IFormatterResolver formatterResolver = options.Resolver;
             writer.WriteMapHeader(10);
             writer.WriteRaw(this.____stringByteKeys[0]);
-            writer.Write(value.InnocenceCost);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Element>().Serialize(ref writer, value.ElementType, options);
             writer.WriteRaw(this.____stringByteKeys[1]);
             formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.TargetStat>().Serialize(ref writer, value.TargetParameter, options);
             writer.WriteRaw(this.____stringByteKeys[2]);
-            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Element>().Serialize(ref writer, value.ElementType, options);
-            writer.WriteRaw(this.____stringByteKeys[3]);
             formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.ParameterType>().Serialize(ref writer, value.AbilityType, options);
-            writer.WriteRaw(this.____stringByteKeys[4]);
+            writer.WriteRaw(this.____stringByteKeys[3]);
             formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Target>().Serialize(ref writer, value.AbilityTarget, options);
-            writer.WriteRaw(this.____stringByteKeys[5]);
+            writer.WriteRaw(this.____stringByteKeys[4]);
             formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Ailment>().Serialize(ref writer, value.Ailment, options);
+            writer.WriteRaw(this.____stringByteKeys[5]);
+            writer.Write(value.InnocenceCost);
             writer.WriteRaw(this.____stringByteKeys[6]);
             writer.Write(value.NumberOfHits);
             writer.WriteRaw(this.____stringByteKeys[7]);
@@ -2244,12 +2244,12 @@ namespace MessagePack.Formatters.Tech.Data.DB
             options.Security.DepthStep(ref reader);
             IFormatterResolver formatterResolver = options.Resolver;
             var length = reader.ReadMapHeader();
-            var __InnocenceCost__ = default(uint);
-            var __TargetParameter__ = default(global::Tech.Data.DB.TargetStat);
             var __ElementType__ = default(global::Tech.Data.DB.Element);
+            var __TargetParameter__ = default(global::Tech.Data.DB.TargetStat);
             var __AbilityType__ = default(global::Tech.Data.DB.ParameterType);
             var __AbilityTarget__ = default(global::Tech.Data.DB.Target);
             var __Ailment__ = default(global::Tech.Data.DB.Ailment);
+            var __InnocenceCost__ = default(uint);
             var __NumberOfHits__ = default(uint);
             var __Duration__ = default(uint);
             var __Amount__ = default(uint);
@@ -2268,22 +2268,22 @@ namespace MessagePack.Formatters.Tech.Data.DB
                 switch (key)
                 {
                     case 0:
-                        __InnocenceCost__ = reader.ReadUInt32();
+                        __ElementType__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Element>().Deserialize(ref reader, options);
                         break;
                     case 1:
                         __TargetParameter__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.TargetStat>().Deserialize(ref reader, options);
                         break;
                     case 2:
-                        __ElementType__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Element>().Deserialize(ref reader, options);
-                        break;
-                    case 3:
                         __AbilityType__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.ParameterType>().Deserialize(ref reader, options);
                         break;
-                    case 4:
+                    case 3:
                         __AbilityTarget__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Target>().Deserialize(ref reader, options);
                         break;
-                    case 5:
+                    case 4:
                         __Ailment__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Ailment>().Deserialize(ref reader, options);
+                        break;
+                    case 5:
+                        __InnocenceCost__ = reader.ReadUInt32();
                         break;
                     case 6:
                         __NumberOfHits__ = reader.ReadUInt32();
@@ -2304,12 +2304,12 @@ namespace MessagePack.Formatters.Tech.Data.DB
             }
 
             var ____result = new global::Tech.Data.DB.AbilityInfo();
-            ____result.InnocenceCost = __InnocenceCost__;
-            ____result.TargetParameter = __TargetParameter__;
             ____result.ElementType = __ElementType__;
+            ____result.TargetParameter = __TargetParameter__;
             ____result.AbilityType = __AbilityType__;
             ____result.AbilityTarget = __AbilityTarget__;
             ____result.Ailment = __Ailment__;
+            ____result.InnocenceCost = __InnocenceCost__;
             ____result.NumberOfHits = __NumberOfHits__;
             ____result.Duration = __Duration__;
             ____result.Amount = __Amount__;
@@ -2330,24 +2330,24 @@ namespace MessagePack.Formatters.Tech.Data.DB
         {
             this.____keyMapping = new global::MessagePack.Internal.AutomataDictionary()
             {
-                { "Level", 0 },
-                { "Rarity", 1 },
-                { "Stat", 2 },
-                { "RaceType", 3 },
-                { "ElementAttack", 4 },
-                { "ElementResistance", 5 },
-                { "StatusAilmentResistance", 6 },
+                { "Rarity", 0 },
+                { "Level", 1 },
+                { "RaceType", 2 },
+                { "ElementAttack", 3 },
+                { "ElementResistance", 4 },
+                { "StatusAilmentResistance", 5 },
+                { "Stat", 6 },
             };
 
             this.____stringByteKeys = new byte[][]
             {
-                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Level"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Rarity"),
-                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Stat"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Level"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("RaceType"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("ElementAttack"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("ElementResistance"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("StatusAilmentResistance"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Stat"),
             };
         }
 
@@ -2356,19 +2356,19 @@ namespace MessagePack.Formatters.Tech.Data.DB
             IFormatterResolver formatterResolver = options.Resolver;
             writer.WriteMapHeader(7);
             writer.WriteRaw(this.____stringByteKeys[0]);
-            writer.Write(value.Level);
-            writer.WriteRaw(this.____stringByteKeys[1]);
             formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Rarity>().Serialize(ref writer, value.Rarity, options);
+            writer.WriteRaw(this.____stringByteKeys[1]);
+            writer.Write(value.Level);
             writer.WriteRaw(this.____stringByteKeys[2]);
-            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Stat>().Serialize(ref writer, value.Stat, options);
-            writer.WriteRaw(this.____stringByteKeys[3]);
             formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.RaceType>().Serialize(ref writer, value.RaceType, options);
-            writer.WriteRaw(this.____stringByteKeys[4]);
+            writer.WriteRaw(this.____stringByteKeys[3]);
             formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Element>().Serialize(ref writer, value.ElementAttack, options);
-            writer.WriteRaw(this.____stringByteKeys[5]);
+            writer.WriteRaw(this.____stringByteKeys[4]);
             formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Element>().Serialize(ref writer, value.ElementResistance, options);
-            writer.WriteRaw(this.____stringByteKeys[6]);
+            writer.WriteRaw(this.____stringByteKeys[5]);
             formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Ailment>().Serialize(ref writer, value.StatusAilmentResistance, options);
+            writer.WriteRaw(this.____stringByteKeys[6]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Stat>().Serialize(ref writer, value.Stat, options);
         }
 
         public global::Tech.Data.DB.EnemyInfo Deserialize(ref MessagePackReader reader, global::MessagePack.MessagePackSerializerOptions options)
@@ -2381,13 +2381,13 @@ namespace MessagePack.Formatters.Tech.Data.DB
             options.Security.DepthStep(ref reader);
             IFormatterResolver formatterResolver = options.Resolver;
             var length = reader.ReadMapHeader();
-            var __Level__ = default(uint);
             var __Rarity__ = default(global::Tech.Data.DB.Rarity);
-            var __Stat__ = default(global::Tech.Data.DB.Stat);
+            var __Level__ = default(uint);
             var __RaceType__ = default(global::Tech.Data.DB.RaceType);
             var __ElementAttack__ = default(global::Tech.Data.DB.Element);
             var __ElementResistance__ = default(global::Tech.Data.DB.Element);
             var __StatusAilmentResistance__ = default(global::Tech.Data.DB.Ailment);
+            var __Stat__ = default(global::Tech.Data.DB.Stat);
 
             for (int i = 0; i < length; i++)
             {
@@ -2402,25 +2402,25 @@ namespace MessagePack.Formatters.Tech.Data.DB
                 switch (key)
                 {
                     case 0:
-                        __Level__ = reader.ReadUInt32();
-                        break;
-                    case 1:
                         __Rarity__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Rarity>().Deserialize(ref reader, options);
                         break;
-                    case 2:
-                        __Stat__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Stat>().Deserialize(ref reader, options);
+                    case 1:
+                        __Level__ = reader.ReadUInt32();
                         break;
-                    case 3:
+                    case 2:
                         __RaceType__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.RaceType>().Deserialize(ref reader, options);
                         break;
-                    case 4:
+                    case 3:
                         __ElementAttack__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Element>().Deserialize(ref reader, options);
                         break;
-                    case 5:
+                    case 4:
                         __ElementResistance__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Element>().Deserialize(ref reader, options);
                         break;
-                    case 6:
+                    case 5:
                         __StatusAilmentResistance__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Ailment>().Deserialize(ref reader, options);
+                        break;
+                    case 6:
+                        __Stat__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Stat>().Deserialize(ref reader, options);
                         break;
                     default:
                         reader.Skip();
@@ -2429,13 +2429,13 @@ namespace MessagePack.Formatters.Tech.Data.DB
             }
 
             var ____result = new global::Tech.Data.DB.EnemyInfo();
-            ____result.Level = __Level__;
             ____result.Rarity = __Rarity__;
-            ____result.Stat = __Stat__;
+            ____result.Level = __Level__;
             ____result.RaceType = __RaceType__;
             ____result.ElementAttack = __ElementAttack__;
             ____result.ElementResistance = __ElementResistance__;
             ____result.StatusAilmentResistance = __StatusAilmentResistance__;
+            ____result.Stat = __Stat__;
             reader.Depth--;
             return ____result;
         }
@@ -2755,13 +2755,13 @@ namespace MessagePack.Formatters.Tech.Data.DB
         {
             this.____keyMapping = new global::MessagePack.Internal.AutomataDictionary()
             {
-                { "ManapointCost", 0 },
+                { "ElementType", 0 },
                 { "TraitType", 1 },
                 { "TargetParameter", 2 },
-                { "ElementType", 3 },
-                { "SkillType", 4 },
-                { "SkillTarget", 5 },
-                { "Ailment", 6 },
+                { "SkillType", 3 },
+                { "SkillTarget", 4 },
+                { "Ailment", 5 },
+                { "ManapointCost", 6 },
                 { "NumberOfHits", 7 },
                 { "Duration", 8 },
                 { "Amount", 9 },
@@ -2770,13 +2770,13 @@ namespace MessagePack.Formatters.Tech.Data.DB
 
             this.____stringByteKeys = new byte[][]
             {
-                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("ManapointCost"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("ElementType"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("TraitType"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("TargetParameter"),
-                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("ElementType"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("SkillType"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("SkillTarget"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Ailment"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("ManapointCost"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("NumberOfHits"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Duration"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Amount"),
@@ -2789,19 +2789,19 @@ namespace MessagePack.Formatters.Tech.Data.DB
             IFormatterResolver formatterResolver = options.Resolver;
             writer.WriteMapHeader(11);
             writer.WriteRaw(this.____stringByteKeys[0]);
-            writer.Write(value.ManapointCost);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Element>().Serialize(ref writer, value.ElementType, options);
             writer.WriteRaw(this.____stringByteKeys[1]);
             formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.TraitType>().Serialize(ref writer, value.TraitType, options);
             writer.WriteRaw(this.____stringByteKeys[2]);
             formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.TargetStat>().Serialize(ref writer, value.TargetParameter, options);
             writer.WriteRaw(this.____stringByteKeys[3]);
-            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Element>().Serialize(ref writer, value.ElementType, options);
-            writer.WriteRaw(this.____stringByteKeys[4]);
             formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.ParameterType>().Serialize(ref writer, value.SkillType, options);
-            writer.WriteRaw(this.____stringByteKeys[5]);
+            writer.WriteRaw(this.____stringByteKeys[4]);
             formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Target>().Serialize(ref writer, value.SkillTarget, options);
-            writer.WriteRaw(this.____stringByteKeys[6]);
+            writer.WriteRaw(this.____stringByteKeys[5]);
             formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Ailment>().Serialize(ref writer, value.Ailment, options);
+            writer.WriteRaw(this.____stringByteKeys[6]);
+            writer.Write(value.ManapointCost);
             writer.WriteRaw(this.____stringByteKeys[7]);
             writer.Write(value.NumberOfHits);
             writer.WriteRaw(this.____stringByteKeys[8]);
@@ -2822,13 +2822,13 @@ namespace MessagePack.Formatters.Tech.Data.DB
             options.Security.DepthStep(ref reader);
             IFormatterResolver formatterResolver = options.Resolver;
             var length = reader.ReadMapHeader();
-            var __ManapointCost__ = default(uint);
+            var __ElementType__ = default(global::Tech.Data.DB.Element);
             var __TraitType__ = default(global::Tech.Data.DB.TraitType);
             var __TargetParameter__ = default(global::Tech.Data.DB.TargetStat);
-            var __ElementType__ = default(global::Tech.Data.DB.Element);
             var __SkillType__ = default(global::Tech.Data.DB.ParameterType);
             var __SkillTarget__ = default(global::Tech.Data.DB.Target);
             var __Ailment__ = default(global::Tech.Data.DB.Ailment);
+            var __ManapointCost__ = default(uint);
             var __NumberOfHits__ = default(uint);
             var __Duration__ = default(uint);
             var __Amount__ = default(uint);
@@ -2847,7 +2847,7 @@ namespace MessagePack.Formatters.Tech.Data.DB
                 switch (key)
                 {
                     case 0:
-                        __ManapointCost__ = reader.ReadUInt32();
+                        __ElementType__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Element>().Deserialize(ref reader, options);
                         break;
                     case 1:
                         __TraitType__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.TraitType>().Deserialize(ref reader, options);
@@ -2856,16 +2856,16 @@ namespace MessagePack.Formatters.Tech.Data.DB
                         __TargetParameter__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.TargetStat>().Deserialize(ref reader, options);
                         break;
                     case 3:
-                        __ElementType__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Element>().Deserialize(ref reader, options);
-                        break;
-                    case 4:
                         __SkillType__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.ParameterType>().Deserialize(ref reader, options);
                         break;
-                    case 5:
+                    case 4:
                         __SkillTarget__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Target>().Deserialize(ref reader, options);
                         break;
-                    case 6:
+                    case 5:
                         __Ailment__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Ailment>().Deserialize(ref reader, options);
+                        break;
+                    case 6:
+                        __ManapointCost__ = reader.ReadUInt32();
                         break;
                     case 7:
                         __NumberOfHits__ = reader.ReadUInt32();
@@ -2886,13 +2886,13 @@ namespace MessagePack.Formatters.Tech.Data.DB
             }
 
             var ____result = new global::Tech.Data.DB.SkillInfo();
-            ____result.ManapointCost = __ManapointCost__;
+            ____result.ElementType = __ElementType__;
             ____result.TraitType = __TraitType__;
             ____result.TargetParameter = __TargetParameter__;
-            ____result.ElementType = __ElementType__;
             ____result.SkillType = __SkillType__;
             ____result.SkillTarget = __SkillTarget__;
             ____result.Ailment = __Ailment__;
+            ____result.ManapointCost = __ManapointCost__;
             ____result.NumberOfHits = __NumberOfHits__;
             ____result.Duration = __Duration__;
             ____result.Amount = __Amount__;

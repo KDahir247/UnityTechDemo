@@ -5,23 +5,24 @@ using Tech.Data.DB;
 
 namespace Tech.DB
 {
-    [MemoryTable("ability"), MessagePackObject(true)]
+    [MemoryTable("ability")]
+    [MessagePackObject(true)]
     public class Ability : IMessagePackSerializationCallbackReceiver
     {
         [IgnoreMember] public Ulid Id { get; set; }
-        
-         [PrimaryKey] public string Name { get; set; }
-        
-         public string Description { get; set; }
-         
-         public string AbilityDescription { get; set; }
-         
-         public byte[] ImageBytes { get; set; }
-         
-         public AbilityInfo AbilityInfo { get; set; }
-         
-         [SecondaryKey(0)] public int Index { get; set; }
-        
+
+        [PrimaryKey] public string Name { get; set; }
+
+        public string Description { get; set; }
+
+        public string AbilityDescription { get; set; }
+
+        public byte[] ImageBytes { get; set; }
+
+        [NonUnique] public AbilityInfo AbilityInfo { get; set; }
+
+        [SecondaryKey(0)] public int Index { get; set; }
+
         public void OnBeforeSerialize()
         {
             //Called Before Serialization
@@ -33,4 +34,3 @@ namespace Tech.DB
         }
     }
 }
-

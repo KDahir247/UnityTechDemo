@@ -1,5 +1,9 @@
-﻿namespace Tech.Data.DB
+﻿using System;
+
+namespace Tech.Data.DB
 {
+    [Flags]
+    [Serializable] //Just in case enum uses nonstandard enum values
     public enum Ailment
     {
         None, //Does nothing
@@ -17,6 +21,6 @@
         Sleep, //Render unit incapable to take any action until hit with basic attack. Unit also gain HOT per turn from sleep.
         Confuse, //Unit might attack ally or self
         Fear, //Immobilize unit (instant KO)
-        Undead, //Take damage for the amount healed (heal and HOT) and revival result in instant KO.
+        Undead //Take damage for the amount healed (heal and HOT) and revival result in instant KO.
     }
 }

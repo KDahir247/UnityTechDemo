@@ -8,25 +8,15 @@ namespace Tech.Data.DB
     [MessagePackObject(true)]
     public struct AbilityInfo
     {
-        public uint InnocenceCost { get; set; } //unit's ultimate ability gauge cost. 
-        
-        public TargetStat TargetParameter { get; set; }
-
         public Element ElementType { get; set; }
-
+        public TargetStat TargetParameter { get; set; }
         public ParameterType AbilityType { get; set; }
-
         public Target AbilityTarget { get; set; }
-        
         public Ailment Ailment { get; set; }
-
+        public uint InnocenceCost { get; set; } //unit's ultimate ability gauge cost. 
         public uint NumberOfHits { get; set; }
-
         public uint Duration { get; set; }
-        
         public uint Amount { get; set; } //Damage or heal amount
-        
         public Stat Buff { get; set; }
-        
     }
 }

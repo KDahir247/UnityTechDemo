@@ -1,5 +1,9 @@
-﻿namespace Tech.Data.DB
+﻿using System;
+
+namespace Tech.Data.DB
 {
+    [Flags] //Target stat from ability and skill can affect multi parameters
+    [Serializable]
     public enum TargetStat
     {
         Health,

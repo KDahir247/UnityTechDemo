@@ -1,6 +1,5 @@
 ﻿using System;
 using MessagePack;
-using UnityEngine.Serialization;
 
 namespace Tech.Data.DB
 {
