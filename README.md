@@ -3,7 +3,10 @@
 Self teaching on some of unity's packages and some other plugin. (Ongoing) 
 <br/>
 <br/>
-Working on the Database Data for all the database tables (currently)
+Working on the MessagePack Attributes on the Database Data script for all the database tables (currently)
+<br/>
+After Database system passes i will be working on the snapshot provider system and architecture (Animation that are utilizing the burst compiler), which can be
+located in Assets->Scripts->Animation->Provider
 
 Unity Packages using:
 Addressables,
