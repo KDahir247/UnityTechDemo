@@ -4,6 +4,7 @@ Self teaching on some of unity's packages and some other plugin. (Ongoing)
 <br/>
 <br/>
 Working on the MessagePack Attributes on the Database Data script for all the database tables (currently)
+After Database system passes i will be working on the snapshot provider system and architecture (Animation that are utilizing the burst compiler)
 
 Unity Packages using:
 Addressables,
