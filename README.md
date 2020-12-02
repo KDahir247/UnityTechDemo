@@ -3,7 +3,7 @@
 Self teaching on some of unity's packages and some other plugin. (Ongoing) 
 <br/>
 <br/>
-Working on the Database Data for all the database tables (currently)
+Working on the MessagePack Attributes on the Database Data script for all the database tables (currently)
 
 Unity Packages using:
 Addressables,
