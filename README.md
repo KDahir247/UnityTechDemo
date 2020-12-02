@@ -3,11 +3,20 @@
 Self teaching on some of unity's packages and some other plugin. (Ongoing) 
 <br/>
 <br/>
-Working on the MessagePack Attributes on the Database Data script for all the database tables (currently)
-<br/>
-<br/>
 I will be working on the snapshot provider system and architecture (Animation that are utilizing the burst compiler), which can be
 located in Assets->Scripts->Animation->Provider
+<br/> Current Kinematica Package Caveats:
+<br/>
+Can't Disable and Re-Enable GameObject with Kinematica or it will throw an assert exception on the SnapShot script and registry script
+<br/>
+Can't change binary reference on Kinematica. It will not update Kinematica.
+<br/>
+Not fully integrated with DOTS.
+<br/>
+Animation must be generic and can't be anything else.
+<br/>
+<br/>
+
 
 Unity Packages using:
 Addressables,
