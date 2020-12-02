@@ -112,11 +112,11 @@ Cleaning, refactoring, and optimizing code.
 <br/>
 Complete the creation scene
 <br/>
-Create in-memory database to store data
+Create in-memory database to store data (Complete)
 <br/>
 Error with the addressable layout. Can't build project due to it but it is still playable in the editor
 <br/>
-Decide on the animation system. Common Animator, Kinematica, animation ecs job 
+Decide on the animation system. Common Animator, Kinematica, animation ecs job (Complete using Kinematica)
 <br/>
 update the version in main menu so it reflect the Application version (Complete)
 <br/>
