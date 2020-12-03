@@ -4,8 +4,13 @@ Self teaching on some of unity's packages and some other plugin. (Ongoing)
 <br/>
 <br/>
 I will be working on the snapshot provider system and architecture (Animation that are utilizing the burst compiler and Jobs), which can be
-located in Assets->Scripts->Animation->Provider
-<br/> Current Kinematica Package Caveats:
+located in Assets->Scripts->Animation->Provider (Currently doing)
+<br/>
+<br/>
+Creating a ReactiveJobQueue to deactivate and activate the skinned mesh render in a circular queue like. Instead of destroying and then instantiating for performance reason. (Currently doing)
+<br/>
+<br/>
+Current Kinematica Package Caveats:
 <br/>
 Can't Disable and Re-Enable GameObject with Kinematica or it will throw an assert exception on the SnapShot script and registry script
 <br/>
