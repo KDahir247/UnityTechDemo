@@ -17,14 +17,14 @@ public class CreationDocumentQ : MonoBehaviour
             .Q<Creation_Document>();
     }
 
-    public void OnStateChange(GameObject state)
-    {
-        if (!_stateMachine)
-        {
-            _stateMachine = state.GetComponentInParent<StateMachine>();
-
-            _coreVisualElement
-                .RetrieveStateMachine(_stateMachine);
-        }
-    }
+    // public void OnStateChange(GameObject state)
+    // {
+    //     if (!_stateMachine)
+    //     {
+    //         _stateMachine = state.GetComponentInParent<StateMachine>();
+    //
+    //         _coreVisualElement
+    //             .RetrieveStateMachine(_stateMachine);
+    //     }
+    // }
 }

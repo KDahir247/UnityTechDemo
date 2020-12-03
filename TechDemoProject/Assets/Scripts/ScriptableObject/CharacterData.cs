@@ -5,6 +5,7 @@ using UnityEngine.AddressableAssets;
 namespace Tech.Data.Scriptable
 {
     [CreateAssetMenu(fileName = "DefaultCharacter", menuName = "Character/Data/CharacterData", order = 33)]
+    [PreferBinarySerialization]
     public class CharacterData : ScriptableObject
     {
         public string key;

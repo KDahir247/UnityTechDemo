@@ -91,7 +91,7 @@ namespace Tech.UI.Panel
         {
             return evt =>
             {
-                _characterStateMachine.ChangeState(index);
+                // _characterStateMachine.ChangeState(index);
 
                 for (var i = 0; i < _skills.Length; i++)
                 {
@@ -117,7 +117,7 @@ namespace Tech.UI.Panel
         //TODO Remove
         public void RetrieveStateMachine([NotNull] StateMachine stateMachine)
         {
-            _characterStateMachine = stateMachine;
+            // _characterStateMachine = stateMachine;
         }
 
         public new class UxmlFactory : UxmlFactory<Creation_Document, UxmlTraits>

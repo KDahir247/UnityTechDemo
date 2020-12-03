@@ -1,6 +1,6 @@
 ﻿using Unity.Kinematica;
 
-namespace Tech.Animation.Annotation
+namespace Tech.Animation
 {
     [Trait]
     public struct Locomotion

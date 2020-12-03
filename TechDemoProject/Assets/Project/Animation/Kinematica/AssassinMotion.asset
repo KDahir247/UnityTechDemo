@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67ddb658bcc363b4bbf299214cfbe711, type: 3}
+  m_Name: AssassinMotion
+  m_EditorClassIdentifier: 
+  animationLibrary: []
+  destinationAvatar: {fileID: 0}
+  timeHorizon: 1
+  sampleRate: 30
+  m_Data:
+    syncedWithBinary: 1
+    animationLibrary:
+    - m_PreBoundaryClipGuid:
+        val0: -1015474584
+        val1: 2107899980
+        val2: -1685314120
+        val3: 1923834864
+      m_PostBoundaryClipGuid:
+        val0: -1015474584
+        val1: 2107899980
+        val2: -1685314120
+        val3: 1923834864
+      m_PreBoundaryClip: {fileID: 0}
+      m_PostBoundaryClip: {fileID: 0}
+      m_AnimationClipReference: {fileID: 0}
+      m_AnimationClipGuid:
+        val0: -1015474584
+        val1: 2107899980
+        val2: -1685314120
+        val3: 1923834864
+      m_CachedClipVersion: 14
+      m_CachedClipName: Idle
+      m_CachedClipDuration: 19.833334
+      m_CachedSampleRate: 30
+      m_RetargetSourceAvatar: {fileID: 0}
+      tags:
+      - startTime: 0
+        duration: 19.833334
+        payload:
+          serializedData: '{}'
+          assemblyQualifiedTypeName: Tech.Animation.LocomotionTag, Assembly-CSharp,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        name: 
+      - startTime: 0
+        duration: 19.833334
+        payload:
+          serializedData: '{}'
+          assemblyQualifiedTypeName: Tech.Animation.IdleTag, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        name: 
+      markers: []
+      m_Asset: {fileID: 11400000}
+    - m_PreBoundaryClipGuid:
+        val0: 1684724429
+        val1: -840659942
+        val2: 1479793561
+        val3: 254476544
+      m_PostBoundaryClipGuid:
+        val0: 1684724429
+        val1: -840659942
+        val2: 1479793561
+        val3: 254476544
+      m_PreBoundaryClip: {fileID: 0}
+      m_PostBoundaryClip: {fileID: 0}
+      m_AnimationClipReference: {fileID: 0}
+      m_AnimationClipGuid:
+        val0: -1876729885
+        val1: 679782008
+        val2: 1968972842
+        val3: -1998960289
+      m_CachedClipVersion: 4
+      m_CachedClipName: Skill1
+      m_CachedClipDuration: 2.8666666
+      m_CachedSampleRate: 30
+      m_RetargetSourceAvatar: {fileID: 0}
+      tags:
+      - startTime: 0
+        duration: 2.8666666
+        payload:
+          serializedData: '{}'
+          assemblyQualifiedTypeName: Tech.Animation.LocomotionTag, Assembly-CSharp,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        name: 
+      markers: []
+      m_Asset: {fileID: 11400000}
+    - m_PreBoundaryClipGuid:
+        val0: -1015474584
+        val1: 2107899980
+        val2: -1685314120
+        val3: 1923834864
+      m_PostBoundaryClipGuid:
+        val0: -1015474584
+        val1: 2107899980
+        val2: -1685314120
+        val3: 1923834864
+      m_PreBoundaryClip: {fileID: 0}
+      m_PostBoundaryClip: {fileID: 0}
+      m_AnimationClipReference: {fileID: 0}
+      m_AnimationClipGuid:
+        val0: 1684724429
+        val1: -840659942
+        val2: 1479793561
+        val3: 254476544
+      m_CachedClipVersion: 4
+      m_CachedClipName: Skill2
+      m_CachedClipDuration: 2.3333333
+      m_CachedSampleRate: 30
+      m_RetargetSourceAvatar: {fileID: 0}
+      tags:
+      - startTime: 0
+        duration: 2.3333333
+        payload:
+          serializedData: '{}'
+          assemblyQualifiedTypeName: Tech.Animation.IdleTag, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        name: 
+      markers:
+      - timeInSeconds: 0.2
+        payload:
+          serializedData: '{}'
+          assemblyQualifiedTypeName: Tech.Animation.TestingMarker, Assembly-CSharp,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      m_Asset: {fileID: 11400000}
+    destinationAvatar: {fileID: 9000000, guid: 317a56890b5c8e74ab1d492a2c7fb608, type: 3}
+    metrics:
+    - name: Default
+      tagTypes:
+        m_TagTypeNames: []
+      numPoses: 2
+      poseSampleRatio: 0.3333
+      joints:
+      - B-foot_L
+      - B-foot_R
+      - B-neck
+      trajectorySampleRatio: 0.3333
+      trajectorySampleRange: 0
+      trajectoryDisplacements: 0
+      numAttempts: 1
+      numIterations: 25
+      minimumNumberSamples: 32
+      maximumNumberSamples: 256
+    timeHorizon: 1
+    sampleRate: 30
+  m_SerializeVersion: 3

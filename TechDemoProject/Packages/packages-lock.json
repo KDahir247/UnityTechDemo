@@ -99,7 +99,7 @@
     },
     "com.unity.collections": {
       "version": "0.11.0-preview.17",
-      "depth": 1,
+      "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.test-framework.performance": "2.0.8-preview",
@@ -193,7 +193,7 @@
     },
     "com.unity.nuget.newtonsoft-json": {
       "version": "2.0.0-preview",
-      "depth": 3,
+      "depth": 2,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"

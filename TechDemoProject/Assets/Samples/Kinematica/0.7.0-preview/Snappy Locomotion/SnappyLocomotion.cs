@@ -64,6 +64,7 @@ namespace SnappyLocomotion
             }
 
             locomotion = selector.GetAs<SelectorTask>();
+            
         }
 
         public virtual void OnAnimatorMove()

@@ -45,6 +45,7 @@ namespace Tech.UI.Panel
             _optionButton = this.Q<Button>("Option_Button");
             _supportButton = this.Q<Button>("Support_Button");
             _mailButton = this.Q<Button>("Mail_Button");
+            
         }
 
         protected override void Start()
