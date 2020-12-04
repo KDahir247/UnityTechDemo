@@ -11,7 +11,6 @@ namespace Tech.UI.Panel
 {
     public class Creation_Document : Base_Document
     {
-        private readonly MemoryDatabase _db = TechDB.LoadDataBase(FileDestination.SkillPath);
 
         private readonly Button[] _skills = new Button[3];
 
@@ -66,17 +65,11 @@ namespace Tech.UI.Panel
 
             //TODO get the character name rather then the skills from the database and from there get the skill for that character.
             // this.Q<Button>("Create_Button").RegisterCallback<ClickEvent>();
-            _assassinButton.RegisterCallback(ChangeSkillTexture<ClickEvent>("CritHit",
-                "DoubleStrike",
-                "ReapWhatIsOwed"));
+            _assassinButton.RegisterCallback(ChangeSkillTexture<ClickEvent>("Assassin"));
 
-            _necromancerButton.RegisterCallback(ChangeSkillTexture<ClickEvent>("ContractWithDeath",
-                "Hallow",
-                "Summon Cerberus"));
+            _necromancerButton.RegisterCallback(ChangeSkillTexture<ClickEvent>("Necromancer"));
 
-            _oracleButton.RegisterCallback(ChangeSkillTexture<ClickEvent>("Forgiveness",
-                "7Virtues",
-                "AngelOfRetribution"));
+            _oracleButton.RegisterCallback(ChangeSkillTexture<ClickEvent>("Oracle"));
         }
 
         protected override void OnDestroy()
@@ -84,23 +77,33 @@ namespace Tech.UI.Panel
         }
 
         [NotNull]
-        private EventCallback<T> ChangeSkillTexture<T>(params string[] skillDatabase)
+        private EventCallback<T> ChangeSkillTexture<T>(string unitName)
             where T : PointerEventBase<T>, new()
         {
             return evt =>
             {
-                for (var i = 0; i < _skills.Length; i++)
-                {
-                    var skill = _db.SkillTable.FindByName(skillDatabase[i]);
-                    var tex = new Texture2D(256, 256, TextureFormat.DXT1, false);
-                    tex.LoadRawTextureData(skill.ImageBytes);
-                    tex.Apply();
+                MemoryDatabase db = TechDB.LoadDataBase(FileDestination.UnitPath);
 
+                var unit = db.UnitTable.FindByName(unitName);
+                
+                //TODO currently ulid messagepack serialization does work due to it containing the ignoreMember attribute. (Need to be fixed)
+                MessageBroker
+                    .Default
+                    .Publish(unit.Name);
+                
+                for (var i = 0; i < unit.Skills.Length; i++)
+                {
+                    var tex = new Texture2D(256, 256, TextureFormat.DXT1, false);
+                    tex.LoadRawTextureData(unit.Skills[i].ImageBytes);
+                    tex.Apply();
+                
                     var styleBackgroundImage = _skills[i].style.backgroundImage;
                     styleBackgroundImage.value = Background.FromTexture2D(tex);
                     _skills[i].style.backgroundImage = styleBackgroundImage;
                 }
 
+                
+                
                 //set the correct model to show and disable the incorrect model type
                 //TODO when using character instead we can query the database of the string passes in the parameter.
                 //TODO to recieve the Ulid id for the character and the publish the ulid through the message broker.

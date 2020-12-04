@@ -49,7 +49,7 @@ namespace MessagePack.Resolvers
 
         static GeneratedResolverGetFormatterHelper()
         {
-            lookup = new global::System.Collections.Generic.Dictionary<Type, int>(42)
+            lookup = new global::System.Collections.Generic.Dictionary<Type, int>(43)
             {
                 { typeof(global::Tech.Data.EquipmentData[]), 0 },
                 { typeof(global::Tech.Data.SkillData[]), 1 },
@@ -88,11 +88,12 @@ namespace MessagePack.Resolvers
                 { typeof(global::Tech.DB.Enemy), 34 },
                 { typeof(global::Tech.DB.Equipment), 35 },
                 { typeof(global::Tech.DB.Item), 36 },
-                { typeof(global::Tech.DB.Skill), 37 },
-                { typeof(global::Tech.DB.TechMaterial), 38 },
-                { typeof(global::Tech.DB.Unit), 39 },
-                { typeof(global::Tech.DB.Weapon), 40 },
-                { typeof(global::Tech.Network.Param.Player), 41 },
+                { typeof(global::Tech.DB.Nill), 37 },
+                { typeof(global::Tech.DB.Skill), 38 },
+                { typeof(global::Tech.DB.TechMaterial), 39 },
+                { typeof(global::Tech.DB.Unit), 40 },
+                { typeof(global::Tech.DB.Weapon), 41 },
+                { typeof(global::Tech.Network.Param.Player), 42 },
             };
         }
 
@@ -143,11 +144,12 @@ namespace MessagePack.Resolvers
                 case 34: return new MessagePack.Formatters.Tech.DB.EnemyFormatter();
                 case 35: return new MessagePack.Formatters.Tech.DB.EquipmentFormatter();
                 case 36: return new MessagePack.Formatters.Tech.DB.ItemFormatter();
-                case 37: return new MessagePack.Formatters.Tech.DB.SkillFormatter();
-                case 38: return new MessagePack.Formatters.Tech.DB.TechMaterialFormatter();
-                case 39: return new MessagePack.Formatters.Tech.DB.UnitFormatter();
-                case 40: return new MessagePack.Formatters.Tech.DB.WeaponFormatter();
-                case 41: return new MessagePack.Formatters.Tech.Network.Param.PlayerFormatter();
+                case 37: return new MessagePack.Formatters.Tech.DB.NillFormatter();
+                case 38: return new MessagePack.Formatters.Tech.DB.SkillFormatter();
+                case 39: return new MessagePack.Formatters.Tech.DB.TechMaterialFormatter();
+                case 40: return new MessagePack.Formatters.Tech.DB.UnitFormatter();
+                case 41: return new MessagePack.Formatters.Tech.DB.WeaponFormatter();
+                case 42: return new MessagePack.Formatters.Tech.Network.Param.PlayerFormatter();
                 default: return null;
             }
         }
@@ -4653,6 +4655,91 @@ namespace MessagePack.Formatters.Tech.DB
             ____result.Description = __Description__;
             ____result.ImageBytes = __ImageBytes__;
             ____result.ItemInfo = __ItemInfo__;
+            ____result.Index = __Index__;
+            ____result.OnAfterDeserialize();
+            reader.Depth--;
+            return ____result;
+        }
+    }
+
+    public sealed class NillFormatter : global::MessagePack.Formatters.IMessagePackFormatter<global::Tech.DB.Nill>
+    {
+
+
+        private readonly global::MessagePack.Internal.AutomataDictionary ____keyMapping;
+        private readonly byte[][] ____stringByteKeys;
+
+        public NillFormatter()
+        {
+            this.____keyMapping = new global::MessagePack.Internal.AutomataDictionary()
+            {
+                { "Name", 0 },
+                { "Index", 1 },
+            };
+
+            this.____stringByteKeys = new byte[][]
+            {
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Name"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Index"),
+            };
+        }
+
+        public void Serialize(ref MessagePackWriter writer, global::Tech.DB.Nill value, global::MessagePack.MessagePackSerializerOptions options)
+        {
+            if (value == null)
+            {
+                writer.WriteNil();
+                return;
+            }
+
+            IFormatterResolver formatterResolver = options.Resolver;
+            value.OnBeforeSerialize();
+            writer.WriteMapHeader(2);
+            writer.WriteRaw(this.____stringByteKeys[0]);
+            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.Name, options);
+            writer.WriteRaw(this.____stringByteKeys[1]);
+            writer.Write(value.Index);
+        }
+
+        public global::Tech.DB.Nill Deserialize(ref MessagePackReader reader, global::MessagePack.MessagePackSerializerOptions options)
+        {
+            if (reader.TryReadNil())
+            {
+                return null;
+            }
+
+            options.Security.DepthStep(ref reader);
+            IFormatterResolver formatterResolver = options.Resolver;
+            var length = reader.ReadMapHeader();
+            var __Name__ = default(string);
+            var __Index__ = default(int);
+
+            for (int i = 0; i < length; i++)
+            {
+                ReadOnlySpan<byte> stringKey = global::MessagePack.Internal.CodeGenHelpers.ReadStringSpan(ref reader);
+                int key;
+                if (!this.____keyMapping.TryGetValue(stringKey, out key))
+                {
+                    reader.Skip();
+                    continue;
+                }
+
+                switch (key)
+                {
+                    case 0:
+                        __Name__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
+                        break;
+                    case 1:
+                        __Index__ = reader.ReadInt32();
+                        break;
+                    default:
+                        reader.Skip();
+                        break;
+                }
+            }
+
+            var ____result = new global::Tech.DB.Nill();
+            ____result.Name = __Name__;
             ____result.Index = __Index__;
             ____result.OnAfterDeserialize();
             reader.Depth--;

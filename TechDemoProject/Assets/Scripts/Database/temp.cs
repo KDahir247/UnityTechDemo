@@ -36,7 +36,7 @@ public class temp : MonoBehaviour
                 new Skill {Name = "Help", Index = 11}
             });
 
-            await _dynamicDbBuilder.Build(a);
+             _dynamicDbBuilder.Build(a);
         }
     }
 }

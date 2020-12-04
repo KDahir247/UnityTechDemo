@@ -46,16 +46,17 @@ namespace MasterData
 
         static MasterMemoryResolverGetFormatterHelper()
         {
-            lookup = new global::System.Collections.Generic.Dictionary<Type, int>(8)
+            lookup = new global::System.Collections.Generic.Dictionary<Type, int>(9)
             {
                 {typeof(Ability[]), 0 },
                 {typeof(Enemy[]), 1 },
                 {typeof(Equipment[]), 2 },
                 {typeof(Item[]), 3 },
-                {typeof(Skill[]), 4 },
-                {typeof(TechMaterial[]), 5 },
-                {typeof(Unit[]), 6 },
-                {typeof(Weapon[]), 7 },
+                {typeof(Nill[]), 4 },
+                {typeof(Skill[]), 5 },
+                {typeof(TechMaterial[]), 6 },
+                {typeof(Unit[]), 7 },
+                {typeof(Weapon[]), 8 },
             };
         }
 
@@ -70,10 +71,11 @@ namespace MasterData
                 case 1: return new MessagePack.Formatters.ArrayFormatter<Enemy>();
                 case 2: return new MessagePack.Formatters.ArrayFormatter<Equipment>();
                 case 3: return new MessagePack.Formatters.ArrayFormatter<Item>();
-                case 4: return new MessagePack.Formatters.ArrayFormatter<Skill>();
-                case 5: return new MessagePack.Formatters.ArrayFormatter<TechMaterial>();
-                case 6: return new MessagePack.Formatters.ArrayFormatter<Unit>();
-                case 7: return new MessagePack.Formatters.ArrayFormatter<Weapon>();
+                case 4: return new MessagePack.Formatters.ArrayFormatter<Nill>();
+                case 5: return new MessagePack.Formatters.ArrayFormatter<Skill>();
+                case 6: return new MessagePack.Formatters.ArrayFormatter<TechMaterial>();
+                case 7: return new MessagePack.Formatters.ArrayFormatter<Unit>();
+                case 8: return new MessagePack.Formatters.ArrayFormatter<Weapon>();
                 default: return null;
             }
         }

@@ -37,6 +37,7 @@ namespace Tech.DB
                 UnityResolver.Instance,
                 UnityBlitResolver.Instance,
                 MasterMemoryResolver.Instance,
+                Cysharp.Serialization.MessagePack.UlidMessagePackResolver.Instance,
                 StandardResolver.Instance,
                 PrimitiveObjectResolver.Instance)
         {
@@ -54,6 +55,29 @@ namespace Tech.DB
             }
         }
 
+        public async UniTask Initialize()
+        {
+            foreach (string pathValue in GlobalSetting.DataPath.Values)
+            {
+                
+                _buildBytes = _builder.Build();
+                var resourceDir = $"{Application.dataPath}/Resources";
+                Directory.CreateDirectory(resourceDir);
+                var fileName = $"/{pathValue}.bytes";
+                
+                using (var fs = new FileStream(resourceDir + fileName, FileMode.Create))
+                {
+                     await fs.WriteAsync(_buildBytes, 0, _buildBytes.Length);
+                }
+
+                AssetDatabase.Refresh();
+                
+            }
+            
+            
+            
+        }
+
         public async UniTask Build([NotNull] Func<DatabaseBuilder, DatabaseBuilder> builderAction,
             FileDestination fileDestination)
         {
@@ -66,7 +90,6 @@ namespace Tech.DB
             if (File.Exists($"{Application.dataPath}/Resources/{_path}.bytes") &&
                 _buildBytes.SequenceEqual(Resources.Load<TextAsset>(_path)?.bytes ?? new byte[1] {0xff}))
             {
-                Debug.Log("returning");
                 return;
             }
 

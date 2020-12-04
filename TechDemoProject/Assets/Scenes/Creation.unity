@@ -123,53 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &77219838
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 77219840}
-  - component: {fileID: 77219839}
-  m_Layer: 0
-  m_Name: CursorFx
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &77219839
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 77219838}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83f7ee8f8993d9d4093112705fb715fa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  assetRef:
-  - m_AssetGUID: 728ac8214f68c0d4098d2fa258e5de45
-    m_SubObjectName: 
-  clickVfxDepth: 10
---- !u!4 &77219840
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 77219838}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &235640388 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7112794362238311067, guid: 3f88429ea490dd3439d03b3f20a9691c,
@@ -422,7 +375,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &991380110 stripped
 Transform:
@@ -657,7 +610,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -114.000015, y: 0}
+  m_AnchoredPosition: {x: -114, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2098215289
@@ -753,6 +706,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3496884793912936124, guid: 67039c8aa2e03e5438169dbc5bac9ecd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 67039c8aa2e03e5438169dbc5bac9ecd, type: 3}
 --- !u!1 &3496884792895434948 stripped
@@ -773,10 +731,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3a553aa08932794b9d5f8f9a5d64ba9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterData:
+  unitData:
     name: Assassin
     description: 
-    image: {fileID: 0}
+    image: 000000
     weaponData:
       name: 
       description: 
@@ -789,20 +747,18 @@ MonoBehaviour:
       abilityDescription: 
       image: {fileID: 0}
     skillDatas:
-    - name: CritHit
+    - name: 
       image: {fileID: 2800000, guid: 6a2a06074b09455499b398f7de3a040b, type: 3}
       description: 
       skillDescription: 
-    - name: DoubleStrike
+    - name: 
       image: {fileID: 2800000, guid: 7541aa08aae8c784eac6c5145bf2d47d, type: 3}
       description: 
       skillDescription: 
-    - name: ReapWhatIsOwed
+    - name: 
       image: {fileID: 2800000, guid: ce96532d4bf29b348aa20c623f110bdc, type: 3}
       description: 
       skillDescription: 
-    a: 0
-    Rarity: 0
 --- !u!1001 &6985892683267585506
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -810,6 +766,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 590878730}
     m_Modifications:
+    - target: {fileID: 6985892682055943377, guid: bbbe62c8df43946458f8cda7d3a6bef7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6985892682055943383, guid: bbbe62c8df43946458f8cda7d3a6bef7,
         type: 3}
       propertyPath: m_Name
@@ -890,10 +851,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3a553aa08932794b9d5f8f9a5d64ba9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterData:
-    name: 
+  unitData:
+    name: Oracle
     description: 
-    image: {fileID: 0}
+    image: 
     weaponData:
       name: 
       description: 
@@ -905,9 +866,19 @@ MonoBehaviour:
       description: 
       abilityDescription: 
       image: {fileID: 0}
-    skillDatas: []
-    a: 0
-    Rarity: 0
+    skillDatas:
+    - name: 
+      image: {fileID: 2800000, guid: 9b02b0c0fd00fcb40a29fc9047c73e3e, type: 3}
+      description: 
+      skillDescription: 
+    - name: 
+      image: {fileID: 2800000, guid: 67f180f2b51275b4198ce5301cc3d550, type: 3}
+      description: 
+      skillDescription: 
+    - name: 
+      image: {fileID: 2800000, guid: ce9242735c2ec8f4eb5c63e3794bd8e8, type: 3}
+      description: 
+      skillDescription: 
 --- !u!1001 &7112794362204261599
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -995,10 +966,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3a553aa08932794b9d5f8f9a5d64ba9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterData:
+  unitData:
     name: Necromancer
     description: 
-    image: {fileID: 0}
+    image: 
     weaponData:
       name: 
       description: 
@@ -1011,17 +982,15 @@ MonoBehaviour:
       abilityDescription: 
       image: {fileID: 0}
     skillDatas:
-    - name: ContractWithAbyss
-      image: {fileID: 0}
+    - name: 
+      image: {fileID: 2800000, guid: 266177b70820532409c951d26a542900, type: 3}
       description: 
       skillDescription: 
     - name: 
-      image: {fileID: 0}
+      image: {fileID: 2800000, guid: ed55447bf9aaafe4a9d891333152f827, type: 3}
       description: 
       skillDescription: 
     - name: 
-      image: {fileID: 0}
+      image: {fileID: 2800000, guid: 672cc7cef11322b449de1e72af8910b3, type: 3}
       description: 
       skillDescription: 
-    a: 0
-    Rarity: 0

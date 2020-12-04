@@ -31,7 +31,7 @@ namespace Tech.Core
             };
         }
 
-        public static async UniTaskVoid CreateAssetList<T>([NotNull] AssetReference assetReference,
+        public static async UniTask CreateAssetList<T>([NotNull] AssetReference assetReference,
             IList<T> objects,
             InstantiationParameters instantiationParameters,
             [CanBeNull] IProgress<float> progress = null,

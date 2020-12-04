@@ -40,6 +40,12 @@ namespace MasterData
             return this;
         }
 
+        public DatabaseBuilder Append(System.Collections.Generic.IEnumerable<Nill> dataSource)
+        {
+            AppendCore(dataSource, x => x.Name, System.StringComparer.Ordinal);
+            return this;
+        }
+
         public DatabaseBuilder Append(System.Collections.Generic.IEnumerable<Skill> dataSource)
         {
             AppendCore(dataSource, x => x.Name, System.StringComparer.Ordinal);

@@ -40,6 +40,7 @@ MonoBehaviour:
         val1: -434889551
         val2: 830076650
         val3: 1223553204
+      m_CachedClipVersion: 0
       m_CachedClipName: HalfSteps2Idle_PasingLongStepTOIdle
       m_CachedClipDuration: 4.3
       m_CachedSampleRate: 30
@@ -75,6 +76,7 @@ MonoBehaviour:
         val1: -457910146
         val2: -1522266149
         val3: -603029367
+      m_CachedClipVersion: 0
       m_CachedClipName: HalfSteps2Idle_PasingLongStepTOIdle_Right
       m_CachedClipDuration: 4.3
       m_CachedSampleRate: 30
@@ -109,6 +111,7 @@ MonoBehaviour:
         val1: -458986905
         val2: -1758849031
         val3: 782223112
+      m_CachedClipVersion: 0
       m_CachedClipName: Idle2Run45L
       m_CachedClipDuration: 3.1333334
       m_CachedSampleRate: 30
@@ -155,6 +158,7 @@ MonoBehaviour:
         val1: -1470860731
         val2: -927263175
         val3: 945577205
+      m_CachedClipVersion: 0
       m_CachedClipName: Idle2Run45R
       m_CachedClipDuration: 3.1333334
       m_CachedSampleRate: 30
@@ -189,6 +193,7 @@ MonoBehaviour:
         val1: 1351906603
         val2: 1670095304
         val3: -2026608647
+      m_CachedClipVersion: 0
       m_CachedClipName: Idle2Run90L
       m_CachedClipDuration: 3.2666667
       m_CachedSampleRate: 30
@@ -223,6 +228,7 @@ MonoBehaviour:
         val1: -125504923
         val2: -175530856
         val3: 525210537
+      m_CachedClipVersion: 0
       m_CachedClipName: Idle2Run90R
       m_CachedClipDuration: 3.2666667
       m_CachedSampleRate: 30
@@ -257,6 +263,7 @@ MonoBehaviour:
         val1: -2020304787
         val2: -222814727
         val3: -699241905
+      m_CachedClipVersion: 0
       m_CachedClipName: Idle2Run135L
       m_CachedClipDuration: 3.2666667
       m_CachedSampleRate: 30
@@ -291,6 +298,7 @@ MonoBehaviour:
         val1: -1207643456
         val2: 758212633
         val3: 1217925613
+      m_CachedClipVersion: 0
       m_CachedClipName: Idle2Run135R
       m_CachedClipDuration: 3.2666667
       m_CachedSampleRate: 30
@@ -325,6 +333,7 @@ MonoBehaviour:
         val1: -1220267501
         val2: -1059536389
         val3: 1982452332
+      m_CachedClipVersion: 0
       m_CachedClipName: Idle2Run180L
       m_CachedClipDuration: 3.2333333
       m_CachedSampleRate: 30
@@ -359,6 +368,7 @@ MonoBehaviour:
         val1: 1546947510
         val2: -1670531559
         val3: -1179579688
+      m_CachedClipVersion: 0
       m_CachedClipName: Idle2Run180R
       m_CachedClipDuration: 3.2333333
       m_CachedSampleRate: 30
@@ -392,6 +402,7 @@ MonoBehaviour:
         val1: 1792301189
         val2: -1492038856
         val3: -1813298355
+      m_CachedClipVersion: 0
       m_CachedClipName: Idle2walk_AllAngles
       m_CachedClipDuration: 35.333332
       m_CachedSampleRate: 30
@@ -425,6 +436,7 @@ MonoBehaviour:
         val1: -41623037
         val2: 1643016792
         val3: 1075179279
+      m_CachedClipVersion: 0
       m_CachedClipName: Idle2walk_AllAngles_Right
       m_CachedClipDuration: 35.333332
       m_CachedSampleRate: 30
@@ -458,6 +470,7 @@ MonoBehaviour:
         val1: -735810392
         val2: 283733098
         val3: 604893466
+      m_CachedClipVersion: 0
       m_CachedClipName: JogForwardTurnLeft_NtrlMedium
       m_CachedClipDuration: 5.1666665
       m_CachedSampleRate: 30
@@ -491,6 +504,7 @@ MonoBehaviour:
         val1: 1673821069
         val2: 1809495897
         val3: -727083633
+      m_CachedClipVersion: 0
       m_CachedClipName: JogForwardTurnRight_NtrlMedium
       m_CachedClipDuration: 5.1666665
       m_CachedSampleRate: 30
@@ -525,6 +539,7 @@ MonoBehaviour:
         val1: 1831093060
         val2: -1309714870
         val3: -1610912192
+      m_CachedClipVersion: 0
       m_CachedClipName: PlantNTurn90_Run_L
       m_CachedClipDuration: 4.3
       m_CachedSampleRate: 30
@@ -559,6 +574,7 @@ MonoBehaviour:
         val1: -94082841
         val2: 509838938
         val3: -1863607183
+      m_CachedClipVersion: 0
       m_CachedClipName: PlantNTurn90_Run_R
       m_CachedClipDuration: 4.3
       m_CachedSampleRate: 30
@@ -592,6 +608,7 @@ MonoBehaviour:
         val1: 2138343294
         val2: -519244757
         val3: 516256155
+      m_CachedClipVersion: 0
       m_CachedClipName: PlantNTurn135_Run_L
       m_CachedClipDuration: 6.866667
       m_CachedSampleRate: 30
@@ -625,8 +642,9 @@ MonoBehaviour:
         val1: -734730314
         val2: -913484968
         val3: 1142602483
+      m_CachedClipVersion: 0
       m_CachedClipName: PlantNTurn135_Run_R
-      m_CachedClipDuration: 6.8333335
+      m_CachedClipDuration: 6.866667
       m_CachedSampleRate: 30
       m_RetargetSourceAvatar: {fileID: 0}
       tags:
@@ -658,6 +676,7 @@ MonoBehaviour:
         val1: 654614353
         val2: 1081713401
         val3: 1349353762
+      m_CachedClipVersion: 0
       m_CachedClipName: PlantNTurn180_Run_L_2
       m_CachedClipDuration: 6.6666665
       m_CachedSampleRate: 30
@@ -691,6 +710,7 @@ MonoBehaviour:
         val1: -1310409929
         val2: -709075335
         val3: 1534278661
+      m_CachedClipVersion: 0
       m_CachedClipName: PlantNTurn180_Run_R_2
       m_CachedClipDuration: 6.6666665
       m_CachedSampleRate: 30
@@ -726,6 +746,7 @@ MonoBehaviour:
         val1: 619976691
         val2: -1906302968
         val3: -1332287975
+      m_CachedClipVersion: 0
       m_CachedClipName: RunForward_NtrlFaceFwd
       m_CachedClipDuration: 1.1
       m_CachedSampleRate: 30
@@ -760,6 +781,7 @@ MonoBehaviour:
         val1: 984919416
         val2: 926866057
         val3: -1207139330
+      m_CachedClipVersion: 0
       m_CachedClipName: RunForwardStart
       m_CachedClipDuration: 2.6333334
       m_CachedSampleRate: 30
@@ -794,6 +816,7 @@ MonoBehaviour:
         val1: -1881874070
         val2: 1523823177
         val3: -1645753363
+      m_CachedClipVersion: 0
       m_CachedClipName: RunForwardTurnLeft_NtrlShort_2
       m_CachedClipDuration: 9.4
       m_CachedSampleRate: 30
@@ -828,6 +851,7 @@ MonoBehaviour:
         val1: -1644940415
         val2: -674819142
         val3: 901260790
+      m_CachedClipVersion: 0
       m_CachedClipName: RunForwardTurnLeft_NtrlWide
       m_CachedClipDuration: 7.633333
       m_CachedSampleRate: 30
@@ -862,6 +886,7 @@ MonoBehaviour:
         val1: -1247480811
         val2: -1605229621
         val3: -1045899444
+      m_CachedClipVersion: 0
       m_CachedClipName: RunForwardTurnRight_NtrlShort_2
       m_CachedClipDuration: 9.4
       m_CachedSampleRate: 30
@@ -896,6 +921,7 @@ MonoBehaviour:
         val1: -1938492559
         val2: -82268037
         val3: 375863272
+      m_CachedClipVersion: 0
       m_CachedClipName: RunForwardTurnRight_NtrlWide 1
       m_CachedClipDuration: 7.633333
       m_CachedSampleRate: 30
@@ -930,6 +956,7 @@ MonoBehaviour:
         val1: 1694822933
         val2: 1000824939
         val3: 418572466
+      m_CachedClipVersion: 0
       m_CachedClipName: RunForwardTurnRight_NtrlWide
       m_CachedClipDuration: 7.633333
       m_CachedSampleRate: 30
@@ -963,6 +990,7 @@ MonoBehaviour:
         val1: 1273264267
         val2: 1134023691
         val3: -436342797
+      m_CachedClipVersion: 0
       m_CachedClipName: RunFwdStop
       m_CachedClipDuration: 2.2333333
       m_CachedSampleRate: 30
@@ -996,6 +1024,7 @@ MonoBehaviour:
         val1: 927219895
         val2: -1227149349
         val3: -1108887501
+      m_CachedClipVersion: 0
       m_CachedClipName: SmallStep
       m_CachedClipDuration: 3.2
       m_CachedSampleRate: 30

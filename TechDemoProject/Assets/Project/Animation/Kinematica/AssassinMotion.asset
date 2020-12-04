@@ -17,7 +17,7 @@ MonoBehaviour:
   timeHorizon: 1
   sampleRate: 30
   m_Data:
-    syncedWithBinary: 1
+    syncedWithBinary: 0
     animationLibrary:
     - m_PreBoundaryClipGuid:
         val0: -1015474584
@@ -37,7 +37,7 @@ MonoBehaviour:
         val1: 2107899980
         val2: -1685314120
         val3: 1923834864
-      m_CachedClipVersion: 14
+      m_CachedClipVersion: 15
       m_CachedClipName: Idle
       m_CachedClipDuration: 19.833334
       m_CachedSampleRate: 30
@@ -77,7 +77,7 @@ MonoBehaviour:
         val1: 679782008
         val2: 1968972842
         val3: -1998960289
-      m_CachedClipVersion: 4
+      m_CachedClipVersion: 5
       m_CachedClipName: Skill1
       m_CachedClipDuration: 2.8666666
       m_CachedSampleRate: 30
@@ -110,7 +110,7 @@ MonoBehaviour:
         val1: -840659942
         val2: 1479793561
         val3: 254476544
-      m_CachedClipVersion: 4
+      m_CachedClipVersion: 5
       m_CachedClipName: Skill2
       m_CachedClipDuration: 2.3333333
       m_CachedSampleRate: 30

@@ -1,7 +1,7 @@
 ﻿
 namespace MasterData.Tables
 {
-    public sealed partial class CharacterTable
+    public sealed partial class UnitTable
     {
         partial void OnAfterConstruct()
         {

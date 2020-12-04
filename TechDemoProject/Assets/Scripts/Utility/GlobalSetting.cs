@@ -5,7 +5,6 @@ using Tech.DB;
 
 //Container for Global Parameter.
 //Test File. File hasn't been finalized 
-
 namespace Tech.Utility
 {
     //TODO fix
@@ -18,6 +17,7 @@ namespace Tech.Utility
 
         [NotNull] private static readonly Dictionary<FileDestination, string> _dataPath = new Dictionary<FileDestination, string>
         {
+            {FileDestination.AbilityPath, "ability-data"},
             {FileDestination.SkillPath, "skill-data"},
             {FileDestination.UnitPath, "unit-data"},
             {FileDestination.EquipmentPath, "equip-data"},
