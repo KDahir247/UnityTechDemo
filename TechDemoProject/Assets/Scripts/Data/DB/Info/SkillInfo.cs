@@ -21,10 +21,10 @@ namespace Tech.Data.DB
         public ParameterType SkillType { get; set; }
         public Target SkillTarget { get; set; }
         public Ailment Ailment { get; set; }
-        public uint ManapointCost { get; set; }
-        public uint NumberOfHits { get; set; }
-        public uint Duration { get; set; }
-        public uint Amount { get; set; } //Damage or heal amount
+        public int ManapointCost { get; set; }
+        public int NumberOfHits { get; set; }
+        public int Duration { get; set; }
+        public int Amount { get; set; } //Damage or heal amount
         public Stat Buff { get; set; }
     }
 }

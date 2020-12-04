@@ -6,6 +6,7 @@ using Tech.Data.DB;
 namespace Tech.DB
 {
     //todo use string compare
+    [Serializable]
     [MemoryTable("equipment")]
     [MessagePackObject(true)]
     public class Equipment : IMessagePackSerializationCallbackReceiver
@@ -13,13 +14,13 @@ namespace Tech.DB
         [IgnoreMember] public Ulid Id { get; set; }
 
         [PrimaryKey] public string Name { get; set; }
-        
+
         public string Description { get; set; }
 
         public byte[] ImageBytes { get; set; }
-        
+
         public EquipmentInfo EquipmentInfo { get; set; }
-        
+
         [SecondaryKey(2)] public int Index { get; set; }
 
 

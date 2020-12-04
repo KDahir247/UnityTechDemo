@@ -1,49 +1,42 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Cysharp.Threading.Tasks;
-using MasterData;
-using MessagePack.Resolvers;
-using MessagePack.Unity;
-using MessagePack.Unity.Extension;
-using Tech.Data.Scriptable;
+using Tech.Data;
 using Tech.DB;
-using Tech.Utility;
 using UnityEngine;
-using UnityEngine.Serialization;
 
+//There will be 8 core scripts that will run async on seperate thread to save the bare minimum for the database.
+//All unity, skill, equipment, item, material, and enemy will contain the script to append to the database. when needed.
+//so Performance is kept minimum.
+
+//Example Script of in-memory database in action
 public class temp : MonoBehaviour
 {
-    private readonly TechDBBuilder _dbBuilder = new TechDBBuilder(
-        GeneratedResolver.Instance,
-        BuiltinResolver.Instance,
-        PrimitiveObjectResolver.Instance,
-        UnityResolver.Instance,
-        UnityBlitResolver.Instance,
-        MasterMemoryResolver.Instance,
-        StandardResolver.Instance);
+    private readonly TechStaticDBBuilder _dbBuilder = new TechStaticDBBuilder();
+    private readonly TechDynamicDBBuilder _dynamicDbBuilder = new TechDynamicDBBuilder();
 
     private readonly List<Skill> _skills = new List<Skill>();
 
-    [FormerlySerializedAs("_skill")] [SerializeField]
-    private SkillDataDB skill;
+    //testing variables
+    [SerializeField] private UnitData data;
 
-    // Start is called before the first frame update
+    //Example Of how to use the database 
     private async UniTaskVoid Start()
     {
-        //doesn't need to happen every start
-        for (var i = 0; i < skill.Skills.Count; i++)
-            _skills.Add(new Skill
-            {
-                Index = i,
-                ImageBytes = skill.Skills[i].image.GetRawTextureData(),
-                Id = Ulid.NewUlid(),
-                Name = skill.Skills[i].name
-            });
-
         await _dbBuilder.Build(builder =>
         {
             builder.Append(_skills);
             return builder;
-        }, GlobalSetting.SkillDataPath);
+        }, FileDestination.SkillPath);
+
+
+        if (_dynamicDbBuilder.TryLoadDatabase(FileDestination.SkillPath, out var a))
+        {
+            a.Diff(new[]
+            {
+                new Skill {Name = "Help", Index = 11}
+            });
+
+            await _dynamicDbBuilder.Build(a);
+        }
     }
 }

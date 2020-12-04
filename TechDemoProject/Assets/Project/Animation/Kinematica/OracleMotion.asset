@@ -17,10 +17,68 @@ MonoBehaviour:
   timeHorizon: 1
   sampleRate: 30
   m_Data:
-    syncedWithBinary: 0
-    animationLibrary: []
+    syncedWithBinary: 1
+    animationLibrary:
+    - m_PreBoundaryClipGuid:
+        val0: -1955331522
+        val1: -532409428
+        val2: -1870969704
+        val3: 941153445
+      m_PostBoundaryClipGuid:
+        val0: -1955331522
+        val1: -532409428
+        val2: -1870969704
+        val3: 941153445
+      m_PreBoundaryClip: {fileID: 0}
+      m_PostBoundaryClip: {fileID: 0}
+      m_AnimationClipReference: {fileID: 0}
+      m_AnimationClipGuid:
+        val0: -1955331522
+        val1: -532409428
+        val2: -1870969704
+        val3: 941153445
+      m_CachedClipVersion: 4
+      m_CachedClipName: Idle
+      m_CachedClipDuration: 8.333333
+      m_CachedSampleRate: 30
+      m_RetargetSourceAvatar: {fileID: 0}
+      tags:
+      - startTime: 0
+        duration: 8.333333
+        payload:
+          serializedData: '{}'
+          assemblyQualifiedTypeName: Tech.Animation.IdleTag, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        name: 
+      - startTime: 0
+        duration: 8.333333
+        payload:
+          serializedData: '{}'
+          assemblyQualifiedTypeName: Tech.Animation.LocomotionTag, Assembly-CSharp,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        name: 
+      markers: []
+      m_Asset: {fileID: 11400000}
     destinationAvatar: {fileID: 9000000, guid: 7144acb9459793743bd1b60b10fe0d30, type: 3}
-    metrics: []
+    metrics:
+    - name: Default
+      tagTypes:
+        m_TagTypeNames:
+        - Tech.Animation.IdleTag
+        - Tech.Animation.LocomotionTag
+      numPoses: 2
+      poseSampleRatio: 0.3333
+      joints:
+      - B-toe_R
+      - B-toe_L
+      - B-neck
+      trajectorySampleRatio: 0.3333
+      trajectorySampleRange: 0
+      trajectoryDisplacements: 0
+      numAttempts: 1
+      numIterations: 25
+      minimumNumberSamples: 32
+      maximumNumberSamples: 256
     timeHorizon: 1
     sampleRate: 30
   m_SerializeVersion: 3

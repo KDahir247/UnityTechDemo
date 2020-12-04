@@ -3,7 +3,6 @@ using MasterData;
 using Pixelplacement;
 using Tech.Data;
 using Tech.DB;
-using Tech.Utility;
 using UniRx;
 using UnityEngine;
 using UnityEngine.UIElements;
@@ -12,7 +11,8 @@ namespace Tech.UI.Panel
 {
     public class Creation_Document : Base_Document
     {
-        private readonly MemoryDatabase _db = TechDB.LoadDataBase(GlobalSetting.SkillDataPath);
+        private readonly MemoryDatabase _db = TechDB.LoadDataBase(FileDestination.SkillPath);
+
         private readonly Button[] _skills = new Button[3];
 
         private Button _assassinButton;
@@ -64,19 +64,17 @@ namespace Tech.UI.Panel
             _rotationRightButton.RegisterCallback(RotateModel<PointerLeaveEvent>(RotationDirection.None));
             _rotationLeftButton.RegisterCallback(RotateModel<PointerLeaveEvent>(RotationDirection.None));
 
+            //TODO get the character name rather then the skills from the database and from there get the skill for that character.
             // this.Q<Button>("Create_Button").RegisterCallback<ClickEvent>();
-            _assassinButton.RegisterCallback(ChangeSkillTexture<ClickEvent>(0,
-                "CritHit",
+            _assassinButton.RegisterCallback(ChangeSkillTexture<ClickEvent>("CritHit",
                 "DoubleStrike",
                 "ReapWhatIsOwed"));
 
-            _necromancerButton.RegisterCallback(ChangeSkillTexture<ClickEvent>(1,
-                "ContractWithDeath",
+            _necromancerButton.RegisterCallback(ChangeSkillTexture<ClickEvent>("ContractWithDeath",
                 "Hallow",
                 "Summon Cerberus"));
 
-            _oracleButton.RegisterCallback(ChangeSkillTexture<ClickEvent>(2,
-                "Forgiveness",
+            _oracleButton.RegisterCallback(ChangeSkillTexture<ClickEvent>("Forgiveness",
                 "7Virtues",
                 "AngelOfRetribution"));
         }
@@ -86,13 +84,11 @@ namespace Tech.UI.Panel
         }
 
         [NotNull]
-        private EventCallback<T> ChangeSkillTexture<T>(int index, params string[] skillDatabase)
+        private EventCallback<T> ChangeSkillTexture<T>(params string[] skillDatabase)
             where T : PointerEventBase<T>, new()
         {
             return evt =>
             {
-                // _characterStateMachine.ChangeState(index);
-
                 for (var i = 0; i < _skills.Length; i++)
                 {
                     var skill = _db.SkillTable.FindByName(skillDatabase[i]);
@@ -104,6 +100,14 @@ namespace Tech.UI.Panel
                     styleBackgroundImage.value = Background.FromTexture2D(tex);
                     _skills[i].style.backgroundImage = styleBackgroundImage;
                 }
+
+                //set the correct model to show and disable the incorrect model type
+                //TODO when using character instead we can query the database of the string passes in the parameter.
+                //TODO to recieve the Ulid id for the character and the publish the ulid through the message broker.
+                //TODO all the dataObject can the receive it and compare it to it's own ulid id. if it the right one activate
+                //TODO other wise deactivate
+                // MessageBroker.Default.Publish();
+                
             };
         }
 
@@ -114,11 +118,6 @@ namespace Tech.UI.Panel
             return s => MessageBroker.Default.Publish(direction);
         }
 
-        //TODO Remove
-        public void RetrieveStateMachine([NotNull] StateMachine stateMachine)
-        {
-            // _characterStateMachine = stateMachine;
-        }
 
         public new class UxmlFactory : UxmlFactory<Creation_Document, UxmlTraits>
         {

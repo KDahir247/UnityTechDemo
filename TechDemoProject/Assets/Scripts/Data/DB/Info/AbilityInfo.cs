@@ -13,10 +13,9 @@ namespace Tech.Data.DB
         public ParameterType AbilityType { get; set; }
         public Target AbilityTarget { get; set; }
         public Ailment Ailment { get; set; }
-        public uint InnocenceCost { get; set; } //unit's ultimate ability gauge cost. 
-        public uint NumberOfHits { get; set; }
-        public uint Duration { get; set; }
-        public uint Amount { get; set; } //Damage or heal amount
+        public int NumberOfHits { get; set; }
+        public int Duration { get; set; }
+        public int Amount { get; set; } //Damage or heal amount
         public Stat Buff { get; set; }
     }
 }

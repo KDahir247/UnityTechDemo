@@ -84,6 +84,7 @@ namespace MasterData.Tables
                 new MasterMemory.Meta.MetaProperty[]
                 {
                     new MasterMemory.Meta.MetaProperty(typeof(Ability).GetProperty("Name")),
+                    new MasterMemory.Meta.MetaProperty(typeof(Ability).GetProperty("InnocenceCost")),
                     new MasterMemory.Meta.MetaProperty(typeof(Ability).GetProperty("Description")),
                     new MasterMemory.Meta.MetaProperty(typeof(Ability).GetProperty("AbilityDescription")),
                     new MasterMemory.Meta.MetaProperty(typeof(Ability).GetProperty("ImageBytes")),

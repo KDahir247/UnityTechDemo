@@ -9,7 +9,7 @@ namespace Tech.Data.DB
     {
         
         //TODO add a passive to the equipment
-        public uint Level { get; set; }
+        public int Level { get; set; }
         public Rarity Rarity { get; set; }
         public EquipmentType EquipmentType { get; set; }
         public Stat EquipmentStat { get; set; }

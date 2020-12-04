@@ -7,7 +7,8 @@ namespace Tech.DB
 {
     [MemoryTable("material")]
     [MessagePackObject(true)]
-    public class Material : IMessagePackSerializationCallbackReceiver
+    public class
+        TechMaterial : IMessagePackSerializationCallbackReceiver //TechMaterial due to ambiguous between Tech.Material and Unity.Material 
     {
         [IgnoreMember] public Ulid Id { get; set; }
 

@@ -52,8 +52,8 @@ namespace MasterData
                 {typeof(Enemy[]), 1 },
                 {typeof(Equipment[]), 2 },
                 {typeof(Item[]), 3 },
-                {typeof(Material[]), 4 },
-                {typeof(Skill[]), 5 },
+                {typeof(Skill[]), 4 },
+                {typeof(TechMaterial[]), 5 },
                 {typeof(Unit[]), 6 },
                 {typeof(Weapon[]), 7 },
             };
@@ -70,8 +70,8 @@ namespace MasterData
                 case 1: return new MessagePack.Formatters.ArrayFormatter<Enemy>();
                 case 2: return new MessagePack.Formatters.ArrayFormatter<Equipment>();
                 case 3: return new MessagePack.Formatters.ArrayFormatter<Item>();
-                case 4: return new MessagePack.Formatters.ArrayFormatter<Material>();
-                case 5: return new MessagePack.Formatters.ArrayFormatter<Skill>();
+                case 4: return new MessagePack.Formatters.ArrayFormatter<Skill>();
+                case 5: return new MessagePack.Formatters.ArrayFormatter<TechMaterial>();
                 case 6: return new MessagePack.Formatters.ArrayFormatter<Unit>();
                 case 7: return new MessagePack.Formatters.ArrayFormatter<Weapon>();
                 default: return null;

@@ -7,7 +7,7 @@ namespace Tech.Data.DB
     [MessagePackObject(true)]
     public struct UnitInfo
     {
-        public uint Level { get; set; }
+        public int Level { get; set; }
         public Rarity Rarity { get; set; }
         public Stat Stat { get; set; }
         public RaceType RaceType { get; set; }

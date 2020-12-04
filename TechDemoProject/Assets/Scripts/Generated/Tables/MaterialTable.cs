@@ -10,15 +10,15 @@ using Tech.DB;
 
 namespace MasterData.Tables
 {
-   public sealed partial class MaterialTable : TableBase<Material>, ITableUniqueValidate
+   public sealed partial class MaterialTable : TableBase<TechMaterial>, ITableUniqueValidate
    {
-        public Func<Material, string> PrimaryKeySelector => primaryIndexSelector;
-        readonly Func<Material, string> primaryIndexSelector;
+        public Func<TechMaterial, string> PrimaryKeySelector => primaryIndexSelector;
+        readonly Func<TechMaterial, string> primaryIndexSelector;
 
-        readonly Material[] secondaryIndex0;
-        readonly Func<Material, int> secondaryIndex0Selector;
+        readonly TechMaterial[] secondaryIndex0;
+        readonly Func<TechMaterial, int> secondaryIndex0Selector;
 
-        public MaterialTable(Material[] sortedData)
+        public MaterialTable(TechMaterial[] sortedData)
             : base(sortedData)
         {
             this.primaryIndexSelector = x => x.Name;
@@ -29,44 +29,44 @@ namespace MasterData.Tables
 
         partial void OnAfterConstruct();
 
-        public RangeView<Material> SortByIndex => new RangeView<Material>(secondaryIndex0, 0, secondaryIndex0.Length - 1, true);
+        public RangeView<TechMaterial> SortByIndex => new RangeView<TechMaterial>(secondaryIndex0, 0, secondaryIndex0.Length - 1, true);
 
-        public Material FindByName(string key)
+        public TechMaterial FindByName(string key)
         {
             return FindUniqueCore(data, primaryIndexSelector, System.StringComparer.Ordinal, key, false);
         }
         
-        public bool TryFindByName(string key, out Material result)
+        public bool TryFindByName(string key, out TechMaterial result)
         {
             return TryFindUniqueCore(data, primaryIndexSelector, System.StringComparer.Ordinal, key, out result);
         }
 
-        public Material FindClosestByName(string key, bool selectLower = true)
+        public TechMaterial FindClosestByName(string key, bool selectLower = true)
         {
             return FindUniqueClosestCore(data, primaryIndexSelector, System.StringComparer.Ordinal, key, selectLower);
         }
 
-        public RangeView<Material> FindRangeByName(string min, string max, bool ascendant = true)
+        public RangeView<TechMaterial> FindRangeByName(string min, string max, bool ascendant = true)
         {
             return FindUniqueRangeCore(data, primaryIndexSelector, System.StringComparer.Ordinal, min, max, ascendant);
         }
 
-        public Material FindByIndex(int key)
+        public TechMaterial FindByIndex(int key)
         {
             return FindUniqueCoreInt(secondaryIndex0, secondaryIndex0Selector, System.Collections.Generic.Comparer<int>.Default, key, false);
         }
         
-        public bool TryFindByIndex(int key, out Material result)
+        public bool TryFindByIndex(int key, out TechMaterial result)
         {
             return TryFindUniqueCoreInt(secondaryIndex0, secondaryIndex0Selector, System.Collections.Generic.Comparer<int>.Default, key, out result);
         }
 
-        public Material FindClosestByIndex(int key, bool selectLower = true)
+        public TechMaterial FindClosestByIndex(int key, bool selectLower = true)
         {
             return FindUniqueClosestCore(secondaryIndex0, secondaryIndex0Selector, System.Collections.Generic.Comparer<int>.Default, key, selectLower);
         }
 
-        public RangeView<Material> FindRangeByIndex(int min, int max, bool ascendant = true)
+        public RangeView<TechMaterial> FindRangeByIndex(int min, int max, bool ascendant = true)
         {
             return FindUniqueRangeCore(secondaryIndex0, secondaryIndex0Selector, System.Collections.Generic.Comparer<int>.Default, min, max, ascendant);
         }
@@ -80,21 +80,21 @@ namespace MasterData.Tables
 
         public static MasterMemory.Meta.MetaTable CreateMetaTable()
         {
-            return new MasterMemory.Meta.MetaTable(typeof(Material), typeof(MaterialTable), "material",
+            return new MasterMemory.Meta.MetaTable(typeof(TechMaterial), typeof(MaterialTable), "material",
                 new MasterMemory.Meta.MetaProperty[]
                 {
-                    new MasterMemory.Meta.MetaProperty(typeof(Material).GetProperty("Name")),
-                    new MasterMemory.Meta.MetaProperty(typeof(Material).GetProperty("Description")),
-                    new MasterMemory.Meta.MetaProperty(typeof(Material).GetProperty("ImageBytes")),
-                    new MasterMemory.Meta.MetaProperty(typeof(Material).GetProperty("MaterialInfo")),
-                    new MasterMemory.Meta.MetaProperty(typeof(Material).GetProperty("Index")),
+                    new MasterMemory.Meta.MetaProperty(typeof(TechMaterial).GetProperty("Name")),
+                    new MasterMemory.Meta.MetaProperty(typeof(TechMaterial).GetProperty("Description")),
+                    new MasterMemory.Meta.MetaProperty(typeof(TechMaterial).GetProperty("ImageBytes")),
+                    new MasterMemory.Meta.MetaProperty(typeof(TechMaterial).GetProperty("MaterialInfo")),
+                    new MasterMemory.Meta.MetaProperty(typeof(TechMaterial).GetProperty("Index")),
                 },
                 new MasterMemory.Meta.MetaIndex[]{
                     new MasterMemory.Meta.MetaIndex(new System.Reflection.PropertyInfo[] {
-                        typeof(Material).GetProperty("Name"),
+                        typeof(TechMaterial).GetProperty("Name"),
                     }, true, true, System.StringComparer.Ordinal),
                     new MasterMemory.Meta.MetaIndex(new System.Reflection.PropertyInfo[] {
-                        typeof(Material).GetProperty("Index"),
+                        typeof(TechMaterial).GetProperty("Index"),
                     }, false, true, System.Collections.Generic.Comparer<int>.Default),
                 });
         }

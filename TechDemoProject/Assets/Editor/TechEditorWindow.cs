@@ -71,11 +71,11 @@ namespace Tech.Editor
                         return;
                     }
 
-                GlobalSetting.SkillDataPath = _dataPath[0];
-                GlobalSetting.CharacterDataPath = _dataPath[1];
-                GlobalSetting.EquipmentDataPath = _dataPath[2];
-                GlobalSetting.ItemDataPath = _dataPath[3];
-                GlobalSetting.MaterialDataPath = _dataPath[4];
+                // GlobalSetting.SkillDataPath = _dataPath[0];
+                // GlobalSetting.UnitDataPath = _dataPath[1];
+                // GlobalSetting.EquipmentDataPath = _dataPath[2];
+                // GlobalSetting.ItemDataPath = _dataPath[3];
+                // GlobalSetting.MaterialDataPath = _dataPath[4];
 
 
                 GlobalSetting.EnableVerbosityUnitaskBootstrap = _enableUnitaskBootstrapVerbose;

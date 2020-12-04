@@ -5,13 +5,14 @@ using Tech.Data.DB;
 
 namespace Tech.DB
 {
-    [MemoryTable("enemy"), MessagePackObject(true)]
+    [MemoryTable("enemy")]
+    [MessagePackObject(true)]
     public class Enemy : IMessagePackSerializationCallbackReceiver
     {
         [IgnoreMember] public Ulid Id { get; set; }
-        
+
         [PrimaryKey] public string Name { get; set; }
-        
+
         [SecondaryKey(0)] public int Index { get; set; }
 
         public string Description { get; set; }
@@ -19,7 +20,13 @@ namespace Tech.DB
         public byte[] ImageBytes { get; set; }
 
         public EnemyInfo EnemyInfo { get; set; }
-        
+
+        //TODO might change
+        public Weapon Weapon { get; set; }
+        public Equipment[] Equipment { get; set; }
+        public Ability Ability { get; set; } //final skill for character
+        public Skill[] Skills { get; set; }
+
         public void OnBeforeSerialize()
         {
             //Called Before Serialization
@@ -31,4 +38,3 @@ namespace Tech.DB
         }
     }
 }
-

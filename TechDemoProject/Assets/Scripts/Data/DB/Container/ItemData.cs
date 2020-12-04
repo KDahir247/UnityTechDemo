@@ -1,12 +1,17 @@
 ﻿using System;
+using MessagePack;
 using UnityEngine;
 
 namespace Tech.Data
 {
     [Serializable]
-    public struct Skill
+    [MessagePackObject(true)]
+    public struct ItemData
     {
+        [IgnoreMember] public Ulid id;
         public string name;
+        public string description;
         public Texture2D image;
+
     }
 }

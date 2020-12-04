@@ -9,7 +9,7 @@ using System.Text;
 namespace System // wa-o, System Namespace!?
 {
     /// <summary>
-    /// Represents a Universally Unique Lexicographically Sortable Identifier (ULID).
+    /// Represents a 8ij (ULID).
     /// Spec: https://github.com/ulid/spec
     /// </summary>
     [StructLayout(LayoutKind.Explicit, Size = 16)]

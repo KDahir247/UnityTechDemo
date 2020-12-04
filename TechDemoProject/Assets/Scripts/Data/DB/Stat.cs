@@ -7,12 +7,12 @@ namespace Tech.Data.DB
     [MessagePackObject(true)]
     public struct Stat
     {
-        public uint Health { get; set; }
-        public uint Attack { get; set; }
-        public uint Defence { get; set; }
-        public uint Manapoint { get; set; }
-        public uint Magic { get; set; }
-        public uint Spirit { get; set; }
-        public uint Speed { get; set; }
+        public int Health { get; set; }
+        public int Attack { get; set; }
+        public int Defence { get; set; }
+        public int Manapoint { get; set; }
+        public int Magic { get; set; }
+        public int Spirit { get; set; }
+        public int Speed { get; set; }
     }
 }

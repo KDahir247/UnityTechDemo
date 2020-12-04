@@ -15,13 +15,17 @@ namespace Tech.DB
         [PrimaryKey] public string Name { get; set; }
 
         [SecondaryKey(0)] public int Index { get; set; }
-        
+
         public string Description { get; set; }
-        
         public byte[] ImageBytes { get; set; }
-        
         public UnitInfo CharacterInfo { get; set; }
         
+        //TODO might change
+        public Weapon Weapon { get; set; }
+        public Equipment[] Equipment { get; set; }
+        public Ability Ability { get; set; } //final skill for character
+        public Skill[] Skills { get; set; }
+
         public void OnBeforeSerialize()
         {
             //Called Before Serialization

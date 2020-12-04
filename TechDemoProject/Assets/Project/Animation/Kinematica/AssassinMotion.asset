@@ -134,7 +134,9 @@ MonoBehaviour:
     metrics:
     - name: Default
       tagTypes:
-        m_TagTypeNames: []
+        m_TagTypeNames:
+        - Tech.Animation.IdleTag
+        - Tech.Animation.LocomotionTag
       numPoses: 2
       poseSampleRatio: 0.3333
       joints:

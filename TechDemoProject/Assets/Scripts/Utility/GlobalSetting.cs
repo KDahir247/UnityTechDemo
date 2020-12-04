@@ -1,5 +1,7 @@
 ﻿using System.Collections.Generic;
-using Tech.Data.Scriptable;
+using System.Collections.ObjectModel;
+using JetBrains.Annotations;
+using Tech.DB;
 
 //Container for Global Parameter.
 //Test File. File hasn't been finalized 
@@ -9,20 +11,23 @@ namespace Tech.Utility
     //TODO fix
     public static class GlobalSetting
     {
-        //TODO remove
-        public static readonly Dictionary<string, CharacterData> StoredCharacter =
-            new Dictionary<string, CharacterData>();
-
-
         public static bool EnableVerbosityUnitaskBootstrap;
         public static bool EnableVerbosityState;
 
+        //Maybe make a dictonary 
 
-        //Used for database
-        public static string SkillDataPath = "skill-data";
-        public static string CharacterDataPath = "character-data";
-        public static string EquipmentDataPath = "equip-data";
-        public static string ItemDataPath = "item-data";
-        public static string MaterialDataPath = "mat-data";
+        [NotNull] private static readonly Dictionary<FileDestination, string> _dataPath = new Dictionary<FileDestination, string>
+        {
+            {FileDestination.SkillPath, "skill-data"},
+            {FileDestination.UnitPath, "unit-data"},
+            {FileDestination.EquipmentPath, "equip-data"},
+            {FileDestination.ItemPath, "item-data"},
+            {FileDestination.MaterialPath, "mat-data"},
+            {FileDestination.EnemyPath, "enemy-data"}
+        };
+
+        [NotNull]
+        public readonly static ReadOnlyDictionary<FileDestination, string> DataPath =
+            new ReadOnlyDictionary<FileDestination, string>(_dataPath);
     }
 }

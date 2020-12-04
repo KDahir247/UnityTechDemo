@@ -6,6 +6,7 @@ using Tech.Data.DB;
 namespace Tech.DB
 {
     //TODO should be inheritance since there will be enemy and both equipment and weapon have similarity.
+    [Serializable]
     [MemoryTable("weapon")]
     [MessagePackObject(true)]
     public class Weapon : IMessagePackSerializationCallbackReceiver
@@ -14,14 +15,12 @@ namespace Tech.DB
 
         [PrimaryKey] public string Name { get; set; }
 
-        [NonUnique] public Stat Stat { get; set; }
-
         public string Description { get; set; }
 
         public byte[] ImageBytes { get; set; }
-        
+
         public WeaponInfo WeaponInfo { get; set; }
-        
+
         [SecondaryKey(2)] public int Index { get; set; }
 
 

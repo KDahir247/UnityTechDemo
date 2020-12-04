@@ -15,10 +15,10 @@ namespace Tech.DB
 
         public string Description { get; set; }
 
-        public byte[] ImageBytes { get; set; } 
-        
+        public byte[] ImageBytes { get; set; }
+
         public ItemInfo ItemInfo { get; set; }
-        
+
         [SecondaryKey(0)] public int Index { get; set; }
 
 

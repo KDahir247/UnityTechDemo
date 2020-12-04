@@ -2,15 +2,15 @@
 
 namespace Tech.Data.DB
 {
-    [Flags] //can contain multi-element
+    [Flags]
     [Serializable] //Just in case enum uses nonstandard enum values
     public enum Element
     {
-        Neutral,
-        Fire,
-        Water,
-        Earth,
-        Light,
-        Dark
+        Neutral = 0,
+        Fire = 1,
+        Water = 2,
+        Earth = 3,
+        Light = 4,
+        Dark = 5
     }
 }

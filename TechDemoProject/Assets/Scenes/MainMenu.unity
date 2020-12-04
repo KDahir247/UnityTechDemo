@@ -366,7 +366,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4220d43ed7bebab49b10e5f3dde77662, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skill: {fileID: 11400000, guid: a869ac6d9dfb0844abc8f48df6c0db78, type: 2}
+  data:
+    name: 
+    description: 
+    image: {fileID: 0}
+    weaponData:
+      name: 
+      description: 
+      image: {fileID: 0}
+    equipmentDatas: []
+    abilityData:
+      name: 
+      innocentCost: 0
+      description: 
+      abilityDescription: 
+      image: {fileID: 0}
+    skillDatas: []
+    a: 6
+    Rarity: 0
 --- !u!1 &641392326
 GameObject:
   m_ObjectHideFlags: 0

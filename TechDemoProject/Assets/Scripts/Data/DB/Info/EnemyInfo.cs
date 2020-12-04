@@ -8,7 +8,7 @@ namespace Tech.Data.DB
     public struct EnemyInfo
     {
         public Rarity Rarity { get; set; }
-        public uint Level { get; set; }
+        public int Level { get; set; }
         public RaceType RaceType { get; set; }
         public Element ElementAttack { get; set; }
         public Element ElementResistance { get; set; }

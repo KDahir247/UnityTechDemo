@@ -88,6 +88,10 @@ namespace MasterData.Tables
                     new MasterMemory.Meta.MetaProperty(typeof(Enemy).GetProperty("Description")),
                     new MasterMemory.Meta.MetaProperty(typeof(Enemy).GetProperty("ImageBytes")),
                     new MasterMemory.Meta.MetaProperty(typeof(Enemy).GetProperty("EnemyInfo")),
+                    new MasterMemory.Meta.MetaProperty(typeof(Enemy).GetProperty("Weapon")),
+                    new MasterMemory.Meta.MetaProperty(typeof(Enemy).GetProperty("Equipment")),
+                    new MasterMemory.Meta.MetaProperty(typeof(Enemy).GetProperty("Ability")),
+                    new MasterMemory.Meta.MetaProperty(typeof(Enemy).GetProperty("Skills")),
                 },
                 new MasterMemory.Meta.MetaIndex[]{
                     new MasterMemory.Meta.MetaIndex(new System.Reflection.PropertyInfo[] {

@@ -12,6 +12,7 @@
       <Path>../../../../../AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.properties@1.1.1-preview</Path>
       <Path>../../../../../AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.scriptablebuildpipeline@1.7.3</Path>
       <Path>../../../../../AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.serialization@1.1.1-preview</Path>
+      <Path>../../../../../AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.test-framework.performance@2.0.8-preview</Path>
       <Path>../../../../../AppData/Local/Unity/cache/packages/packages.unity.com/nuget.mono-cecil@0.1.5-preview</Path>
     </attachedFolders>
     <explicitIncludes>

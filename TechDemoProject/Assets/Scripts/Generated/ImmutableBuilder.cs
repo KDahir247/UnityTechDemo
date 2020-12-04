@@ -34,8 +34,8 @@ namespace MasterData
                 memory.EnemyTable,
                 memory.EquipmentTable,
                 memory.ItemTable,
-                memory.MaterialTable,
                 memory.SkillTable,
+                memory.TechMaterialTable,
                 memory.UnitTable,
                 memory.WeaponTable
             
@@ -52,8 +52,8 @@ namespace MasterData
                 memory.EnemyTable,
                 memory.EquipmentTable,
                 memory.ItemTable,
-                memory.MaterialTable,
                 memory.SkillTable,
+                memory.TechMaterialTable,
                 memory.UnitTable,
                 memory.WeaponTable
             
@@ -70,8 +70,8 @@ namespace MasterData
                 memory.EnemyTable,
                 memory.EquipmentTable,
                 memory.ItemTable,
-                memory.MaterialTable,
                 memory.SkillTable,
+                memory.TechMaterialTable,
                 memory.UnitTable,
                 memory.WeaponTable
             
@@ -87,8 +87,8 @@ namespace MasterData
                 table,
                 memory.EquipmentTable,
                 memory.ItemTable,
-                memory.MaterialTable,
                 memory.SkillTable,
+                memory.TechMaterialTable,
                 memory.UnitTable,
                 memory.WeaponTable
             
@@ -105,8 +105,8 @@ namespace MasterData
                 table,
                 memory.EquipmentTable,
                 memory.ItemTable,
-                memory.MaterialTable,
                 memory.SkillTable,
+                memory.TechMaterialTable,
                 memory.UnitTable,
                 memory.WeaponTable
             
@@ -123,8 +123,8 @@ namespace MasterData
                 table,
                 memory.EquipmentTable,
                 memory.ItemTable,
-                memory.MaterialTable,
                 memory.SkillTable,
+                memory.TechMaterialTable,
                 memory.UnitTable,
                 memory.WeaponTable
             
@@ -140,8 +140,8 @@ namespace MasterData
                 memory.EnemyTable,
                 table,
                 memory.ItemTable,
-                memory.MaterialTable,
                 memory.SkillTable,
+                memory.TechMaterialTable,
                 memory.UnitTable,
                 memory.WeaponTable
             
@@ -158,8 +158,8 @@ namespace MasterData
                 memory.EnemyTable,
                 table,
                 memory.ItemTable,
-                memory.MaterialTable,
                 memory.SkillTable,
+                memory.TechMaterialTable,
                 memory.UnitTable,
                 memory.WeaponTable
             
@@ -176,8 +176,8 @@ namespace MasterData
                 memory.EnemyTable,
                 table,
                 memory.ItemTable,
-                memory.MaterialTable,
                 memory.SkillTable,
+                memory.TechMaterialTable,
                 memory.UnitTable,
                 memory.WeaponTable
             
@@ -193,8 +193,8 @@ namespace MasterData
                 memory.EnemyTable,
                 memory.EquipmentTable,
                 table,
-                memory.MaterialTable,
                 memory.SkillTable,
+                memory.TechMaterialTable,
                 memory.UnitTable,
                 memory.WeaponTable
             
@@ -211,8 +211,8 @@ namespace MasterData
                 memory.EnemyTable,
                 memory.EquipmentTable,
                 table,
-                memory.MaterialTable,
                 memory.SkillTable,
+                memory.TechMaterialTable,
                 memory.UnitTable,
                 memory.WeaponTable
             
@@ -229,61 +229,8 @@ namespace MasterData
                 memory.EnemyTable,
                 memory.EquipmentTable,
                 table,
-                memory.MaterialTable,
                 memory.SkillTable,
-                memory.UnitTable,
-                memory.WeaponTable
-            
-            );
-        }
-
-        public void ReplaceAll(System.Collections.Generic.IList<Material> data)
-        {
-            var newData = CloneAndSortBy(data, x => x.Name, System.StringComparer.Ordinal);
-            var table = new MaterialTable(newData);
-            memory = new MemoryDatabase(
-                memory.AbilityTable,
-                memory.EnemyTable,
-                memory.EquipmentTable,
-                memory.ItemTable,
-                table,
-                memory.SkillTable,
-                memory.UnitTable,
-                memory.WeaponTable
-            
-            );
-        }
-
-        public void RemoveMaterial(string[] keys)
-        {
-            var data = RemoveCore(memory.MaterialTable.GetRawDataUnsafe(), keys, x => x.Name, System.StringComparer.Ordinal);
-            var newData = CloneAndSortBy(data, x => x.Name, System.StringComparer.Ordinal);
-            var table = new MaterialTable(newData);
-            memory = new MemoryDatabase(
-                memory.AbilityTable,
-                memory.EnemyTable,
-                memory.EquipmentTable,
-                memory.ItemTable,
-                table,
-                memory.SkillTable,
-                memory.UnitTable,
-                memory.WeaponTable
-            
-            );
-        }
-
-        public void Diff(Material[] addOrReplaceData)
-        {
-            var data = DiffCore(memory.MaterialTable.GetRawDataUnsafe(), addOrReplaceData, x => x.Name, System.StringComparer.Ordinal);
-            var newData = CloneAndSortBy(data, x => x.Name, System.StringComparer.Ordinal);
-            var table = new MaterialTable(newData);
-            memory = new MemoryDatabase(
-                memory.AbilityTable,
-                memory.EnemyTable,
-                memory.EquipmentTable,
-                memory.ItemTable,
-                table,
-                memory.SkillTable,
+                memory.TechMaterialTable,
                 memory.UnitTable,
                 memory.WeaponTable
             
@@ -299,8 +246,8 @@ namespace MasterData
                 memory.EnemyTable,
                 memory.EquipmentTable,
                 memory.ItemTable,
-                memory.MaterialTable,
                 table,
+                memory.TechMaterialTable,
                 memory.UnitTable,
                 memory.WeaponTable
             
@@ -317,8 +264,8 @@ namespace MasterData
                 memory.EnemyTable,
                 memory.EquipmentTable,
                 memory.ItemTable,
-                memory.MaterialTable,
                 table,
+                memory.TechMaterialTable,
                 memory.UnitTable,
                 memory.WeaponTable
             
@@ -335,7 +282,60 @@ namespace MasterData
                 memory.EnemyTable,
                 memory.EquipmentTable,
                 memory.ItemTable,
-                memory.MaterialTable,
+                table,
+                memory.TechMaterialTable,
+                memory.UnitTable,
+                memory.WeaponTable
+            
+            );
+        }
+
+        public void ReplaceAll(System.Collections.Generic.IList<TechMaterial> data)
+        {
+            var newData = CloneAndSortBy(data, x => x.Name, System.StringComparer.Ordinal);
+            var table = new TechMaterialTable(newData);
+            memory = new MemoryDatabase(
+                memory.AbilityTable,
+                memory.EnemyTable,
+                memory.EquipmentTable,
+                memory.ItemTable,
+                memory.SkillTable,
+                table,
+                memory.UnitTable,
+                memory.WeaponTable
+            
+            );
+        }
+
+        public void RemoveTechMaterial(string[] keys)
+        {
+            var data = RemoveCore(memory.TechMaterialTable.GetRawDataUnsafe(), keys, x => x.Name, System.StringComparer.Ordinal);
+            var newData = CloneAndSortBy(data, x => x.Name, System.StringComparer.Ordinal);
+            var table = new TechMaterialTable(newData);
+            memory = new MemoryDatabase(
+                memory.AbilityTable,
+                memory.EnemyTable,
+                memory.EquipmentTable,
+                memory.ItemTable,
+                memory.SkillTable,
+                table,
+                memory.UnitTable,
+                memory.WeaponTable
+            
+            );
+        }
+
+        public void Diff(TechMaterial[] addOrReplaceData)
+        {
+            var data = DiffCore(memory.TechMaterialTable.GetRawDataUnsafe(), addOrReplaceData, x => x.Name, System.StringComparer.Ordinal);
+            var newData = CloneAndSortBy(data, x => x.Name, System.StringComparer.Ordinal);
+            var table = new TechMaterialTable(newData);
+            memory = new MemoryDatabase(
+                memory.AbilityTable,
+                memory.EnemyTable,
+                memory.EquipmentTable,
+                memory.ItemTable,
+                memory.SkillTable,
                 table,
                 memory.UnitTable,
                 memory.WeaponTable
@@ -352,8 +352,8 @@ namespace MasterData
                 memory.EnemyTable,
                 memory.EquipmentTable,
                 memory.ItemTable,
-                memory.MaterialTable,
                 memory.SkillTable,
+                memory.TechMaterialTable,
                 table,
                 memory.WeaponTable
             
@@ -370,8 +370,8 @@ namespace MasterData
                 memory.EnemyTable,
                 memory.EquipmentTable,
                 memory.ItemTable,
-                memory.MaterialTable,
                 memory.SkillTable,
+                memory.TechMaterialTable,
                 table,
                 memory.WeaponTable
             
@@ -388,8 +388,8 @@ namespace MasterData
                 memory.EnemyTable,
                 memory.EquipmentTable,
                 memory.ItemTable,
-                memory.MaterialTable,
                 memory.SkillTable,
+                memory.TechMaterialTable,
                 table,
                 memory.WeaponTable
             
@@ -405,8 +405,8 @@ namespace MasterData
                 memory.EnemyTable,
                 memory.EquipmentTable,
                 memory.ItemTable,
-                memory.MaterialTable,
                 memory.SkillTable,
+                memory.TechMaterialTable,
                 memory.UnitTable,
                 table
             
@@ -423,8 +423,8 @@ namespace MasterData
                 memory.EnemyTable,
                 memory.EquipmentTable,
                 memory.ItemTable,
-                memory.MaterialTable,
                 memory.SkillTable,
+                memory.TechMaterialTable,
                 memory.UnitTable,
                 table
             
@@ -441,8 +441,8 @@ namespace MasterData
                 memory.EnemyTable,
                 memory.EquipmentTable,
                 memory.ItemTable,
-                memory.MaterialTable,
                 memory.SkillTable,
+                memory.TechMaterialTable,
                 memory.UnitTable,
                 table
             

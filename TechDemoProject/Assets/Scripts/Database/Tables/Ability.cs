@@ -5,6 +5,7 @@ using Tech.Data.DB;
 
 namespace Tech.DB
 {
+    [Serializable]
     [MemoryTable("ability")]
     [MessagePackObject(true)]
     public class Ability : IMessagePackSerializationCallbackReceiver
@@ -12,6 +13,8 @@ namespace Tech.DB
         [IgnoreMember] public Ulid Id { get; set; }
 
         [PrimaryKey] public string Name { get; set; }
+
+        public int InnocenceCost { get; set; } //unit's ultimate ability gauge cost. 
 
         public string Description { get; set; }
 

@@ -1,4 +1,5 @@
 ﻿using Unity.Burst;
+using Unity.Burst;
 using Unity.Jobs;
 using Unity.Kinematica;
 using Unity.SnapshotDebugger;
@@ -14,7 +15,6 @@ namespace Tech.Animation.Provider
         
         public TaskReference IdleTaskReference;
         public TaskReference LocomotionTaskReference;
-        
         public void Execute()
         {
             MotionSynthesizer
