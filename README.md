@@ -4,10 +4,7 @@ Self teaching on some of unity's packages and some other plugin. (Ongoing)
 <br/>
 <br/>
 I will be working on the snapshot provider system and architecture (Animation that are utilizing the burst compiler and Jobs), which can be
-located in Assets->Scripts->Animation->Provider (Currently doing)
-<br/>
-<br/>
-Creating a ReactiveJobQueue to deactivate and activate the skinned mesh render in a circular queue like. Instead of destroying and then instantiating for performance reason. (Currently doing)
+located in Assets->Scripts->Animation->Provider (Currently doing). The Animtion system will be hooked with the in-memorydatabase so it can run animation logic depending on the database.
 <br/>
 <br/>
 Current Kinematica Package Caveats:
