@@ -6,7 +6,6 @@ using Tech.DB;
 using UniRx;
 using Unity.Entities;
 using UnityEngine;
-using UnityEngine.Serialization;
 using Unit = Tech.DB.Unit;
 
 namespace Tech.Authoring
@@ -17,29 +16,30 @@ namespace Tech.Authoring
     public class UnitDataAuthoring : MonoBehaviour, IConvertGameObjectToEntity
     {
         private readonly TechDynamicDBBuilder _dynamicDb = new TechDynamicDBBuilder();
-        private readonly TechStaticDBBuilder _dbBuilder = new TechStaticDBBuilder();
-
-        private static bool _isLoading = false;
+        
+        private static bool _isLoading;
 
         [SerializeField] private UnitData unitData;
 
         private async UniTaskVoid Awake()
         {
+            //Create the Universally Unique Lexicographically Sortable Identifier
+            unitData.id  = Ulid.NewUlid(DateTimeOffset.Now);
             
             //Mutating database goes here
+            
             await UniTask.WaitUntil(() => _isLoading == false);
+            
             _isLoading = true;
 
             if (_dynamicDb.TryLoadDatabase(FileDestination.UnitPath, out ImmutableBuilder immutableBuilder))
             {
-                var ulid = Ulid.NewUlid();
-                
-                
-                immutableBuilder.Diff(new[]
+              
+              immutableBuilder.Diff(new[]
                 {
                     new Unit
                     {
-                        Id = ulid,
+                        Id = _dynamicDb.RegisterUlid(unitData.id),
                         Name = unitData.name,
 
                         Skills = new[]
@@ -50,24 +50,19 @@ namespace Tech.Authoring
                         }
                     },
                 });
-                await _dynamicDb.Build(immutableBuilder).ContinueWith(() => _isLoading = false);
+              
+                await _dynamicDb
+                    .Build(immutableBuilder)
+                    .ContinueWith(() => _isLoading = false);
             }
             
             
             MessageBroker
                 .Default
-                .Receive<string>().Subscribe(val =>
-                {
-                
-                    if (unitData.name == val)
-                    {
-                        transform.GetChild(1).gameObject.SetActive(true);
-                    }
-                    else
-                    {
-                        transform.GetChild(1).gameObject.SetActive(false);
-                    }
-                });
+                .Receive<Unit>().Subscribe(val => transform
+                    .GetChild(1)
+                    .gameObject
+                    .SetActive(_dynamicDb.UnRegisterUlid(val.Id).CompareTo(unitData.id) == 0));
 
         }
 

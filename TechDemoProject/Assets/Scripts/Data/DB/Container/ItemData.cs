@@ -8,7 +8,7 @@ namespace Tech.Data
     [MessagePackObject(true)]
     public struct ItemData
     {
-        [IgnoreMember] public Ulid id;
+        public byte[] id;
         public string name;
         public string description;
         public Texture2D image;

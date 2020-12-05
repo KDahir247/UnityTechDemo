@@ -17,7 +17,6 @@ namespace Tech.Network.Param
      * 
      */
 
-    //TODO got to verify that non primitive type are valid for MessagePack before including (Icon Image)
     [MessagePackObject]
     public class Player
     {

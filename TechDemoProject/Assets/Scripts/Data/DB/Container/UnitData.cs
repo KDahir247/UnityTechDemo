@@ -10,10 +10,11 @@ namespace Tech.Data
     [MessagePackObject(true)]
     public struct UnitData
     {
-        [IgnoreMember] public Ulid id;
+        [IgnoreMember]
+        public Ulid id;
         public string name;
         public string description;
-        public byte[] image;
+        public Texture2D image;
 
         public WeaponData weaponData;
         public EquipmentData[] equipmentDatas;

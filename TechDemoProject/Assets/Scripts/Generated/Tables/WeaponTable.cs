@@ -83,6 +83,7 @@ namespace MasterData.Tables
             return new MasterMemory.Meta.MetaTable(typeof(Weapon), typeof(WeaponTable), "weapon",
                 new MasterMemory.Meta.MetaProperty[]
                 {
+                    new MasterMemory.Meta.MetaProperty(typeof(Weapon).GetProperty("Id")),
                     new MasterMemory.Meta.MetaProperty(typeof(Weapon).GetProperty("Name")),
                     new MasterMemory.Meta.MetaProperty(typeof(Weapon).GetProperty("Description")),
                     new MasterMemory.Meta.MetaProperty(typeof(Weapon).GetProperty("ImageBytes")),

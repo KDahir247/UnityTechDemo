@@ -83,6 +83,7 @@ namespace MasterData.Tables
             return new MasterMemory.Meta.MetaTable(typeof(Enemy), typeof(EnemyTable), "enemy",
                 new MasterMemory.Meta.MetaProperty[]
                 {
+                    new MasterMemory.Meta.MetaProperty(typeof(Enemy).GetProperty("Id")),
                     new MasterMemory.Meta.MetaProperty(typeof(Enemy).GetProperty("Name")),
                     new MasterMemory.Meta.MetaProperty(typeof(Enemy).GetProperty("Index")),
                     new MasterMemory.Meta.MetaProperty(typeof(Enemy).GetProperty("Description")),

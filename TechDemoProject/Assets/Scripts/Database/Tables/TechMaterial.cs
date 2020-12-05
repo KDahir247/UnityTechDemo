@@ -10,7 +10,7 @@ namespace Tech.DB
     public class
         TechMaterial : IMessagePackSerializationCallbackReceiver //TechMaterial due to ambiguous between Tech.Material and Unity.Material 
     {
-        [IgnoreMember] public Ulid Id { get; set; }
+        public byte[] Id { get; set; }
 
         [PrimaryKey] public string Name { get; set; }
 

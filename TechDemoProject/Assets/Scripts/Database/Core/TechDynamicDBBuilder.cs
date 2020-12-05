@@ -3,6 +3,8 @@ using System.IO;
 using Cysharp.Threading.Tasks;
 using JetBrains.Annotations;
 using MasterData;
+using MessagePack;
+using MessagePack.Resolvers;
 using Tech.Utility;
 using UnityEditor;
 using UnityEngine;
@@ -15,6 +17,16 @@ namespace Tech.DB
         private MemoryDatabase _database;
         private ImmutableBuilder _immutableBuilder;
         private static bool _locked;
+
+        //Option for Ulid support
+        private readonly MessagePackSerializerOptions _options; 
+        public TechDynamicDBBuilder()
+        {
+            _options = MessagePackSerializerOptions.Standard
+                .WithResolver(StaticCompositeResolver.Instance)
+                .WithCompression(MessagePackCompression.Lz4BlockArray);
+        }
+        
         public bool TryLoadDatabase(FileDestination destination, out ImmutableBuilder builder)
         {
             try
@@ -39,6 +51,10 @@ namespace Tech.DB
                 return false;
             }
         }
+
+        public byte[] RegisterUlid(in Ulid ulid)=> MessagePackSerializer.Serialize(ulid, _options);
+
+        public Ulid UnRegisterUlid(in byte[] byteBuffer) => MessagePackSerializer.Deserialize<Ulid>(byteBuffer, _options);
 
         public async UniTask Build([NotNull] ImmutableBuilder immutableBuilder)
         {

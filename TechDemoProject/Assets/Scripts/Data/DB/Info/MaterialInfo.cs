@@ -7,7 +7,7 @@ namespace Tech.Data.DB
     [MessagePackObject(true)]
     public struct MaterialInfo
     {
-        public uint Level { get; set; }
+        public int Level { get; set; }
         public Rarity Rarity { get; set; }
 
         //Can add more properties for Material later when known.

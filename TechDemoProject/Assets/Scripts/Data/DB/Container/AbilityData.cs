@@ -10,7 +10,7 @@ namespace Tech.Data
     [MessagePackObject(true)]
     public struct AbilityData
     {
-        [IgnoreMember] public Ulid id;
+        public byte[] id;
         public string name;
         public int innocentCost;
         public string description;

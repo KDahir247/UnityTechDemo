@@ -83,6 +83,7 @@ namespace MasterData.Tables
             return new MasterMemory.Meta.MetaTable(typeof(Ability), typeof(AbilityTable), "ability",
                 new MasterMemory.Meta.MetaProperty[]
                 {
+                    new MasterMemory.Meta.MetaProperty(typeof(Ability).GetProperty("Id")),
                     new MasterMemory.Meta.MetaProperty(typeof(Ability).GetProperty("Name")),
                     new MasterMemory.Meta.MetaProperty(typeof(Ability).GetProperty("InnocenceCost")),
                     new MasterMemory.Meta.MetaProperty(typeof(Ability).GetProperty("Description")),

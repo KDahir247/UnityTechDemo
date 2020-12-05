@@ -83,6 +83,7 @@ namespace MasterData.Tables
             return new MasterMemory.Meta.MetaTable(typeof(Equipment), typeof(EquipmentTable), "equipment",
                 new MasterMemory.Meta.MetaProperty[]
                 {
+                    new MasterMemory.Meta.MetaProperty(typeof(Equipment).GetProperty("Id")),
                     new MasterMemory.Meta.MetaProperty(typeof(Equipment).GetProperty("Name")),
                     new MasterMemory.Meta.MetaProperty(typeof(Equipment).GetProperty("Description")),
                     new MasterMemory.Meta.MetaProperty(typeof(Equipment).GetProperty("ImageBytes")),

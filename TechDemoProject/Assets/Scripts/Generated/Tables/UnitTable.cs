@@ -83,6 +83,7 @@ namespace MasterData.Tables
             return new MasterMemory.Meta.MetaTable(typeof(Unit), typeof(UnitTable), "unit",
                 new MasterMemory.Meta.MetaProperty[]
                 {
+                    new MasterMemory.Meta.MetaProperty(typeof(Unit).GetProperty("Id")),
                     new MasterMemory.Meta.MetaProperty(typeof(Unit).GetProperty("Name")),
                     new MasterMemory.Meta.MetaProperty(typeof(Unit).GetProperty("Index")),
                     new MasterMemory.Meta.MetaProperty(typeof(Unit).GetProperty("Description")),

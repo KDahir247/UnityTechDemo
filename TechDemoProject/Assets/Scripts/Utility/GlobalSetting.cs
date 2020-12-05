@@ -7,7 +7,6 @@ using Tech.DB;
 //Test File. File hasn't been finalized 
 namespace Tech.Utility
 {
-    //TODO fix
     public static class GlobalSetting
     {
         public static bool EnableVerbosityUnitaskBootstrap;

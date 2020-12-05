@@ -29,32 +29,7 @@ namespace Tech.DB
         private static byte[] _buildBytes;
         private static string _path;
         private DatabaseBuilder _builder = new DatabaseBuilder();
-
-        public TechStaticDBBuilder() :
-            this(GeneratedResolver.Instance,
-                BuiltinResolver.Instance,
-                PrimitiveObjectResolver.Instance,
-                UnityResolver.Instance,
-                UnityBlitResolver.Instance,
-                MasterMemoryResolver.Instance,
-                Cysharp.Serialization.MessagePack.UlidMessagePackResolver.Instance,
-                StandardResolver.Instance,
-                PrimitiveObjectResolver.Instance)
-        {
-        }
-
-        public TechStaticDBBuilder(params IFormatterResolver[] resolvers)
-        {
-            try
-            {
-                StaticCompositeResolver.Instance.Register(resolvers);
-            }
-            catch
-            {
-                // ignored
-            }
-        }
-
+        
         public async UniTask Initialize()
         {
             foreach (string pathValue in GlobalSetting.DataPath.Values)
@@ -71,11 +46,7 @@ namespace Tech.DB
                 }
 
                 AssetDatabase.Refresh();
-                
             }
-            
-            
-            
         }
 
         public async UniTask Build([NotNull] Func<DatabaseBuilder, DatabaseBuilder> builderAction,

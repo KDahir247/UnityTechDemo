@@ -86,10 +86,9 @@ namespace Tech.UI.Panel
 
                 var unit = db.UnitTable.FindByName(unitName);
                 
-                //TODO currently ulid messagepack serialization does work due to it containing the ignoreMember attribute. (Need to be fixed)
                 MessageBroker
                     .Default
-                    .Publish(unit.Name);
+                    .Publish(unit);
                 
                 for (var i = 0; i < unit.Skills.Length; i++)
                 {
@@ -101,16 +100,6 @@ namespace Tech.UI.Panel
                     styleBackgroundImage.value = Background.FromTexture2D(tex);
                     _skills[i].style.backgroundImage = styleBackgroundImage;
                 }
-
-                
-                
-                //set the correct model to show and disable the incorrect model type
-                //TODO when using character instead we can query the database of the string passes in the parameter.
-                //TODO to recieve the Ulid id for the character and the publish the ulid through the message broker.
-                //TODO all the dataObject can the receive it and compare it to it's own ulid id. if it the right one activate
-                //TODO other wise deactivate
-                // MessageBroker.Default.Publish();
-                
             };
         }
 

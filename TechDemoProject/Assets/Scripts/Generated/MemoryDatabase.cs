@@ -17,7 +17,6 @@ namespace MasterData
         public EnemyTable EnemyTable { get; private set; }
         public EquipmentTable EquipmentTable { get; private set; }
         public ItemTable ItemTable { get; private set; }
-        public NillTable NillTable { get; private set; }
         public SkillTable SkillTable { get; private set; }
         public TechMaterialTable TechMaterialTable { get; private set; }
         public UnitTable UnitTable { get; private set; }
@@ -28,7 +27,6 @@ namespace MasterData
             EnemyTable EnemyTable,
             EquipmentTable EquipmentTable,
             ItemTable ItemTable,
-            NillTable NillTable,
             SkillTable SkillTable,
             TechMaterialTable TechMaterialTable,
             UnitTable UnitTable,
@@ -39,7 +37,6 @@ namespace MasterData
             this.EnemyTable = EnemyTable;
             this.EquipmentTable = EquipmentTable;
             this.ItemTable = ItemTable;
-            this.NillTable = NillTable;
             this.SkillTable = SkillTable;
             this.TechMaterialTable = TechMaterialTable;
             this.UnitTable = UnitTable;
@@ -57,7 +54,6 @@ namespace MasterData
             this.EnemyTable = ExtractTableData<Enemy, EnemyTable>(header, databaseBinary, options, xs => new EnemyTable(xs));
             this.EquipmentTable = ExtractTableData<Equipment, EquipmentTable>(header, databaseBinary, options, xs => new EquipmentTable(xs));
             this.ItemTable = ExtractTableData<Item, ItemTable>(header, databaseBinary, options, xs => new ItemTable(xs));
-            this.NillTable = ExtractTableData<Nill, NillTable>(header, databaseBinary, options, xs => new NillTable(xs));
             this.SkillTable = ExtractTableData<Skill, SkillTable>(header, databaseBinary, options, xs => new SkillTable(xs));
             this.TechMaterialTable = ExtractTableData<TechMaterial, TechMaterialTable>(header, databaseBinary, options, xs => new TechMaterialTable(xs));
             this.UnitTable = ExtractTableData<Unit, UnitTable>(header, databaseBinary, options, xs => new UnitTable(xs));
@@ -76,7 +72,6 @@ namespace MasterData
             builder.Append(this.EnemyTable.GetRawDataUnsafe());
             builder.Append(this.EquipmentTable.GetRawDataUnsafe());
             builder.Append(this.ItemTable.GetRawDataUnsafe());
-            builder.Append(this.NillTable.GetRawDataUnsafe());
             builder.Append(this.SkillTable.GetRawDataUnsafe());
             builder.Append(this.TechMaterialTable.GetRawDataUnsafe());
             builder.Append(this.UnitTable.GetRawDataUnsafe());
@@ -91,7 +86,6 @@ namespace MasterData
             builder.Append(this.EnemyTable.GetRawDataUnsafe());
             builder.Append(this.EquipmentTable.GetRawDataUnsafe());
             builder.Append(this.ItemTable.GetRawDataUnsafe());
-            builder.Append(this.NillTable.GetRawDataUnsafe());
             builder.Append(this.SkillTable.GetRawDataUnsafe());
             builder.Append(this.TechMaterialTable.GetRawDataUnsafe());
             builder.Append(this.UnitTable.GetRawDataUnsafe());
@@ -108,7 +102,6 @@ namespace MasterData
                 EnemyTable,
                 EquipmentTable,
                 ItemTable,
-                NillTable,
                 SkillTable,
                 TechMaterialTable,
                 UnitTable,
@@ -123,8 +116,6 @@ namespace MasterData
             ValidateTable(EquipmentTable.All, database, "Name", EquipmentTable.PrimaryKeySelector, result);
             ((ITableUniqueValidate)ItemTable).ValidateUnique(result);
             ValidateTable(ItemTable.All, database, "Name", ItemTable.PrimaryKeySelector, result);
-            ((ITableUniqueValidate)NillTable).ValidateUnique(result);
-            ValidateTable(NillTable.All, database, "Name", NillTable.PrimaryKeySelector, result);
             ((ITableUniqueValidate)SkillTable).ValidateUnique(result);
             ValidateTable(SkillTable.All, database, "Name", SkillTable.PrimaryKeySelector, result);
             ((ITableUniqueValidate)TechMaterialTable).ValidateUnique(result);
@@ -151,8 +142,6 @@ namespace MasterData
                     return db.EquipmentTable;
                 case "item":
                     return db.ItemTable;
-                case "nill":
-                    return db.NillTable;
                 case "Image":
                     return db.SkillTable;
                 case "material":
@@ -176,7 +165,6 @@ namespace MasterData
             dict.Add("enemy", MasterData.Tables.EnemyTable.CreateMetaTable());
             dict.Add("equipment", MasterData.Tables.EquipmentTable.CreateMetaTable());
             dict.Add("item", MasterData.Tables.ItemTable.CreateMetaTable());
-            dict.Add("nill", MasterData.Tables.NillTable.CreateMetaTable());
             dict.Add("Image", MasterData.Tables.SkillTable.CreateMetaTable());
             dict.Add("material", MasterData.Tables.TechMaterialTable.CreateMetaTable());
             dict.Add("unit", MasterData.Tables.UnitTable.CreateMetaTable());

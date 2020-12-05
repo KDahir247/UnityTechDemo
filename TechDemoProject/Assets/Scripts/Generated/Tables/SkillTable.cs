@@ -83,6 +83,7 @@ namespace MasterData.Tables
             return new MasterMemory.Meta.MetaTable(typeof(Skill), typeof(SkillTable), "Image",
                 new MasterMemory.Meta.MetaProperty[]
                 {
+                    new MasterMemory.Meta.MetaProperty(typeof(Skill).GetProperty("Id")),
                     new MasterMemory.Meta.MetaProperty(typeof(Skill).GetProperty("Name")),
                     new MasterMemory.Meta.MetaProperty(typeof(Skill).GetProperty("Description")),
                     new MasterMemory.Meta.MetaProperty(typeof(Skill).GetProperty("SkillDescription")),

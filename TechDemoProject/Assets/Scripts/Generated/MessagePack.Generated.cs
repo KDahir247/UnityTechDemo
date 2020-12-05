@@ -49,7 +49,7 @@ namespace MessagePack.Resolvers
 
         static GeneratedResolverGetFormatterHelper()
         {
-            lookup = new global::System.Collections.Generic.Dictionary<Type, int>(43)
+            lookup = new global::System.Collections.Generic.Dictionary<Type, int>(42)
             {
                 { typeof(global::Tech.Data.EquipmentData[]), 0 },
                 { typeof(global::Tech.Data.SkillData[]), 1 },
@@ -88,12 +88,11 @@ namespace MessagePack.Resolvers
                 { typeof(global::Tech.DB.Enemy), 34 },
                 { typeof(global::Tech.DB.Equipment), 35 },
                 { typeof(global::Tech.DB.Item), 36 },
-                { typeof(global::Tech.DB.Nill), 37 },
-                { typeof(global::Tech.DB.Skill), 38 },
-                { typeof(global::Tech.DB.TechMaterial), 39 },
-                { typeof(global::Tech.DB.Unit), 40 },
-                { typeof(global::Tech.DB.Weapon), 41 },
-                { typeof(global::Tech.Network.Param.Player), 42 },
+                { typeof(global::Tech.DB.Skill), 37 },
+                { typeof(global::Tech.DB.TechMaterial), 38 },
+                { typeof(global::Tech.DB.Unit), 39 },
+                { typeof(global::Tech.DB.Weapon), 40 },
+                { typeof(global::Tech.Network.Param.Player), 41 },
             };
         }
 
@@ -144,12 +143,11 @@ namespace MessagePack.Resolvers
                 case 34: return new MessagePack.Formatters.Tech.DB.EnemyFormatter();
                 case 35: return new MessagePack.Formatters.Tech.DB.EquipmentFormatter();
                 case 36: return new MessagePack.Formatters.Tech.DB.ItemFormatter();
-                case 37: return new MessagePack.Formatters.Tech.DB.NillFormatter();
-                case 38: return new MessagePack.Formatters.Tech.DB.SkillFormatter();
-                case 39: return new MessagePack.Formatters.Tech.DB.TechMaterialFormatter();
-                case 40: return new MessagePack.Formatters.Tech.DB.UnitFormatter();
-                case 41: return new MessagePack.Formatters.Tech.DB.WeaponFormatter();
-                case 42: return new MessagePack.Formatters.Tech.Network.Param.PlayerFormatter();
+                case 37: return new MessagePack.Formatters.Tech.DB.SkillFormatter();
+                case 38: return new MessagePack.Formatters.Tech.DB.TechMaterialFormatter();
+                case 39: return new MessagePack.Formatters.Tech.DB.UnitFormatter();
+                case 40: return new MessagePack.Formatters.Tech.DB.WeaponFormatter();
+                case 41: return new MessagePack.Formatters.Tech.Network.Param.PlayerFormatter();
                 default: return null;
             }
         }
@@ -2207,15 +2205,17 @@ namespace MessagePack.Formatters.Tech.Data
         {
             this.____keyMapping = new global::MessagePack.Internal.AutomataDictionary()
             {
-                { "name", 0 },
-                { "innocentCost", 1 },
-                { "description", 2 },
-                { "abilityDescription", 3 },
-                { "image", 4 },
+                { "id", 0 },
+                { "name", 1 },
+                { "innocentCost", 2 },
+                { "description", 3 },
+                { "abilityDescription", 4 },
+                { "image", 5 },
             };
 
             this.____stringByteKeys = new byte[][]
             {
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("id"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("name"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("innocentCost"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("description"),
@@ -2227,16 +2227,18 @@ namespace MessagePack.Formatters.Tech.Data
         public void Serialize(ref MessagePackWriter writer, global::Tech.Data.AbilityData value, global::MessagePack.MessagePackSerializerOptions options)
         {
             IFormatterResolver formatterResolver = options.Resolver;
-            writer.WriteMapHeader(5);
+            writer.WriteMapHeader(6);
             writer.WriteRaw(this.____stringByteKeys[0]);
-            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.name, options);
+            formatterResolver.GetFormatterWithVerify<byte[]>().Serialize(ref writer, value.id, options);
             writer.WriteRaw(this.____stringByteKeys[1]);
-            writer.Write(value.innocentCost);
+            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.name, options);
             writer.WriteRaw(this.____stringByteKeys[2]);
-            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.description, options);
+            writer.Write(value.innocentCost);
             writer.WriteRaw(this.____stringByteKeys[3]);
-            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.abilityDescription, options);
+            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.description, options);
             writer.WriteRaw(this.____stringByteKeys[4]);
+            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.abilityDescription, options);
+            writer.WriteRaw(this.____stringByteKeys[5]);
             formatterResolver.GetFormatterWithVerify<global::UnityEngine.Texture2D>().Serialize(ref writer, value.image, options);
         }
 
@@ -2250,6 +2252,7 @@ namespace MessagePack.Formatters.Tech.Data
             options.Security.DepthStep(ref reader);
             IFormatterResolver formatterResolver = options.Resolver;
             var length = reader.ReadMapHeader();
+            var __id__ = default(byte[]);
             var __name__ = default(string);
             var __innocentCost__ = default(int);
             var __description__ = default(string);
@@ -2269,18 +2272,21 @@ namespace MessagePack.Formatters.Tech.Data
                 switch (key)
                 {
                     case 0:
-                        __name__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
+                        __id__ = formatterResolver.GetFormatterWithVerify<byte[]>().Deserialize(ref reader, options);
                         break;
                     case 1:
-                        __innocentCost__ = reader.ReadInt32();
+                        __name__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
                         break;
                     case 2:
-                        __description__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
+                        __innocentCost__ = reader.ReadInt32();
                         break;
                     case 3:
-                        __abilityDescription__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
+                        __description__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
                         break;
                     case 4:
+                        __abilityDescription__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
+                        break;
+                    case 5:
                         __image__ = formatterResolver.GetFormatterWithVerify<global::UnityEngine.Texture2D>().Deserialize(ref reader, options);
                         break;
                     default:
@@ -2290,6 +2296,7 @@ namespace MessagePack.Formatters.Tech.Data
             }
 
             var ____result = new global::Tech.Data.AbilityData();
+            ____result.id = __id__;
             ____result.name = __name__;
             ____result.innocentCost = __innocentCost__;
             ____result.description = __description__;
@@ -2311,17 +2318,19 @@ namespace MessagePack.Formatters.Tech.Data
         {
             this.____keyMapping = new global::MessagePack.Internal.AutomataDictionary()
             {
-                { "name", 0 },
-                { "description", 1 },
-                { "image", 2 },
-                { "weaponData", 3 },
-                { "equipmentDatas", 4 },
-                { "abilityData", 5 },
-                { "skillDatas", 6 },
+                { "id", 0 },
+                { "name", 1 },
+                { "description", 2 },
+                { "image", 3 },
+                { "weaponData", 4 },
+                { "equipmentDatas", 5 },
+                { "abilityData", 6 },
+                { "skillDatas", 7 },
             };
 
             this.____stringByteKeys = new byte[][]
             {
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("id"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("name"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("description"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("image"),
@@ -2335,20 +2344,22 @@ namespace MessagePack.Formatters.Tech.Data
         public void Serialize(ref MessagePackWriter writer, global::Tech.Data.EnemyData value, global::MessagePack.MessagePackSerializerOptions options)
         {
             IFormatterResolver formatterResolver = options.Resolver;
-            writer.WriteMapHeader(7);
+            writer.WriteMapHeader(8);
             writer.WriteRaw(this.____stringByteKeys[0]);
-            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.name, options);
+            formatterResolver.GetFormatterWithVerify<byte[]>().Serialize(ref writer, value.id, options);
             writer.WriteRaw(this.____stringByteKeys[1]);
-            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.description, options);
+            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.name, options);
             writer.WriteRaw(this.____stringByteKeys[2]);
-            formatterResolver.GetFormatterWithVerify<global::UnityEngine.Texture2D>().Serialize(ref writer, value.image, options);
+            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.description, options);
             writer.WriteRaw(this.____stringByteKeys[3]);
-            formatterResolver.GetFormatterWithVerify<global::Tech.Data.WeaponData>().Serialize(ref writer, value.weaponData, options);
+            formatterResolver.GetFormatterWithVerify<global::UnityEngine.Texture2D>().Serialize(ref writer, value.image, options);
             writer.WriteRaw(this.____stringByteKeys[4]);
-            formatterResolver.GetFormatterWithVerify<global::Tech.Data.EquipmentData[]>().Serialize(ref writer, value.equipmentDatas, options);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.WeaponData>().Serialize(ref writer, value.weaponData, options);
             writer.WriteRaw(this.____stringByteKeys[5]);
-            formatterResolver.GetFormatterWithVerify<global::Tech.Data.AbilityData>().Serialize(ref writer, value.abilityData, options);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.EquipmentData[]>().Serialize(ref writer, value.equipmentDatas, options);
             writer.WriteRaw(this.____stringByteKeys[6]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.AbilityData>().Serialize(ref writer, value.abilityData, options);
+            writer.WriteRaw(this.____stringByteKeys[7]);
             formatterResolver.GetFormatterWithVerify<global::Tech.Data.SkillData[]>().Serialize(ref writer, value.skillDatas, options);
         }
 
@@ -2362,6 +2373,7 @@ namespace MessagePack.Formatters.Tech.Data
             options.Security.DepthStep(ref reader);
             IFormatterResolver formatterResolver = options.Resolver;
             var length = reader.ReadMapHeader();
+            var __id__ = default(byte[]);
             var __name__ = default(string);
             var __description__ = default(string);
             var __image__ = default(global::UnityEngine.Texture2D);
@@ -2383,24 +2395,27 @@ namespace MessagePack.Formatters.Tech.Data
                 switch (key)
                 {
                     case 0:
-                        __name__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
+                        __id__ = formatterResolver.GetFormatterWithVerify<byte[]>().Deserialize(ref reader, options);
                         break;
                     case 1:
-                        __description__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
+                        __name__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
                         break;
                     case 2:
-                        __image__ = formatterResolver.GetFormatterWithVerify<global::UnityEngine.Texture2D>().Deserialize(ref reader, options);
+                        __description__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
                         break;
                     case 3:
-                        __weaponData__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.WeaponData>().Deserialize(ref reader, options);
+                        __image__ = formatterResolver.GetFormatterWithVerify<global::UnityEngine.Texture2D>().Deserialize(ref reader, options);
                         break;
                     case 4:
-                        __equipmentDatas__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.EquipmentData[]>().Deserialize(ref reader, options);
+                        __weaponData__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.WeaponData>().Deserialize(ref reader, options);
                         break;
                     case 5:
-                        __abilityData__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.AbilityData>().Deserialize(ref reader, options);
+                        __equipmentDatas__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.EquipmentData[]>().Deserialize(ref reader, options);
                         break;
                     case 6:
+                        __abilityData__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.AbilityData>().Deserialize(ref reader, options);
+                        break;
+                    case 7:
                         __skillDatas__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.SkillData[]>().Deserialize(ref reader, options);
                         break;
                     default:
@@ -2410,6 +2425,7 @@ namespace MessagePack.Formatters.Tech.Data
             }
 
             var ____result = new global::Tech.Data.EnemyData();
+            ____result.id = __id__;
             ____result.name = __name__;
             ____result.description = __description__;
             ____result.image = __image__;
@@ -2433,13 +2449,15 @@ namespace MessagePack.Formatters.Tech.Data
         {
             this.____keyMapping = new global::MessagePack.Internal.AutomataDictionary()
             {
-                { "name", 0 },
-                { "description", 1 },
-                { "image", 2 },
+                { "id", 0 },
+                { "name", 1 },
+                { "description", 2 },
+                { "image", 3 },
             };
 
             this.____stringByteKeys = new byte[][]
             {
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("id"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("name"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("description"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("image"),
@@ -2449,12 +2467,14 @@ namespace MessagePack.Formatters.Tech.Data
         public void Serialize(ref MessagePackWriter writer, global::Tech.Data.EquipmentData value, global::MessagePack.MessagePackSerializerOptions options)
         {
             IFormatterResolver formatterResolver = options.Resolver;
-            writer.WriteMapHeader(3);
+            writer.WriteMapHeader(4);
             writer.WriteRaw(this.____stringByteKeys[0]);
-            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.name, options);
+            formatterResolver.GetFormatterWithVerify<byte[]>().Serialize(ref writer, value.id, options);
             writer.WriteRaw(this.____stringByteKeys[1]);
-            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.description, options);
+            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.name, options);
             writer.WriteRaw(this.____stringByteKeys[2]);
+            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.description, options);
+            writer.WriteRaw(this.____stringByteKeys[3]);
             formatterResolver.GetFormatterWithVerify<global::UnityEngine.Texture2D>().Serialize(ref writer, value.image, options);
         }
 
@@ -2468,6 +2488,7 @@ namespace MessagePack.Formatters.Tech.Data
             options.Security.DepthStep(ref reader);
             IFormatterResolver formatterResolver = options.Resolver;
             var length = reader.ReadMapHeader();
+            var __id__ = default(byte[]);
             var __name__ = default(string);
             var __description__ = default(string);
             var __image__ = default(global::UnityEngine.Texture2D);
@@ -2485,12 +2506,15 @@ namespace MessagePack.Formatters.Tech.Data
                 switch (key)
                 {
                     case 0:
-                        __name__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
+                        __id__ = formatterResolver.GetFormatterWithVerify<byte[]>().Deserialize(ref reader, options);
                         break;
                     case 1:
-                        __description__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
+                        __name__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
                         break;
                     case 2:
+                        __description__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
+                        break;
+                    case 3:
                         __image__ = formatterResolver.GetFormatterWithVerify<global::UnityEngine.Texture2D>().Deserialize(ref reader, options);
                         break;
                     default:
@@ -2500,6 +2524,7 @@ namespace MessagePack.Formatters.Tech.Data
             }
 
             var ____result = new global::Tech.Data.EquipmentData();
+            ____result.id = __id__;
             ____result.name = __name__;
             ____result.description = __description__;
             ____result.image = __image__;
@@ -2519,13 +2544,15 @@ namespace MessagePack.Formatters.Tech.Data
         {
             this.____keyMapping = new global::MessagePack.Internal.AutomataDictionary()
             {
-                { "name", 0 },
-                { "description", 1 },
-                { "image", 2 },
+                { "id", 0 },
+                { "name", 1 },
+                { "description", 2 },
+                { "image", 3 },
             };
 
             this.____stringByteKeys = new byte[][]
             {
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("id"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("name"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("description"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("image"),
@@ -2535,12 +2562,14 @@ namespace MessagePack.Formatters.Tech.Data
         public void Serialize(ref MessagePackWriter writer, global::Tech.Data.ItemData value, global::MessagePack.MessagePackSerializerOptions options)
         {
             IFormatterResolver formatterResolver = options.Resolver;
-            writer.WriteMapHeader(3);
+            writer.WriteMapHeader(4);
             writer.WriteRaw(this.____stringByteKeys[0]);
-            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.name, options);
+            formatterResolver.GetFormatterWithVerify<byte[]>().Serialize(ref writer, value.id, options);
             writer.WriteRaw(this.____stringByteKeys[1]);
-            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.description, options);
+            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.name, options);
             writer.WriteRaw(this.____stringByteKeys[2]);
+            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.description, options);
+            writer.WriteRaw(this.____stringByteKeys[3]);
             formatterResolver.GetFormatterWithVerify<global::UnityEngine.Texture2D>().Serialize(ref writer, value.image, options);
         }
 
@@ -2554,6 +2583,7 @@ namespace MessagePack.Formatters.Tech.Data
             options.Security.DepthStep(ref reader);
             IFormatterResolver formatterResolver = options.Resolver;
             var length = reader.ReadMapHeader();
+            var __id__ = default(byte[]);
             var __name__ = default(string);
             var __description__ = default(string);
             var __image__ = default(global::UnityEngine.Texture2D);
@@ -2571,12 +2601,15 @@ namespace MessagePack.Formatters.Tech.Data
                 switch (key)
                 {
                     case 0:
-                        __name__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
+                        __id__ = formatterResolver.GetFormatterWithVerify<byte[]>().Deserialize(ref reader, options);
                         break;
                     case 1:
-                        __description__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
+                        __name__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
                         break;
                     case 2:
+                        __description__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
+                        break;
+                    case 3:
                         __image__ = formatterResolver.GetFormatterWithVerify<global::UnityEngine.Texture2D>().Deserialize(ref reader, options);
                         break;
                     default:
@@ -2586,6 +2619,7 @@ namespace MessagePack.Formatters.Tech.Data
             }
 
             var ____result = new global::Tech.Data.ItemData();
+            ____result.id = __id__;
             ____result.name = __name__;
             ____result.description = __description__;
             ____result.image = __image__;
@@ -2605,13 +2639,15 @@ namespace MessagePack.Formatters.Tech.Data
         {
             this.____keyMapping = new global::MessagePack.Internal.AutomataDictionary()
             {
-                { "name", 0 },
-                { "description", 1 },
-                { "image", 2 },
+                { "id", 0 },
+                { "name", 1 },
+                { "description", 2 },
+                { "image", 3 },
             };
 
             this.____stringByteKeys = new byte[][]
             {
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("id"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("name"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("description"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("image"),
@@ -2621,12 +2657,14 @@ namespace MessagePack.Formatters.Tech.Data
         public void Serialize(ref MessagePackWriter writer, global::Tech.Data.MaterialData value, global::MessagePack.MessagePackSerializerOptions options)
         {
             IFormatterResolver formatterResolver = options.Resolver;
-            writer.WriteMapHeader(3);
+            writer.WriteMapHeader(4);
             writer.WriteRaw(this.____stringByteKeys[0]);
-            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.name, options);
+            formatterResolver.GetFormatterWithVerify<byte[]>().Serialize(ref writer, value.id, options);
             writer.WriteRaw(this.____stringByteKeys[1]);
-            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.description, options);
+            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.name, options);
             writer.WriteRaw(this.____stringByteKeys[2]);
+            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.description, options);
+            writer.WriteRaw(this.____stringByteKeys[3]);
             formatterResolver.GetFormatterWithVerify<global::UnityEngine.Texture2D>().Serialize(ref writer, value.image, options);
         }
 
@@ -2640,6 +2678,7 @@ namespace MessagePack.Formatters.Tech.Data
             options.Security.DepthStep(ref reader);
             IFormatterResolver formatterResolver = options.Resolver;
             var length = reader.ReadMapHeader();
+            var __id__ = default(byte[]);
             var __name__ = default(string);
             var __description__ = default(string);
             var __image__ = default(global::UnityEngine.Texture2D);
@@ -2657,12 +2696,15 @@ namespace MessagePack.Formatters.Tech.Data
                 switch (key)
                 {
                     case 0:
-                        __name__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
+                        __id__ = formatterResolver.GetFormatterWithVerify<byte[]>().Deserialize(ref reader, options);
                         break;
                     case 1:
-                        __description__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
+                        __name__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
                         break;
                     case 2:
+                        __description__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
+                        break;
+                    case 3:
                         __image__ = formatterResolver.GetFormatterWithVerify<global::UnityEngine.Texture2D>().Deserialize(ref reader, options);
                         break;
                     default:
@@ -2672,6 +2714,7 @@ namespace MessagePack.Formatters.Tech.Data
             }
 
             var ____result = new global::Tech.Data.MaterialData();
+            ____result.id = __id__;
             ____result.name = __name__;
             ____result.description = __description__;
             ____result.image = __image__;
@@ -2691,14 +2734,16 @@ namespace MessagePack.Formatters.Tech.Data
         {
             this.____keyMapping = new global::MessagePack.Internal.AutomataDictionary()
             {
-                { "name", 0 },
-                { "image", 1 },
-                { "description", 2 },
-                { "skillDescription", 3 },
+                { "id", 0 },
+                { "name", 1 },
+                { "image", 2 },
+                { "description", 3 },
+                { "skillDescription", 4 },
             };
 
             this.____stringByteKeys = new byte[][]
             {
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("id"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("name"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("image"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("description"),
@@ -2709,14 +2754,16 @@ namespace MessagePack.Formatters.Tech.Data
         public void Serialize(ref MessagePackWriter writer, global::Tech.Data.SkillData value, global::MessagePack.MessagePackSerializerOptions options)
         {
             IFormatterResolver formatterResolver = options.Resolver;
-            writer.WriteMapHeader(4);
+            writer.WriteMapHeader(5);
             writer.WriteRaw(this.____stringByteKeys[0]);
-            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.name, options);
+            formatterResolver.GetFormatterWithVerify<byte[]>().Serialize(ref writer, value.id, options);
             writer.WriteRaw(this.____stringByteKeys[1]);
-            formatterResolver.GetFormatterWithVerify<global::UnityEngine.Texture2D>().Serialize(ref writer, value.image, options);
+            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.name, options);
             writer.WriteRaw(this.____stringByteKeys[2]);
-            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.description, options);
+            formatterResolver.GetFormatterWithVerify<global::UnityEngine.Texture2D>().Serialize(ref writer, value.image, options);
             writer.WriteRaw(this.____stringByteKeys[3]);
+            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.description, options);
+            writer.WriteRaw(this.____stringByteKeys[4]);
             formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.skillDescription, options);
         }
 
@@ -2730,6 +2777,7 @@ namespace MessagePack.Formatters.Tech.Data
             options.Security.DepthStep(ref reader);
             IFormatterResolver formatterResolver = options.Resolver;
             var length = reader.ReadMapHeader();
+            var __id__ = default(byte[]);
             var __name__ = default(string);
             var __image__ = default(global::UnityEngine.Texture2D);
             var __description__ = default(string);
@@ -2748,15 +2796,18 @@ namespace MessagePack.Formatters.Tech.Data
                 switch (key)
                 {
                     case 0:
-                        __name__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
+                        __id__ = formatterResolver.GetFormatterWithVerify<byte[]>().Deserialize(ref reader, options);
                         break;
                     case 1:
-                        __image__ = formatterResolver.GetFormatterWithVerify<global::UnityEngine.Texture2D>().Deserialize(ref reader, options);
+                        __name__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
                         break;
                     case 2:
-                        __description__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
+                        __image__ = formatterResolver.GetFormatterWithVerify<global::UnityEngine.Texture2D>().Deserialize(ref reader, options);
                         break;
                     case 3:
+                        __description__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
+                        break;
+                    case 4:
                         __skillDescription__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
                         break;
                     default:
@@ -2766,6 +2817,7 @@ namespace MessagePack.Formatters.Tech.Data
             }
 
             var ____result = new global::Tech.Data.SkillData();
+            ____result.id = __id__;
             ____result.name = __name__;
             ____result.image = __image__;
             ____result.description = __description__;
@@ -2816,7 +2868,7 @@ namespace MessagePack.Formatters.Tech.Data
             writer.WriteRaw(this.____stringByteKeys[1]);
             formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.description, options);
             writer.WriteRaw(this.____stringByteKeys[2]);
-            formatterResolver.GetFormatterWithVerify<byte[]>().Serialize(ref writer, value.image, options);
+            formatterResolver.GetFormatterWithVerify<global::UnityEngine.Texture2D>().Serialize(ref writer, value.image, options);
             writer.WriteRaw(this.____stringByteKeys[3]);
             formatterResolver.GetFormatterWithVerify<global::Tech.Data.WeaponData>().Serialize(ref writer, value.weaponData, options);
             writer.WriteRaw(this.____stringByteKeys[4]);
@@ -2839,7 +2891,7 @@ namespace MessagePack.Formatters.Tech.Data
             var length = reader.ReadMapHeader();
             var __name__ = default(string);
             var __description__ = default(string);
-            var __image__ = default(byte[]);
+            var __image__ = default(global::UnityEngine.Texture2D);
             var __weaponData__ = default(global::Tech.Data.WeaponData);
             var __equipmentDatas__ = default(global::Tech.Data.EquipmentData[]);
             var __abilityData__ = default(global::Tech.Data.AbilityData);
@@ -2864,7 +2916,7 @@ namespace MessagePack.Formatters.Tech.Data
                         __description__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
                         break;
                     case 2:
-                        __image__ = formatterResolver.GetFormatterWithVerify<byte[]>().Deserialize(ref reader, options);
+                        __image__ = formatterResolver.GetFormatterWithVerify<global::UnityEngine.Texture2D>().Deserialize(ref reader, options);
                         break;
                     case 3:
                         __weaponData__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.WeaponData>().Deserialize(ref reader, options);
@@ -2908,13 +2960,15 @@ namespace MessagePack.Formatters.Tech.Data
         {
             this.____keyMapping = new global::MessagePack.Internal.AutomataDictionary()
             {
-                { "name", 0 },
-                { "description", 1 },
-                { "image", 2 },
+                { "id", 0 },
+                { "name", 1 },
+                { "description", 2 },
+                { "image", 3 },
             };
 
             this.____stringByteKeys = new byte[][]
             {
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("id"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("name"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("description"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("image"),
@@ -2924,12 +2978,14 @@ namespace MessagePack.Formatters.Tech.Data
         public void Serialize(ref MessagePackWriter writer, global::Tech.Data.WeaponData value, global::MessagePack.MessagePackSerializerOptions options)
         {
             IFormatterResolver formatterResolver = options.Resolver;
-            writer.WriteMapHeader(3);
+            writer.WriteMapHeader(4);
             writer.WriteRaw(this.____stringByteKeys[0]);
-            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.name, options);
+            formatterResolver.GetFormatterWithVerify<byte[]>().Serialize(ref writer, value.id, options);
             writer.WriteRaw(this.____stringByteKeys[1]);
-            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.description, options);
+            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.name, options);
             writer.WriteRaw(this.____stringByteKeys[2]);
+            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.description, options);
+            writer.WriteRaw(this.____stringByteKeys[3]);
             formatterResolver.GetFormatterWithVerify<global::UnityEngine.Texture2D>().Serialize(ref writer, value.image, options);
         }
 
@@ -2943,6 +2999,7 @@ namespace MessagePack.Formatters.Tech.Data
             options.Security.DepthStep(ref reader);
             IFormatterResolver formatterResolver = options.Resolver;
             var length = reader.ReadMapHeader();
+            var __id__ = default(byte[]);
             var __name__ = default(string);
             var __description__ = default(string);
             var __image__ = default(global::UnityEngine.Texture2D);
@@ -2960,12 +3017,15 @@ namespace MessagePack.Formatters.Tech.Data
                 switch (key)
                 {
                     case 0:
-                        __name__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
+                        __id__ = formatterResolver.GetFormatterWithVerify<byte[]>().Deserialize(ref reader, options);
                         break;
                     case 1:
-                        __description__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
+                        __name__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
                         break;
                     case 2:
+                        __description__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
+                        break;
+                    case 3:
                         __image__ = formatterResolver.GetFormatterWithVerify<global::UnityEngine.Texture2D>().Deserialize(ref reader, options);
                         break;
                     default:
@@ -2975,6 +3035,7 @@ namespace MessagePack.Formatters.Tech.Data
             }
 
             var ____result = new global::Tech.Data.WeaponData();
+            ____result.id = __id__;
             ____result.name = __name__;
             ____result.description = __description__;
             ____result.image = __image__;
@@ -3548,7 +3609,7 @@ namespace MessagePack.Formatters.Tech.Data.DB
             options.Security.DepthStep(ref reader);
             IFormatterResolver formatterResolver = options.Resolver;
             var length = reader.ReadMapHeader();
-            var __Level__ = default(uint);
+            var __Level__ = default(int);
             var __Rarity__ = default(global::Tech.Data.DB.Rarity);
 
             for (int i = 0; i < length; i++)
@@ -3564,7 +3625,7 @@ namespace MessagePack.Formatters.Tech.Data.DB
                 switch (key)
                 {
                     case 0:
-                        __Level__ = reader.ReadUInt32();
+                        __Level__ = reader.ReadInt32();
                         break;
                     case 1:
                         __Rarity__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.Rarity>().Deserialize(ref reader, options);
@@ -4171,17 +4232,19 @@ namespace MessagePack.Formatters.Tech.DB
         {
             this.____keyMapping = new global::MessagePack.Internal.AutomataDictionary()
             {
-                { "Name", 0 },
-                { "InnocenceCost", 1 },
-                { "Description", 2 },
-                { "AbilityDescription", 3 },
-                { "ImageBytes", 4 },
-                { "AbilityInfo", 5 },
-                { "Index", 6 },
+                { "Id", 0 },
+                { "Name", 1 },
+                { "InnocenceCost", 2 },
+                { "Description", 3 },
+                { "AbilityDescription", 4 },
+                { "ImageBytes", 5 },
+                { "AbilityInfo", 6 },
+                { "Index", 7 },
             };
 
             this.____stringByteKeys = new byte[][]
             {
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Id"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Name"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("InnocenceCost"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Description"),
@@ -4202,20 +4265,22 @@ namespace MessagePack.Formatters.Tech.DB
 
             IFormatterResolver formatterResolver = options.Resolver;
             value.OnBeforeSerialize();
-            writer.WriteMapHeader(7);
+            writer.WriteMapHeader(8);
             writer.WriteRaw(this.____stringByteKeys[0]);
-            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.Name, options);
+            formatterResolver.GetFormatterWithVerify<byte[]>().Serialize(ref writer, value.Id, options);
             writer.WriteRaw(this.____stringByteKeys[1]);
-            writer.Write(value.InnocenceCost);
+            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.Name, options);
             writer.WriteRaw(this.____stringByteKeys[2]);
-            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.Description, options);
+            writer.Write(value.InnocenceCost);
             writer.WriteRaw(this.____stringByteKeys[3]);
-            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.AbilityDescription, options);
+            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.Description, options);
             writer.WriteRaw(this.____stringByteKeys[4]);
-            formatterResolver.GetFormatterWithVerify<byte[]>().Serialize(ref writer, value.ImageBytes, options);
+            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.AbilityDescription, options);
             writer.WriteRaw(this.____stringByteKeys[5]);
-            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.AbilityInfo>().Serialize(ref writer, value.AbilityInfo, options);
+            formatterResolver.GetFormatterWithVerify<byte[]>().Serialize(ref writer, value.ImageBytes, options);
             writer.WriteRaw(this.____stringByteKeys[6]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.AbilityInfo>().Serialize(ref writer, value.AbilityInfo, options);
+            writer.WriteRaw(this.____stringByteKeys[7]);
             writer.Write(value.Index);
         }
 
@@ -4229,6 +4294,7 @@ namespace MessagePack.Formatters.Tech.DB
             options.Security.DepthStep(ref reader);
             IFormatterResolver formatterResolver = options.Resolver;
             var length = reader.ReadMapHeader();
+            var __Id__ = default(byte[]);
             var __Name__ = default(string);
             var __InnocenceCost__ = default(int);
             var __Description__ = default(string);
@@ -4250,24 +4316,27 @@ namespace MessagePack.Formatters.Tech.DB
                 switch (key)
                 {
                     case 0:
-                        __Name__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
+                        __Id__ = formatterResolver.GetFormatterWithVerify<byte[]>().Deserialize(ref reader, options);
                         break;
                     case 1:
-                        __InnocenceCost__ = reader.ReadInt32();
+                        __Name__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
                         break;
                     case 2:
-                        __Description__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
+                        __InnocenceCost__ = reader.ReadInt32();
                         break;
                     case 3:
-                        __AbilityDescription__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
+                        __Description__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
                         break;
                     case 4:
-                        __ImageBytes__ = formatterResolver.GetFormatterWithVerify<byte[]>().Deserialize(ref reader, options);
+                        __AbilityDescription__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
                         break;
                     case 5:
-                        __AbilityInfo__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.AbilityInfo>().Deserialize(ref reader, options);
+                        __ImageBytes__ = formatterResolver.GetFormatterWithVerify<byte[]>().Deserialize(ref reader, options);
                         break;
                     case 6:
+                        __AbilityInfo__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.AbilityInfo>().Deserialize(ref reader, options);
+                        break;
+                    case 7:
                         __Index__ = reader.ReadInt32();
                         break;
                     default:
@@ -4277,6 +4346,7 @@ namespace MessagePack.Formatters.Tech.DB
             }
 
             var ____result = new global::Tech.DB.Ability();
+            ____result.Id = __Id__;
             ____result.Name = __Name__;
             ____result.InnocenceCost = __InnocenceCost__;
             ____result.Description = __Description__;
@@ -4301,19 +4371,21 @@ namespace MessagePack.Formatters.Tech.DB
         {
             this.____keyMapping = new global::MessagePack.Internal.AutomataDictionary()
             {
-                { "Name", 0 },
-                { "Index", 1 },
-                { "Description", 2 },
-                { "ImageBytes", 3 },
-                { "EnemyInfo", 4 },
-                { "Weapon", 5 },
-                { "Equipment", 6 },
-                { "Ability", 7 },
-                { "Skills", 8 },
+                { "Id", 0 },
+                { "Name", 1 },
+                { "Index", 2 },
+                { "Description", 3 },
+                { "ImageBytes", 4 },
+                { "EnemyInfo", 5 },
+                { "Weapon", 6 },
+                { "Equipment", 7 },
+                { "Ability", 8 },
+                { "Skills", 9 },
             };
 
             this.____stringByteKeys = new byte[][]
             {
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Id"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Name"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Index"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Description"),
@@ -4336,24 +4408,26 @@ namespace MessagePack.Formatters.Tech.DB
 
             IFormatterResolver formatterResolver = options.Resolver;
             value.OnBeforeSerialize();
-            writer.WriteMapHeader(9);
+            writer.WriteMapHeader(10);
             writer.WriteRaw(this.____stringByteKeys[0]);
-            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.Name, options);
+            formatterResolver.GetFormatterWithVerify<byte[]>().Serialize(ref writer, value.Id, options);
             writer.WriteRaw(this.____stringByteKeys[1]);
-            writer.Write(value.Index);
+            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.Name, options);
             writer.WriteRaw(this.____stringByteKeys[2]);
-            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.Description, options);
+            writer.Write(value.Index);
             writer.WriteRaw(this.____stringByteKeys[3]);
-            formatterResolver.GetFormatterWithVerify<byte[]>().Serialize(ref writer, value.ImageBytes, options);
+            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.Description, options);
             writer.WriteRaw(this.____stringByteKeys[4]);
-            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.EnemyInfo>().Serialize(ref writer, value.EnemyInfo, options);
+            formatterResolver.GetFormatterWithVerify<byte[]>().Serialize(ref writer, value.ImageBytes, options);
             writer.WriteRaw(this.____stringByteKeys[5]);
-            formatterResolver.GetFormatterWithVerify<global::Tech.DB.Weapon>().Serialize(ref writer, value.Weapon, options);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.EnemyInfo>().Serialize(ref writer, value.EnemyInfo, options);
             writer.WriteRaw(this.____stringByteKeys[6]);
-            formatterResolver.GetFormatterWithVerify<global::Tech.DB.Equipment[]>().Serialize(ref writer, value.Equipment, options);
+            formatterResolver.GetFormatterWithVerify<global::Tech.DB.Weapon>().Serialize(ref writer, value.Weapon, options);
             writer.WriteRaw(this.____stringByteKeys[7]);
-            formatterResolver.GetFormatterWithVerify<global::Tech.DB.Ability>().Serialize(ref writer, value.Ability, options);
+            formatterResolver.GetFormatterWithVerify<global::Tech.DB.Equipment[]>().Serialize(ref writer, value.Equipment, options);
             writer.WriteRaw(this.____stringByteKeys[8]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.DB.Ability>().Serialize(ref writer, value.Ability, options);
+            writer.WriteRaw(this.____stringByteKeys[9]);
             formatterResolver.GetFormatterWithVerify<global::Tech.DB.Skill[]>().Serialize(ref writer, value.Skills, options);
         }
 
@@ -4367,6 +4441,7 @@ namespace MessagePack.Formatters.Tech.DB
             options.Security.DepthStep(ref reader);
             IFormatterResolver formatterResolver = options.Resolver;
             var length = reader.ReadMapHeader();
+            var __Id__ = default(byte[]);
             var __Name__ = default(string);
             var __Index__ = default(int);
             var __Description__ = default(string);
@@ -4390,30 +4465,33 @@ namespace MessagePack.Formatters.Tech.DB
                 switch (key)
                 {
                     case 0:
-                        __Name__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
+                        __Id__ = formatterResolver.GetFormatterWithVerify<byte[]>().Deserialize(ref reader, options);
                         break;
                     case 1:
-                        __Index__ = reader.ReadInt32();
+                        __Name__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
                         break;
                     case 2:
-                        __Description__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
+                        __Index__ = reader.ReadInt32();
                         break;
                     case 3:
-                        __ImageBytes__ = formatterResolver.GetFormatterWithVerify<byte[]>().Deserialize(ref reader, options);
+                        __Description__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
                         break;
                     case 4:
-                        __EnemyInfo__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.EnemyInfo>().Deserialize(ref reader, options);
+                        __ImageBytes__ = formatterResolver.GetFormatterWithVerify<byte[]>().Deserialize(ref reader, options);
                         break;
                     case 5:
-                        __Weapon__ = formatterResolver.GetFormatterWithVerify<global::Tech.DB.Weapon>().Deserialize(ref reader, options);
+                        __EnemyInfo__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.EnemyInfo>().Deserialize(ref reader, options);
                         break;
                     case 6:
-                        __Equipment__ = formatterResolver.GetFormatterWithVerify<global::Tech.DB.Equipment[]>().Deserialize(ref reader, options);
+                        __Weapon__ = formatterResolver.GetFormatterWithVerify<global::Tech.DB.Weapon>().Deserialize(ref reader, options);
                         break;
                     case 7:
-                        __Ability__ = formatterResolver.GetFormatterWithVerify<global::Tech.DB.Ability>().Deserialize(ref reader, options);
+                        __Equipment__ = formatterResolver.GetFormatterWithVerify<global::Tech.DB.Equipment[]>().Deserialize(ref reader, options);
                         break;
                     case 8:
+                        __Ability__ = formatterResolver.GetFormatterWithVerify<global::Tech.DB.Ability>().Deserialize(ref reader, options);
+                        break;
+                    case 9:
                         __Skills__ = formatterResolver.GetFormatterWithVerify<global::Tech.DB.Skill[]>().Deserialize(ref reader, options);
                         break;
                     default:
@@ -4423,6 +4501,7 @@ namespace MessagePack.Formatters.Tech.DB
             }
 
             var ____result = new global::Tech.DB.Enemy();
+            ____result.Id = __Id__;
             ____result.Name = __Name__;
             ____result.Index = __Index__;
             ____result.Description = __Description__;
@@ -4449,15 +4528,17 @@ namespace MessagePack.Formatters.Tech.DB
         {
             this.____keyMapping = new global::MessagePack.Internal.AutomataDictionary()
             {
-                { "Name", 0 },
-                { "Description", 1 },
-                { "ImageBytes", 2 },
-                { "EquipmentInfo", 3 },
-                { "Index", 4 },
+                { "Id", 0 },
+                { "Name", 1 },
+                { "Description", 2 },
+                { "ImageBytes", 3 },
+                { "EquipmentInfo", 4 },
+                { "Index", 5 },
             };
 
             this.____stringByteKeys = new byte[][]
             {
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Id"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Name"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Description"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("ImageBytes"),
@@ -4476,16 +4557,18 @@ namespace MessagePack.Formatters.Tech.DB
 
             IFormatterResolver formatterResolver = options.Resolver;
             value.OnBeforeSerialize();
-            writer.WriteMapHeader(5);
+            writer.WriteMapHeader(6);
             writer.WriteRaw(this.____stringByteKeys[0]);
-            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.Name, options);
+            formatterResolver.GetFormatterWithVerify<byte[]>().Serialize(ref writer, value.Id, options);
             writer.WriteRaw(this.____stringByteKeys[1]);
-            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.Description, options);
+            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.Name, options);
             writer.WriteRaw(this.____stringByteKeys[2]);
-            formatterResolver.GetFormatterWithVerify<byte[]>().Serialize(ref writer, value.ImageBytes, options);
+            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.Description, options);
             writer.WriteRaw(this.____stringByteKeys[3]);
-            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.EquipmentInfo>().Serialize(ref writer, value.EquipmentInfo, options);
+            formatterResolver.GetFormatterWithVerify<byte[]>().Serialize(ref writer, value.ImageBytes, options);
             writer.WriteRaw(this.____stringByteKeys[4]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.EquipmentInfo>().Serialize(ref writer, value.EquipmentInfo, options);
+            writer.WriteRaw(this.____stringByteKeys[5]);
             writer.Write(value.Index);
         }
 
@@ -4499,6 +4582,7 @@ namespace MessagePack.Formatters.Tech.DB
             options.Security.DepthStep(ref reader);
             IFormatterResolver formatterResolver = options.Resolver;
             var length = reader.ReadMapHeader();
+            var __Id__ = default(byte[]);
             var __Name__ = default(string);
             var __Description__ = default(string);
             var __ImageBytes__ = default(byte[]);
@@ -4518,18 +4602,21 @@ namespace MessagePack.Formatters.Tech.DB
                 switch (key)
                 {
                     case 0:
-                        __Name__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
+                        __Id__ = formatterResolver.GetFormatterWithVerify<byte[]>().Deserialize(ref reader, options);
                         break;
                     case 1:
-                        __Description__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
+                        __Name__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
                         break;
                     case 2:
-                        __ImageBytes__ = formatterResolver.GetFormatterWithVerify<byte[]>().Deserialize(ref reader, options);
+                        __Description__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
                         break;
                     case 3:
-                        __EquipmentInfo__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.EquipmentInfo>().Deserialize(ref reader, options);
+                        __ImageBytes__ = formatterResolver.GetFormatterWithVerify<byte[]>().Deserialize(ref reader, options);
                         break;
                     case 4:
+                        __EquipmentInfo__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.EquipmentInfo>().Deserialize(ref reader, options);
+                        break;
+                    case 5:
                         __Index__ = reader.ReadInt32();
                         break;
                     default:
@@ -4539,6 +4626,7 @@ namespace MessagePack.Formatters.Tech.DB
             }
 
             var ____result = new global::Tech.DB.Equipment();
+            ____result.Id = __Id__;
             ____result.Name = __Name__;
             ____result.Description = __Description__;
             ____result.ImageBytes = __ImageBytes__;
@@ -4561,15 +4649,17 @@ namespace MessagePack.Formatters.Tech.DB
         {
             this.____keyMapping = new global::MessagePack.Internal.AutomataDictionary()
             {
-                { "Name", 0 },
-                { "Description", 1 },
-                { "ImageBytes", 2 },
-                { "ItemInfo", 3 },
-                { "Index", 4 },
+                { "Id", 0 },
+                { "Name", 1 },
+                { "Description", 2 },
+                { "ImageBytes", 3 },
+                { "ItemInfo", 4 },
+                { "Index", 5 },
             };
 
             this.____stringByteKeys = new byte[][]
             {
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Id"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Name"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Description"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("ImageBytes"),
@@ -4588,16 +4678,18 @@ namespace MessagePack.Formatters.Tech.DB
 
             IFormatterResolver formatterResolver = options.Resolver;
             value.OnBeforeSerialize();
-            writer.WriteMapHeader(5);
+            writer.WriteMapHeader(6);
             writer.WriteRaw(this.____stringByteKeys[0]);
-            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.Name, options);
+            formatterResolver.GetFormatterWithVerify<byte[]>().Serialize(ref writer, value.Id, options);
             writer.WriteRaw(this.____stringByteKeys[1]);
-            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.Description, options);
+            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.Name, options);
             writer.WriteRaw(this.____stringByteKeys[2]);
-            formatterResolver.GetFormatterWithVerify<byte[]>().Serialize(ref writer, value.ImageBytes, options);
+            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.Description, options);
             writer.WriteRaw(this.____stringByteKeys[3]);
-            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.ItemInfo>().Serialize(ref writer, value.ItemInfo, options);
+            formatterResolver.GetFormatterWithVerify<byte[]>().Serialize(ref writer, value.ImageBytes, options);
             writer.WriteRaw(this.____stringByteKeys[4]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.ItemInfo>().Serialize(ref writer, value.ItemInfo, options);
+            writer.WriteRaw(this.____stringByteKeys[5]);
             writer.Write(value.Index);
         }
 
@@ -4611,6 +4703,7 @@ namespace MessagePack.Formatters.Tech.DB
             options.Security.DepthStep(ref reader);
             IFormatterResolver formatterResolver = options.Resolver;
             var length = reader.ReadMapHeader();
+            var __Id__ = default(byte[]);
             var __Name__ = default(string);
             var __Description__ = default(string);
             var __ImageBytes__ = default(byte[]);
@@ -4630,18 +4723,21 @@ namespace MessagePack.Formatters.Tech.DB
                 switch (key)
                 {
                     case 0:
-                        __Name__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
+                        __Id__ = formatterResolver.GetFormatterWithVerify<byte[]>().Deserialize(ref reader, options);
                         break;
                     case 1:
-                        __Description__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
+                        __Name__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
                         break;
                     case 2:
-                        __ImageBytes__ = formatterResolver.GetFormatterWithVerify<byte[]>().Deserialize(ref reader, options);
+                        __Description__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
                         break;
                     case 3:
-                        __ItemInfo__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.ItemInfo>().Deserialize(ref reader, options);
+                        __ImageBytes__ = formatterResolver.GetFormatterWithVerify<byte[]>().Deserialize(ref reader, options);
                         break;
                     case 4:
+                        __ItemInfo__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.ItemInfo>().Deserialize(ref reader, options);
+                        break;
+                    case 5:
                         __Index__ = reader.ReadInt32();
                         break;
                     default:
@@ -4651,95 +4747,11 @@ namespace MessagePack.Formatters.Tech.DB
             }
 
             var ____result = new global::Tech.DB.Item();
+            ____result.Id = __Id__;
             ____result.Name = __Name__;
             ____result.Description = __Description__;
             ____result.ImageBytes = __ImageBytes__;
             ____result.ItemInfo = __ItemInfo__;
-            ____result.Index = __Index__;
-            ____result.OnAfterDeserialize();
-            reader.Depth--;
-            return ____result;
-        }
-    }
-
-    public sealed class NillFormatter : global::MessagePack.Formatters.IMessagePackFormatter<global::Tech.DB.Nill>
-    {
-
-
-        private readonly global::MessagePack.Internal.AutomataDictionary ____keyMapping;
-        private readonly byte[][] ____stringByteKeys;
-
-        public NillFormatter()
-        {
-            this.____keyMapping = new global::MessagePack.Internal.AutomataDictionary()
-            {
-                { "Name", 0 },
-                { "Index", 1 },
-            };
-
-            this.____stringByteKeys = new byte[][]
-            {
-                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Name"),
-                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Index"),
-            };
-        }
-
-        public void Serialize(ref MessagePackWriter writer, global::Tech.DB.Nill value, global::MessagePack.MessagePackSerializerOptions options)
-        {
-            if (value == null)
-            {
-                writer.WriteNil();
-                return;
-            }
-
-            IFormatterResolver formatterResolver = options.Resolver;
-            value.OnBeforeSerialize();
-            writer.WriteMapHeader(2);
-            writer.WriteRaw(this.____stringByteKeys[0]);
-            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.Name, options);
-            writer.WriteRaw(this.____stringByteKeys[1]);
-            writer.Write(value.Index);
-        }
-
-        public global::Tech.DB.Nill Deserialize(ref MessagePackReader reader, global::MessagePack.MessagePackSerializerOptions options)
-        {
-            if (reader.TryReadNil())
-            {
-                return null;
-            }
-
-            options.Security.DepthStep(ref reader);
-            IFormatterResolver formatterResolver = options.Resolver;
-            var length = reader.ReadMapHeader();
-            var __Name__ = default(string);
-            var __Index__ = default(int);
-
-            for (int i = 0; i < length; i++)
-            {
-                ReadOnlySpan<byte> stringKey = global::MessagePack.Internal.CodeGenHelpers.ReadStringSpan(ref reader);
-                int key;
-                if (!this.____keyMapping.TryGetValue(stringKey, out key))
-                {
-                    reader.Skip();
-                    continue;
-                }
-
-                switch (key)
-                {
-                    case 0:
-                        __Name__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
-                        break;
-                    case 1:
-                        __Index__ = reader.ReadInt32();
-                        break;
-                    default:
-                        reader.Skip();
-                        break;
-                }
-            }
-
-            var ____result = new global::Tech.DB.Nill();
-            ____result.Name = __Name__;
             ____result.Index = __Index__;
             ____result.OnAfterDeserialize();
             reader.Depth--;
@@ -4758,16 +4770,18 @@ namespace MessagePack.Formatters.Tech.DB
         {
             this.____keyMapping = new global::MessagePack.Internal.AutomataDictionary()
             {
-                { "Name", 0 },
-                { "Description", 1 },
-                { "SkillDescription", 2 },
-                { "ImageBytes", 3 },
-                { "SkillInfo", 4 },
-                { "Index", 5 },
+                { "Id", 0 },
+                { "Name", 1 },
+                { "Description", 2 },
+                { "SkillDescription", 3 },
+                { "ImageBytes", 4 },
+                { "SkillInfo", 5 },
+                { "Index", 6 },
             };
 
             this.____stringByteKeys = new byte[][]
             {
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Id"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Name"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Description"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("SkillDescription"),
@@ -4787,18 +4801,20 @@ namespace MessagePack.Formatters.Tech.DB
 
             IFormatterResolver formatterResolver = options.Resolver;
             value.OnBeforeSerialize();
-            writer.WriteMapHeader(6);
+            writer.WriteMapHeader(7);
             writer.WriteRaw(this.____stringByteKeys[0]);
-            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.Name, options);
+            formatterResolver.GetFormatterWithVerify<byte[]>().Serialize(ref writer, value.Id, options);
             writer.WriteRaw(this.____stringByteKeys[1]);
-            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.Description, options);
+            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.Name, options);
             writer.WriteRaw(this.____stringByteKeys[2]);
-            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.SkillDescription, options);
+            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.Description, options);
             writer.WriteRaw(this.____stringByteKeys[3]);
-            formatterResolver.GetFormatterWithVerify<byte[]>().Serialize(ref writer, value.ImageBytes, options);
+            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.SkillDescription, options);
             writer.WriteRaw(this.____stringByteKeys[4]);
-            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.SkillInfo>().Serialize(ref writer, value.SkillInfo, options);
+            formatterResolver.GetFormatterWithVerify<byte[]>().Serialize(ref writer, value.ImageBytes, options);
             writer.WriteRaw(this.____stringByteKeys[5]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.SkillInfo>().Serialize(ref writer, value.SkillInfo, options);
+            writer.WriteRaw(this.____stringByteKeys[6]);
             writer.Write(value.Index);
         }
 
@@ -4812,6 +4828,7 @@ namespace MessagePack.Formatters.Tech.DB
             options.Security.DepthStep(ref reader);
             IFormatterResolver formatterResolver = options.Resolver;
             var length = reader.ReadMapHeader();
+            var __Id__ = default(byte[]);
             var __Name__ = default(string);
             var __Description__ = default(string);
             var __SkillDescription__ = default(string);
@@ -4832,21 +4849,24 @@ namespace MessagePack.Formatters.Tech.DB
                 switch (key)
                 {
                     case 0:
-                        __Name__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
+                        __Id__ = formatterResolver.GetFormatterWithVerify<byte[]>().Deserialize(ref reader, options);
                         break;
                     case 1:
-                        __Description__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
+                        __Name__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
                         break;
                     case 2:
-                        __SkillDescription__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
+                        __Description__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
                         break;
                     case 3:
-                        __ImageBytes__ = formatterResolver.GetFormatterWithVerify<byte[]>().Deserialize(ref reader, options);
+                        __SkillDescription__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
                         break;
                     case 4:
-                        __SkillInfo__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.SkillInfo>().Deserialize(ref reader, options);
+                        __ImageBytes__ = formatterResolver.GetFormatterWithVerify<byte[]>().Deserialize(ref reader, options);
                         break;
                     case 5:
+                        __SkillInfo__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.SkillInfo>().Deserialize(ref reader, options);
+                        break;
+                    case 6:
                         __Index__ = reader.ReadInt32();
                         break;
                     default:
@@ -4856,6 +4876,7 @@ namespace MessagePack.Formatters.Tech.DB
             }
 
             var ____result = new global::Tech.DB.Skill();
+            ____result.Id = __Id__;
             ____result.Name = __Name__;
             ____result.Description = __Description__;
             ____result.SkillDescription = __SkillDescription__;
@@ -4879,15 +4900,17 @@ namespace MessagePack.Formatters.Tech.DB
         {
             this.____keyMapping = new global::MessagePack.Internal.AutomataDictionary()
             {
-                { "Name", 0 },
-                { "Description", 1 },
-                { "ImageBytes", 2 },
-                { "MaterialInfo", 3 },
-                { "Index", 4 },
+                { "Id", 0 },
+                { "Name", 1 },
+                { "Description", 2 },
+                { "ImageBytes", 3 },
+                { "MaterialInfo", 4 },
+                { "Index", 5 },
             };
 
             this.____stringByteKeys = new byte[][]
             {
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Id"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Name"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Description"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("ImageBytes"),
@@ -4906,16 +4929,18 @@ namespace MessagePack.Formatters.Tech.DB
 
             IFormatterResolver formatterResolver = options.Resolver;
             value.OnBeforeSerialize();
-            writer.WriteMapHeader(5);
+            writer.WriteMapHeader(6);
             writer.WriteRaw(this.____stringByteKeys[0]);
-            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.Name, options);
+            formatterResolver.GetFormatterWithVerify<byte[]>().Serialize(ref writer, value.Id, options);
             writer.WriteRaw(this.____stringByteKeys[1]);
-            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.Description, options);
+            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.Name, options);
             writer.WriteRaw(this.____stringByteKeys[2]);
-            formatterResolver.GetFormatterWithVerify<byte[]>().Serialize(ref writer, value.ImageBytes, options);
+            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.Description, options);
             writer.WriteRaw(this.____stringByteKeys[3]);
-            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.MaterialInfo>().Serialize(ref writer, value.MaterialInfo, options);
+            formatterResolver.GetFormatterWithVerify<byte[]>().Serialize(ref writer, value.ImageBytes, options);
             writer.WriteRaw(this.____stringByteKeys[4]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.MaterialInfo>().Serialize(ref writer, value.MaterialInfo, options);
+            writer.WriteRaw(this.____stringByteKeys[5]);
             writer.Write(value.Index);
         }
 
@@ -4929,6 +4954,7 @@ namespace MessagePack.Formatters.Tech.DB
             options.Security.DepthStep(ref reader);
             IFormatterResolver formatterResolver = options.Resolver;
             var length = reader.ReadMapHeader();
+            var __Id__ = default(byte[]);
             var __Name__ = default(string);
             var __Description__ = default(string);
             var __ImageBytes__ = default(byte[]);
@@ -4948,18 +4974,21 @@ namespace MessagePack.Formatters.Tech.DB
                 switch (key)
                 {
                     case 0:
-                        __Name__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
+                        __Id__ = formatterResolver.GetFormatterWithVerify<byte[]>().Deserialize(ref reader, options);
                         break;
                     case 1:
-                        __Description__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
+                        __Name__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
                         break;
                     case 2:
-                        __ImageBytes__ = formatterResolver.GetFormatterWithVerify<byte[]>().Deserialize(ref reader, options);
+                        __Description__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
                         break;
                     case 3:
-                        __MaterialInfo__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.MaterialInfo>().Deserialize(ref reader, options);
+                        __ImageBytes__ = formatterResolver.GetFormatterWithVerify<byte[]>().Deserialize(ref reader, options);
                         break;
                     case 4:
+                        __MaterialInfo__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.MaterialInfo>().Deserialize(ref reader, options);
+                        break;
+                    case 5:
                         __Index__ = reader.ReadInt32();
                         break;
                     default:
@@ -4969,6 +4998,7 @@ namespace MessagePack.Formatters.Tech.DB
             }
 
             var ____result = new global::Tech.DB.TechMaterial();
+            ____result.Id = __Id__;
             ____result.Name = __Name__;
             ____result.Description = __Description__;
             ____result.ImageBytes = __ImageBytes__;
@@ -4991,19 +5021,21 @@ namespace MessagePack.Formatters.Tech.DB
         {
             this.____keyMapping = new global::MessagePack.Internal.AutomataDictionary()
             {
-                { "Name", 0 },
-                { "Index", 1 },
-                { "Description", 2 },
-                { "ImageBytes", 3 },
-                { "CharacterInfo", 4 },
-                { "Weapon", 5 },
-                { "Equipment", 6 },
-                { "Ability", 7 },
-                { "Skills", 8 },
+                { "Id", 0 },
+                { "Name", 1 },
+                { "Index", 2 },
+                { "Description", 3 },
+                { "ImageBytes", 4 },
+                { "CharacterInfo", 5 },
+                { "Weapon", 6 },
+                { "Equipment", 7 },
+                { "Ability", 8 },
+                { "Skills", 9 },
             };
 
             this.____stringByteKeys = new byte[][]
             {
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Id"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Name"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Index"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Description"),
@@ -5026,24 +5058,26 @@ namespace MessagePack.Formatters.Tech.DB
 
             IFormatterResolver formatterResolver = options.Resolver;
             value.OnBeforeSerialize();
-            writer.WriteMapHeader(9);
+            writer.WriteMapHeader(10);
             writer.WriteRaw(this.____stringByteKeys[0]);
-            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.Name, options);
+            formatterResolver.GetFormatterWithVerify<byte[]>().Serialize(ref writer, value.Id, options);
             writer.WriteRaw(this.____stringByteKeys[1]);
-            writer.Write(value.Index);
+            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.Name, options);
             writer.WriteRaw(this.____stringByteKeys[2]);
-            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.Description, options);
+            writer.Write(value.Index);
             writer.WriteRaw(this.____stringByteKeys[3]);
-            formatterResolver.GetFormatterWithVerify<byte[]>().Serialize(ref writer, value.ImageBytes, options);
+            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.Description, options);
             writer.WriteRaw(this.____stringByteKeys[4]);
-            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.UnitInfo>().Serialize(ref writer, value.CharacterInfo, options);
+            formatterResolver.GetFormatterWithVerify<byte[]>().Serialize(ref writer, value.ImageBytes, options);
             writer.WriteRaw(this.____stringByteKeys[5]);
-            formatterResolver.GetFormatterWithVerify<global::Tech.DB.Weapon>().Serialize(ref writer, value.Weapon, options);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.UnitInfo>().Serialize(ref writer, value.CharacterInfo, options);
             writer.WriteRaw(this.____stringByteKeys[6]);
-            formatterResolver.GetFormatterWithVerify<global::Tech.DB.Equipment[]>().Serialize(ref writer, value.Equipment, options);
+            formatterResolver.GetFormatterWithVerify<global::Tech.DB.Weapon>().Serialize(ref writer, value.Weapon, options);
             writer.WriteRaw(this.____stringByteKeys[7]);
-            formatterResolver.GetFormatterWithVerify<global::Tech.DB.Ability>().Serialize(ref writer, value.Ability, options);
+            formatterResolver.GetFormatterWithVerify<global::Tech.DB.Equipment[]>().Serialize(ref writer, value.Equipment, options);
             writer.WriteRaw(this.____stringByteKeys[8]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.DB.Ability>().Serialize(ref writer, value.Ability, options);
+            writer.WriteRaw(this.____stringByteKeys[9]);
             formatterResolver.GetFormatterWithVerify<global::Tech.DB.Skill[]>().Serialize(ref writer, value.Skills, options);
         }
 
@@ -5057,6 +5091,7 @@ namespace MessagePack.Formatters.Tech.DB
             options.Security.DepthStep(ref reader);
             IFormatterResolver formatterResolver = options.Resolver;
             var length = reader.ReadMapHeader();
+            var __Id__ = default(byte[]);
             var __Name__ = default(string);
             var __Index__ = default(int);
             var __Description__ = default(string);
@@ -5080,30 +5115,33 @@ namespace MessagePack.Formatters.Tech.DB
                 switch (key)
                 {
                     case 0:
-                        __Name__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
+                        __Id__ = formatterResolver.GetFormatterWithVerify<byte[]>().Deserialize(ref reader, options);
                         break;
                     case 1:
-                        __Index__ = reader.ReadInt32();
+                        __Name__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
                         break;
                     case 2:
-                        __Description__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
+                        __Index__ = reader.ReadInt32();
                         break;
                     case 3:
-                        __ImageBytes__ = formatterResolver.GetFormatterWithVerify<byte[]>().Deserialize(ref reader, options);
+                        __Description__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
                         break;
                     case 4:
-                        __CharacterInfo__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.UnitInfo>().Deserialize(ref reader, options);
+                        __ImageBytes__ = formatterResolver.GetFormatterWithVerify<byte[]>().Deserialize(ref reader, options);
                         break;
                     case 5:
-                        __Weapon__ = formatterResolver.GetFormatterWithVerify<global::Tech.DB.Weapon>().Deserialize(ref reader, options);
+                        __CharacterInfo__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.UnitInfo>().Deserialize(ref reader, options);
                         break;
                     case 6:
-                        __Equipment__ = formatterResolver.GetFormatterWithVerify<global::Tech.DB.Equipment[]>().Deserialize(ref reader, options);
+                        __Weapon__ = formatterResolver.GetFormatterWithVerify<global::Tech.DB.Weapon>().Deserialize(ref reader, options);
                         break;
                     case 7:
-                        __Ability__ = formatterResolver.GetFormatterWithVerify<global::Tech.DB.Ability>().Deserialize(ref reader, options);
+                        __Equipment__ = formatterResolver.GetFormatterWithVerify<global::Tech.DB.Equipment[]>().Deserialize(ref reader, options);
                         break;
                     case 8:
+                        __Ability__ = formatterResolver.GetFormatterWithVerify<global::Tech.DB.Ability>().Deserialize(ref reader, options);
+                        break;
+                    case 9:
                         __Skills__ = formatterResolver.GetFormatterWithVerify<global::Tech.DB.Skill[]>().Deserialize(ref reader, options);
                         break;
                     default:
@@ -5113,6 +5151,7 @@ namespace MessagePack.Formatters.Tech.DB
             }
 
             var ____result = new global::Tech.DB.Unit();
+            ____result.Id = __Id__;
             ____result.Name = __Name__;
             ____result.Index = __Index__;
             ____result.Description = __Description__;
@@ -5139,15 +5178,17 @@ namespace MessagePack.Formatters.Tech.DB
         {
             this.____keyMapping = new global::MessagePack.Internal.AutomataDictionary()
             {
-                { "Name", 0 },
-                { "Description", 1 },
-                { "ImageBytes", 2 },
-                { "WeaponInfo", 3 },
-                { "Index", 4 },
+                { "Id", 0 },
+                { "Name", 1 },
+                { "Description", 2 },
+                { "ImageBytes", 3 },
+                { "WeaponInfo", 4 },
+                { "Index", 5 },
             };
 
             this.____stringByteKeys = new byte[][]
             {
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Id"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Name"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Description"),
                 global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("ImageBytes"),
@@ -5166,16 +5207,18 @@ namespace MessagePack.Formatters.Tech.DB
 
             IFormatterResolver formatterResolver = options.Resolver;
             value.OnBeforeSerialize();
-            writer.WriteMapHeader(5);
+            writer.WriteMapHeader(6);
             writer.WriteRaw(this.____stringByteKeys[0]);
-            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.Name, options);
+            formatterResolver.GetFormatterWithVerify<byte[]>().Serialize(ref writer, value.Id, options);
             writer.WriteRaw(this.____stringByteKeys[1]);
-            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.Description, options);
+            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.Name, options);
             writer.WriteRaw(this.____stringByteKeys[2]);
-            formatterResolver.GetFormatterWithVerify<byte[]>().Serialize(ref writer, value.ImageBytes, options);
+            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.Description, options);
             writer.WriteRaw(this.____stringByteKeys[3]);
-            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.WeaponInfo>().Serialize(ref writer, value.WeaponInfo, options);
+            formatterResolver.GetFormatterWithVerify<byte[]>().Serialize(ref writer, value.ImageBytes, options);
             writer.WriteRaw(this.____stringByteKeys[4]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.WeaponInfo>().Serialize(ref writer, value.WeaponInfo, options);
+            writer.WriteRaw(this.____stringByteKeys[5]);
             writer.Write(value.Index);
         }
 
@@ -5189,6 +5232,7 @@ namespace MessagePack.Formatters.Tech.DB
             options.Security.DepthStep(ref reader);
             IFormatterResolver formatterResolver = options.Resolver;
             var length = reader.ReadMapHeader();
+            var __Id__ = default(byte[]);
             var __Name__ = default(string);
             var __Description__ = default(string);
             var __ImageBytes__ = default(byte[]);
@@ -5208,18 +5252,21 @@ namespace MessagePack.Formatters.Tech.DB
                 switch (key)
                 {
                     case 0:
-                        __Name__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
+                        __Id__ = formatterResolver.GetFormatterWithVerify<byte[]>().Deserialize(ref reader, options);
                         break;
                     case 1:
-                        __Description__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
+                        __Name__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
                         break;
                     case 2:
-                        __ImageBytes__ = formatterResolver.GetFormatterWithVerify<byte[]>().Deserialize(ref reader, options);
+                        __Description__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
                         break;
                     case 3:
-                        __WeaponInfo__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.WeaponInfo>().Deserialize(ref reader, options);
+                        __ImageBytes__ = formatterResolver.GetFormatterWithVerify<byte[]>().Deserialize(ref reader, options);
                         break;
                     case 4:
+                        __WeaponInfo__ = formatterResolver.GetFormatterWithVerify<global::Tech.Data.DB.WeaponInfo>().Deserialize(ref reader, options);
+                        break;
+                    case 5:
                         __Index__ = reader.ReadInt32();
                         break;
                     default:
@@ -5229,6 +5276,7 @@ namespace MessagePack.Formatters.Tech.DB
             }
 
             var ____result = new global::Tech.DB.Weapon();
+            ____result.Id = __Id__;
             ____result.Name = __Name__;
             ____result.Description = __Description__;
             ____result.ImageBytes = __ImageBytes__;

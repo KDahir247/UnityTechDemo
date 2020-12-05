@@ -12,7 +12,6 @@ namespace Tech.DB
         //create all the files with a null value to start with
         private async UniTaskVoid Awake()
         {
-            Debug.Log(Ulid.NewUlid().ToString());
             await _dbBuilder.Build(builder =>
             {
                 builder.Append(new[] {new Unit {Name = "Nil"},});

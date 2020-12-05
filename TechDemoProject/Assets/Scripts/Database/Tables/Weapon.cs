@@ -11,7 +11,7 @@ namespace Tech.DB
     [MessagePackObject(true)]
     public class Weapon : IMessagePackSerializationCallbackReceiver
     {
-        [IgnoreMember] public Ulid Id { get; set; }
+        public byte[] Id { get; set; }
 
         [PrimaryKey] public string Name { get; set; }
 

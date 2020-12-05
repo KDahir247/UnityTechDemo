@@ -9,7 +9,7 @@ namespace Tech.Data
     [MessagePackObject(true)]
     public struct SkillData
     {
-        [IgnoreMember] public Ulid id;
+        public byte[] id;
         public string name;
         public Texture2D image;
         public string description;
