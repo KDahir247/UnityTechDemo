@@ -7,6 +7,8 @@ I will be working on the snapshot provider system and architecture (Animation th
 located in Assets->Scripts->Animation->Provider (Currently doing). The Animtion system will be hooked with the in-memorydatabase so it can run animation logic depending on the database.
 <br/>
 <br/>
+Would use Project Tiny but it is currently under heavy development and the package is extremely volatile https://docs.unity3d.com/Packages/com.unity.tiny.all@0.31/manual/index.html
+<br/>
 Current Kinematica Package Caveats:
 <br/>
 Can't Disable and Re-Enable GameObject with Kinematica or it will throw an assert exception on the SnapShot script and registry script
