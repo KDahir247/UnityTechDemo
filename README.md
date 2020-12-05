@@ -4,7 +4,10 @@ Self teaching on some of unity's packages and some other plugin. (Ongoing)
 <br/>
 <br/>
 I will be working on the snapshot provider system and architecture (Animation that are utilizing the burst compiler and Jobs), which can be
-located in Assets->Scripts->Animation->Provider (Currently doing). The Animtion system will be hooked with the in-memorydatabase so it can run animation logic depending on the database.
+located in Assets->Scripts->Animation->Provider (Currently doing). The Animtion system will be hooked with the in-memorydatabase so it can run animation logic depending on the database. 
+<br/>
+<br/>
+discontinuing snapshot provider system in replace to the component system architecture (Animation that are utilizing the burst compiler, Jobs, and ECS/DOTS).
 <br/>
 <br/>
 Would use Project Tiny but it is currently under heavy development and the package is extremely volatile https://docs.unity3d.com/Packages/com.unity.tiny.all@0.31/manual/index.html
