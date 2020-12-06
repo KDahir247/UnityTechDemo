@@ -1718,9 +1718,9 @@ GameObject:
   m_Component:
   - component: {fileID: 7112794362238311067}
   - component: {fileID: 7112794362228733185}
-  - component: {fileID: 7112794363798632097}
   - component: {fileID: 7112794363798632096}
   - component: {fileID: 7112794363798632030}
+  - component: {fileID: 7112794362204261601}
   m_Layer: 0
   m_Name: Necromancer
   m_TagString: Untagged
@@ -1735,7 +1735,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7112794362238076795}
-  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: -105, y: -38, z: -479}
   m_LocalScale: {x: 93.51346, y: 93.51346, z: 93.51346}
   m_Children:
@@ -1763,18 +1763,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &7112794363798632097
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7112794362238076795}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26af3027d6ca49c1a4aebbda548d6dd0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &7112794363798632096
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1809,6 +1797,51 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ConversionMode: 1
+--- !u!114 &7112794362204261601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7112794362238076795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a553aa08932794b9d5f8f9a5d64ba9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unitData:
+    name: Necromancer
+    description: 
+    image: {fileID: 0}
+    weaponData:
+      id: 
+      name: 
+      description: 
+      image: {fileID: 0}
+    equipmentDatas: []
+    abilityData:
+      id: 
+      name: 
+      innocentCost: 0
+      description: 
+      abilityDescription: 
+      image: {fileID: 0}
+    skillDatas:
+    - id: 
+      name: 
+      image: {fileID: 2800000, guid: 266177b70820532409c951d26a542900, type: 3}
+      description: 
+      skillDescription: 
+    - id: 
+      name: 
+      image: {fileID: 2800000, guid: ed55447bf9aaafe4a9d891333152f827, type: 3}
+      description: 
+      skillDescription: 
+    - id: 
+      name: 
+      image: {fileID: 2800000, guid: 672cc7cef11322b449de1e72af8910b3, type: 3}
+      description: 
+      skillDescription: 
 --- !u!1 &7112794362238076797
 GameObject:
   m_ObjectHideFlags: 0

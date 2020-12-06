@@ -4,7 +4,7 @@ using Unity.Entities;
 using Unity.Mathematics;
 using UnityEngine.Serialization;
 
-namespace Tech.Component
+namespace Tech.ECS
 {
     [GenerateAuthoringComponent]
     [Serializable]

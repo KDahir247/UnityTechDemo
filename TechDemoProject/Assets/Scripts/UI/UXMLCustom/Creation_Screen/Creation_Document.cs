@@ -1,35 +1,32 @@
 ﻿using JetBrains.Annotations;
 using MasterData;
-using Pixelplacement;
 using Tech.Data;
 using Tech.DB;
 using UniRx;
 using UnityEngine;
 using UnityEngine.UIElements;
+using Unit = Tech.DB.Unit;
 
 namespace Tech.UI.Panel
 {
     public class Creation_Document : Base_Document
     {
-
+        //Default
+        private Unit _currentUnit;
+        
         private readonly Button[] _skills = new Button[3];
-
-        private Button _assassinButton;
-        private int _characterIndex = 0;
-
-        private string _characterName = "Assassin";
-
-        private StateMachine _characterStateMachine;
-        private Button _createButton;
-
-        private string _headScene = string.Empty;
-
+        
         private RotationDirection _modelRotateDirection;
+        private Button _createButton;
+        
+        private Button _assassinButton;
         private Button _necromancerButton;
         private Button _oracleButton;
 
         private Button _rotationLeftButton;
         private Button _rotationRightButton;
+        
+        private string _headScene = string.Empty;
         private string _tailScene = string.Empty;
 
         protected override void Init(params string[] scenes)
@@ -42,6 +39,7 @@ namespace Tech.UI.Panel
 
         protected override void UIQuery()
         {
+            
             _skills[0] = this.Q<Button>("Skill1_Button");
             _skills[1] = this.Q<Button>("Skill2_Button");
             _skills[2] = this.Q<Button>("Skill3_Button");
@@ -63,13 +61,27 @@ namespace Tech.UI.Panel
             _rotationRightButton.RegisterCallback(RotateModel<PointerLeaveEvent>(RotationDirection.None));
             _rotationLeftButton.RegisterCallback(RotateModel<PointerLeaveEvent>(RotationDirection.None));
 
-            //TODO get the character name rather then the skills from the database and from there get the skill for that character.
             // this.Q<Button>("Create_Button").RegisterCallback<ClickEvent>();
-            _assassinButton.RegisterCallback(ChangeSkillTexture<ClickEvent>("Assassin"));
+            _assassinButton.RegisterCallback(ChangeSkillTexture<ClickEvent>(_assassinButton.viewDataKey));
+            _necromancerButton.RegisterCallback(ChangeSkillTexture<ClickEvent>(_necromancerButton.viewDataKey));
+            _oracleButton.RegisterCallback(ChangeSkillTexture<ClickEvent>(_oracleButton.viewDataKey));
 
-            _necromancerButton.RegisterCallback(ChangeSkillTexture<ClickEvent>("Necromancer"));
 
-            _oracleButton.RegisterCallback(ChangeSkillTexture<ClickEvent>("Oracle"));
+
+            //TODO got to fix 
+            for (int i = 0; i < _skills.Length; i++)
+            {
+                //pass as 
+                var index = i;
+                _skills[i].RegisterCallback<ClickEvent>(e =>
+                {
+                    if(_currentUnit == null) return;
+                    
+                    MessageBroker
+                        .Default
+                        .Publish((_currentUnit, _currentUnit.Skills[index]));
+                });
+            }
         }
 
         protected override void OnDestroy()
@@ -84,16 +96,16 @@ namespace Tech.UI.Panel
             {
                 MemoryDatabase db = TechDB.LoadDataBase(FileDestination.UnitPath);
 
-                var unit = db.UnitTable.FindByName(unitName);
+                _currentUnit = db.UnitTable.FindByName(unitName);
                 
                 MessageBroker
                     .Default
-                    .Publish(unit);
+                    .Publish<(Unit, Skill)>((_currentUnit, null));
                 
-                for (var i = 0; i < unit.Skills.Length; i++)
+                for (var i = 0; i < _currentUnit.Skills.Length; i++)
                 {
                     var tex = new Texture2D(256, 256, TextureFormat.DXT1, false);
-                    tex.LoadRawTextureData(unit.Skills[i].ImageBytes);
+                    tex.LoadRawTextureData(_currentUnit.Skills[i].ImageBytes);
                     tex.Apply();
                 
                     var styleBackgroundImage = _skills[i].style.backgroundImage;

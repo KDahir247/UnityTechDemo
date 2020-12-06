@@ -17,7 +17,7 @@ MonoBehaviour:
   timeHorizon: 1
   sampleRate: 30
   m_Data:
-    syncedWithBinary: 0
+    syncedWithBinary: 1
     animationLibrary:
     - m_PreBoundaryClipGuid:
         val0: -1955331522
@@ -37,7 +37,7 @@ MonoBehaviour:
         val1: -532409428
         val2: -1870969704
         val3: 941153445
-      m_CachedClipVersion: 5
+      m_CachedClipVersion: 6
       m_CachedClipName: Idle
       m_CachedClipDuration: 8.333333
       m_CachedSampleRate: 30
@@ -52,6 +52,126 @@ MonoBehaviour:
         name: 
       - startTime: 0
         duration: 8.333333
+        payload:
+          serializedData: '{}'
+          assemblyQualifiedTypeName: Tech.Animation.LocomotionTag, Assembly-CSharp,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        name: 
+      markers: []
+      m_Asset: {fileID: 11400000}
+    - m_PreBoundaryClipGuid:
+        val0: -1955331522
+        val1: -532409428
+        val2: -1870969704
+        val3: 941153445
+      m_PostBoundaryClipGuid:
+        val0: -1955331522
+        val1: -532409428
+        val2: -1870969704
+        val3: 941153445
+      m_PreBoundaryClip: {fileID: 0}
+      m_PostBoundaryClip: {fileID: 0}
+      m_AnimationClipReference: {fileID: 0}
+      m_AnimationClipGuid:
+        val0: -1077614829
+        val1: 622122824
+        val2: -131500310
+        val3: -1695061285
+      m_CachedClipVersion: 3
+      m_CachedClipName: Skill1
+      m_CachedClipDuration: 2.6666667
+      m_CachedSampleRate: 30
+      m_RetargetSourceAvatar: {fileID: 0}
+      tags:
+      - startTime: 0
+        duration: 2.6666667
+        payload:
+          serializedData: '{}'
+          assemblyQualifiedTypeName: Tech.Animation.LocomotionTag, Assembly-CSharp,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        name: 
+      - startTime: 0
+        duration: 2.6666667
+        payload:
+          serializedData: '{}'
+          assemblyQualifiedTypeName: Tech.Animation.Skill1Tag, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        name: 
+      markers: []
+      m_Asset: {fileID: 11400000}
+    - m_PreBoundaryClipGuid:
+        val0: -1955331522
+        val1: -532409428
+        val2: -1870969704
+        val3: 941153445
+      m_PostBoundaryClipGuid:
+        val0: -1955331522
+        val1: -532409428
+        val2: -1870969704
+        val3: 941153445
+      m_PreBoundaryClip: {fileID: 0}
+      m_PostBoundaryClip: {fileID: 0}
+      m_AnimationClipReference: {fileID: 0}
+      m_AnimationClipGuid:
+        val0: 286904252
+        val1: 1596203236
+        val2: -1891921046
+        val3: 1747433864
+      m_CachedClipVersion: 3
+      m_CachedClipName: Skill2
+      m_CachedClipDuration: 3.2666667
+      m_CachedSampleRate: 30
+      m_RetargetSourceAvatar: {fileID: 0}
+      tags:
+      - startTime: 0
+        duration: 3.2666667
+        payload:
+          serializedData: '{}'
+          assemblyQualifiedTypeName: Tech.Animation.Skill2Tag, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        name: 
+      - startTime: 0
+        duration: 3.2666667
+        payload:
+          serializedData: '{}'
+          assemblyQualifiedTypeName: Tech.Animation.LocomotionTag, Assembly-CSharp,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        name: 
+      markers: []
+      m_Asset: {fileID: 11400000}
+    - m_PreBoundaryClipGuid:
+        val0: -1955331522
+        val1: -532409428
+        val2: -1870969704
+        val3: 941153445
+      m_PostBoundaryClipGuid:
+        val0: -1955331522
+        val1: -532409428
+        val2: -1870969704
+        val3: 941153445
+      m_PreBoundaryClip: {fileID: 0}
+      m_PostBoundaryClip: {fileID: 0}
+      m_AnimationClipReference: {fileID: 0}
+      m_AnimationClipGuid:
+        val0: 1210590522
+        val1: -1632313866
+        val2: -1909831270
+        val3: 1407253805
+      m_CachedClipVersion: 2
+      m_CachedClipName: Skill3
+      m_CachedClipDuration: 2.7
+      m_CachedSampleRate: 30
+      m_RetargetSourceAvatar: {fileID: 0}
+      tags:
+      - startTime: 0
+        duration: 2.7
+        payload:
+          serializedData: '{}'
+          assemblyQualifiedTypeName: Tech.Animation.Skill3Tag, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        name: 
+      - startTime: 0
+        duration: 2.7
         payload:
           serializedData: '{}'
           assemblyQualifiedTypeName: Tech.Animation.LocomotionTag, Assembly-CSharp,

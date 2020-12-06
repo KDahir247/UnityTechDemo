@@ -256,27 +256,57 @@
   <Types>
     <Type name="Idle" size="1" />
     <Type name="Locomotion" size="1" />
+    <Type name="Skill1" size="1" />
+    <Type name="Skill2" size="1" />
+    <Type name="Skill3" size="1" />
   </Types>
   <Traits>
     <Trait index="0" type="Idle" payload="00" />
     <Trait index="1" type="Locomotion" payload="00" />
+    <Trait index="2" type="Skill1" payload="00" />
+    <Trait index="3" type="Skill2" payload="00" />
+    <Trait index="4" type="Skill3" payload="00" />
   </Traits>
   <Segments>
     <Segment index="0" name="Idle" tagIndex="0" numTags="2" markerIndex="-1" numMarkers="0" intervalIndex="0" numIntervals="1">
       <Source firstFrame="0" numFrames="499" />
       <Destination firstFrame="0" numFrames="499" />
     </Segment>
+    <Segment index="1" name="Skill1" tagIndex="2" numTags="2" markerIndex="-1" numMarkers="0" intervalIndex="1" numIntervals="1">
+      <Source firstFrame="0" numFrames="69" />
+      <Destination firstFrame="499" numFrames="69" />
+    </Segment>
+    <Segment index="2" name="Skill2" tagIndex="4" numTags="2" markerIndex="-1" numMarkers="0" intervalIndex="2" numIntervals="1">
+      <Source firstFrame="0" numFrames="89" />
+      <Destination firstFrame="568" numFrames="89" />
+    </Segment>
+    <Segment index="3" name="Skill3" tagIndex="6" numTags="2" markerIndex="-1" numMarkers="0" intervalIndex="3" numIntervals="1">
+      <Source firstFrame="0" numFrames="65" />
+      <Destination firstFrame="657" numFrames="65" />
+    </Segment>
   </Segments>
   <Tags>
     <Tag index="0" trait="0" segment="0" firstFrame="0" numFrames="499" />
     <Tag index="1" trait="1" segment="0" firstFrame="0" numFrames="499" />
+    <Tag index="2" trait="2" segment="1" firstFrame="0" numFrames="69" />
+    <Tag index="3" trait="1" segment="1" firstFrame="0" numFrames="69" />
+    <Tag index="4" trait="1" segment="2" firstFrame="0" numFrames="89" />
+    <Tag index="5" trait="3" segment="2" firstFrame="0" numFrames="89" />
+    <Tag index="6" trait="4" segment="3" firstFrame="0" numFrames="65" />
+    <Tag index="7" trait="1" segment="3" firstFrame="0" numFrames="65" />
   </Tags>
   <Markers />
   <Intervals>
     <Interval index="0" segment="0" firstFrame="0" numFrames="499" tagList="0" codeBook="0" />
+    <Interval index="1" segment="1" firstFrame="0" numFrames="69" tagList="1" codeBook="1" />
+    <Interval index="2" segment="2" firstFrame="0" numFrames="89" tagList="2" codeBook="1" />
+    <Interval index="3" segment="3" firstFrame="0" numFrames="65" tagList="3" codeBook="1" />
   </Intervals>
   <TagLists>
     <TagList index="0" indices="0;1;" />
+    <TagList index="1" indices="2;3;" />
+    <TagList index="2" indices="4;5;" />
+    <TagList index="3" indices="6;7;" />
   </TagLists>
   <Metrics>
     <Metric index="0" poseTimeSpan="0.06666667">
@@ -287,5 +317,6 @@
   </Metrics>
   <CodeBooks>
     <CodeBook index="0" metric="0" trait="0" />
+    <CodeBook index="1" metric="0" trait="1" />
   </CodeBooks>
 </Binary>

@@ -8,9 +8,8 @@ using Unity.Entities;
 using UnityEngine;
 using Unit = Tech.DB.Unit;
 
-namespace Tech.Authoring
+namespace Tech.ECS
 {
-
     [DisallowMultipleComponent]
     [RequiresEntityConversion]
     public class UnitDataAuthoring : MonoBehaviour, IConvertGameObjectToEntity
@@ -19,15 +18,15 @@ namespace Tech.Authoring
         
         private static bool _isLoading;
 
+        //TODO remove this for an IComponentData and once the IComponentData 
         [SerializeField] private UnitData unitData;
-
+        
         private async UniTaskVoid Awake()
         {
             //Create the Universally Unique Lexicographically Sortable Identifier
             unitData.id  = Ulid.NewUlid(DateTimeOffset.Now);
             
             //Mutating database goes here
-            
             await UniTask.WaitUntil(() => _isLoading == false);
             
             _isLoading = true;
@@ -41,12 +40,26 @@ namespace Tech.Authoring
                     {
                         Id = _dynamicDb.RegisterUlid(unitData.id),
                         Name = unitData.name,
-
+                        
+                        
                         Skills = new[]
                         {
-                            new Skill {ImageBytes = unitData.skillDatas[0].image.GetRawTextureData()},
-                            new Skill {ImageBytes = unitData.skillDatas[1].image.GetRawTextureData()},
-                            new Skill {ImageBytes = unitData.skillDatas[2].image.GetRawTextureData()},
+                            new Skill
+                            {
+                                Index = 1,
+                                ImageBytes = unitData.skillDatas[0].image.GetRawTextureData()
+                            },
+                            new Skill
+                            {
+                                Index = 2,
+                                ImageBytes = unitData.skillDatas[1].image.GetRawTextureData()
+                            },
+                            new Skill
+                            {
+                                Index = 3,
+                                ImageBytes = unitData.skillDatas[2].image.GetRawTextureData()
+                                
+                            },
                         }
                     },
                 });
@@ -55,22 +68,35 @@ namespace Tech.Authoring
                     .Build(immutableBuilder)
                     .ContinueWith(() => _isLoading = false);
             }
-            
-            
-            MessageBroker
-                .Default
-                .Receive<Unit>().Subscribe(val => transform
-                    .GetChild(1)
-                    .gameObject
-                    .SetActive(_dynamicDb.UnRegisterUlid(val.Id).CompareTo(unitData.id) == 0));
-
         }
 
         public void Convert(Entity entity, EntityManager dstManager, GameObjectConversionSystem conversionSystem)
         {
-
             //ECS/DOTS goes here
+            dstManager.AddComponents(entity, 
+                new ComponentTypes(ComponentType.ReadWrite<UnitRuntime>()));
 
+            MessageBroker
+                .Default
+                .Receive<(Unit, Skill)>() //current unit, desired skill
+                .Subscribe(valueTuple =>
+                {
+                    var enable = _dynamicDb
+                        .UnRegisterUlid(valueTuple.Item1.Id)
+                        .CompareTo(unitData.id) == 0;
+                    
+                    transform
+                        .GetChild(1)
+                        .gameObject
+                        .SetActive(enable);
+                    
+                    dstManager.SetComponentData(entity, new UnitRuntime
+                    {
+                        skillIndex = valueTuple.Item2?.Index ?? 0,
+                        ulid = unitData.id,
+                        enabled = enable
+                    });                
+                });
         }
     }
 }

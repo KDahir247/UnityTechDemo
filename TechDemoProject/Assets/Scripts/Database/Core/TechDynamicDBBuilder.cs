@@ -11,6 +11,7 @@ using UnityEngine;
 
 namespace Tech.DB
 {
+    //TODO clean up
     public sealed class TechDynamicDBBuilder
     {
         private string _currentFileName;
@@ -20,6 +21,8 @@ namespace Tech.DB
 
         //Option for Ulid support
         private readonly MessagePackSerializerOptions _options; 
+        
+        
         public TechDynamicDBBuilder()
         {
             _options = MessagePackSerializerOptions.Standard

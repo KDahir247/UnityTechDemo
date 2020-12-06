@@ -1,14 +1,14 @@
 ﻿using DG.Tweening;
 using DG.Tweening.Core;
 using DG.Tweening.Plugins.Options;
-using Tech.Component;
 using Tech.Data;
 using UniRx;
 using Unity.Burst;
 using Unity.Entities;
 using UnityEngine;
 
-namespace Tech.Job
+//Fix
+namespace Tech.ECS
 {
     [BurstCompile(FloatPrecision.Low, FloatMode.Fast)]
     public class RotationSystem : ComponentSystem

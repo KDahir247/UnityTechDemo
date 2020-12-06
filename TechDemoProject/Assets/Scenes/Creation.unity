@@ -610,7 +610,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -114, y: 0}
+  m_AnchoredPosition: {x: -114.000015, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2098215289
@@ -646,6 +646,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 590878730}
     m_Modifications:
+    - target: {fileID: 3495159951639448425, guid: 67039c8aa2e03e5438169dbc5bac9ecd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3496884793078461001, guid: 67039c8aa2e03e5438169dbc5bac9ecd,
         type: 3}
       propertyPath: m_Name
@@ -709,56 +714,10 @@ PrefabInstance:
     - target: {fileID: 3496884793912936124, guid: 67039c8aa2e03e5438169dbc5bac9ecd,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 67039c8aa2e03e5438169dbc5bac9ecd, type: 3}
---- !u!1 &3496884792895434948 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3496884793078461001, guid: 67039c8aa2e03e5438169dbc5bac9ecd,
-    type: 3}
-  m_PrefabInstance: {fileID: 3496884792895434947}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &3496884792895434949
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3496884792895434948}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3a553aa08932794b9d5f8f9a5d64ba9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  unitData:
-    name: Assassin
-    description: 
-    image: 000000
-    weaponData:
-      name: 
-      description: 
-      image: {fileID: 0}
-    equipmentDatas: []
-    abilityData:
-      name: 
-      innocentCost: 0
-      description: 
-      abilityDescription: 
-      image: {fileID: 0}
-    skillDatas:
-    - name: 
-      image: {fileID: 2800000, guid: 6a2a06074b09455499b398f7de3a040b, type: 3}
-      description: 
-      skillDescription: 
-    - name: 
-      image: {fileID: 2800000, guid: 7541aa08aae8c784eac6c5145bf2d47d, type: 3}
-      description: 
-      skillDescription: 
-    - name: 
-      image: {fileID: 2800000, guid: ce96532d4bf29b348aa20c623f110bdc, type: 3}
-      description: 
-      skillDescription: 
 --- !u!1001 &6985892683267585506
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -831,54 +790,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6985892682972317088, guid: bbbe62c8df43946458f8cda7d3a6bef7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6985892682966806592, guid: bbbe62c8df43946458f8cda7d3a6bef7, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: bbbe62c8df43946458f8cda7d3a6bef7, type: 3}
---- !u!1 &6985892683267585507 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6985892682055943383, guid: bbbe62c8df43946458f8cda7d3a6bef7,
-    type: 3}
-  m_PrefabInstance: {fileID: 6985892683267585506}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &6985892683267585508
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6985892683267585507}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3a553aa08932794b9d5f8f9a5d64ba9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  unitData:
-    name: Oracle
-    description: 
-    image: 
-    weaponData:
-      name: 
-      description: 
-      image: {fileID: 0}
-    equipmentDatas: []
-    abilityData:
-      name: 
-      innocentCost: 0
-      description: 
-      abilityDescription: 
-      image: {fileID: 0}
-    skillDatas:
-    - name: 
-      image: {fileID: 2800000, guid: 9b02b0c0fd00fcb40a29fc9047c73e3e, type: 3}
-      description: 
-      skillDescription: 
-    - name: 
-      image: {fileID: 2800000, guid: 67f180f2b51275b4198ce5301cc3d550, type: 3}
-      description: 
-      skillDescription: 
-    - name: 
-      image: {fileID: 2800000, guid: ce9242735c2ec8f4eb5c63e3794bd8e8, type: 3}
-      description: 
-      skillDescription: 
 --- !u!1001 &7112794362204261599
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -890,6 +809,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Necromancer
+      objectReference: {fileID: 0}
+    - target: {fileID: 7112794362238076797, guid: 3f88429ea490dd3439d03b3f20a9691c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7112794362238311067, guid: 3f88429ea490dd3439d03b3f20a9691c,
         type: 3}
@@ -946,51 +870,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7112794363163216805, guid: 3f88429ea490dd3439d03b3f20a9691c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 7112794363151973957, guid: 3f88429ea490dd3439d03b3f20a9691c, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 3f88429ea490dd3439d03b3f20a9691c, type: 3}
---- !u!1 &7112794362204261600 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7112794362238076795, guid: 3f88429ea490dd3439d03b3f20a9691c,
-    type: 3}
-  m_PrefabInstance: {fileID: 7112794362204261599}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &7112794362204261601
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7112794362204261600}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3a553aa08932794b9d5f8f9a5d64ba9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  unitData:
-    name: Necromancer
-    description: 
-    image: 
-    weaponData:
-      name: 
-      description: 
-      image: {fileID: 0}
-    equipmentDatas: []
-    abilityData:
-      name: 
-      innocentCost: 0
-      description: 
-      abilityDescription: 
-      image: {fileID: 0}
-    skillDatas:
-    - name: 
-      image: {fileID: 2800000, guid: 266177b70820532409c951d26a542900, type: 3}
-      description: 
-      skillDescription: 
-    - name: 
-      image: {fileID: 2800000, guid: ed55447bf9aaafe4a9d891333152f827, type: 3}
-      description: 
-      skillDescription: 
-    - name: 
-      image: {fileID: 2800000, guid: 672cc7cef11322b449de1e72af8910b3, type: 3}
-      description: 
-      skillDescription: 

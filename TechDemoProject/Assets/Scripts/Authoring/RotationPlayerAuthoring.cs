@@ -2,7 +2,7 @@
 using Unity.Transforms;
 using UnityEngine;
 
-namespace Tech.Authoring
+namespace Tech.ECS
 {
     public class RotationPlayerAuthoring : MonoBehaviour, IConvertGameObjectToEntity
     {

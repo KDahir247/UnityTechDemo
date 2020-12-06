@@ -254,47 +254,59 @@
     </Joint>
   </AnimationRig>
   <Types>
-    <Type name="TestingMarkerPayload" size="1" />
     <Type name="Locomotion" size="1" />
     <Type name="Idle" size="1" />
+    <Type name="Skill2" size="1" />
+    <Type name="Skill1" size="1" />
+    <Type name="Skill3" size="1" />
   </Types>
   <Traits>
-    <Trait index="0" type="TestingMarkerPayload" payload="00" />
-    <Trait index="1" type="Locomotion" payload="00" />
-    <Trait index="2" type="Idle" payload="00" />
+    <Trait index="0" type="Locomotion" payload="00" />
+    <Trait index="1" type="Idle" payload="00" />
+    <Trait index="2" type="Skill2" payload="00" />
+    <Trait index="3" type="Skill1" payload="00" />
+    <Trait index="4" type="Skill3" payload="00" />
   </Traits>
   <Segments>
     <Segment index="0" name="Idle" tagIndex="0" numTags="2" markerIndex="-1" numMarkers="0" intervalIndex="0" numIntervals="1">
       <Source firstFrame="0" numFrames="595" />
       <Destination firstFrame="0" numFrames="595" />
     </Segment>
-    <Segment index="1" name="Skill1" tagIndex="2" numTags="1" markerIndex="-1" numMarkers="0" intervalIndex="1" numIntervals="1">
+    <Segment index="1" name="Skill1" tagIndex="2" numTags="2" markerIndex="-1" numMarkers="0" intervalIndex="1" numIntervals="1">
       <Source firstFrame="0" numFrames="86" />
       <Destination firstFrame="595" numFrames="86" />
     </Segment>
-    <Segment index="2" name="Skill2" tagIndex="3" numTags="1" markerIndex="0" numMarkers="1" intervalIndex="2" numIntervals="1">
+    <Segment index="2" name="Skill2" tagIndex="4" numTags="2" markerIndex="-1" numMarkers="0" intervalIndex="2" numIntervals="1">
       <Source firstFrame="0" numFrames="70" />
       <Destination firstFrame="681" numFrames="70" />
     </Segment>
+    <Segment index="3" name="Skill3" tagIndex="6" numTags="2" markerIndex="-1" numMarkers="0" intervalIndex="3" numIntervals="1">
+      <Source firstFrame="0" numFrames="66" />
+      <Destination firstFrame="751" numFrames="66" />
+    </Segment>
   </Segments>
   <Tags>
-    <Tag index="0" trait="1" segment="0" firstFrame="0" numFrames="595" />
-    <Tag index="1" trait="2" segment="0" firstFrame="0" numFrames="595" />
-    <Tag index="2" trait="1" segment="1" firstFrame="0" numFrames="86" />
-    <Tag index="3" trait="2" segment="2" firstFrame="0" numFrames="70" />
+    <Tag index="0" trait="0" segment="0" firstFrame="0" numFrames="595" />
+    <Tag index="1" trait="1" segment="0" firstFrame="0" numFrames="595" />
+    <Tag index="2" trait="2" segment="1" firstFrame="0" numFrames="86" />
+    <Tag index="3" trait="0" segment="1" firstFrame="0" numFrames="86" />
+    <Tag index="4" trait="3" segment="2" firstFrame="0" numFrames="70" />
+    <Tag index="5" trait="0" segment="2" firstFrame="0" numFrames="70" />
+    <Tag index="6" trait="4" segment="3" firstFrame="0" numFrames="66" />
+    <Tag index="7" trait="0" segment="3" firstFrame="0" numFrames="66" />
   </Tags>
-  <Markers>
-    <Marker index="0" trait="0" frameIndex="6" />
-  </Markers>
+  <Markers />
   <Intervals>
     <Interval index="0" segment="0" firstFrame="0" numFrames="595" tagList="0" codeBook="0" />
     <Interval index="1" segment="1" firstFrame="0" numFrames="86" tagList="1" codeBook="0" />
-    <Interval index="2" segment="2" firstFrame="0" numFrames="70" tagList="2" codeBook="1" />
+    <Interval index="2" segment="2" firstFrame="0" numFrames="70" tagList="2" codeBook="0" />
+    <Interval index="3" segment="3" firstFrame="0" numFrames="66" tagList="3" codeBook="0" />
   </Intervals>
   <TagLists>
     <TagList index="0" indices="0;1;" />
-    <TagList index="1" indices="2;" />
-    <TagList index="2" indices="3;" />
+    <TagList index="1" indices="2;3;" />
+    <TagList index="2" indices="4;5;" />
+    <TagList index="3" indices="6;7;" />
   </TagLists>
   <Metrics>
     <Metric index="0" poseTimeSpan="0.06666667">
@@ -304,7 +316,6 @@
     </Metric>
   </Metrics>
   <CodeBooks>
-    <CodeBook index="0" metric="0" trait="1" />
-    <CodeBook index="1" metric="0" trait="2" />
+    <CodeBook index="0" metric="0" trait="0" />
   </CodeBooks>
 </Binary>

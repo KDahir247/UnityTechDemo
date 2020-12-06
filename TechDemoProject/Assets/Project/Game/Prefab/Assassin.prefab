@@ -689,9 +689,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3496884793078461005}
   - component: {fileID: 3496884793078461006}
-  - component: {fileID: 3496884793078461000}
   - component: {fileID: 3496884793078461007}
   - component: {fileID: 3496884793078461011}
+  - component: {fileID: 3496884792895434949}
   m_Layer: 0
   m_Name: Assassin
   m_TagString: Untagged
@@ -706,7 +706,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3496884793078461001}
-  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: -105, y: -38, z: -479}
   m_LocalScale: {x: 93.51346, y: 93.51346, z: 93.51346}
   m_Children:
@@ -734,18 +734,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &3496884793078461000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3496884793078461001}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26af3027d6ca49c1a4aebbda548d6dd0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &3496884793078461007
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -780,6 +768,51 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ConversionMode: 1
+--- !u!114 &3496884792895434949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3496884793078461001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a553aa08932794b9d5f8f9a5d64ba9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unitData:
+    name: Assassin
+    description: 
+    image: {fileID: 0}
+    weaponData:
+      id: 
+      name: 
+      description: 
+      image: {fileID: 0}
+    equipmentDatas: []
+    abilityData:
+      id: 
+      name: 
+      innocentCost: 0
+      description: 
+      abilityDescription: 
+      image: {fileID: 0}
+    skillDatas:
+    - id: 
+      name: 
+      image: {fileID: 2800000, guid: 6a2a06074b09455499b398f7de3a040b, type: 3}
+      description: 
+      skillDescription: 
+    - id: 
+      name: 
+      image: {fileID: 2800000, guid: 7541aa08aae8c784eac6c5145bf2d47d, type: 3}
+      description: 
+      skillDescription: 
+    - id: 
+      name: 
+      image: {fileID: 2800000, guid: ce96532d4bf29b348aa20c623f110bdc, type: 3}
+      description: 
+      skillDescription: 
 --- !u!1 &3496884793238863944
 GameObject:
   m_ObjectHideFlags: 0
@@ -1422,7 +1455,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &3496884793912936003
 Transform:
   m_ObjectHideFlags: 0
