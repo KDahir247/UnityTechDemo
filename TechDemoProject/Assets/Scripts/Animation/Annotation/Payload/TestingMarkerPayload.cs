@@ -1,9 +1,6 @@
 ﻿using Unity.Burst;
-using Unity.Entities;
 using Unity.Kinematica;
-using Unity.Mathematics;
 using UnityEngine;
-using Random = Unity.Mathematics.Random;
 
 namespace Tech.Animation
 {
@@ -17,9 +14,9 @@ namespace Tech.Animation
         }
 
         [BurstCompile]
-        public static void ExecuteSelf(ref TestingMarkerPayload p, ref MotionSynthesizer synthesizer)
+        public static void ExecuteSelf(ref TestingMarkerPayload payload, ref MotionSynthesizer synthesizer)
         {
-            p.Execute(ref synthesizer);
+            payload.Execute(ref synthesizer);
         }
     }
 }

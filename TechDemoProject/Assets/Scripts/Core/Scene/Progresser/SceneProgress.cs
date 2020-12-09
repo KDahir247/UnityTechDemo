@@ -1,6 +1,7 @@
 ﻿using System;
 using Tech.Initialization;
 
+//TODO remove
 namespace Tech.Report
 {
     public class SceneProgress : IProgress<float>

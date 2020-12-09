@@ -5,6 +5,6 @@ namespace Tech.Animation
     [Trait]
     public struct Locomotion
     {
-        public static Locomotion Default => new Locomotion();
+        internal static Locomotion Default => new Locomotion();
     }
 }

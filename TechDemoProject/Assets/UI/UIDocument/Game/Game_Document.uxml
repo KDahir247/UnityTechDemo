@@ -1,9 +1,21 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<engine:UXML
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:engine="UnityEngine.UIElements"
-    xmlns:editor="UnityEditor.UIElements"
-    xsi:noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd"
->
-    
-</engine:UXML>
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Tech.UI.Panel.Game_Document style="flex-grow: 1; flex-direction: column; align-items: stretch; justify-content: space-between;">
+        <ui:VisualElement name="Header_Panel" style="flex-grow: 0; height: auto; align-items: auto; margin-top: 0; margin-right: 0; width: auto; flex-direction: row-reverse; justify-content: flex-start; flex-shrink: 0; background-image: none; background-color: rgba(91, 91, 91, 0);">
+            <ui:Button text="&#10;" display-tooltip-when-elided="True" name="HideAll_Button" style="width: 185px; height: 90px; border-top-left-radius: -289px; padding-right: 0; margin-right: 150px; margin-top: 70px; background-image: none; -unity-background-scale-mode: scale-to-fit; -unity-background-image-tint-color: rgb(101, 101, 101); background-color: rgb(79, 48, 48); border-left-color: rgb(80, 49, 49); border-right-color: rgb(80, 49, 49); border-top-color: rgb(80, 49, 49); border-bottom-color: rgb(80, 49, 49); align-items: flex-end;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Midle" style="flex-grow: 1; align-items: flex-end; justify-content: flex-start; flex-direction: column; margin-top: 48px; display: flex;">
+            <ui:VisualElement style="background-color: rgba(0, 0, 0, 255); flex-grow: 1; flex-shrink: 1; margin-right: 150px; width: 723px; align-items: flex-end; height: 34px;" />
+            <ui:VisualElement style="background-image: none; width: 150px; height: 150px; margin-right: 247px; margin-top: 25px; align-items: flex-end; flex-grow: 0; background-color: rgba(0, 0, 0, 255);" />
+        </ui:VisualElement>
+        <ui:VisualElement name="footer" style="flex-grow: 0.5; width: 1744px; flex-direction: row-reverse;">
+            <ui:VisualElement style="flex-grow: 1; flex-direction: row-reverse;">
+                <ui:VisualElement />
+                <ui:VisualElement />
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 1; flex-direction: row; align-items: flex-end; justify-content: flex-start; margin-left: 138px; margin-bottom: 74px;">
+                <ui:VisualElement style="flex-grow: 0.2; height: 150px; background-color: rgba(238, 21, 21, 255); width: auto; margin-right: 0; margin-left: 50px;" />
+                <ui:VisualElement style="background-color: rgba(255, 0, 0, 255); flex-grow: 0.2; flex-shrink: 1; height: 150px; margin-left: 50px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </Tech.UI.Panel.Game_Document>
+</ui:UXML>

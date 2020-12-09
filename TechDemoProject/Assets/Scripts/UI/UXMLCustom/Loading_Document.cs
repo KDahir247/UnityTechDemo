@@ -6,6 +6,7 @@ using UnityEngine.UIElements;
 
 namespace Tech.UI.Panel
 {
+    //TODO look into this when reworking progressor
     public class Loading_Document : Base_Document
     {
         private readonly CompositeDisposable _disposable = new CompositeDisposable();

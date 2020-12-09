@@ -1,14 +1,8 @@
 ﻿using JetBrains.Annotations;
-using MasterData;
 using Tech.Core;
 using Tech.UI.Linq;
-using UnityEngine;
 using UnityEngine.UIElements;
-using UnityEngine.UIElements.Experimental;
 
-//Passes
-//TODO make more Visual Element script for the different panel state in Title Screen so this script doesn't handle all responsibility for all the panel 
-//TODO use utf8 string builder 
 namespace Tech.UI.Panel
 {
     public class TitleScreen_Document : Base_Document
@@ -17,17 +11,21 @@ namespace Tech.UI.Panel
         private bool _isTransitioning;
         private Button _mailButton;
         private VisualElement _mainMenuVisualElement;
-        
+        private VisualElement _newsCoreVisualElement;
+
         private VisualElement _newsVisualElement;
 
         private Button _optionButton;
+
+        private VisualElement _optionCoreVisualElement;
         private VisualElement _optionVisualElement;
-        
+
         private Button _supportButton;
+        private VisualElement _supportCoreVisualElement;
         private VisualElement _supportVisualElement;
-        
+
         private string _tailSceneName = string.Empty;
-        
+
         protected override void Init(params string[] scenes)
         {
             if (scenes == null) return;
@@ -45,7 +43,11 @@ namespace Tech.UI.Panel
             _optionButton = this.Q<Button>("Option_Button");
             _supportButton = this.Q<Button>("Support_Button");
             _mailButton = this.Q<Button>("Mail_Button");
-            
+
+
+            _optionCoreVisualElement = _optionVisualElement.Q<VisualElement>("Core_Panel");
+            _supportCoreVisualElement = _supportVisualElement.Q<VisualElement>("Core_Panel");
+            _newsCoreVisualElement = _newsVisualElement.Q<VisualElement>("Core_Panel");
         }
 
         protected override void Start()
@@ -60,21 +62,43 @@ namespace Tech.UI.Panel
 
 
             //TODO issue with the event call
-            _optionVisualElement.Q<VisualElement>("Core_Panel")
+            _optionCoreVisualElement
                 .RegisterCallback(FadeToNewScreen<MouseLeaveEvent>(_mainMenuVisualElement, _optionVisualElement));
 
-            _supportVisualElement.Q<VisualElement>("Core_Panel")
+            _supportCoreVisualElement
                 .RegisterCallback(FadeToNewScreen<MouseLeaveEvent>(_mainMenuVisualElement, _supportVisualElement));
 
-            _newsVisualElement.Q<VisualElement>("Core_Panel")
+            _newsCoreVisualElement
                 .RegisterCallback(FadeToNewScreen<MouseLeaveEvent>(_mainMenuVisualElement, _newsVisualElement));
 
             _mainMenuVisualElement.RegisterCallback(LoadScene());
         }
 
+        protected override void OnDestroy()
+        {
+            _optionButton
+                .UnregisterCallback(FadeToNewScreen<ClickEvent>(_optionVisualElement, _mainMenuVisualElement));
+            _supportButton
+                .UnregisterCallback(FadeToNewScreen<ClickEvent>(_supportVisualElement, _mainMenuVisualElement));
+            _mailButton
+                .UnregisterCallback(FadeToNewScreen<ClickEvent>(_newsVisualElement, _mainMenuVisualElement));
+
+            _optionCoreVisualElement
+                .UnregisterCallback(FadeToNewScreen<MouseLeaveEvent>(_mainMenuVisualElement, _optionVisualElement));
+
+            _supportCoreVisualElement
+                .UnregisterCallback(FadeToNewScreen<MouseLeaveEvent>(_mainMenuVisualElement, _supportVisualElement));
+
+            _newsCoreVisualElement
+                .UnregisterCallback(FadeToNewScreen<MouseLeaveEvent>(_mainMenuVisualElement, _newsVisualElement));
+
+            _mainMenuVisualElement.UnregisterCallback(LoadScene());
+        }
+
+
         [NotNull]
         private EventCallback<T> FadeToNewScreen<T>(VisualElement fadeTo, VisualElement fadeFrom)
-            where T : EventBase
+            where T : EventBase //maybe the issue lies here
         {
             return evt =>
             {
@@ -106,21 +130,9 @@ namespace Tech.UI.Panel
             };
         }
 
-        protected override void OnDestroy()
-        {
-        }
 
         public new class UxmlFactory : UxmlFactory<TitleScreen_Document, UxmlTraits>
         {
-            public override VisualElement Create(IUxmlAttributes bag, CreationContext cc)
-            {
-                return base.Create(bag, cc);
-            }
-            
-            public override bool AcceptsAttributeBag(IUxmlAttributes bag, CreationContext cc)
-            {
-                return base.AcceptsAttributeBag(bag, cc);
-            }
         }
 
         public new sealed class UxmlTraits : VisualElement.UxmlTraits

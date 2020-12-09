@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using Cysharp.Threading.Tasks;
 using Pixelplacement;
 using Tech.Core;
 using UniRx;
@@ -11,7 +10,7 @@ using UnityEngine.Serialization;
 //TODO cursor eat alot of performance initially it goes down to 5 fps from 500 fps 
 namespace Tech.Mono
 {
-    public class CursorFx : Singleton<CursorFx>
+    public sealed class CursorFx : Singleton<CursorFx>
     {
         private readonly ReactiveCollection<GameObject> _reactiveCollection = new ReactiveCollection<GameObject>();
         private Camera _camera;
@@ -44,7 +43,7 @@ namespace Tech.Mono
                 }).AddTo(this);
         }
 
-        private async UniTaskVoid Update()
+        private void Update()
         {
 #if UNITY_ANDROID || UNITY_IOS
         if (Input.touchCount > 0)
@@ -64,8 +63,9 @@ namespace Tech.Mono
                 mousePos.z = clickVfxDepth;
                 var worldMousePos = _camera.ScreenToWorldPoint(mousePos);
 
-                await AssetAddress.CreateAssetList(assetRef[Random.Range(0, assetRef.Count - 1)],
-                        _reactiveCollection, new InstantiationParameters(worldMousePos, Quaternion.identity, null));
+                AssetAddress.CreateAssetList(assetRef[Random.Range(0, assetRef.Count - 1)],
+                        _reactiveCollection, new InstantiationParameters(worldMousePos, Quaternion.identity, null))
+                    .Forget();
             }
 #endif
         }

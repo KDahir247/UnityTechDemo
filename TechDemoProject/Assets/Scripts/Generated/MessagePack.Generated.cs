@@ -49,50 +49,52 @@ namespace MessagePack.Resolvers
 
         static GeneratedResolverGetFormatterHelper()
         {
-            lookup = new global::System.Collections.Generic.Dictionary<Type, int>(42)
+            lookup = new global::System.Collections.Generic.Dictionary<Type, int>(44)
             {
                 { typeof(global::Tech.Data.EquipmentData[]), 0 },
                 { typeof(global::Tech.Data.SkillData[]), 1 },
                 { typeof(global::Tech.DB.Equipment[]), 2 },
                 { typeof(global::Tech.DB.Skill[]), 3 },
-                { typeof(global::Tech.Data.DB.Ailment), 4 },
-                { typeof(global::Tech.Data.DB.Element), 5 },
-                { typeof(global::Tech.Data.DB.EquipmentType), 6 },
-                { typeof(global::Tech.Data.DB.ItemType), 7 },
-                { typeof(global::Tech.Data.DB.ParameterType), 8 },
-                { typeof(global::Tech.Data.DB.RaceType), 9 },
-                { typeof(global::Tech.Data.DB.Rarity), 10 },
-                { typeof(global::Tech.Data.DB.Target), 11 },
-                { typeof(global::Tech.Data.DB.TargetStat), 12 },
-                { typeof(global::Tech.Data.DB.TraitType), 13 },
-                { typeof(global::Tech.Data.DB.UnitType), 14 },
-                { typeof(global::Tech.Data.DB.WeaponType), 15 },
-                { typeof(global::Tech.Data.AbilityData), 16 },
-                { typeof(global::Tech.Data.DB.AbilityInfo), 17 },
-                { typeof(global::Tech.Data.DB.EnemyInfo), 18 },
-                { typeof(global::Tech.Data.DB.EquipmentInfo), 19 },
-                { typeof(global::Tech.Data.DB.ItemInfo), 20 },
-                { typeof(global::Tech.Data.DB.MaterialInfo), 21 },
-                { typeof(global::Tech.Data.DB.SkillInfo), 22 },
-                { typeof(global::Tech.Data.DB.Stat), 23 },
-                { typeof(global::Tech.Data.DB.UnitInfo), 24 },
-                { typeof(global::Tech.Data.DB.WeaponInfo), 25 },
-                { typeof(global::Tech.Data.EnemyData), 26 },
-                { typeof(global::Tech.Data.EquipmentData), 27 },
-                { typeof(global::Tech.Data.ItemData), 28 },
-                { typeof(global::Tech.Data.MaterialData), 29 },
-                { typeof(global::Tech.Data.SkillData), 30 },
-                { typeof(global::Tech.Data.UnitData), 31 },
-                { typeof(global::Tech.Data.WeaponData), 32 },
-                { typeof(global::Tech.DB.Ability), 33 },
-                { typeof(global::Tech.DB.Enemy), 34 },
-                { typeof(global::Tech.DB.Equipment), 35 },
-                { typeof(global::Tech.DB.Item), 36 },
-                { typeof(global::Tech.DB.Skill), 37 },
-                { typeof(global::Tech.DB.TechMaterial), 38 },
-                { typeof(global::Tech.DB.Unit), 39 },
-                { typeof(global::Tech.DB.Weapon), 40 },
-                { typeof(global::Tech.Network.Param.Player), 41 },
+                { typeof(global::Tech.DB.Unit[]), 4 },
+                { typeof(global::Tech.Data.DB.Ailment), 5 },
+                { typeof(global::Tech.Data.DB.Element), 6 },
+                { typeof(global::Tech.Data.DB.EquipmentType), 7 },
+                { typeof(global::Tech.Data.DB.ItemType), 8 },
+                { typeof(global::Tech.Data.DB.ParameterType), 9 },
+                { typeof(global::Tech.Data.DB.RaceType), 10 },
+                { typeof(global::Tech.Data.DB.Rarity), 11 },
+                { typeof(global::Tech.Data.DB.Target), 12 },
+                { typeof(global::Tech.Data.DB.TargetStat), 13 },
+                { typeof(global::Tech.Data.DB.TraitType), 14 },
+                { typeof(global::Tech.Data.DB.UnitType), 15 },
+                { typeof(global::Tech.Data.DB.WeaponType), 16 },
+                { typeof(global::Tech.Data.AbilityData), 17 },
+                { typeof(global::Tech.Data.DB.AbilityInfo), 18 },
+                { typeof(global::Tech.Data.DB.EnemyInfo), 19 },
+                { typeof(global::Tech.Data.DB.EquipmentInfo), 20 },
+                { typeof(global::Tech.Data.DB.ItemInfo), 21 },
+                { typeof(global::Tech.Data.DB.MaterialInfo), 22 },
+                { typeof(global::Tech.Data.DB.SkillInfo), 23 },
+                { typeof(global::Tech.Data.DB.Stat), 24 },
+                { typeof(global::Tech.Data.DB.UnitInfo), 25 },
+                { typeof(global::Tech.Data.DB.WeaponInfo), 26 },
+                { typeof(global::Tech.Data.EnemyData), 27 },
+                { typeof(global::Tech.Data.EquipmentData), 28 },
+                { typeof(global::Tech.Data.ItemData), 29 },
+                { typeof(global::Tech.Data.MaterialData), 30 },
+                { typeof(global::Tech.Data.SkillData), 31 },
+                { typeof(global::Tech.Data.UnitData), 32 },
+                { typeof(global::Tech.Data.WeaponData), 33 },
+                { typeof(global::Tech.DB.Ability), 34 },
+                { typeof(global::Tech.DB.Enemy), 35 },
+                { typeof(global::Tech.DB.Equipment), 36 },
+                { typeof(global::Tech.DB.Item), 37 },
+                { typeof(global::Tech.DB.Skill), 38 },
+                { typeof(global::Tech.DB.TechMaterial), 39 },
+                { typeof(global::Tech.DB.Unit), 40 },
+                { typeof(global::Tech.DB.User), 41 },
+                { typeof(global::Tech.DB.Weapon), 42 },
+                { typeof(global::Tech.Network.Param.Player), 43 },
             };
         }
 
@@ -110,44 +112,46 @@ namespace MessagePack.Resolvers
                 case 1: return new global::MessagePack.Formatters.ArrayFormatter<global::Tech.Data.SkillData>();
                 case 2: return new global::MessagePack.Formatters.ArrayFormatter<global::Tech.DB.Equipment>();
                 case 3: return new global::MessagePack.Formatters.ArrayFormatter<global::Tech.DB.Skill>();
-                case 4: return new MessagePack.Formatters.Tech.Data.DB.AilmentFormatter();
-                case 5: return new MessagePack.Formatters.Tech.Data.DB.ElementFormatter();
-                case 6: return new MessagePack.Formatters.Tech.Data.DB.EquipmentTypeFormatter();
-                case 7: return new MessagePack.Formatters.Tech.Data.DB.ItemTypeFormatter();
-                case 8: return new MessagePack.Formatters.Tech.Data.DB.ParameterTypeFormatter();
-                case 9: return new MessagePack.Formatters.Tech.Data.DB.RaceTypeFormatter();
-                case 10: return new MessagePack.Formatters.Tech.Data.DB.RarityFormatter();
-                case 11: return new MessagePack.Formatters.Tech.Data.DB.TargetFormatter();
-                case 12: return new MessagePack.Formatters.Tech.Data.DB.TargetStatFormatter();
-                case 13: return new MessagePack.Formatters.Tech.Data.DB.TraitTypeFormatter();
-                case 14: return new MessagePack.Formatters.Tech.Data.DB.UnitTypeFormatter();
-                case 15: return new MessagePack.Formatters.Tech.Data.DB.WeaponTypeFormatter();
-                case 16: return new MessagePack.Formatters.Tech.Data.AbilityDataFormatter();
-                case 17: return new MessagePack.Formatters.Tech.Data.DB.AbilityInfoFormatter();
-                case 18: return new MessagePack.Formatters.Tech.Data.DB.EnemyInfoFormatter();
-                case 19: return new MessagePack.Formatters.Tech.Data.DB.EquipmentInfoFormatter();
-                case 20: return new MessagePack.Formatters.Tech.Data.DB.ItemInfoFormatter();
-                case 21: return new MessagePack.Formatters.Tech.Data.DB.MaterialInfoFormatter();
-                case 22: return new MessagePack.Formatters.Tech.Data.DB.SkillInfoFormatter();
-                case 23: return new MessagePack.Formatters.Tech.Data.DB.StatFormatter();
-                case 24: return new MessagePack.Formatters.Tech.Data.DB.UnitInfoFormatter();
-                case 25: return new MessagePack.Formatters.Tech.Data.DB.WeaponInfoFormatter();
-                case 26: return new MessagePack.Formatters.Tech.Data.EnemyDataFormatter();
-                case 27: return new MessagePack.Formatters.Tech.Data.EquipmentDataFormatter();
-                case 28: return new MessagePack.Formatters.Tech.Data.ItemDataFormatter();
-                case 29: return new MessagePack.Formatters.Tech.Data.MaterialDataFormatter();
-                case 30: return new MessagePack.Formatters.Tech.Data.SkillDataFormatter();
-                case 31: return new MessagePack.Formatters.Tech.Data.UnitDataFormatter();
-                case 32: return new MessagePack.Formatters.Tech.Data.WeaponDataFormatter();
-                case 33: return new MessagePack.Formatters.Tech.DB.AbilityFormatter();
-                case 34: return new MessagePack.Formatters.Tech.DB.EnemyFormatter();
-                case 35: return new MessagePack.Formatters.Tech.DB.EquipmentFormatter();
-                case 36: return new MessagePack.Formatters.Tech.DB.ItemFormatter();
-                case 37: return new MessagePack.Formatters.Tech.DB.SkillFormatter();
-                case 38: return new MessagePack.Formatters.Tech.DB.TechMaterialFormatter();
-                case 39: return new MessagePack.Formatters.Tech.DB.UnitFormatter();
-                case 40: return new MessagePack.Formatters.Tech.DB.WeaponFormatter();
-                case 41: return new MessagePack.Formatters.Tech.Network.Param.PlayerFormatter();
+                case 4: return new global::MessagePack.Formatters.ArrayFormatter<global::Tech.DB.Unit>();
+                case 5: return new MessagePack.Formatters.Tech.Data.DB.AilmentFormatter();
+                case 6: return new MessagePack.Formatters.Tech.Data.DB.ElementFormatter();
+                case 7: return new MessagePack.Formatters.Tech.Data.DB.EquipmentTypeFormatter();
+                case 8: return new MessagePack.Formatters.Tech.Data.DB.ItemTypeFormatter();
+                case 9: return new MessagePack.Formatters.Tech.Data.DB.ParameterTypeFormatter();
+                case 10: return new MessagePack.Formatters.Tech.Data.DB.RaceTypeFormatter();
+                case 11: return new MessagePack.Formatters.Tech.Data.DB.RarityFormatter();
+                case 12: return new MessagePack.Formatters.Tech.Data.DB.TargetFormatter();
+                case 13: return new MessagePack.Formatters.Tech.Data.DB.TargetStatFormatter();
+                case 14: return new MessagePack.Formatters.Tech.Data.DB.TraitTypeFormatter();
+                case 15: return new MessagePack.Formatters.Tech.Data.DB.UnitTypeFormatter();
+                case 16: return new MessagePack.Formatters.Tech.Data.DB.WeaponTypeFormatter();
+                case 17: return new MessagePack.Formatters.Tech.Data.AbilityDataFormatter();
+                case 18: return new MessagePack.Formatters.Tech.Data.DB.AbilityInfoFormatter();
+                case 19: return new MessagePack.Formatters.Tech.Data.DB.EnemyInfoFormatter();
+                case 20: return new MessagePack.Formatters.Tech.Data.DB.EquipmentInfoFormatter();
+                case 21: return new MessagePack.Formatters.Tech.Data.DB.ItemInfoFormatter();
+                case 22: return new MessagePack.Formatters.Tech.Data.DB.MaterialInfoFormatter();
+                case 23: return new MessagePack.Formatters.Tech.Data.DB.SkillInfoFormatter();
+                case 24: return new MessagePack.Formatters.Tech.Data.DB.StatFormatter();
+                case 25: return new MessagePack.Formatters.Tech.Data.DB.UnitInfoFormatter();
+                case 26: return new MessagePack.Formatters.Tech.Data.DB.WeaponInfoFormatter();
+                case 27: return new MessagePack.Formatters.Tech.Data.EnemyDataFormatter();
+                case 28: return new MessagePack.Formatters.Tech.Data.EquipmentDataFormatter();
+                case 29: return new MessagePack.Formatters.Tech.Data.ItemDataFormatter();
+                case 30: return new MessagePack.Formatters.Tech.Data.MaterialDataFormatter();
+                case 31: return new MessagePack.Formatters.Tech.Data.SkillDataFormatter();
+                case 32: return new MessagePack.Formatters.Tech.Data.UnitDataFormatter();
+                case 33: return new MessagePack.Formatters.Tech.Data.WeaponDataFormatter();
+                case 34: return new MessagePack.Formatters.Tech.DB.AbilityFormatter();
+                case 35: return new MessagePack.Formatters.Tech.DB.EnemyFormatter();
+                case 36: return new MessagePack.Formatters.Tech.DB.EquipmentFormatter();
+                case 37: return new MessagePack.Formatters.Tech.DB.ItemFormatter();
+                case 38: return new MessagePack.Formatters.Tech.DB.SkillFormatter();
+                case 39: return new MessagePack.Formatters.Tech.DB.TechMaterialFormatter();
+                case 40: return new MessagePack.Formatters.Tech.DB.UnitFormatter();
+                case 41: return new MessagePack.Formatters.Tech.DB.UserFormatter();
+                case 42: return new MessagePack.Formatters.Tech.DB.WeaponFormatter();
+                case 43: return new MessagePack.Formatters.Tech.Network.Param.PlayerFormatter();
                 default: return null;
             }
         }
@@ -5161,6 +5165,154 @@ namespace MessagePack.Formatters.Tech.DB
             ____result.Equipment = __Equipment__;
             ____result.Ability = __Ability__;
             ____result.Skills = __Skills__;
+            ____result.OnAfterDeserialize();
+            reader.Depth--;
+            return ____result;
+        }
+    }
+
+    public sealed class UserFormatter : global::MessagePack.Formatters.IMessagePackFormatter<global::Tech.DB.User>
+    {
+
+
+        private readonly global::MessagePack.Internal.AutomataDictionary ____keyMapping;
+        private readonly byte[][] ____stringByteKeys;
+
+        public UserFormatter()
+        {
+            this.____keyMapping = new global::MessagePack.Internal.AutomataDictionary()
+            {
+                { "Id", 0 },
+                { "Level", 1 },
+                { "Username", 2 },
+                { "TrophyTextureImage", 3 },
+                { "Note", 4 },
+                { "Cred", 5 },
+                { "Energy", 6 },
+                { "Comment", 7 },
+                { "PossessedUnit", 8 },
+            };
+
+            this.____stringByteKeys = new byte[][]
+            {
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Id"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Level"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Username"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("TrophyTextureImage"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Note"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Cred"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Energy"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("Comment"),
+                global::MessagePack.Internal.CodeGenHelpers.GetEncodedStringBytes("PossessedUnit"),
+            };
+        }
+
+        public void Serialize(ref MessagePackWriter writer, global::Tech.DB.User value, global::MessagePack.MessagePackSerializerOptions options)
+        {
+            if (value == null)
+            {
+                writer.WriteNil();
+                return;
+            }
+
+            IFormatterResolver formatterResolver = options.Resolver;
+            value.OnBeforeSerialize();
+            writer.WriteMapHeader(9);
+            writer.WriteRaw(this.____stringByteKeys[0]);
+            formatterResolver.GetFormatterWithVerify<byte[]>().Serialize(ref writer, value.Id, options);
+            writer.WriteRaw(this.____stringByteKeys[1]);
+            writer.Write(value.Level);
+            writer.WriteRaw(this.____stringByteKeys[2]);
+            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.Username, options);
+            writer.WriteRaw(this.____stringByteKeys[3]);
+            formatterResolver.GetFormatterWithVerify<byte[]>().Serialize(ref writer, value.TrophyTextureImage, options);
+            writer.WriteRaw(this.____stringByteKeys[4]);
+            writer.Write(value.Note);
+            writer.WriteRaw(this.____stringByteKeys[5]);
+            writer.Write(value.Cred);
+            writer.WriteRaw(this.____stringByteKeys[6]);
+            writer.Write(value.Energy);
+            writer.WriteRaw(this.____stringByteKeys[7]);
+            formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.Comment, options);
+            writer.WriteRaw(this.____stringByteKeys[8]);
+            formatterResolver.GetFormatterWithVerify<global::Tech.DB.Unit[]>().Serialize(ref writer, value.PossessedUnit, options);
+        }
+
+        public global::Tech.DB.User Deserialize(ref MessagePackReader reader, global::MessagePack.MessagePackSerializerOptions options)
+        {
+            if (reader.TryReadNil())
+            {
+                return null;
+            }
+
+            options.Security.DepthStep(ref reader);
+            IFormatterResolver formatterResolver = options.Resolver;
+            var length = reader.ReadMapHeader();
+            var __Id__ = default(byte[]);
+            var __Level__ = default(int);
+            var __Username__ = default(string);
+            var __TrophyTextureImage__ = default(byte[]);
+            var __Note__ = default(int);
+            var __Cred__ = default(int);
+            var __Energy__ = default(int);
+            var __Comment__ = default(string);
+            var __PossessedUnit__ = default(global::Tech.DB.Unit[]);
+
+            for (int i = 0; i < length; i++)
+            {
+                ReadOnlySpan<byte> stringKey = global::MessagePack.Internal.CodeGenHelpers.ReadStringSpan(ref reader);
+                int key;
+                if (!this.____keyMapping.TryGetValue(stringKey, out key))
+                {
+                    reader.Skip();
+                    continue;
+                }
+
+                switch (key)
+                {
+                    case 0:
+                        __Id__ = formatterResolver.GetFormatterWithVerify<byte[]>().Deserialize(ref reader, options);
+                        break;
+                    case 1:
+                        __Level__ = reader.ReadInt32();
+                        break;
+                    case 2:
+                        __Username__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
+                        break;
+                    case 3:
+                        __TrophyTextureImage__ = formatterResolver.GetFormatterWithVerify<byte[]>().Deserialize(ref reader, options);
+                        break;
+                    case 4:
+                        __Note__ = reader.ReadInt32();
+                        break;
+                    case 5:
+                        __Cred__ = reader.ReadInt32();
+                        break;
+                    case 6:
+                        __Energy__ = reader.ReadInt32();
+                        break;
+                    case 7:
+                        __Comment__ = formatterResolver.GetFormatterWithVerify<string>().Deserialize(ref reader, options);
+                        break;
+                    case 8:
+                        __PossessedUnit__ = formatterResolver.GetFormatterWithVerify<global::Tech.DB.Unit[]>().Deserialize(ref reader, options);
+                        break;
+                    default:
+                        reader.Skip();
+                        break;
+                }
+            }
+
+            var ____result = new global::Tech.DB.User();
+            ____result.Id = __Id__;
+            ____result.Level = __Level__;
+            ____result.Username = __Username__;
+            ____result.TrophyTextureImage = __TrophyTextureImage__;
+            ____result.Note = __Note__;
+            ____result.Cred = __Cred__;
+            ____result.Energy = __Energy__;
+            ____result.Comment = __Comment__;
+            ____result.PossessedUnit = __PossessedUnit__;
             ____result.OnAfterDeserialize();
             reader.Depth--;
             return ____result;

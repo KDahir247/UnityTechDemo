@@ -5,30 +5,35 @@ using UnityEngine.Serialization;
 using ZLogger;
 
 
-//small wrapper for State from Pixelplacement
+//small wrapper for State from Pixelplacement State script
 namespace Tech.Core
 {
     [DisallowMultipleComponent]
     [RequireComponent(typeof(AudioSource))]
-    public class SceneState : State
+    public sealed class SceneState : State
     {
         private AudioSource _source;
 
         [FormerlySerializedAs("Clip")] [SerializeField]
         private AudioClip clip;
 
-        public Ease fadeInEase;
-        public float fadeInTime = 1;
+        [SerializeField] private Ease fadeInEase;
 
-        [FormerlySerializedAs("FadeOutEase")] public Ease fadeOutEase;
+        [SerializeField] private float fadeInTime = 1;
 
-        [FormerlySerializedAs("FadeOutTime")] public float fadeOutTime = 2;
 
-        [FormerlySerializedAs("Key")] [Tooltip("The Tag Key to load load to the next Scene")]
-        public string key;
+        [SerializeField] private Ease fadeOutEase;
 
-        [Tooltip("Next Scene Addressable Path")]
-        public string onNextScene;
+        [SerializeField] private float fadeOutTime = 2;
+
+
+        [Tooltip("Next Scene Addressable Path")] [SerializeField]
+        private string onNextScene;
+
+        internal Ease FadeOutEase => fadeOutEase;
+        internal float FadeOutTime => fadeOutTime;
+        internal string OnNextScene => onNextScene;
+
 
         private void Start()
         {

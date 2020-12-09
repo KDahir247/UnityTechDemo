@@ -1,6 +1,7 @@
 ﻿using System;
 using Tech.Initialization;
 
+//TODO Remove
 namespace Tech.Report
 {
 //string represent the asset loading and float is the percentage

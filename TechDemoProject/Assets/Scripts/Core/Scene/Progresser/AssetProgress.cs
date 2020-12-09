@@ -1,6 +1,7 @@
 ﻿using System;
 using Tech.Initialization;
 
+//TODO Remove
 namespace Tech.Report
 {
     public class AssetProgress : IProgress<float>

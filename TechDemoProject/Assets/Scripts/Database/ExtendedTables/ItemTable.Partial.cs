@@ -2,9 +2,9 @@
 {
     public sealed partial class ItemTable
     {
-        partial void OnAfterConstruct()
-        {
-            
-        }
+        // partial void OnAfterConstruct()
+        // {
+        //     
+        // }
     }
 }

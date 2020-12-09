@@ -14,19 +14,20 @@ namespace Tech.Utility
 
         //Maybe make a dictonary 
 
-        [NotNull] private static readonly Dictionary<FileDestination, string> _dataPath = new Dictionary<FileDestination, string>
-        {
-            {FileDestination.AbilityPath, "ability-data"},
-            {FileDestination.SkillPath, "skill-data"},
-            {FileDestination.UnitPath, "unit-data"},
-            {FileDestination.EquipmentPath, "equip-data"},
-            {FileDestination.ItemPath, "item-data"},
-            {FileDestination.MaterialPath, "mat-data"},
-            {FileDestination.EnemyPath, "enemy-data"}
-        };
+        [NotNull] private static readonly Dictionary<FileDestination, string> _dataPath =
+            new Dictionary<FileDestination, string>
+            {
+                {FileDestination.AbilityPath, "ability-data"},
+                {FileDestination.SkillPath, "skill-data"},
+                {FileDestination.UnitPath, "unit-data"},
+                {FileDestination.EquipmentPath, "equip-data"},
+                {FileDestination.ItemPath, "item-data"},
+                {FileDestination.MaterialPath, "mat-data"},
+                {FileDestination.EnemyPath, "enemy-data"},
+                {FileDestination.UserPath, "user-data"}
+            };
 
-        [NotNull]
-        public readonly static ReadOnlyDictionary<FileDestination, string> DataPath =
+        [NotNull] internal static readonly ReadOnlyDictionary<FileDestination, string> DataPath =
             new ReadOnlyDictionary<FileDestination, string>(_dataPath);
     }
 }

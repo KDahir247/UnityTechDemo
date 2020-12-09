@@ -11,10 +11,9 @@ using ILogger = Microsoft.Extensions.Logging.ILogger;
 namespace Tech.Core
 {
 #if UNITY_EDITOR
-    public static class LogManager
+    internal static class LogManager
     {
         private static readonly ILoggerFactory LoggerFactory;
-        //private static readonly CompositeDisposable Disposable = new CompositeDisposable();
 
         static LogManager()
         {
@@ -44,9 +43,6 @@ namespace Tech.Core
                             DateTime.Now,
                             exception.Source, exception.Message, exception.TargetSite, exception.InnerException,
                             exception.StackTrace);
-
-                        // options.StructuredLoggingFormatter = (writer, info) => { };
-                        // options.EnableStructuredLogging = true;
 
                         options.JsonSerializerOptions.WriteIndented = true;
                     });

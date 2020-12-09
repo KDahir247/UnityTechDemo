@@ -16,8 +16,8 @@ MonoBehaviour:
   m_Compression: 1
   m_IncludeInBuild: 1
   m_BundledAssetProviderType:
-    m_AssemblyName: 
-    m_ClassName: 
+    m_AssemblyName: Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_ClassName: UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider
   m_ForceUniqueProvider: 0
   m_UseAssetBundleCache: 1
   m_UseAssetBundleCrc: 1
@@ -31,8 +31,8 @@ MonoBehaviour:
     m_Id: 
   m_BundleMode: 0
   m_AssetBundleProviderType:
-    m_AssemblyName: 
-    m_ClassName: 
+    m_AssemblyName: Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_ClassName: UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider
   m_BundleNaming: 0
 --- !u!114 &11400000
 MonoBehaviour:
@@ -50,7 +50,7 @@ MonoBehaviour:
   - {fileID: -1299803110790085180}
   - {fileID: 1421882918734894123}
   m_Description: Pack assets into asset bundles.
-  m_Settings: {fileID: 0}
+  m_Settings: {fileID: 11400000, guid: a2cc6ec24cb6f134d8a2845b265779b5, type: 2}
 --- !u!114 &1421882918734894123
 MonoBehaviour:
   m_ObjectHideFlags: 1

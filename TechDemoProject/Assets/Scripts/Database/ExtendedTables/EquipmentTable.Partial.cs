@@ -1,10 +1,10 @@
 ﻿namespace MasterData.Tables
 {
-    public sealed partial class EquipmentTable 
+    public sealed partial class EquipmentTable
     {
-        partial void OnAfterConstruct()
-        {
-            
-        }   
+        // partial void OnAfterConstruct()
+        // {
+        //     
+        // }   
     }
 }

@@ -1,4 +1,5 @@
 ﻿using System;
+using Cysharp.Threading.Tasks;
 using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.UIElements;
@@ -6,11 +7,8 @@ using UnityEngine.UIElements.Experimental;
 
 namespace Tech.UI.Linq
 {
-    public static class UIElementExtension
+    internal static class UIElementExtension
     {
-        //Handle UI animation in linq style 
-
-
         public static void RecursiveFadeOutIn([NotNull] this VisualElement target,
             StyleValues fadeInStyle,
             StyleValues fadeOutStyle,
@@ -87,6 +85,66 @@ namespace Tech.UI.Linq
                 .animation
                 .Size(to, durationMs)
                 .OnCompleted(onComplete);
+        }
+
+        public static void SwitchDisplay([NotNull] this VisualElement outDisplay,
+            [NotNull] VisualElement inDisplay)
+        {
+            outDisplay.style.display = DisplayStyle.None;
+            inDisplay.style.display = DisplayStyle.Flex;
+        }
+
+
+        public static async UniTask PlayTextSequence([NotNull] this Label text,
+            int delayBeforeStarting,
+            int delayBeforeEnding,
+            string type,
+            int intervalMs)
+        {
+            await UniTask.Delay(delayBeforeStarting, DelayType.Realtime);
+
+            if (!text.text.Equals(type))
+            {
+                for (byte i = 0; i < type.Length; i++)
+                {
+                    text.text += type[i].ToString();
+                    if (type[i] != '\\')
+                        await UniTask.Delay(intervalMs, DelayType.Realtime);
+                }
+
+                await UniTask.Delay(delayBeforeEnding, DelayType.Realtime);
+
+
+                text.FadeInOrOut(new StyleValues {opacity = 1}, new StyleValues {opacity = 0}, 1000);
+
+                await UniTask.WaitUntil(() => text.style.opacity.value <= 0.0f);
+            }
+        }
+
+        public static async UniTask PlayCollectionTextSequence([NotNull] this Label text,
+            [NotNull] string[] typeCollection,
+            int delayBeforeEnding,
+            int delayBeforeStarting,
+            int intervalMs,
+            [CanBeNull] Action onComplete = null)
+        {
+            foreach (var s in typeCollection)
+            {
+                if (text.style.opacity.value <= 0)
+                {
+                    var styleOpacity = text.style.opacity;
+                    styleOpacity.value = 1;
+                    text.style.opacity = styleOpacity;
+
+                    text.text = string.Empty;
+                }
+
+
+                await PlayTextSequence(text, delayBeforeStarting, delayBeforeEnding, s, intervalMs);
+            }
+
+
+            onComplete?.Invoke();
         }
     }
 }

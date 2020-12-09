@@ -2,8 +2,8 @@
 {
     public sealed partial class WeaponTable
     {
-        partial void OnAfterConstruct()
-        {
-        }
+        // partial void OnAfterConstruct()
+        // {
+        // }
     }
 }

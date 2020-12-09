@@ -5,6 +5,6 @@ namespace Tech.Animation
     [Trait]
     public struct Skill2
     {
-        public static Skill2 Default => new Skill2();
+        internal static Skill2 Default => new Skill2();
     }
 }

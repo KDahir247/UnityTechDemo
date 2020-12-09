@@ -12,7 +12,6 @@ namespace Tech.Animation
             return new Skill2Tag();
         }
 
-
         public Skill2 Build(PayloadBuilder builder)
         {
             return Skill2.Default;

@@ -11,8 +11,7 @@ namespace Tech.Animation
         {
             return new GreetingTag();
         }
-        
-        
+
         public Greeting Build(PayloadBuilder builder)
         {
             return Greeting.Default;

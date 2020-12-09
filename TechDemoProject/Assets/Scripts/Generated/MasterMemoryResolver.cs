@@ -46,7 +46,7 @@ namespace MasterData
 
         static MasterMemoryResolverGetFormatterHelper()
         {
-            lookup = new global::System.Collections.Generic.Dictionary<Type, int>(8)
+            lookup = new global::System.Collections.Generic.Dictionary<Type, int>(9)
             {
                 {typeof(Ability[]), 0 },
                 {typeof(Enemy[]), 1 },
@@ -55,7 +55,8 @@ namespace MasterData
                 {typeof(Skill[]), 4 },
                 {typeof(TechMaterial[]), 5 },
                 {typeof(Unit[]), 6 },
-                {typeof(Weapon[]), 7 },
+                {typeof(User[]), 7 },
+                {typeof(Weapon[]), 8 },
             };
         }
 
@@ -73,7 +74,8 @@ namespace MasterData
                 case 4: return new MessagePack.Formatters.ArrayFormatter<Skill>();
                 case 5: return new MessagePack.Formatters.ArrayFormatter<TechMaterial>();
                 case 6: return new MessagePack.Formatters.ArrayFormatter<Unit>();
-                case 7: return new MessagePack.Formatters.ArrayFormatter<Weapon>();
+                case 7: return new MessagePack.Formatters.ArrayFormatter<User>();
+                case 8: return new MessagePack.Formatters.ArrayFormatter<Weapon>();
                 default: return null;
             }
         }

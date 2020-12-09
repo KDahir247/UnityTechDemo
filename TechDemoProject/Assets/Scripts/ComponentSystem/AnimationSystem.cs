@@ -3,22 +3,21 @@ using Unity.Burst;
 using Unity.Entities;
 using Unity.Jobs;
 using Unity.Kinematica;
-using UnityEngine;
 
 namespace Tech.ECS
 {
-    //TODO clean
-    [BurstCompile(FloatPrecision.Low, FloatMode.Fast)]
-    struct KinematicaSoloJob : IJob
+    //TODO clean up and find a better solution then using a switch statement
+    [BurstCompile(FloatPrecision.Low, FloatMode.Fast, CompileSynchronously = false, Debug = false)]
+    internal struct KinematicaSoloJob : IJob
     {
         public MemoryRef<MotionSynthesizer> motionSynthesizer;
         private MotionSynthesizer MotionSynthesizer => motionSynthesizer.Ref;
-        
+
         public TaskReference IdleTaskReference;
         public TaskReference LocomotionTaskReference;
 
         public int skillIndex;
-        
+
         public void Execute()
         {
             //Add logic here
@@ -33,7 +32,7 @@ namespace Tech.ECS
                             .Where(Locomotion.Default)
                             .And(Skill1.Default));
                     break;
-                
+
                 case 2:
                     MotionSynthesizer
                         .Root
@@ -43,7 +42,7 @@ namespace Tech.ECS
                             .Where(Locomotion.Default)
                             .And(Skill2.Default));
                     break;
-                
+
                 case 3:
                     MotionSynthesizer
                         .Root
@@ -56,20 +55,20 @@ namespace Tech.ECS
             }
         }
     }
-    
-    
-    [BurstCompile(FloatPrecision.Low, FloatMode.Fast)]
+
+
+    [BurstCompile(FloatPrecision.Low, FloatMode.Fast, CompileSynchronously = false, Debug = false)]
     public sealed class AnimationSystem : ComponentSystem
     {
         protected override void OnStartRunning()
         {
             Entities
                 .WithAll<Kinematica>()
-                .ForEach((Entity entity, 
+                .ForEach((Entity entity,
                     Kinematica kinematica,
                     ref UnitRuntime unitRuntime) =>
                 {
-                    ref MotionSynthesizer motionSynthesizer = ref kinematica.Synthesizer.Ref;
+                    ref var motionSynthesizer = ref kinematica.Synthesizer.Ref;
 
                     motionSynthesizer
                         .Root
@@ -80,7 +79,7 @@ namespace Tech.ECS
                             .And(Idle.Default));
                 });
         }
-        
+
         protected override void OnUpdate()
         {
             Entities
@@ -92,7 +91,7 @@ namespace Tech.ECS
                     //Something happens
                     if (unitRuntime.enabled && unitRuntime.skillIndex > 0)
                     {
-                        KinematicaSoloJob job = new KinematicaSoloJob
+                        var job = new KinematicaSoloJob
                         {
                             motionSynthesizer = kinematica.Synthesizer,
                             skillIndex = unitRuntime.skillIndex
@@ -106,4 +105,3 @@ namespace Tech.ECS
         }
     }
 }
-

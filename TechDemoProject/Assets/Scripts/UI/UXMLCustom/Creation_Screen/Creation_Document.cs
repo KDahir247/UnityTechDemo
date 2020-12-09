@@ -2,6 +2,7 @@
 using MasterData;
 using Tech.Data;
 using Tech.DB;
+using Tech.UI.Linq;
 using UniRx;
 using UnityEngine;
 using UnityEngine.UIElements;
@@ -11,22 +12,24 @@ namespace Tech.UI.Panel
 {
     public class Creation_Document : Base_Document
     {
+        private readonly Button[] _skills = new Button[3];
+
+        private Button _assassinButton;
+
+        private Button _createButton;
+
         //Default
         private Unit _currentUnit;
-        
-        private readonly Button[] _skills = new Button[3];
-        
+        private MemoryDatabase _db;
+
+        private string _headScene = string.Empty;
+
         private RotationDirection _modelRotateDirection;
-        private Button _createButton;
-        
-        private Button _assassinButton;
         private Button _necromancerButton;
         private Button _oracleButton;
 
         private Button _rotationLeftButton;
         private Button _rotationRightButton;
-        
-        private string _headScene = string.Empty;
         private string _tailScene = string.Empty;
 
         protected override void Init(params string[] scenes)
@@ -39,7 +42,8 @@ namespace Tech.UI.Panel
 
         protected override void UIQuery()
         {
-            
+            _createButton = this.Q<Button>("Create_Button");
+
             _skills[0] = this.Q<Button>("Skill1_Button");
             _skills[1] = this.Q<Button>("Skill2_Button");
             _skills[2] = this.Q<Button>("Skill3_Button");
@@ -50,69 +54,94 @@ namespace Tech.UI.Panel
 
             _rotationLeftButton = this.Q<Button>("RotationArrowL_Button");
             _rotationRightButton = this.Q<Button>("RotationArrowR_Button");
-
-            _createButton = this.Q<Button>("Create_Button");
         }
 
         protected override void Start()
         {
-            _rotationRightButton.RegisterCallback(RotateModel<ClickEvent>(RotationDirection.Right));
-            _rotationLeftButton.RegisterCallback(RotateModel<ClickEvent>(RotationDirection.Left));
-            _rotationRightButton.RegisterCallback(RotateModel<PointerLeaveEvent>(RotationDirection.None));
-            _rotationLeftButton.RegisterCallback(RotateModel<PointerLeaveEvent>(RotationDirection.None));
+            _rotationRightButton
+                .RegisterCallback(RotateModel<ClickEvent>(RotationDirection.Right));
+            _rotationLeftButton
+                .RegisterCallback(RotateModel<ClickEvent>(RotationDirection.Left));
+            _rotationRightButton
+                .RegisterCallback(RotateModel<PointerLeaveEvent>(RotationDirection.None));
+            _rotationLeftButton
+                .RegisterCallback(RotateModel<PointerLeaveEvent>(RotationDirection.None));
 
-            // this.Q<Button>("Create_Button").RegisterCallback<ClickEvent>();
-            _assassinButton.RegisterCallback(ChangeSkillTexture<ClickEvent>(_assassinButton.viewDataKey));
-            _necromancerButton.RegisterCallback(ChangeSkillTexture<ClickEvent>(_necromancerButton.viewDataKey));
-            _oracleButton.RegisterCallback(ChangeSkillTexture<ClickEvent>(_oracleButton.viewDataKey));
+            _assassinButton.RegisterCallback(OnPressCharacter<ClickEvent>(_assassinButton.viewDataKey));
+            _necromancerButton.RegisterCallback(OnPressCharacter<ClickEvent>(_necromancerButton.viewDataKey));
+            _oracleButton.RegisterCallback(OnPressCharacter<ClickEvent>(_oracleButton.viewDataKey));
 
 
-
-            //TODO got to fix 
-            for (int i = 0; i < _skills.Length; i++)
-            {
-                //pass as 
-                var index = i;
-                _skills[i].RegisterCallback<ClickEvent>(e =>
-                {
-                    if(_currentUnit == null) return;
-                    
-                    MessageBroker
-                        .Default
-                        .Publish((_currentUnit, _currentUnit.Skills[index]));
-                });
-            }
+            for (byte i = 0; i < _skills.Length; i++) _skills[i].RegisterCallback(ClickSkill<ClickEvent>(i));
         }
 
         protected override void OnDestroy()
         {
+            _rotationRightButton
+                .UnregisterCallback(RotateModel<ClickEvent>(RotationDirection.Right));
+            _rotationLeftButton
+                .UnregisterCallback(RotateModel<ClickEvent>(RotationDirection.Left));
+            _rotationRightButton
+                .UnregisterCallback(RotateModel<PointerLeaveEvent>(RotationDirection.None));
+            _rotationLeftButton
+                .UnregisterCallback(RotateModel<PointerLeaveEvent>(RotationDirection.None));
+
+
+            _assassinButton.UnregisterCallback(OnPressCharacter<ClickEvent>(_assassinButton.viewDataKey));
+            _necromancerButton.UnregisterCallback(OnPressCharacter<ClickEvent>(_necromancerButton.viewDataKey));
+            _oracleButton.UnregisterCallback(OnPressCharacter<ClickEvent>(_oracleButton.viewDataKey));
+
+            for (byte i = 0; i < _skills.Length; i++) _skills[i].UnregisterCallback(ClickSkill<ClickEvent>(i));
         }
 
         [NotNull]
-        private EventCallback<T> ChangeSkillTexture<T>(string unitName)
+        private EventCallback<T> ClickSkill<T>(int index)
             where T : PointerEventBase<T>, new()
         {
             return evt =>
             {
-                MemoryDatabase db = TechDB.LoadDataBase(FileDestination.UnitPath);
+                if (_currentUnit == null) return;
 
-                _currentUnit = db.UnitTable.FindByName(unitName);
-                
                 MessageBroker
                     .Default
-                    .Publish<(Unit, Skill)>((_currentUnit, null));
-                
-                for (var i = 0; i < _currentUnit.Skills.Length; i++)
-                {
-                    var tex = new Texture2D(256, 256, TextureFormat.DXT1, false);
-                    tex.LoadRawTextureData(_currentUnit.Skills[i].ImageBytes);
-                    tex.Apply();
-                
-                    var styleBackgroundImage = _skills[i].style.backgroundImage;
-                    styleBackgroundImage.value = Background.FromTexture2D(tex);
-                    _skills[i].style.backgroundImage = styleBackgroundImage;
-                }
+                    .Publish((_currentUnit, _currentUnit.Skills[index]));
             };
+        }
+
+        [NotNull]
+        private EventCallback<T> OnPressCharacter<T>(string unitName)
+            where T : PointerEventBase<T>, new()
+        {
+            return evt =>
+            {
+                if (_createButton.style.opacity.value <= 0)
+                    _createButton
+                        .FadeInOrOut(FadeOutStyle, FadeInStyle, FadeInDuration);
+
+                ChangeSkills<T>(unitName);
+            };
+        }
+
+        private void ChangeSkills<T>(string unitName) where T : PointerEventBase<T>, new()
+        {
+            _db = TechDB.LoadDataBase(FileDestination.UnitPath);
+
+            _currentUnit = _db.UnitTable.FindByName(unitName);
+
+            MessageBroker
+                .Default
+                .Publish<(Unit, Skill)>((_currentUnit, null));
+
+            for (byte i = 0; i < _currentUnit.Skills.Length; i++)
+            {
+                var tex = new Texture2D(256, 256, TextureFormat.DXT1, false);
+                tex.LoadRawTextureData(_currentUnit.Skills[i].ImageBytes);
+                tex.Apply();
+
+                var styleBackgroundImage = _skills[i].style.backgroundImage;
+                styleBackgroundImage.value = Background.FromTexture2D(tex);
+                _skills[i].style.backgroundImage = styleBackgroundImage;
+            }
         }
 
         [NotNull]
@@ -125,15 +154,6 @@ namespace Tech.UI.Panel
 
         public new class UxmlFactory : UxmlFactory<Creation_Document, UxmlTraits>
         {
-            public override VisualElement Create(IUxmlAttributes bag, CreationContext cc)
-            {
-                return base.Create(bag, cc);
-            }
-
-            public override bool AcceptsAttributeBag(IUxmlAttributes bag, CreationContext cc)
-            {
-                return base.AcceptsAttributeBag(bag, cc);
-            }
         }
 
         public new class UxmlTraits : VisualElement.UxmlTraits
@@ -144,8 +164,6 @@ namespace Tech.UI.Panel
             private readonly UxmlStringAttributeDescription _tailScene = new UxmlStringAttributeDescription
                 {name = "next-scene", defaultValue = "Assets/Scenes/Game.unity"};
 
-            //set the _headScene 
-            //and set the _tailScene
             public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
             {
                 base.Init(ve, bag, cc);

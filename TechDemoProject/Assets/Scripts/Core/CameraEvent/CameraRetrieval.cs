@@ -16,6 +16,7 @@ using Object = UnityEngine.Object;
 //Retrieving the camera from addressable also works, but requires instantiating the asset while CameraRetrieval retrieve the camera 
 //and doesn't instantiate it. Unless it is required.
 #if CameraEvent
+//TODO dont need remove this and change mouse FX script that depends on this
 namespace Tech.Core
 {
     public static class CameraRetrieval

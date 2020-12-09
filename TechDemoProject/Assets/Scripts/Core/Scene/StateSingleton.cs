@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using Cysharp.Threading.Tasks;
 using DG.Tweening;
 using Pixelplacement;
 using UnityEngine;
@@ -7,42 +6,41 @@ using UnityEngine.Serialization;
 
 namespace Tech.Core
 {
-    //TODO look at
     public class StateSingleton : Singleton<StateSingleton>
     {
         private readonly List<SceneState> _states = new List<SceneState>(3);
 
-        [FormerlySerializedAs("State")] public IReadOnlyList<SceneState> state;
+        private StateMachine _machine;
 
-        public StateMachine Machine { get; private set; }
-        public int Index { get; private set; }
+        [FormerlySerializedAs("State")] public IReadOnlyList<SceneState> state;
+        public int CurrentIndex { get; private set; }
 
         protected override void OnRegistration()
         {
-            Machine = gameObject.GetComponent<StateMachine>();
+            _machine = gameObject.GetComponent<StateMachine>();
 
             foreach (Transform child in transform) _states.Add(child.GetComponent<SceneState>());
             state = new List<SceneState>(_states);
         }
 
-
-        //Wrapper Method for StateMachine class
-        public void Next()
+        internal void Next()
         {
-            _states[Index].gameObject.GetComponent<AudioSource>().DOFade(0, _states[Index].fadeOutTime)
-                .SetEase(_states[Index].fadeOutEase)
+            _states[CurrentIndex].gameObject.GetComponent<AudioSource>().DOFade(0, _states[CurrentIndex].FadeOutTime)
+                .SetEase(_states[CurrentIndex].FadeOutEase)
                 .onComplete += () =>
             {
-                if (Index == _states.Count)
+                if (CurrentIndex == _states.Count)
                 {
-                    Index = 0;
-                    SceneAddress.SceneLoadByNameOrLabel(_states[Index].onNextScene).Forget();
-                    Machine.ChangeState(Index);
+                    CurrentIndex = 0;
+                    SceneAddress.SceneLoadByNameOrLabel(_states[CurrentIndex].OnNextScene,
+                            onComplete: () => _machine.ChangeState(CurrentIndex))
+                        .Forget();
                 }
                 else
                 {
-                    SceneAddress.SceneLoadByNameOrLabel(_states[Index++].onNextScene).Forget();
-                    Machine.Next();
+                    SceneAddress.SceneLoadByNameOrLabel(_states[CurrentIndex++].OnNextScene,
+                            onComplete: () => _machine.Next())
+                        .Forget();
                 }
             };
         }

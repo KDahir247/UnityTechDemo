@@ -13,9 +13,10 @@ namespace Tech.Core
 #if UNITY_EDITOR
     public static class LogHelper
     {
-        public static bool ExcludeUnityLog = true;
+        private static readonly bool ExcludeUnityLog = true;
+
         private static readonly ILogger Logger = LogManager.GetLogger("UnityLog");
-        public static event VII<int, string, string> OnDelete;
+        public static event III<int, string, string> OnDelete; //all passed by in reference (readonly reference)
 
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterAssembliesLoaded)]
         private static void Initialize()
@@ -29,7 +30,7 @@ namespace Tech.Core
             {
                 if (OnDelete != null)
                     foreach (var @delegate in OnDelete.GetInvocationList())
-                        OnDelete -= @delegate as VII<int, string, string>;
+                        OnDelete -= @delegate as III<int, string, string>;
 
                 OnDelete = null;
 
@@ -54,6 +55,7 @@ namespace Tech.Core
         private static void ApplicationOnlogMessageReceived(string condition, string stacktrace, LogType type)
         {
             var valueStringBuilder = new Utf8ValueStringBuilder(true);
+
             valueStringBuilder.AppendFormat(@"[{0}] {1} {2}", type, condition, stacktrace);
             var builder = valueStringBuilder.ToString();
 
@@ -87,11 +89,12 @@ namespace Tech.Core
             foreach (var file in directory)
             {
                 var date = File.GetLastWriteTimeUtc(file);
-                if (Mathf.Abs(date.Subtract(DateTime.Now).Days) > 10.0)
-                {
-                    OnDelete?.Invoke(date.Day, $@"{Environment.CurrentDirectory}\Assets\Log\", file);
-                    File.Delete(file);
-                }
+
+                if (!(Mathf.Abs(date.Subtract(DateTime.Now).Days) > 10.0)) continue;
+
+                OnDelete?.Invoke(date.Day, $@"{Environment.CurrentDirectory}\Assets\Log\", file);
+
+                File.Delete(file);
             }
         }
     }

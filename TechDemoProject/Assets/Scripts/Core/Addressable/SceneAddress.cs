@@ -1,60 +1,23 @@
 ﻿using System;
 using System.Threading;
-using Cysharp.Text;
 using Cysharp.Threading.Tasks;
 using JetBrains.Annotations;
 using Microsoft.Extensions.Logging;
 using UnityEngine.AddressableAssets;
-using UnityEngine.ResourceManagement.AsyncOperations;
-using UnityEngine.ResourceManagement.ResourceLocations;
-using UnityEngine.ResourceManagement.ResourceProviders;
-using UnityEngine.SceneManagement;
 using ZLogger;
 
-
 //Script Happens Separately from ECS System 
-
 namespace Tech.Core
 {
-    public static class SceneAddress
+    internal static class SceneAddress
     {
         private static readonly ILogger Logger = LogManager.GetLogger("SceneLogger");
 
-        private static bool _readyToLoad = true;
-
-        private static SceneInstance _sceneInstance;
-
-        public static void SceneLoad(
-            string address,
-            LoadSceneMode sceneMode = LoadSceneMode.Single,
-            bool loadOnComplete = true)
-        {
-            if (address == string.Empty)
-            {
-                Logger.ZLogError("Address Empty Exception: Address passed in is equal to string.empty (\"\")");
-                return;
-            }
-
-            try
-            {
-                if (_readyToLoad)
-                    Addressables.LoadSceneAsync(address, sceneMode, loadOnComplete).Completed += OnSceneLoaded;
-                else
-                    Addressables.UnloadSceneAsync(_sceneInstance).Completed += OnSceneUnload;
-            }
-            catch (Exception e)
-            {
-                Logger.ZLogError(e.Message);
-            }
-        }
-
-        public static async UniTask SceneLoadByNameOrLabel(string nameOrLabel,
-            [CanBeNull] IProgress<float> progressLoadAddress = null,
-            [CanBeNull] IProgress<float> progressLoadScene = null,
-            [CanBeNull] IProgress<float> progressUnloadScene = null,
-            CancellationToken cancellationTokenLoadAddress = default,
-            CancellationToken cancellationTokenLoadScene = default,
-            CancellationToken cancellationTokenUnloadScene = default)
+        public static async UniTaskVoid SceneLoadByNameOrLabel(string nameOrLabel,
+            [CanBeNull] IProgress<float> progressSceneAddress = null,
+            CancellationToken cancellationTokenSceneAddress = default,
+            [CanBeNull] Action onComplete = null
+        )
         {
             if (nameOrLabel == string.Empty)
             {
@@ -63,38 +26,29 @@ namespace Tech.Core
                 return;
             }
 
+            cancellationTokenSceneAddress.Register(OperationCanceled);
+
             try
             {
-                if (_readyToLoad)
+                var resourceLocations =
+                    await Addressables.LoadResourceLocationsAsync(nameOrLabel)
+                        .ToUniTask(progressSceneAddress,
+                            cancellationToken: cancellationTokenSceneAddress);
+
+                progressSceneAddress?.Report(1.0f);
+
+                if (resourceLocations.Count <= 0)
                 {
-                    var resourceLocations =
-                        await Addressables.LoadResourceLocationsAsync(nameOrLabel).ToUniTask(progressLoadAddress,
-                            cancellationToken: cancellationTokenLoadAddress);
-
-                    progressLoadAddress?.Report(1.0f);
-
-                    if (resourceLocations.Count <= 0)
-                    {
-                        Logger.ZLogError("Couldn't find Addressable Scene with the parameter passed through");
-                        return;
-                    }
-
-                    _sceneInstance = await Addressables.LoadSceneAsync(resourceLocations[0])
-                        .ToUniTask(progressLoadScene, PlayerLoopTiming.Update, cancellationTokenLoadScene);
-                    _readyToLoad = false;
-
-                    progressLoadScene?.Report(1.0f);
+                    Logger.ZLogError("Couldn't find Addressable Scene with the parameter passed through");
+                    return;
                 }
-                else
-                {
-                    await Addressables.UnloadSceneAsync(_sceneInstance).ToUniTask(progressUnloadScene,
-                        PlayerLoopTiming.Update, cancellationTokenUnloadScene);
 
-                    progressUnloadScene?.Report(1.0f);
+                await Addressables.LoadSceneAsync(resourceLocations[0])
+                    .ToUniTask(progressSceneAddress, PlayerLoopTiming.Update, cancellationTokenSceneAddress);
 
-                    _readyToLoad = true;
-                    _sceneInstance = new SceneInstance();
-                }
+                onComplete?.Invoke();
+
+                progressSceneAddress?.Report(1.0f);
             }
             catch (Exception e)
             {
@@ -102,56 +56,10 @@ namespace Tech.Core
             }
         }
 
-        public static void SceneLoad([CanBeNull] IResourceLocation resourceLocation,
-            LoadSceneMode sceneMode = LoadSceneMode.Single,
-            bool loadOnComplete = true)
-        {
-            if (resourceLocation == null)
-                Logger.ZLogError("Empty Resource Location : Resource Location passed through is null. ");
-            try
-            {
-                if (_readyToLoad)
-                    Addressables.LoadSceneAsync(resourceLocation, sceneMode, loadOnComplete).Completed +=
-                        OnSceneLoaded;
-                else
-                    Addressables.UnloadSceneAsync(_sceneInstance).Completed += OnSceneUnload;
-            }
-            catch (Exception e)
-            {
-                Logger.ZLogError(e.Message);
-            }
-        }
 
-        private static void OnSceneUnload(AsyncOperationHandle<SceneInstance> obj)
+        private static void OperationCanceled()
         {
-            if (obj.Status == AsyncOperationStatus.Succeeded)
-            {
-                _readyToLoad = true;
-                _sceneInstance = new SceneInstance();
-            }
-            else
-            {
-                var stringBuilder = new Utf8ValueStringBuilder();
-                stringBuilder.Append("Failed to load scene address");
-                Logger.ZLogError(stringBuilder.ToString());
-                stringBuilder.Dispose();
-            }
-        }
-
-        private static void OnSceneLoaded(AsyncOperationHandle<SceneInstance> obj)
-        {
-            if (obj.Status == AsyncOperationStatus.Succeeded)
-            {
-                _readyToLoad = false;
-                _sceneInstance = obj.Result;
-            }
-            else
-            {
-                var stringBuilder = new Utf8ValueStringBuilder();
-                stringBuilder.Append("Failed to load scene address");
-                Logger.ZLogError(stringBuilder.ToString());
-                stringBuilder.Dispose();
-            }
+            Logger.ZLogError("Loading Scene have been canceled mid way of loading");
         }
     }
 }

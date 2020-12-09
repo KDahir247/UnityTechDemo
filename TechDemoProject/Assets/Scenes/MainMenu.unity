@@ -194,7 +194,6 @@ MonoBehaviour:
   fadeInTime: 1
   fadeOutEase: 0
   fadeOutTime: 2
-  key: 
   onNextScene: Assets/Scenes/Creation.unity
 --- !u!4 &537150170
 Transform:
@@ -369,13 +368,15 @@ MonoBehaviour:
   data:
     name: 
     description: 
-    image: 00
+    image: {fileID: 0}
     weaponData:
+      id: 
       name: 
       description: 
       image: {fileID: 0}
     equipmentDatas: []
     abilityData:
+      id: 
       name: 
       innocentCost: 0
       description: 
@@ -783,7 +784,6 @@ MonoBehaviour:
   fadeInTime: 1
   fadeOutEase: 0
   fadeOutTime: 2
-  key: 
   onNextScene: Assets/Scenes/Game.unity
 --- !u!82 &1408379775
 AudioSource:
@@ -1170,12 +1170,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70d4cede38bb32e46b1721ce3349a344, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clip: {fileID: 0}
+  clip: {fileID: 8300000, guid: 3bad076763cfc03449608640ff8c0f51, type: 3}
   fadeInEase: 0
   fadeInTime: 1
   fadeOutEase: 0
   fadeOutTime: 2
-  key: 
   onNextScene: Assets/Scenes/MainMenu.unity
 --- !u!82 &1905359319
 AudioSource:

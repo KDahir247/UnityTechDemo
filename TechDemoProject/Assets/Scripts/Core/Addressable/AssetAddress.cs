@@ -14,11 +14,14 @@ using Object = UnityEngine.Object;
 
 //Script Happens Separately from ECS System 
 
+//TODO look at later to see if any classes calling the method should await
 namespace Tech.Core
 {
-    public static class AssetAddress
+    internal static class AssetAddress
     {
         private static readonly ILogger Logger = LogManager.GetLogger("AssetLogger");
+
+        private static readonly List<UniTask<GameObject>> TaskList = new List<UniTask<GameObject>>();
 
         private static readonly CompositeDisposable Disposable = new CompositeDisposable();
 
@@ -31,7 +34,7 @@ namespace Tech.Core
             };
         }
 
-        public static async UniTask CreateAssetList<T>([NotNull] AssetReference assetReference,
+        public static async UniTaskVoid CreateAssetList<T>([NotNull] AssetReference assetReference,
             IList<T> objects,
             InstantiationParameters instantiationParameters,
             [CanBeNull] IProgress<float> progress = null,
@@ -40,11 +43,7 @@ namespace Tech.Core
         {
             if (assetReference.editorAsset != null || assetReference.Asset != null)
             {
-                if (cancellationToken.IsCancellationRequested)
-                {
-                    Logger.ZLogError("Cancellation Exception: The AssetAddress Retrieval Operation was canceled.");
-                    return;
-                }
+                cancellationToken.Register(OperationCanceled);
 
                 objects.Add(await assetReference.InstantiateAsync(instantiationParameters.Position,
                         instantiationParameters.Rotation, instantiationParameters.Parent)
@@ -58,35 +57,33 @@ namespace Tech.Core
             }
         }
 
-        public static async UniTaskVoid CreateAssetList<T>(IEnumerable<AssetReference> assetReferences,
+        public static async UniTaskVoid CreateAssetList<T>([NotNull] IEnumerable<AssetReference> assetReferences,
             IList<T> objects,
             InstantiationParameters instantiationParameters,
             [CanBeNull] IProgress<float> progress = null,
             CancellationToken cancellationToken = default)
             where T : Object
         {
-            if (cancellationToken.IsCancellationRequested)
-            {
-                Logger.ZLogError("Cancellation Exception: The AssetAddress Retrieval Operation was canceled.");
-                return;
-            }
+            TaskList.Clear();
+
+            cancellationToken.Register(OperationCanceled);
 
             foreach (var assetReference in assetReferences)
                 if (assetReference.Asset != null || assetReference.editorAsset != null)
-                {
-                    objects.Add(await assetReference
-                        .InstantiateAsync(instantiationParameters.Position, instantiationParameters.Rotation,
+                    TaskList.Add(assetReference
+                        .InstantiateAsync(instantiationParameters.Position,
+                            instantiationParameters.Rotation,
                             instantiationParameters.Parent)
-                        .ToUniTask(progress, PlayerLoopTiming.Update, cancellationToken) as T);
-
-                    progress?.Report(1.0f);
-                }
-
+                        .ToUniTask(progress, PlayerLoopTiming.Update, cancellationToken));
                 else
-                {
                     Logger.ZLogInformation(
                         "Current index AssetReference is empty (null) \n Can't load nothing from the AssetAddress.");
-                }
+
+            var gameObjects = await UniTask.WhenAll(TaskList);
+
+            foreach (var gameObject in gameObjects) objects.Add(gameObject as T);
+
+            progress?.Report(1.0f);
         }
 
         public static async UniTaskVoid GetAllLocation(string label,
@@ -94,15 +91,15 @@ namespace Tech.Core
             [CanBeNull] IProgress<float> progress = null,
             CancellationToken cancellationToken = default)
         {
-            if (cancellationToken.IsCancellationRequested)
-                Logger.ZLogError("Cancellation Exception: The AssetAddress Retrieval Operation was canceled");
+            cancellationToken.Register(OperationCanceled);
 
             var unloadLocation = await Addressables.LoadResourceLocationsAsync(label)
                 .ToUniTask(progress, PlayerLoopTiming.Update, cancellationToken);
 
-            progress?.Report(1.0f);
 
             foreach (var location in unloadLocation) loadedLocation.Add(location);
+
+            progress?.Report(1.0f);
         }
 
         public static async UniTaskVoid LoadByLocation<T>([NotNull] IList<IResourceLocation> resourceLocations,
@@ -114,15 +111,21 @@ namespace Tech.Core
         {
             if (resourceLocations.Count <= 0) Logger.ZLogInformation("resourceLocation list is empty");
 
-            foreach (var location in resourceLocations)
-            {
-                objects.Add(await Addressables
-                    .InstantiateAsync(objects,
-                        instantiationParameters)
-                    .ToUniTask(progress, PlayerLoopTiming.Update, cancellationToken) as T);
+            TaskList.Clear();
 
-                progress?.Report(1.0f);
-            }
+            cancellationToken.Register(OperationCanceled);
+
+            foreach (var location in resourceLocations)
+                TaskList.Add(Addressables
+                    .InstantiateAsync(location,
+                        instantiationParameters)
+                    .ToUniTask(progress, PlayerLoopTiming.Update, cancellationToken));
+
+            var gameObjects = await UniTask.WhenAll(TaskList);
+
+            foreach (var gameObject in gameObjects) objects.Add(gameObject as T);
+
+            progress?.Report(1.0f);
         }
 
         public static async UniTaskVoid LoadByNameOrLabel<T>(string nameOrLabel,
@@ -132,21 +135,28 @@ namespace Tech.Core
             CancellationToken cancellationToken = default)
             where T : Object
         {
+            TaskList.Clear();
+
+            cancellationToken.Register(OperationCanceled);
+
             var resourceLocations = await Addressables.LoadResourceLocationsAsync(nameOrLabel)
                 .ToUniTask(progress, PlayerLoopTiming.Update, cancellationToken);
 
-            progress?.Report(1);
 
             foreach (var location in resourceLocations)
-            {
-                objects.Add(await Addressables
+                TaskList.Add(Addressables
                     .InstantiateAsync(location,
                         instantiationParameters)
-                    .ToUniTask(progress, PlayerLoopTiming.Update,
-                        cancellationToken) as T);
+                    .ToUniTask(progress,
+                        PlayerLoopTiming.Update,
+                        cancellationToken));
 
-                progress?.Report(1.0f);
-            }
+            var gameObjects = await UniTask.WhenAll(TaskList);
+
+
+            foreach (var gameObject in gameObjects) objects.Add(gameObject as T);
+
+            progress?.Report(1.0f);
         }
 
         public static void Release(IList<Object> objects, float timer = 0)
@@ -158,7 +168,8 @@ namespace Tech.Core
                 Observable.Timer(TimeSpan.FromSeconds(timer))
                     .Subscribe(_ =>
                     {
-                        foreach (var o in objects) Addressables.Release(o);
+                        foreach (var o in objects)
+                            Addressables.Release(o);
                     })
                     .AddTo(Disposable);
         }
@@ -171,6 +182,12 @@ namespace Tech.Core
                 Observable.Timer(TimeSpan.FromSeconds(timer))
                     .Subscribe(_ => Addressables.Release(obj))
                     .AddTo(Disposable);
+        }
+
+
+        private static void OperationCanceled()
+        {
+            Logger.ZLogError("Loading assets have been canceled mid way of loading");
         }
     }
 }

@@ -11,8 +11,7 @@ namespace Tech.Animation
         {
             return new IdleTag();
         }
-        
-        
+
         public Idle Build(PayloadBuilder builder)
         {
             return Idle.Default;

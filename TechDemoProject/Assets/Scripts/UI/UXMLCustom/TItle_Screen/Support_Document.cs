@@ -23,15 +23,6 @@ namespace Tech.UI.Panel
 
         public new class UxmlFactory : UxmlFactory<Support_Document, UxmlTraits>
         {
-            public override VisualElement Create(IUxmlAttributes bag, CreationContext cc)
-            {
-                return base.Create(bag, cc);
-            }
-
-            public override bool AcceptsAttributeBag(IUxmlAttributes bag, CreationContext cc)
-            {
-                return base.AcceptsAttributeBag(bag, cc);
-            }
         }
 
         public new sealed class UxmlTraits : VisualElement.UxmlTraits

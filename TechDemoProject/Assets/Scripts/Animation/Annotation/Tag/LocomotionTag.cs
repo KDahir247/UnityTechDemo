@@ -7,13 +7,11 @@ namespace Tech.Animation
     [Tag("Locomotion", "#27558c")]
     public struct LocomotionTag : Payload<Locomotion>
     {
-
         public static LocomotionTag CreateDefaultTag()
         {
             return new LocomotionTag();
         }
-        
-        
+
         public Locomotion Build(PayloadBuilder builder)
         {
             return Locomotion.Default;
