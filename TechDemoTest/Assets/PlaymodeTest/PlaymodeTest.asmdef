@@ -3,14 +3,22 @@
     "rootNamespace": "",
     "references": [
         "UnityEngine.TestRunner",
-        "UnityEditor.TestRunner"
+        "UnityEditor.TestRunner",
+        "MessagePack",
+        "Unity.PerformanceTesting",
+        "Unity.PerformanceTesting.Editor",
+        "Unity.PerformanceTesting.Tests.Editor",
+        "Unity.PerformanceTesting.Tests.Runtime"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": true,
     "overrideReferences": true,
     "precompiledReferences": [
-        "nunit.framework.dll"
+        "nunit.framework.dll",
+        "System.Buffers.dll",
+        "System.Memory.dll",
+        "Moq.dll"
     ],
     "autoReferenced": false,
     "defineConstraints": [

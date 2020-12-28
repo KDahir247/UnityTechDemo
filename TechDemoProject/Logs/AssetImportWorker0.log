@@ -1581,3 +1581,52 @@ Received Import Request.
 Start importing Assets/Scripts/Utility using Guid(42260ea30fa4db44ca619d99e1db63f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e07d00a3dde0f2d10a211224d50bc68') in 0.007969 seconds
   Import took 0.018575 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 211.592888 seconds.
+  path: Assets/Scripts/Core
+  artifactKey: Guid(25ffebdb48e7827408a49b30d54d3b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Core using Guid(25ffebdb48e7827408a49b30d54d3b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '039ae450859dea9883e1daf0262b1b29') in 0.008499 seconds
+  Import took 0.019647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.029815 seconds.
+  path: Assets/Scripts/Core/Addressable
+  artifactKey: Guid(f7a4db78c399f2e49aa8820c25677ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Core/Addressable using Guid(f7a4db78c399f2e49aa8820c25677ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af068692fc19c08603ddb0be38b7036') in 0.007339 seconds
+  Import took 0.018015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.393763 seconds.
+  path: Assets/Scripts/Core/BootStrap
+  artifactKey: Guid(67159483c1680a240a76ba43fad978b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Core/BootStrap using Guid(67159483c1680a240a76ba43fad978b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a31810532399348d9efd8dd8707d13f') in 0.007453 seconds
+  Import took 0.017941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.787569 seconds.
+  path: Assets/Scripts/Core/BootStrap/UnitaskBootstrap.cs
+  artifactKey: Guid(81c7f241434918f428296e11ef09a7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Core/BootStrap/UnitaskBootstrap.cs using Guid(81c7f241434918f428296e11ef09a7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcd4bdb27a4aafc760821b36fe4d098b') in 0.008003 seconds
+  Import took 0.018717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.924239 seconds.
+  path: Assets/Scripts/Core/Build
+  artifactKey: Guid(9b48c65a7aaa4ec40bf034332ec48c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Core/Build using Guid(9b48c65a7aaa4ec40bf034332ec48c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '952fa025ba3cf49990b9846afc485ec8') in 0.007212 seconds
+  Import took 0.017699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.744683 seconds.
+  path: Assets/Scripts/Core/Build/Initializer.cs
+  artifactKey: Guid(599164ef5551a684aa03a3b0a0f36c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Core/Build/Initializer.cs using Guid(599164ef5551a684aa03a3b0a0f36c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebc871df62bd5849d432c246932764bd') in 0.007452 seconds
+  Import took 0.018116 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

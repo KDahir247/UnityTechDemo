@@ -1,3 +1,27 @@
 {
-	"name": "ProjectLogic"
+    "name": "ProjectLogic",
+    "rootNamespace": "",
+    "references": [
+        "GUID:62b9d94cd08d5d047b266d42e8684cb8",
+        "GUID:ccdb2a3bafe19b34792bb6e19521813e",
+        "GUID:350d0af80fb7b7947a59de66ab477547",
+        "GUID:bbde805d927e795439d7a746d1749cab",
+        "GUID:3dd436b5b2e11f944a89f0ee472bf769",
+        "GUID:560b04d1a97f54a4e82edc0cbbb69285",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:593a5b492d29ac6448b1ebf7f035ef33",
+        "GUID:029c1c1b674aaae47a6841a0b89ad80e",
+        "GUID:5c01796d064528144a599661eaab93a6",
+        "GUID:19622d0c1901810479006eab0c2d3555",
+        "GUID:33661e06c33d31b4c9223810bf503247"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }
