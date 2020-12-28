@@ -338,3 +338,7 @@ C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoTest\obj\Debug\ProjectL
 C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoTest\obj\Debug\ProjectLogic.csproj.CopyComplete
 C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoTest\obj\Debug\ProjectLogic.dll
 C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoTest\obj\Debug\ProjectLogic.pdb
+C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoTest\Temp\Bin\Debug\Unity.Addressables.dll
+C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoTest\Temp\Bin\Debug\Unity.ResourceManager.dll
+C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoTest\Temp\Bin\Debug\Unity.ResourceManager.pdb
+C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoTest\Temp\Bin\Debug\Unity.Addressables.pdb

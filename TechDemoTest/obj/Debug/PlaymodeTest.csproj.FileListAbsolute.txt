@@ -291,3 +291,16 @@ C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoTest\obj\Debug\Playmode
 C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoTest\obj\Debug\PlaymodeTest.csproj.CopyComplete
 C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoTest\obj\Debug\PlaymodeTest.dll
 C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoTest\obj\Debug\PlaymodeTest.pdb
+C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoTest\Temp\Bin\Debug\Unity.PerformanceTesting.dll
+C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoTest\Temp\Bin\Debug\Unity.PerformanceTesting.Editor.dll
+C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoTest\Temp\Bin\Debug\Newtonsoft.Json.dll
+C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoTest\Temp\Bin\Debug\UniTask.pdb
+C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoTest\Temp\Bin\Debug\ProjectLogic.pdb
+C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoTest\Temp\Bin\Debug\Unity.PerformanceTesting.pdb
+C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoTest\Temp\Bin\Debug\Unity.PerformanceTesting.Editor.pdb
+C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoTest\Temp\Bin\Debug\Unity.ResourceManager.dll
+C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoTest\Temp\Bin\Debug\Unity.Addressables.dll
+C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoTest\Temp\Bin\Debug\UniTask.Addressables.dll
+C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoTest\Temp\Bin\Debug\Unity.ResourceManager.pdb
+C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoTest\Temp\Bin\Debug\Unity.Addressables.pdb
+C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoTest\Temp\Bin\Debug\UniTask.Addressables.pdb

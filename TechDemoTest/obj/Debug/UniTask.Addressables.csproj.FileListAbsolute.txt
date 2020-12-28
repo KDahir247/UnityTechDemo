@@ -325,3 +325,5 @@ C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoTest\obj\Debug\UniTask.
 C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoTest\obj\Debug\UniTask.Addressables.csproj.CopyComplete
 C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoTest\obj\Debug\UniTask.Addressables.dll
 C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoTest\obj\Debug\UniTask.Addressables.pdb
+C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoTest\Temp\Bin\Debug\Unity.ResourceManager.dll
+C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoTest\Temp\Bin\Debug\Unity.ResourceManager.pdb

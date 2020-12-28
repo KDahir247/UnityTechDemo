@@ -8,7 +8,10 @@
         <e p="PlaymodeTest" t="Include">
           <e p="PlaymodeTest.asmdef" t="Include" />
           <e p="UnitTest" t="Include">
+            <e p="AssetSystemTest.cs" t="Include" />
             <e p="ResolverSerializationTest.cs" t="Include" />
+            <e p="SceneSystemTest.cs" t="Include" />
+            <e p="UnitaskBootstrapTest.cs" t="Include" />
           </e>
         </e>
         <e p="Project" t="Include">
@@ -802,8 +805,15 @@
           <e p="ProjectLogic.asmdef" t="Include" />
           <e p="Scripts" t="Include">
             <e p="Core" t="Include">
+              <e p="Bootstrap" t="Include">
+                <e p="UnitaskBootstrap.cs" t="Include" />
+              </e>
               <e p="Build" t="Include">
                 <e p="ResolverInitialization.cs" t="Include" />
+              </e>
+              <e p="System" t="Include">
+                <e p="AssetSystem.cs" t="Include" />
+                <e p="SceneSystem.cs" t="Include" />
               </e>
             </e>
           </e>

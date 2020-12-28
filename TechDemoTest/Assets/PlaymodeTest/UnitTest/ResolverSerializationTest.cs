@@ -5,7 +5,7 @@ using NUnit.Framework;
 using Unity.PerformanceTesting;
 using UnityEngine;
 
-namespace DefaultNamespace
+namespace Tech.Test
 {
     //Serialization Support
     /*
@@ -26,6 +26,7 @@ namespace DefaultNamespace
         [Test, Performance]
         public void ResolverInitializationTestSimplePasses()
         {
+
             using (Measure.Scope())
             {
                 
@@ -44,7 +45,6 @@ namespace DefaultNamespace
             
                 // Use the Assert class to test conditions.
             }
-
         }
 
         //1.28 ms
