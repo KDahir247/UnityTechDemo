@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CoverageReport scope="Summary">
   <Summary>
-    <Generatedon>2020-12-28 - 3:09:45 AM</Generatedon>
+    <Generatedon>2020-12-28 - 4:47:55 PM</Generatedon>
     <Parser>MultiReportParser (2x OpenCoverParser)</Parser>
     <Assemblies>1</Assemblies>
-    <Classes>33</Classes>
+    <Classes>34</Classes>
     <Files>23</Files>
-    <Coveredlines>39</Coveredlines>
-    <Uncoveredlines>1174</Uncoveredlines>
-    <Coverablelines>1213</Coverablelines>
-    <Totallines>2102</Totallines>
-    <Linecoverage>3.2</Linecoverage>
+    <Coveredlines>49</Coveredlines>
+    <Uncoveredlines>1173</Uncoveredlines>
+    <Coverablelines>1222</Coverablelines>
+    <Totallines>2093</Totallines>
+    <Linecoverage>4</Linecoverage>
     <Coveredbranches>0</Coveredbranches>
     <Totalbranches>0</Totalbranches>
   </Summary>
   <Coverage>
-    <Assembly name="ProjectLogic" classes="33" coverage="3.2" coveredlines="39" coverablelines="1213" totallines="3073" branchcoverage="" coveredbranches="0" totalbranches="0">
-      <Class name="AssetSystem[T]" coverage="96.7" coveredlines="30" coverablelines="31" totallines="72" branchcoverage="" coveredbranches="0" totalbranches="0" />
-      <Class name="EntityInfo" coverage="100" coveredlines="5" coverablelines="5" totallines="72" branchcoverage="" coveredbranches="0" totalbranches="0" />
+    <Assembly name="ProjectLogic" classes="34" coverage="4" coveredlines="49" coverablelines="1222" totallines="3118" branchcoverage="" coveredbranches="0" totalbranches="0">
+      <Class name="AssetInfo" coverage="100" coveredlines="4" coverablelines="4" totallines="63" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="AssetSystem[T]" coverage="100" coveredlines="36" coverablelines="36" totallines="63" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="EntityInfo" coverage="100" coveredlines="5" coverablelines="5" totallines="63" branchcoverage="" coveredbranches="0" totalbranches="0" />
       <Class name="MasterMemory.ByteBufferWriter" coverage="0" coveredlines="0" coverablelines="32" totallines="56" branchcoverage="" coveredbranches="0" totalbranches="0" />
       <Class name="MasterMemory.DatabaseBuilderBase" coverage="0" coveredlines="0" coverablelines="67" totallines="113" branchcoverage="" coveredbranches="0" totalbranches="0" />
       <Class name="MasterMemory.ImmutableBuilderBase" coverage="0" coveredlines="0" coverablelines="57" totallines="79" branchcoverage="" coveredbranches="0" totalbranches="0" />
