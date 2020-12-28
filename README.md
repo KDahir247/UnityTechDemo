@@ -3,7 +3,7 @@
 Self teaching on some of unity's packages and some other plugin. (Ongoing) 
 <br/>
 <br/>
-Project will now follow the Agile Mthodology (UI might bypass some test.)
+Project will now follow the Agile Methodology (UI might bypass some test.)
 <br/>
 ![alt text](https://lh4.googleusercontent.com/nW_yFs4Hu2IfSEEokyas2_gFESgctL2nWzQEJ2Vc8dr39HsbmppAmAqHlHK2F_mtsEsn4HQEVP8EH9A0mqFDQjU2KiVPldOAIH0u343jbBwm78MLPJw1tCk3DMyy606Y8bqUDq4)
 <br/>
