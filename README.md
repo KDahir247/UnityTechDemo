@@ -3,7 +3,10 @@
 Self teaching on some of unity's packages and some other plugin. (Ongoing) 
 <br/>
 <br/>
-Would use Project Tiny but it is currently under heavy development and the package is extremely volatile https://docs.unity3d.com/Packages/com.unity.tiny.all@0.31/manual/index.html
+Project will now follow the Agile Mthodology (UI might bypass some test.)
+<br/>
+![alt text](https://lh4.googleusercontent.com/nW_yFs4Hu2IfSEEokyas2_gFESgctL2nWzQEJ2Vc8dr39HsbmppAmAqHlHK2F_mtsEsn4HQEVP8EH9A0mqFDQjU2KiVPldOAIH0u343jbBwm78MLPJw1tCk3DMyy606Y8bqUDq4)
+<br/>
 <br/>
 Current Kinematica Package Caveats:
 <br/>
@@ -109,23 +112,5 @@ Game (Game scene will be the only Scene that will have ECS and DOTS Logic to dri
 TODO:
 <br/>
 Cleaning, refactoring, and optimizing code.
-<br/>
-Complete the creation scene
-<br/>
-Create in-memory database to store data (Complete)
-<br/>
-Error with the addressable layout. Can't build project due to it but it is still playable in the editor
-<br/>
-Decide on the animation system. Common Animator, Kinematica, animation ecs job (Complete using Kinematica)
-<br/>
-update the version in main menu so it reflect the Application version (Complete)
-<br/>
-restructure custom packages to suit my project (ITween, ITweenExtension, Surge)
-<br/>
-replace all animator in scene with kinematica animator.
-<br/>
-Hook up the Progress Script so it show a loading bar with the percentange and a description of asset loading when Report is called on IProgress<float>
-<br/>
-Add required Preprocessor macro in required script to determine platform. If on mobile enable touch support and otherwise enable mouse.
-<br/>
- Add Safety check system to see if there an exception to rollback the scene to MainMenu
+<br/> 
+Write Testing for features thus far and write test for future code structure
