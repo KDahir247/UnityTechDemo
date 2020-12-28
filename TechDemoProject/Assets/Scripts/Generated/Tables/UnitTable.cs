@@ -86,6 +86,7 @@ namespace MasterData.Tables
                     new MasterMemory.Meta.MetaProperty(typeof(Unit).GetProperty("Id")),
                     new MasterMemory.Meta.MetaProperty(typeof(Unit).GetProperty("Name")),
                     new MasterMemory.Meta.MetaProperty(typeof(Unit).GetProperty("Index")),
+                    new MasterMemory.Meta.MetaProperty(typeof(Unit).GetProperty("Address")),
                     new MasterMemory.Meta.MetaProperty(typeof(Unit).GetProperty("Description")),
                     new MasterMemory.Meta.MetaProperty(typeof(Unit).GetProperty("ImageBytes")),
                     new MasterMemory.Meta.MetaProperty(typeof(Unit).GetProperty("CharacterInfo")),

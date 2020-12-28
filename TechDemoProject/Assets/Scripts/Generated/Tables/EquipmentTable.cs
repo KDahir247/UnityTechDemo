@@ -85,6 +85,7 @@ namespace MasterData.Tables
                 {
                     new MasterMemory.Meta.MetaProperty(typeof(Equipment).GetProperty("Id")),
                     new MasterMemory.Meta.MetaProperty(typeof(Equipment).GetProperty("Name")),
+                    new MasterMemory.Meta.MetaProperty(typeof(Equipment).GetProperty("Address")),
                     new MasterMemory.Meta.MetaProperty(typeof(Equipment).GetProperty("Description")),
                     new MasterMemory.Meta.MetaProperty(typeof(Equipment).GetProperty("ImageBytes")),
                     new MasterMemory.Meta.MetaProperty(typeof(Equipment).GetProperty("EquipmentInfo")),

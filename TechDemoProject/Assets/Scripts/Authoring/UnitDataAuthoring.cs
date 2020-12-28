@@ -64,8 +64,7 @@ namespace Tech.ECS
                     {
                         Id = _dynamicDb.RegisterUlid(unitData.id),
                         Name = unitData.name,
-
-
+                        Address = unitData.name,
                         Skills = new[]
                         {
                             new Skill

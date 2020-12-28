@@ -1,4 +1,5 @@
 ﻿using JetBrains.Annotations;
+using Tech.DB;
 using Tech.UI.Linq;
 using UnityEngine.UIElements;
 
@@ -6,6 +7,8 @@ namespace Tech.UI.Panel
 {
     public class CoreCreation_Document : Base_Document
     {
+        public Unit CurrentUnit { get; set; }
+        
         private Button _createButton;
         private VisualElement _creationElement;
         private VisualElement _dialogueElement;
@@ -25,12 +28,12 @@ namespace Tech.UI.Panel
 
         protected override void Start()
         {
-            _createButton.RegisterCallback(OnCreateUser<ClickEvent>(_creationElement, _dialogueElement));
+            _createButton?.RegisterCallback(OnCreateUser<ClickEvent>(_creationElement, _dialogueElement));
         }
 
         protected override void OnDestroy()
         {
-            _createButton.UnregisterCallback(OnCreateUser<ClickEvent>(_creationElement, _dialogueElement));
+            _createButton?.UnregisterCallback(OnCreateUser<ClickEvent>(_creationElement, _dialogueElement));
         }
 
         [NotNull]
@@ -48,7 +51,7 @@ namespace Tech.UI.Panel
         {
         }
 
-        public new class UxmlTraits : VisualElement.UxmlTraits
+        public new sealed class UxmlTraits : VisualElement.UxmlTraits
         {
             public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
             {

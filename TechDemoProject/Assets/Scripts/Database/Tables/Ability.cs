@@ -15,7 +15,7 @@ namespace Tech.DB
         [PrimaryKey] public string Name { get; set; }
 
         public int InnocenceCost { get; set; } //unit's ultimate ability gauge cost. 
-
+        public string Address { get; set; }
         public string Description { get; set; }
 
         public string AbilityDescription { get; set; }

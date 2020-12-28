@@ -22,10 +22,26 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - Camera
-    m_MainAsset: {fileID: 2771304373096215011, guid: 3e71f16bfdda38f4ba442461db2f9780,
-      type: 3}
-    m_TargetAsset: {fileID: 2771304373096215011, guid: 3e71f16bfdda38f4ba442461db2f9780,
-      type: 3}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 4a13bcee90319d44b9dd058bc6c65666
+    m_Address: Necromancer
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: d916422effddde4468731b79256141b6
+    m_Address: Assassin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: f73813d869009f04892622f008eda274
+    m_Address: Oracle
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: a2cc6ec24cb6f134d8a2845b265779b5, type: 2}
   m_SchemaSet:

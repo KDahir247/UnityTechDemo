@@ -28,6 +28,14 @@ namespace Tech.DB
         
         public Unit[] PossessedUnit { get; set; }
         
+        public Equipment[] PossessedEquipments { get; set; }
+        
+        public TechMaterial[] PossessedMaterials { get; set; }
+        
+        public Item[] PossessedItems { get; set; }
+        
+        public Weapon[] PossessedWeapons { get; set; }
+        
         public void OnBeforeSerialize()
         {
             //Called Before Serialization

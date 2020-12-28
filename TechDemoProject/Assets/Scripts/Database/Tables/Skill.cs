@@ -13,7 +13,7 @@ namespace Tech.DB
         public byte[] Id { get; set; }
 
         [PrimaryKey] public string Name { get; set; }
-
+        public string Address { get; set; }
         [NonUnique] public string Description { get; set; }
 
         [NonUnique] public string SkillDescription { get; set; }

@@ -21,6 +21,7 @@ namespace Tech.UI.Panel
         //Default
         private Unit _currentUnit;
         private MemoryDatabase _db;
+        private readonly TechStaticDBBuilder _dbBuilder = new TechStaticDBBuilder();
 
         private string _headScene = string.Empty;
 
@@ -70,7 +71,9 @@ namespace Tech.UI.Panel
             _assassinButton.RegisterCallback(OnPressCharacter<ClickEvent>(_assassinButton.viewDataKey));
             _necromancerButton.RegisterCallback(OnPressCharacter<ClickEvent>(_necromancerButton.viewDataKey));
             _oracleButton.RegisterCallback(OnPressCharacter<ClickEvent>(_oracleButton.viewDataKey));
-
+            
+            
+            _createButton.RegisterCallback(SaveUnitToUser<ClickEvent>());
 
             for (byte i = 0; i < _skills.Length; i++) _skills[i].RegisterCallback(ClickSkill<ClickEvent>(i));
         }
@@ -92,8 +95,36 @@ namespace Tech.UI.Panel
             _oracleButton.UnregisterCallback(OnPressCharacter<ClickEvent>(_oracleButton.viewDataKey));
 
             for (byte i = 0; i < _skills.Length; i++) _skills[i].UnregisterCallback(ClickSkill<ClickEvent>(i));
+            
+            _createButton.UnregisterCallback(SaveUnitToUser<ClickEvent>());
         }
 
+
+        [NotNull]
+        private EventCallback<T> SaveUnitToUser<T>()
+            where T : PointerEventBase<T>, new()
+        {
+            return evt =>
+            {
+                if(_currentUnit == null) return;
+                
+                _dbBuilder.Build(builder =>
+                {
+                    builder.Append(new[]
+                    {
+                        new User
+                        {
+                            PossessedUnit = new []
+                            {
+                                _currentUnit
+                            }
+                        }, 
+                    });
+                    return builder;
+                }, FileDestination.UserPath);
+            };
+        }
+        
         [NotNull]
         private EventCallback<T> ClickSkill<T>(int index)
             where T : PointerEventBase<T>, new()
@@ -156,7 +187,7 @@ namespace Tech.UI.Panel
         {
         }
 
-        public new class UxmlTraits : VisualElement.UxmlTraits
+        public new sealed class UxmlTraits : VisualElement.UxmlTraits
         {
             private readonly UxmlStringAttributeDescription _headScene = new UxmlStringAttributeDescription
                 {name = "start-scene", defaultValue = "Assets/Scenes/Creation.unity"};

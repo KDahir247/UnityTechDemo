@@ -85,6 +85,7 @@ namespace MasterData.Tables
                 {
                     new MasterMemory.Meta.MetaProperty(typeof(Skill).GetProperty("Id")),
                     new MasterMemory.Meta.MetaProperty(typeof(Skill).GetProperty("Name")),
+                    new MasterMemory.Meta.MetaProperty(typeof(Skill).GetProperty("Address")),
                     new MasterMemory.Meta.MetaProperty(typeof(Skill).GetProperty("Description")),
                     new MasterMemory.Meta.MetaProperty(typeof(Skill).GetProperty("SkillDescription")),
                     new MasterMemory.Meta.MetaProperty(typeof(Skill).GetProperty("ImageBytes")),

@@ -1,8 +1,8 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <ui:Template name="Creation_Document" src="Creation_Document.uxml" />
     <ui:Template name="Dialogue_Document" src="Dialogue_Document.uxml" />
-    <Tech.UI.Panel.CoreCreation_Document style="flex-grow: 1;">
-        <ui:Instance template="Creation_Document" name="Creation_Document" style="flex-grow: 1;" />
+    <Tech.UI.Panel.CoreCreation_Document style="flex-grow: 1; background-image: url(&apos;/Assets/Images/grunge_texture_dark_border_by_flinkle_d1r5yjl-fullview.png&apos;); -unity-background-image-tint-color: rgba(84, 0, 0, 0.33);">
+        <ui:Instance template="Creation_Document" name="Creation_Document" style="flex-grow: 1; background-image: none; -unity-background-image-tint-color: rgb(43, 0, 2); background-color: rgba(0, 0, 0, 0);" />
         <ui:Instance template="Dialogue_Document" name="Dialogue_Document" style="flex-grow: 1; opacity: 1; display: none;" />
     </Tech.UI.Panel.CoreCreation_Document>
 </ui:UXML>

@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dd524e56-587f-43a5-a01d-6fa43805a044" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/.idea/.idea.TechDemoProject/.idea/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Font/cyttah.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Font/cyttah/cyttah.regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Font/cyttah/cyttah.regular.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Font/straighttohell.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Font/straighttohell/StraightToHellBB.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Font/straighttohell/StraightToHellBB.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Font/straighttohell/StraightToHellSinnerBB.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Font/straighttohell/StraightToHellSinnerBB.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Font/straighttohell/fontinfo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Font/straighttohell/fontinfo.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Images/Dark-Frame-PNG-Transparent-Image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Images/Dark-Frame-PNG-Transparent-Image.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Images/UI/Gem.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Images/UI/Gem.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Images/UI/Heart-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Images/UI/Heart-icon.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Images/UI/b3638f6bc25305ecc59aec055661d925.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Images/UI/b3638f6bc25305ecc59aec055661d925.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Images/grunge_texture_dark_border_by_flinkle_d1r5yjl-fullview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Images/grunge_texture_dark_border_by_flinkle_d1r5yjl-fullview.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Log/EditorLog132535224000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Log/EditorLog132535224000000000.log.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Prefab/AddressablePrefab/Misc.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Prefab/AddressablePrefab/Misc/Main Camera.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Prefab/AddressablePrefab/Misc/Main Camera.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Prefab/AddressablePrefab/Unit.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Prefab/AddressablePrefab/Unit/Assassin.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Prefab/AddressablePrefab/Unit/Assassin.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Prefab/AddressablePrefab/Unit/Necromancer.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Prefab/AddressablePrefab/Unit/Necromancer.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Prefab/AddressablePrefab/Unit/Oracle.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Prefab/AddressablePrefab/Unit/Oracle.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Prefab/AddressablePrefab/Vfx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Prefab/AddressablePrefab/Vfx/CFX3_Hit_Misc_B.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Prefab/AddressablePrefab/Vfx/CFX3_Hit_Misc_B.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Prefab/AddressablePrefab/Vfx/CFX3_Hit_Misc_D.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Prefab/AddressablePrefab/Vfx/CFX3_Hit_Misc_D.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Prefab/AddressablePrefab/Vfx/CFX_Poof.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Prefab/AddressablePrefab/Vfx/CFX_Poof.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/UI/GameBackground_Properties.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/UI/GameBackground_Properties.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Visual/Material/BackgroundGame_mat.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Visual/Material/BackgroundGame_mat.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Resources/user-data.bytes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Resources/user-data.bytes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/Data/RechargeType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/Data/RechargeType.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/UI/UXMLCustom/Game_Screen/CoreGame_Document.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/UI/UXMLCustom/Game_Screen/CoreGame_Document.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/UI/UXMLCustom/Game_Screen/SubScene.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/UI/UXMLCustom/Game_Screen/SubScene/Adventure_Document.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/UI/UXMLCustom/Game_Screen/SubScene/Adventure_Document.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/UI/UXMLCustom/Game_Screen/SubScene/Battle_Document.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/UI/UXMLCustom/Game_Screen/SubScene/Battle_Document.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/UI/UXMLCustom/Game_Screen/SubScene/Shop_Document.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/UI/UXMLCustom/Game_Screen/SubScene/Shop_Document.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/UI/UXMLCustom/Game_Screen/SubScene/Summon_Document.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/UI/UXMLCustom/Game_Screen/SubScene/Summon_Document.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/UI Toolkit.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/UI Toolkit/Default UITK Text Settings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/UI Toolkit/Default UITK Text Settings.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/UI Toolkit/Resources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/UI Toolkit/Resources/Fonts &amp; Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/UI Toolkit/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/UI Toolkit/Resources/Fonts &amp; Materials/LiberationSans SDF.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/UI Toolkit/Resources/Fonts &amp; Materials/LiberationSans.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/UI Toolkit/Resources/Fonts &amp; Materials/LiberationSans.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/UI Toolkit/Resources/Sprite Assets.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/UI Toolkit/Resources/Sprite Assets/EmojiOne.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/UI Toolkit/Resources/Sprite Assets/EmojiOne.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/UI Toolkit/Resources/Text Color Gradients.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/UI Toolkit/Resources/Text Color Gradients/Yellow to Orange - Vertical.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/UI Toolkit/Resources/Text Color Gradients/Yellow to Orange - Vertical.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/UI Toolkit/Resources/Text StyleSheets.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/UI Toolkit/Resources/Text StyleSheets/Text StyleSheet.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/UI Toolkit/Resources/Text StyleSheets/Text StyleSheet.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/test.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/test/test.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/test/test.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Project.dir/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Project.dir/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Project.dir/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Project.dir/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Project.dir/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Project.dir/.idea/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Project.dir/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Project.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/.idea/.idea.TechDemoProject/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/.idea/.idea.TechDemoProject/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/AssetStore/JMO Assets/Cartoon FX/Demo/Assets/CFXFree_Demo_Ground.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/AssetStore/JMO Assets/Cartoon FX/Demo/Assets/CFXFree_Demo_Ground.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/AssetStore/JMO Assets/Cartoon FX/Materials/Light/CFX3_GlowStar ADD.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/AssetStore/JMO Assets/Cartoon FX/Materials/Light/CFX3_GlowStar ADD.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Cached Data/AddressableAssetsData/AssetGroups/Default Local Group.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Cached Data/AddressableAssetsData/AssetGroups/Default Local Group.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Cached Data/StreamingAssets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Cached Data/StreamingAssets/KinematicaBinary_b4fffc6bac8865f4ea686611006f3147.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Cached Data/StreamingAssets/KinematicaBinary_b4fffc6bac8865f4ea686611006f3147.bin.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Cached Data/StreamingAssets/KinematicaBinary_b4fffc6bac8865f4ea686611006f3147.debug.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Cached Data/StreamingAssets/KinematicaBinary_b4fffc6bac8865f4ea686611006f3147.debug.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Cached Data/StreamingAssets/KinematicaBinary_ba3871522913c8744a6ab0c114cf005d.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Cached Data/StreamingAssets/KinematicaBinary_ba3871522913c8744a6ab0c114cf005d.bin.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Cached Data/StreamingAssets/KinematicaBinary_ba3871522913c8744a6ab0c114cf005d.debug.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Cached Data/StreamingAssets/KinematicaBinary_ba3871522913c8744a6ab0c114cf005d.debug.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Cached Data/StreamingAssets/KinematicaBinary_c3add06b09c1fbb4e9c56d5717fbb1db.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Cached Data/StreamingAssets/KinematicaBinary_c3add06b09c1fbb4e9c56d5717fbb1db.bin.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Cached Data/StreamingAssets/KinematicaBinary_c3add06b09c1fbb4e9c56d5717fbb1db.debug.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Cached Data/StreamingAssets/KinematicaBinary_c3add06b09c1fbb4e9c56d5717fbb1db.debug.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Images/MenuGif 1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Images/MenuGif 1.gif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Images/ReadMe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Images/ReadMe.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Log/EditorLog132492024000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Log/EditorLog132492024000000000.log.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Log/EditorLog132511032000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Log/EditorLog132511032000000000.log.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Log/EditorLog132511896000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Log/EditorLog132511896000000000.log.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Log/EditorLog132512760000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Log/EditorLog132512760000000000.log.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Log/EditorLog132513624000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Log/EditorLog132513624000000000.log.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Log/EditorLog132514488000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Log/EditorLog132514488000000000.log.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Log/EditorLog132515352000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Log/EditorLog132515352000000000.log.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Log/EditorLog132516216000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Log/EditorLog132516216000000000.log.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Log/EditorLog132517080000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Log/EditorLog132517080000000000.log.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Log/EditorLog132517944000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Log/EditorLog132517944000000000.log.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Log/EditorLog132518808000000000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Log/EditorLog132518808000000000.log.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Animation/Kinematica/AssassinMotion.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Animation/Kinematica/AssassinMotion.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Animation/Kinematica/NecromancerMotion.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Animation/Kinematica/NecromancerMotion.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Animation/Kinematica/OracleMotion.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Animation/Kinematica/OracleMotion.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Core/Render/RenderAsset_Renderer.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Core/Render/RenderAsset_Renderer.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Character/Model/Kevin Iglesias/3DCharacterDummy/Materials/Character_Green.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Character/Model/Kevin Iglesias/3DCharacterDummy/Materials/Character_Green.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Character/Model/Kevin Iglesias/3DCharacterDummy/Materials/Character_Purple.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Character/Model/Kevin Iglesias/3DCharacterDummy/Materials/Character_Purple.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Character/Model/Kevin Iglesias/3DCharacterDummy/Materials/Character_Red.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Character/Model/Kevin Iglesias/3DCharacterDummy/Materials/Character_Red.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Character/Model/Kevin Iglesias/3DCharacterDummy/Materials/DummyMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Character/Model/Kevin Iglesias/3DCharacterDummy/Materials/DummyMaterial.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Character/Model/Kevin Iglesias/3DCharacterDummy/Materials/FloorMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Character/Model/Kevin Iglesias/3DCharacterDummy/Materials/FloorMaterial.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/Animation/AssassinAnimation/Breathing Idle.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/Animation/AssassinAnimation/Breathing Idle.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/Animation/AssassinAnimation/Stabbing (1).fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/Animation/AssassinAnimation/Stabbing (1).fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/Animation/AssassinAnimation/Stabbing (2).fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/Animation/AssassinAnimation/Stabbing (2).fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/Animation/AssassinAnimation/Stabbing.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/Animation/AssassinAnimation/Stabbing.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/Animation/NecromancerAnimation/NecromancerIdle.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/Animation/NecromancerAnimation/NecromancerIdle.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/Animation/NecromancerAnimation/Standing 1H Magic Attack 03.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/Animation/NecromancerAnimation/Standing 1H Magic Attack 03.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/Animation/NecromancerAnimation/Standing 2H Cast Spell 01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/Animation/NecromancerAnimation/Standing 2H Cast Spell 01.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/Animation/NecromancerAnimation/Standing 2H Magic Area Attack 01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/Animation/NecromancerAnimation/Standing 2H Magic Area Attack 01.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/Animation/OracleAnimation/Magic Heal.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/Animation/OracleAnimation/Magic Heal.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/Animation/OracleAnimation/OracleIdle.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/Animation/OracleAnimation/OracleIdle.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/Animation/OracleAnimation/Standing 2H Magic Area Attack 02.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/Animation/OracleAnimation/Standing 2H Magic Area Attack 02.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/Animation/OracleAnimation/Standing 2H Magic Attack 01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/Animation/OracleAnimation/Standing 2H Magic Attack 01.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Prefab/AddressablePrefab/CFX3_Hit_Misc_B.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Prefab/AddressablePrefab/CFX3_Hit_Misc_B.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Prefab/AddressablePrefab/CFX3_Hit_Misc_D.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Prefab/AddressablePrefab/CFX3_Hit_Misc_D.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Prefab/AddressablePrefab/CFX_Poof.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Prefab/AddressablePrefab/CFX_Poof.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Prefab/AddressablePrefab/Main Camera.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Prefab/AddressablePrefab/Main Camera.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Prefab/Assassin.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Prefab/Assassin.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Prefab/Necromancer.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Prefab/Necromancer.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Prefab/Oracle.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Game/Prefab/Oracle.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/UI/Game_Properties.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/UI/Game_Properties.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Visual/Material/Creation/Temp_Assassin_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Visual/Material/Creation/Temp_Assassin_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Visual/Material/Creation/Temp_Necromancer_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Visual/Material/Creation/Temp_Necromancer_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Visual/Material/Creation/Temp_Oracle.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Project/Visual/Material/Creation/Temp_Oracle.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Resources/unit-data.bytes" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Resources/unit-data.bytes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Biped Locomotion/Biped.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Biped Locomotion/Biped.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/HelloWorld.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/HelloWorld.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Materials/ground.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Materials/ground.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Materials/target.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Materials/target.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Materials/wall.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Materials/wall.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Navigation.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Navigation.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/SceneDependencyCache.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/SceneDependencyCache/09c5cc943882221486b595c732d8e80e.sceneWithBuildSettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/SceneDependencyCache/09c5cc943882221486b595c732d8e80e.sceneWithBuildSettings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/SceneDependencyCache/0b45bc00ff3f9a1065e9d6e5e13bdc70.sceneWithBuildSettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/SceneDependencyCache/0b45bc00ff3f9a1065e9d6e5e13bdc70.sceneWithBuildSettings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/SceneDependencyCache/0ba610035854fb0b624b1fcd791c3d9b.sceneWithBuildSettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/SceneDependencyCache/0ba610035854fb0b624b1fcd791c3d9b.sceneWithBuildSettings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/SceneDependencyCache/1129162c91155eeaafcb064198ea15f5.sceneWithBuildSettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/SceneDependencyCache/1129162c91155eeaafcb064198ea15f5.sceneWithBuildSettings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/SceneDependencyCache/3b7420472cec6e91d52e895d4e4a848a.sceneWithBuildSettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/SceneDependencyCache/3b7420472cec6e91d52e895d4e4a848a.sceneWithBuildSettings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/SceneDependencyCache/584023513f427b0b79ae61a7a1609760.sceneWithBuildSettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/SceneDependencyCache/584023513f427b0b79ae61a7a1609760.sceneWithBuildSettings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/SceneDependencyCache/5bdebec66f5b8d24e785d2f4b1e8bbfa.sceneWithBuildSettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/SceneDependencyCache/5bdebec66f5b8d24e785d2f4b1e8bbfa.sceneWithBuildSettings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/SceneDependencyCache/a0f54816ec35249553490dd39b271c5e.sceneWithBuildSettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/SceneDependencyCache/a0f54816ec35249553490dd39b271c5e.sceneWithBuildSettings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/SceneDependencyCache/abb776b535261fda2bbb6409e6842216.sceneWithBuildSettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/SceneDependencyCache/abb776b535261fda2bbb6409e6842216.sceneWithBuildSettings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/SceneDependencyCache/abc286cc3fc1ec3ac8a9655f57145472.sceneWithBuildSettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/SceneDependencyCache/abc286cc3fc1ec3ac8a9655f57145472.sceneWithBuildSettings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/SceneDependencyCache/c184e15a2b85b563ae4e556c3c34a867.sceneWithBuildSettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/SceneDependencyCache/c184e15a2b85b563ae4e556c3c34a867.sceneWithBuildSettings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/SceneDependencyCache/e0c3716c4f66eda1a5cf858753aa17fe.sceneWithBuildSettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/SceneDependencyCache/e0c3716c4f66eda1a5cf858753aa17fe.sceneWithBuildSettings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/SceneDependencyCache/e633fa4b68a67ebacaa1763d484424ff.sceneWithBuildSettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/SceneDependencyCache/e633fa4b68a67ebacaa1763d484424ff.sceneWithBuildSettings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scenes/Creation.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scenes/Creation.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scenes/Game/BattleSubScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scenes/Game/BattleSubScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scenes/Game/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scenes/Game/LightingData.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scenes/Game/ReflectionProbe-0.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scenes/Game/ReflectionProbe-0.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/Authoring/UnitDataAuthoring.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/Authoring/UnitDataAuthoring.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/Database/Core/TechDynamicDBBuilder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/Database/Core/TechDynamicDBBuilder.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/Database/Tables/Ability.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/Database/Tables/Ability.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/Database/Tables/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/Database/Tables/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/Database/Tables/Equipment.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/Database/Tables/Equipment.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/Database/Tables/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/Database/Tables/Item.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/Database/Tables/Skill.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/Database/Tables/Skill.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/Database/Tables/TechMaterial.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/Database/Tables/TechMaterial.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/Database/Tables/Unit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/Database/Tables/Unit.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/Database/Tables/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/Database/Tables/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/Database/Tables/Weapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/Database/Tables/Weapon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/Generated/MessagePack.Generated.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/Generated/MessagePack.Generated.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/Generated/Tables/AbilityTable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/Generated/Tables/AbilityTable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/Generated/Tables/EnemyTable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/Generated/Tables/EnemyTable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/Generated/Tables/EquipmentTable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/Generated/Tables/EquipmentTable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/Generated/Tables/ItemTable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/Generated/Tables/ItemTable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/Generated/Tables/SkillTable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/Generated/Tables/SkillTable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/Generated/Tables/TechMaterialTable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/Generated/Tables/TechMaterialTable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/Generated/Tables/UnitTable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/Generated/Tables/UnitTable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/Generated/Tables/UserTable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/Generated/Tables/UserTable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/Generated/Tables/WeaponTable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/Generated/Tables/WeaponTable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/Plugins/Pixelplacement/Surge/Spline/Art/Models/Node/Materials/Node.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/Plugins/Pixelplacement/Surge/Spline/Art/Models/Node/Materials/Node.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/Plugins/Pixelplacement/Surge/Spline/Art/Models/Node/Node.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/Plugins/Pixelplacement/Surge/Spline/Art/Models/Node/Node.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/Plugins/Pixelplacement/Surge/Spline/Art/Models/ScaleNode/Materials/ScaleNode.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/Plugins/Pixelplacement/Surge/Spline/Art/Models/ScaleNode/Materials/ScaleNode.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/UI/UXMLCustom/Creation_Screen/CoreCreation_Document.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/UI/UXMLCustom/Creation_Screen/CoreCreation_Document.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/UI/UXMLCustom/Creation_Screen/Creation_Document.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/UI/UXMLCustom/Creation_Screen/Creation_Document.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/UI/UXMLCustom/Creation_Screen/Dialogue_Document.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/UI/UXMLCustom/Creation_Screen/Dialogue_Document.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/UI/UXMLCustom/Game_Screen/Game_Document.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/Scripts/UI/UXMLCustom/Game_Screen/Game_Document.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Crate - Surface Shader Scene.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Crate - Surface Shader Scene.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Ground - Logo Scene.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Ground - Logo Scene.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Ground - Surface Shader Scene.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Ground - Surface Shader Scene.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Small Crate_diffuse.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Small Crate_diffuse.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/TextMesh Pro/Sprites/EmojiOne.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/TextMesh Pro/Sprites/EmojiOne.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/UI/UIDocument/Creation/CoreCreation_Document.uxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/UI/UIDocument/Creation/CoreCreation_Document.uxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/UI/UIDocument/Creation/Creation_Document.uxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/UI/UIDocument/Creation/Creation_Document.uxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/UI/UIDocument/Creation/Dialogue_Document.uxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/UI/UIDocument/Creation/Dialogue_Document.uxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/UI/UIDocument/Game/Game_Document.uxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/UI/UIDocument/Game/Game_Document.uxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Assets/UI/UIDocument/Game/SubSceneDocument/Shop_Document.uxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Assets/UI/UIDocument/Game/SubSceneDocument/Shop_Document.uxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Logs/AssetImportWorker1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Logs/Packages-Update.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Logs/Packages-Update.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/ProjectSettings/URPProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/ProjectSettings/URPProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/UIElementsSchema/Tech.UI.Panel.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/UIElementsSchema/Tech.UI.Panel.xsd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/obj/Debug/Assembly-CSharp-firstpass.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/obj/Debug/Assembly-CSharp-firstpass.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/obj/Debug/MessagePack.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/obj/Debug/MessagePack.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/obj/Debug/UniRx.Examples.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/obj/Debug/UniRx.Examples.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/obj/Debug/UniRx.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/obj/Debug/UniRx.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/obj/Debug/UniTask.Addressables.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/obj/Debug/UniTask.Addressables.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/obj/Debug/UniTask.Editor.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/obj/Debug/UniTask.Editor.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/obj/Debug/UniTask.TextMeshPro.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/obj/Debug/UniTask.TextMeshPro.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TechDemoProject/obj/Debug/UniTask.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TechDemoProject/obj/Debug/UniTask.csprojAssemblyReference.cache" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1mGcgJNaAhYoNdl8bNrDZAyhmdi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dd524e56-587f-43a5-a01d-6fa43805a044" name="Default Changelist" comment="" />
+      <created>1609123477538</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609123477538</updated>
+      <workItem from="1609123480597" duration="36000" />
+      <workItem from="1609123529583" duration="21000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

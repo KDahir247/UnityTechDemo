@@ -116,6 +116,10 @@ namespace MasterData.Tables
                     new MasterMemory.Meta.MetaProperty(typeof(User).GetProperty("Energy")),
                     new MasterMemory.Meta.MetaProperty(typeof(User).GetProperty("Comment")),
                     new MasterMemory.Meta.MetaProperty(typeof(User).GetProperty("PossessedUnit")),
+                    new MasterMemory.Meta.MetaProperty(typeof(User).GetProperty("PossessedEquipments")),
+                    new MasterMemory.Meta.MetaProperty(typeof(User).GetProperty("PossessedMaterials")),
+                    new MasterMemory.Meta.MetaProperty(typeof(User).GetProperty("PossessedItems")),
+                    new MasterMemory.Meta.MetaProperty(typeof(User).GetProperty("PossessedWeapons")),
                 },
                 new MasterMemory.Meta.MetaIndex[]{
                     new MasterMemory.Meta.MetaIndex(new System.Reflection.PropertyInfo[] {

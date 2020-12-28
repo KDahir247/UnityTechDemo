@@ -1,6 +1,8 @@
 ﻿using Cysharp.Threading.Tasks;
 using JetBrains.Annotations;
+using MasterData;
 using Tech.Core;
+using Tech.DB;
 using Tech.UI.Linq;
 using Tech.Utility;
 using UniRx;
@@ -8,9 +10,10 @@ using UnityEngine.UIElements;
 
 namespace Tech.UI.Panel
 {
-    //write the dialogue to the ui
     public class Dialogue_Document : Base_Document
     {
+        private readonly TechDynamicDBBuilder _dbBuilder = new TechDynamicDBBuilder();
+        
         private Button _createCharacterBtn;
         private Label _dialogueText;
         private TextField _heroNameTextField;
@@ -60,7 +63,27 @@ namespace Tech.UI.Panel
             {
                 if (_heroNameTextField.value.Length <= 3 || _heroNameTextField.value.Length > 16) return;
 
+                if (_dbBuilder.TryLoadDatabase(FileDestination.UserPath,out ImmutableBuilder immutableBuilder))
+                {
+
+                    User user = TechDB
+                        .LoadDataBase(FileDestination.UserPath).
+                        UserTable
+                        .FindByLevel(0); //Retrieve the UserData by finding the primary key (Level)
+
+                    immutableBuilder.Diff(new[]
+                    {
+                        new User{ 
+                            Level = 0, 
+                            Username = _heroNameTextField.text,
+                            PossessedUnit = user.PossessedUnit
+                        }, 
+                    });
+                    
+                    _dbBuilder.Build(immutableBuilder);
+                }   
                 _createCharacterBtn.style.display = DisplayStyle.None;
+                
                 StateSingleton.Instance.Next();
             };
         }
@@ -77,7 +100,7 @@ namespace Tech.UI.Panel
         {
         }
 
-        public new class UxmlTraits : VisualElement.UxmlTraits
+        public new sealed class UxmlTraits : VisualElement.UxmlTraits
         {
             public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
             {

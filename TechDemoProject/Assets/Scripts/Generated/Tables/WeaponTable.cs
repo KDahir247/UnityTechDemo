@@ -85,6 +85,7 @@ namespace MasterData.Tables
                 {
                     new MasterMemory.Meta.MetaProperty(typeof(Weapon).GetProperty("Id")),
                     new MasterMemory.Meta.MetaProperty(typeof(Weapon).GetProperty("Name")),
+                    new MasterMemory.Meta.MetaProperty(typeof(Weapon).GetProperty("Address")),
                     new MasterMemory.Meta.MetaProperty(typeof(Weapon).GetProperty("Description")),
                     new MasterMemory.Meta.MetaProperty(typeof(Weapon).GetProperty("ImageBytes")),
                     new MasterMemory.Meta.MetaProperty(typeof(Weapon).GetProperty("WeaponInfo")),

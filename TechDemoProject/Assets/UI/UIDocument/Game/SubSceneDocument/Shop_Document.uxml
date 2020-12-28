@@ -1,9 +1,40 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<engine:UXML
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:engine="UnityEngine.UIElements"
-    xmlns:editor="UnityEditor.UIElements"
-    xsi:noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd"
->
-    
-</engine:UXML>
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Tech.UI.Panel.Shop_Document style="flex-grow: 1; flex-direction: column; height: auto; background-image: url(&apos;/Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Nobg/03_summon_skeleton_knight_nobg.png&apos;); align-items: stretch;">
+        <ui:VisualElement style="flex-grow: 1; align-items: stretch;">
+            <ui:Label text="Shop" display-tooltip-when-elided="True" style="flex-grow: 1; -unity-font: url(&apos;/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Roboto-Bold.ttf&apos;); font-size: 100px; -unity-text-align: lower-left; margin-left: 142px; justify-content: space-around; color: rgba(255, 255, 255, 255); -unity-font-style: normal; align-items: auto;" />
+            <ui:VisualElement name="Top_Panel" style="flex-grow: 1; margin-bottom: 0; height: 125px; background-color: rgba(22, 22, 22, 255); align-items: flex-start; justify-content: flex-start; display: none;" />
+            <ui:VisualElement name="Middle_Panel" style="flex-direction: column; flex-grow: 1; justify-content: space-around; align-items: stretch;">
+                <ui:VisualElement name="Core_Panel" style="flex-grow: 1; flex-direction: row;">
+                    <ui:VisualElement name="LeftSafeArea_Offset" style="width: 124px; background-color: rgba(22, 22, 22, 0.23);" />
+                    <ui:ScrollView mode="Vertical" show-vertical-scroller="true" focusable="false" horizontal-page-size="0" vertical-page-size="20" touch-scroll-type="Clamped" elasticity="0" scroll-deceleration-rate="0" show-horizontal-scroller="false" name="ShopCategory_ScrollView" style="flex-grow: 0.1; flex-direction: column; width: auto; flex-wrap: wrap; flex-basis: auto; position: relative; -unity-background-scale-mode: scale-and-crop; align-items: stretch; justify-content: center; border-top-left-radius: 0; margin-left: 0;">
+                        <ui:VisualElement picking-mode="Ignore" name="ShopCategory_Panel" style="height: 2000px; background-color: rgba(0, 0, 0, 255); flex-grow: 1; width: auto; white-space: nowrap;">
+                            <ui:Button display-tooltip-when-elided="True" name="BestSeller_Button" style="height: auto; flex-grow: 1;" />
+                            <ui:Button display-tooltip-when-elided="True" name="LimitedTime_Button" style="height: auto; flex-grow: 1;" />
+                            <ui:Button display-tooltip-when-elided="True" name="General_Button" style="flex-grow: 1;" />
+                            <ui:Button display-tooltip-when-elided="True" name="Exchange_Button" style="flex-grow: 1;" />
+                            <ui:Button display-tooltip-when-elided="True" name="Pack_Button" style="flex-grow: 1;" />
+                            <ui:Button display-tooltip-when-elided="True" name="Skin_Button" style="flex-grow: 1;" />
+                            <ui:Button display-tooltip-when-elided="True" name="AdventurePass_Button" style="flex-grow: 1;" />
+                            <ui:Button display-tooltip-when-elided="True" name="RaidCoin_Button" style="flex-grow: 1;" />
+                            <ui:Button display-tooltip-when-elided="True" name="Cred_Button" style="flex-grow: 1;" />
+                            <ui:Button display-tooltip-when-elided="True" name="Friendship_Button" style="flex-grow: 1;" />
+                        </ui:VisualElement>
+                    </ui:ScrollView>
+                    <ui:VisualElement name="Focus_Panel" style="flex-grow: 1; flex-direction: column-reverse; display: flex;">
+                        <ui:VisualElement name="TopFocus_Panel" style="flex-grow: 1; flex-direction: row;">
+                            <ui:VisualElement name="LeftFocus_Panel" style="flex-grow: 0.7; background-color: rgba(19, 17, 17, 0.86);" />
+                            <ui:VisualElement name="RightFocus_Panel" style="flex-grow: 0.3; background-color: rgba(22, 22, 22, 0);" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="LowerFocus_Panel" style="flex-grow: 1; flex-direction: row; display: flex; background-color: rgba(48, 48, 48, 0); border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; height: 200px; justify-content: flex-start; margin-left: 0; align-items: stretch;">
+                <ui:VisualElement style="width: 124px;" />
+                <ui:VisualElement style="flex-grow: 0.81;">
+                    <ui:ScrollView name="ShopItem_ScrollView" mode="Horizontal" style="flex-grow: 0.7; height: auto; align-items: stretch; flex-direction: row-reverse; background-color: rgba(0, 0, 0, 0.72); width: auto;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="RightSafeArea_Offset" style="flex-grow: 0.3; color: rgba(22, 22, 22, 255); background-color: rgba(22, 22, 22, 0); display: flex;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </Tech.UI.Panel.Shop_Document>
+</ui:UXML>
