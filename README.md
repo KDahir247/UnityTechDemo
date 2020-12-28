@@ -109,23 +109,5 @@ Game (Game scene will be the only Scene that will have ECS and DOTS Logic to dri
 TODO:
 <br/>
 Cleaning, refactoring, and optimizing code.
-<br/>
-Complete the creation scene
-<br/>
-Create in-memory database to store data (Complete)
-<br/>
-Error with the addressable layout. Can't build project due to it but it is still playable in the editor
-<br/>
-Decide on the animation system. Common Animator, Kinematica, animation ecs job (Complete using Kinematica)
-<br/>
-update the version in main menu so it reflect the Application version (Complete)
-<br/>
-restructure custom packages to suit my project (ITween, ITweenExtension, Surge)
-<br/>
-replace all animator in scene with kinematica animator.
-<br/>
-Hook up the Progress Script so it show a loading bar with the percentange and a description of asset loading when Report is called on IProgress<float>
-<br/>
-Add required Preprocessor macro in required script to determine platform. If on mobile enable touch support and otherwise enable mouse.
-<br/>
- Add Safety check system to see if there an exception to rollback the scene to MainMenu
+<br/> 
+Write Testing for features thus far and write test for future code structure
