@@ -38,7 +38,7 @@ Device Simulator,
 Cinemachine,
 Hybrid Renderer,
 UI Builder,
-UI Toolkit and mmany more look a manifest for full 
+UI Toolkit and many more look a manifest for full list of packages used.
 
 <br />
 
