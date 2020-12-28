@@ -3,9 +3,12 @@
 Self teaching on some of unity's packages and some other plugin. (Ongoing) 
 <br/>
 <br/>
-Project will now follow the Agile Mthodology (UI might bypass some test.)
+Project will now follow the Agile Methodology (UI might bypass some test.)
 <br/>
+<br/>
+Unit-Test -> Performance Test -> Integration-Test -> (Optional) Memory-Test
 ![alt text](https://lh4.googleusercontent.com/nW_yFs4Hu2IfSEEokyas2_gFESgctL2nWzQEJ2Vc8dr39HsbmppAmAqHlHK2F_mtsEsn4HQEVP8EH9A0mqFDQjU2KiVPldOAIH0u343jbBwm78MLPJw1tCk3DMyy606Y8bqUDq4)
+<br/>
 <br/>
 <br/>
 Current Kinematica Package Caveats:
@@ -17,10 +20,6 @@ Can't change binary reference on Kinematica. It will not update Kinematica.
 Not fully integrated with DOTS.
 <br/>
 Animation must be generic and can't be anything else.
-<br/>
-<br/>
-Current Progress on Kinematica in Project. https://streamable.com/h86sl9
-<br/>
 <br/>
 
 Unity Packages using:
