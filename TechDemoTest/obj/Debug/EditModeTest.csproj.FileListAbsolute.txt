@@ -1,0 +1,5 @@
+C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoTest\Temp\Bin\Debug\EditModeTest.dll
+C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoTest\Temp\Bin\Debug\EditModeTest.pdb
+C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoTest\obj\Debug\EditModeTest.csproj.CoreCompileInputs.cache
+C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoTest\obj\Debug\EditModeTest.dll
+C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoTest\obj\Debug\EditModeTest.pdb

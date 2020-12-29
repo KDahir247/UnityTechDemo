@@ -6,9 +6,14 @@
     <e p="C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoTest" t="IncludeRecursive">
       <e p="Assets" t="Include">
         <e p="PlaymodeTest" t="Include">
+          <e p="EditModeTest" t="Include">
+            <e p="EditModeTest.asmdef" t="Include" />
+          </e>
           <e p="PlaymodeTest.asmdef" t="Include" />
           <e p="UnitTest" t="Include">
             <e p="AssetSystemTest.cs" t="Include" />
+            <e p="LogManagerTest.cs" t="Include" />
+            <e p="MemoryTest.cs" t="Include" />
             <e p="ResolverSerializationTest.cs" t="Include" />
             <e p="SceneSystemTest.cs" t="Include" />
             <e p="UnitaskBootstrapTest.cs" t="Include" />
@@ -811,6 +816,14 @@
               <e p="Build" t="Include">
                 <e p="ResolverInitialization.cs" t="Include" />
               </e>
+              <e p="Logger" t="Include">
+                <e p="LogHelper.cs" t="Include" />
+                <e p="LogManager.cs" t="Include" />
+              </e>
+              <e p="Serialization" t="Include">
+                <e p="UlidMessagePackFormatter.cs" t="Include" />
+                <e p="UlidMessagePackResolver.cs" t="Include" />
+              </e>
               <e p="System" t="Include">
                 <e p="AssetSystem.cs" t="Include" />
                 <e p="SceneSystem.cs" t="Include" />
@@ -819,6 +832,7 @@
           </e>
         </e>
       </e>
+      <e p="EditModeTest.csproj" t="IncludeRecursive" />
       <e p="MagicOnion.Abstractions.csproj" t="IncludeRecursive" />
       <e p="MagicOnion.Client.csproj" t="IncludeRecursive" />
       <e p="MagicOnion.Unity.csproj" t="IncludeRecursive" />

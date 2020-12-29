@@ -24,6 +24,7 @@ namespace Tech.Core
                 builder.SetMinimumLevel(LogLevel.Trace);
 
                 var valueStringBuilder = new Utf8ValueStringBuilder(true);
+               
                 valueStringBuilder.AppendFormat(@"{0}\Assets\Log\EditorLog{1}.log", Environment.CurrentDirectory,
                     DateTime.Today.ToFileTime());
                 builder.AddZLoggerFile(valueStringBuilder.ToString(),

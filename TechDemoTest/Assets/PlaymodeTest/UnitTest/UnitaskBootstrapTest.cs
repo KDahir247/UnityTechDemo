@@ -1,12 +1,11 @@
 ﻿using System.Collections;
 using Cysharp.Threading.Tasks;
 using NUnit.Framework;
-using UnityEngine.LowLevel;
 using UnityEngine.TestTools;
 
 namespace Tech.Test
 {
-    public class UnitaskBootstrapTest
+    public sealed class UnitaskBootstrapTest
     {
         //TODO not yet required since ECS isn't incorporated
         [Test]

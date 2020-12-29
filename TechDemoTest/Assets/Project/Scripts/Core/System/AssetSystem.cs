@@ -8,12 +8,12 @@ using UnityEngine.ResourceManagement.ResourceProviders;
 
 public readonly struct AssetInfo
 {
-    internal readonly string Name;
+    internal readonly string AssetAddressName;
     internal readonly InstantiationParameters InstantiationParameters;
 
-    public AssetInfo(string name, InstantiationParameters instantiationParameters)
+    public AssetInfo(string assetAddressName, InstantiationParameters instantiationParameters)
     {
-        Name = name;
+        AssetAddressName = assetAddressName;
         InstantiationParameters = instantiationParameters;
     }
 }
@@ -35,14 +35,15 @@ public sealed class AssetSystem<T>
         cancellationToken.Register(OperationCanceled);
         cancellationToken.ThrowIfCancellationRequested();
 
-        InstantiateAsset(assetInfo, loadAssetContainer).Forget();
+        InstantiateAsset(assetInfo, loadAssetContainer)
+            .Forget();
     }
 
     private async UniTaskVoid InstantiateAsset(AssetInfo assetInfo,
         [NotNull] IList<T> loadAssetContainer)
     {
         var resourceLocations = await Addressables
-            .LoadResourceLocationsAsync(assetInfo.Name)
+            .LoadResourceLocationsAsync(assetInfo.AssetAddressName)
             .ToUniTask(cancellationToken: cancellationToken);
 
         var gameObject = await Addressables.InstantiateAsync(resourceLocations[0], assetInfo.InstantiationParameters)

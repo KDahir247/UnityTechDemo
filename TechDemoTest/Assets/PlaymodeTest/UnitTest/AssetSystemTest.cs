@@ -10,7 +10,7 @@ using UnityEngine.TestTools;
 
 namespace Tech.Test
 {
-    public class AssetSystemTest
+    public sealed class AssetSystemTest
     {
         private readonly List<GameObject> entityContainerLoop = new List<GameObject>(1);
         private AssetSystem<GameObject> _assetSystem;
@@ -47,6 +47,7 @@ namespace Tech.Test
             });
         }
 
+
         // A UnityTest behaves like a coroutine in PlayMode
         // and allows you to yield null to skip a frame in EditMode
         [UnityTest]
@@ -60,20 +61,25 @@ namespace Tech.Test
             Assert.DoesNotThrow(() =>
                 Measure
                     .Method(() => _assetSystem.LoadAsset(assetInfo, entityContainerLoop))
+                    .WarmupCount(5)
+                    .IterationsPerMeasurement(20)
+                    .MeasurementCount(10)
                     .SampleGroup("Loading Asset Iteration")
                     .GC()
+                    .CleanUp(() =>
+                    {
+                        using (Measure.Scope("Unloading All Asset"))
+                        {
+                            _assetSystem.UnloadAllAsset(entityContainerLoop);
+                        }
+                    })
                     .Run());
 
             yield return Measure.Frames()
+                .WarmupCount(10)
                 .MeasurementCount(20)
                 .SampleGroup("Frame Performance Measurement")
                 .Run();
-
-
-            using (Measure.Scope("Unloading All Asset"))
-            {
-                _assetSystem.UnloadAllAsset(entityContainerLoop);
-            }
         }
     }
 }
