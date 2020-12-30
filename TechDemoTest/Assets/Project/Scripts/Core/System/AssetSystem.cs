@@ -21,7 +21,6 @@ public readonly struct AssetInfo
     }
 }
 
-//TODO include Custom Logger
 public sealed class AssetSystem<T>
     where T : Object
 {
