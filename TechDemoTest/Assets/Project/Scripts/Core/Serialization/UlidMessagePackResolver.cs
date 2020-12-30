@@ -2,23 +2,23 @@
 using MessagePack;
 using MessagePack.Formatters;
 
-public class UlidMessagePackResolver : IFormatterResolver
+internal sealed class UlidMessagePackResolver : IFormatterResolver
 {
-    public static IFormatterResolver Instance = new UlidMessagePackResolver();
+    internal static readonly IFormatterResolver Instance = new UlidMessagePackResolver();
 
     public IMessagePackFormatter<T> GetFormatter<T>()
     {
-        return Cache<T>.formatter;
+        return Cache<T>.Formatter;
     }
 
     private static class Cache<T>
     {
-        public static readonly IMessagePackFormatter<T> formatter;
+        public static readonly IMessagePackFormatter<T> Formatter;
 
         static Cache()
         {
             if (typeof(T) == typeof(Ulid))
-                formatter = (IMessagePackFormatter<T>) (object) new UlidMessagePackFormatter();
+                Formatter = (IMessagePackFormatter<T>) (object) new UlidMessagePackFormatter();
         }
     }
 }

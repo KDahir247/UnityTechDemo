@@ -19,8 +19,8 @@ internal sealed class UlidMessagePackFormatter : IMessagePackFormatter<Ulid>
     {
         var bin = reader.ReadBytes();
         if (bin == null)
-            throw new MessagePackSerializationException(string.Format("Unexpected msgpack code {0} ({1}) encountered.",
-                MessagePackCode.Nil, MessagePackCode.ToFormatName(MessagePackCode.Nil)));
+            throw new MessagePackSerializationException(
+                $"Unexpected msgpack code {MessagePackCode.Nil} ({MessagePackCode.ToFormatName(MessagePackCode.Nil)}) encountered.");
 
         var seq = bin.Value;
         if (seq.IsSingleSegment) return new Ulid(seq.First.Span);

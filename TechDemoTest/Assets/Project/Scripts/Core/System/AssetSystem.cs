@@ -2,9 +2,12 @@
 using System.Threading;
 using Cysharp.Threading.Tasks;
 using JetBrains.Annotations;
+using Microsoft.Extensions.Logging;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.ResourceProviders;
+using ZLogger;
+using ILogger = Microsoft.Extensions.Logging.ILogger;
 
 public readonly struct AssetInfo
 {
@@ -22,6 +25,7 @@ public readonly struct AssetInfo
 public sealed class AssetSystem<T>
     where T : Object
 {
+    private readonly ILogger logger = LogManager.GetLogger<AssetSystem<T>>();
     private CancellationToken cancellationToken;
 
     public AssetSystem(CancellationToken token)
@@ -40,7 +44,7 @@ public sealed class AssetSystem<T>
     }
 
     private async UniTaskVoid InstantiateAsset(AssetInfo assetInfo,
-        [NotNull] IList<T> loadAssetContainer)
+        [NotNull] ICollection<T> loadAssetContainer)
     {
         var resourceLocations = await Addressables
             .LoadResourceLocationsAsync(assetInfo.AssetAddressName)
@@ -59,6 +63,6 @@ public sealed class AssetSystem<T>
 
     private void OperationCanceled()
     {
-        Debug.Log("Asset Loading has been canceled mid way");
+        logger.ZLog(LogLevel.Warning, "Asset Loading has been canceled mid way");
     }
 }

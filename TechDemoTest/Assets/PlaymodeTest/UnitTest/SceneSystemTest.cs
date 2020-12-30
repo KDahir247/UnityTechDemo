@@ -27,7 +27,7 @@ namespace Tech.Test
         {
             Assert.DoesNotThrow(() =>
                 {
-                    using (Measure.Scope())
+                    using (Measure.Scope("Canceled Scene Loading"))
                     {
                         _sceneCanceledSystem.LoadSceneAsync("NextScene", LoadSceneMode.Single).Forget();
                     }

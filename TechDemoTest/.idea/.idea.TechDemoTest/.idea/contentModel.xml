@@ -12,14 +12,20 @@
           <e p="PlaymodeTest.asmdef" t="Include" />
           <e p="UnitTest" t="Include">
             <e p="AssetSystemTest.cs" t="Include" />
+            <e p="DatabaseStreamTest.cs" t="Include" />
+            <e p="DynamicDbBuilderTest.cs" t="Include" />
             <e p="LogManagerTest.cs" t="Include" />
             <e p="MemoryTest.cs" t="Include" />
             <e p="ResolverSerializationTest.cs" t="Include" />
             <e p="SceneSystemTest.cs" t="Include" />
+            <e p="StaticDbBuilderTest.cs" t="Include" />
             <e p="UnitaskBootstrapTest.cs" t="Include" />
           </e>
         </e>
         <e p="Project" t="Include">
+          <e p="Editor" t="Include">
+            <e p="MasterMemoryWindow.cs" t="Include" />
+          </e>
           <e p="Plugins" t="Include">
             <e p="Grpc.Core" t="Include">
               <e p="lib" t="Include">
@@ -827,6 +833,26 @@
               <e p="System" t="Include">
                 <e p="AssetSystem.cs" t="Include" />
                 <e p="SceneSystem.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Database" t="Include">
+              <e p="DatabaseStream.cs" t="Include" />
+              <e p="DynamicDbBuilder.cs" t="Include" />
+              <e p="FileDestination.cs" t="Include" />
+              <e p="IStream.cs" t="Include" />
+              <e p="StaticDbBuilder.cs" t="Include" />
+              <e p="Tables" t="Include">
+                <e p="TestTable.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Generated" t="Include">
+              <e p="DatabaseBuilder.cs" t="Include" />
+              <e p="ImmutableBuilder.cs" t="Include" />
+              <e p="MasterMemoryResolver.cs" t="Include" />
+              <e p="MemoryDatabase.cs" t="Include" />
+              <e p="MessagePack.Generated.cs" t="Include" />
+              <e p="Tables" t="Include">
+                <e p="TestTableTable.cs" t="Include" />
               </e>
             </e>
           </e>

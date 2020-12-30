@@ -1,0 +1,2 @@
+Index, Test Name, Version, SampleGroup Name, Unit, IncreaseIsBetter, Min, Max, Median, Average, StandardDeviation, Sum, Values, 
+0,"Tech.Test.StaticDbBuilderTest.StaticDbBuilderTestSimplePasses",1,"Time","Millisecond",False,1422.7312,1422.7312,1422.7312,1422.7312,0,1422.7312,1422.7312,

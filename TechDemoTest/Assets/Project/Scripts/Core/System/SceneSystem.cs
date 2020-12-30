@@ -1,12 +1,14 @@
 ﻿using System.Threading;
 using Cysharp.Threading.Tasks;
-using UnityEngine;
+using Microsoft.Extensions.Logging;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.ResourceProviders;
 using UnityEngine.SceneManagement;
+using ZLogger;
 
 public sealed class SceneSystem
 {
+    private readonly ILogger logger = LogManager.GetLogger<SceneSystem>();
     private CancellationToken cancellationToken;
 
     public SceneSystem(CancellationToken cancellationToken)
@@ -33,6 +35,6 @@ public sealed class SceneSystem
 
     private void OperationCanceled()
     {
-        Debug.Log("Scene Loading has been canceled mid way.");
+        logger.ZLog(LogLevel.Debug, "Scene Loading has been canceled mid way.");
     }
 }

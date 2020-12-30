@@ -18,12 +18,10 @@ public static class LogManager
             AttachLogToUnity(builder);
         });
 
-        Logger = LoggerFactory.CreateLogger("Global");
+        LoggerFactory.CreateLogger("Global");
 
         Application.quitting += () => LoggerFactory.Dispose();
     }
-
-    public static ILogger Logger { get; }
 
     private static void AttachLogToFile(string fileName, ILoggingBuilder builder)
     {
