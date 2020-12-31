@@ -6,116 +6,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6abb102-7c44-48ea-adde-dc287c5cfed8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Abstractions_AsyncUnaryResultMethodBuilder_T_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Abstractions_ClientStreamingResult_TRequest_TResponse_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Abstractions_DuplexStreamingResult_TRequest_TResponse_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Abstractions_GenerateDefineDebugAttribute.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Abstractions_MethodIdAttribute.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Abstractions_ServerStreamingResult_TResponse_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Abstractions_UnaryResult_TResponse_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_ArrayPoolBufferWriter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_AsyncLock.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_BroadcasterHelper.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_DynamicArgumentTupleFormatter_T17_T8_T9_T10_T11_T12_T13_T14_T15_T16_T17_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_DynamicArgumentTupleFormatter_T1T10_T11_T12_T13_T14_T15_T16_T17_T18_T19_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_DynamicArgumentTupleFormatter_T1T11_T12_T13_T14_T15_T16_T17_T18_T19_T20_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_DynamicArgumentTupleFormatter_T1T6_T7_T8_T9_T10_T11_T12_T13_T14_T15_T16_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_DynamicArgumentTupleFormatter_T1_T2_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_DynamicArgumentTupleFormatter_T1_T2_T3_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_DynamicArgumentTupleFormatter_T1_T2_T3_T4_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_DynamicArgumentTupleFormatter_T1_T2_T3_T4_T5_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_DynamicArgumentTupleFormatter_T1_T2_T3_T4_T5_T6_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_DynamicArgumentTupleFormatter_T1_T2_T3_T4_T5_T6_T7_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_DynamicArgumentTupleFormatter_T1_T2_T3_T4_T5_T6_T7_T8_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_DynamicArgumentTupleFormatter_T1_T2_T3_T4_T5_T6_T7_T8_T9_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_DynamicArgumentTupleFormatter_T1_T2_T3_T4_T5_T6_T7_T8_T9_T10_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_DynamicArgumentTupleFormatter_T1_T2_T3_T4_T5_T6_T7_T8_T9_T10_T11_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_DynamicArgumentTupleFormatter_T1_T2_T3_T4_T5_T6_T7_T8_T9_T10_T11_T12_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_DynamicArgumentTupleFormatter_T1_T2_T3_T4_T5_T6_T7_T8_T9_T10_T11_T12_T13_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_DynamicArgumentTupleFormatter_T1_T2_T3_T4_T5_T6_T7_T8_T9_T10_T11_T12_T13_T14_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_DynamicArgumentTupleFormatter_T1_T5_T6_T7_T8_T9_T10_T11_T12_T13_T14_T15_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_DynamicArgumentTupleFormatter_T1_T9_T10_T11_T12_T13_T14_T15_T16_T17_T18_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_DynamicArgumentTuple_T1_T2_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_DynamicArgumentTuple_T1_T2_T3_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_DynamicArgumentTuple_T1_T2_T3_T47_T8_T9_T10_T11_T12_T13_T14_T15_T16_T17_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_DynamicArgumentTuple_T1_T2_T3_T4T10_T11_T12_T13_T14_T15_T16_T17_T18_T19_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_DynamicArgumentTuple_T1_T2_T3_T4T11_T12_T13_T14_T15_T16_T17_T18_T19_T20_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_DynamicArgumentTuple_T1_T2_T3_T4_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_DynamicArgumentTuple_T1_T2_T3_T4_T5_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_DynamicArgumentTuple_T1_T2_T3_T4_T5_T6_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_DynamicArgumentTuple_T1_T2_T3_T4_T5_T6_T7_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_DynamicArgumentTuple_T1_T2_T3_T4_T5_T6_T7_T8_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_DynamicArgumentTuple_T1_T2_T3_T4_T5_T6_T7_T8_T9_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_DynamicArgumentTuple_T1_T2_T3_T4_T5_T6_T7_T8_T9_T10_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_DynamicArgumentTuple_T1_T2_T3_T4_T5_T6_T7_T8_T9_T10_T11_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_DynamicArgumentTuple_T1_T2_T3_T4_T5_T6_T7_T8_T9_T10_T11_T12_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_DynamicArgumentTuple_T1_T2_T3_T4_T5_T6_T7_T8_T9_T10_T11_T12_T13_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_DynamicArgumentTuple_T1_T2_T3_T4_T5_T6_T7_T8_T9_T10_T11_T12_T13_T14_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_DynamicArgumentTuple_T1_T2_T3_T4_T5_T6_T7_T8_T9_T10_T11_T12_T13_T14_T15_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_DynamicArgumentTuple_T1_T2_T3_T4_T5_T6_T7_T8_T9_T10_T11_T12_T13_T14_T15_T16_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_DynamicArgumentTuple_T1_T2_T3_T4_T9_T10_T11_T12_T13_T14_T15_T16_T17_T18_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_DynamicAssembly.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_DynamicClientAssemblyHolder.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_DynamicClientBuilder_T_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_FNV1A32.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_ILGeneratorExtensions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_IgnoresAccessChecksToAttribute.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_InterceptInvokeHelper.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_MagicOnionClient.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_MagicOnionClientBase.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_MagicOnionClientBase_T_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_MagicOnionClientRegistry_T_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_MagicOnionMarshallers.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_MarshallingAsyncStreamReader_T_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_MarshallingClientStreamWriter_T_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_MetadataExtensions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_NullMagicOnionClientLogger.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_PriorityResolver.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_ReflectionExtensions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_RequestContext.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_RequestContext_T_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_ResponseContext.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_ResponseContext_T_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_StreamingHubClient.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_StreamingHubClientAssemblyHolder.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_StreamingHubClientBase_TStreamingHub_TReceiver_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_StreamingHubClientBuilder_TStreamingHub_TReceiver_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_StreamingHubClientRegistry_TStreamingHub_TReceiver_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_TaskCompletionSourceEx_T_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_TaskEx.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_UnsafeDirectBlitArrayFormatter_T_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_UnsafeDirectBlitFormatter_T_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_UnsafeDirectBlitResolver.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Client_UnsafeDirectBlitResolverFormatterCache_T_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Unity_ChannelExtensions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MagicOnion.Unity_UnityDebugLogger.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MessagePack_ArrayFormatter_T_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MessagePack_ArraySegmentFormatter_T_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MessagePack_BigIntegerFormatter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MessagePack_BitArrayFormatter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MessagePack_BooleanArrayFormatter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MessagePack_BooleanFormatter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MessagePack_BufferWriter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MessagePack_ByteArrayFormatter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MessagePack_ByteArraySegmentFormatter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MessagePack_ByteFormatter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MessagePack_CharArrayFormatter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MessagePack_CharFormatter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MessagePack_CollectionFormatterBase_TElement_TCollection_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MessagePack_CollectionFormatterBase_TElement_TIntermediate_TCollection_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MessagePack_CollectionFormatterBase_TElement_TIntermediate_TEnumerator_TCollection_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MessagePack_CollectionHelpers_TCollection_TEqualityComparer_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MessagePack_ComplexFormatter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MessagePack_ConcurrentBagFormatter_T_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MessagePack_ExtensionHeader.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MessagePack_ExtensionResult.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MessagePack_FormatterNotRegisteredException.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/MessagePack_FormatterResolverExtensions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GameFoundation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GameFoundation/GameFoundationCatalog.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GameFoundation/GameFoundationCatalog.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GameFoundation/Resources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GameFoundation/Resources/GameFoundationCatalogSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GameFoundation/Resources/GameFoundationCatalogSettings.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/EventSystemTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/EventSystemTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2020-12-30_18-42-50_CoverageHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2020-12-30_18-43-24_CoverageHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2020-12-30_18-44-19_CoverageHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2020-12-30_18-44-51_CoverageHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2020-12-30_18-45-47_CoverageHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2020-12-30_18-48-07_CoverageHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2020-12-30_18-49-12_CoverageHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2020-12-30_18-51-23_CoverageHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2020-12-30_18-53-15_CoverageHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2020-12-30_18-59-38_CoverageHistory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TechDemoTest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TechDemoTest/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TechDemoTest/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TechDemoTest/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TechDemoTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TechDemoTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Core/System/AssetSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/System/AssetSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlaymodeTest/PlaymodeTest.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/PlaymodeTest.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Plugins/UniRx/Scripts/Notifiers/MessageBroker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Plugins/UniRx/Scripts/Notifiers/MessageBroker.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_AssetInfo.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_AssetSystem_T_.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_BinarySearch.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_ByteBufferWriter.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DatabaseBuilder.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DatabaseBuilderBase.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DatabaseStream.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_T3_.html" beforeDir="false" />
@@ -137,25 +56,51 @@
       <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_TT6_T7_T8_T9_T10_T11_T12_T13_T14_T15_T16_.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_T_T9_T10_T11_T12_T13_T14_T15_T16_T17_T18_.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicDbBuilder.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_ExpandableArray_TElement_.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_ExpressionDumper_T_.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_ExpressionParameterNameModifier.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_ExpressionParameterNameModifyExtensions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_FaildItem.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_GeneratedResolver.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_GeneratedResolverFormatterCache_T_.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_GeneratedResolverGetFormatterHelper.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_HeaderFormatterResolver.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_ImmutableBuilder.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_ImmutableBuilderBase.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_IntIntValueTupleFormatter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_InternStringResolver.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_LogManager.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_MasterMemoryResolver.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_MasterMemoryResolverFormatterCache_T_.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_MasterMemoryResolverGetFormatterHelper.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_MasterMemoryWindow.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_MemoryDatabase.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_MemoryDatabaseBase.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_MemoryTableAttribute.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_MetaDatabase.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_MetaIndex.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_MetaProperty.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_MetaTable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_PrimaryKeyAttribute.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_RangeView_T_.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_ReferenceSet_TElement_TReference_.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_ResolverInitialization.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_SceneSystem.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_SecondaryKeyAttribute.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_StaticDbBuilder.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_StringComparisonOptionAttribute.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_TableBase_TElement_.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_TableInfo.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_TestTable.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_TestTableFormatter.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_TestTableTable.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_UlidMessagePackFormatter.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_UlidMessagePackResolver.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_UlidMessagePackResolverCache_T_.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_ValidatableSet_TElement_.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_ValidateResult.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_ValidationDatabase.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_Validator_T_.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/Summary.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/badge_branchcoverage.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/badge_branchcoverage.svg" beforeDir="false" />
@@ -178,6 +123,7 @@
       <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/badge_shieldsio_linecoverage_red.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/badge_shieldsio_linecoverage_yellow.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/badge_shieldsio_linecoverage_yellowgreen.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/class.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/icon_cube.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/icon_down-dir_active.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/icon_fork.svg" beforeDir="false" />
@@ -196,7 +142,22 @@
       <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/main.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/report.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeCoverage/TechDemoTest-opencov/PlayMode/TestCoverageResults_0000.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/TechDemoTest-opencov/PlayMode/TestCoverageResults_0000.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker3.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/MagicOnion.Abstractions.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/MagicOnion.Abstractions.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/MagicOnion.Unity.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/MagicOnion.Unity.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/PlaymodeTest.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PlaymodeTest.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/ProjectLogic.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/ProjectLogic.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Ulid.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Ulid.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/UniRx.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniRx.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/UniTask.Addressables.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniTask.Addressables.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/UniTask.DOTween.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniTask.DOTween.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/UniTask.Editor.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniTask.Editor.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/UniTask.Linq.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniTask.Linq.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/UniTask.TextMeshPro.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniTask.TextMeshPro.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/UniTask.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniTask.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/ZString.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/ZString.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,6 +229,9 @@
       <option value="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/DatabaseStreamTest.cs" />
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/Database/DatabaseStream.cs" />
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/System/AssetSystem.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Event/MessageBroker.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Plugins/UniRx/Scripts/Notifiers/MessageBroker.cs" />
+      <option value="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/EventSystemTest.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1mGcpWGc6Z0UzqQm4gJFxdGM5v9" />
@@ -327,7 +291,7 @@
       <workItem from="1609125049755" duration="13406000" />
       <workItem from="1609144314914" duration="3820000" />
       <workItem from="1609191499044" duration="17352000" />
-      <workItem from="1609211169015" duration="24085000" />
+      <workItem from="1609211169015" duration="29305000" />
     </task>
     <servers />
   </component>

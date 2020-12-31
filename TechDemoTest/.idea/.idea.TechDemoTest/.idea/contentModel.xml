@@ -14,6 +14,7 @@
             <e p="AssetSystemTest.cs" t="Include" />
             <e p="DatabaseStreamTest.cs" t="Include" />
             <e p="DynamicDbBuilderTest.cs" t="Include" />
+            <e p="EventSystemTest.cs" t="Include" />
             <e p="LogManagerTest.cs" t="Include" />
             <e p="MemoryTest.cs" t="Include" />
             <e p="ResolverSerializationTest.cs" t="Include" />
