@@ -113,3 +113,5 @@ TODO:
 Cleaning, refactoring, and optimizing code.
 <br/> 
 Write Testing for features thus far and write test for future code structure
+<br/>
+Game Foundation will work with the in-memory database using the Game Foundation static properties (Resources asset). The binary file can be deserialized to contain images, string, int, bool, etc.... Deserialization and serialization with the in-memory database is very fast as well. 
