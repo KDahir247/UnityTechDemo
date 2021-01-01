@@ -329,3 +329,7 @@ C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoTest\obj\Debug\UniTask.
 C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoTest\obj\Debug\UniTask.Editor.csproj.CopyComplete
 C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoTest\obj\Debug\UniTask.Editor.dll
 C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoTest\obj\Debug\UniTask.Editor.pdb
+C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoTest\Temp\Bin\Debug\Unity.Analytics.Editor.dll
+C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoTest\Temp\Bin\Debug\Unity.Analytics.StandardEvents.dll
+C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoTest\Temp\Bin\Debug\Unity.Analytics.Tracker.dll
+C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoTest\Temp\Bin\Debug\UniTask.pdb

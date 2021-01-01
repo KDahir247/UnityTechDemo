@@ -17,28 +17,28 @@
 <tr><th>Class:</th><td>MasterMemory.ByteBufferWriter</td></tr>
 <tr><th>Assembly:</th><td>ProjectLogic</td></tr>
 <tr><th>File(s):</th><td><a href="#CUserskdahiOneDriveDocumentsUnityTechDemoTechDemoTestAssetsProjectPluginScriptsMasterMemoryInternalByteBufferWritercs" class="navigatetohash">C:/Users/kdahi/OneDrive/Documents/Unity/TechDemo/TechDemoTest/Assets/Project/PluginScripts/MasterMemory/Internal/ByteBufferWriter.cs</a></td></tr>
-<tr><th>Covered lines:</th><td>0</td></tr>
-<tr><th>Uncovered lines:</th><td>32</td></tr>
+<tr><th>Covered lines:</th><td>5</td></tr>
+<tr><th>Uncovered lines:</th><td>27</td></tr>
 <tr><th>Coverable lines:</th><td>32</td></tr>
 <tr><th>Total lines:</th><td>56</td></tr>
-<tr><th>Line coverage:</th><td>0% (0 of 32)</td></tr>
+<tr><th>Line coverage:</th><td>15.6% (5 of 32)</td></tr>
 <tr><th>Covered branches:</th><td>0</td></tr>
 <tr><th>Total branches:</th><td>0</td></tr>
 </tbody>
 </table>
 <h1>Coverage History</h1>
-<div class="historychart ct-chart" data-data="historyChartDataf083c39fbda14451948cc6fa9da99652"></div>
+<div class="historychart ct-chart" data-data="historyChartData9a3c2c550cf441899da171cba95a4c3b"></div>
 <script type="text/javascript">/* <![CDATA[ */ 
-var historyChartDataf083c39fbda14451948cc6fa9da99652 = {
-    "series" : [[0,62.5,0]],
-    "tooltips" : ['<h3>2020-12-28 - 4:21:53 PM</h3><br /><span class="linecoverage"></span> Line coverage: 0% (0/32)<br />Total lines: 56','<h3>2020-12-29 - 8:53:29 PM</h3><br /><span class="linecoverage"></span> Line coverage: 62.5% (20/32)<br />Total lines: 56','<h3>2020-12-30 - 6:42:50 PM</h3><br /><span class="linecoverage"></span> Line coverage: 0% (0/32)<br />Total lines: 56']
+var historyChartData9a3c2c550cf441899da171cba95a4c3b = {
+    "series" : [[0,62.5,0,15.6]],
+    "tooltips" : ['<h3>2020-12-28 - 7:14:52 PM</h3><br /><span class="linecoverage"></span> Line coverage: 0% (0/32)<br />Total lines: 56','<h3>2020-12-29 - 8:53:29 PM</h3><br /><span class="linecoverage"></span> Line coverage: 62.5% (20/32)<br />Total lines: 56','<h3>2020-12-30 - 6:42:50 PM</h3><br /><span class="linecoverage"></span> Line coverage: 0% (0/32)<br />Total lines: 56','<h3>2020-12-31 - 5:03:58 PM</h3><br /><span class="linecoverage"></span> Line coverage: 15.6% (5/32)<br />Total lines: 56']
 };
  /* ]]> */ </script>
 <h1>Metrics</h1>
 <table class="overview table-fixed">
 <thead><tr><th>Method</th><th>Branch coverage <a href="https://en.wikipedia.org/wiki/Code_coverage"><i class="icon-info-circled"></i></a></th><th>Crap Score <a href="https://googletesting.blogspot.de/2011/02/this-code-is-crap.html"><i class="icon-info-circled"></i></a></th><th>Cyclomatic complexity <a href="https://en.wikipedia.org/wiki/Cyclomatic_complexity"><i class="icon-info-circled"></i></a></th><th>NPath complexity <a href="https://modess.io/npath-complexity-cyclomatic-complexity-explained"><i class="icon-info-circled"></i></a></th><th>Sequence coverage <a href="https://en.wikipedia.org/wiki/Code_coverage"><i class="icon-info-circled"></i></a></th></tr></thead>
 <tbody>
-<tr><td title="MasterMemory.ByteBufferWriter::ByteBufferWriter()"><a href="#file0_line15" class="navigatetohash">ByteBufferWriter()</a></td><td>0%</td><td>2</td><td>1</td><td>0</td><td>0%</td></tr>
+<tr><td title="MasterMemory.ByteBufferWriter::ByteBufferWriter()"><a href="#file0_line15" class="navigatetohash">ByteBufferWriter()</a></td><td>0%</td><td>1</td><td>1</td><td>0</td><td>100%</td></tr>
 <tr><td title="System.Void MasterMemory.ByteBufferWriter::Advance(System.Int32)"><a href="#file0_line22" class="navigatetohash">Advance(...)</a></td><td>0%</td><td>2</td><td>1</td><td>0</td><td>0%</td></tr>
 <tr><td title="System.Memory[Byte] MasterMemory.ByteBufferWriter::GetMemory(System.Int32)"><a href="#file0_line27" class="navigatetohash">GetMemory(...)</a></td><td>0%</td><td>20</td><td>4</td><td>0</td><td>0%</td></tr>
 <tr><td title="System.Span[Byte] MasterMemory.ByteBufferWriter::GetSpan(System.Int32)"><a href="#file0_line52" class="navigatetohash">GetSpan(...)</a></td><td>0%</td><td>2</td><td>1</td><td>0</td><td>0%</td></tr>
@@ -63,11 +63,11 @@ var historyChartDataf083c39fbda14451948cc6fa9da99652 = {
 <tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line12"></a><code>12</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;ReadOnlySpan&lt;byte&gt;&nbsp;WrittenSpan&nbsp;=&gt;&nbsp;buffer.AsSpan(0,&nbsp;index);</code></td></tr>
 <tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line13"></a><code>13</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;ReadOnlyMemory&lt;byte&gt;&nbsp;WrittenMemory&nbsp;=&gt;&nbsp;new&nbsp;ReadOnlyMemory&lt;byte&gt;(buffer,&nbsp;0,&nbsp;index);</code></td></tr>
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line14"></a><code>14</code></td><td></td><td class="lightgray"><code></code></td></tr>
-<tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line15"></a><code>15</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;ByteBufferWriter()</code></td></tr>
-<tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line16"></a><code>16</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
-<tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line17"></a><code>17</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;buffer&nbsp;=&nbsp;new&nbsp;byte[1024];</code></td></tr>
-<tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line18"></a><code>18</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;index&nbsp;=&nbsp;0;</code></td></tr>
-<tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line19"></a><code>19</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
+<tr class="coverableline" title="Covered (1 visits)" data-coverage="{'AllTestMethods': {'VC': '1', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">1</td><td class="rightmargin right"><a id="file0_line15"></a><code>15</code></td><td></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;ByteBufferWriter()</code></td></tr>
+<tr class="coverableline" title="Covered (1 visits)" data-coverage="{'AllTestMethods': {'VC': '1', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">1</td><td class="rightmargin right"><a id="file0_line16"></a><code>16</code></td><td></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
+<tr class="coverableline" title="Covered (1 visits)" data-coverage="{'AllTestMethods': {'VC': '1', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">1</td><td class="rightmargin right"><a id="file0_line17"></a><code>17</code></td><td></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;buffer&nbsp;=&nbsp;new&nbsp;byte[1024];</code></td></tr>
+<tr class="coverableline" title="Covered (1 visits)" data-coverage="{'AllTestMethods': {'VC': '1', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">1</td><td class="rightmargin right"><a id="file0_line18"></a><code>18</code></td><td></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;index&nbsp;=&nbsp;0;</code></td></tr>
+<tr class="coverableline" title="Covered (1 visits)" data-coverage="{'AllTestMethods': {'VC': '1', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">1</td><td class="rightmargin right"><a id="file0_line19"></a><code>19</code></td><td></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line20"></a><code>20</code></td><td></td><td class="lightgray"><code></code></td></tr>
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line21"></a><code>21</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;void&nbsp;Advance(int&nbsp;count)</code></td></tr>
 <tr class="coverableline" title="Not covered (0 visits)" data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line22"></a><code>22</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
@@ -107,7 +107,7 @@ var historyChartDataf083c39fbda14451948cc6fa9da99652 = {
 <tr class="" title="Not coverable" data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line56"></a><code>56</code></td><td></td><td class="lightgray"><code>}</code></td></tr>
 </tbody>
 </table>
-<div class="footer">Generated by: ReportGenerator 4.7.1.0<br />2020-12-30 - 7:06:37 PM<br /><a href="https://github.com/danielpalme/ReportGenerator">GitHub</a> | <a href="http://www.palmmedia.de">www.palmmedia.de</a></div></div>
+<div class="footer">Generated by: ReportGenerator 4.7.1.0<br />2020-12-31 - 10:15:17 PM<br /><a href="https://github.com/danielpalme/ReportGenerator">GitHub</a> | <a href="http://www.palmmedia.de">www.palmmedia.de</a></div></div>
 <div class="containerright">
 <div class="containerrightfixed">
 <h1>Methods/Properties</h1>

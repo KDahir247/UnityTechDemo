@@ -6,29 +6,180 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6abb102-7c44-48ea-adde-dc287c5cfed8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/GameFoundation.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameFoundation/GameFoundationCatalog.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameFoundation/GameFoundationCatalog.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameFoundation/Resources.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameFoundation/Resources/GameFoundationCatalogSettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameFoundation/Resources/GameFoundationCatalogSettings.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/EventSystemTest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/EventSystemTest.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2020-12-30_18-42-50_CoverageHistory.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2020-12-30_18-43-24_CoverageHistory.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2020-12-30_18-44-19_CoverageHistory.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2020-12-30_18-44-51_CoverageHistory.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2020-12-30_18-45-47_CoverageHistory.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2020-12-30_18-48-07_CoverageHistory.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2020-12-30_18-49-12_CoverageHistory.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2020-12-30_18-51-23_CoverageHistory.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2020-12-30_18-53-15_CoverageHistory.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2020-12-30_18-59-38_CoverageHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GameFoundation/Resources/GameFoundationSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GameFoundation/Resources/GameFoundationSettings.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PerformanceTestLog/2020-12-31-wallet-system.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PerformanceTestLog/2020-12-31-wallet-system.csv.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/Core.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/GameFoundation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/GameFoundation/GameWalletTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/GameFoundation/GameWalletTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/CurrencySystem.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/CurrencySystem/GameWallet.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/CurrencySystem/GameWallet.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/DataFoundation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/DataFoundation.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/GameFoundation.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/GameFoundation.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/in-game-currency-data.bytes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/in-game-currency-data.bytes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/real-currency-data.bytes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/real-currency-data.bytes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/01 Inventory Basics.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/01 Inventory Basics/.sample.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/01 Inventory Basics/InventoryBasics.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/01 Inventory Basics/InventoryBasics.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/01 Inventory Basics/InventoryBasics.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/01 Inventory Basics/InventoryBasics.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/01 Inventory Basics/InventoryBasicsCatalog.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/01 Inventory Basics/InventoryBasicsCatalog.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/01 Inventory Basics/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/01 Inventory Basics/README.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/02a Stackable Inventory Items.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/02a Stackable Inventory Items/.sample.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/02a Stackable Inventory Items/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/02a Stackable Inventory Items/README.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/02a Stackable Inventory Items/StackableInventoryItem.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/02a Stackable Inventory Items/StackableInventoryItem.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/02a Stackable Inventory Items/StackableInventoryItemCatalog.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/02a Stackable Inventory Items/StackableInventoryItemCatalog.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/02a Stackable Inventory Items/StackableInventoryItemSample.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/02a Stackable Inventory Items/StackableInventoryItemSample.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/02b Inventory With Quantity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/02b Inventory With Quantity/.sample.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/02b Inventory With Quantity/InventoryWithQuantity.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/02b Inventory With Quantity/InventoryWithQuantity.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/02b Inventory With Quantity/InventoryWithQuantityCatalog.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/02b Inventory With Quantity/InventoryWithQuantityCatalog.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/02b Inventory With Quantity/InventoryWithQuantitySample.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/02b Inventory With Quantity/InventoryWithQuantitySample.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/02b Inventory With Quantity/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/02b Inventory With Quantity/README.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/03 Tags.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/03 Tags/.sample.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/03 Tags/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/03 Tags/README.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/03 Tags/Tags.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/03 Tags/Tags.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/03 Tags/TagsCatalog.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/03 Tags/TagsCatalog.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/03 Tags/TagsSample.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/03 Tags/TagsSample.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/04 Wallet.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/04 Wallet/.sample.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/04 Wallet/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/04 Wallet/README.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/04 Wallet/Wallet.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/04 Wallet/Wallet.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/04 Wallet/WalletCatalog.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/04 Wallet/WalletCatalog.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/04 Wallet/WalletSample.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/04 Wallet/WalletSample.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/05 Properties.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/05 Properties/.sample.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/05 Properties/Properties.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/05 Properties/Properties.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/05 Properties/PropertiesCatalog.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/05 Properties/PropertiesCatalog.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/05 Properties/PropertiesSample.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/05 Properties/PropertiesSample.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/05 Properties/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/05 Properties/README.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/06 Data Persistence.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/06 Data Persistence/.sample.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/06 Data Persistence/DataPersistence.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/06 Data Persistence/DataPersistence.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/06 Data Persistence/DataPersistenceCatalog.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/06 Data Persistence/DataPersistenceCatalog.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/06 Data Persistence/DataPersistenceSample.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/06 Data Persistence/DataPersistenceSample.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/06 Data Persistence/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/06 Data Persistence/README.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/07 Transactions.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/07 Transactions/.sample.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/07 Transactions/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/07 Transactions/README.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/07 Transactions/Transactions.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/07 Transactions/Transactions.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/07 Transactions/TransactionsCatalog.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/07 Transactions/TransactionsCatalog.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/07 Transactions/TransactionsSample.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/07 Transactions/TransactionsSample.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/09 Inventory Reset and Initial Allocation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/09 Inventory Reset and Initial Allocation/.sample.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/09 Inventory Reset and Initial Allocation/InventoryResetAndInitialAllocation.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/09 Inventory Reset and Initial Allocation/InventoryResetAndInitialAllocation.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/09 Inventory Reset and Initial Allocation/InventoryResetAndInitialAllocationCatalog.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/09 Inventory Reset and Initial Allocation/InventoryResetAndInitialAllocationCatalog.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/09 Inventory Reset and Initial Allocation/InventoryResetAndInitialAllocationSample.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/09 Inventory Reset and Initial Allocation/InventoryResetAndInitialAllocationSample.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/09 Inventory Reset and Initial Allocation/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/09 Inventory Reset and Initial Allocation/README.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/10 Item Lists.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/10 Item Lists/.sample.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/10 Item Lists/ItemLists.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/10 Item Lists/ItemLists.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/10 Item Lists/ItemListsCatalog.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/10 Item Lists/ItemListsCatalog.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/10 Item Lists/ItemListsSample.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/10 Item Lists/ItemListsSample.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/10 Item Lists/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/10 Item Lists/README.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2020-12-31_17-03-58_CoverageHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2020-12-31_17-04-32_CoverageHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2020-12-31_17-05-51_CoverageHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2020-12-31_17-11-19_CoverageHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2020-12-31_17-13-32_CoverageHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2020-12-31_17-17-23_CoverageHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2020-12-31_17-18-39_CoverageHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2020-12-31_17-21-57_CoverageHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2020-12-31_18-05-15_CoverageHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2020-12-31_18-07-06_CoverageHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2020-12-31_18-49-32_CoverageHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2020-12-31_18-56-44_CoverageHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2020-12-31_18-59-49_CoverageHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2020-12-31_21-11-46_CoverageHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2020-12-31_21-14-44_CoverageHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2020-12-31_21-26-46_CoverageHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2020-12-31_21-38-25_CoverageHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2020-12-31_21-47-13_CoverageHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2020-12-31_21-50-31_CoverageHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2020-12-31_22-08-51_CoverageHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2020-12-31_22-11-22_CoverageHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCoverage/TechDemoTest-opencov/TestCoverageResults_0000.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCoverage/TechDemoTest-opencov/TestCoverageResults_0002.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCoverage/TechDemoTest-opencov/TestCoverageResults_0003.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCoverage/TechDemoTest-opencov/TestCoverageResults_0004.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TechDemoTest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TechDemoTest/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TechDemoTest/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TechDemoTest/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TechDemoTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TechDemoTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameFoundation/GameFoundationCatalog.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameFoundation/GameFoundationCatalog.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PlaymodeTest/PlaymodeTest.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/PlaymodeTest.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Plugins/UniRx/Scripts/Notifiers/MessageBroker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Plugins/UniRx/Scripts/Notifiers/MessageBroker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/AssetSystemTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/Core/AssetSystemTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/AssetSystemTest.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/Core/AssetSystemTest.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/DatabaseStreamTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/Core/DatabaseStreamTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/DatabaseStreamTest.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/Core/DatabaseStreamTest.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/DynamicDbBuilderTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/Core/DynamicDbBuilderTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/DynamicDbBuilderTest.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/Core/DynamicDbBuilderTest.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/EventSystemTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/Core/EventSystemTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/EventSystemTest.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/Core/EventSystemTest.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/LogManagerTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/Core/LogManagerTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/LogManagerTest.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/Core/LogManagerTest.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/MemoryTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/Core/MemoryTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/MemoryTest.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/Core/MemoryTest.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/ResolverSerializationTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/Core/ResolverSerializationTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/ResolverSerializationTest.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/Core/ResolverSerializationTest.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/SceneSystemTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/Core/SceneSystemTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/SceneSystemTest.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/Core/SceneSystemTest.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/StaticDbBuilderTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/Core/StaticDbBuilderTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/StaticDbBuilderTest.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/Core/StaticDbBuilderTest.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/UnitaskBootstrapTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/Core/UnitaskBootstrapTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/UnitaskBootstrapTest.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/Core/UnitaskBootstrapTest.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/ProjectLogic.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/ProjectLogic.asmdef" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_AssetInfo.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_AssetSystem_T_.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_BinarySearch.html" beforeDir="false" />
@@ -142,22 +293,76 @@
       <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/main.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/report.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeCoverage/TechDemoTest-opencov/PlayMode/TestCoverageResults_0000.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/TechDemoTest-opencov/PlayMode/TestCoverageResults_0000.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker3.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/TechDemoTest-opencov/TestCoverageResults_0001.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/TechDemoTest-opencov/TestCoverageResults_0001.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/EditModeTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/EditModeTest.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/MagicOnion.Abstractions.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/MagicOnion.Abstractions.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/MagicOnion.Abstractions.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/MagicOnion.Abstractions.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/MagicOnion.Abstractions.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/MagicOnion.Abstractions.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/MagicOnion.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/MagicOnion.Abstractions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/MagicOnion.Client.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/MagicOnion.Client.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/MagicOnion.Client.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/MagicOnion.Client.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/MagicOnion.Client.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/MagicOnion.Client.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/MagicOnion.Client.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/MagicOnion.Client.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/MagicOnion.Unity.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/MagicOnion.Unity.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/MagicOnion.Unity.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/MagicOnion.Unity.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/MagicOnion.Unity.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/MagicOnion.Unity.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/MagicOnion.Unity.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/MagicOnion.Unity.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/MessagePack.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/MessagePack.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/MessagePack.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/MessagePack.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/PlaymodeTest.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PlaymodeTest.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/PlaymodeTest.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PlaymodeTest.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/PlaymodeTest.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PlaymodeTest.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/PlaymodeTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PlaymodeTest.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/ProjectLogic.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/ProjectLogic.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/ProjectLogic.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/ProjectLogic.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/ProjectLogic.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/ProjectLogic.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/ProjectLogic.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/ProjectLogic.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Ulid.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Ulid.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Ulid.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Ulid.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Ulid.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Ulid.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Ulid.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Ulid.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/UniRx.Examples.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniRx.Examples.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/UniRx.Examples.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniRx.Examples.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/UniRx.Examples.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniRx.Examples.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/UniRx.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniRx.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/UniRx.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniRx.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/UniRx.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniRx.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/UniRx.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniRx.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/UniTask.Addressables.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniTask.Addressables.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/UniTask.Addressables.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniTask.Addressables.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/UniTask.Addressables.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniTask.Addressables.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/UniTask.Addressables.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniTask.Addressables.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/UniTask.DOTween.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniTask.DOTween.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/UniTask.DOTween.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniTask.DOTween.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/UniTask.DOTween.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniTask.DOTween.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/UniTask.DOTween.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniTask.DOTween.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/UniTask.Editor.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniTask.Editor.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/UniTask.Editor.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniTask.Editor.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/UniTask.Editor.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniTask.Editor.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/UniTask.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniTask.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/UniTask.Linq.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniTask.Linq.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/UniTask.Linq.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniTask.Linq.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/UniTask.Linq.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniTask.Linq.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/UniTask.Linq.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniTask.Linq.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/UniTask.TextMeshPro.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniTask.TextMeshPro.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/UniTask.TextMeshPro.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniTask.TextMeshPro.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/UniTask.TextMeshPro.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniTask.TextMeshPro.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/UniTask.TextMeshPro.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniTask.TextMeshPro.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/UniTask.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniTask.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/UniTask.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniTask.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/UniTask.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniTask.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/UniTask.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniTask.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/ZLogger.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/ZLogger.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/ZLogger.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/ZLogger.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/ZLogger.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/ZLogger.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/ZLogger.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/ZLogger.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/ZString.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/ZString.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/ZString.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/ZString.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/ZString.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/ZString.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/ZString.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/ZString.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,23 +381,47 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/62FFEEB7-EC02-4BEA-B61E-5FBF8D44AC5B/48/f5ecac3a/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/72A7A657-B248-42DF-AA06-08148D643D1C/ee/1ca857fe/System.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/81481514-4B33-4AFD-BC72-FCC125EA773E/55/80dfa019/IDataAccessLayer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.16.15/Runtime/ResourceManager/ResourceProviders/IInstanceProvider.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Project/PluginScripts/ZLogger/ZLoggerExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E414E10B-FE5F-4572-9FF1-22F3359DE21B/c5/54196966/CustomYieldInstruction.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E414E10B-FE5F-4572-9FF1-22F3359DE21B/c6/b2e81b92/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.game-foundation@0.8.0-preview/DefaultLayers/Runtime/Persistence/LocalPersistence.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/Core/Build/ResolverInitialization.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/62FFEEB7-EC02-4BEA-B61E-5FBF8D44AC5B/18/defc6f95/Exception.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Project/PluginScripts/MasterMemory/Internal/InternStringResolver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.game-foundation@0.8.0-preview/DefaultLayers/Runtime/Persistence/IDataPersistence.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E414E10B-FE5F-4572-9FF1-22F3359DE21B/c8/1b077017/UnityEvent.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/81481514-4B33-4AFD-BC72-FCC125EA773E/ba/bd3cdcff/IWalletManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.16.15/Runtime/Addressables.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.game-foundation@0.8.0-preview/Core/Runtime/Properties/CatalogItem_StaticProperties.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.game-foundation@0.8.0-preview/Components/Runtime/GameFoundationInit.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E414E10B-FE5F-4572-9FF1-22F3359DE21B/19/e8e85367/WaitUntil.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.game-foundation@0.8.0-preview/Core/Runtime/Sdk/GameFoundationSdk.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.16.15/Runtime/ResourceManager/AsyncOperations/AsyncOperationHandle.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/62FFEEB7-EC02-4BEA-B61E-5FBF8D44AC5B/2d/c8b6564c/OperationCanceledException.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E414E10B-FE5F-4572-9FF1-22F3359DE21B/66/0afe47f5/Object.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.16.15/Runtime/ResourceManager/ResourceProviders/IInstanceProvider.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Project/PluginScripts/ZLogger/ZLoggerExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.game-foundation@0.8.0-preview/Core/Runtime/Catalog/Catalog.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E414E10B-FE5F-4572-9FF1-22F3359DE21B/23/95a10587/Vector2.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/Core/Build/ResolverInitialization.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/01 Inventory Basics/InventoryBasics.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E414E10B-FE5F-4572-9FF1-22F3359DE21B/35/5380cc7b/NativeArray`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.test-framework.performance@2.4.1-preview/Runtime/Measurements/MethodMeasurement.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Project/PluginScripts/MasterMemory/Internal/InternStringResolver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.game-foundation@0.8.0-preview/DefaultLayers/Runtime/PersistenceDataLayer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E414E10B-FE5F-4572-9FF1-22F3359DE21B/11/33af2eeb/Transform.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/62FFEEB7-EC02-4BEA-B61E-5FBF8D44AC5B/17/394b43c5/TypeInitializationException.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E414E10B-FE5F-4572-9FF1-22F3359DE21B/86/7e672d67/WaitWhile.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.game-foundation@0.8.0-preview/DefaultLayers/Runtime/Persistence/Json/JsonDataSerializer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E414E10B-FE5F-4572-9FF1-22F3359DE21B/3d/443824a9/Profiler.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.test-framework.performance@2.4.1-preview/Runtime/Attributes/PerformanceAttribute.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/ResolverSerializationTest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.16.15/Runtime/Addressables.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.test-framework@1.1.20/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.game-foundation@0.8.0-preview/Core/Runtime/Utils/GameFoundationDebug.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/Core/ResolverSerializationTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/848D7CE8-883C-402A-930E-4BCCAC6EE80E/3/FilterLoggingBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/62FFEEB7-EC02-4BEA-B61E-5FBF8D44AC5B/6f/28f5ade4/MemoryStream.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.game-foundation@0.8.0-preview/DefaultLayers/Runtime/BaseMemoryDataLayer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.game-foundation@0.8.0-preview/Promise/Runtime/Deferred.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -232,6 +461,15 @@
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/Event/MessageBroker.cs" />
       <option value="$PROJECT_DIR$/Assets/Project/Plugins/UniRx/Scripts/Notifiers/MessageBroker.cs" />
       <option value="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/EventSystemTest.cs" />
+      <option value="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/GameFoundation/temp.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/Instruction/WaitUntilEventFire.cs" />
+      <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.game-foundation@0.8.0-preview/Components/Runtime/GameFoundationInit.cs" />
+      <option value="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/06 Data Persistence/DataPersistenceSample.cs" />
+      <option value="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/04 Wallet/WalletSample.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/DataFoundation.cs" />
+      <option value="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/09 Inventory Reset and Initial Allocation/InventoryResetAndInitialAllocationSample.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/CurrencySystem/GameWallet.cs" />
+      <option value="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/GameFoundation/GameWalletTest.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1mGcpWGc6Z0UzqQm4gJFxdGM5v9" />
@@ -291,7 +529,14 @@
       <workItem from="1609125049755" duration="13406000" />
       <workItem from="1609144314914" duration="3820000" />
       <workItem from="1609191499044" duration="17352000" />
-      <workItem from="1609211169015" duration="29305000" />
+      <workItem from="1609211169015" duration="37086000" />
+      <workItem from="1609384853131" duration="514000" />
+      <workItem from="1609385389804" duration="980000" />
+      <workItem from="1609386389786" duration="86000" />
+      <workItem from="1609386490532" duration="8928000" />
+      <workItem from="1609454648309" duration="1683000" />
+      <workItem from="1609456577092" duration="11411000" />
+      <workItem from="1609471537651" duration="2944000" />
     </task>
     <servers />
   </component>

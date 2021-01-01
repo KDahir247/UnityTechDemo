@@ -1,35 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CoverageReport scope="Summary">
   <Summary>
-    <Generatedon>2020-12-30 - 7:06:43 PM</Generatedon>
-    <Parser>MultiReportParser (2x OpenCoverParser)</Parser>
+    <Generatedon>2020-12-31 - 10:15:24 PM</Generatedon>
+    <Parser>MultiReportParser (6x OpenCoverParser)</Parser>
     <Assemblies>1</Assemblies>
-    <Classes>72</Classes>
-    <Files>37</Files>
-    <Coveredlines>31</Coveredlines>
-    <Uncoveredlines>2867</Uncoveredlines>
-    <Coverablelines>2898</Coverablelines>
-    <Totallines>4919</Totallines>
-    <Linecoverage>1</Linecoverage>
+    <Classes>74</Classes>
+    <Files>39</Files>
+    <Coveredlines>142</Coveredlines>
+    <Uncoveredlines>2829</Uncoveredlines>
+    <Coverablelines>2971</Coverablelines>
+    <Totallines>5075</Totallines>
+    <Linecoverage>4.7</Linecoverage>
     <Coveredbranches>0</Coveredbranches>
     <Totalbranches>0</Totalbranches>
   </Summary>
   <Coverage>
-    <Assembly name="ProjectLogic" classes="72" coverage="1" coveredlines="31" coverablelines="2898" totallines="50633" branchcoverage="" coveredbranches="0" totalbranches="0">
-      <Class name="AssetInfo" coverage="66.6" coveredlines="4" coverablelines="6" totallines="67" branchcoverage="" coveredbranches="0" totalbranches="0" />
-      <Class name="AssetSystem[T]" coverage="81.4" coveredlines="22" coverablelines="27" totallines="67" branchcoverage="" coveredbranches="0" totalbranches="0" />
-      <Class name="DatabaseStream" coverage="0" coveredlines="0" coverablelines="18" totallines="46" branchcoverage="" coveredbranches="0" totalbranches="0" />
+    <Assembly name="ProjectLogic" classes="74" coverage="4.7" coveredlines="142" coverablelines="2971" totallines="50789" branchcoverage="" coveredbranches="0" totalbranches="0">
+      <Class name="AssetInfo" coverage="0" coveredlines="0" coverablelines="4" totallines="67" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="AssetSystem[T]" coverage="0" coveredlines="0" coverablelines="21" totallines="67" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="DatabaseStream" coverage="38.8" coveredlines="7" coverablelines="18" totallines="46" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="DataFoundation" coverage="61.5" coveredlines="8" coverablelines="13" totallines="50" branchcoverage="" coveredbranches="0" totalbranches="0" />
       <Class name="DynamicDbBuilder" coverage="0" coveredlines="0" coverablelines="25" totallines="51" branchcoverage="" coveredbranches="0" totalbranches="0" />
-      <Class name="LogManager" coverage="0" coveredlines="0" coverablelines="32" totallines="52" branchcoverage="" coveredbranches="0" totalbranches="0" />
-      <Class name="MasterData.DatabaseBuilder" coverage="0" coveredlines="0" coverablelines="6" totallines="24" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GameWallet" coverage="88.5" coveredlines="77" coverablelines="87" totallines="106" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="LogManager" coverage="69.2" coveredlines="18" coverablelines="26" totallines="52" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="MasterData.DatabaseBuilder" coverage="16.6" coveredlines="1" coverablelines="6" totallines="24" branchcoverage="" coveredbranches="0" totalbranches="0" />
       <Class name="MasterData.ImmutableBuilder" coverage="0" coveredlines="0" coverablelines="24" totallines="59" branchcoverage="" coveredbranches="0" totalbranches="0" />
-      <Class name="MasterData.MasterMemoryResolver" coverage="0" coveredlines="0" coverablelines="7" totallines="65" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="MasterData.MasterMemoryResolver" coverage="57.1" coveredlines="4" coverablelines="7" totallines="65" branchcoverage="" coveredbranches="0" totalbranches="0" />
       <Class name="MasterData.MasterMemoryResolverFormatterCache[T]" coverage="0" coveredlines="0" coverablelines="7" totallines="65" branchcoverage="" coveredbranches="0" totalbranches="0" />
       <Class name="MasterData.MasterMemoryResolverGetFormatterHelper" coverage="0" coveredlines="0" coverablelines="9" totallines="65" branchcoverage="" coveredbranches="0" totalbranches="0" />
       <Class name="MasterData.MemoryDatabase" coverage="0" coveredlines="0" coverablelines="43" totallines="91" branchcoverage="" coveredbranches="0" totalbranches="0" />
       <Class name="MasterData.Tables.TestTableTable" coverage="0" coveredlines="0" coverablelines="39" totallines="98" branchcoverage="" coveredbranches="0" totalbranches="0" />
-      <Class name="MasterMemory.ByteBufferWriter" coverage="0" coveredlines="0" coverablelines="32" totallines="56" branchcoverage="" coveredbranches="0" totalbranches="0" />
-      <Class name="MasterMemory.DatabaseBuilderBase" coverage="0" coveredlines="0" coverablelines="67" totallines="122" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="MasterMemory.ByteBufferWriter" coverage="15.6" coveredlines="5" coverablelines="32" totallines="56" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="MasterMemory.DatabaseBuilderBase" coverage="10.4" coveredlines="7" coverablelines="67" totallines="122" branchcoverage="" coveredbranches="0" totalbranches="0" />
       <Class name="MasterMemory.ImmutableBuilderBase" coverage="0" coveredlines="0" coverablelines="57" totallines="79" branchcoverage="" coveredbranches="0" totalbranches="0" />
       <Class name="MasterMemory.Internal.BinarySearch" coverage="0" coveredlines="0" coverablelines="134" totallines="220" branchcoverage="" coveredbranches="0" totalbranches="0" />
       <Class name="MasterMemory.Internal.ExpandableArray[TElement]" coverage="0" coveredlines="0" coverablelines="15" totallines="29" branchcoverage="" coveredbranches="0" totalbranches="0" />
@@ -78,12 +80,12 @@
       <Class name="MessagePack.Formatters.MagicOnion.DynamicArgumentTupleFormatter[T1,T2,T3]" coverage="0" coveredlines="0" coverablelines="34" totallines="2027" branchcoverage="" coveredbranches="0" totalbranches="0" />
       <Class name="MessagePack.Formatters.MagicOnion.DynamicArgumentTupleFormatter[T1,T2]" coverage="0" coveredlines="0" coverablelines="30" totallines="2027" branchcoverage="" coveredbranches="0" totalbranches="0" />
       <Class name="MessagePack.Formatters.TestTableFormatter" coverage="0" coveredlines="0" coverablelines="49" totallines="2027" branchcoverage="" coveredbranches="0" totalbranches="0" />
-      <Class name="MessagePack.Resolvers.GeneratedResolver" coverage="0" coveredlines="0" coverablelines="7" totallines="2027" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="MessagePack.Resolvers.GeneratedResolver" coverage="57.1" coveredlines="4" coverablelines="7" totallines="2027" branchcoverage="" coveredbranches="0" totalbranches="0" />
       <Class name="MessagePack.Resolvers.GeneratedResolverFormatterCache[T]" coverage="0" coveredlines="0" coverablelines="7" totallines="2027" branchcoverage="" coveredbranches="0" totalbranches="0" />
       <Class name="MessagePack.Resolvers.GeneratedResolverGetFormatterHelper" coverage="0" coveredlines="0" coverablelines="11" totallines="2027" branchcoverage="" coveredbranches="0" totalbranches="0" />
-      <Class name="ResolverInitialization" coverage="57.1" coveredlines="4" coverablelines="7" totallines="30" branchcoverage="" coveredbranches="0" totalbranches="0" />
-      <Class name="SceneSystem" coverage="0" coveredlines="0" coverablelines="28" totallines="40" branchcoverage="" coveredbranches="0" totalbranches="0" />
-      <Class name="StaticDbBuilder" coverage="0" coveredlines="0" coverablelines="23" totallines="46" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="ResolverInitialization" coverage="100" coveredlines="4" coverablelines="4" totallines="30" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="SceneSystem" coverage="0" coveredlines="0" coverablelines="18" totallines="40" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="StaticDbBuilder" coverage="26" coveredlines="6" coverablelines="23" totallines="46" branchcoverage="" coveredbranches="0" totalbranches="0" />
       <Class name="TestTable" coverage="0" coveredlines="0" coverablelines="6" totallines="19" branchcoverage="" coveredbranches="0" totalbranches="0" />
       <Class name="UlidMessagePackFormatter" coverage="0" coveredlines="0" coverablelines="16" totallines="32" branchcoverage="" coveredbranches="0" totalbranches="0" />
       <Class name="UlidMessagePackResolver" coverage="25" coveredlines="1" coverablelines="4" totallines="24" branchcoverage="" coveredbranches="0" totalbranches="0" />

@@ -33,6 +33,28 @@ MonoBehaviour:
   m_TagCatalog: {fileID: 3967499670523158661}
   m_Items:
   - {fileID: -1469751966687740235}
+  - {fileID: 1760862116340567064}
+  - {fileID: 5140671113859417450}
+--- !u!114 &1760862116340567064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6736b79f77dc474c8bc820c305c2c2e, type: 3}
+  m_Name: Currency_realMoney
+  m_EditorClassIdentifier: 
+  m_DisplayName: RealMoney
+  m_Key: realMoney
+  m_Tags: []
+  m_StaticPropertyKeys: []
+  m_StaticPropertyValues: []
+  m_InitialBalance: 500
+  m_MaximumBalance: 0
+  m_Type: 0
 --- !u!114 &3967499670523158661
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47,3 +69,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Tags: []
   m_CatalogAsset: {fileID: 11400000}
+--- !u!114 &5140671113859417450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6736b79f77dc474c8bc820c305c2c2e, type: 3}
+  m_Name: Currency_fakeMoney
+  m_EditorClassIdentifier: 
+  m_DisplayName: FakeMoney
+  m_Key: fakeMoney
+  m_Tags: []
+  m_StaticPropertyKeys: []
+  m_StaticPropertyValues: []
+  m_InitialBalance: 10000
+  m_MaximumBalance: 0
+  m_Type: 0

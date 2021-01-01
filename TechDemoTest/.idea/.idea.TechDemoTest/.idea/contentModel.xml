@@ -4,6 +4,7 @@
     <e p="C:\Users\kdahi\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
     <e p="C:\Users\kdahi\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_TechDemoTest.803230570.00" t="ExcludeRecursive" />
     <e p="C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoTest" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="PlaymodeTest" t="Include">
           <e p="EditModeTest" t="Include">
@@ -11,16 +12,21 @@
           </e>
           <e p="PlaymodeTest.asmdef" t="Include" />
           <e p="UnitTest" t="Include">
-            <e p="AssetSystemTest.cs" t="Include" />
-            <e p="DatabaseStreamTest.cs" t="Include" />
-            <e p="DynamicDbBuilderTest.cs" t="Include" />
-            <e p="EventSystemTest.cs" t="Include" />
-            <e p="LogManagerTest.cs" t="Include" />
-            <e p="MemoryTest.cs" t="Include" />
-            <e p="ResolverSerializationTest.cs" t="Include" />
-            <e p="SceneSystemTest.cs" t="Include" />
-            <e p="StaticDbBuilderTest.cs" t="Include" />
-            <e p="UnitaskBootstrapTest.cs" t="Include" />
+            <e p="Core" t="Include">
+              <e p="AssetSystemTest.cs" t="Include" />
+              <e p="DatabaseStreamTest.cs" t="Include" />
+              <e p="DynamicDbBuilderTest.cs" t="Include" />
+              <e p="EventSystemTest.cs" t="Include" />
+              <e p="LogManagerTest.cs" t="Include" />
+              <e p="MemoryTest.cs" t="Include" />
+              <e p="ResolverSerializationTest.cs" t="Include" />
+              <e p="SceneSystemTest.cs" t="Include" />
+              <e p="StaticDbBuilderTest.cs" t="Include" />
+              <e p="UnitaskBootstrapTest.cs" t="Include" />
+            </e>
+            <e p="GameFoundation" t="Include">
+              <e p="GameWalletTest.cs" t="Include" />
+            </e>
           </e>
         </e>
         <e p="Project" t="Include">
@@ -846,6 +852,12 @@
                 <e p="TestTable.cs" t="Include" />
               </e>
             </e>
+            <e p="GameFoundation" t="Include">
+              <e p="CurrencySystem" t="Include">
+                <e p="GameWallet.cs" t="Include" />
+              </e>
+              <e p="DataFoundation.cs" t="Include" />
+            </e>
             <e p="Generated" t="Include">
               <e p="DatabaseBuilder.cs" t="Include" />
               <e p="ImmutableBuilder.cs" t="Include" />
@@ -854,6 +866,42 @@
               <e p="MessagePack.Generated.cs" t="Include" />
               <e p="Tables" t="Include">
                 <e p="TestTableTable.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Samples" t="Include">
+          <e p="Game Foundation" t="Include">
+            <e p="0.8.0-preview" t="Include">
+              <e p="01 Inventory Basics" t="Include">
+                <e p="InventoryBasics.cs" t="Include" />
+              </e>
+              <e p="02a Stackable Inventory Items" t="Include">
+                <e p="StackableInventoryItemSample.cs" t="Include" />
+              </e>
+              <e p="02b Inventory With Quantity" t="Include">
+                <e p="InventoryWithQuantitySample.cs" t="Include" />
+              </e>
+              <e p="03 Tags" t="Include">
+                <e p="TagsSample.cs" t="Include" />
+              </e>
+              <e p="04 Wallet" t="Include">
+                <e p="WalletSample.cs" t="Include" />
+              </e>
+              <e p="05 Properties" t="Include">
+                <e p="PropertiesSample.cs" t="Include" />
+              </e>
+              <e p="06 Data Persistence" t="Include">
+                <e p="DataPersistenceSample.cs" t="Include" />
+              </e>
+              <e p="07 Transactions" t="Include">
+                <e p="TransactionsSample.cs" t="Include" />
+              </e>
+              <e p="09 Inventory Reset and Initial Allocation" t="Include">
+                <e p="InventoryResetAndInitialAllocationSample.cs" t="Include" />
+              </e>
+              <e p="10 Item Lists" t="Include">
+                <e p="ItemListsSample.cs" t="Include" />
               </e>
             </e>
           </e>
