@@ -25,6 +25,7 @@
               <e p="UnitaskBootstrapTest.cs" t="Include" />
             </e>
             <e p="GameFoundation" t="Include">
+              <e p="GameInventoryTest.cs" t="Include" />
               <e p="GameWalletTest.cs" t="Include" />
             </e>
           </e>
@@ -857,6 +858,9 @@
                 <e p="GameWallet.cs" t="Include" />
               </e>
               <e p="DataFoundation.cs" t="Include" />
+              <e p="InventorySystem" t="Include">
+                <e p="GameInventory.cs" t="Include" />
+              </e>
             </e>
             <e p="Generated" t="Include">
               <e p="DatabaseBuilder.cs" t="Include" />

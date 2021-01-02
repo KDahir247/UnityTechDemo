@@ -5,7 +5,7 @@ using ZLogger;
 
 namespace Tech.Test
 {
-    public class LogManagerTest
+    public sealed class LogManagerTest
     {
         private static readonly ILogger<LogManagerTest> Logger = LogManager.GetLogger<LogManagerTest>();
 
@@ -58,15 +58,13 @@ namespace Tech.Test
         [Performance]
         public void LogManagerGCCallTestSimplePasses()
         {
-            Assert.DoesNotThrow(() =>
-            {
-                Measure.Method(() => Logger.Log(LogLevel.Trace, "Going to log a lot to get the GC call"))
-                    .WarmupCount(5)
-                    .IterationsPerMeasurement(20)
-                    .MeasurementCount(9)
-                    .GC()
-                    .Run();
-            });
+            Assert.DoesNotThrow(() => Measure
+                .Method(() => Logger.Log(LogLevel.Trace, "Going to log a lot to get the GC call"))
+                .WarmupCount(5)
+                .IterationsPerMeasurement(20)
+                .MeasurementCount(9)
+                .GC()
+                .Run());
         }
 
 

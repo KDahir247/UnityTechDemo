@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90e5146b5fb874497b95d324a29c92ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_DataLayerType: 1
+  m_DataLayerType: 0
   m_LocalPersistenceFilename: TestCurrency
   m_CatalogAsset: {fileID: 11400000, guid: c2d6cccac9ca0e849aae8183e20e99c7, type: 2}
   m_OverrideCatalogAsset: 1

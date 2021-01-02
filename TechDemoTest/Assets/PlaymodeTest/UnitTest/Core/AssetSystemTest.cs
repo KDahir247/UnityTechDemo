@@ -12,18 +12,18 @@ namespace Tech.Test
 {
     public sealed class AssetSystemTest
     {
-        private readonly List<GameObject> entityContainerLoop = new List<GameObject>(1);
+        private readonly List<GameObject> _entityContainerLoop = new List<GameObject>(1);
+
+
+        private AssetInfo _assetInfo;
         private AssetSystem<GameObject> _assetSystem;
         private AssetSystem<GameObject> _assetSystemCanceled;
-
-
-        private AssetInfo assetInfo;
 
         [SetUp]
         public void AssetSystemSetUp()
         {
             _assetSystem = new AssetSystem<GameObject>(CancellationToken.None);
-            assetInfo = new AssetInfo("Cube", new InstantiationParameters(Vector3.zero, Quaternion.identity, null));
+            _assetInfo = new AssetInfo("Cube", new InstantiationParameters(Vector3.zero, Quaternion.identity, null));
 
             var cts = new CancellationTokenSource();
 
@@ -42,7 +42,7 @@ namespace Tech.Test
             {
                 using (Measure.Scope("Loading Asset Canceled"))
                 {
-                    _assetSystemCanceled.LoadAsset(assetInfo, entityContainer);
+                    _assetSystemCanceled.LoadAsset(_assetInfo, entityContainer);
                 }
             });
         }
@@ -60,7 +60,7 @@ namespace Tech.Test
             //Multiple Instantiation average of 10 instantiation call
             Assert.DoesNotThrow(() =>
                 Measure
-                    .Method(() => _assetSystem.LoadAsset(assetInfo, entityContainerLoop))
+                    .Method(() => _assetSystem.LoadAsset(_assetInfo, _entityContainerLoop))
                     .WarmupCount(5)
                     .IterationsPerMeasurement(20)
                     .MeasurementCount(10)
@@ -70,7 +70,7 @@ namespace Tech.Test
                     {
                         using (Measure.Scope("Unloading All Asset"))
                         {
-                            _assetSystem.UnloadAllAsset(entityContainerLoop);
+                            _assetSystem.UnloadAllAsset(_entityContainerLoop);
                         }
                     })
                     .Run());

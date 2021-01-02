@@ -7,7 +7,7 @@ using UnityEngine.TestTools;
 
 namespace Tech.Test
 {
-    public class EventSystemTest
+    public sealed class EventSystemTest
     {
         [Test]
         [Performance]

@@ -8,28 +8,28 @@ using UnityEngine;
 
 namespace Tech.Test
 {
-    public class DynamicDbBuilderTest
+    public sealed class DynamicDbBuilderTest
     {
-        private DynamicDbBuilder dynamicBuilder;
-        private DynamicDbBuilder notCorrectlySetUpBuilder;
-        private Mock<IStream> streamMock;
+        private DynamicDbBuilder _dynamicBuilder;
+        private DynamicDbBuilder _notCorrectlySetUpBuilder;
+        private Mock<IStream> _streamMock;
 
         [SetUp]
         public void DynamicDbBuilderSetUp()
         {
-            streamMock = new Mock<IStream>();
+            _streamMock = new Mock<IStream>();
 
-            streamMock.Setup(stream => stream.Builder)
+            _streamMock.Setup(stream => stream.Builder)
                 .Returns(new DatabaseBuilder(StaticCompositeResolver.Instance));
 
-            streamMock.Setup(stream => stream.TryGetDatabase(It.IsAny<FileDestination>()))
+            _streamMock.Setup(stream => stream.TryGetDatabase(It.IsAny<FileDestination>()))
                 .Returns(new MemoryDatabase(Resources.Load<TextAsset>("test-data").bytes));
 
-            streamMock.Setup(stream => stream.GetDatabaseFileName(It.IsAny<FileDestination>()))
+            _streamMock.Setup(stream => stream.GetDatabaseFileName(It.IsAny<FileDestination>()))
                 .Returns("test-data");
 
-            dynamicBuilder = new DynamicDbBuilder(streamMock.Object);
-            notCorrectlySetUpBuilder = new DynamicDbBuilder(null);
+            _dynamicBuilder = new DynamicDbBuilder(_streamMock.Object);
+            _notCorrectlySetUpBuilder = new DynamicDbBuilder(null);
         }
 
         [Test]
@@ -41,16 +41,16 @@ namespace Tech.Test
             {
                 using (Measure.Scope())
                 {
-                    dynamicBuilder.DynamicallyMutateDatabase(FileDestination.TestDestination, builder =>
+                    _dynamicBuilder.DynamicallyMutateDatabase(FileDestination.TestDestination, builder =>
                     {
-                        builder.Diff(new TestTable[1]
+                        builder.Diff(new[]
                         {
                             new TestTable {Index = 5, Name = "AddedName"}
                         });
                         return builder;
                     });
 
-                    await dynamicBuilder.BuildToDatabaseAsync();
+                    await _dynamicBuilder.BuildToDatabaseAsync();
                 }
             });
         }
@@ -58,7 +58,7 @@ namespace Tech.Test
         [Test]
         public void DynamicDbBuilderQueryTestSimplePasses()
         {
-            var memoryDatabase = streamMock.Object.TryGetDatabase(FileDestination.TestDestination);
+            var memoryDatabase = _streamMock.Object.TryGetDatabase(FileDestination.TestDestination);
 
             Assert.IsNotNull(memoryDatabase);
             Assert.AreEqual(memoryDatabase.TestTableTable.All.Count, 3);
@@ -71,7 +71,7 @@ namespace Tech.Test
         public void DynamicDbExceptionHandleTestSimplePasses()
         {
             Assert.Throws<NullReferenceException>(() =>
-                notCorrectlySetUpBuilder.DynamicallyMutateDatabase(FileDestination.TestDestination,
+                _notCorrectlySetUpBuilder.DynamicallyMutateDatabase(FileDestination.TestDestination,
                     immutableBuilder => immutableBuilder));
         }
     }

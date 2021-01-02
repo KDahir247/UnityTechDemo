@@ -1,0 +1,6 @@
+Index, Test Name, Version, SampleGroup Name, Unit, IncreaseIsBetter, Min, Max, Median, Average, StandardDeviation, Sum, Values, 
+0,"Tech.Test.GameInventoryTest.GameInventoryAddTestSimplePasses",1,"Adding Inventory.GC()","Undefined",False,5,5.3,5.02,5.06,0.0898888202169769,50.6,5.3,5.1,5,5.1,5,5,5.02,5,5.08,5,
+1,"Tech.Test.GameInventoryTest.GameInventoryAddTestSimplePasses",1,"Adding Inventory","Millisecond",False,0.00902600000000007,0.0428320000000002,0.02642,0.0250124,0.0108234339393744,0.250124,0.00902600000000007,0.0116079999999999,0.0152919999999997,0.019736,0.0222999999999999,0.02642,0.030804,0.033852,0.038254,0.0428320000000002,
+2,"Tech.Test.GameInventoryTest.GameInventoryRemove1TestSimplePasses",1,"Removing Inventory.GC()","Undefined",False,1,1,1,1,0,10,1,1,1,1,1,1,1,1,1,1,
+3,"Tech.Test.GameInventoryTest.GameInventoryRemove1TestSimplePasses",1,"Removing Inventory","Millisecond",False,0.058475,0.092995,0.079215,0.0756955000000001,0.0108332768472885,0.756955000000001,0.092995,0.089095,0.081935,0.0821300000000001,0.079215,0.0748549999999995,0.0679900000000004,0.0684700000000007,0.0617950000000008,0.058475,
+4,"Tech.Test.GameInventoryTest.GameInventoryRemove2AllTestSimplePasses",1,"Removing all inventory","Millisecond",False,6.5274,6.5274,6.5274,6.5274,0,6.5274,6.5274,

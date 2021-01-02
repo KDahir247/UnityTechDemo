@@ -8,9 +8,15 @@ using UnityEngine.Promise;
 
 public abstract class DataFoundation : IDisposable
 {
+    protected DataFoundation()
+    {
+        if (!GameFoundationSdk.IsInitialized)
+            throw new Exception("Game Wallet requires GameFoundation to be initialized");
+    }
+
     public abstract void Dispose();
-    public abstract void SubscribeToGameFoundationEvent();
-    public abstract void UnSubscribeToGameFoundationEvent();
+    protected abstract void SubscribeToGameFoundationEvent();
+    protected abstract void UnSubscribeToGameFoundationEvent();
 
     public void Save()
     {

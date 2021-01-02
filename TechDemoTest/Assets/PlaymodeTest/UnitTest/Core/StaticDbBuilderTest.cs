@@ -7,25 +7,25 @@ using Unity.PerformanceTesting;
 
 namespace Tech.Test
 {
-    public class StaticDbBuilderTest
+    public sealed class StaticDbBuilderTest
     {
-        private StaticDbBuilder notCorrectlySetUpBuilder;
-        private StaticDbBuilder staticDbBuilder;
-        private Mock<IStream> streamMock;
+        private StaticDbBuilder _notCorrectlySetUpBuilder;
+        private StaticDbBuilder _staticDbBuilder;
+        private Mock<IStream> _streamMock;
 
         [SetUp]
         public void StaticDbBuilderSetUp()
         {
-            streamMock = new Mock<IStream>();
+            _streamMock = new Mock<IStream>();
 
-            streamMock.Setup(stream => stream.Builder)
+            _streamMock.Setup(stream => stream.Builder)
                 .Returns(new DatabaseBuilder(StaticCompositeResolver.Instance));
 
-            streamMock.Setup(stream => stream.GetDatabaseFileName(It.IsAny<FileDestination>()))
+            _streamMock.Setup(stream => stream.GetDatabaseFileName(It.IsAny<FileDestination>()))
                 .Returns("test-data");
 
-            staticDbBuilder = new StaticDbBuilder(streamMock.Object);
-            notCorrectlySetUpBuilder = new StaticDbBuilder(null);
+            _staticDbBuilder = new StaticDbBuilder(_streamMock.Object);
+            _notCorrectlySetUpBuilder = new StaticDbBuilder(null);
         }
 
         [Test]
@@ -36,7 +36,7 @@ namespace Tech.Test
             {
                 using (Measure.Scope())
                 {
-                    staticDbBuilder.StaticallyMutateDatabase(FileDestination.TestDestination, builder =>
+                    _staticDbBuilder.StaticallyMutateDatabase(FileDestination.TestDestination, builder =>
                     {
                         builder.Append(new TestTable[2]
                         {
@@ -47,9 +47,9 @@ namespace Tech.Test
                         return builder;
                     });
 
-                    await staticDbBuilder.BuildToDatabaseAsync();
+                    await _staticDbBuilder.BuildToDatabaseAsync();
 
-                    var memoryDatabaseTest = streamMock.Object.TryGetDatabase(FileDestination.TestDestination);
+                    var memoryDatabaseTest = _streamMock.Object.TryGetDatabase(FileDestination.TestDestination);
 
                     Assert.IsNotNull(memoryDatabaseTest);
 
@@ -68,7 +68,7 @@ namespace Tech.Test
         public void StaticDbBuilderExceptionHandleTestSimplePasses()
         {
             Assert.Throws<NullReferenceException>(() =>
-                notCorrectlySetUpBuilder.StaticallyMutateDatabase(FileDestination.TestDestination,
+                _notCorrectlySetUpBuilder.StaticallyMutateDatabase(FileDestination.TestDestination,
                     builder => builder));
         }
     }

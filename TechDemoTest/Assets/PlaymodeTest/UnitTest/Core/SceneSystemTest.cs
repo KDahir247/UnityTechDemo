@@ -8,17 +8,17 @@ namespace Tech.Test
 {
     public sealed class SceneSystemTest
     {
+        private CancellationTokenSource _cts;
         private SceneSystem _sceneCanceledSystem;
         private SceneSystem _sceneSystem;
-        private CancellationTokenSource cts;
 
         [SetUp]
         public void SceneSystemSetUp()
         {
             _sceneSystem = new SceneSystem(CancellationToken.None);
-            cts = new CancellationTokenSource();
-            cts.Cancel();
-            _sceneCanceledSystem = new SceneSystem(cts.Token);
+            _cts = new CancellationTokenSource();
+            _cts.Cancel();
+            _sceneCanceledSystem = new SceneSystem(_cts.Token);
         }
 
         [Test]

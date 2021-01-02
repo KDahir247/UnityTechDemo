@@ -35,6 +35,8 @@ MonoBehaviour:
   - {fileID: -1469751966687740235}
   - {fileID: 1760862116340567064}
   - {fileID: 5140671113859417450}
+  - {fileID: 3025235883741061648}
+  - {fileID: 3446151196462951989}
 --- !u!114 &1760862116340567064
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55,6 +57,50 @@ MonoBehaviour:
   m_InitialBalance: 500
   m_MaximumBalance: 0
   m_Type: 0
+--- !u!114 &3025235883741061648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcbd052539327467295d2009d33aa660, type: 3}
+  m_Name: Item_rock
+  m_EditorClassIdentifier: 
+  m_DisplayName: Rock
+  m_Key: rock
+  m_Tags: []
+  m_StaticPropertyKeys: []
+  m_StaticPropertyValues: []
+  m_InitialAllocation: 1
+  m_IsStackableFlag: 0
+  m_InitialQuantityPerStack: 1
+  m_MutablePropertyKeys: []
+  m_MutablePropertyDefaultValues: []
+--- !u!114 &3446151196462951989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcbd052539327467295d2009d33aa660, type: 3}
+  m_Name: Item_paper
+  m_EditorClassIdentifier: 
+  m_DisplayName: Paper
+  m_Key: paper
+  m_Tags: []
+  m_StaticPropertyKeys: []
+  m_StaticPropertyValues: []
+  m_InitialAllocation: 1
+  m_IsStackableFlag: 0
+  m_InitialQuantityPerStack: 1
+  m_MutablePropertyKeys: []
+  m_MutablePropertyDefaultValues: []
 --- !u!114 &3967499670523158661
 MonoBehaviour:
   m_ObjectHideFlags: 0

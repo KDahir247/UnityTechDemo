@@ -6,12 +6,12 @@ namespace Tech.Test
 {
     public sealed class DatabaseStreamTest
     {
-        private DatabaseStream stream;
+        private DatabaseStream _stream;
 
         [SetUp]
         public void DatabaseStreamSetUp()
         {
-            stream = new DatabaseStream();
+            _stream = new DatabaseStream();
         }
 
         [Test]
@@ -19,14 +19,14 @@ namespace Tech.Test
         public void DatabaseStreamTryLoadDatabaseTestSimplePasses()
         {
             // Use the Assert class to test conditions.
-            Assert.DoesNotThrow(() => Measure.Method(() => stream.TryGetDatabase(FileDestination.TestDestination))
+            Assert.DoesNotThrow(() => Measure.Method(() => _stream.TryGetDatabase(FileDestination.TestDestination))
                 .WarmupCount(5)
                 .IterationsPerMeasurement(50)
                 .MeasurementCount(20)
                 .GC()
                 .Run());
 
-            Assert.Throws<NullReferenceException>(() => stream.TryGetDatabase(FileDestination.None));
+            Assert.Throws<NullReferenceException>(() => _stream.TryGetDatabase(FileDestination.None));
         }
 
         [Test]
@@ -35,16 +35,16 @@ namespace Tech.Test
         {
             Assert.DoesNotThrow(() =>
             {
-                Measure.Method(() => stream.GetDatabaseFileName(FileDestination.TestDestination))
+                Measure.Method(() => _stream.GetDatabaseFileName(FileDestination.TestDestination))
                     .WarmupCount(5)
                     .IterationsPerMeasurement(50)
                     .MeasurementCount(20)
                     .GC()
                     .Run();
 
-                var testFileName = stream.GetDatabaseFileName(FileDestination.TestDestination);
+                var testFileName = _stream.GetDatabaseFileName(FileDestination.TestDestination);
                 StringAssert.IsMatch(testFileName, "test-data");
-                testFileName = stream.GetDatabaseFileName(FileDestination.None);
+                testFileName = _stream.GetDatabaseFileName(FileDestination.None);
                 StringAssert.IsMatch(testFileName, "");
             });
         }

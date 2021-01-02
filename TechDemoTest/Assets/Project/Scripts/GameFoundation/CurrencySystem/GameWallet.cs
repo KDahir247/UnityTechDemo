@@ -8,29 +8,31 @@ using ZLogger;
 
 public sealed class GameWallet : DataFoundation
 {
-    private readonly Dictionary<string, Currency> _currencyDictionary
-        = new Dictionary<string, Currency>();
+    private readonly List<Currency> _currencies
+        = new List<Currency>(5);
 
-    private readonly Subject<Currency> _currencySubject = new Subject<Currency>();
+    private readonly Dictionary<string, Currency> _currencyDictionary
+        = new Dictionary<string, Currency>(5);
+
+    private readonly Subject<Currency> _currencySubject
+        = new Subject<Currency>();
 
     private readonly CompositeDisposable _disposable
         = new CompositeDisposable();
 
-    private readonly ILogger logger = LogManager.GetLogger<GameWallet>();
+    private readonly ILogger _logger = LogManager.GetLogger<GameWallet>();
 
-    public GameWallet([NotNull] params string[] currencyKeys)
+    public GameWallet()
     {
-        if (!GameFoundationSdk.IsInitialized)
-            throw new Exception("Game Wallet requires GameFoundation to be initialized");
-
         try
         {
-            RetrieveCurrenciesData(currencyKeys);
             SubscribeToGameFoundationEvent();
+
+            RetrieveCurrenciesData();
         }
         catch (Exception e)
         {
-            logger.ZLogCritical(e.Message);
+            _logger.ZLogCritical(e.Message);
             throw new Exception();
         }
     }
@@ -45,12 +47,12 @@ public sealed class GameWallet : DataFoundation
             _disposable.Dispose();
     }
 
-    public override void SubscribeToGameFoundationEvent()
+    protected override void SubscribeToGameFoundationEvent()
     {
         GameFoundationSdk.wallet.balanceChanged += WalletOnBalanceChanged;
     }
 
-    public override void UnSubscribeToGameFoundationEvent()
+    protected override void UnSubscribeToGameFoundationEvent()
     {
         GameFoundationSdk.wallet.balanceChanged -= WalletOnBalanceChanged;
     }
@@ -64,17 +66,19 @@ public sealed class GameWallet : DataFoundation
                 _currencySubject.OnNext(_currencyDictionary[keyValue.Key]);
     }
 
-    public void WalletValueChanged(Action<Currency> onNext)
+    public IObservable<Currency> WalletValueChanged()
     {
-        _currencySubject
-            .Subscribe(onNext)
-            .AddTo(_disposable);
+        return _currencySubject
+            .AddTo(_disposable)
+            .AsObservable();
     }
 
-    private void RetrieveCurrenciesData([NotNull] string[] currencyKeys)
+    private void RetrieveCurrenciesData()
     {
-        for (byte i = 0; i < currencyKeys.Length; i++)
-            _currencyDictionary.Add(currencyKeys[i], GameFoundationSdk.catalog.Find<Currency>(currencyKeys[i]));
+        GameFoundationSdk.catalog.GetItems(_currencies);
+
+        for (byte currencyIndex = 0; currencyIndex < _currencies.Count; currencyIndex++)
+            _currencyDictionary.Add(_currencies[currencyIndex].key, _currencies[currencyIndex]);
     }
 
     public void AddToWallet([NotNull] string walletKey, int amount)

@@ -9,19 +9,14 @@ using UnityEngine.TestTools;
 
 namespace Tech.Test
 {
-    //Serialization Support
-    /*
-     * 
-     */
-
     public sealed class ResolverSerializationTest
     {
-        private Ulid ulid;
+        private Ulid _ulid;
 
         [SetUp]
         public void ResolverInitializationSetUp()
         {
-            ulid = Ulid.NewUlid(DateTimeOffset.Now);
+            _ulid = Ulid.NewUlid(DateTimeOffset.Now);
         }
 
         //0.45 ns
@@ -80,7 +75,7 @@ namespace Tech.Test
                     Assert.That(unityBlitByteBuffer.Length, Is.GreaterThan(0));
 
                     //One for Ulid
-                    var ulidByteBuffer = MessagePackSerializer.Serialize(ulid, MessagePackSerializer.DefaultOptions);
+                    var ulidByteBuffer = MessagePackSerializer.Serialize(_ulid, MessagePackSerializer.DefaultOptions);
                     Assert.That(ulidByteBuffer.Length, Is.GreaterThan(0));
                 });
             }
@@ -116,7 +111,7 @@ namespace Tech.Test
 
                     Assert.That(unityBlitByteBuffer.Length, Is.GreaterThan(0));
 
-                    var ulidByteBuffer = MessagePackSerializer.Serialize(ulid, MessagePackSerializer.DefaultOptions);
+                    var ulidByteBuffer = MessagePackSerializer.Serialize(_ulid, MessagePackSerializer.DefaultOptions);
 
                     Assert.That(ulidByteBuffer.Length, Is.GreaterThan(0));
 
@@ -145,7 +140,7 @@ namespace Tech.Test
                     var deserializationUlid =
                         MessagePackSerializer.Deserialize<Ulid>(ulidByteBuffer, MessagePackSerializer.DefaultOptions);
 
-                    Assert.AreEqual(deserializationUlid, ulid);
+                    Assert.AreEqual(deserializationUlid, _ulid);
                 });
             }
         }

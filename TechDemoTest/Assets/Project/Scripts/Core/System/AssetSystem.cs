@@ -24,19 +24,19 @@ public readonly struct AssetInfo
 public sealed class AssetSystem<T>
     where T : Object
 {
-    private readonly ILogger logger = LogManager.GetLogger<AssetSystem<T>>();
-    private CancellationToken cancellationToken;
+    private readonly ILogger _logger = LogManager.GetLogger<AssetSystem<T>>();
+    private CancellationToken _cancellationToken;
 
     public AssetSystem(CancellationToken token)
     {
-        cancellationToken = token;
+        _cancellationToken = token;
     }
 
     public void LoadAsset(AssetInfo assetInfo,
         [NotNull] IList<T> loadAssetContainer)
     {
-        cancellationToken.Register(OperationCanceled);
-        cancellationToken.ThrowIfCancellationRequested();
+        _cancellationToken.Register(OperationCanceled);
+        _cancellationToken.ThrowIfCancellationRequested();
 
         InstantiateAsset(assetInfo, loadAssetContainer)
             .Forget();
@@ -47,10 +47,10 @@ public sealed class AssetSystem<T>
     {
         var resourceLocations = await Addressables
             .LoadResourceLocationsAsync(assetInfo.AssetAddressName)
-            .ToUniTask(cancellationToken: cancellationToken);
+            .ToUniTask(cancellationToken: _cancellationToken);
 
         var gameObject = await Addressables.InstantiateAsync(resourceLocations[0], assetInfo.InstantiationParameters)
-            .ToUniTask(cancellationToken: cancellationToken);
+            .ToUniTask(cancellationToken: _cancellationToken);
 
         loadAssetContainer.Add(gameObject as T);
     }
@@ -62,6 +62,6 @@ public sealed class AssetSystem<T>
 
     private void OperationCanceled()
     {
-        logger.ZLog(LogLevel.Warning, "Asset Loading has been canceled mid way");
+        _logger.ZLog(LogLevel.Warning, "Asset Loading has been canceled mid way");
     }
 }

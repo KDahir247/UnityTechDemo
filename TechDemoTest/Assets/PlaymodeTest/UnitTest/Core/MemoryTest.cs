@@ -6,7 +6,7 @@ using UnityEngine.TestTools;
 
 namespace Tech.Test
 {
-    public class MemoryTest
+    public sealed class MemoryTest
     {
         //1 mb is equal to 1048576 bytes so we want to measure in MB 
 
