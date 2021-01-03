@@ -102,6 +102,8 @@ namespace UnityEngine.GameFoundation.Sample
         /// </summary>
         public void OnGameFoundationInitialized()
         {
+            List<VirtualTransaction> s = null;
+            GameFoundationSdk.catalog.GetItems(s);
             // Grab references to the transactions.
             m_AppleIngredientTransaction = GameFoundationSdk.catalog.Find<VirtualTransaction>("appleIngredient");
             m_OrangeIngredientTransaction = GameFoundationSdk.catalog.Find<VirtualTransaction>("orangeIngredient");

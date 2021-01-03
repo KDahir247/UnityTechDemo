@@ -24,21 +24,19 @@ namespace Tech.Test
             {
                 using (_gameInventory = new GameInventory())
                 {
-                    /*_gameInventory
-                        .InventoryValueChanged()
-                        .Subscribe(itemPair =>
-                            Debug.Log(
-                                $"Added {itemPair.Item1.definition.displayName}. there is a total of {itemPair.Item2.Count} rocks left"));
-                                */
+                    using (var innerGameInventory = new GameInventory())
+                    {
+                        //innerGameInventory.InventoryValueChanged().Subscribe(_ => Debug.Log("Item has been added"));
 
-                    Measure.Method(() => _gameInventory.AddToInventory("rock"))
-                        .SampleGroup("Adding Inventory")
-                        .WarmupCount(5)
-                        .IterationsPerMeasurement(50)
-                        .MeasurementCount(10)
-                        .GC()
-                        .Run();
-                    //Logic
+                        Measure.Method(() => _gameInventory.AddToInventory("rock"))
+                            .SampleGroup("Adding Inventory")
+                            .WarmupCount(5)
+                            .IterationsPerMeasurement(50)
+                            .MeasurementCount(10)
+                            .GC()
+                            .Run();
+                        //Logic
+                    }
                 }
             });
             // Use the Assert class to test conditions.

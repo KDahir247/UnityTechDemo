@@ -37,6 +37,7 @@ MonoBehaviour:
   - {fileID: 5140671113859417450}
   - {fileID: 3025235883741061648}
   - {fileID: 3446151196462951989}
+  - {fileID: 4595273915333490950}
 --- !u!114 &1760862116340567064
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -71,10 +72,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_DisplayName: Rock
   m_Key: rock
-  m_Tags: []
+  m_Tags:
+  - {fileID: 6880072987442098672}
   m_StaticPropertyKeys: []
   m_StaticPropertyValues: []
-  m_InitialAllocation: 1
+  m_InitialAllocation: 0
   m_IsStackableFlag: 0
   m_InitialQuantityPerStack: 1
   m_MutablePropertyKeys: []
@@ -96,7 +98,7 @@ MonoBehaviour:
   m_Tags: []
   m_StaticPropertyKeys: []
   m_StaticPropertyValues: []
-  m_InitialAllocation: 1
+  m_InitialAllocation: 0
   m_IsStackableFlag: 0
   m_InitialQuantityPerStack: 1
   m_MutablePropertyKeys: []
@@ -113,8 +115,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9190a04da29ae24ab35e05133ebf087, type: 3}
   m_Name: _Catalog_Tags
   m_EditorClassIdentifier: 
-  m_Tags: []
+  m_Tags:
+  - {fileID: 6880072987442098672}
   m_CatalogAsset: {fileID: 11400000}
+--- !u!114 &4595273915333490950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcbd052539327467295d2009d33aa660, type: 3}
+  m_Name: Item_stackable
+  m_EditorClassIdentifier: 
+  m_DisplayName: Stackable
+  m_Key: stackable
+  m_Tags: []
+  m_StaticPropertyKeys: []
+  m_StaticPropertyValues: []
+  m_InitialAllocation: 0
+  m_IsStackableFlag: 1
+  m_InitialQuantityPerStack: 1
+  m_MutablePropertyKeys: []
+  m_MutablePropertyDefaultValues: []
 --- !u!114 &5140671113859417450
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -135,3 +160,17 @@ MonoBehaviour:
   m_InitialBalance: 10000
   m_MaximumBalance: 0
   m_Type: 0
+--- !u!114 &6880072987442098672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4178f7fa125e7644ba2a2d0c6300db1, type: 3}
+  m_Name: Tag_single
+  m_EditorClassIdentifier: 
+  m_Key: single
+  m_Catalog: {fileID: 3967499670523158661}

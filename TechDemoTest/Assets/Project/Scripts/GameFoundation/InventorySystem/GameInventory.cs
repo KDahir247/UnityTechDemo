@@ -17,8 +17,8 @@ public sealed class GameInventory : DataFoundation
     private readonly List<InventoryItem> _inventoryItemsByDefinition
         = new List<InventoryItem>(5);
 
-    private readonly Subject<(InventoryItem, List<InventoryItem>)> _inventorySubject
-        = new Subject<(InventoryItem, List<InventoryItem>)>();
+    private readonly Subject<InventoryItem> _inventorySubject
+        = new Subject<InventoryItem>();
 
     private readonly ILogger _logger = LogManager.GetLogger<GameInventory>();
 
@@ -26,7 +26,7 @@ public sealed class GameInventory : DataFoundation
     {
         try
         {
-            RetrieveItemsData();
+            RetrieveInventoryData();
             SubscribeToGameFoundationEvent();
         }
         catch (Exception e)
@@ -51,7 +51,7 @@ public sealed class GameInventory : DataFoundation
         GameFoundationSdk.inventory.itemDeleted += InventoryItemQuantityChanged;
     }
 
-    public IObservable<(InventoryItem, List<InventoryItem>)> InventoryValueChanged()
+    public IObservable<InventoryItem> InventoryValueChanged()
     {
         return _inventorySubject
             .AddTo(_disposable)
@@ -66,17 +66,17 @@ public sealed class GameInventory : DataFoundation
 
     private void InventoryItemQuantityChanged(InventoryItem inventoryItem)
     {
-        RetrieveItemsData();
+        RetrieveInventoryData();
 
         _inventorySubject
-            .OnNext((inventoryItem, _inventoryItems)); //added/removed item, remaining items
+            .OnNext(inventoryItem);
     }
 
-    private void RetrieveItemsData()
+    private void RetrieveInventoryData()
     {
         GameFoundationSdk
             .inventory
-            .GetItems(_inventoryItems);
+            .FindItems(item => !(item is StackableInventoryItem), _inventoryItems); //InventoryItems Only
     }
 
     public void AddToInventory([NotNull] string inventoryDefinitionKey)

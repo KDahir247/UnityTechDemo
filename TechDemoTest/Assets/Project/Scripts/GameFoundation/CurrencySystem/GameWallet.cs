@@ -8,9 +8,6 @@ using ZLogger;
 
 public sealed class GameWallet : DataFoundation
 {
-    private readonly List<Currency> _currencies
-        = new List<Currency>(5);
-
     private readonly Dictionary<string, Currency> _currencyDictionary
         = new Dictionary<string, Currency>(5);
 
@@ -20,15 +17,17 @@ public sealed class GameWallet : DataFoundation
     private readonly CompositeDisposable _disposable
         = new CompositeDisposable();
 
+    private readonly List<Currency> _initialCurrencies
+        = new List<Currency>(5);
+
     private readonly ILogger _logger = LogManager.GetLogger<GameWallet>();
 
     public GameWallet()
     {
         try
         {
-            SubscribeToGameFoundationEvent();
-
             RetrieveCurrenciesData();
+            SubscribeToGameFoundationEvent();
         }
         catch (Exception e)
         {
@@ -61,9 +60,8 @@ public sealed class GameWallet : DataFoundation
     {
         if (!(quantifiable is Currency currency)) return;
 
-        foreach (var keyValue in _currencyDictionary)
-            if (currency.key == keyValue.Key)
-                _currencySubject.OnNext(_currencyDictionary[keyValue.Key]);
+        if (_currencyDictionary.ContainsKey(currency.key))
+            _currencySubject.OnNext(_currencyDictionary[currency.key]);
     }
 
     public IObservable<Currency> WalletValueChanged()
@@ -75,10 +73,10 @@ public sealed class GameWallet : DataFoundation
 
     private void RetrieveCurrenciesData()
     {
-        GameFoundationSdk.catalog.GetItems(_currencies);
+        GameFoundationSdk.catalog.GetItems(_initialCurrencies);
 
-        for (byte currencyIndex = 0; currencyIndex < _currencies.Count; currencyIndex++)
-            _currencyDictionary.Add(_currencies[currencyIndex].key, _currencies[currencyIndex]);
+        for (byte currencyIndex = 0; currencyIndex < _initialCurrencies.Count; currencyIndex++)
+            _currencyDictionary.Add(_initialCurrencies[currencyIndex].key, _initialCurrencies[currencyIndex]);
     }
 
     public void AddToWallet([NotNull] string walletKey, int amount)
