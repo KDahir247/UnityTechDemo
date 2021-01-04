@@ -6,154 +6,131 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6abb102-7c44-48ea-adde-dc287c5cfed8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/GameFoundation/GameItemTest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/GameFoundation/GameItemTest.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/ItemSystem.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/ItemSystem/GameItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/ItemSystem/GameItem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2021-01-01_21-16-18_CoverageHistory.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2021-01-01_21-18-19_CoverageHistory.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2021-01-01_21-40-14_CoverageHistory.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2021-01-01_21-43-57_CoverageHistory.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2021-01-02_17-32-49_CoverageHistory.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2021-01-02_17-34-43_CoverageHistory.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2021-01-02_17-36-24_CoverageHistory.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2021-01-02_18-43-30_CoverageHistory.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2021-01-02_18-45-46_CoverageHistory.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2021-01-02_20-05-54_CoverageHistory.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2021-01-02_20-07-46_CoverageHistory.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2021-01-02_20-09-20_CoverageHistory.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2021-01-02_20-10-26_CoverageHistory.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2021-01-02_20-15-02_CoverageHistory.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2021-01-02_22-03-28_CoverageHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PerformanceTestLog/2021-01-04-transaction-system.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PerformanceTestLog/2021-01-04-transaction-system.csv.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/GameFoundation/TransactionTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/GameFoundation/TransactionTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/TransactionSystem.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/TransactionSystem/GameTransaction.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/TransactionSystem/GameTransaction.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2021-01-02_23-05-22_CoverageHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2021-01-02_23-07-50_CoverageHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2021-01-02_23-11-26_CoverageHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2021-01-04_13-37-03_CoverageHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2021-01-04_13-37-21_CoverageHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2021-01-04_16-23-33_CoverageHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2021-01-04_17-17-34_CoverageHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2021-01-04_17-21-02_CoverageHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_GameTransaction.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/SceneTemplateSettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TechDemoTest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TechDemoTest/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TechDemoTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TechDemoTest/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GameFoundation/GameFoundationCatalog.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameFoundation/GameFoundationCatalog.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameFoundation/Resources/GameFoundationCatalogSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameFoundation/Resources/GameFoundationCatalogSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/GameFoundation/GameInventoryTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/GameFoundation/GameInventoryTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/CurrencySystem/GameWallet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/CurrencySystem/GameWallet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/InventorySystem/GameInventory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/InventorySystem/GameInventory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Plugins/UniRx/Scripts/UnityEngineBridge/MainThreadDispatcher.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Plugins/UniRx/Scripts/UnityEngineBridge/MainThreadDispatcher.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/07 Transactions/TransactionsSample.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/07 Transactions/TransactionsSample.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_AssetInfo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_AssetSystem_T_.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_BinarySearch.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_ByteBufferWriter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DataFoundation.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DatabaseBuilder.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DatabaseBuilderBase.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DatabaseStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_T3_.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_T3_T4_.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_T3_T4_T5_.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_T3_T4_T5_T6_.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_T3_T4_T5_T6_T7_.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_T3_T4_T5_T6_T7_T8_.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_T3_T4_T5_T6_T7_T8_T9_.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_T3_T4_T5_T6_T7_T8_T9_T10_.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_T3_T4_T5_T6_T7_T8_T9_T10_T11_.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_T3_T4_T5_T6_T7_T8_T9_T10_T11_T12_.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_T3_T4_T5_T6_T7_T8_T9_T10_T11_T12_T13_.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_T3_T4_T5_T6_T7_T8_T9_T10_T11_T12_T13_T14_.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_T3_T4_T5_T6_T7_T8_T9_T10_T11_T12_T13_T14_T15_.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_T7_T8_T9_T10_T11_T12_T13_T14_T15_T16_T17_.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_TT10_T11_T12_T13_T14_T15_T16_T17_T18_T19_.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_TT11_T12_T13_T14_T15_T16_T17_T18_T19_T20_.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_TT6_T7_T8_T9_T10_T11_T12_T13_T14_T15_T16_.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_T_T9_T10_T11_T12_T13_T14_T15_T16_T17_T18_.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicDbBuilder.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_ExpandableArray_TElement_.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_ExpressionDumper_T_.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_ExpressionParameterNameModifier.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_ExpressionParameterNameModifyExtensions.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_FaildItem.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_GameInventory.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_GameWallet.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_GeneratedResolver.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_GeneratedResolverFormatterCache_T_.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_GeneratedResolverGetFormatterHelper.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_HeaderFormatterResolver.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_ImmutableBuilder.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_ImmutableBuilderBase.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_IntIntValueTupleFormatter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_InternStringResolver.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_LogManager.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_MasterMemoryResolver.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_MasterMemoryResolverFormatterCache_T_.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_MasterMemoryResolverGetFormatterHelper.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_MasterMemoryWindow.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_MemoryDatabase.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_MemoryDatabaseBase.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_MemoryTableAttribute.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_MetaDatabase.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_MetaIndex.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_MetaProperty.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_MetaTable.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_PrimaryKeyAttribute.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_RangeView_T_.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_ReferenceSet_TElement_TReference_.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_ResolverInitialization.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_SceneSystem.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_SecondaryKeyAttribute.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_StaticDbBuilder.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_StringComparisonOptionAttribute.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_TableBase_TElement_.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_TableInfo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_TestTable.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_TestTableFormatter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_TestTableTable.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_UlidMessagePackFormatter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_UlidMessagePackResolver.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_UlidMessagePackResolverCache_T_.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_ValidatableSet_TElement_.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_ValidateResult.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_ValidationDatabase.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_Validator_T_.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/Summary.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/badge_branchcoverage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/badge_branchcoverage.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/badge_combined.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/badge_linecoverage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/badge_linecoverage.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/badge_shieldsio_branchcoverage_blue.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/badge_shieldsio_branchcoverage_brightgreen.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/badge_shieldsio_branchcoverage_green.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/badge_shieldsio_branchcoverage_lightgrey.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/badge_shieldsio_branchcoverage_orange.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/badge_shieldsio_branchcoverage_red.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/badge_shieldsio_branchcoverage_yellow.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/badge_shieldsio_branchcoverage_yellowgreen.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/badge_shieldsio_linecoverage_blue.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/badge_shieldsio_linecoverage_brightgreen.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/badge_shieldsio_linecoverage_green.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/badge_shieldsio_linecoverage_lightgrey.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/badge_shieldsio_linecoverage_orange.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/badge_shieldsio_linecoverage_red.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/badge_shieldsio_linecoverage_yellow.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/badge_shieldsio_linecoverage_yellowgreen.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/class.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/icon_cube.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/icon_down-dir_active.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/icon_fork.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/icon_info-circled.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/icon_minus.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/icon_plus.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/icon_search-minus.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/icon_search-plus.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/icon_sponsor.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/icon_star.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/icon_up-dir.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/icon_up-dir_active.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/icon_wrench.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/index.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/report.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_AssetInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_AssetInfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_AssetSystem_T_.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_AssetSystem_T_.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_BinarySearch.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_BinarySearch.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_ByteBufferWriter.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_ByteBufferWriter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DataFoundation.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DataFoundation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DatabaseBuilder.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DatabaseBuilder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DatabaseBuilderBase.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DatabaseBuilderBase.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DatabaseStream.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DatabaseStream.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_T3_.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_T3_.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_T3_T4_.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_T3_T4_.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_T3_T4_T5_.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_T3_T4_T5_.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_T3_T4_T5_T6_.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_T3_T4_T5_T6_.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_T3_T4_T5_T6_T7_.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_T3_T4_T5_T6_T7_.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_T3_T4_T5_T6_T7_T8_.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_T3_T4_T5_T6_T7_T8_.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_T3_T4_T5_T6_T7_T8_T9_.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_T3_T4_T5_T6_T7_T8_T9_.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_T3_T4_T5_T6_T7_T8_T9_T10_.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_T3_T4_T5_T6_T7_T8_T9_T10_.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_T3_T4_T5_T6_T7_T8_T9_T10_T11_.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_T3_T4_T5_T6_T7_T8_T9_T10_T11_.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_T3_T4_T5_T6_T7_T8_T9_T10_T11_T12_.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_T3_T4_T5_T6_T7_T8_T9_T10_T11_T12_.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_T3_T4_T5_T6_T7_T8_T9_T10_T11_T12_T13_.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_T3_T4_T5_T6_T7_T8_T9_T10_T11_T12_T13_.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_T3_T4_T5_T6_T7_T8_T9_T10_T11_T12_T13_T14_.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_T3_T4_T5_T6_T7_T8_T9_T10_T11_T12_T13_T14_.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_T3_T4_T5_T6_T7_T8_T9_T10_T11_T12_T13_T14_T15_.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_T3_T4_T5_T6_T7_T8_T9_T10_T11_T12_T13_T14_T15_.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_T7_T8_T9_T10_T11_T12_T13_T14_T15_T16_T17_.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_T7_T8_T9_T10_T11_T12_T13_T14_T15_T16_T17_.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_TT10_T11_T12_T13_T14_T15_T16_T17_T18_T19_.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_TT10_T11_T12_T13_T14_T15_T16_T17_T18_T19_.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_TT11_T12_T13_T14_T15_T16_T17_T18_T19_T20_.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_TT11_T12_T13_T14_T15_T16_T17_T18_T19_T20_.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_TT6_T7_T8_T9_T10_T11_T12_T13_T14_T15_T16_.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_TT6_T7_T8_T9_T10_T11_T12_T13_T14_T15_T16_.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_T_T9_T10_T11_T12_T13_T14_T15_T16_T17_T18_.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicArgumentTupleFormatter_T1_T2_T_T9_T10_T11_T12_T13_T14_T15_T16_T17_T18_.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicDbBuilder.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_DynamicDbBuilder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_ExpandableArray_TElement_.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_ExpandableArray_TElement_.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_ExpressionDumper_T_.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_ExpressionDumper_T_.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_ExpressionParameterNameModifier.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_ExpressionParameterNameModifier.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_ExpressionParameterNameModifyExtensions.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_ExpressionParameterNameModifyExtensions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_FaildItem.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_FaildItem.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_GameInventory.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_GameInventory.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_GameItem.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_GameItem.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_GameWallet.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_GameWallet.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_GeneratedResolver.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_GeneratedResolver.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_GeneratedResolverFormatterCache_T_.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_GeneratedResolverFormatterCache_T_.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_GeneratedResolverGetFormatterHelper.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_GeneratedResolverGetFormatterHelper.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_HeaderFormatterResolver.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_HeaderFormatterResolver.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_ImmutableBuilder.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_ImmutableBuilder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_ImmutableBuilderBase.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_ImmutableBuilderBase.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_IntIntValueTupleFormatter.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_IntIntValueTupleFormatter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_InternStringResolver.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_InternStringResolver.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_LogManager.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_LogManager.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_MasterMemoryResolver.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_MasterMemoryResolver.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_MasterMemoryResolverFormatterCache_T_.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_MasterMemoryResolverFormatterCache_T_.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_MasterMemoryResolverGetFormatterHelper.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_MasterMemoryResolverGetFormatterHelper.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_MasterMemoryWindow.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_MasterMemoryWindow.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_MemoryDatabase.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_MemoryDatabase.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_MemoryDatabaseBase.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_MemoryDatabaseBase.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_MemoryTableAttribute.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_MemoryTableAttribute.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_MetaDatabase.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_MetaDatabase.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_MetaIndex.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_MetaIndex.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_MetaProperty.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_MetaProperty.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_MetaTable.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_MetaTable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_PrimaryKeyAttribute.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_PrimaryKeyAttribute.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_RangeView_T_.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_RangeView_T_.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_ReferenceSet_TElement_TReference_.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_ReferenceSet_TElement_TReference_.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_ResolverInitialization.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_ResolverInitialization.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_SceneSystem.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_SceneSystem.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_SecondaryKeyAttribute.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_SecondaryKeyAttribute.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_StaticDbBuilder.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_StaticDbBuilder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_StringComparisonOptionAttribute.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_StringComparisonOptionAttribute.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_TableBase_TElement_.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_TableBase_TElement_.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_TableInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_TableInfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_TestTable.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_TestTable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_TestTableFormatter.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_TestTableFormatter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_TestTableTable.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_TestTableTable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_UlidMessagePackFormatter.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_UlidMessagePackFormatter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_UlidMessagePackResolver.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_UlidMessagePackResolver.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_UlidMessagePackResolverCache_T_.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_UlidMessagePackResolverCache_T_.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_ValidatableSet_TElement_.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_ValidatableSet_TElement_.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_ValidateResult.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_ValidateResult.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_ValidationDatabase.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_ValidationDatabase.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_Validator_T_.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_Validator_T_.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/Summary.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/Summary.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/badge_combined.svg" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/badge_combined.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/badge_linecoverage.svg" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/badge_linecoverage.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/index.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/Report/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeCoverage/TechDemoTest-opencov/PlayMode/TestCoverageResults_0000.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/TechDemoTest-opencov/PlayMode/TestCoverageResults_0000.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker6.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker6.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker3.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker4.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker5.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker6.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/PlaymodeTest.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PlaymodeTest.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/MessagePack.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/MessagePack.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/ProjectLogic.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/ProjectLogic.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Ulid.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Ulid.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/UniRx.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniRx.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/UniTask.Addressables.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniTask.Addressables.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/UniTask.Editor.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniTask.Editor.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/UniTask.TextMeshPro.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniTask.TextMeshPro.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/UniTask.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniTask.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/ZLogger.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/ZLogger.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/ZString.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/ZString.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,6 +181,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E414E10B-FE5F-4572-9FF1-22F3359DE21B/c6/b2e81b92/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.game-foundation@0.8.0-preview/DefaultLayers/Runtime/Persistence/LocalPersistence.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/81481514-4B33-4AFD-BC72-FCC125EA773E/88/0ce437b1/TradableDefinition.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.game-foundation@0.8.0-preview/Core/Runtime/Exchanges/ExchangeDefinition.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Project/PluginScripts/MasterMemory/Internal/InternStringResolver.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.game-foundation@0.8.0-preview/DefaultLayers/Runtime/Persistence/IDataPersistence.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E414E10B-FE5F-4572-9FF1-22F3359DE21B/c8/1b077017/UnityEvent.cs" root0="SKIP_HIGHLIGHTING" />
@@ -212,6 +190,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.game-foundation@0.8.0-preview/Core/Runtime/Catalog/Catalog.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E414E10B-FE5F-4572-9FF1-22F3359DE21B/23/95a10587/Vector2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.game-foundation@0.8.0-preview/Core/Runtime/Wallet/Currency.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.game-foundation@0.8.0-preview/Core/Runtime/Transactions/VirtualTransaction.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E414E10B-FE5F-4572-9FF1-22F3359DE21B/11/33af2eeb/Transform.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/62FFEEB7-EC02-4BEA-B61E-5FBF8D44AC5B/17/394b43c5/TypeInitializationException.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E414E10B-FE5F-4572-9FF1-22F3359DE21B/86/7e672d67/WaitWhile.cs" root0="SKIP_HIGHLIGHTING" />
@@ -221,13 +200,12 @@
     <setting file="file://$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/Core/ResolverSerializationTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.game-foundation@0.8.0-preview/Core/Runtime/Tags/Tag.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/848D7CE8-883C-402A-930E-4BCCAC6EE80E/3/FilterLoggingBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.game-foundation@0.8.0-preview/Core/Runtime/Transactions/TransactionExchangeDefinition.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/62FFEEB7-EC02-4BEA-B61E-5FBF8D44AC5B/6f/28f5ade4/MemoryStream.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.game-foundation@0.8.0-preview/Promise/Runtime/Deferred.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/LogManagerTest.cs" />
-      <option value="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/SceneSystemTest.cs" />
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/System/SceneSystem.cs" />
       <option value="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/AssetSystemTest.cs" />
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/Database/FileDestination.cs" />
@@ -268,15 +246,17 @@
       <option value="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/Core/AssetSystemTest.cs" />
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/InventorySystem/InventoryItem.cs" />
       <option value="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/GameFoundation/InventoryItemTest.cs" />
-      <option value="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/07 Transactions/TransactionsSample.cs" />
       <option value="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/03 Tags/TagsSample.cs" />
       <option value="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/02a Stackable Inventory Items/StackableInventoryItemSample.cs" />
-      <option value="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/GameFoundation/GameInventoryTest.cs" />
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/InventorySystem/GameInventory.cs" />
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/CurrencySystem/GameWallet.cs" />
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/ItemSystem/GameItem.cs" />
       <option value="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/GameFoundation/GameWalletTest.cs" />
+      <option value="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/GameFoundation/GameInventoryTest.cs" />
       <option value="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/GameFoundation/GameItemTest.cs" />
+      <option value="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/07 Transactions/TransactionsSample.cs" />
+      <option value="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/GameFoundation/TransactionTest.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/TransactionSystem/GameTransaction.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1mGcpWGc6Z0UzqQm4gJFxdGM5v9" />
@@ -343,7 +323,7 @@
       <workItem from="1609386490532" duration="8928000" />
       <workItem from="1609454648309" duration="1683000" />
       <workItem from="1609456577092" duration="11411000" />
-      <workItem from="1609471537651" duration="47811000" />
+      <workItem from="1609471537651" duration="64857000" />
     </task>
     <servers />
   </component>

@@ -38,6 +38,7 @@ MonoBehaviour:
   - {fileID: 3025235883741061648}
   - {fileID: 3446151196462951989}
   - {fileID: 4595273915333490950}
+  - {fileID: 4503578463038597754}
 --- !u!114 &1760862116340567064
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -118,6 +119,31 @@ MonoBehaviour:
   m_Tags:
   - {fileID: 6880072987442098672}
   m_CatalogAsset: {fileID: 11400000}
+--- !u!114 &4503578463038597754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 188049432bcf74f78b314dc2b03ee516, type: 3}
+  m_Name: VirtualTransaction_rockBlueprint
+  m_EditorClassIdentifier: 
+  m_DisplayName: RockBlueprint
+  m_Key: rockBlueprint
+  m_Tags: []
+  m_StaticPropertyKeys: []
+  m_StaticPropertyValues: []
+  m_Payout:
+    m_Exchanges:
+    - m_CatalogItem: {fileID: 3025235883741061648}
+      m_Amount: 5
+  m_Costs:
+    m_Exchanges:
+    - m_CatalogItem: {fileID: 5140671113859417450}
+      m_Amount: 500
 --- !u!114 &4595273915333490950
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -157,7 +183,7 @@ MonoBehaviour:
   m_Tags: []
   m_StaticPropertyKeys: []
   m_StaticPropertyValues: []
-  m_InitialBalance: 10000
+  m_InitialBalance: 500
   m_MaximumBalance: 0
   m_Type: 0
 --- !u!114 &6880072987442098672

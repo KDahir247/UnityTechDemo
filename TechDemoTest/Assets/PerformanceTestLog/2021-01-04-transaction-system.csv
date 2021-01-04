@@ -1,0 +1,6 @@
+Index, Test Name, Version, SampleGroup Name, Unit, IncreaseIsBetter, Min, Max, Median, Average, StandardDeviation, Sum, Values, 
+0,"Tech.Test.TransactionTest.TransactionFailedTestSimplePasses",1,"Transaction Failed Purchase.GC()","Undefined",False,16,16,16,16,0,160,16,16,16,16,16,16,16,16,16,16,
+1,"Tech.Test.TransactionTest.TransactionFailedTestSimplePasses",1,"Transaction Failed Purchase","Millisecond",False,0.014585,0.015245,0.0150100000000002,0.014933,0.000222791382239075,0.14933,0.014585,0.014865,0.015245,0.01479,0.0150100000000002,0.0152249999999999,0.01511,0.0147600000000001,0.0146549999999998,0.0150849999999998,
+2,"Tech.Test.TransactionTest.TransactionFullTestSimplePasses",1,"Full Game Foundation Integration","Millisecond",False,50.343,50.343,50.343,50.343,0,50.343,50.343,
+3,"Tech.Test.TransactionTest.TransactionSuccessTestSimplePasses",1,"Transaction Success Purchase.GC()","Undefined",False,36,45.85,36.05,37.27,2.94110523443144,372.7,38.35,45.85,36.05,36.2,36,36,36.05,36,36.2,36,
+4,"Tech.Test.TransactionTest.TransactionSuccessTestSimplePasses",1,"Transaction Success Purchase","Millisecond",False,0.092705,0.46016,0.30086,0.2782795,0.118175306080628,2.782795,0.092705,0.134485,0.17518,0.21653,0.25761,0.30086,0.337465,0.38137,0.426430000000001,0.46016,
