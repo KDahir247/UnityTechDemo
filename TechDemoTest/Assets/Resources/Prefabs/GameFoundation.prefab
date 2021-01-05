@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7686513016103194308}
   - component: {fileID: 5906934874112739141}
+  - component: {fileID: 1023324326946370389}
   m_Layer: 0
   m_Name: GameFoundation
   m_TagString: Untagged
@@ -56,3 +57,15 @@ MonoBehaviour:
   onGameFoundationUninitialized:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1023324326946370389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2199495937367970123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e3caef8e452488092a75344b0a734ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -32,19 +32,16 @@ namespace Tech.Test
                 using (Measure.Scope("Full Game Foundation Integration"))
                 {
                     _wallet.AddToWallet("fakeMoney", 1000);
-                    _wallet.WalletValueChanged().Subscribe(val => Debug.Log($"Cash amount is now {val.quantity}"));
+                    _wallet.WalletValueChanged().Subscribe(val =>
+                        Debug.Log($"Starting transaction. Cash amount is now {val.quantity}"));
 
                     _gameInventory.InventoryValueChanged()
                         .Subscribe(val => Debug.Log($"bought a {val.definition.displayName}"));
 
                     _gameTransaction.OnTransactionCompleted().Subscribe(_ => Debug.Log("transaction Completed"));
-                    _gameTransaction.OnTransactionInitiated()
-                        .Subscribe(_ => Debug.Log($"Transaction has started for {_.displayName}"));
-                    _gameTransaction.OnTransactionProgress().Subscribe(tuple =>
-                        Debug.Log($"current step {tuple.Item1} total steps left {tuple.Item2}"));
                     _gameTransaction.OnTransactionFailed()
-                        .Subscribe(exception => Debug.Log(exception?.InnerException.Message));
-
+                        .Subscribe(error => Debug.Log($"{error.InnerException.Message}"));
+                    _gameTransaction.Purchase("rockBlueprint");
                     _gameTransaction.Purchase("rockBlueprint");
                     _gameTransaction.Purchase("rockBlueprint");
                     _gameTransaction.Purchase("rockBlueprint");

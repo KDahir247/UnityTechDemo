@@ -21,17 +21,11 @@ public sealed class GameTransaction : DataFoundation
     private readonly Subject<Exception> _transactionFailedSubject
         = new Subject<Exception>();
 
-    private readonly Subject<BaseTransaction> _transactionInitializedSubject
-        = new Subject<BaseTransaction>();
-
-    private readonly Subject<(int, int)> _transactionStepSubject
-        = new Subject<(int, int)>();
-
     private readonly Dictionary<string, VirtualTransaction> _virtualDictionary
         = new Dictionary<string, VirtualTransaction>();
 
     private readonly List<VirtualTransaction> _virtualTransactions
-        = new List<VirtualTransaction>();
+        = new List<VirtualTransaction>(5);
 
     public GameTransaction()
     {
@@ -53,8 +47,8 @@ public sealed class GameTransaction : DataFoundation
 
         if (_virtualTransactions.Count <= 0) return;
 
-        for (byte i = 0; i < _virtualTransactions.Count; i++)
-            _virtualDictionary.Add(_virtualTransactions[i].key, _virtualTransactions[i]);
+        for (byte index = 0; index < _virtualTransactions.Count; index++)
+            _virtualDictionary.Add(_virtualTransactions[index].key, _virtualTransactions[index]);
     }
 
     public void Purchase([NotNull] string virtualTransactionKey)
@@ -78,8 +72,6 @@ public sealed class GameTransaction : DataFoundation
     {
         UnSubscribeToGameFoundationEvent();
 
-        _transactionInitializedSubject.Dispose();
-        _transactionStepSubject.Dispose();
         _transactionCompletedSubject.Dispose();
         _transactionFailedSubject.Dispose();
 
@@ -89,18 +81,14 @@ public sealed class GameTransaction : DataFoundation
 
     protected override void SubscribeToGameFoundationEvent()
     {
-        GameFoundationSdk.transactions.transactionInitiated += TransactionInitiated;
-        GameFoundationSdk.transactions.transactionProgressed += TransactionProgressing;
-        GameFoundationSdk.transactions.transactionFailed += TransactionFailed;
         GameFoundationSdk.transactions.transactionSucceeded += TransactionCompleted;
+        GameFoundationSdk.transactions.transactionFailed += TransactionFailed;
     }
 
     protected override void UnSubscribeToGameFoundationEvent()
     {
-        GameFoundationSdk.transactions.transactionInitiated -= TransactionInitiated;
-        GameFoundationSdk.transactions.transactionProgressed -= TransactionProgressing;
-        GameFoundationSdk.transactions.transactionFailed -= TransactionFailed;
         GameFoundationSdk.transactions.transactionSucceeded -= TransactionCompleted;
+        GameFoundationSdk.transactions.transactionFailed -= TransactionFailed;
     }
 
     public IObservable<TransactionResult> OnTransactionCompleted()
@@ -117,37 +105,13 @@ public sealed class GameTransaction : DataFoundation
             .AsObservable();
     }
 
-    public IObservable<(int, int)> OnTransactionProgress()
-    {
-        return _transactionStepSubject
-            .AddTo(_disposable)
-            .AsObservable();
-    }
-
-    public IObservable<BaseTransaction> OnTransactionInitiated()
-    {
-        return _transactionInitializedSubject
-            .AddTo(_disposable)
-            .AsObservable();
-    }
-
     private void TransactionCompleted(BaseTransaction transaction, TransactionResult transactionResult)
     {
         _transactionCompletedSubject.OnNext(transactionResult);
     }
 
-    private void TransactionFailed(BaseTransaction transaction, Exception exceptionThrown)
+    private void TransactionFailed(BaseTransaction transaction, Exception exception)
     {
-        _transactionFailedSubject.OnNext(exceptionThrown);
-    }
-
-    private void TransactionProgressing(BaseTransaction transaction, int currentStep, int totalStep)
-    {
-        _transactionStepSubject.OnNext((currentStep, totalStep));
-    }
-
-    private void TransactionInitiated(BaseTransaction transaction)
-    {
-        _transactionInitializedSubject.OnNext(transaction);
+        _transactionFailedSubject.OnNext(exception);
     }
 }

@@ -30,7 +30,8 @@ public abstract class DataFoundation : IDisposable
     {
         using var saveOperation = dataLayer.Save();
 
-        if (!saveOperation.isDone) MainThreadDispatcher.StartUpdateMicroCoroutine(WaitForSaveCompletion(saveOperation));
+        if (!saveOperation.isDone)
+            MainThreadDispatcher.StartUpdateMicroCoroutine(WaitForSaveCompletion(saveOperation));
     }
 
     private IEnumerator WaitForSaveCompletion(Deferred saveOperation)

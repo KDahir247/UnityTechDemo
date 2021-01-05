@@ -1,5 +1,70 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7567461692746988931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08c9c5456074d4a83b08e8cf93c38d19, type: 3}
+  m_Name: Reward_progressiveRockReward
+  m_EditorClassIdentifier: 
+  m_DisplayName: ProgressiveRockReward
+  m_Key: progressiveRockReward
+  m_Tags: []
+  m_StaticPropertyKeys: []
+  m_StaticPropertyValues: []
+  m_CooldownSeconds: 86400
+  m_CooldownDisplayUnits: 3
+  m_ExpirationSeconds: 86400
+  m_ExpirationDisplayUnits: 3
+  m_ResetIfExpired: 1
+  m_RewardItems:
+  - <key>k__BackingField: 4234007e-d5a5-4896-a566-e64bfc903997
+    m_Payout:
+      m_Exchanges:
+      - m_CatalogItem: {fileID: 3025235883741061648}
+        m_Amount: 20
+      - m_CatalogItem: {fileID: 1760862116340567064}
+        m_Amount: 10
+  - <key>k__BackingField: 451a831f-2cc4-4b98-bab9-70bf3e54f5cb
+    m_Payout:
+      m_Exchanges:
+      - m_CatalogItem: {fileID: 3025235883741061648}
+        m_Amount: 30
+      - m_CatalogItem: {fileID: 1760862116340567064}
+        m_Amount: 15
+  - <key>k__BackingField: 56ca2723-95aa-454f-9f39-8d66f64b3195
+    m_Payout:
+      m_Exchanges:
+      - m_CatalogItem: {fileID: 3025235883741061648}
+        m_Amount: 40
+      - m_CatalogItem: {fileID: 1760862116340567064}
+        m_Amount: 20
+  - <key>k__BackingField: 7a8ead05-6967-4d0f-b535-feebcf8d2d52
+    m_Payout:
+      m_Exchanges:
+      - m_CatalogItem: {fileID: 3025235883741061648}
+        m_Amount: 50
+      - m_CatalogItem: {fileID: 1760862116340567064}
+        m_Amount: 25
+  - <key>k__BackingField: 9e8c6718-3dea-452f-bc3f-dd9ab054eea0
+    m_Payout:
+      m_Exchanges:
+      - m_CatalogItem: {fileID: 3025235883741061648}
+        m_Amount: 60
+      - m_CatalogItem: {fileID: 1760862116340567064}
+        m_Amount: 30
+  - <key>k__BackingField: 9337d6f2-d33b-47ed-aa2a-8840f69fd507
+    m_Payout:
+      m_Exchanges:
+      - m_CatalogItem: {fileID: 3025235883741061648}
+        m_Amount: 70
+      - m_CatalogItem: {fileID: 1760862116340567064}
+        m_Amount: 35
 --- !u!114 &-1469751966687740235
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39,6 +104,9 @@ MonoBehaviour:
   - {fileID: 3446151196462951989}
   - {fileID: 4595273915333490950}
   - {fileID: 4503578463038597754}
+  - {fileID: 5516399977117787723}
+  - {fileID: -7567461692746988931}
+  - {fileID: 2897349065823844519}
 --- !u!114 &1760862116340567064
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54,11 +122,46 @@ MonoBehaviour:
   m_DisplayName: RealMoney
   m_Key: realMoney
   m_Tags: []
-  m_StaticPropertyKeys: []
-  m_StaticPropertyValues: []
+  m_StaticPropertyKeys:
+  - dr
+  m_StaticPropertyValues:
+  - <type>k__BackingField: 4
+    m_ValueType:
+      longValue: 0
+    m_StringValue: RobloxScreenShot20201231_133649009
   m_InitialBalance: 500
   m_MaximumBalance: 0
   m_Type: 0
+--- !u!114 &2897349065823844519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08c9c5456074d4a83b08e8cf93c38d19, type: 3}
+  m_Name: Reward_alwayReward
+  m_EditorClassIdentifier: 
+  m_DisplayName: AlwayReward
+  m_Key: alwayReward
+  m_Tags: []
+  m_StaticPropertyKeys: []
+  m_StaticPropertyValues: []
+  m_CooldownSeconds: 0
+  m_CooldownDisplayUnits: 0
+  m_ExpirationSeconds: 0
+  m_ExpirationDisplayUnits: 3
+  m_ResetIfExpired: 0
+  m_RewardItems:
+  - <key>k__BackingField: fcb75afc-e99e-4049-ad32-97df11da278d
+    m_Payout:
+      m_Exchanges:
+      - m_CatalogItem: {fileID: 1760862116340567064}
+        m_Amount: 2
+      - m_CatalogItem: {fileID: 3025235883741061648}
+        m_Amount: 5
 --- !u!114 &3025235883741061648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -186,6 +289,40 @@ MonoBehaviour:
   m_InitialBalance: 500
   m_MaximumBalance: 0
   m_Type: 0
+--- !u!114 &5516399977117787723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08c9c5456074d4a83b08e8cf93c38d19, type: 3}
+  m_Name: Reward_dailyRockReward
+  m_EditorClassIdentifier: 
+  m_DisplayName: DailyRockReward
+  m_Key: dailyRockReward
+  m_Tags: []
+  m_StaticPropertyKeys: []
+  m_StaticPropertyValues: []
+  m_CooldownSeconds: 5
+  m_CooldownDisplayUnits: 0
+  m_ExpirationSeconds: 0
+  m_ExpirationDisplayUnits: 0
+  m_ResetIfExpired: 0
+  m_RewardItems:
+  - <key>k__BackingField: 5ce39474-7cc7-40e3-9326-5fd8a16b91a8
+    m_Payout:
+      m_Exchanges:
+      - m_CatalogItem: {fileID: 1760862116340567064}
+        m_Amount: 5
+      - m_CatalogItem: {fileID: 3025235883741061648}
+        m_Amount: 2
+      - m_CatalogItem: {fileID: 4595273915333490950}
+        m_Amount: 25
+      - m_CatalogItem: {fileID: 5140671113859417450}
+        m_Amount: 2
 --- !u!114 &6880072987442098672
 MonoBehaviour:
   m_ObjectHideFlags: 0

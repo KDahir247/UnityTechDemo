@@ -28,6 +28,7 @@
               <e p="GameInventoryTest.cs" t="Include" />
               <e p="GameItemTest.cs" t="Include" />
               <e p="GameWalletTest.cs" t="Include" />
+              <e p="RewardTest.cs" t="Include" />
               <e p="TransactionTest.cs" t="Include" />
             </e>
           </e>
@@ -865,6 +866,10 @@
               </e>
               <e p="ItemSystem" t="Include">
                 <e p="GameItem.cs" t="Include" />
+              </e>
+              <e p="RewardManager.cs" t="Include" />
+              <e p="RewardSystem" t="Include">
+                <e p="GameReward.cs" t="Include" />
               </e>
               <e p="TransactionSystem" t="Include">
                 <e p="GameTransaction.cs" t="Include" />
