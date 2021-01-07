@@ -106,12 +106,3 @@ Creation (Through Scene Addressable Loading)
 <br/>
 Game (Game scene will be the only Scene that will have ECS and DOTS Logic to drive it) within Game Scene there will be SubScene (Through Scene Addressable Loading and SubScene with ECS, DOTS)
 <br/>
-
-<br/>
-TODO:
-<br/>
-Cleaning, refactoring, and optimizing code.
-<br/> 
-Write Testing for features thus far and write test for future code structure
-<br/>
-Game Foundation will work with the in-memory database using the Game Foundation static properties (Resources asset). The binary file can be deserialized to contain images, string, int, bool, etc.... Deserialization and serialization with the in-memory database is very fast as well. 
