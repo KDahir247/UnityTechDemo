@@ -9,45 +9,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6abb102-7c44-48ea-adde-dc287c5cfed8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/GameFoundation/GameStoreTest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/GameFoundation/GameStoreTest.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/StoreSystem.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/StoreSystem/GameStore.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/StoreSystem/GameStore.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2021-01-06_18-43-20_CoverageHistory.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2021-01-06_18-45-25_CoverageHistory.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2021-01-06_18-46-05_CoverageHistory.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2021-01-06_18-47-15_CoverageHistory.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2021-01-06_18-48-20_CoverageHistory.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2021-01-06_18-49-20_CoverageHistory.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2021-01-06_18-50-03_CoverageHistory.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2021-01-06_18-50-37_CoverageHistory.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2021-01-06_18-51-51_CoverageHistory.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2021-01-06_18-52-31_CoverageHistory.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2021-01-06_18-57-08_CoverageHistory.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2021-01-06_19-56-19_CoverageHistory.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2021-01-06_19-58-11_CoverageHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/ECS.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/ECS/BasicECSTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/ECS/BasicECSTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/test.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/test.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2021-01-06_20-46-25_CoverageHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2021-01-06_20-47-14_CoverageHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2021-01-06_20-48-08_CoverageHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2021-01-06_20-49-32_CoverageHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2021-01-06_22-09-16_CoverageHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2021-01-06_22-09-40_CoverageHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCoverage/Report-history/2021-01-06_22-12-19_CoverageHistory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/.idea/.idea.TechDemoProject/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/.idea/.idea.TechDemoProject/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Authoring/UnitDataAuthoring.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Authoring/UnitDataAuthoring.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TechDemoTest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TechDemoTest/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TechDemoTest/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TechDemoTest/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TechDemoTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TechDemoTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameFoundation/GameFoundationCatalog.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameFoundation/GameFoundationCatalog.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/GameFoundation/GameInventoryTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/GameFoundation/GameInventoryTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/GameFoundation/GameItemTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/GameFoundation/GameItemTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/GameFoundation/GameWalletTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/GameFoundation/GameWalletTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/GameFoundation/RewardTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/GameFoundation/RewardTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/GameFoundation/TransactionTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/GameFoundation/TransactionTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Plugins/UniRx/Scripts/Pair.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Plugins/UniRx/Scripts/Pair.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Plugins/UniRx/Scripts/Subjects/AsyncSubject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Plugins/UniRx/Scripts/Subjects/AsyncSubject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Plugins/UniRx/Scripts/Subjects/BehaviorSubject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Plugins/UniRx/Scripts/Subjects/BehaviorSubject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Plugins/UniRx/Scripts/Subjects/ISubject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Plugins/UniRx/Scripts/Subjects/ISubject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Plugins/UniRx/Scripts/Subjects/ReplaySubject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Plugins/UniRx/Scripts/Subjects/ReplaySubject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Plugins/UniRx/Scripts/Subjects/Subject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Plugins/UniRx/Scripts/Subjects/Subject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Plugins/UniRx/Scripts/Subjects/SubjectExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Plugins/UniRx/Scripts/Subjects/SubjectExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Plugins/UniRx/Scripts/System/IObservable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Plugins/UniRx/Scripts/System/IObservable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Plugins/UniRx/Scripts/System/IObserver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Plugins/UniRx/Scripts/System/IObserver.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Plugins/UniRx/Scripts/System/IProgress.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Plugins/UniRx/Scripts/System/IProgress.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Plugins/UniRx/Scripts/System/Tuple.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Plugins/UniRx/Scripts/System/Tuple.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Plugins/UniRx/Scripts/System/Unit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Plugins/UniRx/Scripts/System/Unit.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Plugins/UniRx/Scripts/Tasks/TaskObservableExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Plugins/UniRx/Scripts/Tasks/TaskObservableExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlaymodeTest/PlaymodeTest.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/PlaymodeTest.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/ProjectLogic.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/ProjectLogic.asmdef" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/RewardSystem/GameReward.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/RewardSystem/GameReward.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/TransactionSystem/GameTransaction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/TransactionSystem/GameTransaction.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_AssetInfo.html" beforeDir="false" />
@@ -86,6 +66,7 @@
       <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_GameInventory.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_GameItem.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_GameReward.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_GameStore.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_GameTransaction.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_GameWallet.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/ProjectLogic_GeneratedResolver.html" beforeDir="false" />
@@ -171,8 +152,27 @@
       <change beforePath="$PROJECT_DIR$/CodeCoverage/Report/report.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeCoverage/TechDemoTest-opencov/PlayMode/TestCoverageResults_0000.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCoverage/TechDemoTest-opencov/PlayMode/TestCoverageResults_0000.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker2-prev.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker3-prev.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker4-prev.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker5-prev.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker6-prev.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/MessagePack.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/MessagePack.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/PlaymodeTest.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PlaymodeTest.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/ProjectLogic.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/ProjectLogic.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Ulid.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Ulid.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/UniRx.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniRx.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/UniTask.Addressables.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniTask.Addressables.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/UniTask.Editor.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniTask.Editor.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/UniTask.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniTask.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/ZLogger.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/ZLogger.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/ZString.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/ZString.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,6 +194,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/62FFEEB7-EC02-4BEA-B61E-5FBF8D44AC5B/48/f5ecac3a/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.16.15/Runtime/ResourceManager/ResourceProviders/IInstanceProvider.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E414E10B-FE5F-4572-9FF1-22F3359DE21B/c5/54196966/CustomYieldInstruction.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities.Tests/EntityTransactionTests.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/Core/Build/ResolverInitialization.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/62FFEEB7-EC02-4BEA-B61E-5FBF8D44AC5B/18/defc6f95/Exception.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/81481514-4B33-4AFD-BC72-FCC125EA773E/8c/86c3d571/ITransactionManager.cs" root0="SKIP_HIGHLIGHTING" />
@@ -204,16 +205,17 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E414E10B-FE5F-4572-9FF1-22F3359DE21B/19/e8e85367/WaitUntil.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.game-foundation@0.8.0-preview/Core/Runtime/Sdk/GameFoundationSdk.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.16.15/Runtime/ResourceManager/AsyncOperations/AsyncOperationHandle.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/10B6135E-6343-4FDB-A4FC-6C109928AB3B/64/9f1c3bd8/CategoryAttribute.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/62FFEEB7-EC02-4BEA-B61E-5FBF8D44AC5B/2d/c8b6564c/OperationCanceledException.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/10B6135E-6343-4FDB-A4FC-6C109928AB3B/b1/1b4fc821/TestFixtureAttribute.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9577AC7A-62EF-4317-9789-031239BA8798/56/77dc5904/ICollection`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/81481514-4B33-4AFD-BC72-FCC125EA773E/28/f25e42e5/IInventoryManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/01 Inventory Basics/InventoryBasics.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E414E10B-FE5F-4572-9FF1-22F3359DE21B/35/5380cc7b/NativeArray`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.test-framework.performance@2.4.1-preview/Runtime/Measurements/MethodMeasurement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities.Tests/ECSTestsFixture.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.game-foundation@0.8.0-preview/DefaultLayers/Runtime/PersistenceDataLayer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.game-foundation@0.8.0-preview/Core/Runtime/Inventory/StackableInventoryItem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E414E10B-FE5F-4572-9FF1-22F3359DE21B/3d/443824a9/Profiler.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.test-framework.performance@2.4.1-preview/Runtime/Attributes/PerformanceAttribute.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.game-foundation@0.8.0-preview/DefaultLayers/Runtime/BaseMemoryDataLayer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/72A7A657-B248-42DF-AA06-08148D643D1C/ee/1ca857fe/System.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.game-foundation@0.8.0-preview/Core/Runtime/Inventory/InventoryItem.cs" root0="SKIP_HIGHLIGHTING" />
@@ -232,12 +234,15 @@
     <setting file="file://$PROJECT_DIR$/Assets/Project/PluginScripts/MasterMemory/Internal/InternStringResolver.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.game-foundation@0.8.0-preview/DefaultLayers/Runtime/Persistence/IDataPersistence.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E414E10B-FE5F-4572-9FF1-22F3359DE21B/c8/1b077017/UnityEvent.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Transforms/Translation.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.game-foundation@0.8.0-preview/Core/Runtime/Rewards/Reward.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.game-foundation@0.8.0-preview/Components/Runtime/GameFoundationInit.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.game-foundation@0.8.0-preview/Components/Runtime/CurrencyHudView.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Project/test.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E414E10B-FE5F-4572-9FF1-22F3359DE21B/66/0afe47f5/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.game-foundation@0.8.0-preview/Core/Runtime/Catalog/Catalog.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E414E10B-FE5F-4572-9FF1-22F3359DE21B/23/95a10587/Vector2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities.PerformanceTests/EntityPerformanceTestFixture.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.game-foundation@0.8.0-preview/Core/Runtime/Wallet/Currency.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.game-foundation@0.8.0-preview/Core/Runtime/Transactions/VirtualTransaction.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E414E10B-FE5F-4572-9FF1-22F3359DE21B/11/33af2eeb/Transform.cs" root0="SKIP_HIGHLIGHTING" />
@@ -257,12 +262,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/StaticDbBuilderTest.cs" />
-      <option value="$PROJECT_DIR$/Assets/Project/Editor/MasterMemoryWindow.cs" />
-      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Database/Tables/TestTable.cs" />
-      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Database/DynamicDbBuilder.cs" />
-      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Database/StaticDbBuilder.cs" />
-      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/Logger/LogManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/Serialization/UlidMessagePackResolver.cs" />
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/Serialization/UlidMessagePackFormatter.cs" />
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/Build/ResolverInitialization.cs" />
@@ -286,7 +285,6 @@
       <option value="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/Core/EventSystemTest.cs" />
       <option value="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/Core/DynamicDbBuilderTest.cs" />
       <option value="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/Core/DatabaseStreamTest.cs" />
-      <option value="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/Core/AssetSystemTest.cs" />
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/InventorySystem/InventoryItem.cs" />
       <option value="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/GameFoundation/InventoryItemTest.cs" />
       <option value="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/03 Tags/TagsSample.cs" />
@@ -304,10 +302,17 @@
       <option value="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/GameFoundation/GameWalletTest.cs" />
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/StoreSystem/GameStore.cs" />
       <option value="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/GameFoundation/RewardTest.cs" />
-      <option value="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/GameFoundation/TransactionTest.cs" />
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/RewardManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/RewardSystem/GameReward.cs" />
+      <option value="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/GameFoundation/TransactionTest.cs" />
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/TransactionSystem/GameTransaction.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/RewardSystem/GameReward.cs" />
+      <option value="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/ECS/d.cs" />
+      <option value="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/Core/AssetSystemTest.cs" />
+      <option value="$PROJECT_DIR$/Assets/fg.cs" />
+      <option value="$PROJECT_DIR$/Assets/k.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/test.cs" />
+      <option value="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/ECS/BasicECSTest.cs" />
+      <option value="$PROJECT_DIR$/Assets/PlaymodeTest/PlaymodeTest.asmdef" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1mGcpWGc6Z0UzqQm4gJFxdGM5v9" />
@@ -374,7 +379,7 @@
       <workItem from="1609386490532" duration="8928000" />
       <workItem from="1609454648309" duration="1683000" />
       <workItem from="1609456577092" duration="11411000" />
-      <workItem from="1609471537651" duration="97881000" />
+      <workItem from="1609471537651" duration="105145000" />
     </task>
     <servers />
   </component>

@@ -24,6 +24,9 @@
               <e p="StaticDbBuilderTest.cs" t="Include" />
               <e p="UnitaskBootstrapTest.cs" t="Include" />
             </e>
+            <e p="ECS" t="Include">
+              <e p="BasicECSTest.cs" t="Include" />
+            </e>
             <e p="GameFoundation" t="Include">
               <e p="GameInventoryTest.cs" t="Include" />
               <e p="GameItemTest.cs" t="Include" />
@@ -890,6 +893,7 @@
               </e>
             </e>
           </e>
+          <e p="test.cs" t="Include" />
         </e>
         <e p="Samples" t="Include">
           <e p="Game Foundation" t="Include">

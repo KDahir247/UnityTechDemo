@@ -58,7 +58,6 @@ public sealed class GameTransaction : DataFoundation
         if (!MainThreadDispatcher.IsInitialized)
             MainThreadDispatcher.Initialize();
 
-        //TODO gc increase since function get call frequently.
         MainThreadDispatcher.StartCoroutine(ExecuteTransaction(_virtualDictionary[virtualTransactionKey]));
     }
 

@@ -59,7 +59,6 @@ public sealed class GameReward : DataFoundation
         if (!MainThreadDispatcher.IsInitialized)
             MainThreadDispatcher.Initialize();
 
-        //TODO gc increase since function get call frequently.
         MainThreadDispatcher.StartCoroutine(ClaimReward(_rewardDictionary[rewardKey]));
     }
 

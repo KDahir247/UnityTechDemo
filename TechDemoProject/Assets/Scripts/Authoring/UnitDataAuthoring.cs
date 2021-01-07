@@ -8,7 +8,6 @@ using UnityEngine;
 using ZLogger;
 using ILogger = Microsoft.Extensions.Logging.ILogger;
 using Unit = Tech.DB.Unit;
-
 namespace Tech.ECS
 {
     [DisallowMultipleComponent]
@@ -16,7 +15,7 @@ namespace Tech.ECS
     public class UnitDataAuthoring : MonoBehaviour, IConvertGameObjectToEntity
     {
         private static readonly ILogger Logger = LogManager.GetLogger("AuthoringLogger");
-
+        
         private readonly TechDynamicDBBuilder _dynamicDb = new TechDynamicDBBuilder();
 
         //TODO remove this for an IComponentData and once the IComponentData 
