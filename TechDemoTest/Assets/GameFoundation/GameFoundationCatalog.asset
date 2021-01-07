@@ -82,7 +82,9 @@ MonoBehaviour:
   m_Tags: []
   m_StaticPropertyKeys: []
   m_StaticPropertyValues: []
-  m_StoreItems: []
+  m_StoreItems:
+  - m_Transaction: {fileID: 4503578463038597754}
+    m_Enabled: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0

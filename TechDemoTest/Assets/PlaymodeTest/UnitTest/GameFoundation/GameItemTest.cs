@@ -12,6 +12,7 @@ namespace Tech.Test
         public void GameItemSetUp()
         {
             Object.Instantiate(Resources.Load<GameObject>("Prefabs/GameFoundation"));
+            _gameItem = new GameItem();
         }
 
         [Test]
@@ -20,19 +21,16 @@ namespace Tech.Test
         {
             Assert.DoesNotThrow(() =>
             {
-                using (_gameItem = new GameItem())
-                {
-                    /*_gameItem.StackableItemValueChanged()
-                        .Subscribe(val => Debug.Log($"{val.definition.displayName} : {val.quantity}"));*/
+                /*_gameItem.StackableItemValueChanged()
+                    .Subscribe(val => Debug.Log($"{val.definition.displayName} : {val.quantity}"));*/
 
-                    Measure.Method(() => _gameItem.IncreaseQuantity("stackable"))
-                        .SampleGroup("Adding Stackable Item")
-                        .WarmupCount(5)
-                        .IterationsPerMeasurement(20)
-                        .MeasurementCount(10)
-                        .GC()
-                        .Run();
-                }
+                Measure.Method(() => _gameItem.IncreaseQuantity("stackable"))
+                    .SampleGroup("Adding Stackable Item")
+                    .WarmupCount(5)
+                    .IterationsPerMeasurement(20)
+                    .MeasurementCount(10)
+                    .GC()
+                    .Run();
             });
 
             // Use the Assert class to test conditions.
@@ -44,21 +42,18 @@ namespace Tech.Test
         {
             Assert.DoesNotThrow(() =>
             {
-                using (_gameItem = new GameItem())
-                {
-                    _gameItem.SetQuantity("stackable", 100000);
+                _gameItem.SetQuantity("stackable", 100000);
 
-                    /*_gameItem.StackableItemValueChanged()
-                        .Subscribe(val => Debug.Log($"{val.definition.displayName} : {val.quantity}"));*/
+                /*_gameItem.StackableItemValueChanged()
+                    .Subscribe(val => Debug.Log($"{val.definition.displayName} : {val.quantity}"));*/
 
-                    Measure.Method(() => _gameItem.DecreaseQuantity("stackable"))
-                        .SampleGroup("Removing Stackable Item")
-                        .WarmupCount(5)
-                        .IterationsPerMeasurement(20)
-                        .MeasurementCount(10)
-                        .GC()
-                        .Run();
-                }
+                Measure.Method(() => _gameItem.DecreaseQuantity("stackable"))
+                    .SampleGroup("Removing Stackable Item")
+                    .WarmupCount(5)
+                    .IterationsPerMeasurement(20)
+                    .MeasurementCount(10)
+                    .GC()
+                    .Run();
             });
         }
 
@@ -66,22 +61,25 @@ namespace Tech.Test
         [Performance]
         public void GameItemZeroQuantityTestSimplePasses()
         {
-            using (_gameItem = new GameItem())
+            _gameItem.SetQuantity("stackable", 1000);
+
+            // _gameItem.StackableItemValueChanged().Subscribe(val => {Debug.Log($"{val.definition.displayName} : {val.quantity}"); });
+
+            using (Measure.Scope("Zero Quantity"))
+            {
+                _gameItem.ZeroQuantity("stackable");
+            }
+
+            using (Measure.Scope("Setting Quantity"))
             {
                 _gameItem.SetQuantity("stackable", 1000);
-
-                // _gameItem.StackableItemValueChanged().Subscribe(val => {Debug.Log($"{val.definition.displayName} : {val.quantity}"); });
-
-                using (Measure.Scope("Zero Quantity"))
-                {
-                    _gameItem.ZeroQuantity("stackable");
-                }
-
-                using (Measure.Scope("Setting Quantity"))
-                {
-                    _gameItem.SetQuantity("stackable", 1000);
-                }
             }
+        }
+
+        [TearDown]
+        public void GameItemTearDown()
+        {
+            _gameItem.Dispose();
         }
     }
 }

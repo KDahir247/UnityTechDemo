@@ -40,7 +40,7 @@ namespace Tech.Test
 
                     _gameTransaction.OnTransactionCompleted().Subscribe(_ => Debug.Log("transaction Completed"));
                     _gameTransaction.OnTransactionFailed()
-                        .Subscribe(error => Debug.Log($"{error.InnerException.Message}"));
+                        .Subscribe(error => Debug.Log($"{error?.InnerException?.Message}"));
                     _gameTransaction.Purchase("rockBlueprint");
                     _gameTransaction.Purchase("rockBlueprint");
                     _gameTransaction.Purchase("rockBlueprint");

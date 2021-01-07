@@ -59,6 +59,7 @@ public sealed class GameReward : DataFoundation
         if (!MainThreadDispatcher.IsInitialized)
             MainThreadDispatcher.Initialize();
 
+        //TODO gc increase since function get call frequently.
         MainThreadDispatcher.StartCoroutine(ClaimReward(_rewardDictionary[rewardKey]));
     }
 
@@ -111,7 +112,6 @@ public sealed class GameReward : DataFoundation
 
     private void RewardItemClaimCompleted([NotNull] Reward reward, [NotNull] string rewardItemKey, Payout payout)
     {
-        //we can check what it is 
         _rewardCompletedSubject.OnNext(payout);
     }
 

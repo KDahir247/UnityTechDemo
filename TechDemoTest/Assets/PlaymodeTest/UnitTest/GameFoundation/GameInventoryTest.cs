@@ -9,11 +9,14 @@ namespace Tech.Test
     public sealed class GameInventoryTest
     {
         private GameInventory _gameInventory;
+        private GameInventory _innerGameInventory;
 
         [SetUp]
         public void GameInventorySetUp()
         {
             Object.Instantiate(Resources.Load<GameObject>("Prefabs/GameFoundation"));
+            _gameInventory = new GameInventory();
+            _innerGameInventory = new GameInventory();
         }
 
         [Test]
@@ -22,22 +25,16 @@ namespace Tech.Test
         {
             Assert.DoesNotThrow(() =>
             {
-                using (_gameInventory = new GameInventory())
-                {
-                    using (var innerGameInventory = new GameInventory())
-                    {
-                        //innerGameInventory.InventoryValueChanged().Subscribe(_ => Debug.Log("Item has been added"));
+                //_innerGameInventory.InventoryValueChanged().Subscribe(_ => Debug.Log("Item has been added"));
 
-                        Measure.Method(() => _gameInventory.AddToInventory("rock"))
-                            .SampleGroup("Adding Inventory")
-                            .WarmupCount(5)
-                            .IterationsPerMeasurement(50)
-                            .MeasurementCount(10)
-                            .GC()
-                            .Run();
-                        //Logic
-                    }
-                }
+                Measure.Method(() => _gameInventory.AddToInventory("rock"))
+                    .SampleGroup("Adding Inventory")
+                    .WarmupCount(5)
+                    .IterationsPerMeasurement(50)
+                    .MeasurementCount(10)
+                    .GC()
+                    .Run();
+                //Logic
             });
             // Use the Assert class to test conditions.
         }
@@ -48,24 +45,21 @@ namespace Tech.Test
         {
             Assert.DoesNotThrow(() =>
             {
-                using (_gameInventory = new GameInventory())
-                {
-                    /*
-                    _gameInventory
-                        .InventoryValueChanged()
-                        .Subscribe(itemPair =>
-                            Debug.Log(
-                                $"Removed {itemPair.Item1.definition.displayName}. there is a total of {itemPair.Item2.Count} rocks left"));
-                                */
+                /*
+                _gameInventory
+                    .InventoryValueChanged()
+                    .Subscribe(itemPair =>
+                        Debug.Log(
+                            $"Removed {itemPair.Item1.definition.displayName}. there is a total of {itemPair.Item2.Count} rocks left"));
+                            */
 
-                    Measure.Method(() => _gameInventory.RemoveInventory("rock"))
-                        .SampleGroup("Removing Inventory")
-                        .WarmupCount(5)
-                        .IterationsPerMeasurement(20)
-                        .MeasurementCount(10)
-                        .GC()
-                        .Run();
-                }
+                Measure.Method(() => _gameInventory.RemoveInventory("rock"))
+                    .SampleGroup("Removing Inventory")
+                    .WarmupCount(5)
+                    .IterationsPerMeasurement(20)
+                    .MeasurementCount(10)
+                    .GC()
+                    .Run();
             });
         }
 
@@ -75,14 +69,11 @@ namespace Tech.Test
         {
             Assert.DoesNotThrow(() =>
             {
-                using (_gameInventory = new GameInventory())
+                using (Measure.Scope("Removing all inventory"))
                 {
-                    using (Measure.Scope("Removing all inventory"))
-                    {
-                        /*_gameInventory.InventoryValueChanged()
-                            .Subscribe(itemPair => Debug.Log(itemPair.Item2.Count));*/
-                        _gameInventory.RemoveAllFromInventoryType("rock");
-                    }
+                    /*_gameInventory.InventoryValueChanged()
+                        .Subscribe(itemPair => Debug.Log(itemPair.Item2.Count));*/
+                    _gameInventory.RemoveAllFromInventoryType("rock");
                 }
             });
         }
@@ -92,13 +83,17 @@ namespace Tech.Test
         {
             Assert.Throws<ArgumentNullException>(() =>
             {
-                using (_gameInventory = new GameInventory())
-                {
-                    _gameInventory.AddToInventory("foo");
-                    _gameInventory.RemoveInventory("bar");
-                    _gameInventory.RemoveAllFromInventoryType("fizz");
-                }
+                _gameInventory.AddToInventory("foo");
+                _gameInventory.RemoveInventory("bar");
+                _gameInventory.RemoveAllFromInventoryType("fizz");
             });
+        }
+
+        [TearDown]
+        public void GameInventoryTearDown()
+        {
+            _gameInventory.Dispose();
+            _innerGameInventory.Dispose();
         }
     }
 }

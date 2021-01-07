@@ -58,11 +58,11 @@ public sealed class GameTransaction : DataFoundation
         if (!MainThreadDispatcher.IsInitialized)
             MainThreadDispatcher.Initialize();
 
-        MainThreadDispatcher
-            .StartCoroutine(ExecuteTransaction(_virtualDictionary[virtualTransactionKey]));
+        //TODO gc increase since function get call frequently.
+        MainThreadDispatcher.StartCoroutine(ExecuteTransaction(_virtualDictionary[virtualTransactionKey]));
     }
 
-    private IEnumerator ExecuteTransaction([NotNull] BaseTransaction virtualTransaction)
+    private IEnumerator ExecuteTransaction(VirtualTransaction virtualTransaction)
     {
         using var deferred = GameFoundationSdk.transactions.BeginTransaction(virtualTransaction);
         while (!deferred.isDone) yield return null;

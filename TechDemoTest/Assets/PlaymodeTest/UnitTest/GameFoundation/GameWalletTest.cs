@@ -12,6 +12,7 @@ namespace Tech.Test
         public void GameWalletSetUp()
         {
             Object.Instantiate(Resources.Load<GameObject>("Prefabs/GameFoundation"));
+            _gameWallet = new GameWallet();
         }
 
         [Test]
@@ -20,20 +21,17 @@ namespace Tech.Test
         {
             Assert.DoesNotThrow(() =>
             {
-                using (_gameWallet = new GameWallet())
-                {
-                    _gameWallet.ResetWalletAmount("fakeMoney");
-                    _gameWallet.AddToWallet("fakeMoney", 20000);
+                _gameWallet.ResetWalletAmount("fakeMoney");
+                _gameWallet.AddToWallet("fakeMoney", 20000);
 
-                    Measure
-                        .Method(() => _gameWallet.RemoveFromWallet("fakeMoney", 1))
-                        .WarmupCount(3)
-                        .IterationsPerMeasurement(30)
-                        .SampleGroup("Testing Remove Wallet")
-                        .MeasurementCount(9)
-                        .GC()
-                        .Run();
-                }
+                Measure
+                    .Method(() => _gameWallet.RemoveFromWallet("fakeMoney", 1))
+                    .WarmupCount(3)
+                    .IterationsPerMeasurement(30)
+                    .SampleGroup("Testing Remove Wallet")
+                    .MeasurementCount(9)
+                    .GC()
+                    .Run();
             });
         }
 
@@ -43,22 +41,25 @@ namespace Tech.Test
         {
             Assert.DoesNotThrow(() =>
             {
-                using (_gameWallet = new GameWallet())
-                {
-                    _gameWallet.ResetWalletAmount("fakeMoney");
+                _gameWallet.ResetWalletAmount("fakeMoney");
 
-                    Measure
-                        .Method(() => _gameWallet.AddToWallet("fakeMoney", 10000))
-                        .WarmupCount(3)
-                        .IterationsPerMeasurement(20)
-                        .SampleGroup("Testing Add to Wallet")
-                        .MeasurementCount(7)
-                        .GC()
-                        .Run();
+                Measure
+                    .Method(() => _gameWallet.AddToWallet("fakeMoney", 10000))
+                    .WarmupCount(3)
+                    .IterationsPerMeasurement(20)
+                    .SampleGroup("Testing Add to Wallet")
+                    .MeasurementCount(7)
+                    .GC()
+                    .Run();
 
-                    _gameWallet.Save();
-                }
+                _gameWallet.Save();
             });
+        }
+
+        [TearDown]
+        public void GameWalletTearDown()
+        {
+            _gameWallet.Dispose();
         }
     }
 }

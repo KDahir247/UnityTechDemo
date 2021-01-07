@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CoverageReport scope="Summary">
   <Summary>
-    <Generatedon>2021-01-04 - 11:04:02 PM</Generatedon>
+    <Generatedon>2021-01-06 - 8:08:47 PM</Generatedon>
     <Parser>MultiReportParser (6x OpenCoverParser)</Parser>
     <Assemblies>1</Assemblies>
-    <Classes>79</Classes>
-    <Files>44</Files>
-    <Coveredlines>372</Coveredlines>
-    <Uncoveredlines>2870</Uncoveredlines>
-    <Coverablelines>3242</Coverablelines>
-    <Totallines>5577</Totallines>
-    <Linecoverage>11.4</Linecoverage>
+    <Classes>80</Classes>
+    <Files>45</Files>
+    <Coveredlines>418</Coveredlines>
+    <Uncoveredlines>2874</Uncoveredlines>
+    <Coverablelines>3292</Coverablelines>
+    <Totallines>5676</Totallines>
+    <Linecoverage>12.6</Linecoverage>
     <Coveredbranches>0</Coveredbranches>
     <Totalbranches>0</Totalbranches>
   </Summary>
   <Coverage>
-    <Assembly name="ProjectLogic" classes="79" coverage="11.4" coveredlines="372" coverablelines="3242" totallines="51291" branchcoverage="" coveredbranches="0" totalbranches="0">
+    <Assembly name="ProjectLogic" classes="80" coverage="12.6" coveredlines="418" coverablelines="3292" totallines="51390" branchcoverage="" coveredbranches="0" totalbranches="0">
       <Class name="AssetInfo" coverage="0" coveredlines="0" coverablelines="4" totallines="67" branchcoverage="" coveredbranches="0" totalbranches="0" />
       <Class name="AssetSystem[T]" coverage="0" coveredlines="0" coverablelines="21" totallines="67" branchcoverage="" coveredbranches="0" totalbranches="0" />
       <Class name="DatabaseStream" coverage="38.8" coveredlines="7" coverablelines="18" totallines="46" branchcoverage="" coveredbranches="0" totalbranches="0" />
@@ -23,8 +23,9 @@
       <Class name="DynamicDbBuilder" coverage="0" coveredlines="0" coverablelines="25" totallines="51" branchcoverage="" coveredbranches="0" totalbranches="0" />
       <Class name="GameInventory" coverage="93.1" coveredlines="54" coverablelines="58" totallines="114" branchcoverage="" coveredbranches="0" totalbranches="0" />
       <Class name="GameItem" coverage="90.1" coveredlines="64" coverablelines="71" totallines="130" branchcoverage="" coveredbranches="0" totalbranches="0" />
-      <Class name="GameReward" coverage="74.6" coveredlines="47" coverablelines="63" totallines="121" branchcoverage="" coveredbranches="0" totalbranches="0" />
-      <Class name="GameTransaction" coverage="91.6" coveredlines="55" coverablelines="60" totallines="118" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GameReward" coverage="73" coveredlines="46" coverablelines="63" totallines="122" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GameStore" coverage="92" coveredlines="46" coverablelines="50" totallines="99" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GameTransaction" coverage="93.3" coveredlines="56" coverablelines="60" totallines="117" branchcoverage="" coveredbranches="0" totalbranches="0" />
       <Class name="GameWallet" coverage="87.6" coveredlines="78" coverablelines="89" totallines="108" branchcoverage="" coveredbranches="0" totalbranches="0" />
       <Class name="LogManager" coverage="69.2" coveredlines="18" coverablelines="26" totallines="52" branchcoverage="" coveredbranches="0" totalbranches="0" />
       <Class name="MasterData.DatabaseBuilder" coverage="16.6" coveredlines="1" coverablelines="6" totallines="24" branchcoverage="" coveredbranches="0" totalbranches="0" />

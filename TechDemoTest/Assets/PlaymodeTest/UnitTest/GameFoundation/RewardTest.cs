@@ -11,7 +11,7 @@ namespace Tech.Test
     {
         private GameInventory _gameInventory;
         private GameReward _gameReward;
-        private GameWallet _wallet;
+        private GameWallet _gameWallet;
 
         [SetUp]
         public void RewardTestSetUp()
@@ -19,7 +19,7 @@ namespace Tech.Test
             Object.Instantiate(Resources.Load<GameObject>("Prefabs/GameFoundation"));
 
             _gameReward = new GameReward();
-            _wallet = new GameWallet();
+            _gameWallet = new GameWallet();
             _gameInventory = new GameInventory();
         }
 
@@ -31,7 +31,8 @@ namespace Tech.Test
 
             Assert.DoesNotThrow(() =>
             {
-                _wallet.WalletValueChanged().Subscribe(val => Debug.Log($"Added {val.quantity} to the wallet amount"));
+                _gameWallet.WalletValueChanged()
+                    .Subscribe(val => Debug.Log($"Added {val.quantity} to the wallet amount"));
                 _gameInventory.InventoryValueChanged()
                     .Subscribe(equip => Debug.Log($"added {equip.definition.displayName}"));
 
@@ -89,6 +90,13 @@ namespace Tech.Test
             yield return new WaitForSeconds(5);
 
             _gameReward.Claim("dailyRockReward");
+        }
+
+        [TearDown]
+        public void RewardTearDown()
+        {
+            _gameInventory.Dispose();
+            _gameWallet.Dispose();
         }
     }
 }
