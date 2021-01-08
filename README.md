@@ -2,6 +2,7 @@
 
 Self teaching on some of unity's packages and some other plugin. (Ongoing) 
 <br/>
+(Going to do more ECS/DOTS Studies and the new input system Studies before working on those features)
 <br/>
 Project will now follow the Agile Methodology (UI might bypass some test.)
 <br/>
