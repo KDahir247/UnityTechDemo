@@ -1,44 +1,32 @@
-﻿using JetBrains.Annotations;
-using MasterData;
-using Tech.Data;
+﻿using Cysharp.Threading.Tasks;
 using Tech.DB;
+
+using JetBrains.Annotations;
 using Tech.UI.Linq;
 using UniRx;
 using UnityEngine;
 using UnityEngine.UIElements;
-using Unit = Tech.DB.Unit;
+using UnityEngine.UIElements.Experimental;
 
 namespace Tech.UI.Panel
 {
-    public class Creation_Document : Base_Document
+    public class Creation_Document : BaseDocument
     {
-        private readonly Button[] _skills = new Button[3];
+        private DB.Unit _currentUnit;
+
+        private readonly DatabaseStream _dbStream = new DatabaseStream();
+        private StaticDbBuilder _dbBuilder;
 
         private Button _assassinButton;
-
-        private Button _createButton;
-
-        //Default
-        private Unit _currentUnit;
-        private MemoryDatabase _db;
-        //private readonly StaticDBBuilder _dbBuilder = new StaticDBBuilder();
-
-        private string _headScene = string.Empty;
-
-        private RotationDirection _modelRotateDirection;
         private Button _necromancerButton;
         private Button _oracleButton;
 
-        private Button _rotationLeftButton;
-        private Button _rotationRightButton;
-        private string _tailScene = string.Empty;
+        private readonly Button[] _skills = new Button[3];
+        private Button _createButton;
 
         protected override void Init(params string[] scenes)
         {
-            if (scenes == null) return;
-
-            _headScene = scenes[0];
-            _tailScene = scenes[1];
+            _dbBuilder = new StaticDbBuilder(_dbStream);
         }
 
         protected override void UIQuery()
@@ -52,63 +40,41 @@ namespace Tech.UI.Panel
             _assassinButton = this.Q<Button>("Assassin_Button");
             _necromancerButton = this.Q<Button>("Necromancer_Button");
             _oracleButton = this.Q<Button>("Oracle_Button");
-
-            _rotationLeftButton = this.Q<Button>("RotationArrowL_Button");
-            _rotationRightButton = this.Q<Button>("RotationArrowR_Button");
         }
 
-        protected override void Start()
+        protected override void RegisterCallback()
         {
-            _rotationRightButton
-                .RegisterCallback(RotateModel<ClickEvent>(RotationDirection.Right));
-            _rotationLeftButton
-                .RegisterCallback(RotateModel<ClickEvent>(RotationDirection.Left));
-            _rotationRightButton
-                .RegisterCallback(RotateModel<PointerLeaveEvent>(RotationDirection.None));
-            _rotationLeftButton
-                .RegisterCallback(RotateModel<PointerLeaveEvent>(RotationDirection.None));
-
             _assassinButton.RegisterCallback(OnPressCharacter<ClickEvent>(_assassinButton.viewDataKey));
             _necromancerButton.RegisterCallback(OnPressCharacter<ClickEvent>(_necromancerButton.viewDataKey));
             _oracleButton.RegisterCallback(OnPressCharacter<ClickEvent>(_oracleButton.viewDataKey));
-            
-            
-            //_createButton.RegisterCallback(SaveUnitToUser<ClickEvent>());
+
+
+            _createButton.RegisterCallback(SaveUnitToUser<ClickEvent>());
 
             for (byte i = 0; i < _skills.Length; i++) _skills[i].RegisterCallback(ClickSkill<ClickEvent>(i));
         }
 
-        protected override void OnDestroy()
+        protected override void UnregisterCallback()
         {
-            _rotationRightButton
-                .UnregisterCallback(RotateModel<ClickEvent>(RotationDirection.Right));
-            _rotationLeftButton
-                .UnregisterCallback(RotateModel<ClickEvent>(RotationDirection.Left));
-            _rotationRightButton
-                .UnregisterCallback(RotateModel<PointerLeaveEvent>(RotationDirection.None));
-            _rotationLeftButton
-                .UnregisterCallback(RotateModel<PointerLeaveEvent>(RotationDirection.None));
-
-
             _assassinButton.UnregisterCallback(OnPressCharacter<ClickEvent>(_assassinButton.viewDataKey));
             _necromancerButton.UnregisterCallback(OnPressCharacter<ClickEvent>(_necromancerButton.viewDataKey));
             _oracleButton.UnregisterCallback(OnPressCharacter<ClickEvent>(_oracleButton.viewDataKey));
 
             for (byte i = 0; i < _skills.Length; i++) _skills[i].UnregisterCallback(ClickSkill<ClickEvent>(i));
-            
-            //_createButton.UnregisterCallback(SaveUnitToUser<ClickEvent>());
+
+            _createButton.UnregisterCallback(SaveUnitToUser<ClickEvent>());
         }
 
 
-        /*[NotNull]
+        [NotNull]
         private EventCallback<T> SaveUnitToUser<T>()
             where T : PointerEventBase<T>, new()
         {
             return evt =>
             {
                 if(_currentUnit == null) return;
-                
-                _dbBuilder.Build(builder =>
+
+                _dbBuilder.StaticallyMutateDatabase(FileDestination.UserPath,builder =>
                 {
                     builder.Append(new[]
                     {
@@ -118,13 +84,15 @@ namespace Tech.UI.Panel
                             {
                                 _currentUnit
                             }
-                        }, 
+                        },
                     });
                     return builder;
-                }, FileDestination.UserPath);
+                });
+
+                _dbBuilder.BuildToDatabaseAsync().Forget();
             };
-        }*/
-        
+        }
+
         [NotNull]
         private EventCallback<T> ClickSkill<T>(int index)
             where T : PointerEventBase<T>, new()
@@ -147,21 +115,20 @@ namespace Tech.UI.Panel
             {
                 if (_createButton.style.opacity.value <= 0)
                     _createButton
-                        .FadeInOrOut(FadeOutStyle, FadeInStyle, FadeInDuration);
+                        .FadeInOrOut(FadeOutStyle, FadeInStyle, Easing.Linear, FadeInDuration);
 
-                //ChangeSkills<T>(unitName);
+                ChangeSkills<T>(unitName);
             };
         }
 
-        /*private void ChangeSkills<T>(string unitName) where T : PointerEventBase<T>, new()
+        private void ChangeSkills<T>(string unitName) where T : PointerEventBase<T>, new()
         {
-            _db = TechDB.LoadDataBase(FileDestination.UnitPath);
 
-            _currentUnit = _db.UnitTable.FindByName(unitName);
+            _currentUnit = _dbStream.TryGetDatabase(FileDestination.UnitPath).UnitTable.FindByName(unitName);
 
             MessageBroker
                 .Default
-                .Publish<(Unit, Skill)>((_currentUnit, null));
+                .Publish<(DB.Unit, Skill)>((_currentUnit, null));
 
             for (byte i = 0; i < _currentUnit.Skills.Length; i++)
             {
@@ -173,15 +140,7 @@ namespace Tech.UI.Panel
                 styleBackgroundImage.value = Background.FromTexture2D(tex);
                 _skills[i].style.backgroundImage = styleBackgroundImage;
             }
-        }*/
-
-        [NotNull]
-        private EventCallback<T> RotateModel<T>(RotationDirection direction)
-            where T : PointerEventBase<T>, new()
-        {
-            return s => MessageBroker.Default.Publish(direction);
         }
-
 
         public new class UxmlFactory : UxmlFactory<Creation_Document, UxmlTraits>
         {
@@ -189,19 +148,11 @@ namespace Tech.UI.Panel
 
         public new sealed class UxmlTraits : VisualElement.UxmlTraits
         {
-            private readonly UxmlStringAttributeDescription _headScene = new UxmlStringAttributeDescription
-                {name = "start-scene", defaultValue = "Assets/Scenes/Creation.unity"};
-
-            private readonly UxmlStringAttributeDescription _tailScene = new UxmlStringAttributeDescription
-                {name = "next-scene", defaultValue = "Assets/Scenes/Game.unity"};
 
             public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
             {
+                ((Creation_Document) ve).Init();
                 base.Init(ve, bag, cc);
-                var sceneName = _headScene.GetValueFromBag(bag, cc);
-                var nextSceneName = _tailScene.GetValueFromBag(bag, cc);
-
-                ((Creation_Document) ve).Init(sceneName, nextSceneName);
             }
         }
     }

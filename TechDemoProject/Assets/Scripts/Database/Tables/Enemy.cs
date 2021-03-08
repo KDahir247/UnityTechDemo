@@ -11,11 +11,14 @@ namespace Tech.DB
     {
         public byte[] Id { get; set; }
 
+        [StringComparisonOption(StringComparison.InvariantCultureIgnoreCase)]
         [PrimaryKey] public string Name { get; set; }
 
         [SecondaryKey(0)] public int Index { get; set; }
 
+        [StringComparisonOption(StringComparison.InvariantCultureIgnoreCase)]
         public string Address { get; set; }
+
         public string Description { get; set; }
 
         public byte[] ImageBytes { get; set; }

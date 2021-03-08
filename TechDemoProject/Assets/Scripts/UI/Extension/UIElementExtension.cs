@@ -12,6 +12,7 @@ namespace Tech.UI.Linq
         public static void RecursiveFadeOutIn([NotNull] this VisualElement target,
             StyleValues fadeInStyle,
             StyleValues fadeOutStyle,
+            Func<float, float> easing,
             int fadeInDuration,
             int fadeOutDuration)
         {
@@ -19,20 +20,21 @@ namespace Tech.UI.Linq
                 .experimental
                 .animation
                 .Start(fadeInStyle, fadeOutStyle, fadeOutDuration)
-                .Ease(Easing.Linear)
+                .Ease(easing)
                 .OnCompleted(() => target
                     .experimental
                     .animation
                     .Start(fadeOutStyle, fadeInStyle, fadeInDuration)
                     .Ease(Easing.Linear)
                     .OnCompleted(() =>
-                        target.RecursiveFadeOutIn(fadeInStyle, fadeOutStyle, fadeInDuration, fadeOutDuration)));
+                        target.RecursiveFadeOutIn(fadeInStyle, fadeOutStyle,easing, fadeInDuration, fadeOutDuration)));
         }
 
         public static void FadeToNewScreen([NotNull] this VisualElement fadeOutTarget,
             [NotNull] VisualElement fadeInTarget,
             StyleValues fadeOutStyle,
             StyleValues fadeInStyle,
+            Func<float,float> easing,
             int fadeOutDuration,
             int fadeInDuration,
             [CanBeNull] Action onComplete = null)
@@ -41,7 +43,7 @@ namespace Tech.UI.Linq
                 .experimental
                 .animation
                 .Start(fadeInStyle, fadeOutStyle, fadeOutDuration)
-                .Ease(Easing.Linear)
+                .Ease(easing)
                 .OnCompleted(() =>
                 {
                     fadeOutTarget.style.display = DisplayStyle.None;
@@ -51,7 +53,7 @@ namespace Tech.UI.Linq
                         .experimental
                         .animation
                         .Start(fadeOutStyle, fadeInStyle, fadeInDuration)
-                        .Ease(Easing.Linear)
+                        .Ease(easing)
                         .OnCompleted(() => onComplete?.Invoke());
                 });
         }
@@ -61,6 +63,7 @@ namespace Tech.UI.Linq
         public static VisualElement FadeInOrOut([NotNull] this VisualElement target,
             in StyleValues fadeFromStyle,
             in StyleValues fadeToStyle,
+            Func<float,float> easing,
             int fadeDuration,
             [CanBeNull] Action onComplete = null)
         {
@@ -68,7 +71,7 @@ namespace Tech.UI.Linq
                 .experimental
                 .animation
                 .Start(fadeFromStyle, fadeToStyle, fadeDuration)
-                .Ease(Easing.Linear)
+                .Ease(easing)
                 .OnCompleted(() => onComplete?.Invoke());
 
             return target;
@@ -98,6 +101,7 @@ namespace Tech.UI.Linq
         public static async UniTask PlayTextSequence([NotNull] this Label text,
             int delayBeforeStarting,
             int delayBeforeEnding,
+            Func<float,float> easing,
             string type,
             int intervalMs)
         {
@@ -115,7 +119,7 @@ namespace Tech.UI.Linq
                 await UniTask.Delay(delayBeforeEnding, DelayType.Realtime);
 
 
-                text.FadeInOrOut(new StyleValues {opacity = 1}, new StyleValues {opacity = 0}, 1000);
+                text.FadeInOrOut(new StyleValues {opacity = 1}, new StyleValues {opacity = 0},easing, 1000);
 
                 await UniTask.WaitUntil(() => text.style.opacity.value <= 0.0f);
             }
@@ -125,6 +129,7 @@ namespace Tech.UI.Linq
             [NotNull] string[] typeCollection,
             int delayBeforeEnding,
             int delayBeforeStarting,
+            Func<float,float> easing,
             int intervalMs,
             [CanBeNull] Action onComplete = null)
         {
@@ -140,7 +145,7 @@ namespace Tech.UI.Linq
                 }
 
 
-                await PlayTextSequence(text, delayBeforeStarting, delayBeforeEnding, s, intervalMs);
+                await PlayTextSequence(text, delayBeforeStarting, delayBeforeEnding,easing, s, intervalMs);
             }
 
 

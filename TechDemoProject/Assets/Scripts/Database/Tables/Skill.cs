@@ -12,7 +12,10 @@ namespace Tech.DB
     { 
         public byte[] Id { get; set; }
 
+        [StringComparisonOption(StringComparison.InvariantCultureIgnoreCase)]
         [PrimaryKey] public string Name { get; set; }
+
+        [StringComparisonOption(StringComparison.InvariantCultureIgnoreCase)]
         public string Address { get; set; }
         [NonUnique] public string Description { get; set; }
 

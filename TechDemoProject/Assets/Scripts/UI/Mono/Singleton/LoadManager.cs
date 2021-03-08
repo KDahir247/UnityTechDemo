@@ -7,7 +7,7 @@ using UnityEngine.Serialization;
 using UnityEngine.UIElements;
 using ZLogger;
 
-//TODO got to fix
+//TODO got to fix or remove
 namespace Tech.Initialization
 {
 //Handles show the progress bar and the loading percentage of asset that are loading.

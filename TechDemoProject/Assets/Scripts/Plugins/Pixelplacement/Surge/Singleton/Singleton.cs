@@ -7,8 +7,8 @@
 /// 
 /// </summary>
 
+using JetBrains.Annotations;
 using UnityEngine;
-using System.Collections;
 
 namespace Pixelplacement
 {
@@ -19,6 +19,7 @@ namespace Pixelplacement
         /// <summary>
         /// Gets the instance.
         /// </summary>
+        [CanBeNull]
         public static T Instance
         {
             get
@@ -33,7 +34,7 @@ namespace Pixelplacement
         }
 
         //Private Variables:
-        [SerializeField] bool _dontDestroyOnLoad = false;
+        [SerializeField] bool dontDestroyOnLoad = false;
         static T _instance;
 
         //Virtual Methods:
@@ -63,7 +64,7 @@ namespace Pixelplacement
                 return;
             }
 
-            if (_dontDestroyOnLoad)
+            if (dontDestroyOnLoad)
             {
                 //don't destroy on load only works on root objects so let's force this transform to be a root object:
                 transform.parent = null;

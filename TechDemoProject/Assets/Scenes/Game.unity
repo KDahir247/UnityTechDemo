@@ -377,12 +377,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afe6c4600f907e64ca01409d01326a60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_HorizontalAxis: Horizontal
-  m_VerticalAxis: Vertical
-  m_SubmitButton: Submit
-  m_CancelButton: Cancel
-  m_InputActionsPerSecond: 10
-  m_RepeatDelay: 0.5
 --- !u!114 &1170587312
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -397,7 +391,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PanelSettings: {fileID: 11400000, guid: 25cdaa7093f316046b74f51c75992280, type: 2}
   m_ParentUI: {fileID: 0}
-  sourceAsset: {fileID: 9197481963319205126, guid: 6c219708ca2adef4dbc1cbe0e7890e2c,
+  sourceAsset: {fileID: 9197481963319205126, guid: 2ba95a1db4d9ca14ea7292666ff0397c,
     type: 3}
   m_SortingOrder: 0
 --- !u!1 &1740776122

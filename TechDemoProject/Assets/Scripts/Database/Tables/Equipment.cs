@@ -5,7 +5,6 @@ using Tech.Data.DB;
 
 namespace Tech.DB
 {
-    //todo use string compare
     [Serializable]
     [MemoryTable("equipment")]
     [MessagePackObject(true)]
@@ -13,8 +12,12 @@ namespace Tech.DB
     {
         public byte[] Id { get; set; }
 
+        [StringComparisonOption(StringComparison.InvariantCultureIgnoreCase)]
         [PrimaryKey] public string Name { get; set; }
+
+        [StringComparisonOption(StringComparison.InvariantCultureIgnoreCase)]
         public string Address { get; set; }
+
         public string Description { get; set; }
 
         public byte[] ImageBytes { get; set; }
@@ -23,16 +26,6 @@ namespace Tech.DB
 
         [SecondaryKey(2)] public int Index { get; set; }
 
-
-        //stats // done
-        //name //done
-        //passive
-        //description // done
-        //image //done
-        //level //done
-        //restriction // done
-        //rarity // done
-
         public void OnBeforeSerialize()
         {
             //Called Before Serialization
@@ -40,7 +33,7 @@ namespace Tech.DB
 
         public void OnAfterDeserialize()
         {
-            //Called After DeSerialization 
+            //Called After DeSerialization
         }
     }
 }

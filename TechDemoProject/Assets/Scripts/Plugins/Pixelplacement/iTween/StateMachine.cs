@@ -118,6 +118,8 @@ namespace Pixelplacement
             }
         }
 
+        public int CurrentIndex { get; private set; }
+
         //Public Methods:
         /// <summary>
         ///     Change to the next state if possible.
@@ -261,6 +263,8 @@ namespace Pixelplacement
         {
             currentState.Value = state;
             var index = currentState.Value.transform.GetSiblingIndex();
+
+            CurrentIndex = index;
 
             //entering first:
             if (index == 0) AtFirst = true;

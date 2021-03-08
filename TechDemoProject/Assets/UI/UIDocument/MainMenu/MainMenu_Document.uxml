@@ -2,7 +2,7 @@
     <Tech.UI.Panel.MainMenu_Document class="base_panel" style="flex-grow: 1;">
         <ui:VisualElement name="Header_Panel" style="height: 196px; flex-direction: row; width: auto; align-items: stretch; justify-content: flex-start;">
             <ui:VisualElement name="Statistic_Panel" style="width: 1025px; margin-left: 0; margin-top: 43px; justify-content: flex-start; align-items: flex-start; padding-left: 130px; font-size: 0;">
-                <ui:Label text="ID. 12345" display-tooltip-when-elided="True" name="ID_Text" style="height: auto; font-size: 45px; color: rgb(219, 198, 198); margin-left: 0; -unity-font: url(&apos;/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Roboto-Bold.ttf&apos;); padding-left: 0; padding-right: 0;" />
+                <ui:Label text="ID. 12345" display-tooltip-when-elided="True" name="ID_Text" style="height: auto; font-size: 45px; color: rgb(219, 198, 198); margin-left: 0; -unity-font: url(&apos;/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Roboto-Bold.ttf&apos;); padding-left: 0; padding-right: 0; display: flex; visibility: visible; overflow: visible; opacity: 1;" />
                 <ui:Label text="Ver. 0000" display-tooltip-when-elided="True" name="Version_Text" style="height: auto; font-size: 45px; color: rgb(219, 198, 198); margin-left: 0; -unity-font: url(&apos;/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Roboto-Bold.ttf&apos;); padding-left: 0; padding-right: 0; margin-right: 0; align-items: auto;" />
             </ui:VisualElement>
             <ui:VisualElement name="Selectable_Panel" style="width: 1224px; flex-direction: row; justify-content: flex-end; margin-right: 130px; align-items: center; margin-top: 43px; margin-left: 0;">

@@ -5,6 +5,7 @@ using JetBrains.Annotations;
 using MasterData;
 using MessagePack.Resolvers;
 using Tech.Core;
+using UnityEditor;
 using UnityEngine;
 using ZLogger;
 using ILogger = Microsoft.Extensions.Logging.ILogger;
@@ -51,6 +52,7 @@ namespace Tech.DB
 
             using var fileStream = new FileStream($"{Application.dataPath}/Resources/{_fileName}", FileMode.OpenOrCreate, FileAccess.ReadWrite, FileShare.None);
             await fileStream.WriteAsync(bytesBuffer, 0, bytesBuffer.Length);
+            AssetDatabase.Refresh();
         }
     }
 }

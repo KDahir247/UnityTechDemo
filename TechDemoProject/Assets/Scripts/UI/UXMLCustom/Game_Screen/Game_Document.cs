@@ -1,10 +1,8 @@
-﻿using JetBrains.Annotations;
-using Tech.UI.Linq;
-using UnityEngine.UIElements;
+﻿using UnityEngine.UIElements;
 
 namespace Tech.UI.Panel
 {
-    public class Game_Document : Base_Document
+    public class Game_Document : BaseDocument
     {
         protected override void Init(params string[] scenes)
         {
@@ -14,11 +12,11 @@ namespace Tech.UI.Panel
         {
         }
 
-        protected override void Start()
+        protected override void RegisterCallback()
         {
         }
 
-        protected override void OnDestroy()
+        protected override void UnregisterCallback()
         {
         }
 

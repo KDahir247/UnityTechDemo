@@ -1,22 +1,22 @@
 ﻿using JetBrains.Annotations;
-using Tech.Core;
 using Tech.UI.Linq;
 using UnityEngine.UIElements;
+using UnityEngine.UIElements.Experimental;
 
 namespace Tech.UI.Panel
 {
-    public class TitleScreen_Document : Base_Document
+    public class TitleScreen_Document : BaseDocument
     {
         private string _headSceneName = string.Empty;
-        private bool _isTransitioning;
-        private Button _mailButton;
-        private VisualElement _mainMenuVisualElement;
-        private VisualElement _newsCoreVisualElement;
+        private string _tailSceneName = string.Empty;
 
+        private VisualElement _mainMenuVisualElement;
+
+        private Button _mailButton;
+        private VisualElement _newsCoreVisualElement;
         private VisualElement _newsVisualElement;
 
         private Button _optionButton;
-
         private VisualElement _optionCoreVisualElement;
         private VisualElement _optionVisualElement;
 
@@ -24,11 +24,11 @@ namespace Tech.UI.Panel
         private VisualElement _supportCoreVisualElement;
         private VisualElement _supportVisualElement;
 
-        private string _tailSceneName = string.Empty;
 
         protected override void Init(params string[] scenes)
         {
-            if (scenes == null) return;
+            if (scenes == null || scenes.Length <= 1) return;
+
             _headSceneName = scenes[0];
             _tailSceneName = scenes[1];
         }
@@ -50,9 +50,8 @@ namespace Tech.UI.Panel
             _newsCoreVisualElement = _newsVisualElement.Q<VisualElement>("Core_Panel");
         }
 
-        protected override void Start()
+        protected override void RegisterCallback()
         {
-            //TODO button only works once?
             _optionButton
                 .RegisterCallback(FadeToNewScreen<ClickEvent>(_optionVisualElement, _mainMenuVisualElement));
             _supportButton
@@ -60,21 +59,17 @@ namespace Tech.UI.Panel
             _mailButton
                 .RegisterCallback(FadeToNewScreen<ClickEvent>(_newsVisualElement, _mainMenuVisualElement));
 
-
-            //TODO issue with the event call
             _optionCoreVisualElement
                 .RegisterCallback(FadeToNewScreen<MouseLeaveEvent>(_mainMenuVisualElement, _optionVisualElement));
-
             _supportCoreVisualElement
                 .RegisterCallback(FadeToNewScreen<MouseLeaveEvent>(_mainMenuVisualElement, _supportVisualElement));
-
             _newsCoreVisualElement
                 .RegisterCallback(FadeToNewScreen<MouseLeaveEvent>(_mainMenuVisualElement, _newsVisualElement));
 
             _mainMenuVisualElement.RegisterCallback(LoadScene());
         }
 
-        protected override void OnDestroy()
+        protected override void UnregisterCallback()
         {
             _optionButton
                 .UnregisterCallback(FadeToNewScreen<ClickEvent>(_optionVisualElement, _mainMenuVisualElement));
@@ -85,10 +80,8 @@ namespace Tech.UI.Panel
 
             _optionCoreVisualElement
                 .UnregisterCallback(FadeToNewScreen<MouseLeaveEvent>(_mainMenuVisualElement, _optionVisualElement));
-
             _supportCoreVisualElement
                 .UnregisterCallback(FadeToNewScreen<MouseLeaveEvent>(_mainMenuVisualElement, _supportVisualElement));
-
             _newsCoreVisualElement
                 .UnregisterCallback(FadeToNewScreen<MouseLeaveEvent>(_mainMenuVisualElement, _newsVisualElement));
 
@@ -98,16 +91,14 @@ namespace Tech.UI.Panel
 
         [NotNull]
         private EventCallback<T> FadeToNewScreen<T>(VisualElement fadeTo, VisualElement fadeFrom)
-            where T : EventBase //maybe the issue lies here
+            where T : EventBase
         {
             return evt =>
             {
-                if (!_isTransitioning)
-                {
-                    _isTransitioning = true;
-                    fadeFrom.FadeToNewScreen(fadeTo, FadeOutStyle, FadeInStyle, FadeOutDuration, FadeInDuration,
-                        () => _isTransitioning = false);
-                }
+                UnregisterCallback();
+
+                fadeFrom.FadeToNewScreen(fadeTo, FadeOutStyle, FadeInStyle, Easing.Linear, FadeOutDuration, FadeInDuration,
+                    RegisterCallback);
             };
         }
 
@@ -116,20 +107,17 @@ namespace Tech.UI.Panel
         {
             return evt =>
             {
-                if (_isTransitioning) return;
-
                 _mainMenuVisualElement
                     .FadeInOrOut(FadeInStyle,
                         FadeOutStyle,
+                        Easing.Linear,
                         FadeOutDuration,
                         () => _mainMenuVisualElement.style.display = DisplayStyle.None);
 
-                StateSingleton.Instance.Next();
-
-                _isTransitioning = true;
+                UnregisterCallback();
+                OnLoadedNextScene(_tailSceneName);
             };
         }
-
 
         public new class UxmlFactory : UxmlFactory<TitleScreen_Document, UxmlTraits>
         {
@@ -137,20 +125,18 @@ namespace Tech.UI.Panel
 
         public new sealed class UxmlTraits : VisualElement.UxmlTraits
         {
-            //Addressable Path for current scene
             private readonly UxmlStringAttributeDescription _headScene = new UxmlStringAttributeDescription
-                {name = "start-scene", defaultValue = "Assets/Scenes/MainMenu.unity"};
+                {name = "current-scene", defaultValue = "MainMenu"};
 
-            //Addressable Path for next scene
             private readonly UxmlStringAttributeDescription _tailScene = new UxmlStringAttributeDescription
-                {name = "next-scene", defaultValue = "Assets/Scenes/Creation.unity"};
+                {name = "next-scene", defaultValue = "Creation"};
 
             public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
             {
                 var sceneName = _headScene.GetValueFromBag(bag, cc);
                 var nexSceneName = _tailScene.GetValueFromBag(bag, cc);
 
-                ((TitleScreen_Document) ve).Init(nexSceneName, sceneName);
+                ((TitleScreen_Document) ve).Init(sceneName, nexSceneName);
             }
         }
     }

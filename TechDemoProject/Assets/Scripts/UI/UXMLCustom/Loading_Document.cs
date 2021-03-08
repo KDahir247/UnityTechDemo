@@ -3,11 +3,13 @@ using Tech.UI.Linq;
 using UniRx;
 using UnityEngine;
 using UnityEngine.UIElements;
+using UnityEngine.UIElements.Experimental;
 
 namespace Tech.UI.Panel
 {
     //TODO look into this when reworking progressor
-    public class Loading_Document : Base_Document
+    //TODO or Remove
+    public sealed class Loading_Document : BaseDocument
     {
         private readonly CompositeDisposable _disposable = new CompositeDisposable();
 
@@ -33,16 +35,16 @@ namespace Tech.UI.Panel
             _progress = this.Q<VisualElement>("Progress_Panel");
         }
 
-        protected override void Start()
+        protected override void RegisterCallback()
         {
         }
 
-        protected override void OnDestroy()
+        protected override void UnregisterCallback()
         {
             PanelSettings.sortingOrder = 0;
         }
 
-        public void ChangeSlider(float loadingProgress)
+        internal void ChangeSlider(float loadingProgress)
         {
             if (_trackerProgress == null || _progress == null) return;
 
@@ -65,25 +67,19 @@ namespace Tech.UI.Panel
             PanelSettings.sortingOrder = 0;
 
             _isFaded = false;
-            Observable.Timer(TimeSpan.FromSeconds(1)).Subscribe(_ =>
-            {
-                _progress.FadeInOrOutLoader(new Vector2(450, 50), 1000, () =>
-                    _loadingDescription.FadeInOrOut(FadeOutStyle, FadeInStyle, FadeInDuration));
-            }).AddTo(_disposable);
+            Observable.Timer(TimeSpan.FromSeconds(1)).Subscribe(_ => _progress.FadeInOrOutLoader(new Vector2(450, 50), 1000, () =>
+                _loadingDescription.FadeInOrOut(FadeOutStyle, FadeInStyle, Easing.Linear, FadeInDuration))).AddTo(_disposable);
         }
 
         private void FadeOutLoader()
         {
             _isFaded = true;
-            Observable.Timer(TimeSpan.FromSeconds(2)).Subscribe(_ =>
-            {
-                _progress.FadeInOrOutLoader(new Vector2(0, 50), FadeOutDuration, () =>
-                    _loadingDescription.FadeInOrOut(FadeInStyle, FadeOutStyle, FadeInDuration, () =>
-                        PanelSettings.sortingOrder = 100));
-            }).AddTo(_disposable);
+            Observable.Timer(TimeSpan.FromSeconds(2)).Subscribe(_ => _progress.FadeInOrOutLoader(new Vector2(0, 50), FadeOutDuration, () =>
+                _loadingDescription.FadeInOrOut(FadeInStyle, FadeOutStyle, Easing.Linear, FadeInDuration, () =>
+                    PanelSettings.sortingOrder = 100))).AddTo(_disposable);
         }
 
-        public void ChangeText(string loadingInfo)
+        internal void ChangeText(string loadingInfo)
         {
             if (_loadingDescription != null) _loadingDescription.text = loadingInfo;
         }

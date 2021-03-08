@@ -13,8 +13,12 @@ namespace Tech.DB
     {
         public byte[] Id { get; set; }
 
+        [StringComparisonOption(StringComparison.InvariantCultureIgnoreCase)]
         [PrimaryKey] public string Name { get; set; }
+
+        [StringComparisonOption(StringComparison.InvariantCultureIgnoreCase)]
         public string Address { get; set; }
+
         public string Description { get; set; }
 
         public byte[] ImageBytes { get; set; }
@@ -24,7 +28,7 @@ namespace Tech.DB
         [SecondaryKey(2)] public int Index { get; set; }
 
 
-        //Passive 
+        //Passive
         public void OnBeforeSerialize()
         {
             //Called Before Serialization

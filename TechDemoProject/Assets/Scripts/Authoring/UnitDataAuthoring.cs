@@ -16,53 +16,12 @@ namespace Tech.ECS
     [RequiresEntityConversion]
     public sealed class UnitDataAuthoring : MonoBehaviour, IConvertGameObjectToEntity
     {
-        private static readonly ILogger Logger = LogManager.GetLogger("AuthoringLogger");
-
-        //TODO remove this for an IComponentData and once the IComponentData 
         [SerializeField] private UnitData unitData;
+        internal UnitData UnitData => unitData;
 
-        private readonly DatabaseStream _dbStream = new DatabaseStream();
-        private DynamicDbBuilder _dynamicDb;
-
-        private async UniTaskVoid Awake()
+        void Awake()
         {
-            _dynamicDb = new DynamicDbBuilder(_dbStream);
-            //Create the Universally Unique Lexicographically Sortable Identifier
             unitData.id = Ulid.NewUlid(DateTimeOffset.Now);
-                _dynamicDb.DynamicallyMutateDatabase(FileDestination.UnitPath, builder =>
-                {
-                    builder.Diff(new[]
-                    {
-                        new Unit
-                        {
-                            Id = TechUtility.RegisterUlid(unitData.id),
-                            Name = unitData.name,
-                            Address = unitData.name,
-                            Skills = new[]
-                            {
-                                new Skill
-                                {
-                                    Index = 1,
-                                    ImageBytes = unitData.skillDatas[0].image.GetRawTextureData()
-                                },
-                                new Skill
-                                {
-                                    Index = 2,
-                                    ImageBytes = unitData.skillDatas[1].image.GetRawTextureData()
-                                },
-                                new Skill
-                                {
-                                    Index = 3,
-                                    ImageBytes = unitData.skillDatas[2].image.GetRawTextureData()
-                                }
-                            }
-                        }
-                    });
-
-                    return builder;
-                });
-
-               await _dynamicDb.BuildToDatabaseAsync();
         }
 
         public void Convert(Entity entity, EntityManager dstManager, GameObjectConversionSystem conversionSystem)

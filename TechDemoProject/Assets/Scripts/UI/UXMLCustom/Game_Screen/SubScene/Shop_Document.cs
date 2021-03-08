@@ -2,36 +2,34 @@
 
 namespace Tech.UI.Panel
 {
-    public class Shop_Document : Base_Document
+    public class Shop_Document : BaseDocument
     {
-        private ListView _shopCategory;
         protected override void Init(params string[] scenes)
         {
         }
 
         protected override void UIQuery()
         {
-         //   _shopCategory = this.Q<ListView>("");
         }
 
-        protected override void Start()
+        protected override void RegisterCallback()
         {
         }
 
-        protected override void OnDestroy()
+        protected override void UnregisterCallback()
         {
         }
 
         public new class UxmlFactory : UxmlFactory<Shop_Document, UxmlTraits>
         {
         }
-        
+
         public new sealed class UxmlTraits : VisualElement.UxmlTraits
         {
             public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
             {
                 base.Init(ve, bag, cc);
-                ((Shop_Document)ve).Init();
+                ((Shop_Document) ve).Init();
             }
         }
     }

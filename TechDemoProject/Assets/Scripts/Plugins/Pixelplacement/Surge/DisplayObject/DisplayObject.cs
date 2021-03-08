@@ -32,11 +32,11 @@ namespace Pixelplacement
         /// <summary>
         ///     Registers this DisplayObject - should only be called by Initialization.
         /// </summary>
-        public void Register()
+        internal void Register()
         {
             if (!_activated)
                 _activated = true;
-            //TODO i Comment this line of code below
+            //i commented this line out
             //gameObject.SetActive (false);
         }
 

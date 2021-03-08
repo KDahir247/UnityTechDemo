@@ -38,6 +38,6 @@ internal sealed class SceneSystem
 
     private void OperationCanceled()
     {
-        _logger.ZLog(LogLevel.Debug, "Scene Loading has been canceled mid way.");
+        _logger?.ZLog(LogLevel.Debug, "Scene Loading has been canceled mid way.");
     }
 }

@@ -15,15 +15,15 @@ namespace Tech.Utility
                 .WithCompression(MessagePackCompression.Lz4BlockArray);
         }
 
-         public static byte[] RegisterUlid(in Ulid ulid)
-                {
-                    return MessagePackSerializer.Serialize(ulid, _options);
-                }
+        internal static byte[] RegisterUlid(in Ulid ulid)
+        {
+            return MessagePackSerializer.Serialize(ulid, _options);
+        }
 
-                public static Ulid UnRegisterUlid(in byte[] byteBuffer)
-                {
-                    return MessagePackSerializer.Deserialize<Ulid>(byteBuffer, _options);
-                }
+        internal static Ulid UnRegisterUlid(in byte[] byteBuffer) 
+        {
+            return MessagePackSerializer.Deserialize<Ulid>(byteBuffer, _options); 
+        }
 
     }
 }

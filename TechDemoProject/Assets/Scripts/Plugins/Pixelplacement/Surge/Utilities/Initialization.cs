@@ -12,7 +12,6 @@ using UnityEngine;
 
 namespace Pixelplacement
 {
-    //Todo modify this to the scope of the project
     public class Initialization : MonoBehaviour
     {
         private DisplayObject _displayObject;

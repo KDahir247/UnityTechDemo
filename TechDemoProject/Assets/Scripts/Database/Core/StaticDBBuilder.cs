@@ -4,6 +4,7 @@ using Cysharp.Threading.Tasks;
 using JetBrains.Annotations;
 using MasterData;
 using Tech.Core;
+using UnityEditor;
 using UnityEngine;
 using ZLogger;
 using ILogger = Microsoft.Extensions.Logging.ILogger;
@@ -45,7 +46,7 @@ namespace Tech.DB
 
             using var fileStream = new FileStream($"{Application.dataPath}/Resources/{_fileName}", FileMode.Create);
             await fileStream.WriteAsync(bytesBuffer, 0, bytesBuffer.Length);
-            fileStream.Close();
+            AssetDatabase.Refresh();
         }
     }
 }

@@ -7,7 +7,7 @@ namespace Tech.Data.DB
     [MessagePackObject(true)]
     public struct WeaponInfo
     {
-        //TODO add passive to the weapon 
+        //TODO add passive to the weapon
         public int Level { get; set; }
         public Rarity Rarity { get; set; }
         public WeaponType WeaponType { get; set; }

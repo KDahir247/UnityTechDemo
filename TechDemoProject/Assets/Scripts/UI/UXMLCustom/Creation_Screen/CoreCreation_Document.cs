@@ -5,13 +5,12 @@ using UnityEngine.UIElements;
 
 namespace Tech.UI.Panel
 {
-    public class CoreCreation_Document : Base_Document
+    public class CoreCreation_Document : BaseDocument
     {
-        public Unit CurrentUnit { get; set; }
-        
         private Button _createButton;
         private VisualElement _creationElement;
         private VisualElement _dialogueElement;
+        public Unit CurrentUnit { get; set; }
 
         protected override void Init(params string[] scenes)
         {
@@ -22,16 +21,15 @@ namespace Tech.UI.Panel
             _createButton = this.Q<Button>("Create_Button");
 
             _creationElement = this.Q<VisualElement>("Creation_Document");
-
             _dialogueElement = this.Q<VisualElement>("Dialogue_Document");
         }
 
-        protected override void Start()
+        protected override void RegisterCallback()
         {
             _createButton?.RegisterCallback(OnCreateUser<ClickEvent>(_creationElement, _dialogueElement));
         }
 
-        protected override void OnDestroy()
+        protected override void UnregisterCallback()
         {
             _createButton?.UnregisterCallback(OnCreateUser<ClickEvent>(_creationElement, _dialogueElement));
         }
@@ -42,7 +40,7 @@ namespace Tech.UI.Panel
         {
             return evt =>
             {
-                if (_createButton.style.opacity.value <= 0) return;
+                UnregisterCallback();
                 fadeOutTarget.SwitchDisplay(fadeInTarget);
             };
         }

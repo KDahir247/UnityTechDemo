@@ -1,16 +1,18 @@
 ﻿using Tech.UI.Linq;
 using UnityEngine;
 using UnityEngine.UIElements;
+using UnityEngine.UIElements.Experimental;
 
 namespace Tech.UI.Panel
 {
-    public class MainMenu_Document : Base_Document
+    public class MainMenu_Document : BaseDocument
     {
         private Label _idLabel;
         private Label _touchLabel;
         private Label _versionLabel;
 
-        public MainMenu_Document() : base(2000, 2000)
+        public MainMenu_Document()
+            : base(2000, 2000)
         {
         }
 
@@ -26,15 +28,15 @@ namespace Tech.UI.Panel
             _touchLabel = this.Q<Label>("TouchScreen_Text");
         }
 
-        protected override void Start()
+        protected override void RegisterCallback()
         {
             _idLabel.text = "ID. 1111";
             _versionLabel.text = $"Ver.{Application.version}.{Application.unityVersion}";
 
-            _touchLabel.RecursiveFadeOutIn(FadeInStyle, FadeOutStyle, FadeInDuration, FadeOutDuration);
+            _touchLabel.RecursiveFadeOutIn(FadeInStyle, FadeOutStyle,Easing.Linear,FadeInDuration, FadeOutDuration);
         }
 
-        protected override void OnDestroy()
+        protected override void UnregisterCallback()
         {
         }
 
