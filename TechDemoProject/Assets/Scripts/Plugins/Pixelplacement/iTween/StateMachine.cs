@@ -13,7 +13,6 @@
 #pragma warning disable 168
 
 using Tech.Core;
-using Tech.Utility;
 using UniRx;
 using UnityEngine;
 using UnityEngine.Events;
@@ -26,13 +25,6 @@ namespace Pixelplacement
     [RequireComponent(typeof(Initialization))]
     public class StateMachine : MonoBehaviour
     {
-        private readonly ILogger Logger = LogManager.Logger;
-        private bool _atFirst;
-        private bool _atLast;
-
-        //Private Variables:
-        private bool _initialized;
-
         [FormerlySerializedAs("OnStateChanged")]
         public bool _unityEventsFolded;
 
@@ -67,6 +59,13 @@ namespace Pixelplacement
         /// </summary>
         [Tooltip("Should log messages be thrown during usage?")]
         public bool verbose = true;
+
+        private readonly ILogger Logger = LogManager.Logger;
+        private bool _atFirst;
+        private bool _atLast;
+
+        //Private Variables:
+        private bool _initialized;
 
 
         //Public Properties:
@@ -276,7 +275,7 @@ namespace Pixelplacement
 
         private void Log(string message)
         {
-            if (!GlobalSetting.EnableVerbosityState) return;
+            if (true) return; //Hard coded no verbose
             Logger.ZLogInformation(message, gameObject);
         }
     }

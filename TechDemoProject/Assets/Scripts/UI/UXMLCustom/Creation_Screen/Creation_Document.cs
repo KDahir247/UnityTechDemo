@@ -21,7 +21,7 @@ namespace Tech.UI.Panel
         //Default
         private Unit _currentUnit;
         private MemoryDatabase _db;
-        private readonly TechStaticDBBuilder _dbBuilder = new TechStaticDBBuilder();
+        //private readonly StaticDBBuilder _dbBuilder = new StaticDBBuilder();
 
         private string _headScene = string.Empty;
 
@@ -73,7 +73,7 @@ namespace Tech.UI.Panel
             _oracleButton.RegisterCallback(OnPressCharacter<ClickEvent>(_oracleButton.viewDataKey));
             
             
-            _createButton.RegisterCallback(SaveUnitToUser<ClickEvent>());
+            //_createButton.RegisterCallback(SaveUnitToUser<ClickEvent>());
 
             for (byte i = 0; i < _skills.Length; i++) _skills[i].RegisterCallback(ClickSkill<ClickEvent>(i));
         }
@@ -96,11 +96,11 @@ namespace Tech.UI.Panel
 
             for (byte i = 0; i < _skills.Length; i++) _skills[i].UnregisterCallback(ClickSkill<ClickEvent>(i));
             
-            _createButton.UnregisterCallback(SaveUnitToUser<ClickEvent>());
+            //_createButton.UnregisterCallback(SaveUnitToUser<ClickEvent>());
         }
 
 
-        [NotNull]
+        /*[NotNull]
         private EventCallback<T> SaveUnitToUser<T>()
             where T : PointerEventBase<T>, new()
         {
@@ -123,7 +123,7 @@ namespace Tech.UI.Panel
                     return builder;
                 }, FileDestination.UserPath);
             };
-        }
+        }*/
         
         [NotNull]
         private EventCallback<T> ClickSkill<T>(int index)
@@ -149,11 +149,11 @@ namespace Tech.UI.Panel
                     _createButton
                         .FadeInOrOut(FadeOutStyle, FadeInStyle, FadeInDuration);
 
-                ChangeSkills<T>(unitName);
+                //ChangeSkills<T>(unitName);
             };
         }
 
-        private void ChangeSkills<T>(string unitName) where T : PointerEventBase<T>, new()
+        /*private void ChangeSkills<T>(string unitName) where T : PointerEventBase<T>, new()
         {
             _db = TechDB.LoadDataBase(FileDestination.UnitPath);
 
@@ -173,7 +173,7 @@ namespace Tech.UI.Panel
                 styleBackgroundImage.value = Background.FromTexture2D(tex);
                 _skills[i].style.backgroundImage = styleBackgroundImage;
             }
-        }
+        }*/
 
         [NotNull]
         private EventCallback<T> RotateModel<T>(RotationDirection direction)

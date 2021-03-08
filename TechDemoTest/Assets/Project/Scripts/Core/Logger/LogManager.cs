@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using JetBrains.Annotations;
+using Microsoft.Extensions.Logging;
 using UnityEngine;
 using ZLogger;
 using ILogger = Microsoft.Extensions.Logging.ILogger;
@@ -39,14 +40,16 @@ public static class LogManager
         });
     }
 
+    [CanBeNull]
     public static ILogger<T> GetLogger<T>()
         where T : class
     {
-        return LoggerFactory.CreateLogger<T>();
+        return LoggerFactory?.CreateLogger<T>();
     }
 
+    [CanBeNull]
     public static ILogger GetLogger(string categoryName)
     {
-        return LoggerFactory.CreateLogger(categoryName);
+        return LoggerFactory?.CreateLogger(categoryName);
     }
 }

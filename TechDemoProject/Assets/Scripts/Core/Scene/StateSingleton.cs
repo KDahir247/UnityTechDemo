@@ -1,13 +1,17 @@
 ﻿using System.Collections.Generic;
+using System.Threading;
+using Cysharp.Threading.Tasks;
 using DG.Tweening;
 using Pixelplacement;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.Serialization;
 
 namespace Tech.Core
 {
     public class StateSingleton : Singleton<StateSingleton>
     {
+        private readonly SceneSystem _sceneSystem = new SceneSystem(CancellationToken.None);
         private readonly List<SceneState> _states = new List<SceneState>(3);
 
         private StateMachine _machine;
@@ -32,15 +36,13 @@ namespace Tech.Core
                 if (CurrentIndex == _states.Count)
                 {
                     CurrentIndex = 0;
-                    SceneAddress.SceneLoadByNameOrLabel(_states[CurrentIndex].OnNextScene,
-                            onComplete: () => _machine.ChangeState(CurrentIndex))
-                        .Forget();
+                    _sceneSystem.LoadSceneAsync(_states[CurrentIndex].OnNextScene, LoadSceneMode.Single,
+                        () => _machine.ChangeState(CurrentIndex)).Forget();
                 }
                 else
                 {
-                    SceneAddress.SceneLoadByNameOrLabel(_states[CurrentIndex++].OnNextScene,
-                            onComplete: () => _machine.Next())
-                        .Forget();
+                    _sceneSystem.LoadSceneAsync(_states[CurrentIndex++].OnNextScene, LoadSceneMode.Single,
+                        () => _machine.Next()).Forget();
                 }
             };
         }

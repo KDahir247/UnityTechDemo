@@ -12,7 +12,7 @@ namespace Tech.UI.Panel
 {
     public class Dialogue_Document : Base_Document
     {
-        private readonly TechDynamicDBBuilder _dbBuilder = new TechDynamicDBBuilder();
+        //private readonly TechDynamicDBBuilder _dbBuilder = new TechDynamicDBBuilder();
         
         private Button _createCharacterBtn;
         private Label _dialogueText;
@@ -47,16 +47,16 @@ namespace Tech.UI.Panel
                         .Forget())
                 .AddTo(Disposable);
 
-            _createCharacterBtn.RegisterCallback(SaveDataAndLoadNextScene<ClickEvent>());
+           // _createCharacterBtn.RegisterCallback(SaveDataAndLoadNextScene<ClickEvent>());
         }
 
         protected override void OnDestroy()
         {
-            _createCharacterBtn?.UnregisterCallback(SaveDataAndLoadNextScene<ClickEvent>());
+           // _createCharacterBtn?.UnregisterCallback(SaveDataAndLoadNextScene<ClickEvent>());
         }
 
 
-        [NotNull]
+        /*[NotNull]
         private EventCallback<T> SaveDataAndLoadNextScene<T>()
         {
             return evt =>
@@ -86,7 +86,7 @@ namespace Tech.UI.Panel
                 
                 StateSingleton.Instance.Next();
             };
-        }
+        }*/
 
 
         private void ShowNameTextField()

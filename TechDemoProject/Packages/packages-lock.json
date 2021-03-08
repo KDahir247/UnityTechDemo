@@ -1,14 +1,23 @@
 {
   "dependencies": {
     "com.unity.addressables": {
-      "version": "1.16.10",
+      "version": "1.16.16",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.scriptablebuildpipeline": "1.14.1",
+        "com.unity.scriptablebuildpipeline": "1.15.2",
         "com.unity.modules.assetbundle": "1.0.0",
         "com.unity.modules.unitywebrequest": "1.0.0",
         "com.unity.modules.unitywebrequestassetbundle": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.analytics": {
+      "version": "3.3.2",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
@@ -65,9 +74,18 @@
     },
     "com.unity.ext.nunit": {
       "version": "1.0.5",
-      "depth": 1,
+      "depth": 2,
       "source": "registry",
       "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.game-foundation": {
+      "version": "0.8.0-preview",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.analytics": "3.3.2"
+      },
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.rider": {
@@ -199,7 +217,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.scriptablebuildpipeline": {
-      "version": "1.14.1",
+      "version": "1.15.2",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
@@ -237,7 +255,7 @@
     },
     "com.unity.test-framework": {
       "version": "1.1.19",
-      "depth": 0,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.ext.nunit": "1.0.5",
@@ -289,27 +307,18 @@
       }
     },
     "com.unity.ui": {
-      "version": "1.0.0-preview.13",
+      "version": "1.0.0-preview.14",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "nuget.moq": "1.0.0",
-        "nuget.castle-core": "1.0.1",
         "com.unity.modules.uielementsnative": "1.0.0",
         "com.unity.textcore": "1.0.0-preview.2"
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.ui.builder": {
-      "version": "1.0.0-preview.11",
+      "version": "1.0.0-preview.12",
       "depth": 0,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://packages.unity.com"
-    },
-    "nuget.castle-core": {
-      "version": "1.0.1",
-      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -319,15 +328,6 @@
       "depth": 2,
       "source": "registry",
       "dependencies": {},
-      "url": "https://packages.unity.com"
-    },
-    "nuget.moq": {
-      "version": "1.0.0",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {
-        "nuget.castle-core": "1.0.1"
-      },
       "url": "https://packages.unity.com"
     },
     "com.unity.modules.ai": {

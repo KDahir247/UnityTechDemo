@@ -27,7 +27,7 @@ public sealed class AssetSystem<T>
     private readonly ILogger _logger = LogManager.GetLogger<AssetSystem<T>>();
     private CancellationToken _cancellationToken;
 
-    public AssetSystem(CancellationToken token)
+     public AssetSystem(CancellationToken token)
     {
         _cancellationToken = token;
     }
@@ -49,7 +49,7 @@ public sealed class AssetSystem<T>
             .LoadResourceLocationsAsync(assetInfo.AssetAddressName)
             .ToUniTask(cancellationToken: _cancellationToken);
 
-        var gameObject = await Addressables.InstantiateAsync(resourceLocations[0], assetInfo.InstantiationParameters)
+        var gameObject =  await Addressables.InstantiateAsync(resourceLocations[0], assetInfo.InstantiationParameters)
             .ToUniTask(cancellationToken: _cancellationToken);
 
         loadAssetContainer.Add(gameObject as T);
@@ -60,8 +60,13 @@ public sealed class AssetSystem<T>
         foreach (var releaseObj in releaseObjs) Addressables.Release(releaseObj);
     }
 
+    public void UnloadAsset(T objToRelease)
+    {
+        Addressables.Release(objToRelease);
+    }
+
     private void OperationCanceled()
     {
-        _logger.ZLog(LogLevel.Warning, "Asset Loading has been canceled mid way");
+        _logger?.ZLog(LogLevel.Warning, "Asset Loading has been canceled mid way");
     }
 }

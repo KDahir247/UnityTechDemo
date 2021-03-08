@@ -8,19 +8,19 @@ using ZLogger;
 
 public sealed class SceneSystem
 {
-    private readonly ILogger logger = LogManager.GetLogger<SceneSystem>();
-    private CancellationToken cancellationToken;
+    private readonly ILogger _logger = LogManager.GetLogger<SceneSystem>();
+    private CancellationToken _cancellationToken;
 
     public SceneSystem(CancellationToken cancellationToken)
     {
-        this.cancellationToken = cancellationToken;
+        this._cancellationToken = cancellationToken;
     }
 
     public async UniTask<SceneInstance> LoadSceneAsync(string sceneAddressName,
         LoadSceneMode loadSceneMode)
     {
-        cancellationToken.Register(OperationCanceled);
-        cancellationToken.ThrowIfCancellationRequested();
+        _cancellationToken.Register(OperationCanceled);
+        _cancellationToken.ThrowIfCancellationRequested();
 
         var resourceLocation = await Addressables.LoadResourceLocationsAsync(sceneAddressName);
         var sceneInstance = await Addressables.LoadSceneAsync(resourceLocation[0], loadSceneMode);
@@ -35,6 +35,6 @@ public sealed class SceneSystem
 
     private void OperationCanceled()
     {
-        logger.ZLog(LogLevel.Debug, "Scene Loading has been canceled mid way.");
+        _logger.ZLog(LogLevel.Debug, "Scene Loading has been canceled mid way.");
     }
 }

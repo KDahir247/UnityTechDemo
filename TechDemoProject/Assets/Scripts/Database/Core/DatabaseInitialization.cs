@@ -1,20 +1,22 @@
-﻿using UnityEngine;
+﻿using Cysharp.Threading.Tasks;
+using UnityEngine;
 
 namespace Tech.DB
 {
     public sealed class DatabaseInitialization : MonoBehaviour
     {
-        private readonly TechStaticDBBuilder _dbBuilder = new TechStaticDBBuilder();
-
+        private readonly StaticDbBuilder _dbBuilder = new StaticDbBuilder(new DatabaseStream());
 
         //create all the files with a null value to start with
-        private void Awake()
+        private async UniTaskVoid Awake()
         {
-            _dbBuilder.Build(builder =>
+            _dbBuilder.StaticallyMutateDatabase(FileDestination.UnitPath, builder =>
             {
                 builder.Append(new[] {new Unit {Name = "Nil"}});
                 return builder;
-            }, FileDestination.UnitPath);
+            });
+
+            await _dbBuilder.BuildToDatabaseAsync();
         }
     }
 }
