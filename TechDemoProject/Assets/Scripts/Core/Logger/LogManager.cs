@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Reflection;
 using Cysharp.Text;
+using JetBrains.Annotations;
 using Microsoft.Extensions.Logging;
 using UnityEngine;
 using ZLogger;
@@ -14,7 +15,7 @@ namespace Tech.Core
     internal static class LogManager
     {
         private static readonly ILoggerFactory LoggerFactory;
-
+        private static bool isDestroyed = false;
         static LogManager()
         {
             LoggerFactory = UnityLoggerFactory.Create(builder =>
@@ -32,6 +33,7 @@ namespace Tech.Core
             {
                 Logger.ZLog(LogLevel.Information, "Closing Logger and Disposing");
                 LoggerFactory.Dispose();
+                isDestroyed = true;
             };
         }
 
@@ -86,14 +88,16 @@ namespace Tech.Core
                 });
         }
 
+        [CanBeNull]
         public static ILogger<T> GetLogger<T>() where T : class
         {
-            return LoggerFactory?.CreateLogger<T>();
+            return !isDestroyed ? LoggerFactory?.CreateLogger<T>() : null;
         }
 
+        [CanBeNull]
         public static ILogger GetLogger(string category)
         {
-            return LoggerFactory.CreateLogger(category);
+            return !isDestroyed ? LoggerFactory?.CreateLogger(category) : null;
         }
     }
 #endif

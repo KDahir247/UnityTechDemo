@@ -1,0 +1,12 @@
+{
+    "name": "StandaloneInput",
+    "maps": [
+        {
+            "name": "UIMapping",
+            "id": "1e334ec0-2324-4c47-8ba4-2d52f12c4e04",
+            "actions": [],
+            "bindings": []
+        }
+    ],
+    "controlSchemes": []
+}

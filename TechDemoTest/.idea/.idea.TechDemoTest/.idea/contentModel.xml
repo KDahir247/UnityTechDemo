@@ -36,6 +36,9 @@
               <e p="RewardTest.cs" t="Include" />
               <e p="TransactionTest.cs" t="Include" />
             </e>
+            <e p="Input" t="Include">
+              <e p="PlayerInputTest.cs" t="Include" />
+            </e>
           </e>
         </e>
         <e p="Project" t="Include">
@@ -962,7 +965,7 @@
             </e>
           </e>
           <e p="Input System" t="Include">
-            <e p="1.1.0-preview.2" t="Include">
+            <e p="1.1.0-preview.3" t="Include">
               <e p="Custom Binding Composite" t="Include">
                 <e p="CustomComposite.cs" t="Include" />
               </e>

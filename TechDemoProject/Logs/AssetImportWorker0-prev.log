@@ -1,0 +1,1535 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.0f1 (3721df5a8b28) revision 3613151'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 65465 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/kdahi/OneDrive/Documents/Unity/TechDemo/TechDemoProject
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64558
+Successfully changed project path to: C:/Users/kdahi/OneDrive/Documents/Unity/TechDemo/TechDemoProject
+C:/Users/kdahi/OneDrive/Documents/Unity/TechDemo/TechDemoProject
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 180.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.0f1 (3721df5a8b28)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/kdahi/OneDrive/Documents/Unity/TechDemo/TechDemoProject/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 5700 XT (ID=0x731f)
+    Vendor:   
+    VRAM:     8152 MB
+    Driver:   27.20.14535.1000
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56060
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
+Registered in 0.002697 seconds.
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 167.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.070 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.015753 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of UnityEditor.UIElements.LiveReloadTrackerCreator:CreateVisualTreeAssetTrackerInstance due to: Could not resolve type with token 01000016 (from typeref, class/assembly UnityEngine.UIElements.ILiveReloadAssetTracker`1, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null) assembly:UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:UnityEngine.UIElements.ILiveReloadAssetTracker`1 member:(null) signature:<none>
+
+Error: Could not load signature of UnityEngine.UIElements.DynamicAtlasSettings:get_activeFilters due to: Could not resolve type with token 0100001a (from typeref, class/assembly UnityEngine.UIElements.DynamicAtlasFilters, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null) assembly:UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:UnityEngine.UIElements.DynamicAtlasFilters member:(null) signature:<none>
+
+The scripted importer 'UIElementsViewImporter' attempted to register file type '.uxml', which is handled by a native Unity importer. Registration rejected.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/Public/ImporterRegistry.cpp line 245]
+
+The scripted importer 'StyleSheetImporter' attempted to register file type '.uss', which is handled by a native Unity importer. Registration rejected.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/Public/ImporterRegistry.cpp line 245]
+
+The scripted importer 'ThemeStyleSheetImporter' attempted to register file type '.tss', which is handled by a native Unity importer. Registration rejected.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/Public/ImporterRegistry.cpp line 245]
+
+ArgumentException: An item with the same key has already been added. Key: UnityEditor.UIElements.EditorAtlasMonitorInjector
+Parameter name: key
+  at System.Collections.Generic.SortedList`2[TKey,TValue].Add (TKey key, TValue value) [0x00041] in <aa976c2104104b7ca9e1785715722c9d>:0 
+  at UnityEditor.AssetPostprocessingInternal.GetTextureProcessorsHashString () [0x000a2] in <fac3a832ec4249a49c4da1051848dde5>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.AssetPostprocessingInternal:GetTextureProcessorsHashString()
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.UIElements.Text.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Library/ScriptAssemblies/UnityEditor.UIElementsGameObjectsModule.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Library/ScriptAssemblies/UnityEngine.UIElementsGameObjectsModule.dll, this assembly can cause crashes in the runtime
+
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 171.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+System.Reflection.ReflectionTypeLoadException: Exception of type 'System.Reflection.ReflectionTypeLoadException' was thrown.
+  at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetTypes () [0x00000] in <9577ac7a62ef43179789031239ba8798>:0 
+  at Unity.Entities.TypeManager.InitializeAllComponentTypes () [0x00123] in C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoProject\Library\PackageCache\com.unity.entities@0.13.0-preview.24\Unity.Entities\Types\TypeManager.cs:861 
+  at Unity.Entities.TypeManager.Initialize () [0x0010d] in C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoProject\Library\PackageCache\com.unity.entities@0.13.0-preview.24\Unity.Entities\Types\TypeManager.cs:464 
+  at Unity.Entities.AttachToEntityClonerInjection.Initialize () [0x00001] in C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoProject\Library\PackageCache\com.unity.entities@0.13.0-preview.24\Unity.Entities.Hybrid\Injection\CompanionGameObject.cs:27 
+  at Unity.Entities.AttachToEntityClonerInjection..cctor () [0x00001] in C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoProject\Library\PackageCache\com.unity.entities@0.13.0-preview.24\Unity.Entities.Hybrid\Injection\CompanionGameObject.cs:21 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+TypeLoadException: Could not resolve type with token 01000016 (from typeref, class/assembly UnityEngine.UIElements.ILiveReloadAssetTracker`1, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null)
+  at (wrapper managed-to-native) System.Reflection.MonoMethodInfo.get_method_info(intptr,System.Reflection.MonoMethodInfo&)
+  at System.Reflection.MonoMethodInfo.GetMethodInfo (System.IntPtr handle) [0x00000] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Reflection.MonoMethod.GetPseudoCustomAttributes () [0x00002] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.MonoCustomAttrs.GetPseudoCustomAttributes (System.Reflection.ICustomAttributeProvider obj, System.Type attributeType) [0x0000a] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.MonoCustomAttrs.IsDefined (System.Reflection.ICustomAttributeProvider obj, System.Type attributeType, System.Boolean inherit) [0x00032] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Reflection.MonoMethod.IsDefined (System.Type attributeType, System.Boolean inherit) [0x00000] in <9577ac7a62ef43179789031239ba8798>:0 
+  at Unity.SnapshotDebugger.ReadExtensions+<GetExtensionMethods>d__0.MoveNext () [0x000f6] in C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoProject\Library\PackageCache\com.unity.kinematica@0.7.0-preview\Runtime\SnapshotDebugger\ReadExtensions.cs:34 
+  at Unity.SnapshotDebugger.ReadExtensions.InitializeExtensionMethods () [0x00030] in C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoProject\Library\PackageCache\com.unity.kinematica@0.7.0-preview\Runtime\SnapshotDebugger\ReadExtensions.cs:78 
+  at Unity.SnapshotDebugger.Debugger.Initialize () [0x0000f] in C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoProject\Library\PackageCache\com.unity.kinematica@0.7.0-preview\Runtime\SnapshotDebugger\Debugger.cs:218 
+  at Unity.SnapshotDebugger.Debugger.OnLoadMethod () [0x00001] in C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoProject\Library\PackageCache\com.unity.kinematica@0.7.0-preview\Runtime\SnapshotDebugger\Debugger.cs:343 
+
+MissingFieldException: Field 'UnityEngine.UIElements.TextDelegates.ImportDefaultTextSettings' not found.
+
+
+MissingFieldException: Field 'UnityEngine.UIElements.UIDocument.IsEditorPlaying' not found.
+
+
+TypeLoadException: Could not resolve type with token 01000016 (from typeref, class/assembly UnityEngine.UIElements.ILiveReloadAssetTracker`1, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null)
+
+
+UnityException: The MakeClientFunc has already been registered. Registration denied.
+  at UnityEngine.UIElements.DragAndDropUtility.RegisterMakeClientFunc (System.Func`1[TResult] makeClient) [0x00017] in <3cdf672c21b849dea215f9c9aff21f77>:0 
+  at UnityEditor.UIElements.EditorDragAndDrop.RegisterEditorClient () [0x0000a] in <e020ad89c1af43769f98694c4076cf19>:0 
+
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Mono: successfully reloaded assembly
+- Completed reload, in  2.688 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7155 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 367.8 MB.
+System memory in use after: 368.3 MB.
+
+Unloading 99 unused Assets to reduce memory usage. Loaded Objects now: 7595.
+Total: 4.889900 ms (FindLiveObjects: 0.765700 ms CreateObjectMapping: 0.483800 ms MarkObjects: 3.578600 ms  DeleteObjects: 0.060900 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Images/Gradient.png
+  artifactKey: Guid(c9f101458ed6cc84f9be39a09fe0306a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Gradient.png using Guid(c9f101458ed6cc84f9be39a09fe0306a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eedd4f489e6ca40c78d9402eec23b9a7') in 0.112428 seconds
+  Import took 0.123762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Images/FlareMap.png
+  artifactKey: Guid(1b9857c84bac9f44f96390ae045b7a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/FlareMap.png using Guid(1b9857c84bac9f44f96390ae045b7a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df8d738961ef20487c9aa1f918498924') in 0.013854 seconds
+  Import took 0.023674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Images/DustRight.png
+  artifactKey: Guid(dc9fddc042ad0ea46ae3e5439dd7c733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/DustRight.png using Guid(dc9fddc042ad0ea46ae3e5439dd7c733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17194638690355ad56bcf088e248bef5') in 0.015917 seconds
+  Import took 0.025921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Images/Dark-Frame-PNG-Transparent-Image.png
+  artifactKey: Guid(dff67f418c0c9c645a366161948fed1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Dark-Frame-PNG-Transparent-Image.png using Guid(dff67f418c0c9c645a366161948fed1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb38a279d868968155ea60be0ab36d1') in 0.020199 seconds
+  Import took 0.032004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Images/grunge_texture_dark_border_by_flinkle_d1r5yjl-fullview.png
+  artifactKey: Guid(d6041bf25c86f71428581d469081c732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/grunge_texture_dark_border_by_flinkle_d1r5yjl-fullview.png using Guid(d6041bf25c86f71428581d469081c732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f1c6443f244326549138fbe3f596ac') in 0.021754 seconds
+  Import took 0.032286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Images/DustLeft.png
+  artifactKey: Guid(e36b3066f98e07b45b9f8e102acc9073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/DustLeft.png using Guid(e36b3066f98e07b45b9f8e102acc9073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db96fec804324f1e6f9952e6448312b9') in 0.015122 seconds
+  Import took 0.025444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Images/2020.11.03-21.59.png
+  artifactKey: Guid(83c570d9e59f87c418682fa74a956259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/2020.11.03-21.59.png using Guid(83c570d9e59f87c418682fa74a956259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c88e52400df8f51177742fd353303606') in 0.016802 seconds
+  Import took 0.027222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Images/TestBanner.jpg
+  artifactKey: Guid(cbc47aebb3ce0d9489b580b9ac229be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/TestBanner.jpg using Guid(cbc47aebb3ce0d9489b580b9ac229be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b85aa74b1f812daad8f95cfe9aedad61') in 0.018855 seconds
+  Import took 0.030131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.041344 seconds.
+  path: Assets/Project/Visual/Shader/WorldBending.shadergraph
+  artifactKey: Guid(168db91ae1dd272449159724a77eb82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Visual/Shader/WorldBending.shadergraph using Guid(168db91ae1dd272449159724a77eb82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0fc270c4445dc9c50172f834d1ba7f5') in 0.010301 seconds
+  Import took 0.021032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.412828 seconds.
+  path: Assets/Project/Visual/Shader/Lerp_Emission_Shader.shadergraph
+  artifactKey: Guid(056b3184c11837544a084e1fa020295a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Visual/Shader/Lerp_Emission_Shader.shadergraph using Guid(056b3184c11837544a084e1fa020295a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbab98b9282805dfe748b33eb1d01fa9') in 0.011204 seconds
+  Import took 0.022022 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015344 seconds.
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of UnityEditor.UIElements.LiveReloadTrackerCreator:CreateVisualTreeAssetTrackerInstance due to: Could not resolve type with token 01000016 (from typeref, class/assembly UnityEngine.UIElements.ILiveReloadAssetTracker`1, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null) assembly:UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:UnityEngine.UIElements.ILiveReloadAssetTracker`1 member:(null) signature:<none>
+
+Error: Could not load signature of UnityEngine.UIElements.DynamicAtlasSettings:get_activeFilters due to: Could not resolve type with token 0100001a (from typeref, class/assembly UnityEngine.UIElements.DynamicAtlasFilters, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null) assembly:UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:UnityEngine.UIElements.DynamicAtlasFilters member:(null) signature:<none>
+
+The scripted importer 'UIElementsViewImporter' attempted to register file type '.uxml', which is handled by a native Unity importer. Registration rejected.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/Public/ImporterRegistry.cpp line 245]
+
+The scripted importer 'StyleSheetImporter' attempted to register file type '.uss', which is handled by a native Unity importer. Registration rejected.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/Public/ImporterRegistry.cpp line 245]
+
+The scripted importer 'ThemeStyleSheetImporter' attempted to register file type '.tss', which is handled by a native Unity importer. Registration rejected.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/Public/ImporterRegistry.cpp line 245]
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.UIElements.Text.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Library/ScriptAssemblies/UnityEditor.UIElementsGameObjectsModule.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Library/ScriptAssemblies/UnityEngine.UIElementsGameObjectsModule.dll, this assembly can cause crashes in the runtime
+
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+System.Reflection.ReflectionTypeLoadException: Exception of type 'System.Reflection.ReflectionTypeLoadException' was thrown.
+  at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetTypes () [0x00000] in <9577ac7a62ef43179789031239ba8798>:0 
+  at Unity.Entities.TypeManager.InitializeAllComponentTypes () [0x00123] in C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoProject\Library\PackageCache\com.unity.entities@0.13.0-preview.24\Unity.Entities\Types\TypeManager.cs:861 
+  at Unity.Entities.TypeManager.Initialize () [0x0010d] in C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoProject\Library\PackageCache\com.unity.entities@0.13.0-preview.24\Unity.Entities\Types\TypeManager.cs:464 
+  at Unity.Entities.AttachToEntityClonerInjection.Initialize () [0x00001] in C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoProject\Library\PackageCache\com.unity.entities@0.13.0-preview.24\Unity.Entities.Hybrid\Injection\CompanionGameObject.cs:27 
+  at Unity.Entities.AttachToEntityClonerInjection..cctor () [0x00001] in C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoProject\Library\PackageCache\com.unity.entities@0.13.0-preview.24\Unity.Entities.Hybrid\Injection\CompanionGameObject.cs:21 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+TypeLoadException: Could not resolve type with token 01000016 (from typeref, class/assembly UnityEngine.UIElements.ILiveReloadAssetTracker`1, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null)
+  at (wrapper managed-to-native) System.Reflection.MonoMethodInfo.get_method_info(intptr,System.Reflection.MonoMethodInfo&)
+  at System.Reflection.MonoMethodInfo.GetMethodInfo (System.IntPtr handle) [0x00000] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Reflection.MonoMethod.GetPseudoCustomAttributes () [0x00002] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.MonoCustomAttrs.GetPseudoCustomAttributes (System.Reflection.ICustomAttributeProvider obj, System.Type attributeType) [0x0000a] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.MonoCustomAttrs.IsDefined (System.Reflection.ICustomAttributeProvider obj, System.Type attributeType, System.Boolean inherit) [0x00032] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Reflection.MonoMethod.IsDefined (System.Type attributeType, System.Boolean inherit) [0x00000] in <9577ac7a62ef43179789031239ba8798>:0 
+  at Unity.SnapshotDebugger.ReadExtensions+<GetExtensionMethods>d__0.MoveNext () [0x000f6] in C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoProject\Library\PackageCache\com.unity.kinematica@0.7.0-preview\Runtime\SnapshotDebugger\ReadExtensions.cs:34 
+  at Unity.SnapshotDebugger.ReadExtensions.InitializeExtensionMethods () [0x00030] in C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoProject\Library\PackageCache\com.unity.kinematica@0.7.0-preview\Runtime\SnapshotDebugger\ReadExtensions.cs:78 
+  at Unity.SnapshotDebugger.Debugger.Initialize () [0x0000f] in C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoProject\Library\PackageCache\com.unity.kinematica@0.7.0-preview\Runtime\SnapshotDebugger\Debugger.cs:218 
+  at Unity.SnapshotDebugger.Debugger.OnLoadMethod () [0x00001] in C:\Users\kdahi\OneDrive\Documents\Unity\TechDemo\TechDemoProject\Library\PackageCache\com.unity.kinematica@0.7.0-preview\Runtime\SnapshotDebugger\Debugger.cs:343 
+
+MissingFieldException: Field 'UnityEngine.UIElements.TextDelegates.ImportDefaultTextSettings' not found.
+
+
+MissingFieldException: Field 'UnityEngine.UIElements.UIDocument.IsEditorPlaying' not found.
+
+
+TypeLoadException: Could not resolve type with token 01000016 (from typeref, class/assembly UnityEngine.UIElements.ILiveReloadAssetTracker`1, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null)
+
+
+UnityException: The MakeClientFunc has already been registered. Registration denied.
+  at UnityEngine.UIElements.DragAndDropUtility.RegisterMakeClientFunc (System.Func`1[TResult] makeClient) [0x00017] in <3cdf672c21b849dea215f9c9aff21f77>:0 
+  at UnityEditor.UIElements.EditorDragAndDrop.RegisterEditorClient () [0x0000a] in <e020ad89c1af43769f98694c4076cf19>:0 
+
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDE applied for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Mono: successfully reloaded assembly
+ArgumentException: An item with the same key has already been added. Key: UnityEditor.UIElements.EditorAtlasMonitorInjector
+Parameter name: key
+  at System.Collections.Generic.SortedList`2[TKey,TValue].Add (TKey key, TValue value) [0x00041] in <aa976c2104104b7ca9e1785715722c9d>:0 
+  at UnityEditor.AssetPostprocessingInternal.GetTextureProcessorsHashString () [0x000a2] in <fac3a832ec4249a49c4da1051848dde5>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.AssetPostprocessingInternal:GetTextureProcessorsHashString()
+
+- Completed reload, in  2.072 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7027 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 364.0 MB.
+System memory in use after: 364.5 MB.
+
+Unloading 92 unused Assets to reduce memory usage. Loaded Objects now: 7615.
+Total: 5.017800 ms (FindLiveObjects: 0.771200 ms CreateObjectMapping: 0.187600 ms MarkObjects: 4.011200 ms  DeleteObjects: 0.046700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 122.724439 seconds.
+  path: Assets/AssetStore/Simple Vector Icons/PNG icons/Keyboard PNG/0.png
+  artifactKey: Guid(275e1493c7145cd45a0c5e19b7df9720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Simple Vector Icons/PNG icons/Keyboard PNG/0.png using Guid(275e1493c7145cd45a0c5e19b7df9720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3036bfe4052d9926b5a795eba08b6a2c') in 0.057035 seconds
+  Import took 0.068043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Standart/3_summon_snake.png
+  artifactKey: Guid(37df2ed84e2f5f94393c9d25a7032ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Standart/3_summon_snake.png using Guid(37df2ed84e2f5f94393c9d25a7032ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be76c21e72222a967a5a4f4b245e4c9e') in 0.018749 seconds
+  Import took 0.029198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Standart/6_summon_ent.png
+  artifactKey: Guid(2299c01292bb5bb4ca153fd3ddb18554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Standart/6_summon_ent.png using Guid(2299c01292bb5bb4ca153fd3ddb18554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba9327bb5a5f5b475768eaf192ae73d') in 0.019614 seconds
+  Import took 0.029521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/No_bg/01_fire_arrow_nobg.png
+  artifactKey: Guid(ed82e1103d373974eb15cb9961ec3e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/No_bg/01_fire_arrow_nobg.png using Guid(ed82e1103d373974eb15cb9961ec3e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd6069d9b2a41938b5f3cf406d4d349d') in 0.018339 seconds
+  Import took 0.028534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/No_bg/02_Big_fire_arrow_nobg.png
+  artifactKey: Guid(3ec54dd7b3ecdfe4781c4baa72f1eba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/No_bg/02_Big_fire_arrow_nobg.png using Guid(3ec54dd7b3ecdfe4781c4baa72f1eba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e2e0e060fefbacbbecf163eb651c20c') in 0.018949 seconds
+  Import took 0.029397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/AssetStore/Simple Vector Icons/PNG icons/Keyboard PNG/2.png
+  artifactKey: Guid(1d4708e3e0d483f448f391b4cafba3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Simple Vector Icons/PNG icons/Keyboard PNG/2.png using Guid(1d4708e3e0d483f448f391b4cafba3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acec5dbc143a5f1bc59a052e7b5c74ba') in 0.017169 seconds
+  Import took 0.027569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/AssetStore/Simple Vector Icons/PNG icons/Keyboard PNG/6.png
+  artifactKey: Guid(0d5e083a14a77614bb0b8abfa49cdb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Simple Vector Icons/PNG icons/Keyboard PNG/6.png using Guid(0d5e083a14a77614bb0b8abfa49cdb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e4597b78c9bfd231f230d994792d7b4') in 0.017458 seconds
+  Import took 0.027149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/AssetStore/Simple Vector Icons/PNG icons/Gamepad PNG/1.png
+  artifactKey: Guid(b55bb0192bd53ed43b112496b865d208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Simple Vector Icons/PNG icons/Gamepad PNG/1.png using Guid(b55bb0192bd53ed43b112496b865d208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92f070fb670d7a10e9348eb6f129ac5f') in 0.017248 seconds
+  Import took 0.027462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/Normal/01_fire_arrow.png
+  artifactKey: Guid(38c3ada3f093d7d46bcdafbd2cd77879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/Normal/01_fire_arrow.png using Guid(38c3ada3f093d7d46bcdafbd2cd77879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5407ab29d3799f1aad6b844825dd8b4a') in 0.017981 seconds
+  Import took 0.028387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/Normal/02_Big_fire_arrow.png
+  artifactKey: Guid(5a36347b9beb70a4f87b9d927b89d78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/Normal/02_Big_fire_arrow.png using Guid(5a36347b9beb70a4f87b9d927b89d78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bead245e0f95acf0bb8dff47f8af96ed') in 0.020475 seconds
+  Import took 0.030632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Standart/1_summon_insect_army.png
+  artifactKey: Guid(c12865ea941b59f48be2c2bd4c84dc08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Standart/1_summon_insect_army.png using Guid(c12865ea941b59f48be2c2bd4c84dc08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f27a3e5fcbe17be02e7f3e6ce0dba1a') in 0.018902 seconds
+  Import took 0.029041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/No_bg/03_fireball_nobg.png
+  artifactKey: Guid(1b9dcda21824f7f4787d93c1b9c13871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/No_bg/03_fireball_nobg.png using Guid(1b9dcda21824f7f4787d93c1b9c13871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8b57501d509046cab632f9396d5404a') in 0.020023 seconds
+  Import took 0.030617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Nobg/04_summon_skeleton_army_nobg.png
+  artifactKey: Guid(ff5956da941c56245925b7bb43c660b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Nobg/04_summon_skeleton_army_nobg.png using Guid(ff5956da941c56245925b7bb43c660b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba522cb4579e151e3985041ed040f890') in 0.019134 seconds
+  Import took 0.029683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/AssetStore/Simple Vector Icons/PNG icons/Keyboard PNG/7.png
+  artifactKey: Guid(6086e04ee8f90a348959a622c30e541d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Simple Vector Icons/PNG icons/Keyboard PNG/7.png using Guid(6086e04ee8f90a348959a622c30e541d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c54ae6595c5dc97f240d7db2b9338a7') in 0.016510 seconds
+  Import took 0.026919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Standart/2_summon_spiders.png
+  artifactKey: Guid(f1bd4f1858646714b947aaec6477cdd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Standart/2_summon_spiders.png using Guid(f1bd4f1858646714b947aaec6477cdd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83cf6b9b636a663691468ca470d2301e') in 0.019183 seconds
+  Import took 0.029424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/AssetStore/Simple Vector Icons/PNG icons/Graphics editor PNG/3.png
+  artifactKey: Guid(cc088e176fbc04943b3707555a1ea045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Simple Vector Icons/PNG icons/Graphics editor PNG/3.png using Guid(cc088e176fbc04943b3707555a1ea045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efc0a399edc0be5dc68674bd28c573b4') in 0.017501 seconds
+  Import took 0.027673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/AssetStore/Simple Vector Icons/PNG icons/Keyboard PNG/4.png
+  artifactKey: Guid(7d89e70029f43eb4083459d7d759dad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Simple Vector Icons/PNG icons/Keyboard PNG/4.png using Guid(7d89e70029f43eb4083459d7d759dad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bab6b6ac801ea02e79a5d46945676a91') in 0.016305 seconds
+  Import took 0.026739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/Normal/04_fire_rain.png
+  artifactKey: Guid(e7caa8ba3d003ff4f8b5d68629e47670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/Normal/04_fire_rain.png using Guid(e7caa8ba3d003ff4f8b5d68629e47670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a9f6545930bf472cb83b3fe037beba8') in 0.019184 seconds
+  Import took 0.029209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Standart/01_summon_zombie.png
+  artifactKey: Guid(ae4c675b8d09aed4daec9c2f090d0442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Standart/01_summon_zombie.png using Guid(ae4c675b8d09aed4daec9c2f090d0442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e01d184db7f46528aa2b55cc5d440135') in 0.019800 seconds
+  Import took 0.029966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Nobg/02_summon_skeleton_warrior_nobg.png
+  artifactKey: Guid(ae21f69c2615c6a4bb48fde23dcbf411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Nobg/02_summon_skeleton_warrior_nobg.png using Guid(ae21f69c2615c6a4bb48fde23dcbf411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64f66317034e6df7440dc7e9657d9e89') in 0.018425 seconds
+  Import took 0.028798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Standart/7_summon_golem.png
+  artifactKey: Guid(445177416a738c7419e25e9be2ad01f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Standart/7_summon_golem.png using Guid(445177416a738c7419e25e9be2ad01f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f93beba55e1e5179097a414870fabc7d') in 0.018492 seconds
+  Import took 0.028617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Nobg/1_summon_insect_army_nobg.png
+  artifactKey: Guid(d13ce867484cff549ba23b5d1212381b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Nobg/1_summon_insect_army_nobg.png using Guid(d13ce867484cff549ba23b5d1212381b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c0f77f67db63c4a7d56628973e80a1') in 0.019634 seconds
+  Import took 0.030272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Nobg/05_summon_ghoul_nobg.png
+  artifactKey: Guid(0311ddf47e2654a4cb2bc6322fcc9e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Nobg/05_summon_ghoul_nobg.png using Guid(0311ddf47e2654a4cb2bc6322fcc9e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5985ae207e2f2d14622ad6e5cbb7ae3a') in 0.019136 seconds
+  Import took 0.029613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/No_bg/06_Death_blow2_nobg.png
+  artifactKey: Guid(a3d062ea6a25490499dfac46c5bd7170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/No_bg/06_Death_blow2_nobg.png using Guid(a3d062ea6a25490499dfac46c5bd7170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ca6936cebf615e9f0f23532d76dd828') in 0.018286 seconds
+  Import took 0.028661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/Normal/07_Death_blow3.png
+  artifactKey: Guid(9532cc0084275d54b940480a52463480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/Normal/07_Death_blow3.png using Guid(9532cc0084275d54b940480a52463480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c62641c86642fb4293d94e7483d1d4e8') in 0.019944 seconds
+  Import took 0.030404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Nobg/5_summon_ent_nobg.png
+  artifactKey: Guid(2be594160bf513a44ae0dfb1f71dded9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Nobg/5_summon_ent_nobg.png using Guid(2be594160bf513a44ae0dfb1f71dded9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df5f544e070fbd99ca3aceed57664a91') in 0.019461 seconds
+  Import took 0.030014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Nobg/7_summon_golem_nobg.png
+  artifactKey: Guid(9db3b5ac7df06664e954be6af38f82a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Nobg/7_summon_golem_nobg.png using Guid(9db3b5ac7df06664e954be6af38f82a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f8087c801ad1a17278023b06cc3c6e4') in 0.019386 seconds
+  Import took 0.029909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Standart/02_summon_skeleton_warrior.png
+  artifactKey: Guid(eb495448859300642bb7e6d17df06e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Standart/02_summon_skeleton_warrior.png using Guid(eb495448859300642bb7e6d17df06e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b2d13d40b0b7af5aea96a38904ec046') in 0.019271 seconds
+  Import took 0.030187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/AssetStore/Simple Vector Icons/PNG icons/Gamepad PNG/6.png
+  artifactKey: Guid(f1c4914770ea8364e84ee10c3eb12701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Simple Vector Icons/PNG icons/Gamepad PNG/6.png using Guid(f1c4914770ea8364e84ee10c3eb12701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1966faf74a347975d69956096c0956f') in 0.014149 seconds
+  Import took 0.024583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Standart/04_summon_skeleton_army.png
+  artifactKey: Guid(df1feeba8a3c4804b9d21d286e25f6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Standart/04_summon_skeleton_army.png using Guid(df1feeba8a3c4804b9d21d286e25f6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e3b62f91091f8bf0f6acd46e4e1a33e') in 0.018873 seconds
+  Import took 0.029352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/Normal/06_Death_blow2.png
+  artifactKey: Guid(0ce75dcc75cd7e24090a1c022b3e92e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/Normal/06_Death_blow2.png using Guid(0ce75dcc75cd7e24090a1c022b3e92e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2d52a64f5a374f6dae7efcff3abef27') in 0.019283 seconds
+  Import took 0.029456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/AssetStore/Simple Vector Icons/PNG icons/Gamepad PNG/4.png
+  artifactKey: Guid(9bc6532ddd251564e850dff3d096f0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Simple Vector Icons/PNG icons/Gamepad PNG/4.png using Guid(9bc6532ddd251564e850dff3d096f0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6d0f5b2907194489d242705a0422fde') in 0.014306 seconds
+  Import took 0.024698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Nobg/2_summon_spiders_nobg.png
+  artifactKey: Guid(07b4fd4b181dbdc42b1e7ffa4249629a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Nobg/2_summon_spiders_nobg.png using Guid(07b4fd4b181dbdc42b1e7ffa4249629a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd83de6b5629c457c38c25c52fb57a0') in 0.018838 seconds
+  Import took 0.028968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Nobg/07_summon_death_nobg.png
+  artifactKey: Guid(efa0d94414af20a469b3b9296caf1fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Nobg/07_summon_death_nobg.png using Guid(efa0d94414af20a469b3b9296caf1fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8e07593b6aad6bd9507cc07e35d40fc') in 0.019128 seconds
+  Import took 0.029433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Standart/4_summon_snake_army.png
+  artifactKey: Guid(cd656beafbe8ca9418802e917fdf049a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Standart/4_summon_snake_army.png using Guid(cd656beafbe8ca9418802e917fdf049a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '815ae7f093bb1d8e53f0abb120d1f7ca') in 0.019323 seconds
+  Import took 0.029728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/Normal/05_Death_blow.png
+  artifactKey: Guid(9e7e9108bdf383943bc6a2ea5401fcf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/Normal/05_Death_blow.png using Guid(9e7e9108bdf383943bc6a2ea5401fcf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df0ee9b1e9ff3fee55f88044855a969') in 0.019222 seconds
+  Import took 0.029666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/AssetStore/Simple Vector Icons/PNG icons/Gamepad PNG/5.png
+  artifactKey: Guid(62491eed60bb6464abf4a33f61751719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Simple Vector Icons/PNG icons/Gamepad PNG/5.png using Guid(62491eed60bb6464abf4a33f61751719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e0e1eee49bda06681ab80b779f2534') in 0.017209 seconds
+  Import took 0.027452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Standart/06_summon_demon.png
+  artifactKey: Guid(f29e9fd2419b7ae4c9938fbee6872ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Standart/06_summon_demon.png using Guid(f29e9fd2419b7ae4c9938fbee6872ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7aea6474188809aab0fab57a79f2e9b') in 0.019228 seconds
+  Import took 0.029322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Standart/07_summon_death.png
+  artifactKey: Guid(ff1285e8a148f7547af4e7a20c8bd700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Standart/07_summon_death.png using Guid(ff1285e8a148f7547af4e7a20c8bd700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7205c5f2757aca96f310786e6f3d7c3') in 0.019112 seconds
+  Import took 0.029373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/AssetStore/Simple Vector Icons/PNG icons/Gamepad PNG/7.png
+  artifactKey: Guid(f465efb2430343047983a41ec6d3b418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Simple Vector Icons/PNG icons/Gamepad PNG/7.png using Guid(f465efb2430343047983a41ec6d3b418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b3697b1bec1fca7c3d2f236d8bdfda6') in 0.014510 seconds
+  Import took 0.024618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/AssetStore/Simple Vector Icons/PNG icons/Keyboard PNG/3.png
+  artifactKey: Guid(513ed4d66f060d340919c9c6138aace6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Simple Vector Icons/PNG icons/Keyboard PNG/3.png using Guid(513ed4d66f060d340919c9c6138aace6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c222624195de0a1600378b48e5e3a9c7') in 0.013073 seconds
+  Import took 0.023090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/AssetStore/Simple Vector Icons/PNG icons/Keyboard PNG/1.png
+  artifactKey: Guid(bfaa1cd3f71bcbe45b889b32b5c9d449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Simple Vector Icons/PNG icons/Keyboard PNG/1.png using Guid(bfaa1cd3f71bcbe45b889b32b5c9d449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c03dba53cd99562ae90efb5d9d92d4a') in 0.013492 seconds
+  Import took 0.024130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Nobg/6_summon_ent_nobg.png
+  artifactKey: Guid(7441bc05104b68245b79b6f20710090e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Nobg/6_summon_ent_nobg.png using Guid(7441bc05104b68245b79b6f20710090e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f366c1b7690df44ce6094d13c446f78') in 0.019393 seconds
+  Import took 0.029552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/AssetStore/Simple Vector Icons/PNG icons/Graphics editor PNG/1.png
+  artifactKey: Guid(689996d7338482847b14afb344998189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Simple Vector Icons/PNG icons/Graphics editor PNG/1.png using Guid(689996d7338482847b14afb344998189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0da2b7a1a8e7d3391dcadf2084e58ad') in 0.013213 seconds
+  Import took 0.023559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/No_bg/07_Death_blow3_nobg.png
+  artifactKey: Guid(0b2dad4a55cd68147a334c2919900fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/No_bg/07_Death_blow3_nobg.png using Guid(0b2dad4a55cd68147a334c2919900fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '394294530c2b18daa8acc2889bc4248d') in 0.020698 seconds
+  Import took 0.030939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Nobg/4_summon_snake_army_nobg.png
+  artifactKey: Guid(3a3ab6d88f6aef943a41cc4645af33f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Nobg/4_summon_snake_army_nobg.png using Guid(3a3ab6d88f6aef943a41cc4645af33f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31aea102af780887c5494b12d5b39b5e') in 0.020015 seconds
+  Import took 0.030171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Nobg/01_summon_zombie_nobg.png
+  artifactKey: Guid(2b4d2a5926c5c524f80d35f1dfad4151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Nobg/01_summon_zombie_nobg.png using Guid(2b4d2a5926c5c524f80d35f1dfad4151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '769c1575c70d59308ab094a68250d7f1') in 0.020071 seconds
+  Import took 0.030548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/AssetStore/Simple Vector Icons/PNG icons/Graphics editor PNG/2.png
+  artifactKey: Guid(a07449934de3eaf48ae17b1c46ee5dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Simple Vector Icons/PNG icons/Graphics editor PNG/2.png using Guid(a07449934de3eaf48ae17b1c46ee5dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87f66e7f49131e64db602c70e7d60cef') in 0.013319 seconds
+  Import took 0.023758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/No_bg/05_Death_blow_nobg.png
+  artifactKey: Guid(bfa99d7cfecc9984e8cc2e0e225c7aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/No_bg/05_Death_blow_nobg.png using Guid(bfa99d7cfecc9984e8cc2e0e225c7aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ef1f779935b04700e393faf62ac700') in 0.018392 seconds
+  Import took 0.028945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Nobg/03_summon_skeleton_knight_nobg.png
+  artifactKey: Guid(7a6cdd47998a808418771219ff09d748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Nobg/03_summon_skeleton_knight_nobg.png using Guid(7a6cdd47998a808418771219ff09d748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd3776eef3a3af606240239ab0314e64') in 0.019024 seconds
+  Import took 0.029295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/No_bg/04_fire_rain_nobg.png
+  artifactKey: Guid(1fec945518c9dab42b6ddfd4b03431b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/No_bg/04_fire_rain_nobg.png using Guid(1fec945518c9dab42b6ddfd4b03431b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfac048a9f4de9efcff41a1a7a58fada') in 0.020277 seconds
+  Import took 0.030590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Standart/05_summon_ghoul.png
+  artifactKey: Guid(47e55f1cc0b3c024dbf777b262754cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Standart/05_summon_ghoul.png using Guid(47e55f1cc0b3c024dbf777b262754cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daed69c09189388f6c141258db5c7d7d') in 0.018157 seconds
+  Import took 0.028621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Nobg/06_summon_demon_nobg.png
+  artifactKey: Guid(1d4256d0a10dd684fa70a4337c6ac13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Nobg/06_summon_demon_nobg.png using Guid(1d4256d0a10dd684fa70a4337c6ac13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '845b0f7ae9157b71bfc662ed37d740a8') in 0.018887 seconds
+  Import took 0.029047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/AssetStore/Simple Vector Icons/PNG icons/Keyboard PNG/5.png
+  artifactKey: Guid(0a254b3e4757df045ab34d5d6c9f529a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Simple Vector Icons/PNG icons/Keyboard PNG/5.png using Guid(0a254b3e4757df045ab34d5d6c9f529a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e2394902ff25e6face13ffaac18576c') in 0.013474 seconds
+  Import took 0.023603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/AssetStore/Simple Vector Icons/PNG icons/Gamepad PNG/2.png
+  artifactKey: Guid(49135bf0f2a367f46aaf4346eabbc9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Simple Vector Icons/PNG icons/Gamepad PNG/2.png using Guid(49135bf0f2a367f46aaf4346eabbc9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a548a067f067dd2bb3124f4bd5f4fe3') in 0.013601 seconds
+  Import took 0.024069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Standart/03_summon_skeleton_knight.png
+  artifactKey: Guid(390bc9380861cf648b141338869d839e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Standart/03_summon_skeleton_knight.png using Guid(390bc9380861cf648b141338869d839e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df8bb640d6277d2c47e4dd6078d4ab0a') in 0.021931 seconds
+  Import took 0.032610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Standart/5_summon_ent.png
+  artifactKey: Guid(4a395b344dc91a64090d34f7fd460f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Standart/5_summon_ent.png using Guid(4a395b344dc91a64090d34f7fd460f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19d89db3310a7c99c16e64ca32dd3e49') in 0.019527 seconds
+  Import took 0.029665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/AssetStore/Simple Vector Icons/PNG icons/Gamepad PNG/3.png
+  artifactKey: Guid(805526e46ebf48b43af85bdf3d809f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Simple Vector Icons/PNG icons/Gamepad PNG/3.png using Guid(805526e46ebf48b43af85bdf3d809f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '784329cc7aff058cb94c212e1f4de4a4') in 0.014168 seconds
+  Import took 0.024433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/Normal/03_fireball.png
+  artifactKey: Guid(9be82abcd2ac4e0419816031ca7ec436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/Normal/03_fireball.png using Guid(9be82abcd2ac4e0419816031ca7ec436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fdc1e5bc7adfafa86559f742839c88f') in 0.019610 seconds
+  Import took 0.030111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Nobg/3_summon_snake_nobg.png
+  artifactKey: Guid(3a08b6fa91efa2e47a058235f9439480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Nobg/3_summon_snake_nobg.png using Guid(3a08b6fa91efa2e47a058235f9439480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '599c9c690715b881b4946a1121958687') in 0.019181 seconds
+  Import took 0.029125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.660188 seconds.
+  path: Assets/AssetStore/Simple Vector Icons/PNG icons/Keyboard PNG/8.png
+  artifactKey: Guid(73e6754376028a54f8af384b0b078d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Simple Vector Icons/PNG icons/Keyboard PNG/8.png using Guid(73e6754376028a54f8af384b0b078d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '152db9e93a5b512ca398b6cc3d9b73bb') in 0.017332 seconds
+  Import took 0.028021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Nobg/08_summon_army_of_death_nobg.png
+  artifactKey: Guid(3859ea9039b32fa43b06cd8da2cf71e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Nobg/08_summon_army_of_death_nobg.png using Guid(3859ea9039b32fa43b06cd8da2cf71e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12eb0f257f27210791b68f74d729141b') in 0.019090 seconds
+  Import took 0.029486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Nobg/9_club_attack_nobg.png
+  artifactKey: Guid(e7f568f79e876284f8678fcf5d81c431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Nobg/9_club_attack_nobg.png using Guid(e7f568f79e876284f8678fcf5d81c431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2250e7adb56dc4c001b9eebb55f1a31d') in 0.018429 seconds
+  Import took 0.028590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Standart/11_bull.png
+  artifactKey: Guid(d2d00edd215312f4bb2f0150c03a12dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Standart/11_bull.png using Guid(d2d00edd215312f4bb2f0150c03a12dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c9778a620d9193007a76689e7f037a2') in 0.019094 seconds
+  Import took 0.029530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/No_bg/10_Magic_bolt2_nobg.png
+  artifactKey: Guid(eef78b0cf89d34040a60800bd9568745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/No_bg/10_Magic_bolt2_nobg.png using Guid(eef78b0cf89d34040a60800bd9568745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671e4ba246118d9d6e5d62bc07453658') in 0.020237 seconds
+  Import took 0.030804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/No_bg/11_Magic_bolt3_nobg.png
+  artifactKey: Guid(2ca8e30874a50fa469ad1203222c88f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/No_bg/11_Magic_bolt3_nobg.png using Guid(2ca8e30874a50fa469ad1203222c88f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd145d1b0ce0e840c83a09f5043f261') in 0.019399 seconds
+  Import took 0.029716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/Normal/11_magic_bolt3.png
+  artifactKey: Guid(c8926328a404b0349b274c47e6920855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/Normal/11_magic_bolt3.png using Guid(c8926328a404b0349b274c47e6920855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c41d818ae5038233e9002ec3b1a5f4e') in 0.018989 seconds
+  Import took 0.029050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Standart/10_needles.png
+  artifactKey: Guid(a0167c0e9b279a342928ca9e64e496e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Standart/10_needles.png using Guid(a0167c0e9b279a342928ca9e64e496e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd234fb9a9ed57f442dd403f518955589') in 0.018251 seconds
+  Import took 0.028703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Nobg/10_needles_nobg.png
+  artifactKey: Guid(37637f84e88565a42bdf08115f2c8307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Nobg/10_needles_nobg.png using Guid(37637f84e88565a42bdf08115f2c8307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '267a2c9a847f7b384a8942f9748cb913') in 0.020046 seconds
+  Import took 0.030414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Nobg/10_summon_succubus_nobg.png
+  artifactKey: Guid(fa4e347ffecb8b146a445acdc75d2619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Nobg/10_summon_succubus_nobg.png using Guid(fa4e347ffecb8b146a445acdc75d2619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5561089c954c09ff05dd9ee795107881') in 0.019132 seconds
+  Import took 0.029521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Nobg/11_bull_nobg.png
+  artifactKey: Guid(a4197be8e34da614e94f00ebd11bd58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Nobg/11_bull_nobg.png using Guid(a4197be8e34da614e94f00ebd11bd58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee2d9872884f172b2c33dbb92a5a0d5') in 0.017899 seconds
+  Import took 0.028275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/No_bg/09_Magic_bolt_nobg.png
+  artifactKey: Guid(124c6bd51b718324a90d9baed3cc123a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/No_bg/09_Magic_bolt_nobg.png using Guid(124c6bd51b718324a90d9baed3cc123a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9713fda7487386e7e4496f95ecc133c2') in 0.018996 seconds
+  Import took 0.029294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/Normal/09_magic_bolt.png
+  artifactKey: Guid(abc388dee4cd848438d27f708258cd2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/Normal/09_magic_bolt.png using Guid(abc388dee4cd848438d27f708258cd2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d9bc2fe0f458e727514fd0a5d1689a8') in 0.019449 seconds
+  Import took 0.029449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Standart/8_summon_stone_army.png
+  artifactKey: Guid(682e98e4af3a64c4d967f7f0dce882c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Standart/8_summon_stone_army.png using Guid(682e98e4af3a64c4d967f7f0dce882c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52551f1141ea4de9e7f5f47fccf1b0cc') in 0.019278 seconds
+  Import took 0.029542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/Normal/10_magic_bolt2.png
+  artifactKey: Guid(dd67d93e2488d9d448e575986e852f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/Normal/10_magic_bolt2.png using Guid(dd67d93e2488d9d448e575986e852f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37fb965045134497553a15ffd0124b1d') in 0.020344 seconds
+  Import took 0.030610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/AssetStore/Simple Vector Icons/PNG icons/Keyboard PNG/9.png
+  artifactKey: Guid(ed91901ab5c85d84f9cedf1f123e18e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Simple Vector Icons/PNG icons/Keyboard PNG/9.png using Guid(ed91901ab5c85d84f9cedf1f123e18e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '797c9701709c73c303da8b5ed6836672') in 0.016938 seconds
+  Import took 0.027282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Nobg/09_summon_imp_nobg.png
+  artifactKey: Guid(b3773d81d6c5284489995674a4feaf1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Nobg/09_summon_imp_nobg.png using Guid(b3773d81d6c5284489995674a4feaf1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22937ea09fff620c1763c2352297cc92') in 0.018779 seconds
+  Import took 0.029013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Standart/08_summon_army_of_death.png
+  artifactKey: Guid(70fbfe06606a97748b2d6536a0acfefb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Standart/08_summon_army_of_death.png using Guid(70fbfe06606a97748b2d6536a0acfefb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13e4a313c295c4e9ef650f962cb22f36') in 0.019514 seconds
+  Import took 0.029936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/No_bg/08_Death_nobg.png
+  artifactKey: Guid(604c1df0136c41649a2f7b6bd7352370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/No_bg/08_Death_nobg.png using Guid(604c1df0136c41649a2f7b6bd7352370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e0f0863f78a38f8c1fcaee45458e9be') in 0.019769 seconds
+  Import took 0.030628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Standart/09_summon_imp.png
+  artifactKey: Guid(a5a0906b0c2e3c6488bed25971f047c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Standart/09_summon_imp.png using Guid(a5a0906b0c2e3c6488bed25971f047c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54217b3558160d690bb85fa48aae0fcd') in 0.020476 seconds
+  Import took 0.030991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Standart/9_club_attack.png
+  artifactKey: Guid(7dcc5a824d562dc419dc3c666f3d6a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Standart/9_club_attack.png using Guid(7dcc5a824d562dc419dc3c666f3d6a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08666c5f1fada4b3216b37559a66025e') in 0.020538 seconds
+  Import took 0.030892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Nobg/8_summon_stone_army_nobg.png
+  artifactKey: Guid(698debec6f90b044186d5e39da1ee8e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Nobg/8_summon_stone_army_nobg.png using Guid(698debec6f90b044186d5e39da1ee8e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '936467dda46f40bbea77c71b3ed5f954') in 0.018651 seconds
+  Import took 0.029044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Standart/10_summon_succubus.png
+  artifactKey: Guid(c7cfa4a2e4ac65847a929ab1a5fff72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Standart/10_summon_succubus.png using Guid(c7cfa4a2e4ac65847a929ab1a5fff72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd7204e93fd05ad652975584e9c71c1c') in 0.018740 seconds
+  Import took 0.028842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/Normal/08_Death.png
+  artifactKey: Guid(9310f062733d33d4abab0fcd3d267f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/Normal/08_Death.png using Guid(9310f062733d33d4abab0fcd3d267f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd4a51837fc3ebd2bb607f9d6cc2793') in 0.019182 seconds
+  Import took 0.030013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.912731 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Standart/11_summon_devil.png
+  artifactKey: Guid(8756e546668909143b1796a517cc9980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Standart/11_summon_devil.png using Guid(8756e546668909143b1796a517cc9980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70c74e96548867ebbf149792e3f64063') in 0.020310 seconds
+  Import took 0.031144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Nobg/12_disarmament_nobg.png
+  artifactKey: Guid(181f21999ecb2fa4a988b03b431157d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Nobg/12_disarmament_nobg.png using Guid(181f21999ecb2fa4a988b03b431157d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9445fffa3d7c1ed890c78edec06d81b3') in 0.019615 seconds
+  Import took 0.030192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Standart/15_shadow_stoune.png
+  artifactKey: Guid(5fcf24987c6b0f64faa7575bc9651614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Standart/15_shadow_stoune.png using Guid(5fcf24987c6b0f64faa7575bc9651614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d708ae79162cd9fd14fa35173c260a') in 0.017680 seconds
+  Import took 0.027693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/No_bg/20_shadow_rain_nobg.png
+  artifactKey: Guid(e73b53acf9876574fa58c89c6d1f7cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/No_bg/20_shadow_rain_nobg.png using Guid(e73b53acf9876574fa58c89c6d1f7cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcefa1859e257f1053f96ac512274e4a') in 0.020314 seconds
+  Import took 0.030930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Nobg/21_axe_nobg.png
+  artifactKey: Guid(7505c994d51aafe42bff1a926d79c515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Nobg/21_axe_nobg.png using Guid(7505c994d51aafe42bff1a926d79c515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9dfabcf37ae1889cb98fad015cb60f7') in 0.019433 seconds
+  Import took 0.029989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Nobg/18_shield_nobg.png
+  artifactKey: Guid(81e6c82f977a89b48aed27e4c86c71cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Nobg/18_shield_nobg.png using Guid(81e6c82f977a89b48aed27e4c86c71cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dfb036b8f61fcf6a7c8d8b67c115b64') in 0.018483 seconds
+  Import took 0.028757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/No_bg/15_Ice_block_nobg.png
+  artifactKey: Guid(4c1adc6c87a0a494889a8bb2e2aa1c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/No_bg/15_Ice_block_nobg.png using Guid(4c1adc6c87a0a494889a8bb2e2aa1c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55eac65d6d9858e1d1f1d82f5e3f8571') in 0.020563 seconds
+  Import took 0.031005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Nobg/15_shadow_stoune_nobg.png
+  artifactKey: Guid(36d5dcf762c1c9749a6818f4bb5b8e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Nobg/15_shadow_stoune_nobg.png using Guid(36d5dcf762c1c9749a6818f4bb5b8e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd06b4b735a4de3bde3f71535b8d86949') in 0.018114 seconds
+  Import took 0.028265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Standart/20_shield.png
+  artifactKey: Guid(852d20079ba6c9547851d88457b5d851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Standart/20_shield.png using Guid(852d20079ba6c9547851d88457b5d851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a85a46d33d4675a7fcf423c312cdd4c4') in 0.019734 seconds
+  Import took 0.030129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/No_bg/18_shadow_bolt2_nobg.png
+  artifactKey: Guid(6e900f191f80ce449922a411952b42e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/No_bg/18_shadow_bolt2_nobg.png using Guid(6e900f191f80ce449922a411952b42e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0bf34dde2892255e05b3c919e5ff926') in 0.018990 seconds
+  Import took 0.029426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Standart/16_summon_brutal_army.png
+  artifactKey: Guid(672cc7cef11322b449de1e72af8910b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Standart/16_summon_brutal_army.png using Guid(672cc7cef11322b449de1e72af8910b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a304f4c78f6cac294faa1cbce93ff82') in 0.019933 seconds
+  Import took 0.030184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Standart/15_summon_shadow_wolf.png
+  artifactKey: Guid(e838476994baf8647b6b599e397034d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Standart/15_summon_shadow_wolf.png using Guid(e838476994baf8647b6b599e397034d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa772637f0d9af3f15780d72845154c9') in 0.018397 seconds
+  Import took 0.028391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Standart/13_dead_shadow.png
+  artifactKey: Guid(ed55447bf9aaafe4a9d891333152f827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Standart/13_dead_shadow.png using Guid(ed55447bf9aaafe4a9d891333152f827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98f0ebaa4e7fe79db8efb09efba8058e') in 0.019357 seconds
+  Import took 0.029767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Nobg/20_shield_nobg.png
+  artifactKey: Guid(26f8d59769dde0744860937a9732b61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Nobg/20_shield_nobg.png using Guid(26f8d59769dde0744860937a9732b61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1caec4fc1fe59fcd664286620d37f85e') in 0.019444 seconds
+  Import took 0.029915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Nobg/17_venom_nobg.png
+  artifactKey: Guid(74584c923120c5f45ad88937f3a796c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Nobg/17_venom_nobg.png using Guid(74584c923120c5f45ad88937f3a796c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dcb0518f64bbac3f427fe19631cd584') in 0.019165 seconds
+  Import took 0.029276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/Normal/18_Shadow_bolt2.png
+  artifactKey: Guid(51344b2bc53746849a4e7afc0d287273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/Normal/18_Shadow_bolt2.png using Guid(51344b2bc53746849a4e7afc0d287273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a7b0a81e07fbe4dd2866ee867776828') in 0.020195 seconds
+  Import took 0.030303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Standart/16_shadow_swords.png
+  artifactKey: Guid(f18ff14f35910bc4cbe068e202df2009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Standart/16_shadow_swords.png using Guid(f18ff14f35910bc4cbe068e202df2009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49dec8df113bc19d50b220e53493f803') in 0.019371 seconds
+  Import took 0.029674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Nobg/11_summon_devil_nobg.png
+  artifactKey: Guid(ec9aeea161d5fbd4d9a10475126bdc20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Nobg/11_summon_devil_nobg.png using Guid(ec9aeea161d5fbd4d9a10475126bdc20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '034dfd7e973b3c49ee9cdc82ba353684') in 0.020180 seconds
+  Import took 0.031000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/Normal/13_frost_arrow.png
+  artifactKey: Guid(505794cdfc7887a469abcb7612f72de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/Normal/13_frost_arrow.png using Guid(505794cdfc7887a469abcb7612f72de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05f970cccb90874354ae708b27372589') in 0.019682 seconds
+  Import took 0.030232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Standart/11_summon_devil.png
+  artifactKey: Guid(8756e546668909143b1796a517cc9980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Standart/11_summon_devil.png using Guid(8756e546668909143b1796a517cc9980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70c74e96548867ebbf149792e3f64063') in 0.015706 seconds
+  Import took 0.026144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Nobg/16_summon_brutal_army_nobg.png
+  artifactKey: Guid(e1f8a9779fffdff40935bdbcd5c49092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Nobg/16_summon_brutal_army_nobg.png using Guid(e1f8a9779fffdff40935bdbcd5c49092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4edeb60af2201cfca164f19dbba0832') in 0.019904 seconds
+  Import took 0.030503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Standart/13_summon_raven.png
+  artifactKey: Guid(d002ddcf72e4c8a49b04790581266086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Standart/13_summon_raven.png using Guid(d002ddcf72e4c8a49b04790581266086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6d564b5b08f749bae9caa3b67e75f9e') in 0.019795 seconds
+  Import took 0.030645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Nobg/13_summon_raven_nobg.png
+  artifactKey: Guid(c8d99bdd74ca3894ea2e6f5ab1738bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Nobg/13_summon_raven_nobg.png using Guid(c8d99bdd74ca3894ea2e6f5ab1738bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41500abfba277615e90f64fd3b8ece48') in 0.018833 seconds
+  Import took 0.029495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/No_bg/16_blizzard_nobg.png
+  artifactKey: Guid(ccf384ea5872b5b4e8718389f34c5c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/No_bg/16_blizzard_nobg.png using Guid(ccf384ea5872b5b4e8718389f34c5c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08e0ad3aeca5d98c4a3a4b83e80e0442') in 0.020587 seconds
+  Import took 0.030829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Standart/19_shield.png
+  artifactKey: Guid(52fd4998143e27d4e9f8c531f28637a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Standart/19_shield.png using Guid(52fd4998143e27d4e9f8c531f28637a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da1935ba8cc3269c61ef23bc8c1bddbd') in 0.019835 seconds
+  Import took 0.030119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Nobg/19_shield_nobg.png
+  artifactKey: Guid(a74b7cd062280244ea3f3d02cc4a5e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Nobg/19_shield_nobg.png using Guid(a74b7cd062280244ea3f3d02cc4a5e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aa7b6c9dbfabfcbd2650c06c7bb1a2a') in 0.018899 seconds
+  Import took 0.029271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Standart/20_shadowKnight.png
+  artifactKey: Guid(d1fdd4fc953798849a43fea18ca9ea1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Standart/20_shadowKnight.png using Guid(d1fdd4fc953798849a43fea18ca9ea1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56cc2abe57aeddf8c49cbfcc42ca0c53') in 0.018695 seconds
+  Import took 0.029100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Nobg/16_shadow_swords_nobg.png
+  artifactKey: Guid(94676ffdf5f1998418ec339ff3eac0fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Nobg/16_shadow_swords_nobg.png using Guid(94676ffdf5f1998418ec339ff3eac0fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36570794b706e7e4df96efc3e1b5f332') in 0.020048 seconds
+  Import took 0.030735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Standart/18_moon.png
+  artifactKey: Guid(501e5de203ccf46409a557c3bb33f11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Standart/18_moon.png using Guid(501e5de203ccf46409a557c3bb33f11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17c2c236e6a577d2de2155f446416541') in 0.018363 seconds
+  Import took 0.028617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Standart/18_shield.png
+  artifactKey: Guid(be799a76bb4970641b49bb5feefa2a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Standart/18_shield.png using Guid(be799a76bb4970641b49bb5feefa2a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97884fd6b8df40c14f9957bf69853cff') in 0.018492 seconds
+  Import took 0.029011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Nobg/15_summon_shadow_wolf_nobg.png
+  artifactKey: Guid(b5957598d01fee149bb3594eaf3f7a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Nobg/15_summon_shadow_wolf_nobg.png using Guid(b5957598d01fee149bb3594eaf3f7a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7024d5879064a3a709880ee22d99d6d8') in 0.019320 seconds
+  Import took 0.029829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Nobg/13_dead_shadow_nobg.png
+  artifactKey: Guid(b48f89a8672854448bccb9adf23e3dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Nobg/13_dead_shadow_nobg.png using Guid(b48f89a8672854448bccb9adf23e3dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21abea4f9560423c9ea652f02a8d8bc9') in 0.018710 seconds
+  Import took 0.028808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/Normal/17_Shadow_bolt.png
+  artifactKey: Guid(ba263eaf603942e47a0372407a11ec05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/Normal/17_Shadow_bolt.png using Guid(ba263eaf603942e47a0372407a11ec05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9878e640984812cee75b57d6fc61ca67') in 0.019919 seconds
+  Import took 0.030136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/Normal/21_Light_arrow.png
+  artifactKey: Guid(0721f98908a57ee42ba6d21434af501e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/Normal/21_Light_arrow.png using Guid(0721f98908a57ee42ba6d21434af501e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ae3857a25ea9b860ec245feb2d03773') in 0.019147 seconds
+  Import took 0.029416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Nobg/14_summon_dogs_nobg.png
+  artifactKey: Guid(c00aa3c4d6c6ee142a61901e3abfc2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Nobg/14_summon_dogs_nobg.png using Guid(c00aa3c4d6c6ee142a61901e3abfc2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27a36eb61765a0fabe661c0ad850d68d') in 0.019499 seconds
+  Import took 0.029809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Nobg/19_gutting_nobg.png
+  artifactKey: Guid(c42667532fb85774c86b95b583b9b438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Nobg/19_gutting_nobg.png using Guid(c42667532fb85774c86b95b583b9b438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '323fb05aba242bc25ccef49bd1f2aaa5') in 0.020476 seconds
+  Import took 0.030375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/Normal/19_Shadow_bomb.png
+  artifactKey: Guid(3cbea0f47b0522642a879ab1302727a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/Normal/19_Shadow_bomb.png using Guid(3cbea0f47b0522642a879ab1302727a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a38d1d50e495e7e5ec22e0a77fb0335') in 0.019402 seconds
+  Import took 0.029594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/No_bg/14_Big_frost_arrow_nobg.png
+  artifactKey: Guid(17e6526fee007754f8aed1cd60b4573c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/No_bg/14_Big_frost_arrow_nobg.png using Guid(17e6526fee007754f8aed1cd60b4573c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ba12e33848dbf4bedb2473cc768e9a6') in 0.019278 seconds
+  Import took 0.029633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/Normal/20_Shadow_rain.png
+  artifactKey: Guid(7560b4a9adad79c4cb43edb0a396e516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/Normal/20_Shadow_rain.png using Guid(7560b4a9adad79c4cb43edb0a396e516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3712cfae3edbb7c6b89155bb9197292') in 0.019752 seconds
+  Import took 0.030261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/No_bg/12_Magic_rain_nobg.png
+  artifactKey: Guid(696da1a20f29e4b488c6420a20f592a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/No_bg/12_Magic_rain_nobg.png using Guid(696da1a20f29e4b488c6420a20f592a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31292a33d837dec39bbb2712afef73b8') in 0.021150 seconds
+  Import took 0.031157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Nobg/14_phoenix_nobg.png
+  artifactKey: Guid(7352d1425febb1945ad31a2d55753c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Nobg/14_phoenix_nobg.png using Guid(7352d1425febb1945ad31a2d55753c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae06daab8216404ea5f802fad7b54ad') in 0.018171 seconds
+  Import took 0.028614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Nobg/18_moon_nobg.png
+  artifactKey: Guid(b6426f4ae8773ce438fba4d076c4e17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Nobg/18_moon_nobg.png using Guid(b6426f4ae8773ce438fba4d076c4e17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6799d7ff2eca845335ec51462ec589a6') in 0.018625 seconds
+  Import took 0.029143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Standart/19_gutting.png
+  artifactKey: Guid(e23a8fd80e22c8343b49c0105afa263d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Standart/19_gutting.png using Guid(e23a8fd80e22c8343b49c0105afa263d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb23023919addf39265638bb4727e9e') in 0.017136 seconds
+  Import took 0.027325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/Normal/15_Ice_block.png
+  artifactKey: Guid(06f663f616d357b4f9dd3ed7fd343f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/Normal/15_Ice_block.png using Guid(06f663f616d357b4f9dd3ed7fd343f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '877c46b85d4f62ec893cce8a9eae9dfd') in 0.016811 seconds
+  Import took 0.025958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/Normal/16_blizzard.png
+  artifactKey: Guid(ad43e6de9b17b5e43a332e79d3dcd9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/Normal/16_blizzard.png using Guid(ad43e6de9b17b5e43a332e79d3dcd9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0f0b2c8c96eae65b53376889507ad8b') in 0.017034 seconds
+  Import took 0.026112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Nobg/20_shadowKnight_nobg.png
+  artifactKey: Guid(f56555a6fd8c1ad4096be7295205e062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Nobg/20_shadowKnight_nobg.png using Guid(f56555a6fd8c1ad4096be7295205e062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c389a77006ed4c37e0a6268f243b8e84') in 0.018013 seconds
+  Import took 0.027212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Standart/14_phoenix.png
+  artifactKey: Guid(1a9a5641b34b4624189d1dc0a2b9f6df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Standart/14_phoenix.png using Guid(1a9a5641b34b4624189d1dc0a2b9f6df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea7f896e0e1b63c549d47a07fe511bab') in 0.018244 seconds
+  Import took 0.028731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/No_bg/17_shadow_bolt_nobg.png
+  artifactKey: Guid(bc97a92a17a63254c8aff8ea11519a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/No_bg/17_shadow_bolt_nobg.png using Guid(bc97a92a17a63254c8aff8ea11519a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b576088983462a3170fd1fc32044caf0') in 0.020110 seconds
+  Import took 0.030223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Standart/12_summon_imp_army.png
+  artifactKey: Guid(d04943badd6cdb142b987cfbf70086df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Standart/12_summon_imp_army.png using Guid(d04943badd6cdb142b987cfbf70086df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2472b231bdd32ed93655279dadc34de') in 0.020378 seconds
+  Import took 0.030889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/Normal/14_big_frost_arrow.png
+  artifactKey: Guid(f2fe6d6ac783e89429ca04cf122ee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/Normal/14_big_frost_arrow.png using Guid(f2fe6d6ac783e89429ca04cf122ee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e848428cad625849c6c394b43f04325') in 0.018663 seconds
+  Import took 0.028980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/No_bg/19_shadow_bomb_nobg.png
+  artifactKey: Guid(7ee83e56fd3df524fba27c66e10d6a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/No_bg/19_shadow_bomb_nobg.png using Guid(7ee83e56fd3df524fba27c66e10d6a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ef0c2ee40b82d08278ae4d28fb1a3ae') in 0.019972 seconds
+  Import took 0.030240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Standart/17_venom.png
+  artifactKey: Guid(91d957216ba95da4d9379056606ede7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Standart/17_venom.png using Guid(91d957216ba95da4d9379056606ede7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '693debae7deb8b318093f7485b5beef6') in 0.019646 seconds
+  Import took 0.029863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/No_bg/21_Light_arrow_nobg.png
+  artifactKey: Guid(b083fd7ede130fe49b14ca3fa10af39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/No_bg/21_Light_arrow_nobg.png using Guid(b083fd7ede130fe49b14ca3fa10af39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0bfd71c371b841ebc981d2f808bc54a') in 0.018985 seconds
+  Import took 0.028921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Standart/17_shield.png
+  artifactKey: Guid(b31fd4ad67518ed4bb258170e90447ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Standart/17_shield.png using Guid(b31fd4ad67518ed4bb258170e90447ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c801e041ab0a2369d17ed86324898f') in 0.018657 seconds
+  Import took 0.028760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Standart/12_disarmament.png
+  artifactKey: Guid(730b0beae2f75034ea6c71a5ad6bc1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Bonus_skills/Standart/12_disarmament.png using Guid(730b0beae2f75034ea6c71a5ad6bc1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50596ac64d3d392b1c2051b2e5f6270f') in 0.019024 seconds
+  Import took 0.029436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/Normal/12_magic_rain.png
+  artifactKey: Guid(8c8d8adc1b74d9d47b9b721b457de963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/Normal/12_magic_rain.png using Guid(8c8d8adc1b74d9d47b9b721b457de963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a9f991598d5ed1da29503fd8ea27153') in 0.020679 seconds
+  Import took 0.031047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Standart/21_axe.png
+  artifactKey: Guid(e33682279d1d2114a96dda89e753e8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Standart/21_axe.png using Guid(e33682279d1d2114a96dda89e753e8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33a36ba92818b4b1b00b74cebf54d0c3') in 0.018778 seconds
+  Import took 0.029004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Nobg/12_summon_imp_army_nobg.png
+  artifactKey: Guid(9d395dcb07de9ec43b69884fdcebfc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Nobg/12_summon_imp_army_nobg.png using Guid(9d395dcb07de9ec43b69884fdcebfc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9721438691e2a150b7f5e972cbee713f') in 0.019653 seconds
+  Import took 0.030024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Standart/14_summon_dogs.png
+  artifactKey: Guid(ee7f890de864731438f664e3ec73c532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Standart/14_summon_dogs.png using Guid(ee7f890de864731438f664e3ec73c532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8499d10423941d1c20376cb318ea42b4') in 0.019475 seconds
+  Import took 0.029969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/No_bg/13_Frost_arrow_nobg.png
+  artifactKey: Guid(4a9c2582f3fec7c40bb7d86a3dd7621a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skillicons/BonusIcons/Basic_Spells/No_bg/13_Frost_arrow_nobg.png using Guid(4a9c2582f3fec7c40bb7d86a3dd7621a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bacf5797efae59aecf96a1a06dc234d1') in 0.018759 seconds
+  Import took 0.029135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Nobg/17_shield_nobg.png
+  artifactKey: Guid(f35a7fab8b3a6e247a17c256610f98ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/500_skill_icons/Bonus/Skills_upgrates/Nobg/17_shield_nobg.png using Guid(f35a7fab8b3a6e247a17c256610f98ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8972f8318944679616449763e4d6a55') in 0.018389 seconds
+  Import took 0.028813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.814291 seconds.
+  path: Assets/Project/Input
+  artifactKey: Guid(e25f23f620484b1458eb321bdff64fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Input using Guid(e25f23f620484b1458eb321bdff64fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0890b0d0b56f849ea9db74e552cf43de') in 0.006748 seconds
+  Import took 0.017144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.349715 seconds.
+  path: Assets/Project/Input/Game.inputactions
+  artifactKey: Guid(dd392eac7536ed74998bbd665db77e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Input/Game.inputactions using Guid(dd392eac7536ed74998bbd665db77e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb43dcaf5cbce3dcfbb37a6a77493e25') in 0.010643 seconds
+  Import took 0.021164 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
