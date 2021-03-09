@@ -1,5 +1,6 @@
 ﻿using System;
 using Unity.Entities;
+using Unity.Kinematica;
 using UnityEngine.Serialization;
 
 namespace Tech.ECS
@@ -12,6 +13,5 @@ namespace Tech.ECS
         public int skillIndex;
         public Ulid ulid;
         public bool enabled;
-
     }
 }

@@ -1,4 +1,5 @@
 ﻿using Tech.Animation;
+using UniRx;
 using Unity.Burst;
 using Unity.Entities;
 using Unity.Jobs;
@@ -56,29 +57,9 @@ namespace Tech.ECS
         }
     }
 
-
     [BurstCompile(FloatPrecision.Low, FloatMode.Fast, CompileSynchronously = false, Debug = false)]
-    public sealed class AnimationSystem : ComponentSystem
+    public sealed class AnimationSystem : SystemBase
     {
-        protected override void OnStartRunning()
-        {
-            Entities
-                .WithAll<Kinematica>()
-                .ForEach((Entity entity,
-                    Kinematica kinematica,
-                    ref UnitRuntime unitRuntime) =>
-                {
-                    ref var motionSynthesizer = ref kinematica.Synthesizer.Ref;
-
-                    motionSynthesizer
-                        .Root
-                        .Action()
-                        .PlayFirstSequence(motionSynthesizer
-                            .Query
-                            .Where(Locomotion.Default)
-                            .And(Idle.Default));
-                });
-        }
 
         protected override void OnUpdate()
         {
@@ -88,7 +69,6 @@ namespace Tech.ECS
                     Kinematica kinematica,
                     ref UnitRuntime unitRuntime) =>
                 {
-                    //Something happens
                     if (unitRuntime.enabled && unitRuntime.skillIndex > 0)
                     {
                         var job = new KinematicaSoloJob
@@ -101,7 +81,9 @@ namespace Tech.ECS
 
                         unitRuntime.skillIndex = 0;
                     }
-                });
+                })
+                .WithoutBurst()
+                .Run();
         }
     }
 }

@@ -15,10 +15,6 @@ namespace Tech.Core
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterAssembliesLoaded)]
         static void SetUp()
         {
-            IAdaptivePerformanceSettings setting =
-                AdaptivePerformanceGeneralSettings.Instance.Manager.activeLoader.GetSettings();
-
-            setting.logging = true;
         }
 
     }

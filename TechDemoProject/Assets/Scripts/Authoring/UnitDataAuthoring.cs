@@ -1,14 +1,11 @@
 ﻿using System;
-using Cysharp.Threading.Tasks;
-using Tech.Core;
+using Tech.Animation;
 using Tech.Data;
-using Tech.DB;
 using Tech.Utility;
 using UniRx;
 using Unity.Entities;
+using Unity.Kinematica;
 using UnityEngine;
-using ILogger = Microsoft.Extensions.Logging.ILogger;
-using Unit = Tech.DB.Unit;
 
 namespace Tech.ECS
 {
@@ -16,23 +13,41 @@ namespace Tech.ECS
     [RequiresEntityConversion]
     public sealed class UnitDataAuthoring : MonoBehaviour, IConvertGameObjectToEntity
     {
+        //TODO might make UnitData a scriptableObject to make it more ergonomic
         [SerializeField] private UnitData unitData;
         internal UnitData UnitData => unitData;
 
+        private Kinematica _kinematica;
+
         void Awake()
         {
+            _kinematica = gameObject.GetComponent<Kinematica>();
             unitData.id = Ulid.NewUlid(DateTimeOffset.Now);
+
+            PlayIdleAnimation();
+        }
+
+        private void PlayIdleAnimation()
+        {
+            ref var motionSynthesizer = ref _kinematica.Synthesizer.Ref;
+
+            motionSynthesizer
+                .Root
+                .Action()
+                .PlayFirstSequence(motionSynthesizer
+                    .Query
+                    .Where(Locomotion.Default)
+                    .And(Idle.Default));
         }
 
         public void Convert(Entity entity, EntityManager dstManager, GameObjectConversionSystem conversionSystem)
         {
-            //ECS/DOTS goes here
             dstManager.AddComponents(entity,
                 new ComponentTypes(ComponentType.ReadWrite<UnitRuntime>()));
 
             MessageBroker
                 .Default
-                .Receive<(Unit, Skill)>() //current unit, desired skill
+                .Receive<(DB.Unit, DB.Skill)>() //current unit, desired skill
                 .Subscribe(valueTuple =>
                 {
                     var enable = TechUtility.UnRegisterUlid(valueTuple.Item1.Id)

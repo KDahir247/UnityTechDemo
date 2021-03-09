@@ -9,502 +9,461 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6abb102-7c44-48ea-adde-dc287c5cfed8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Adaptive Performance.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Adaptive Performance/Provider.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Adaptive Performance/Provider/Samsung Android Provider Loader.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Adaptive Performance/Provider/Samsung Android Provider Loader.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Adaptive Performance/Settings.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Adaptive Performance/Settings/Samsung Android Provider Settings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Adaptive Performance/Settings/Samsung Android Provider Settings.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Log/EditorLog132596568000000000.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Log/EditorLog132596568000000000.log.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Resources/user-data.bytes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Resources/user-data.bytes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Core/PerformanceSetting/AdaptivePerformanceConfig.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Core/PerformanceSetting/AdaptivePerformanceConfig.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Core/PerformanceSetting/AdaptiveSetting.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Core/PerformanceSetting/AdaptiveSetting.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Database/Common.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Database/Common/StarterCharacterStore.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Database/Common/StarterCharacterStore.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TechDemoProject/Logs/AssetImportWorker1-prev.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Adaptive Performance.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Adaptive Performance/AdaptivePerformanceGeneralSettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Adaptive Performance/AdaptivePerformanceGeneralSettings.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Adaptive Performance/Provider.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Adaptive Performance/Provider/Samsung Android Provider Loader.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Adaptive Performance/Provider/Samsung Android Provider Loader.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Adaptive Performance/Provider/Simulator Provider Loader.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Adaptive Performance/Provider/Simulator Provider Loader.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Adaptive Performance/Settings.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Adaptive Performance/Settings/Samsung Android Provider Settings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Adaptive Performance/Settings/Samsung Android Provider Settings.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Adaptive Performance/Settings/Simulator Provider Settings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Adaptive Performance/Settings/Simulator Provider Settings.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Adaptive Batching Sample.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Adaptive Batching Sample/.sample.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Adaptive Batching Sample/AdaptiveBatching.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Adaptive Batching Sample/AdaptiveBatching.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Adaptive Framerate Sample.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Adaptive Framerate Sample/.sample.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Adaptive Framerate Sample/AdaptiveFrameRateSettings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Adaptive Framerate Sample/AdaptiveFrameRateSettings.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Adaptive Framerate Sample/AdaptiveFramerate.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Adaptive Framerate Sample/AdaptiveFramerate.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Adaptive LOD Sample.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Adaptive LOD Sample/.sample.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Adaptive LOD Sample/AdaptiveLOD.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Adaptive LOD Sample/AdaptiveLOD.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Adaptive LOD Sample/LODControl.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Adaptive LOD Sample/LODControl.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Adaptive LUT Sample.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Adaptive LUT Sample/.sample.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Adaptive LUT Sample/AdaptiveLUT.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Adaptive LUT Sample/AdaptiveLUT.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Adaptive MSAA Sample.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Adaptive MSAA Sample/.sample.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Adaptive MSAA Sample/AdaptiveMSAA.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Adaptive MSAA Sample/AdaptiveMSAA.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Adaptive Resolution Sample.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Adaptive Resolution Sample/.sample.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Adaptive Resolution Sample/AdaptiveResolution.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Adaptive Resolution Sample/AdaptiveResolution.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Adaptive Resolution Sample/OverdrawControl.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Adaptive Resolution Sample/OverdrawControl.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Adaptive Shadow Sample.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Adaptive Shadow Sample/.sample.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Adaptive Shadow Sample/AdaptiveShadow.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Adaptive Shadow Sample/AdaptiveShadow.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Adaptive Sorting Sample.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Adaptive Sorting Sample/.sample.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Adaptive Sorting Sample/AdaptiveSorting.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Adaptive Sorting Sample/AdaptiveSorting.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Automatic Performance Control Sample.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Automatic Performance Control Sample/.sample.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Automatic Performance Control Sample/AutomaticPerformanceControl.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Automatic Performance Control Sample/AutomaticPerformanceControl.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Bottleneck Sample.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Bottleneck Sample/.sample.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Bottleneck Sample/BeeScript.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Bottleneck Sample/BeeScript.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Bottleneck Sample/Bottleneck.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Bottleneck Sample/Bottleneck.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Bottleneck Sample/BottleneckControl.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Bottleneck Sample/BottleneckControl.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Bottleneck Sample/BottleneckUI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Bottleneck Sample/BottleneckUI.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Bottleneck Sample/BottleneckVisualization.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Bottleneck Sample/BottleneckVisualization.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Bottleneck Sample/CPULoad_Bee.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Bottleneck Sample/CPULoad_Bee.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Bottleneck Sample/GPULoad_Particles.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Bottleneck Sample/GPULoad_Particles.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Bottleneck Sample/Gridbox.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Bottleneck Sample/Gridbox.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Bottleneck Sample/Transparent_Mat 2.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Bottleneck Sample/Transparent_Mat 2.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Bottleneck Sample/Transparent_Mat.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Bottleneck Sample/Transparent_Mat.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Bottleneck Sample/Walls.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Bottleneck Sample/Walls.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/.sample.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Animations.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Animations/HighLevelCam.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Animations/HighLevelCam.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Animations/HighLevelLoop.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Animations/HighLevelLoop.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Animations/Loop_Position.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Animations/Loop_Position.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Animations/MidLevelCam.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Animations/MidLevelCam.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Animations/MidLevelLoop.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Animations/MidLevelLoop.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/AutoPerfControl.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/AutoPerfControl.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/AutoPerfControl.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/AutoPerfControl.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/AutoPerfUI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/AutoPerfUI.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/AutoPerfUI.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/AutoPerfUI.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Blockwall.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Blockwall/BigTriangleObject.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Blockwall/BigTriangleObject.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Blockwall/ObjectSpawner.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Blockwall/ObjectSpawner.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Blockwall/ObjectSpawner.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Blockwall/ObjectSpawner.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Editor.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Editor/TestSequenceEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Editor/TestSequenceEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Floor.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Floor/Floor.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Floor/Floor.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Floor/Floor.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Floor/Floor.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Floor/GridBox_NewTex_Albedo.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Floor/GridBox_NewTex_Albedo.tga.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Floor/Grid_Grey_Mat.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Floor/Grid_Grey_Mat.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/HighLevelLoadManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/HighLevelLoadManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/LoadLevel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/LoadLevel.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/MidLevelLoadManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/MidLevelLoadManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Rocks.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Rocks/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Rocks/Materials/GlowingOrb.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Rocks/Materials/GlowingOrb.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Rocks/Materials/RockFloating02_Mat.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Rocks/Materials/RockFloating02_Mat.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Rocks/Materials/RockFloating04_Mat.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Rocks/Materials/RockFloating04_Mat.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Rocks/Models.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Rocks/Models/RockFloating02.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Rocks/Models/RockFloating02.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Rocks/Models/RockFloating04.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Rocks/Models/RockFloating04.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Rocks/RockFloating02.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Rocks/RockFloating02.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Rocks/RockFloating04.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Rocks/RockFloating04.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Rocks/RockWithVegetation.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Rocks/RockWithVegetation.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Rocks/RockWithVegetationNotSpinning.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Rocks/RockWithVegetationNotSpinning.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Rocks/Textures.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Rocks/Textures/RockFloating02_Albedo.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Rocks/Textures/RockFloating02_Albedo.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Rocks/Textures/RockFloating02_MetallicSmooth.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Rocks/Textures/RockFloating02_MetallicSmooth.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Rocks/Textures/RockFloating02_Normal.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Rocks/Textures/RockFloating02_Normal.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Rocks/Textures/RockFloating02_Occlusion.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Rocks/Textures/RockFloating02_Occlusion.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Rocks/Textures/RockFloating04_Albedo.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Rocks/Textures/RockFloating04_Albedo.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Rocks/Textures/RockFloating04_MetallicSmooth.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Rocks/Textures/RockFloating04_MetallicSmooth.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Rocks/Textures/RockFloating04_Normals.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Rocks/Textures/RockFloating04_Normals.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Rocks/Textures/RockFloating04_Occlusion.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Rocks/Textures/RockFloating04_Occlusion.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/SampleFactory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/SampleFactory.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Scaler.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Scaler/IndexerVisualisation.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Scaler/IndexerVisualisation.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Scaler/Scaler Representation.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Scaler/Scaler Representation.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Scaler/Scaler Visualization.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Scaler/Scaler Visualization.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Scaler/ScalerVisualisation.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Scaler/ScalerVisualisation.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Settings.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Settings/AdaptivePerformanceSettings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Settings/AdaptivePerformanceSettings.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Settings/AdaptivePerformanceSettings.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Settings/AdaptivePerformanceSettings.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/ShowFPS.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/ShowFPS.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/SpinLoad.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/SpinLoad.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/TestScreen.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/TestScreen.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/TestScreen_square.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/TestScreen_square.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/TestSequence.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/TestSequence.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/TestSequencer.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/TestSequencer.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/URP Settings.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/URP Settings/APSamplesForwardRenderer.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/URP Settings/APSamplesForwardRenderer.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/URP Settings/APSamplesHighQuality.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/URP Settings/APSamplesHighQuality.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/URP Settings/Global Volume Profile LUT.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/URP Settings/Global Volume Profile LUT.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Vegetation.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Vegetation/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Vegetation/Materials/VegetationLarge03_Mat.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Vegetation/Materials/VegetationLarge03_Mat.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Vegetation/Materials/VegetationMedium01_Mat.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Vegetation/Materials/VegetationMedium01_Mat.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Vegetation/Models.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Vegetation/Models/VegetationLarge03.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Vegetation/Models/VegetationLarge03.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Vegetation/Models/VegetationMedium01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Vegetation/Models/VegetationMedium01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Vegetation/SporesLarge.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Vegetation/SporesLarge.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Vegetation/SporesMedium.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Vegetation/SporesMedium.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Vegetation/Textures.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Vegetation/Textures/VegetationLarge03_Albedo.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Vegetation/Textures/VegetationLarge03_Albedo.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Vegetation/Textures/VegetationLarge03_MetallicSmooth.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Vegetation/Textures/VegetationLarge03_MetallicSmooth.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Vegetation/Textures/VegetationLarge03_Normals.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Vegetation/Textures/VegetationLarge03_Normals.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Vegetation/Textures/VegetationLarge03_Occlusion.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Vegetation/Textures/VegetationLarge03_Occlusion.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Vegetation/Textures/VegetationMedium01_Albedo.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Vegetation/Textures/VegetationMedium01_Albedo.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Vegetation/Textures/VegetationMedium01_Emission.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Vegetation/Textures/VegetationMedium01_Emission.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Vegetation/Textures/VegetationMedium01_MetallicSmooth.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Vegetation/Textures/VegetationMedium01_MetallicSmooth.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Vegetation/Textures/VegetationMedium01_Normals.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Vegetation/Textures/VegetationMedium01_Normals.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Vegetation/Textures/VegetationMedium01_Occlusion.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Vegetation/Textures/VegetationMedium01_Occlusion.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Vegetation/VegetationLarge03.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Vegetation/VegetationLarge03.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Vegetation/VegetationMedium01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/Vegetation/VegetationMedium01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/blue.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/blue.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/gray.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/gray.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/green.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/green.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/red.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Sample Environment/red.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Thermal Sample.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Thermal Sample/.sample.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Thermal Sample/Thermal.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Thermal Sample/Thermal.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Thermal Sample/ThermalControl.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Thermal Sample/ThermalControl.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Thermal Sample/ThermalVisualisation.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Thermal Sample/ThermalVisualisation.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Thermal Sample/ThermalVisualisation.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/Thermal Sample/ThermalVisualisation.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/VRR Sample.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/VRR Sample/.sample.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/VRR Sample/Move.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/VRR Sample/Move.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/VRR Sample/VariableRefreshRate.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/VRR Sample/VariableRefreshRate.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/VRR Sample/VariableRefreshRateControl.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Adaptive Performance/2.0.2/VRR Sample/VariableRefreshRateControl.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/.sample.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Demo.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Demo/BuyInventoryItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Demo/BuyInventoryItem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Demo/Data.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Demo/Data/CookieData.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Demo/Data/CookieData.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Demo/Data/CupcakeData.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Demo/Data/CupcakeData.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Demo/Demo.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Demo/Demo.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Demo/GameController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Demo/GameController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Demo/InventoryItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Demo/InventoryItem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Demo/InventoryItemData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Demo/InventoryItemData.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Demo/NewsFeedReader.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Demo/NewsFeedReader.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Demo/NotificationConsole.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Demo/NotificationConsole.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Demo/NotificationEventItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Demo/NotificationEventItem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Demo/PendingNotificationItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Demo/PendingNotificationItem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Demo/Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Demo/Prefabs/BuyItem.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Demo/Prefabs/BuyItem.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Demo/Prefabs/Console.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Demo/Prefabs/Console.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Demo/Prefabs/Event.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Demo/Prefabs/Event.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Demo/Prefabs/GameController.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Demo/Prefabs/GameController.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Demo/Prefabs/GameUI.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Demo/Prefabs/GameUI.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Demo/Prefabs/InventoryItem.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Demo/Prefabs/InventoryItem.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Demo/Prefabs/Notification.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Demo/Prefabs/Notification.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Demo/Sprites.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Demo/Sprites/cookie.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Demo/Sprites/cookie.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Demo/Sprites/cupcake.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Demo/Sprites/cupcake.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Demo/Sprites/heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Demo/Sprites/heart.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Demo/Sprites/newsloadingicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Demo/Sprites/newsloadingicon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Demo/Sprites/progressbar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Demo/Sprites/progressbar.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Editor.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/License.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/License.md.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/README.md.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Scripts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Scripts/Android.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Scripts/Android/AndroidGameNotification.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Scripts/Android/AndroidGameNotification.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Scripts/Android/AndroidNotificationCenterExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Scripts/Android/AndroidNotificationCenterExtensions.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Scripts/Android/AndroidNotificationsPlatform.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Scripts/Android/AndroidNotificationsPlatform.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Scripts/Android/Plugins.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Scripts/Android/Plugins/com.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Scripts/Android/Plugins/com/unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Scripts/Android/Plugins/com/unity/androidnotifications.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Scripts/Android/Plugins/com/unity/androidnotifications/AndroidNotificationCenterExtensions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Scripts/Android/Plugins/com/unity/androidnotifications/AndroidNotificationCenterExtensions.java.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Scripts/Android/Plugins/com/unity/androidnotifications/AndroidNotificationCenterExtensionsOreo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Scripts/Android/Plugins/com/unity/androidnotifications/AndroidNotificationCenterExtensionsOreo.java.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Scripts/DefaultSerializer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Scripts/DefaultSerializer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Scripts/GameNotificationChannel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Scripts/GameNotificationChannel.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Scripts/GameNotificationsManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Scripts/GameNotificationsManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Scripts/IGameNotification.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Scripts/IGameNotification.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Scripts/IGameNotificationsPlatform.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Scripts/IGameNotificationsPlatform.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Scripts/IPendingNotificationsSerializer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Scripts/IPendingNotificationsSerializer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Scripts/PendingNotification.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Scripts/PendingNotification.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Scripts/iOS.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Scripts/iOS/iOSGameNotification.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Scripts/iOS/iOSGameNotification.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Scripts/iOS/iOSNotificationsPlatform.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/Scripts/iOS/iOSNotificationsPlatform.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Documentation.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Resources.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Resources/Fonts &amp; Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Resources/LineBreaking Following Characters.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Resources/Shaders.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Custom-Atlas.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Mobile.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Mobile.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Resources/Shaders/TMP_Bitmap.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Resources/Shaders/TMP_Bitmap.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Resources/Shaders/TMP_SDF Overlay.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Resources/Shaders/TMP_SDF Overlay.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Masking.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Masking.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Overlay.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Overlay.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface-Mobile.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface-Mobile.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Resources/Shaders/TMP_SDF.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Resources/Shaders/TMP_SDF.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Resources/Shaders/TMP_Sprite.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Resources/Shaders/TMP_Sprite.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Resources/Shaders/TMPro.cginc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Resources/Shaders/TMPro.cginc.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Resources/Shaders/TMPro_Properties.cginc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Resources/Shaders/TMPro_Properties.cginc.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Resources/Shaders/TMPro_Surface.cginc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Resources/Shaders/TMPro_Surface.cginc.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Resources/Sprite Assets.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Resources/Style Sheets.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Resources/TMP Settings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Resources/TMP Settings.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Sprites.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Sprites/EmojiOne Attribution.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Sprites/EmojiOne.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Sprites/EmojiOne.json.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Sprites/EmojiOne.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Mobile Notifications/1.3.2/Notification Samples/TextMesh Pro/Sprites/EmojiOne.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/NotificationsSettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/Unity.InputSystem.Recorder.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/.idea/.idea.TechDemoProject/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/.idea/.idea.TechDemoProject/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/AssetStore/JMO Assets/Cartoon FX/CFX3 Prefabs/Fire/CFX3_Flying_Ember_Upward.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/AssetStore/JMO Assets/Cartoon FX/CFX3 Prefabs/Fire/CFX3_Flying_Ember_Upward.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Log/EditorLog132595704000000000.log" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Log/EditorLog132595704000000000.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Resources/Dialogue/IntroDialogue.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Resources/Dialogue/IntroDialogue.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Adaptive Performance/AdaptivePerformanceGeneralSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Adaptive Performance/AdaptivePerformanceGeneralSettings.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Adaptive Performance/Provider/Simulator Provider Loader.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Adaptive Performance/Provider/Simulator Provider Loader.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Adaptive Performance/Settings/Simulator Provider Settings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Adaptive Performance/Settings/Simulator Provider Settings.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Log/EditorLog132597432000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Log/EditorLog132597432000000000.log.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TechDemoProject/ProjectSettings/NotificationsSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scenes/Subscene/New Sub Scene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scenes/Subscene/New Sub Scene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Biped Locomotion/.sample.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Biped Locomotion/Annotations/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Biped Locomotion/Annotations/Editor/IdleTag.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Biped Locomotion/Annotations/Editor/LocomotionTag.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Biped Locomotion/Annotations/Idle.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Biped Locomotion/Annotations/Locomotion.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Biped Locomotion/Biped.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Biped Locomotion/Biped.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Biped Locomotion/Biped.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Biped Locomotion/Biped.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Biped Locomotion/Biped.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Biped Locomotion/Biped.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Biped Locomotion/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Biped Locomotion/Readme.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Biped Locomotion/Supplementary.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Biped Locomotion/Supplementary/FollowCamera.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Biped Locomotion/Supplementary/FollowCamera.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/.sample.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Annotations.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Annotations/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Annotations/Editor/IdleTag.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Annotations/Editor/IdleTag.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Annotations/Editor/LocomotionTag.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Annotations/Editor/LocomotionTag.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Annotations/Idle.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Annotations/Idle.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Annotations/Locomotion.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Annotations/Locomotion.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Biped.debug.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Biped.debug.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Materials/ground.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Materials/ground.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Materials/target.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Materials/target.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Materials/wall.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Materials/wall.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Navigation.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Navigation.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Navigation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Navigation.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Navigation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Navigation.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Navigation.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Navigation/NavMesh.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Navigation/NavMesh.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Readme.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Snappy Locomotion.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Snappy Locomotion/.sample.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Snappy Locomotion/Annotations.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Snappy Locomotion/Annotations/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Snappy Locomotion/Annotations/Editor/IdleTag.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Snappy Locomotion/Annotations/Editor/IdleTag.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Snappy Locomotion/Annotations/Editor/LocomotionTag.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Snappy Locomotion/Annotations/Editor/LocomotionTag.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Snappy Locomotion/Annotations/Idle.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Snappy Locomotion/Annotations/Idle.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Snappy Locomotion/Annotations/Locomotion.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Snappy Locomotion/Annotations/Locomotion.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Snappy Locomotion/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Snappy Locomotion/Readme.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Snappy Locomotion/SnappyLocomotion.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Snappy Locomotion/SnappyLocomotion.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Snappy Locomotion/SnappyLocomotion.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Snappy Locomotion/SnappyLocomotion.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Snappy Locomotion/SnappyLocomotion.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Snappy Locomotion/SnappyLocomotion.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SceneDependencyCache.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SceneDependencyCache/1d4476e2c934701598679f967ae19946.sceneWithBuildSettings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SceneDependencyCache/1d4476e2c934701598679f967ae19946.sceneWithBuildSettings.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/AssetStore/JMO Assets/Cartoon FX/Materials/Light/CFX3_GlowDot ADDSOFT.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/AssetStore/JMO Assets/Cartoon FX/Materials/Light/CFX3_GlowDot ADDSOFT.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Log/EditorLog132596568000000000.log" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Log/EditorLog132596568000000000.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Resources/unit-data.bytes" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Resources/unit-data.bytes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Resources/unit-data.bytes.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Resources/unit-data.bytes.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Resources/user-data.bytes" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Resources/user-data.bytes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Biped Locomotion.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Biped Locomotion/.sample.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Biped Locomotion/Annotations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Biped Locomotion/Annotations/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Biped Locomotion/Annotations/Editor/IdleTag.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Biped Locomotion/Annotations/Editor/IdleTag.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Biped Locomotion/Annotations/Editor/LocomotionTag.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Biped Locomotion/Annotations/Editor/LocomotionTag.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Biped Locomotion/Annotations/Idle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Biped Locomotion/Annotations/Idle.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Biped Locomotion/Annotations/Locomotion.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Biped Locomotion/Annotations/Locomotion.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Biped Locomotion/Biped.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Biped Locomotion/Biped.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Biped Locomotion/Biped.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Biped Locomotion/Biped.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Biped Locomotion/Biped.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Biped Locomotion/Biped.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Biped Locomotion/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Biped Locomotion/Readme.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Biped Locomotion/Supplementary.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Biped Locomotion/Supplementary/FollowCamera.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Biped Locomotion/Supplementary/FollowCamera.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/.sample.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/Annotations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/Annotations/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/Annotations/Editor/IdleTag.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/Annotations/Editor/IdleTag.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/Annotations/Editor/LocomotionTag.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/Annotations/Editor/LocomotionTag.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/Annotations/Idle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/Annotations/Idle.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/Annotations/Locomotion.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/Annotations/Locomotion.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/HelloWorld.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/HelloWorld.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/HelloWorld.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/HelloWorld.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/HelloWorld.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/HelloWorld.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/Readme.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/addIdleClip.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/addIdleClip.gif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/addMarker.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/addMarker.gif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/boundaryClipsView.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/boundaryClipsView.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/buildAsset.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/buildAsset.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/clickBuild.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/clickBuild.gif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/createAsset.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/createAsset.gif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/createAsset.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/createAsset.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/createMetric.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/createMetric.gif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/createTag.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/createTag.gif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/helloWorldAsset.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/helloWorldAsset.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/idleBoundary.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/idleBoundary.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/importSample.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/importSample.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/newMarker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/newMarker.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/openAssetBuilder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/openAssetBuilder.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/openKinematicaWindow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/openKinematicaWindow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/runTagCreation.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/runTagCreation.gif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/showHideTrack.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/showHideTrack.gif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/showTracks.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Hello World/showTracks.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Navigation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Navigation/.sample.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Annotations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Annotations/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Annotations/Editor/IdleTag.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Annotations/Editor/IdleTag.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Annotations/Editor/LocomotionTag.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Annotations/Editor/LocomotionTag.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Annotations/Idle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Annotations/Idle.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Annotations/Locomotion.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Annotations/Locomotion.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Biped.debug.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Biped.debug.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Materials/ground.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Materials/ground.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Materials/target.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Materials/target.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Materials/wall.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Materials/wall.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Navigation.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Navigation.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Navigation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Navigation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Navigation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Navigation.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Navigation.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Navigation/NavMesh.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Navigation/NavMesh.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Readme.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/.sample.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/HalfSteps2Idle_PasingLongStepTOIdle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/HalfSteps2Idle_PasingLongStepTOIdle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/HalfSteps2Idle_PasingLongStepTOIdle_Right.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/HalfSteps2Idle_PasingLongStepTOIdle_Right.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/Idle2Run135L.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/Idle2Run135L.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/Idle2Run135R.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/Idle2Run135R.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/Idle2Run180L.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/Idle2Run180L.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/Idle2Run180R.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/Idle2Run180R.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/Idle2Run45L.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/Idle2Run45L.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/Idle2Run45R.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/Idle2Run45R.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/Idle2Run90L.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/Idle2Run90L.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/Idle2Run90R.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/Idle2Run90R.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/Idle2walk_AllAngles.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/Idle2walk_AllAngles.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/Idle2walk_AllAngles_Right.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/Idle2walk_AllAngles_Right.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/JogForwardTurnLeft_NtrlMedium.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/JogForwardTurnLeft_NtrlMedium.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/JogForwardTurnRight_NtrlMedium.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/JogForwardTurnRight_NtrlMedium.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/PlantNTurn135_Run_L.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/PlantNTurn135_Run_L.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/PlantNTurn135_Run_R.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/PlantNTurn135_Run_R.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/PlantNTurn180_Run_L_2.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/PlantNTurn180_Run_L_2.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/PlantNTurn180_Run_R_2.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/PlantNTurn180_Run_R_2.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/PlantNTurn90_Run_L.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/PlantNTurn90_Run_L.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/PlantNTurn90_Run_R.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/PlantNTurn90_Run_R.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/RunForwardStart.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/RunForwardStart.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/RunForwardTurnLeft_NtrlShort_2.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/RunForwardTurnLeft_NtrlShort_2.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/RunForwardTurnLeft_NtrlWide.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/RunForwardTurnLeft_NtrlWide.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/RunForwardTurnRight_NtrlShort_2.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/RunForwardTurnRight_NtrlShort_2.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/RunForwardTurnRight_NtrlWide 1.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/RunForwardTurnRight_NtrlWide 1.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/RunForwardTurnRight_NtrlWide.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/RunForwardTurnRight_NtrlWide.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/RunForward_NtrlFaceFwd.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/RunForward_NtrlFaceFwd.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/RunFwdStop.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/RunFwdStop.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/SmallStep.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/SmallStep.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Annotations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Annotations/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Annotations/Editor/IdleTag.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Annotations/Editor/IdleTag.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Annotations/Editor/LocomotionTag.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Annotations/Editor/LocomotionTag.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Annotations/Editor/LoopMarker.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Annotations/Editor/LoopMarker.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Annotations/Idle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Annotations/Idle.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Annotations/Locomotion.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Annotations/Locomotion.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Annotations/LoopTrait.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Annotations/LoopTrait.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Biped.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Biped.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/BipedShort.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/BipedShort.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/BipedShort.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/BipedShort.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Readme.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Supplementary.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Supplementary/FollowCamera.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Supplementary/FollowCamera.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Snappy Locomotion.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Snappy Locomotion/.sample.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Snappy Locomotion/Annotations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Snappy Locomotion/Annotations/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Snappy Locomotion/Annotations/Editor/IdleTag.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Snappy Locomotion/Annotations/Editor/IdleTag.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Snappy Locomotion/Annotations/Editor/LocomotionTag.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Snappy Locomotion/Annotations/Editor/LocomotionTag.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Snappy Locomotion/Annotations/Idle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Snappy Locomotion/Annotations/Idle.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Snappy Locomotion/Annotations/Locomotion.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Snappy Locomotion/Annotations/Locomotion.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Snappy Locomotion/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Snappy Locomotion/Readme.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Snappy Locomotion/SnappyLocomotion.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Snappy Locomotion/SnappyLocomotion.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Snappy Locomotion/SnappyLocomotion.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Snappy Locomotion/SnappyLocomotion.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Snappy Locomotion/SnappyLocomotion.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Snappy Locomotion/SnappyLocomotion.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Snapshot Debugger.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Snapshot Debugger/.sample.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Snapshot Debugger/Cube.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Snapshot Debugger/Cube.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Snapshot Debugger/Cube.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Snapshot Debugger/Cube.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Snapshot Debugger/Debugger.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Snapshot Debugger/Debugger.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Snapshot Debugger/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Snapshot Debugger/Readme.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Snapshot Debugger/Spawner.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/Kinematica/0.7.0-preview/Snapshot Debugger/Spawner.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/OptionsPanel.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/OptionsPanel/.sample.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/OptionsPanel/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/OptionsPanel/Editor/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/OptionsPanel/Editor/Resources/UI Builder.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/OptionsPanel/Editor/Resources/UI Builder/OptionsPanel.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/OptionsPanel/Editor/Resources/UI Builder/OptionsPanel/options_panel.uss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/OptionsPanel/Editor/Resources/UI Builder/OptionsPanel/options_panel.uss.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/OptionsPanel/Editor/Resources/UI Builder/OptionsPanel/options_panel_background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/OptionsPanel/Editor/Resources/UI Builder/OptionsPanel/options_panel_background.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/OptionsPanel/options_panel.uxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/OptionsPanel/options_panel.uxml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksGameScreen.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksGameScreen/.sample.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksGameScreen/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksGameScreen/Editor/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksGameScreen/Editor/Resources/UI Builder.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksGameScreen/Editor/Resources/UI Builder/TanksGameScreen.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksGameScreen/Editor/Resources/UI Builder/TanksGameScreen/Accuracy_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksGameScreen/Editor/Resources/UI Builder/TanksGameScreen/Accuracy_icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksGameScreen/Editor/Resources/UI Builder/TanksGameScreen/Kills_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksGameScreen/Editor/Resources/UI Builder/TanksGameScreen/Kills_icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksGameScreen/Editor/Resources/UI Builder/TanksGameScreen/OFL.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksGameScreen/Editor/Resources/UI Builder/TanksGameScreen/OFL.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksGameScreen/Editor/Resources/UI Builder/TanksGameScreen/Shots_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksGameScreen/Editor/Resources/UI Builder/TanksGameScreen/Shots_icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksGameScreen/Editor/Resources/UI Builder/TanksGameScreen/TanksGameScreen.uss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksGameScreen/Editor/Resources/UI Builder/TanksGameScreen/TanksGameScreen.uss.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksGameScreen/Editor/Resources/UI Builder/TanksGameScreen/TanksGameScreenStatsBox_USS.uss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksGameScreen/Editor/Resources/UI Builder/TanksGameScreen/TanksGameScreenStatsBox_USS.uss.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksGameScreen/Editor/Resources/UI Builder/TanksGameScreen/TanksGameScreenStatsBox_UXML.uxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksGameScreen/Editor/Resources/UI Builder/TanksGameScreen/TanksGameScreenStatsBox_UXML.uxml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksGameScreen/Editor/Resources/UI Builder/TanksGameScreen/Teko-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksGameScreen/Editor/Resources/UI Builder/TanksGameScreen/Teko-Regular.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksGameScreen/Editor/Resources/UI Builder/TanksGameScreen/quit_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksGameScreen/Editor/Resources/UI Builder/TanksGameScreen/quit_icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksGameScreen/Editor/Resources/UI Builder/TanksGameScreen/shoot_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksGameScreen/Editor/Resources/UI Builder/TanksGameScreen/shoot_icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksGameScreen/Editor/Resources/UI Builder/TanksGameScreen/speed_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksGameScreen/Editor/Resources/UI Builder/TanksGameScreen/speed_icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksGameScreen/Editor/Resources/UI Builder/TanksGameScreen/upgrade_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksGameScreen/Editor/Resources/UI Builder/TanksGameScreen/upgrade_icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksGameScreen/TanksGameScreen.uxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksGameScreen/TanksGameScreen.uxml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksMainMenu.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksMainMenu/.sample.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksMainMenu/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksMainMenu/Editor/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksMainMenu/Editor/Resources/UI Builder.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksMainMenu/Editor/Resources/UI Builder/TanksMainMenu.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksMainMenu/Editor/Resources/UI Builder/TanksMainMenu/Muzzle_flash_001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksMainMenu/Editor/Resources/UI Builder/TanksMainMenu/Muzzle_flash_001.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksMainMenu/Editor/Resources/UI Builder/TanksMainMenu/OFL.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksMainMenu/Editor/Resources/UI Builder/TanksMainMenu/OFL.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksMainMenu/Editor/Resources/UI Builder/TanksMainMenu/TanksMainMenu.uss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksMainMenu/Editor/Resources/UI Builder/TanksMainMenu/TanksMainMenu.uss.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksMainMenu/Editor/Resources/UI Builder/TanksMainMenu/Teko-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksMainMenu/Editor/Resources/UI Builder/TanksMainMenu/Teko-Regular.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksMainMenu/TanksMainMenu.uxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksMainMenu/TanksMainMenu.uxml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksPlayerListItem.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksPlayerListItem/.sample.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksPlayerListItem/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksPlayerListItem/Editor/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksPlayerListItem/Editor/Resources/UI Builder.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksPlayerListItem/Editor/Resources/UI Builder/TanksPlayerListItem.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksPlayerListItem/Editor/Resources/UI Builder/TanksPlayerListItem/Kills_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksPlayerListItem/Editor/Resources/UI Builder/TanksPlayerListItem/Kills_icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksPlayerListItem/Editor/Resources/UI Builder/TanksPlayerListItem/OFL.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksPlayerListItem/Editor/Resources/UI Builder/TanksPlayerListItem/OFL.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksPlayerListItem/Editor/Resources/UI Builder/TanksPlayerListItem/TanksPlayerListItem.uss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksPlayerListItem/Editor/Resources/UI Builder/TanksPlayerListItem/TanksPlayerListItem.uss.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksPlayerListItem/Editor/Resources/UI Builder/TanksPlayerListItem/Teko-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksPlayerListItem/Editor/Resources/UI Builder/TanksPlayerListItem/Teko-Regular.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksPlayerListItem/Editor/Resources/UI Builder/TanksPlayerListItem/tank_icon_base.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksPlayerListItem/Editor/Resources/UI Builder/TanksPlayerListItem/tank_icon_base.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksPlayerListItem/TanksPlayerListItem.uxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksPlayerListItem/TanksPlayerListItem.uxml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksStatsBox.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksStatsBox/.sample.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksStatsBox/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksStatsBox/Editor/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksStatsBox/Editor/Resources/UI Builder.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksStatsBox/Editor/Resources/UI Builder/TanksStatsBox.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksStatsBox/Editor/Resources/UI Builder/TanksStatsBox/Accuracy_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksStatsBox/Editor/Resources/UI Builder/TanksStatsBox/Accuracy_icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksStatsBox/Editor/Resources/UI Builder/TanksStatsBox/Kills_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksStatsBox/Editor/Resources/UI Builder/TanksStatsBox/Kills_icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksStatsBox/Editor/Resources/UI Builder/TanksStatsBox/OFL.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksStatsBox/Editor/Resources/UI Builder/TanksStatsBox/OFL.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksStatsBox/Editor/Resources/UI Builder/TanksStatsBox/Shots_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksStatsBox/Editor/Resources/UI Builder/TanksStatsBox/Shots_icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksStatsBox/Editor/Resources/UI Builder/TanksStatsBox/TanksStatsBox.uss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksStatsBox/Editor/Resources/UI Builder/TanksStatsBox/TanksStatsBox.uss.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksStatsBox/Editor/Resources/UI Builder/TanksStatsBox/Teko-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksStatsBox/Editor/Resources/UI Builder/TanksStatsBox/Teko-Regular.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksStatsBox/Editor/Resources/UI Builder/TanksStatsBox/speed_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksStatsBox/Editor/Resources/UI Builder/TanksStatsBox/speed_icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksStatsBox/TanksStatsBox.uxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Samples/UI Builder/1.0.0-preview.9/TanksStatsBox/TanksStatsBox.uxml.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scenes/Creation.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scenes/Creation.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Authoring/RotationPlayerAuthoring.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Authoring/RotationPlayerAuthoring.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Biped Locomotion/Annotations/Editor/LocomotionTag.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Authoring/UnitDataAuthoring.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Authoring/UnitDataAuthoring.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Core/Scene/StateSingleton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Core/Scene/StateSingleton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Core/System/SceneSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Core/System/SceneSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Data/DB/Info/EquipmentInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Data/DB/Info/EquipmentInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Data/DB/Info/WeaponInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Data/DB/Info/WeaponInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Database/Core/DynamicDBBuilder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Database/Core/DynamicDBBuilder.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Database/Core/StaticDBBuilder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Database/Core/StaticDBBuilder.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Database/Tables/Ability.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Database/Tables/Ability.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Database/Tables/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Database/Tables/Enemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Database/Tables/Equipment.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Database/Tables/Equipment.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Database/Tables/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Database/Tables/Item.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Database/Tables/Skill.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Database/Tables/Skill.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Database/Tables/TechMaterial.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Database/Tables/TechMaterial.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Database/Tables/Unit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Database/Tables/Unit.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Database/Tables/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Database/Tables/User.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Database/Tables/Weapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Database/Tables/Weapon.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Plugins/Pixelplacement/Surge/DisplayObject/DisplayObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Plugins/Pixelplacement/Surge/DisplayObject/DisplayObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Plugins/Pixelplacement/Surge/Singleton/Singleton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Plugins/Pixelplacement/Surge/Singleton/Singleton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Plugins/Pixelplacement/Surge/Utilities/Initialization.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Plugins/Pixelplacement/Surge/Utilities/Initialization.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Plugins/Pixelplacement/iTween/StateMachine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Plugins/Pixelplacement/iTween/StateMachine.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/Extension/UIElementExtension.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/Extension/UIElementExtension.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/Mono/Singleton/LoadManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/Mono/Singleton/LoadManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/UXMLCustom/Base_Document.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/UXMLCustom/BaseDocument.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/UXMLCustom/Base_Document.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/UXMLCustom/BaseDocument.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/UXMLCustom/Creation_Screen/CoreCreation_Document.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/UXMLCustom/Creation_Screen/CoreCreation_Document.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/ComponentSystem/AnimationSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/ComponentSystem/AnimationSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/ComponentSystem/RotationSystem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/ComponentSystem/RotationSystem.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Biped Locomotion/Annotations/Locomotion.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Core/PerformanceSetting/AdaptivePerformanceConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Core/PerformanceSetting/AdaptivePerformanceConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Core/Scene/Progresser.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scenes/Subscene.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Core/Scene/Progresser/AssetProgress.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Core/Scene/Progresser/AssetProgress.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Biped Locomotion/Annotations/Idle.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Core/Scene/Progresser/DataProgress.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Core/Scene/Progresser/DataProgress.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Biped Locomotion/Annotations/Editor/IdleTag.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Core/Scene/Progresser/SceneProgress.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Core/Scene/Progresser/SceneProgress.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Data/RotationDirection.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Data/RotationDirection.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Database/Common/StarterCharacterStore.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Database/Common/StarterCharacterStore.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Runtime/RotationComponent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Runtime/RotationComponent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Runtime/UnitRuntime.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Runtime/UnitRuntime.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/Mono.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Biped Locomotion.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/Mono/Singleton.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Biped Locomotion/Annotations.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/Mono/Singleton/LoadManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/Mono/Singleton/LoadManager.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/UXMLCustom/Creation_Screen/Creation_Document.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/UXMLCustom/Creation_Screen/Creation_Document.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/UXMLCustom/Creation_Screen/Dialogue_Document.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/UXMLCustom/Creation_Screen/Dialogue_Document.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/UXMLCustom/Game_Screen/CoreGame_Document.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/UXMLCustom/Game_Screen/CoreGame_Document.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/UXMLCustom/Game_Screen/Game_Document.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/UXMLCustom/Game_Screen/Game_Document.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/UXMLCustom/Game_Screen/SubScene/Adventure_Document.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/UXMLCustom/Game_Screen/SubScene/Adventure_Document.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/UXMLCustom/Game_Screen/SubScene/Battle_Document.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/UXMLCustom/Game_Screen/SubScene/Battle_Document.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/UXMLCustom/Game_Screen/SubScene/Shop_Document.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/UXMLCustom/Game_Screen/SubScene/Shop_Document.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/UXMLCustom/Game_Screen/SubScene/Summon_Document.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/UXMLCustom/Game_Screen/SubScene/Summon_Document.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/UXMLCustom/Loading_Document.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/UXMLCustom/Loading_Document.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/UXMLCustom/TItle_Screen/MainMenu_Document.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/UXMLCustom/TItle_Screen/MainMenu_Document.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/UXMLCustom/TItle_Screen/News_Document.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/UXMLCustom/TItle_Screen/News_Document.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/UXMLCustom/TItle_Screen/Option_Document.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/UXMLCustom/TItle_Screen/Option_Document.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/UXMLCustom/TItle_Screen/Support_Document.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/UXMLCustom/TItle_Screen/Support_Document.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/UXMLCustom/TItle_Screen/TitleScreen_Document.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/UXMLCustom/TItle_Screen/TitleScreen_Document.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Utility/TechUtility.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/Utility/TechUtility.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/UI/UIDocument/MainMenu/MainMenu_Document.uxml" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/UI/UIDocument/MainMenu/MainMenu_Document.uxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/UI/UIDocument/MainMenu/TitleScreen_Document.uxml" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/UI/UIDocument/MainMenu/TitleScreen_Document.uxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/UXMLCustom/Loading_Document.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/UXMLCustom/Loading_Document.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../TechDemoProject/Logs/ApiUpdaterCheck.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Logs/ApiUpdaterCheck.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Logs/AssetImportWorker0-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Logs/AssetImportWorker0-prev.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../TechDemoProject/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Logs/AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Logs/AssetImportWorker1.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../TechDemoProject/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/ProjectSettings/ProjectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TechDemoProject/obj/Debug/Assembly-CSharp-firstpass.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/obj/Debug/Assembly-CSharp-firstpass.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TechDemoProject/obj/Debug/Ulid.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/obj/Debug/Ulid.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TechDemoProject/obj/Debug/UniTask.Addressables.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/obj/Debug/UniTask.Addressables.csprojAssemblyReference.cache" afterDir="false" />
@@ -513,24 +472,120 @@
       <change beforePath="$PROJECT_DIR$/../TechDemoProject/obj/Debug/UniTask.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/obj/Debug/UniTask.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TechDemoProject/obj/Debug/ZString.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/obj/Debug/ZString.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TechDemoTest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TechDemoTest/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TechDemoTest/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TechDemoTest/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TechDemoTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TechDemoTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/01 Inventory Basics.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/01 Inventory Basics/.sample.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/01 Inventory Basics/InventoryBasics.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/01 Inventory Basics/InventoryBasics.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/01 Inventory Basics/InventoryBasics.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/01 Inventory Basics/InventoryBasics.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/01 Inventory Basics/InventoryBasicsCatalog.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/01 Inventory Basics/InventoryBasicsCatalog.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/01 Inventory Basics/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/01 Inventory Basics/README.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/02a Stackable Inventory Items.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/02a Stackable Inventory Items/.sample.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/02a Stackable Inventory Items/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/02a Stackable Inventory Items/README.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/02a Stackable Inventory Items/StackableInventoryItem.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/02a Stackable Inventory Items/StackableInventoryItem.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/02a Stackable Inventory Items/StackableInventoryItemCatalog.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/02a Stackable Inventory Items/StackableInventoryItemCatalog.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/02a Stackable Inventory Items/StackableInventoryItemSample.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/02a Stackable Inventory Items/StackableInventoryItemSample.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/02b Inventory With Quantity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/02b Inventory With Quantity/.sample.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/02b Inventory With Quantity/InventoryWithQuantity.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/02b Inventory With Quantity/InventoryWithQuantity.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/02b Inventory With Quantity/InventoryWithQuantityCatalog.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/02b Inventory With Quantity/InventoryWithQuantityCatalog.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/02b Inventory With Quantity/InventoryWithQuantitySample.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/02b Inventory With Quantity/InventoryWithQuantitySample.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/02b Inventory With Quantity/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/02b Inventory With Quantity/README.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/03 Tags.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/03 Tags/.sample.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/03 Tags/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/03 Tags/README.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/03 Tags/Tags.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/03 Tags/Tags.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/03 Tags/TagsCatalog.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/03 Tags/TagsCatalog.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/03 Tags/TagsSample.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/03 Tags/TagsSample.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/04 Wallet.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/04 Wallet/.sample.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/04 Wallet/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/04 Wallet/README.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/04 Wallet/Wallet.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/04 Wallet/Wallet.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/04 Wallet/WalletCatalog.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/04 Wallet/WalletCatalog.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/04 Wallet/WalletSample.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/04 Wallet/WalletSample.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/05 Properties.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/05 Properties/.sample.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/05 Properties/Properties.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/05 Properties/Properties.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/05 Properties/PropertiesCatalog.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/05 Properties/PropertiesCatalog.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/05 Properties/PropertiesSample.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/05 Properties/PropertiesSample.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/05 Properties/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/05 Properties/README.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/06 Data Persistence.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/06 Data Persistence/.sample.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/06 Data Persistence/DataPersistence.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/06 Data Persistence/DataPersistence.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/06 Data Persistence/DataPersistenceCatalog.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/06 Data Persistence/DataPersistenceCatalog.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/06 Data Persistence/DataPersistenceSample.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/06 Data Persistence/DataPersistenceSample.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/06 Data Persistence/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/06 Data Persistence/README.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/07 Transactions.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/07 Transactions/.sample.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/07 Transactions/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/07 Transactions/README.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/07 Transactions/Transactions.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/07 Transactions/Transactions.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/07 Transactions/TransactionsCatalog.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/07 Transactions/TransactionsCatalog.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/07 Transactions/TransactionsSample.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/07 Transactions/TransactionsSample.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/09 Inventory Reset and Initial Allocation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/09 Inventory Reset and Initial Allocation/.sample.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/09 Inventory Reset and Initial Allocation/InventoryResetAndInitialAllocation.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/09 Inventory Reset and Initial Allocation/InventoryResetAndInitialAllocation.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/09 Inventory Reset and Initial Allocation/InventoryResetAndInitialAllocationCatalog.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/09 Inventory Reset and Initial Allocation/InventoryResetAndInitialAllocationCatalog.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/09 Inventory Reset and Initial Allocation/InventoryResetAndInitialAllocationSample.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/09 Inventory Reset and Initial Allocation/InventoryResetAndInitialAllocationSample.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/09 Inventory Reset and Initial Allocation/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/09 Inventory Reset and Initial Allocation/README.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/10 Item Lists.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/10 Item Lists/.sample.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/10 Item Lists/ItemLists.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/10 Item Lists/ItemLists.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/10 Item Lists/ItemListsCatalog.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/10 Item Lists/ItemListsCatalog.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/10 Item Lists/ItemListsSample.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/10 Item Lists/ItemListsSample.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/10 Item Lists/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/10 Item Lists/README.md.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/PlaymodeTest.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PlaymodeTest.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/ProjectLogic.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/ProjectLogic.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Ulid.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Ulid.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/UniTask.Addressables.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniTask.Addressables.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/UniRx.Examples.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniRx.Examples.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/UniTask.TextMeshPro.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniTask.TextMeshPro.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/UniTask.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniTask.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/UniUnlit.Editor.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniUnlit.Editor.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.InputSystem.RebindingUI.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.InputSystem.RebindingUI.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.InputSystem.Recorder.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.InputSystem.Recorder.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.InputSystem.VirtualMouseInput.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.InputSystem.VirtualMouseInput.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/ZString.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/ZString.csprojAssemblyReference.cache" afterDir="false" />
     </list>
@@ -611,7 +666,6 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.16.15/Runtime/ResourceManager/Util/MonoBehaviourCallbackHooks.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.kinematica@0.7.0-preview/Runtime/Kinematica.Debugger.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/81481514-4B33-4AFD-BC72-FCC125EA773E/28/f25e42e5/IInventoryManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/01 Inventory Basics/InventoryBasics.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E414E10B-FE5F-4572-9FF1-22F3359DE21B/35/5380cc7b/NativeArray`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.kinematica@0.7.0-preview/Runtime/Kinematica.deprecated.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.kinematica@0.7.0-preview/Runtime/Kinematica.cs" root0="SKIP_HIGHLIGHTING" />
@@ -778,7 +832,8 @@
       <workItem from="1609471537651" duration="140162000" />
       <workItem from="1615154074610" duration="5216000" />
       <workItem from="1615163177501" duration="5433000" />
-      <workItem from="1615204219387" duration="6640000" />
+      <workItem from="1615204219387" duration="7899000" />
+      <workItem from="1615276624801" duration="2024000" />
     </task>
     <servers />
   </component>

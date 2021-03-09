@@ -24,6 +24,8 @@ namespace Tech.UI.Panel
         private readonly Button[] _skills = new Button[3];
         private Button _createButton;
 
+        private IMessageBroker _messages = MessageBroker.Default;
+
         protected override void Init(params string[] scenes)
         {
             _dbBuilder = new StaticDbBuilder(_dbStream);
@@ -101,9 +103,7 @@ namespace Tech.UI.Panel
             {
                 if (_currentUnit == null) return;
 
-                MessageBroker
-                    .Default
-                    .Publish((_currentUnit, _currentUnit.Skills[index]));
+                _messages.Publish((_currentUnit, _currentUnit.Skills[index]));
             };
         }
 
@@ -126,10 +126,13 @@ namespace Tech.UI.Panel
 
             _currentUnit = _dbStream.TryGetDatabase(FileDestination.UnitPath).UnitTable.FindByName(unitName);
 
-            MessageBroker
-                .Default
-                .Publish<(DB.Unit, Skill)>((_currentUnit, null));
+            _messages.Publish<(DB.Unit, Skill)>((_currentUnit, null));
 
+            SetSkillTexture<T>();
+        }
+
+        private void SetSkillTexture<T>() where T : PointerEventBase<T>, new()
+        {
             for (byte i = 0; i < _currentUnit.Skills.Length; i++)
             {
                 var tex = new Texture2D(256, 256, TextureFormat.DXT1, false);
@@ -148,7 +151,6 @@ namespace Tech.UI.Panel
 
         public new sealed class UxmlTraits : VisualElement.UxmlTraits
         {
-
             public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
             {
                 ((Creation_Document) ve).Init();

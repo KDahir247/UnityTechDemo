@@ -961,40 +961,6 @@
               </e>
             </e>
           </e>
-          <e p="Game Foundation" t="Include">
-            <e p="0.8.0-preview" t="Include">
-              <e p="01 Inventory Basics" t="Include">
-                <e p="InventoryBasics.cs" t="Include" />
-              </e>
-              <e p="02a Stackable Inventory Items" t="Include">
-                <e p="StackableInventoryItemSample.cs" t="Include" />
-              </e>
-              <e p="02b Inventory With Quantity" t="Include">
-                <e p="InventoryWithQuantitySample.cs" t="Include" />
-              </e>
-              <e p="03 Tags" t="Include">
-                <e p="TagsSample.cs" t="Include" />
-              </e>
-              <e p="04 Wallet" t="Include">
-                <e p="WalletSample.cs" t="Include" />
-              </e>
-              <e p="05 Properties" t="Include">
-                <e p="PropertiesSample.cs" t="Include" />
-              </e>
-              <e p="06 Data Persistence" t="Include">
-                <e p="DataPersistenceSample.cs" t="Include" />
-              </e>
-              <e p="07 Transactions" t="Include">
-                <e p="TransactionsSample.cs" t="Include" />
-              </e>
-              <e p="09 Inventory Reset and Initial Allocation" t="Include">
-                <e p="InventoryResetAndInitialAllocationSample.cs" t="Include" />
-              </e>
-              <e p="10 Item Lists" t="Include">
-                <e p="ItemListsSample.cs" t="Include" />
-              </e>
-            </e>
-          </e>
           <e p="Input System" t="Include">
             <e p="1.1.0-preview.2" t="Include">
               <e p="Custom Binding Composite" t="Include">
@@ -1048,6 +1014,20 @@
           </e>
           <e p="Kinematica" t="Include">
             <e p="0.7.0-preview" t="Include">
+              <e p="Biped Locomotion" t="Include">
+                <e p="Annotations" t="Include">
+                  <e p="Editor" t="Include">
+                    <e p="IdleTag.cs" t="Include" />
+                    <e p="LocomotionTag.cs" t="Include" />
+                  </e>
+                  <e p="Idle.cs" t="Include" />
+                  <e p="Locomotion.cs" t="Include" />
+                </e>
+                <e p="Biped.cs" t="Include" />
+                <e p="Supplementary" t="Include">
+                  <e p="FollowCamera.cs" t="Include" />
+                </e>
+              </e>
               <e p="Hello World" t="Include">
                 <e p="Annotations" t="Include">
                   <e p="Editor" t="Include">
@@ -1058,6 +1038,29 @@
                   <e p="Locomotion.cs" t="Include" />
                 </e>
                 <e p="HelloWorld.cs" t="Include" />
+              </e>
+              <e p="Navigation" t="Include">
+                <e p="Annotations" t="Include">
+                  <e p="Editor" t="Include">
+                    <e p="IdleTag.cs" t="Include" />
+                    <e p="LocomotionTag.cs" t="Include" />
+                  </e>
+                  <e p="Idle.cs" t="Include" />
+                  <e p="Locomotion.cs" t="Include" />
+                </e>
+                <e p="Biped.debug.xml" t="Include" />
+                <e p="Navigation.cs" t="Include" />
+              </e>
+              <e p="Snappy Locomotion" t="Include">
+                <e p="Annotations" t="Include">
+                  <e p="Editor" t="Include">
+                    <e p="IdleTag.cs" t="Include" />
+                    <e p="LocomotionTag.cs" t="Include" />
+                  </e>
+                  <e p="Idle.cs" t="Include" />
+                  <e p="Locomotion.cs" t="Include" />
+                </e>
+                <e p="SnappyLocomotion.cs" t="Include" />
               </e>
             </e>
           </e>
