@@ -7,15 +7,11 @@ using Unity.Kinematica;
 
 namespace Tech.ECS
 {
-    //TODO clean up and find a better solution then using a switch statement
     [BurstCompile(FloatPrecision.Low, FloatMode.Fast, CompileSynchronously = false, Debug = false)]
     internal struct KinematicaSoloJob : IJob
     {
         public MemoryRef<MotionSynthesizer> motionSynthesizer;
         private MotionSynthesizer MotionSynthesizer => motionSynthesizer.Ref;
-
-        public TaskReference IdleTaskReference;
-        public TaskReference LocomotionTaskReference;
 
         public int skillIndex;
 

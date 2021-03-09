@@ -964,6 +964,13 @@
               </e>
             </e>
           </e>
+          <e p="Game Foundation" t="Include">
+            <e p="0.8.0-preview" t="Include">
+              <e p="04 Wallet" t="Include">
+                <e p="WalletSample.cs" t="Include" />
+              </e>
+            </e>
+          </e>
           <e p="Input System" t="Include">
             <e p="1.1.0-preview.3" t="Include">
               <e p="Custom Binding Composite" t="Include">

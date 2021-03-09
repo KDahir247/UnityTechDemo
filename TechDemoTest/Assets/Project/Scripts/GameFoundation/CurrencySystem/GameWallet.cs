@@ -79,6 +79,15 @@ public sealed class GameWallet : DataFoundation
             _currencyDictionary.Add(_initialCurrencies[currencyIndex].key, _initialCurrencies[currencyIndex]);
     }
 
+    public long GetWalletBalance([NotNull] string walletKey)
+    {
+        if (!_currencyDictionary.ContainsKey(walletKey)) return 0;
+
+       return GameFoundationSdk
+            .wallet
+            .Get(_currencyDictionary[walletKey]);
+    }
+
     public void AddToWallet([NotNull] string walletKey, int amount)
     {
         if (!_currencyDictionary.ContainsKey(walletKey)) return;

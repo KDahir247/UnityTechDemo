@@ -23,7 +23,6 @@ namespace Tech.Test
             {
                 _gameWallet.ResetWalletAmount("fakeMoney");
                 _gameWallet.AddToWallet("fakeMoney", 20000);
-
                 Measure
                     .Method(() => _gameWallet.RemoveFromWallet("fakeMoney", 1))
                     .WarmupCount(3)
@@ -35,6 +34,18 @@ namespace Tech.Test
             });
         }
 
+        [Test]
+        public void GameWalletGetTestSimplePasses()
+        {
+            Assert.DoesNotThrow(() => {
+                Assert.IsTrue(_gameWallet.GetWalletBalance("fakeMoney") == 500);
+                _gameWallet.ResetWalletAmount("fakeMoney");
+                Assert.IsTrue(_gameWallet.GetWalletBalance("fakeMoney") == 0);
+                _gameWallet.AddToWallet("fakeMoney", 20000);
+                Assert.IsTrue(_gameWallet.GetWalletBalance("fakeMoney") == 20000);
+            });
+        }
+        
         [Test]
         [Performance]
         public void GameWalletAddedTestSimplePasses()

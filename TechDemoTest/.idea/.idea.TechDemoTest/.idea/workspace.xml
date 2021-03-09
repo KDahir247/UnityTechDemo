@@ -9,515 +9,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6abb102-7c44-48ea-adde-dc287c5cfed8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/Input.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/Input/PlayerInputTest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/Input/PlayerInputTest.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Custom Binding Composite.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Custom Binding Composite/.sample.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Custom Binding Composite/CustomComposite.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Custom Binding Composite/CustomComposite.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Custom Binding Composite/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Custom Binding Composite/README.md.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Custom Device Usages.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Custom Device Usages/.sample.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Custom Device Usages/.sample.json.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Custom Device Usages/CustomDeviceUsages.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Custom Device Usages/CustomDeviceUsages.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Custom Device Usages/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Custom Device Usages/README.md.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Custom Device Usages/TwoPlayerControls.inputactions" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Custom Device Usages/TwoPlayerControls.inputactions.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Custom Device.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Custom Device/.sample.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Custom Device/CustomDevice.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Custom Device/CustomDevice.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Custom Device/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Custom Device/README.md.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Gamepad Mouse Cursor.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Gamepad Mouse Cursor/.sample.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Gamepad Mouse Cursor/GamepadMouseCursorSample.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Gamepad Mouse Cursor/GamepadMouseCursorSample.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Gamepad Mouse Cursor/GamepadMouseCursorUIActions.inputactions" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Gamepad Mouse Cursor/GamepadMouseCursorUIActions.inputactions.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Gamepad Mouse Cursor/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Gamepad Mouse Cursor/README.md.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Gamepad Mouse Cursor/Unity.InputSystem.VirtualMouseInput.asmdef" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Gamepad Mouse Cursor/Unity.InputSystem.VirtualMouseInput.asmdef.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Gamepad Mouse Cursor/VirtualMouseInput.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Gamepad Mouse Cursor/VirtualMouseInput.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Gamepad Mouse Cursor/VirtualMouseInput.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Gamepad Mouse Cursor/VirtualMouseInput.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Gamepad Mouse Cursor/crosshair.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Gamepad Mouse Cursor/crosshair.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/In-Game Hints.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/In-Game Hints/.sample.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/In-Game Hints/InGameHintsActions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/In-Game Hints/InGameHintsActions.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/In-Game Hints/InGameHintsActions.inputactions" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/In-Game Hints/InGameHintsActions.inputactions.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/In-Game Hints/InGameHintsExample.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/In-Game Hints/InGameHintsExample.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/In-Game Hints/InGameHintsSampleScene.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/In-Game Hints/InGameHintsSampleScene.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/In-Game Hints/Unity.InputSystem.InGameHints.asmdef" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/In-Game Hints/Unity.InputSystem.InGameHints.asmdef.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Input Recorder.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Input Recorder/.sample.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Input Recorder/InputRecorder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Input Recorder/InputRecorder.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Input Recorder/InputRecorderInspector.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Input Recorder/InputRecorderInspector.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Input Recorder/InputRecorderSample.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Input Recorder/InputRecorderSample.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Input Recorder/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Input Recorder/README.md.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Input Recorder/Unity.InputSystem.Recorder.asmdef" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Input Recorder/Unity.InputSystem.Recorder.asmdef.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/InputDeviceTester.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/InputDeviceTester/.sample.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/InputDeviceTester/.sample.json.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/InputDeviceTester/InputDeviceTester.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/InputDeviceTester/InputDeviceTester.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/On-Screen Controls.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/On-Screen Controls/.sample.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/On-Screen Controls/Button.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/On-Screen Controls/Button.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/On-Screen Controls/OnScreenControlsSample.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/On-Screen Controls/OnScreenControlsSample.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/On-Screen Controls/Stick.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/On-Screen Controls/Stick.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/.sample.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/GamepadIconsExample.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/GamepadIconsExample.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/PS4_Circle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/PS4_Circle.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/PS4_Cross.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/PS4_Cross.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/PS4_Dpad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/PS4_Dpad.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/PS4_Dpad_Down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/PS4_Dpad_Down.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/PS4_Dpad_Left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/PS4_Dpad_Left.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/PS4_Dpad_Right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/PS4_Dpad_Right.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/PS4_Dpad_Up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/PS4_Dpad_Up.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/PS4_L1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/PS4_L1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/PS4_L2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/PS4_L2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/PS4_Left_Stick.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/PS4_Left_Stick.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/PS4_Options.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/PS4_Options.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/PS4_R1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/PS4_R1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/PS4_R2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/PS4_R2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/PS4_Right_Stick.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/PS4_Right_Stick.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/PS4_Share.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/PS4_Share.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/PS4_Square.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/PS4_Square.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/PS4_Triangle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/PS4_Triangle.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/XboxOne_A.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/XboxOne_A.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/XboxOne_B.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/XboxOne_B.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/XboxOne_Dpad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/XboxOne_Dpad.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/XboxOne_Dpad_Down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/XboxOne_Dpad_Down.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/XboxOne_Dpad_Left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/XboxOne_Dpad_Left.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/XboxOne_Dpad_Right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/XboxOne_Dpad_Right.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/XboxOne_Dpad_Up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/XboxOne_Dpad_Up.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/XboxOne_LB.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/XboxOne_LB.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/XboxOne_LT.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/XboxOne_LT.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/XboxOne_Left_Stick.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/XboxOne_Left_Stick.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/XboxOne_Menu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/XboxOne_Menu.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/XboxOne_RB.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/XboxOne_RB.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/XboxOne_RT.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/XboxOne_RT.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/XboxOne_Right_Stick.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/XboxOne_Right_Stick.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/XboxOne_Windows.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/XboxOne_Windows.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/XboxOne_X.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/XboxOne_X.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/XboxOne_Y.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Icons/XboxOne_Y.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/README.md.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/RebindActionUI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/RebindActionUI.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/RebindActionUIEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/RebindActionUIEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/RebindSaveLoad.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/RebindSaveLoad.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/RebindUIPrefab.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/RebindUIPrefab.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/RebindUISampleActions.inputactions" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/RebindUISampleActions.inputactions.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/RebindingUISampleScene.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/RebindingUISampleScene.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Unity.InputSystem.RebindingUI.asmdef" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Rebinding UI/Unity.InputSystem.RebindingUI.asmdef.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Simple Demo.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Simple Demo/.sample.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Simple Demo/.sample.json.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Simple Demo/Environment.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Simple Demo/Environment.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Simple Demo/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Simple Demo/README.md.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Simple Demo/SimpleController_UsingActionAsset.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Simple Demo/SimpleController_UsingActionAsset.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Simple Demo/SimpleController_UsingActions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Simple Demo/SimpleController_UsingActions.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Simple Demo/SimpleController_UsingPlayerInput.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Simple Demo/SimpleController_UsingPlayerInput.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Simple Demo/SimpleController_UsingState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Simple Demo/SimpleController_UsingState.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Simple Demo/SimpleControls.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Simple Demo/SimpleControls.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Simple Demo/SimpleControls.inputactions" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Simple Demo/SimpleControls.inputactions.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Simple Demo/SimpleDemo_UsingActionAsset.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Simple Demo/SimpleDemo_UsingActionAsset.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Simple Demo/SimpleDemo_UsingActions.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Simple Demo/SimpleDemo_UsingActions.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Simple Demo/SimpleDemo_UsingPlayerInput.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Simple Demo/SimpleDemo_UsingPlayerInput.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Simple Demo/SimpleDemo_UsingState.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Simple Demo/SimpleDemo_UsingState.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Simple Demo/SimpleProjectile.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Simple Demo/SimpleProjectile.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Simple Multiplayer.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Simple Multiplayer/.sample.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Simple Multiplayer/Player.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Simple Multiplayer/Player.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Simple Multiplayer/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Simple Multiplayer/README.md.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Simple Multiplayer/SimpleMultiplayerControls.inputactions" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Simple Multiplayer/SimpleMultiplayerControls.inputactions.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Simple Multiplayer/SimpleMultiplayerDemo.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Simple Multiplayer/SimpleMultiplayerDemo.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Simple Multiplayer/SimpleMultiplayerPlayer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Simple Multiplayer/SimpleMultiplayerPlayer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Touch Samples.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Touch Samples/.sample.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Touch Samples/TouchSamples.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Touch Samples/TouchSamples.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Visualizers.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Visualizers/.sample.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Visualizers/GamepadVis.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Visualizers/GamepadVis.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Visualizers/GamepadVisualizer.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Visualizers/GamepadVisualizer.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Visualizers/InputActionVisualizer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Visualizers/InputActionVisualizer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Visualizers/InputControlVisualizer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Visualizers/InputControlVisualizer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Visualizers/InputVisualizer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Visualizers/InputVisualizer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Visualizers/MouseVis.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Visualizers/MouseVis.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Visualizers/MouseVisualizer.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Visualizers/MouseVisualizer.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Visualizers/PenVis.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Visualizers/PenVis.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Visualizers/PenVisualizer.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Visualizers/PenVisualizer.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Visualizers/SimpleControls.inputactions" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Visualizers/SimpleControls.inputactions.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Visualizers/SimpleControlsVis.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Visualizers/SimpleControlsVis.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Visualizers/SimpleControlsVisualizer.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Visualizers/SimpleControlsVisualizer.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Visualizers/Unity.InputSystem.Visualizers.asmdef" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Visualizers/Unity.InputSystem.Visualizers.asmdef.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Visualizers/VisualizationHelpers.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.3/Visualizers/VisualizationHelpers.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/GameFoundation/Resources/GameFoundationSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/GameFoundation/Resources/GameFoundationSettings.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/04 Wallet.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/04 Wallet/.sample.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/04 Wallet/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/04 Wallet/README.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/04 Wallet/Wallet.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/04 Wallet/Wallet.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/04 Wallet/WalletCatalog.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/04 Wallet/WalletCatalog.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/04 Wallet/WalletSample.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/04 Wallet/WalletSample.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/GameFoundation/GameFoundationCatalog.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/GameFoundation/GameFoundationCatalog.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Log/EditorLog132597432000000000.log" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Log/EditorLog132597432000000000.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Resources/unit-data.bytes" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Resources/unit-data.bytes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Resources/user-data.bytes" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Resources/user-data.bytes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/ComponentSystem/AnimationSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/ComponentSystem/AnimationSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/GameFoundation/CurrencySystem/GameWallet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/GameFoundation/CurrencySystem/GameWallet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/GameFoundation/RewardManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/GameFoundation/RewardManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/UXMLCustom/BaseDocument.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/UXMLCustom/BaseDocument.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/UXMLCustom/Game_Screen/CoreGame_Document.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/UXMLCustom/Game_Screen/CoreGame_Document.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/UI/UIDocument/Game/CoreGame_Document.uxml" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/UI/UIDocument/Game/CoreGame_Document.uxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TechDemoProject/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TechDemoTest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TechDemoTest/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TechDemoTest/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TechDemoTest/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TechDemoTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TechDemoTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlaymodeTest/PlaymodeTest.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/PlaymodeTest.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Custom Binding Composite.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Custom Binding Composite/.sample.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Custom Binding Composite/CustomComposite.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Custom Binding Composite/CustomComposite.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Custom Binding Composite/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Custom Binding Composite/README.md.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Custom Device Usages.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Custom Device Usages/.sample.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Custom Device Usages/.sample.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Custom Device Usages/CustomDeviceUsages.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Custom Device Usages/CustomDeviceUsages.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Custom Device Usages/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Custom Device Usages/README.md.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Custom Device Usages/TwoPlayerControls.inputactions" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Custom Device Usages/TwoPlayerControls.inputactions.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Custom Device.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Custom Device/.sample.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Custom Device/CustomDevice.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Custom Device/CustomDevice.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Custom Device/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Custom Device/README.md.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Gamepad Mouse Cursor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Gamepad Mouse Cursor/.sample.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Gamepad Mouse Cursor/GamepadMouseCursorSample.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Gamepad Mouse Cursor/GamepadMouseCursorSample.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Gamepad Mouse Cursor/GamepadMouseCursorUIActions.inputactions" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Gamepad Mouse Cursor/GamepadMouseCursorUIActions.inputactions.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Gamepad Mouse Cursor/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Gamepad Mouse Cursor/README.md.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Gamepad Mouse Cursor/Unity.InputSystem.VirtualMouseInput.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Gamepad Mouse Cursor/Unity.InputSystem.VirtualMouseInput.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Gamepad Mouse Cursor/VirtualMouseInput.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Gamepad Mouse Cursor/VirtualMouseInput.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Gamepad Mouse Cursor/VirtualMouseInput.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Gamepad Mouse Cursor/VirtualMouseInput.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Gamepad Mouse Cursor/crosshair.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Gamepad Mouse Cursor/crosshair.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/In-Game Hints.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/In-Game Hints/.sample.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/In-Game Hints/InGameHintsActions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/In-Game Hints/InGameHintsActions.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/In-Game Hints/InGameHintsActions.inputactions" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/In-Game Hints/InGameHintsActions.inputactions.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/In-Game Hints/InGameHintsExample.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/In-Game Hints/InGameHintsExample.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/In-Game Hints/InGameHintsSampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/In-Game Hints/InGameHintsSampleScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/In-Game Hints/Unity.InputSystem.InGameHints.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/In-Game Hints/Unity.InputSystem.InGameHints.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Input Recorder.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Input Recorder/.sample.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Input Recorder/InputRecorder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Input Recorder/InputRecorder.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Input Recorder/InputRecorderInspector.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Input Recorder/InputRecorderInspector.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Input Recorder/InputRecorderSample.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Input Recorder/InputRecorderSample.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Input Recorder/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Input Recorder/README.md.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Input Recorder/Unity.InputSystem.Recorder.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Input Recorder/Unity.InputSystem.Recorder.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/InputDeviceTester.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/InputDeviceTester/.sample.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/InputDeviceTester/.sample.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/InputDeviceTester/InputDeviceTester.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/InputDeviceTester/InputDeviceTester.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/On-Screen Controls.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/On-Screen Controls/.sample.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/On-Screen Controls/Button.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/On-Screen Controls/Button.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/On-Screen Controls/OnScreenControlsSample.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/On-Screen Controls/OnScreenControlsSample.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/On-Screen Controls/Stick.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/On-Screen Controls/Stick.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/.sample.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/GamepadIconsExample.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/GamepadIconsExample.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/PS4_Circle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/PS4_Circle.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/PS4_Cross.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/PS4_Cross.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/PS4_Dpad.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/PS4_Dpad.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/PS4_Dpad_Down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/PS4_Dpad_Down.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/PS4_Dpad_Left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/PS4_Dpad_Left.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/PS4_Dpad_Right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/PS4_Dpad_Right.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/PS4_Dpad_Up.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/PS4_Dpad_Up.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/PS4_L1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/PS4_L1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/PS4_L2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/PS4_L2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/PS4_Left_Stick.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/PS4_Left_Stick.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/PS4_Options.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/PS4_Options.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/PS4_R1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/PS4_R1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/PS4_R2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/PS4_R2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/PS4_Right_Stick.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/PS4_Right_Stick.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/PS4_Share.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/PS4_Share.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/PS4_Square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/PS4_Square.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/PS4_Triangle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/PS4_Triangle.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/XboxOne_A.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/XboxOne_A.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/XboxOne_B.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/XboxOne_B.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/XboxOne_Dpad.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/XboxOne_Dpad.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/XboxOne_Dpad_Down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/XboxOne_Dpad_Down.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/XboxOne_Dpad_Left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/XboxOne_Dpad_Left.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/XboxOne_Dpad_Right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/XboxOne_Dpad_Right.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/XboxOne_Dpad_Up.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/XboxOne_Dpad_Up.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/XboxOne_LB.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/XboxOne_LB.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/XboxOne_LT.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/XboxOne_LT.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/XboxOne_Left_Stick.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/XboxOne_Left_Stick.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/XboxOne_Menu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/XboxOne_Menu.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/XboxOne_RB.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/XboxOne_RB.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/XboxOne_RT.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/XboxOne_RT.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/XboxOne_Right_Stick.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/XboxOne_Right_Stick.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/XboxOne_Windows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/XboxOne_Windows.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/XboxOne_X.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/XboxOne_X.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/XboxOne_Y.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Icons/XboxOne_Y.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/README.md.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/RebindActionUI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/RebindActionUI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/RebindActionUIEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/RebindActionUIEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/RebindSaveLoad.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/RebindSaveLoad.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/RebindUIPrefab.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/RebindUIPrefab.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/RebindUISampleActions.inputactions" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/RebindUISampleActions.inputactions.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/RebindingUISampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/RebindingUISampleScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Unity.InputSystem.RebindingUI.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Rebinding UI/Unity.InputSystem.RebindingUI.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Simple Demo.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Simple Demo/.sample.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Simple Demo/.sample.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Simple Demo/Environment.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Simple Demo/Environment.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Simple Demo/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Simple Demo/README.md.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Simple Demo/SimpleController_UsingActionAsset.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Simple Demo/SimpleController_UsingActionAsset.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Simple Demo/SimpleController_UsingActions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Simple Demo/SimpleController_UsingActions.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Simple Demo/SimpleController_UsingPlayerInput.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Simple Demo/SimpleController_UsingPlayerInput.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Simple Demo/SimpleController_UsingState.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Simple Demo/SimpleController_UsingState.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Simple Demo/SimpleControls.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Simple Demo/SimpleControls.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Simple Demo/SimpleControls.inputactions" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Simple Demo/SimpleControls.inputactions.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Simple Demo/SimpleDemo_UsingActionAsset.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Simple Demo/SimpleDemo_UsingActionAsset.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Simple Demo/SimpleDemo_UsingActions.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Simple Demo/SimpleDemo_UsingActions.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Simple Demo/SimpleDemo_UsingPlayerInput.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Simple Demo/SimpleDemo_UsingPlayerInput.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Simple Demo/SimpleDemo_UsingState.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Simple Demo/SimpleDemo_UsingState.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Simple Demo/SimpleProjectile.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Simple Demo/SimpleProjectile.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Simple Multiplayer.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Simple Multiplayer/.sample.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Simple Multiplayer/Player.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Simple Multiplayer/Player.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Simple Multiplayer/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Simple Multiplayer/README.md.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Simple Multiplayer/SimpleMultiplayerControls.inputactions" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Simple Multiplayer/SimpleMultiplayerControls.inputactions.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Simple Multiplayer/SimpleMultiplayerDemo.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Simple Multiplayer/SimpleMultiplayerDemo.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Simple Multiplayer/SimpleMultiplayerPlayer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Simple Multiplayer/SimpleMultiplayerPlayer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Touch Samples.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Touch Samples/.sample.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Touch Samples/TouchSamples.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Touch Samples/TouchSamples.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Visualizers.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Visualizers/.sample.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Visualizers/GamepadVis.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Visualizers/GamepadVis.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Visualizers/GamepadVisualizer.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Visualizers/GamepadVisualizer.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Visualizers/InputActionVisualizer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Visualizers/InputActionVisualizer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Visualizers/InputControlVisualizer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Visualizers/InputControlVisualizer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Visualizers/InputVisualizer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Visualizers/InputVisualizer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Visualizers/MouseVis.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Visualizers/MouseVis.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Visualizers/MouseVisualizer.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Visualizers/MouseVisualizer.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Visualizers/PenVis.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Visualizers/PenVis.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Visualizers/PenVisualizer.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Visualizers/PenVisualizer.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Visualizers/SimpleControls.inputactions" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Visualizers/SimpleControls.inputactions.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Visualizers/SimpleControlsVis.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Visualizers/SimpleControlsVis.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Visualizers/SimpleControlsVisualizer.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Visualizers/SimpleControlsVisualizer.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Visualizers/Unity.InputSystem.Visualizers.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Visualizers/Unity.InputSystem.Visualizers.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Visualizers/VisualizationHelpers.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.1.0-preview.2/Visualizers/VisualizationHelpers.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/GameFoundation/GameWalletTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/GameFoundation/GameWalletTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/CurrencySystem/GameWallet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/CurrencySystem/GameWallet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/MToon.Editor.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/MToon.Editor.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/PlaymodeTest.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PlaymodeTest.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/ProjectLogic.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/ProjectLogic.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Ulid.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Ulid.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/UniTask.Addressables.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniTask.Addressables.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/UniTask.TextMeshPro.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniTask.TextMeshPro.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/UniTask.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniTask.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/UniUnlit.Editor.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniUnlit.Editor.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.InputSystem.RebindingUI.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.InputSystem.RebindingUI.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.InputSystem.Recorder.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.InputSystem.Recorder.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.InputSystem.VirtualMouseInput.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.InputSystem.VirtualMouseInput.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/ZString.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/ZString.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -551,6 +80,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.1.0-preview.3/InputSystem/Actions/InputActionMap.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.14.0-preview.19/Unity.Transforms.Hybrid/CopyTransformFromGameObjectProxy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.1.0-preview.3/InputSystem/Actions/InputActionAsset.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/04 Wallet/WalletSample.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.game-foundation@0.8.0-preview/DefaultLayers/Runtime/PersistenceDataLayer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E414E10B-FE5F-4572-9FF1-22F3359DE21B/3f/4f48db2d/EarlyUpdate.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.game-foundation@0.8.0-preview/DefaultLayers/Runtime/BaseMemoryDataLayer.cs" root0="SKIP_HIGHLIGHTING" />
@@ -655,15 +185,12 @@
       <option value="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/02a Stackable Inventory Items/StackableInventoryItemSample.cs" />
       <option value="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/07 Transactions/TransactionsSample.cs" />
       <option value="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/Core/RewardTest.cs" />
-      <option value="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/InventorySystem/GameInventory.cs" />
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/ItemSystem/GameItem.cs" />
       <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.game-foundation@0.8.0-preview/Promise/Runtime/Deferred.cs" />
-      <option value="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/CurrencySystem/GameWallet.cs" />
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/DataFoundation.cs" />
       <option value="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/GameFoundation/GameStoreTest.cs" />
       <option value="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/GameFoundation/GameInventoryTest.cs" />
       <option value="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/GameFoundation/GameItemTest.cs" />
-      <option value="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/GameFoundation/GameWalletTest.cs" />
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/StoreSystem/GameStore.cs" />
       <option value="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/GameFoundation/RewardTest.cs" />
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/RewardManager.cs" />
@@ -695,6 +222,9 @@
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/Database/StaticDbBuilder.cs" />
       <option value="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/Core/DynamicDbBuilderTest.cs" />
       <option value="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/Input/PlayerInputTest.cs" />
+      <option value="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/GameFoundation/GameWalletTest.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/InventorySystem/GameInventory.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/CurrencySystem/GameWallet.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1mGcpWGc6Z0UzqQm4gJFxdGM5v9" />
@@ -766,6 +296,7 @@
       <workItem from="1615163177501" duration="5433000" />
       <workItem from="1615204219387" duration="7899000" />
       <workItem from="1615276624801" duration="5252000" />
+      <workItem from="1615307980312" duration="2343000" />
     </task>
     <servers />
   </component>

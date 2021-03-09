@@ -44,6 +44,7 @@ namespace Tech.UI.Panel
                     Disposable?.Dispose();
 
                 UnregisterCallback();
+                OnDispose();
             };
 
             RegisterCallback<GeometryChangedEvent>(OnUIGeometryChange);
@@ -62,6 +63,8 @@ namespace Tech.UI.Panel
         protected abstract void UIQuery();
         protected abstract void RegisterCallback();
         protected abstract void UnregisterCallback();
+        
+        protected virtual void OnDispose(){}
 
         protected void OnLoadedNextScene(string scene)
         {

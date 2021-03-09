@@ -1,6 +1,9 @@
 ﻿using JetBrains.Annotations;
 using Tech.Data;
 using Tech.UI.Linq;
+using UniRx;
+using UnityEngine;
+using UnityEngine.GameFoundation;
 using UnityEngine.UIElements;
 using UnityEngine.UIElements.Experimental;
 
@@ -18,6 +21,9 @@ namespace Tech.UI.Panel
         private Button _rechargeStamina;
         private VisualElement _shopElement;
 
+        private readonly Label[] _currencyLabel = new Label[3];
+
+        private GameWallet wallet;
         public CoreGame_Document()
             : base(500, 500)
         {
@@ -25,14 +31,30 @@ namespace Tech.UI.Panel
 
         protected override void Init(params string[] scenes)
         {
+            GameFoundationSdk.initialized += () =>
+            {
+                wallet = new GameWallet();
+
+                wallet.WalletValueChanged().Subscribe(currency =>
+                {
+                    if (currency.TryGetStaticProperty("Label-Index", out var property))
+                    {
+                        _currencyLabel[property.AsInt()].text = currency.quantity.ToString();
+                    }
+                });
+            };
         }
 
         protected override void UIQuery()
         {
-            _hideAllButton = this.Q<Button>("HideAll_Button");
-
             _gameElement = this.Q<VisualElement>("Game_Document");
             _shopElement = this.Q<VisualElement>("Shop_Document");
+
+            _hideAllButton = this.Q<Button>("HideAll_Button");
+
+            _currencyLabel[0] = this.Q<Label>("CredAmount_Text");
+            _currencyLabel[1] = this.Q<Label>("NoteAmount_Text");
+            _currencyLabel[2] = this.Q<Label>("StaminaAmount_Text");
 
             _rechargeCred = this.Q<Button>("RechargeCred_Button");
             _rechargeNote = this.Q<Button>("RechargeNote_Button");
@@ -47,6 +69,9 @@ namespace Tech.UI.Panel
             _rechargeCred.RegisterCallback(ShowRechargePanel<ClickEvent>(RechargeType.Cred));
             _rechargeNote.RegisterCallback(ShowRechargePanel<ClickEvent>(RechargeType.Note));
             _rechargeStamina.RegisterCallback(ShowRechargePanel<ClickEvent>(RechargeType.Stamina));
+
+            _currencyLabel[0].text = wallet?.GetWalletBalance(_currencyLabel[0].viewDataKey).ToString();
+            _currencyLabel[1].text = wallet?.GetWalletBalance(_currencyLabel[1].viewDataKey).ToString();
         }
 
         protected override void UnregisterCallback()
@@ -59,6 +84,10 @@ namespace Tech.UI.Panel
             _rechargeStamina.UnregisterCallback(ShowRechargePanel<ClickEvent>(RechargeType.Stamina));
         }
 
+        protected override void OnDispose()
+        {
+            wallet.Dispose();
+        }
 
         [NotNull]
         private EventCallback<T> ShowRechargePanel<T>(RechargeType rechargeType)
