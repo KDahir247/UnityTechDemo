@@ -22,7 +22,9 @@
                     </ui:VisualElement>
                 </ui:VisualElement>
                 <ui:VisualElement name="LHSHeader_Panel" style="flex-grow: 1; flex-direction: row; width: 850px; background-color: rgba(17, 17, 17, 0); height: 120px; align-items: center; margin-bottom: 50px; margin-left: 130px; margin-right: 190px; border-top-right-radius: 50px; border-bottom-right-radius: 50px; border-top-left-radius: 50px; border-bottom-left-radius: 50px; justify-content: flex-start;">
-                    <ui:VisualElement style="width: auto; height: 100px; background-color: rgb(19, 19, 19); border-top-left-radius: 50px; border-bottom-left-radius: 50px; border-top-right-radius: 50px; border-bottom-right-radius: 50px; flex-grow: 1; margin-top: 50px; -unity-background-scale-mode: stretch-to-fill;" />
+                    <ui:VisualElement name="User_Panel" style="width: auto; height: 100px; background-color: rgb(19, 19, 19); border-top-left-radius: 50px; border-bottom-left-radius: 50px; border-top-right-radius: 50px; border-bottom-right-radius: 50px; flex-grow: 1; margin-top: 50px; -unity-background-scale-mode: stretch-to-fill; align-items: stretch; justify-content: center; -unity-text-align: middle-center;">
+                        <ui:Label display-tooltip-when-elided="true" name="Username_Text" style="flex-grow: 1; align-items: stretch; justify-content: flex-start; flex-shrink: 1; font-size: 45px; color: rgb(255, 255, 255); -unity-font: url(&apos;/Assets/Font/endgame/Endgame DEMO.otf&apos;);" />
+                    </ui:VisualElement>
                 </ui:VisualElement>
             </ui:VisualElement>
         </ui:VisualElement>

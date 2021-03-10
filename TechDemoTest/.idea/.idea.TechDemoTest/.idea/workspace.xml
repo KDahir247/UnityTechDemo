@@ -9,44 +9,125 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6abb102-7c44-48ea-adde-dc287c5cfed8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/GameFoundation/Resources/GameFoundationSettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/GameFoundation/Resources/GameFoundationSettings.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/04 Wallet.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/04 Wallet/.sample.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/04 Wallet/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/04 Wallet/README.md.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/04 Wallet/Wallet.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/04 Wallet/Wallet.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/04 Wallet/WalletCatalog.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/04 Wallet/WalletCatalog.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/04 Wallet/WalletSample.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/04 Wallet/WalletSample.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/GameFoundation/GameFoundationCatalog.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/GameFoundation/GameFoundationCatalog.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Log/EditorLog132598296000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Log/EditorLog132598296000000000.log.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scenes/SubScene.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TechDemoProject/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TechDemoProject/Logs/shadercompiler-UnityShaderCompiler.exe10.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TechDemoProject/Logs/shadercompiler-UnityShaderCompiler.exe11.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TechDemoProject/Logs/shadercompiler-UnityShaderCompiler.exe12.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TechDemoProject/Logs/shadercompiler-UnityShaderCompiler.exe13.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TechDemoProject/Logs/shadercompiler-UnityShaderCompiler.exe14.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TechDemoProject/Logs/shadercompiler-UnityShaderCompiler.exe15.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TechDemoProject/Logs/shadercompiler-UnityShaderCompiler.exe3.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TechDemoProject/Logs/shadercompiler-UnityShaderCompiler.exe4.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TechDemoProject/Logs/shadercompiler-UnityShaderCompiler.exe5.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TechDemoProject/Logs/shadercompiler-UnityShaderCompiler.exe6.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TechDemoProject/Logs/shadercompiler-UnityShaderCompiler.exe7.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TechDemoProject/Logs/shadercompiler-UnityShaderCompiler.exe8.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TechDemoProject/Logs/shadercompiler-UnityShaderCompiler.exe9.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/.idea/.idea.TechDemoProject/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/.idea/.idea.TechDemoProject/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Cached Data/SceneDependencyCache.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Cached Data/SceneDependencyCache/09c5cc943882221486b595c732d8e80e.sceneWithBuildSettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Cached Data/SceneDependencyCache/09c5cc943882221486b595c732d8e80e.sceneWithBuildSettings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Cached Data/SceneDependencyCache/0b45bc00ff3f9a1065e9d6e5e13bdc70.sceneWithBuildSettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Cached Data/SceneDependencyCache/0b45bc00ff3f9a1065e9d6e5e13bdc70.sceneWithBuildSettings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Cached Data/SceneDependencyCache/0ba610035854fb0b624b1fcd791c3d9b.sceneWithBuildSettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Cached Data/SceneDependencyCache/0ba610035854fb0b624b1fcd791c3d9b.sceneWithBuildSettings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Cached Data/SceneDependencyCache/1129162c91155eeaafcb064198ea15f5.sceneWithBuildSettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Cached Data/SceneDependencyCache/1129162c91155eeaafcb064198ea15f5.sceneWithBuildSettings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Cached Data/SceneDependencyCache/3b7420472cec6e91d52e895d4e4a848a.sceneWithBuildSettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Cached Data/SceneDependencyCache/3b7420472cec6e91d52e895d4e4a848a.sceneWithBuildSettings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Cached Data/SceneDependencyCache/584023513f427b0b79ae61a7a1609760.sceneWithBuildSettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Cached Data/SceneDependencyCache/584023513f427b0b79ae61a7a1609760.sceneWithBuildSettings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Cached Data/SceneDependencyCache/5bdebec66f5b8d24e785d2f4b1e8bbfa.sceneWithBuildSettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Cached Data/SceneDependencyCache/5bdebec66f5b8d24e785d2f4b1e8bbfa.sceneWithBuildSettings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Cached Data/SceneDependencyCache/a0f54816ec35249553490dd39b271c5e.sceneWithBuildSettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Cached Data/SceneDependencyCache/a0f54816ec35249553490dd39b271c5e.sceneWithBuildSettings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Cached Data/SceneDependencyCache/abb776b535261fda2bbb6409e6842216.sceneWithBuildSettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Cached Data/SceneDependencyCache/abb776b535261fda2bbb6409e6842216.sceneWithBuildSettings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Cached Data/SceneDependencyCache/abc286cc3fc1ec3ac8a9655f57145472.sceneWithBuildSettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Cached Data/SceneDependencyCache/abc286cc3fc1ec3ac8a9655f57145472.sceneWithBuildSettings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Cached Data/SceneDependencyCache/c184e15a2b85b563ae4e556c3c34a867.sceneWithBuildSettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Cached Data/SceneDependencyCache/c184e15a2b85b563ae4e556c3c34a867.sceneWithBuildSettings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Cached Data/SceneDependencyCache/e0c3716c4f66eda1a5cf858753aa17fe.sceneWithBuildSettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Cached Data/SceneDependencyCache/e0c3716c4f66eda1a5cf858753aa17fe.sceneWithBuildSettings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Cached Data/SceneDependencyCache/e633fa4b68a67ebacaa1763d484424ff.sceneWithBuildSettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Cached Data/SceneDependencyCache/e633fa4b68a67ebacaa1763d484424ff.sceneWithBuildSettings.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Log/EditorLog132597432000000000.log" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Log/EditorLog132597432000000000.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Resources/unit-data.bytes" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Resources/unit-data.bytes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Resources/user-data.bytes" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Resources/user-data.bytes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/ComponentSystem/AnimationSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/ComponentSystem/AnimationSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/GameFoundation/CurrencySystem/GameWallet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/GameFoundation/CurrencySystem/GameWallet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scenes/Game/AdventureSubScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scenes/Game/AdventureSubScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scenes/Game/ArenaSubScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scenes/Game/ArenaSubScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scenes/Game/BattleSubScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scenes/Game/BattleSubScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scenes/Game/CharacterSubScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scenes/Game/CharacterSubScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scenes/Game/CraftSubScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scenes/Game/CraftSubScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scenes/Game/EquipmentSubScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scenes/Game/EquipmentSubScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scenes/Game/ExpeditionSubScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scenes/Game/ExpeditionSubScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scenes/Game/FriendSubScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scenes/Game/FriendSubScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scenes/Game/MissionSubScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scenes/Game/MissionSubScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scenes/Game/PassSubScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scenes/Game/PassSubScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scenes/Game/RaidSubScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scenes/Game/RaidSubScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scenes/Game/ShopSubScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scenes/Game/ShopSubScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scenes/Game/SummoningSubScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scenes/Game/SummoningSubScene.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/GameFoundation/RewardManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/GameFoundation/RewardManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/UXMLCustom/BaseDocument.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/UXMLCustom/BaseDocument.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/UXMLCustom/Creation_Screen/Dialogue_Document.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/UXMLCustom/Creation_Screen/Dialogue_Document.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/UXMLCustom/Game_Screen/CoreGame_Document.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/UXMLCustom/Game_Screen/CoreGame_Document.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/UI/UIDocument/Game/CoreGame_Document.uxml" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/UI/UIDocument/Game/CoreGame_Document.uxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/UI/UIDocument/Game/Game_Document.uxml" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/UI/UIDocument/Game/Game_Document.uxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Logs/AssetImportWorker0-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TechDemoProject/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Logs/Packages-Update.log" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Logs/Packages-Update.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/ProjectSettings/ProjectVersion.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TechDemoProject/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TechDemoTest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TechDemoTest/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/obj/Debug/Assembly-CSharp-firstpass.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/obj/Debug/Assembly-CSharp-firstpass.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/obj/Debug/Ulid.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/obj/Debug/Ulid.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/obj/Debug/UniRx.Examples.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/obj/Debug/UniRx.Examples.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/obj/Debug/UniTask.Addressables.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/obj/Debug/UniTask.Addressables.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/obj/Debug/UniTask.Editor.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/obj/Debug/UniTask.Editor.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/obj/Debug/UniTask.TextMeshPro.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/obj/Debug/UniTask.TextMeshPro.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/obj/Debug/UniTask.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/obj/Debug/UniTask.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TechDemoProject/obj/Debug/ZString.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/obj/Debug/ZString.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TechDemoTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TechDemoTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/GameFoundation/GameWalletTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/GameFoundation/GameWalletTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/CurrencySystem/GameWallet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/CurrencySystem/GameWallet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/Packages-Update.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/Packages-Update.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/MToon.Editor.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/MToon.Editor.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/PlaymodeTest.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PlaymodeTest.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/ProjectLogic.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/ProjectLogic.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Ulid.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Ulid.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/UniRx.Examples.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniRx.Examples.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/UniRx.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniRx.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/UniTask.Addressables.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniTask.Addressables.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/UniTask.Editor.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniTask.Editor.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/UniTask.TextMeshPro.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniTask.TextMeshPro.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/UniTask.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniTask.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/UniUnlit.Editor.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniUnlit.Editor.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.InputSystem.RebindingUI.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.InputSystem.RebindingUI.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.InputSystem.VirtualMouseInput.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.InputSystem.VirtualMouseInput.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/ZString.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/ZString.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +153,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/62FFEEB7-EC02-4BEA-B61E-5FBF8D44AC5B/18/defc6f95/Exception.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/81481514-4B33-4AFD-BC72-FCC125EA773E/8c/86c3d571/ITransactionManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Project/Input/PlayerInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ui@1.0.0-preview.13/Text/Editor/Delegates/TextDelegates.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E414E10B-FE5F-4572-9FF1-22F3359DE21B/19/e8e85367/WaitUntil.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.game-foundation@0.8.0-preview/Core/Runtime/Sdk/GameFoundationSdk.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.14.0-preview.19/Unity.Entities/EntityQueryBuilder_ForEach.gen.cs" root0="SKIP_HIGHLIGHTING" />
@@ -174,7 +256,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/Core/ResolverSerializationTest.cs" />
       <option value="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/Core/MemoryTest.cs" />
       <option value="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/Core/LogManagerTest.cs" />
       <option value="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/Core/EventSystemTest.cs" />
@@ -225,6 +306,7 @@
       <option value="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/GameFoundation/GameWalletTest.cs" />
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/InventorySystem/GameInventory.cs" />
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/CurrencySystem/GameWallet.cs" />
+      <option value="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Biped Locomotion/Biped.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1mGcpWGc6Z0UzqQm4gJFxdGM5v9" />
@@ -297,6 +379,8 @@
       <workItem from="1615204219387" duration="7899000" />
       <workItem from="1615276624801" duration="5252000" />
       <workItem from="1615307980312" duration="2343000" />
+      <workItem from="1615323693746" duration="1139000" />
+      <workItem from="1615324892520" duration="1718000" />
     </task>
     <servers />
   </component>
