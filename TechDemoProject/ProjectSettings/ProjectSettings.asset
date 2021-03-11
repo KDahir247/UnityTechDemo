@@ -130,9 +130,10 @@ PlayerSettings:
   bundleVersion: 0.1
   preloadedAssets:
   - {fileID: 11400000, guid: d3731e6e7e885b641a6db7001e24566f, type: 2}
-  - {fileID: -1011419800694687176, guid: 7365a8ebcb452b142b04dbe8798d03fb, type: 2}
-  - {fileID: 11400000, guid: 8d8a4a77578e51a4190ba17f98ec8a4b, type: 2}
   - {fileID: 11400000, guid: 99d6e293fae3fea4faff9d129c8eb293, type: 2}
+  - {fileID: -1011419800694687176, guid: 7365a8ebcb452b142b04dbe8798d03fb, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 8d8a4a77578e51a4190ba17f98ec8a4b, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -578,6 +579,7 @@ PlayerSettings:
   additionalIl2CppArgs: 
   scriptingRuntimeVersion: 1
   gcIncremental: 0
+  assemblyVersionValidation: 1
   gcWBarrierValidation: 0
   apiCompatibilityLevelPerPlatform:
     Standalone: 3
@@ -628,6 +630,7 @@ PlayerSettings:
   XboxOneCapability: []
   XboxOneGameRating: {}
   XboxOneIsContentPackage: 0
+  XboxOneEnhancedXboxCompatibilityMode: 0
   XboxOneEnableGPUVariability: 1
   XboxOneSockets: {}
   XboxOneSplashScreen: {fileID: 0}

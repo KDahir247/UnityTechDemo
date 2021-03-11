@@ -2,7 +2,6 @@
 using Tech.Data;
 using Tech.UI.Linq;
 using UniRx;
-using UnityEngine;
 using UnityEngine.GameFoundation;
 using UnityEngine.UIElements;
 using UnityEngine.UIElements.Experimental;
