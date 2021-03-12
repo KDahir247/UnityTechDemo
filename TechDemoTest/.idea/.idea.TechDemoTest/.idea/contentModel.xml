@@ -27,6 +27,7 @@
             </e>
             <e p="ECS" t="Include">
               <e p="BasicECSTest.cs" t="Include" />
+              <e p="UnitQueueECSTest.cs" t="Include" />
             </e>
             <e p="GameFoundation" t="Include">
               <e p="GameInventoryTest.cs" t="Include" />
@@ -42,6 +43,15 @@
           </e>
         </e>
         <e p="Project" t="Include">
+          <e p="Character" t="Include">
+            <e p="Model" t="Include">
+              <e p="Kevin Iglesias" t="Include">
+                <e p="3DCharacterDummy" t="Include">
+                  <e p="Readme.txt" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
           <e p="Editor" t="Include">
             <e p="MasterMemoryWindow.cs" t="Include" />
           </e>
@@ -840,9 +850,6 @@
             <e p="Authoring" t="Include">
               <e p="UnitAuthoring.cs" t="Include" />
             </e>
-            <e p="ComponentSystem" t="Include">
-              <e p="UnitControlSystem.cs" t="Include" />
-            </e>
             <e p="Core" t="Include">
               <e p="Bootstrap" t="Include">
                 <e p="UnitaskBootstrap.cs" t="Include" />
@@ -908,7 +915,13 @@
                 <e p="TestTableTable.cs" t="Include" />
               </e>
             </e>
+            <e p="Job" t="Include">
+              <e p="UnitQueueSystem.cs" t="Include" />
+              <e p="UnitRaycastSystem.cs" t="Include" />
+            </e>
             <e p="Runtime" t="Include">
+              <e p="EnemyRuntime.cs" t="Include" />
+              <e p="UnitExecutionRuntime.cs" t="Include" />
               <e p="UnitRuntime.cs" t="Include" />
             </e>
           </e>
@@ -1136,6 +1149,7 @@
         </e>
         <e p="StreamingAssets" t="Include">
           <e p="KinematicaBinary_ba3871522913c8744a6ab0c114cf005d.debug.xml" t="Include" />
+          <e p="KinematicaBinary_f8c5f12b227de4a4698ddf23e8c269e9.debug.xml" t="Include" />
         </e>
         <e p="UniGLTF" t="Include">
           <e p="Editor" t="Include">

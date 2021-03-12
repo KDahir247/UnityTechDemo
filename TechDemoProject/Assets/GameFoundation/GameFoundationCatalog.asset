@@ -1,5 +1,41 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8055374758735049983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b81b157322addcd439104bd3c59b830b, type: 3}
+  m_Name: Store_pack_Store
+  m_EditorClassIdentifier: 
+  m_DisplayName: Pack_Store
+  m_Key: pack_Store
+  m_Tags: []
+  m_StaticPropertyKeys: []
+  m_StaticPropertyValues: []
+  m_StoreItems: []
+--- !u!114 &-7248505146696848073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b81b157322addcd439104bd3c59b830b, type: 3}
+  m_Name: Store_limitedTime_Store
+  m_EditorClassIdentifier: 
+  m_DisplayName: LimitedTime_Store
+  m_Key: limitedTime_Store
+  m_Tags: []
+  m_StaticPropertyKeys: []
+  m_StaticPropertyValues: []
+  m_StoreItems: []
 --- !u!114 &-7009396454555878156
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18,6 +54,31 @@ MonoBehaviour:
   m_StaticPropertyKeys: []
   m_StaticPropertyValues: []
   m_StoreItems: []
+--- !u!114 &-6412036304478800317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 188049432bcf74f78b314dc2b03ee516, type: 3}
+  m_Name: VirtualTransaction_aStackOfNote
+  m_EditorClassIdentifier: 
+  m_DisplayName: A Stack Of Note
+  m_Key: aStackOfNote
+  m_Tags: []
+  m_StaticPropertyKeys: []
+  m_StaticPropertyValues: []
+  m_Payout:
+    m_Exchanges:
+    - m_CatalogItem: {fileID: 1818889075728541953}
+      m_Amount: 5
+  m_Costs:
+    m_Exchanges:
+    - m_CatalogItem: {fileID: 4133973709238654941}
+      m_Amount: 0
 --- !u!114 &-2553072627299662247
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35,9 +96,7 @@ MonoBehaviour:
   m_Tags: []
   m_StaticPropertyKeys: []
   m_StaticPropertyValues: []
-  m_StoreItems:
-  - m_Transaction: {fileID: 7403554053919460565}
-    m_Enabled: 1
+  m_StoreItems: []
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56,9 +115,52 @@ MonoBehaviour:
   - {fileID: 4133973709238654941}
   - {fileID: 1818889075728541953}
   - {fileID: 857346412231071500}
-  - {fileID: 4838106391436108288}
   - {fileID: -2553072627299662247}
-  - {fileID: 7403554053919460565}
+  - {fileID: -8055374758735049983}
+  - {fileID: 2308471169585379076}
+  - {fileID: 604081867614248461}
+  - {fileID: 2094787135434309124}
+  - {fileID: -7248505146696848073}
+  - {fileID: 1414305402079032627}
+  - {fileID: 7563967166687193153}
+  - {fileID: 6823045076125717668}
+  - {fileID: 6279027037810899360}
+  - {fileID: 3619552165519164013}
+  - {fileID: 2282039721518212007}
+  - {fileID: 8057348362424466671}
+  - {fileID: -6412036304478800317}
+  - {fileID: 6874353041933547938}
+  - {fileID: 5660585158064791398}
+--- !u!114 &604081867614248461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b81b157322addcd439104bd3c59b830b, type: 3}
+  m_Name: Store_credRecharge_Store
+  m_EditorClassIdentifier: 
+  m_DisplayName: CredRecharge_Store
+  m_Key: credRecharge_Store
+  m_Tags: []
+  m_StaticPropertyKeys: []
+  m_StaticPropertyValues: []
+  m_StoreItems:
+  - m_Transaction: {fileID: 2282039721518212007}
+    m_Enabled: 1
+  - m_Transaction: {fileID: 7563967166687193153}
+    m_Enabled: 1
+  - m_Transaction: {fileID: 6823045076125717668}
+    m_Enabled: 1
+  - m_Transaction: {fileID: 6279027037810899360}
+    m_Enabled: 1
+  - m_Transaction: {fileID: 3619552165519164013}
+    m_Enabled: 1
+  - m_Transaction: {fileID: 8057348362424466671}
+    m_Enabled: 1
 --- !u!114 &857346412231071500
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -84,6 +186,24 @@ MonoBehaviour:
   m_InitialBalance: 100
   m_MaximumBalance: 0
   m_Type: 0
+--- !u!114 &1414305402079032627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b81b157322addcd439104bd3c59b830b, type: 3}
+  m_Name: Store_exchange_Store
+  m_EditorClassIdentifier: 
+  m_DisplayName: Exchange_Store
+  m_Key: exchange_Store
+  m_Tags: []
+  m_StaticPropertyKeys: []
+  m_StaticPropertyValues: []
+  m_StoreItems: []
 --- !u!114 &1818889075728541953
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -109,6 +229,104 @@ MonoBehaviour:
   m_InitialBalance: 1000
   m_MaximumBalance: 0
   m_Type: 0
+--- !u!114 &2094787135434309124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b81b157322addcd439104bd3c59b830b, type: 3}
+  m_Name: Store_noteRecharge_Store
+  m_EditorClassIdentifier: 
+  m_DisplayName: NoteRecharge_Store
+  m_Key: noteRecharge_Store
+  m_Tags: []
+  m_StaticPropertyKeys: []
+  m_StaticPropertyValues: []
+  m_StoreItems:
+  - m_Transaction: {fileID: 6874353041933547938}
+    m_Enabled: 1
+  - m_Transaction: {fileID: -6412036304478800317}
+    m_Enabled: 1
+  - m_Transaction: {fileID: 5660585158064791398}
+    m_Enabled: 1
+--- !u!114 &2282039721518212007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76e0c37396e5c474d9792d9bd17d7511, type: 3}
+  m_Name: IAPTransaction_aScrapOfCred
+  m_EditorClassIdentifier: 
+  m_DisplayName: A Scrap Of Cred
+  m_Key: aScrapOfCred
+  m_Tags: []
+  m_StaticPropertyKeys:
+  - CredAmount
+  m_StaticPropertyValues:
+  - <type>k__BackingField: 0
+    m_ValueType:
+      longValue: 30
+    m_StringValue: 
+  m_Payout:
+    m_Exchanges:
+    - m_CatalogItem: {fileID: 4133973709238654941}
+      m_Amount: 30
+  m_AppleId: 
+  m_GoogleId: 
+--- !u!114 &2308471169585379076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b81b157322addcd439104bd3c59b830b, type: 3}
+  m_Name: Store_regularSupply_Store
+  m_EditorClassIdentifier: 
+  m_DisplayName: RegularSupply_Store
+  m_Key: regularSupply_Store
+  m_Tags: []
+  m_StaticPropertyKeys: []
+  m_StaticPropertyValues: []
+  m_StoreItems: []
+--- !u!114 &3619552165519164013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76e0c37396e5c474d9792d9bd17d7511, type: 3}
+  m_Name: IAPTransaction_aCrateOfCred
+  m_EditorClassIdentifier: 
+  m_DisplayName: A Crate Of Cred
+  m_Key: aCrateOfCred
+  m_Tags: []
+  m_StaticPropertyKeys:
+  - CredAmount
+  m_StaticPropertyValues:
+  - <type>k__BackingField: 0
+    m_ValueType:
+      longValue: 2500
+    m_StringValue: 
+  m_Payout:
+    m_Exchanges:
+    - m_CatalogItem: {fileID: 4133973709238654941}
+      m_Amount: 2500
+  m_AppleId: 
+  m_GoogleId: 
 --- !u!114 &4133973709238654941
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -154,7 +372,30 @@ MonoBehaviour:
   m_Payout:
     m_Exchanges: []
   m_Costs:
+    m_Exchanges:
+    - m_CatalogItem: {fileID: 4133973709238654941}
+      m_Amount: 50
+--- !u!114 &4954261724085333530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76e0c37396e5c474d9792d9bd17d7511, type: 3}
+  m_Name: IAPTransaction_aPocketOfCred
+  m_EditorClassIdentifier: 
+  m_DisplayName: A Pocket Of Cred
+  m_Key: aPocketOfCred
+  m_Tags: []
+  m_StaticPropertyKeys: []
+  m_StaticPropertyValues: []
+  m_Payout:
     m_Exchanges: []
+  m_AppleId: 
+  m_GoogleId: 
 --- !u!114 &5367942553805803433
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -169,6 +410,133 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Tags: []
   m_CatalogAsset: {fileID: 11400000}
+--- !u!114 &5638752409161096745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76e0c37396e5c474d9792d9bd17d7511, type: 3}
+  m_Name: IAPTransaction_s
+  m_EditorClassIdentifier: 
+  m_DisplayName: s
+  m_Key: s
+  m_Tags: []
+  m_StaticPropertyKeys: []
+  m_StaticPropertyValues: []
+  m_Payout:
+    m_Exchanges: []
+  m_AppleId: 
+  m_GoogleId: 
+--- !u!114 &5660585158064791398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 188049432bcf74f78b314dc2b03ee516, type: 3}
+  m_Name: VirtualTransaction_aCrateOfNote
+  m_EditorClassIdentifier: 
+  m_DisplayName: A Crate Of Note
+  m_Key: aCrateOfNote
+  m_Tags: []
+  m_StaticPropertyKeys: []
+  m_StaticPropertyValues: []
+  m_Payout:
+    m_Exchanges:
+    - m_CatalogItem: {fileID: 1818889075728541953}
+      m_Amount: 50
+  m_Costs:
+    m_Exchanges:
+    - m_CatalogItem: {fileID: 4133973709238654941}
+      m_Amount: 0
+--- !u!114 &6279027037810899360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76e0c37396e5c474d9792d9bd17d7511, type: 3}
+  m_Name: IAPTransaction_aBoxOfCred
+  m_EditorClassIdentifier: 
+  m_DisplayName: A Box Of Cred
+  m_Key: aBoxOfCred
+  m_Tags: []
+  m_StaticPropertyKeys:
+  - CredAmount
+  m_StaticPropertyValues:
+  - <type>k__BackingField: 0
+    m_ValueType:
+      longValue: 1000
+    m_StringValue: 
+  m_Payout:
+    m_Exchanges:
+    - m_CatalogItem: {fileID: 4133973709238654941}
+      m_Amount: 1000
+  m_AppleId: 
+  m_GoogleId: 
+--- !u!114 &6823045076125717668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76e0c37396e5c474d9792d9bd17d7511, type: 3}
+  m_Name: IAPTransaction_aSackOfCred
+  m_EditorClassIdentifier: 
+  m_DisplayName: A Sack Of Cred
+  m_Key: aSackOfCred
+  m_Tags: []
+  m_StaticPropertyKeys:
+  - CredAmount
+  m_StaticPropertyValues:
+  - <type>k__BackingField: 0
+    m_ValueType:
+      longValue: 300
+    m_StringValue: 
+  m_Payout:
+    m_Exchanges:
+    - m_CatalogItem: {fileID: 4133973709238654941}
+      m_Amount: 300
+  m_AppleId: 
+  m_GoogleId: 
+--- !u!114 &6874353041933547938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 188049432bcf74f78b314dc2b03ee516, type: 3}
+  m_Name: VirtualTransaction_aPileOfNote
+  m_EditorClassIdentifier: 
+  m_DisplayName: A Pile Of Note
+  m_Key: aPileOfNote
+  m_Tags: []
+  m_StaticPropertyKeys: []
+  m_StaticPropertyValues: []
+  m_Payout:
+    m_Exchanges:
+    - m_CatalogItem: {fileID: 1818889075728541953}
+      m_Amount: 10
+  m_Costs:
+    m_Exchanges:
+    - m_CatalogItem: {fileID: 4133973709238654941}
+      m_Amount: 0
 --- !u!114 &7403554053919460565
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -187,6 +555,64 @@ MonoBehaviour:
   m_StaticPropertyKeys: []
   m_StaticPropertyValues: []
   m_Payout:
-    m_Exchanges: []
+    m_Exchanges:
+    - m_CatalogItem: {fileID: 1818889075728541953}
+      m_Amount: 50
   m_Costs:
     m_Exchanges: []
+--- !u!114 &7563967166687193153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76e0c37396e5c474d9792d9bd17d7511, type: 3}
+  m_Name: IAPTransaction_aPouchOfCred
+  m_EditorClassIdentifier: 
+  m_DisplayName: A Pouch Of Cred
+  m_Key: aPouchOfCred
+  m_Tags: []
+  m_StaticPropertyKeys:
+  - CredAmount
+  m_StaticPropertyValues:
+  - <type>k__BackingField: 0
+    m_ValueType:
+      longValue: 120
+    m_StringValue: 
+  m_Payout:
+    m_Exchanges:
+    - m_CatalogItem: {fileID: 4133973709238654941}
+      m_Amount: 120
+  m_AppleId: 
+  m_GoogleId: 
+--- !u!114 &8057348362424466671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76e0c37396e5c474d9792d9bd17d7511, type: 3}
+  m_Name: IAPTransaction_aVaultOfCred
+  m_EditorClassIdentifier: 
+  m_DisplayName: A Vault Of Cred
+  m_Key: aVaultOfCred
+  m_Tags: []
+  m_StaticPropertyKeys:
+  - CredAmount
+  m_StaticPropertyValues:
+  - <type>k__BackingField: 0
+    m_ValueType:
+      longValue: 5000
+    m_StringValue: 
+  m_Payout:
+    m_Exchanges:
+    - m_CatalogItem: {fileID: 4133973709238654941}
+      m_Amount: 5000
+  m_AppleId: 
+  m_GoogleId: 

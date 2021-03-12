@@ -25,7 +25,7 @@ namespace Tech.UI.Panel
 
         private readonly Button[] _shopButtons = new Button[7];
         private readonly ScrollView[] _shopViews = new ScrollView[7];
-        private List<Button> _transactionButtons = new List<Button>();
+        private readonly List<Button> _transactionButtons = new List<Button>();
         protected override void Init(params string[] scenes)
         {
             GameFoundationSdk.initialized += () =>

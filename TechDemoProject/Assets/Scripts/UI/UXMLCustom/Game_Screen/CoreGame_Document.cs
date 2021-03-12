@@ -1,4 +1,5 @@
-﻿using JetBrains.Annotations;
+﻿using System.Collections.Generic;
+using JetBrains.Annotations;
 using Tech.Data;
 using Tech.UI.Linq;
 using UniRx;
@@ -109,7 +110,7 @@ namespace Tech.UI.Panel
             return evt =>
             {
                 UnregisterCallback();
-                _isHiding = !_isHiding;
+                _isHiding ^= true;
 
                 if (_isHiding)
                 {

@@ -6,6 +6,7 @@
     "com.unity.test-framework.performance"
   ],
   "dependencies": {
+    "com.havok.physics": "0.4.0-preview.1",
     "com.unity.adaptiveperformance": "2.0.2",
     "com.unity.adaptiveperformance.samsung.android": "2.0.2",
     "com.unity.addressables": "1.16.15",
@@ -33,7 +34,9 @@
     "com.unity.textmeshpro": "3.0.4",
     "com.unity.timeline": "1.4.6",
     "com.unity.ugui": "1.0.0",
-    "com.unity.ui": "1.0.0-preview.13",
+    "com.unity.ui": "1.0.0-preview.14",
+    "nuget.castle-core": "1.0.1",
+    "nuget.moq": "1.0.0",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
     "com.unity.modules.animation": "1.0.0",

@@ -44,7 +44,7 @@ namespace Tech.Test.ECS
 
                 //Assert.AreEqual(float3.zero,  m_Manager.GetComponentData<Translation>(entity).Value); //intentionally failed to see if setup worked.
 
-                World.CreateSystem<UnitControlSystem>().Update();
+                World.CreateSystem<UnitQueueSystem>().Update();
                 var entity2 =
                     m_Manager.CreateEntity(new ComponentType(typeof(UnitRuntime), ComponentType.AccessMode.ReadWrite));
             }

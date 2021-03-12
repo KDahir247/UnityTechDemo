@@ -3,6 +3,8 @@
   <component name="ContentModelUserStore">
     <attachedFolders />
     <explicitIncludes>
+      <Path>Library/PackageCache/com.havok.physics@0.4.0-preview.1</Path>
+      <Path>Library/PackageCache/com.havok.physics@0.4.1-preview.2</Path>
       <Path>Library/PackageCache/com.unity.adaptiveperformance.samsung.android@2.0.2</Path>
       <Path>Library/PackageCache/com.unity.adaptiveperformance@2.0.2</Path>
       <Path>Library/PackageCache/com.unity.addressables@1.16.15</Path>
@@ -31,6 +33,8 @@
       <Path>Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0</Path>
       <Path>Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0-preview</Path>
       <Path>Library/PackageCache/com.unity.performance.profile-analyzer@1.0.3</Path>
+      <Path>Library/PackageCache/com.unity.physics@0.5.0-preview.1</Path>
+      <Path>Library/PackageCache/com.unity.physics@0.5.1-preview.2</Path>
       <Path>Library/PackageCache/com.unity.platforms@0.7.0-preview.8</Path>
       <Path>Library/PackageCache/com.unity.platforms@0.9.0-preview.9</Path>
       <Path>Library/PackageCache/com.unity.probuilder@4.5.0</Path>
@@ -53,7 +57,7 @@
       <Path>Library/PackageCache/com.unity.textcore@1.0.0-preview.2</Path>
       <Path>Library/PackageCache/com.unity.textmeshpro@3.0.4</Path>
       <Path>Library/PackageCache/com.unity.timeline@1.4.6</Path>
-      <Path>Library/PackageCache/com.unity.ui@1.0.0-preview.13</Path>
+      <Path>Library/PackageCache/com.unity.ui@1.0.0-preview.14</Path>
       <Path>Library/PackageCache/nuget.castle-core@1.0.1</Path>
       <Path>Library/PackageCache/nuget.moq@1.0.0</Path>
       <Path>Packages</Path>
