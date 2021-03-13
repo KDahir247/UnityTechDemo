@@ -47,8 +47,15 @@ MonoBehaviour:
         duration: 19.833334
         payload:
           serializedData: '{}'
-          assemblyQualifiedTypeName: Unity.Kinematica.Editor.DefaultTag, Unity.Kinematica.Editor,
-            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          assemblyQualifiedTypeName: IdleTag, ProjectLogic, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+        name: 
+      - startTime: 0
+        duration: 19.833334
+        payload:
+          serializedData: '{}'
+          assemblyQualifiedTypeName: LocomotionTag, ProjectLogic, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
         name: 
       markers: []
       m_Asset: {fileID: 11400000}
@@ -57,15 +64,8 @@ MonoBehaviour:
     - name: Default
       tagTypes:
         m_TagTypeNames:
-        - SnappyLocomotion.IdleTag
-        - SnappyLocomotion.LocomotionTag
-        - Navigation.IdleTag
-        - Navigation.LocomotionTag
-        - HelloWorld.IdleTag
-        - HelloWorld.LocomotionTag
-        - BipedLocomotion.IdleTag
-        - BipedLocomotion.LocomotionTag
-        - Unity.Kinematica.Editor.DefaultTag
+        - IdleTag
+        - LocomotionTag
       numPoses: 2
       poseSampleRatio: 0.3333
       joints:

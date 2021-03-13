@@ -4,6 +4,7 @@ using Unity.Entities;
 using Unity.Jobs;
 using Unity.Physics;
 using Unity.Physics.Systems;
+using Unity.Transforms;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using RaycastHit = Unity.Physics.RaycastHit;
@@ -15,7 +16,7 @@ public sealed class UnitRaycastSystem : SystemBase
     private EndFixedStepSimulationEntityCommandBufferSystem _endSimulationEntityCommandBufferSystem;
     private PlayerInput _input;
     private Vector3 _cursorPosition;
-    private Camera _camera;
+    private  Camera _camera;
 
     protected override void OnStartRunning()
     {
@@ -27,7 +28,6 @@ public sealed class UnitRaycastSystem : SystemBase
         _input = new PlayerInput();
         _input.Enable();
         _input.Player.MousePos.performed += MovedCursor;
-
         _camera = Camera.main;
     }
 
@@ -51,7 +51,7 @@ public sealed class UnitRaycastSystem : SystemBase
             RaycastInput = new RaycastInput
             {
                 Start = screenRay.origin,
-                End = screenRay.GetPoint(200),
+                End = screenRay.GetPoint(1000),
                 Filter = new CollisionFilter
                 {
                     BelongsTo = ~0u,
@@ -65,16 +65,19 @@ public sealed class UnitRaycastSystem : SystemBase
         }.Schedule();
 
         ComponentDataFromEntity<EnemyRuntime> targetEntity = GetComponentDataFromEntity<EnemyRuntime>();
+        ComponentDataFromEntity<LocalToWorld> targetPosition = GetComponentDataFromEntity<LocalToWorld>(); //We want the actual entity position not hit position.
+
+        //ComponentDataFromEntity<Local> myTypeFromEntity = GetComponentDataFromEntity<MyType>(true);
         Entities.ForEach((Entity e, in int entityInQueryIndex, in UnitExecutionRuntime unitRuntime) =>
         {
             if (!entityQueue.TryDequeue(out RaycastHit hit)) return;
 
-            if (!targetEntity.HasComponent(hit.Entity)) return;
+            if (!targetEntity.HasComponent(hit.Entity)  || !targetPosition.HasComponent(hit.Entity)) return;
 
             entityCommandBuffer.AddComponent(unitRuntime.unitEntity, new UnitExecutionRuntime()
             {
                 targetEntity = hit.Entity,
-                targetEntityPosition = hit.Position,
+                targetEntityPosition = targetPosition[hit.Entity].Position,
                 unitEntity = unitRuntime.unitEntity,
                 unitEntityPosition = unitRuntime.unitEntityPosition
             });

@@ -847,6 +847,17 @@
           </e>
           <e p="ProjectLogic.asmdef" t="Include" />
           <e p="Scripts" t="Include">
+            <e p="Animation" t="Include">
+              <e p="Annotation" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="IdleTag.cs" t="Include" />
+                  <e p="LocomotionTag.cs" t="Include" />
+                </e>
+                <e p="Idle.cs" t="Include" />
+                <e p="Locomotion.cs" t="Include" />
+              </e>
+              <e p="UnitAnimation.cs" t="Include" />
+            </e>
             <e p="Authoring" t="Include">
               <e p="UnitAuthoring.cs" t="Include" />
             </e>
@@ -1062,17 +1073,21 @@
                 </e>
                 <e p="HelloWorld.cs" t="Include" />
               </e>
-              <e p="Navigation" t="Include">
+              <e p="Short Animation Clips" t="Include">
                 <e p="Annotations" t="Include">
                   <e p="Editor" t="Include">
                     <e p="IdleTag.cs" t="Include" />
                     <e p="LocomotionTag.cs" t="Include" />
+                    <e p="LoopMarker.cs" t="Include" />
                   </e>
                   <e p="Idle.cs" t="Include" />
                   <e p="Locomotion.cs" t="Include" />
+                  <e p="LoopTrait.cs" t="Include" />
                 </e>
-                <e p="Biped.debug.xml" t="Include" />
-                <e p="Navigation.cs" t="Include" />
+                <e p="BipedShort.cs" t="Include" />
+                <e p="Supplementary" t="Include">
+                  <e p="FollowCamera.cs" t="Include" />
+                </e>
               </e>
               <e p="Snappy Locomotion" t="Include">
                 <e p="Annotations" t="Include">
@@ -1084,6 +1099,9 @@
                   <e p="Locomotion.cs" t="Include" />
                 </e>
                 <e p="SnappyLocomotion.cs" t="Include" />
+              </e>
+              <e p="Snapshot Debugger" t="Include">
+                <e p="Spawner.cs" t="Include" />
               </e>
             </e>
           </e>
@@ -1148,7 +1166,10 @@
           </e>
         </e>
         <e p="StreamingAssets" t="Include">
+          <e p="KinematicaBinary_05ec10ff169c6e7459dee7e926503403.debug.xml" t="Include" />
+          <e p="KinematicaBinary_92c92367da781054a93b087854eeeec8.debug.xml" t="Include" />
           <e p="KinematicaBinary_ba3871522913c8744a6ab0c114cf005d.debug.xml" t="Include" />
+          <e p="KinematicaBinary_c3add06b09c1fbb4e9c56d5717fbb1db.debug.xml" t="Include" />
           <e p="KinematicaBinary_f8c5f12b227de4a4698ddf23e8c269e9.debug.xml" t="Include" />
         </e>
         <e p="UniGLTF" t="Include">

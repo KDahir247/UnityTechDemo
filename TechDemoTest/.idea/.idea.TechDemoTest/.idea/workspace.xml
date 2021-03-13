@@ -9,167 +9,188 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6abb102-7c44-48ea-adde-dc287c5cfed8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Cred Transactions.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Cred Transactions.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/ECS/UnitQueueECSTest.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/ECS/UnitQueueEcsTest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/Animation.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/Animation/BruiserKinematica.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/Animation/BruiserKinematica.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/DemoScene.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/DemoScene.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/Materials/Player_Mat.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/Materials/Player_Mat.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/Models.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/Animation.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/Animation/AssassinAnimation.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/Animation/AssassinAnimation/Breathing Idle.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/Animation/AssassinAnimation/Breathing Idle.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/Animation/AssassinAnimation/Stabbing (1).fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/Animation/AssassinAnimation/Stabbing (1).fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/Animation/AssassinAnimation/Stabbing (2).fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/Animation/AssassinAnimation/Stabbing (2).fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/Animation/AssassinAnimation/Stabbing.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/Animation/AssassinAnimation/Stabbing.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/Animation/NecromancerAnimation.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/Animation/NecromancerAnimation/NecromancerIdle.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/Animation/NecromancerAnimation/NecromancerIdle.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/Animation/NecromancerAnimation/Standing 1H Magic Attack 03.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/Animation/NecromancerAnimation/Standing 1H Magic Attack 03.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/Animation/NecromancerAnimation/Standing 2H Cast Spell 01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/Animation/NecromancerAnimation/Standing 2H Cast Spell 01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/Animation/NecromancerAnimation/Standing 2H Magic Area Attack 01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/Animation/NecromancerAnimation/Standing 2H Magic Area Attack 01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/Animation/OracleAnimation.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/Animation/OracleAnimation/Magic Heal.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/Animation/OracleAnimation/Magic Heal.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/Animation/OracleAnimation/OracleIdle.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/Animation/OracleAnimation/OracleIdle.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/Animation/OracleAnimation/Standing 2H Magic Area Attack 02.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/Animation/OracleAnimation/Standing 2H Magic Area Attack 02.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/Animation/OracleAnimation/Standing 2H Magic Attack 01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/Animation/OracleAnimation/Standing 2H Magic Attack 01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/FemaleDummy.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/FemaleDummy.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/MaleDummy.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/Models/MaleDummy.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/Prefabs/FemaleDummy.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/Prefabs/FemaleDummy.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/Prefabs/MaleDummy.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/Prefabs/MaleDummy.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/Readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/Readme.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/SourceFiles.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/SourceFiles/Blender Source Files.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/SourceFiles/Blender Source Files.zip.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/Textures.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/Textures/DummyTexture.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/Textures/DummyTexture.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scenes/CombatScene.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scenes/CombatScene.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Job.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Job/UnitQueueSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Job/UnitQueueSystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Job/UnitRaycastSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Job/UnitRaycastSystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/EnemyRuntime.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/EnemyRuntime.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/UnitExecutionRuntime.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/UnitExecutionRuntime.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets/KinematicaBinary_f8c5f12b227de4a4698ddf23e8c269e9.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets/KinematicaBinary_f8c5f12b227de4a4698ddf23e8c269e9.bin.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets/KinematicaBinary_f8c5f12b227de4a4698ddf23e8c269e9.debug.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets/KinematicaBinary_f8c5f12b227de4a4698ddf23e8c269e9.debug.xml.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/GameFoundation/GameFoundationCatalog.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/GameFoundation/GameFoundationCatalog.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Log/EditorLog132599160000000000.log" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Log/EditorLog132599160000000000.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Project/UI/Game_Properties.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Project/UI/Game_Properties.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/UXMLCustom/Game_Screen/CoreGame_Document.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/UXMLCustom/Game_Screen/CoreGame_Document.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/UXMLCustom/Game_Screen/SubScene/Shop_Document.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/Scripts/UI/UXMLCustom/Game_Screen/SubScene/Shop_Document.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/UI Toolkit/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/UI Toolkit/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/UI/UIDocument/Game/CoreGame_Document.uxml" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/UI/UIDocument/Game/CoreGame_Document.uxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/UI/UIDocument/Game/Game_Document.uxml" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/UI/UIDocument/Game/Game_Document.uxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Assets/UI/UIDocument/Game/SubSceneDocument/Shop_Document.uxml" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Assets/UI/UIDocument/Game/SubSceneDocument/Shop_Document.uxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Logs/AssetImportWorker0-prev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Logs/AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TechDemoProject/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../TechDemoProject/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Animation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Animation/Combat.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Animation/Combat.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scenes/CombatScene.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scenes/CombatScene/NavMesh.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scenes/CombatScene/NavMesh.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Animation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Animation/Annotation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Animation/Annotation/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Animation/Annotation/Editor/IdleTag.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Animation/Annotation/Editor/IdleTag.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Animation/Annotation/Editor/LocomotionTag.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Animation/Annotation/Editor/LocomotionTag.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Animation/Annotation/Idle.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Animation/Annotation/Idle.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Animation/Annotation/Locomotion.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Animation/Annotation/Locomotion.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Animation/UnitAnimation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Animation/UnitAnimation.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/.sample.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/HalfSteps2Idle_PasingLongStepTOIdle.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/HalfSteps2Idle_PasingLongStepTOIdle.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/HalfSteps2Idle_PasingLongStepTOIdle_Right.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/HalfSteps2Idle_PasingLongStepTOIdle_Right.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/Idle2Run135L.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/Idle2Run135L.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/Idle2Run135R.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/Idle2Run135R.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/Idle2Run180L.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/Idle2Run180L.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/Idle2Run180R.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/Idle2Run180R.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/Idle2Run45L.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/Idle2Run45L.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/Idle2Run45R.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/Idle2Run45R.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/Idle2Run90L.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/Idle2Run90L.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/Idle2Run90R.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/Idle2Run90R.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/Idle2walk_AllAngles.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/Idle2walk_AllAngles.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/Idle2walk_AllAngles_Right.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/Idle2walk_AllAngles_Right.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/JogForwardTurnLeft_NtrlMedium.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/JogForwardTurnLeft_NtrlMedium.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/JogForwardTurnRight_NtrlMedium.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/JogForwardTurnRight_NtrlMedium.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/PlantNTurn135_Run_L.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/PlantNTurn135_Run_L.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/PlantNTurn135_Run_R.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/PlantNTurn135_Run_R.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/PlantNTurn180_Run_L_2.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/PlantNTurn180_Run_L_2.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/PlantNTurn180_Run_R_2.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/PlantNTurn180_Run_R_2.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/PlantNTurn90_Run_L.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/PlantNTurn90_Run_L.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/PlantNTurn90_Run_R.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/PlantNTurn90_Run_R.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/RunForwardStart.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/RunForwardStart.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/RunForwardTurnLeft_NtrlShort_2.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/RunForwardTurnLeft_NtrlShort_2.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/RunForwardTurnLeft_NtrlWide.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/RunForwardTurnLeft_NtrlWide.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/RunForwardTurnRight_NtrlShort_2.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/RunForwardTurnRight_NtrlShort_2.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/RunForwardTurnRight_NtrlWide 1.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/RunForwardTurnRight_NtrlWide 1.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/RunForwardTurnRight_NtrlWide.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/RunForwardTurnRight_NtrlWide.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/RunForward_NtrlFaceFwd.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/RunForward_NtrlFaceFwd.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/RunFwdStop.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/RunFwdStop.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/SmallStep.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Animations/SmallStep.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Annotations.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Annotations/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Annotations/Editor/IdleTag.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Annotations/Editor/IdleTag.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Annotations/Editor/LocomotionTag.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Annotations/Editor/LocomotionTag.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Annotations/Editor/LoopMarker.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Annotations/Editor/LoopMarker.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Annotations/Idle.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Annotations/Idle.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Annotations/Locomotion.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Annotations/Locomotion.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Annotations/LoopTrait.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Annotations/LoopTrait.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Biped.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Biped.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/BipedShort.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/BipedShort.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/BipedShort.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/BipedShort.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Readme.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Supplementary.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Supplementary/FollowCamera.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Short Animation Clips/Supplementary/FollowCamera.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Snapshot Debugger.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Snapshot Debugger/.sample.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Snapshot Debugger/Cube.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Snapshot Debugger/Cube.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Snapshot Debugger/Cube.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Snapshot Debugger/Cube.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Snapshot Debugger/Debugger.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Snapshot Debugger/Debugger.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Snapshot Debugger/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Snapshot Debugger/Readme.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Snapshot Debugger/Spawner.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Snapshot Debugger/Spawner.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets/KinematicaBinary_05ec10ff169c6e7459dee7e926503403.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets/KinematicaBinary_05ec10ff169c6e7459dee7e926503403.bin.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets/KinematicaBinary_05ec10ff169c6e7459dee7e926503403.debug.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets/KinematicaBinary_05ec10ff169c6e7459dee7e926503403.debug.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets/KinematicaBinary_92c92367da781054a93b087854eeeec8.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets/KinematicaBinary_92c92367da781054a93b087854eeeec8.bin.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets/KinematicaBinary_92c92367da781054a93b087854eeeec8.debug.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets/KinematicaBinary_92c92367da781054a93b087854eeeec8.debug.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets/KinematicaBinary_c3add06b09c1fbb4e9c56d5717fbb1db.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets/KinematicaBinary_c3add06b09c1fbb4e9c56d5717fbb1db.bin.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets/KinematicaBinary_c3add06b09c1fbb4e9c56d5717fbb1db.debug.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets/KinematicaBinary_c3add06b09c1fbb4e9c56d5717fbb1db.debug.xml.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TechDemoTest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TechDemoTest/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TechDemoTest/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TechDemoTest/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TechDemoTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TechDemoTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/ECS/BasicECSTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/ECS/BasicECSTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Input/PlayerInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Input/PlayerInput.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Input/PlayerInput.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Input/PlayerInput.inputactions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/Animation/BruiserKinematica.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Character/Model/Kevin Iglesias/3DCharacterDummy/Animation/BruiserKinematica.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Project/ProjectLogic.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/ProjectLogic.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scenes/CombatScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scenes/CombatScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Authoring/UnitAuthoring.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Authoring/UnitAuthoring.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/ComponentSystem.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/ComponentSystem/UnitControlSystem.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/ComponentSystem/UnitControlSystem.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/UnitRuntime.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/UnitRuntime.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Job/UnitQueueSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Job/UnitQueueSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Job/UnitRaycastSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Job/UnitRaycastSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Biped Locomotion/Biped.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Biped Locomotion/Biped.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/.sample.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Annotations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Annotations/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Annotations/Editor/IdleTag.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Annotations/Editor/IdleTag.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Annotations/Editor/LocomotionTag.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Annotations/Editor/LocomotionTag.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Annotations/Idle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Annotations/Idle.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Annotations/Locomotion.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Annotations/Locomotion.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Biped.debug.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Biped.debug.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Materials/ground.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Materials/ground.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Materials/target.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Materials/target.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Materials/wall.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Materials/wall.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Navigation.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Navigation.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Navigation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Navigation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Navigation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Navigation.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Navigation.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Navigation/NavMesh.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Navigation/NavMesh.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Readme.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/KinematicaBinary_f8c5f12b227de4a4698ddf23e8c269e9.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/KinematicaBinary_f8c5f12b227de4a4698ddf23e8c269e9.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/KinematicaBinary_f8c5f12b227de4a4698ddf23e8c269e9.debug.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/KinematicaBinary_f8c5f12b227de4a4698ddf23e8c269e9.debug.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker2.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker3.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe10.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe11.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe12.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe13.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe14.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe15.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe16.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe17.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe18.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe19.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe20.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe21.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe22.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe23.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe24.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe25.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe26.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe27.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe28.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe29.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe30.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe31.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe4.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe5.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe6.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe7.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe8.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe9.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/PlaymodeTest.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PlaymodeTest.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/ProjectLogic.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/ProjectLogic.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Ulid.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Ulid.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/UniRx.Examples.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniRx.Examples.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/UniTask.Addressables.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniTask.Addressables.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/UniTask.Editor.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniTask.Editor.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/UniTask.TextMeshPro.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniTask.TextMeshPro.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/UniTask.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniTask.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/UniUnlit.Editor.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/UniUnlit.Editor.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.InputSystem.InGameHints.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.InputSystem.InGameHints.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.InputSystem.RebindingUI.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.InputSystem.RebindingUI.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.InputSystem.Recorder.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.InputSystem.Recorder.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.InputSystem.VirtualMouseInput.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.InputSystem.VirtualMouseInput.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/ZString.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/ZString.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,11 +221,15 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/62FFEEB7-EC02-4BEA-B61E-5FBF8D44AC5B/2d/c8b6564c/OperationCanceledException.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.1.0-preview.3/InputSystem/Actions/InputActionMap.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.1.0-preview.3/InputSystem/Actions/InputActionAsset.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/62FFEEB7-EC02-4BEA-B61E-5FBF8D44AC5B/4e/316c2461/Array.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/04 Wallet/WalletSample.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.game-foundation@0.8.0-preview/DefaultLayers/Runtime/PersistenceDataLayer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E414E10B-FE5F-4572-9FF1-22F3359DE21B/3f/4f48db2d/EarlyUpdate.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.kinematica@0.7.0-preview/Runtime/TaskGraph/Tasks/TrajectoryPredictionTask.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.kinematica@0.7.0-preview/Runtime/TaskGraph/Tasks/NavigationTask.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.game-foundation@0.8.0-preview/DefaultLayers/Runtime/BaseMemoryDataLayer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/81481514-4B33-4AFD-BC72-FCC125EA773E/55/80dfa019/IDataAccessLayer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.kinematica@0.7.0-preview/Runtime/TaskGraph/Tasks/ConditionTask.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9577AC7A-62EF-4317-9789-031239BA8798/20/6f3a823d/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/Authoring/UnitAuthoring.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Project/PluginScripts/ZLogger/ZLoggerExtensions.cs" root0="SKIP_HIGHLIGHTING" />
@@ -213,13 +238,16 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.game-foundation@0.8.0-preview/Components/Runtime/RewardClaimManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.game-foundation@0.8.0-preview/DefaultLayers/Runtime/Persistence/IDataPersistence.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E414E10B-FE5F-4572-9FF1-22F3359DE21B/c8/1b077017/UnityEvent.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.14.0-preview.19/Unity.Transforms/LocalToWorld.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.14.0-preview.19/Unity.Entities.Hybrid/ConvertToEntity.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.game-foundation@0.8.0-preview/Components/Runtime/GameFoundationInit.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.game-foundation@0.8.0-preview/Components/Runtime/CurrencyHudView.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/42A5878C-E129-4030-83AC-CCF18E43363F/08/d748974b/WaitForSeconds.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.kinematica@0.7.0-preview/Runtime/TaskGraph/TaskReference.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.game-foundation@0.8.0-preview/Core/Runtime/Transactions/VirtualTransaction.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/62FFEEB7-EC02-4BEA-B61E-5FBF8D44AC5B/17/394b43c5/TypeInitializationException.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/42A5878C-E129-4030-83AC-CCF18E43363F/bd/19979f8e/WaitUntil.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.14.0-preview.19/Unity.Entities/SystemBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.test-framework@1.1.24/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.game-foundation@0.8.0-preview/Components/Editor/CurrencyHudViewEditor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.game-foundation@0.8.0-preview/Core/Runtime/Transactions/TransactionExchangeDefinition.cs" root0="SKIP_HIGHLIGHTING" />
@@ -249,8 +277,10 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.kinematica@0.7.0-preview/Runtime/Kinematica.deprecated.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.kinematica@0.7.0-preview/Runtime/Kinematica.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.16.15/Runtime/ResourceManager/Util/DelayedActionManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.kinematica@0.7.0-preview/Runtime/Supplementary/Utility/InputUtility.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.game-foundation@0.8.0-preview/Core/Runtime/Inventory/StackableInventoryItem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E414E10B-FE5F-4572-9FF1-22F3359DE21B/3d/443824a9/Profiler.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.kinematica@0.7.0-preview/Runtime/Supplementary/Utility/NavigationParams.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.kinematica@0.7.0-preview/Runtime/Kinematica.Public.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/42A5878C-E129-4030-83AC-CCF18E43363F/f7/637b5601/Ray.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.physics@0.5.0-preview.1/Unity.Physics/ECS/Base/Systems/EndFramePhysicsSystem.cs" root0="SKIP_HIGHLIGHTING" />
@@ -258,6 +288,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.test-framework.performance@2.5.1-preview/Editor/TestRunBuilder.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/72A7A657-B248-42DF-AA06-08148D643D1C/ee/1ca857fe/System.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.game-foundation@0.8.0-preview/Core/Runtime/Inventory/InventoryItem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.kinematica@0.7.0-preview/Runtime/Supplementary/Utility/Utility.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/81481514-4B33-4AFD-BC72-FCC125EA773E/c2/697c6be3/IRewardManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.game-foundation@0.8.0-preview/Core/Runtime/Exchanges/Payout.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.kinematica@0.7.0-preview/Editor/MotionLibraryBuilder/AnimationSampler/CurveSampler/Editor/Curves.cs" root0="SKIP_HIGHLIGHTING" />
@@ -269,9 +300,11 @@
     <setting file="file://$PROJECT_DIR$/Assets/Project/PluginScripts/MasterMemory/Internal/InternStringResolver.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/A5006EA2-EA34-4A8E-8C71-A2EB982AADC0/7/Memory.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.game-foundation@0.8.0-preview/Core/Runtime/Rewards/Reward.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.kinematica@0.7.0-preview/Runtime/Supplementary/Debug/DebugDraw.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E414E10B-FE5F-4572-9FF1-22F3359DE21B/66/0afe47f5/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.game-foundation@0.8.0-preview/Core/Runtime/Catalog/Catalog.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E414E10B-FE5F-4572-9FF1-22F3359DE21B/23/95a10587/Vector2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.kinematica@0.7.0-preview/Runtime/Supplementary/Math/AffineTransform.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/47662338-E634-43D0-AD39-12C93CD3753F/0c/e868d60a/VII`3.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/149C4473-75EF-46B5-A5E8-788C2D8232AB/97/e52e6cf4/IComponentData.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.game-foundation@0.8.0-preview/Core/Runtime/Wallet/Currency.cs" root0="SKIP_HIGHLIGHTING" />
@@ -292,15 +325,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/02a Stackable Inventory Items/StackableInventoryItemSample.cs" />
-      <option value="$PROJECT_DIR$/Assets/Samples/Game Foundation/0.8.0-preview/07 Transactions/TransactionsSample.cs" />
-      <option value="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/Core/RewardTest.cs" />
-      <option value="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/ItemSystem/GameItem.cs" />
-      <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.game-foundation@0.8.0-preview/Promise/Runtime/Deferred.cs" />
-      <option value="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/DataFoundation.cs" />
-      <option value="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/GameFoundation/GameStoreTest.cs" />
-      <option value="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/GameFoundation/GameInventoryTest.cs" />
-      <option value="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/GameFoundation/GameItemTest.cs" />
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/StoreSystem/GameStore.cs" />
       <option value="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/GameFoundation/RewardTest.cs" />
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/RewardManager.cs" />
@@ -331,18 +355,27 @@
       <option value="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/GameFoundation/GameWalletTest.cs" />
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/InventorySystem/GameInventory.cs" />
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/GameFoundation/CurrencySystem/GameWallet.cs" />
-      <option value="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Biped Locomotion/Biped.cs" />
       <option value="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/ECS/BasicECSTest.cs" />
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/UnitRuntime.cs" />
-      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Authoring/UnitAuthoring.cs" />
       <option value="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/ECS/UnitQueueECSTest.cs" />
-      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/UnitExecutionRuntime.cs" />
       <option value="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/ECS/UnitQueueEcsTest.cs" />
-      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Job/UnitQueueSystem.cs" />
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/EnemyRuntime.cs" />
       <option value="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/Core/DynamicDbBuilderTest.cs" />
       <option value="$PROJECT_DIR$/Assets/PlaymodeTest/UnitTest/Core/StaticDbBuilderTest.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Job/UnityActionSystem.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Job/UnitAnimationSystem.cs" />
+      <option value="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Biped Locomotion/Biped.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Animation/Annotation/Locomotion.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Animation/Annotation/Idle.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Animation/Annotation/Editor/IdleTag.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Animation/Annotation/Editor/LocomotionTag.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/UnitExecutionRuntime.cs" />
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/Job/UnitRaycastSystem.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Job/UnitQueueSystem.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Job/UnitActionSystem.cs" />
+      <option value="$PROJECT_DIR$/Assets/Samples/Kinematica/0.7.0-preview/Navigation/Navigation.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Authoring/UnitAuthoring.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Animation/UnitAnimation.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1mGcpWGc6Z0UzqQm4gJFxdGM5v9" />
@@ -428,7 +461,7 @@
       <workItem from="1615577919477" duration="633000" />
       <workItem from="1615578795720" duration="114000" />
       <workItem from="1615578929224" duration="325000" />
-      <workItem from="1615579819076" duration="519000" />
+      <workItem from="1615579819076" duration="24628000" />
     </task>
     <servers />
   </component>
