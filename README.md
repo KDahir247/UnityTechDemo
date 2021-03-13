@@ -98,7 +98,7 @@ Youtube video on previous development (need to update url)
 <br/>
 <br/>
 
-[![me](https://github.com/KDahir247/UnityTechDemo/blob/main/Gif/Currency.gif)
+[![me](https://github.com/KDahir247/UnityTechDemo/blob/main/Gif/CombatRough.gif)
 
 <br/>
 <br/>
