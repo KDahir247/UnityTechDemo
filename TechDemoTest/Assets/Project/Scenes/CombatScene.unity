@@ -122,7 +122,7 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 23800000, guid: ccf1325290337844eb0b9b71d855b44b, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 6a9113941a9b72342b449a202474dd1d, type: 2}
 --- !u!1 &307148862
 GameObject:
   m_ObjectHideFlags: 0
@@ -352,7 +352,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 940e90b12c62e3c48974d7f837444398, type: 2}
+  - {fileID: 2100000, guid: 1affb2d50d0f2ed4cbdeb5f17c3530a7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -447,7 +447,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 940e90b12c62e3c48974d7f837444398, type: 2}
+  - {fileID: 2100000, guid: 1affb2d50d0f2ed4cbdeb5f17c3530a7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -608,7 +608,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 940e90b12c62e3c48974d7f837444398, type: 2}
+  - {fileID: 2100000, guid: 1affb2d50d0f2ed4cbdeb5f17c3530a7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1042,7 +1042,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 940e90b12c62e3c48974d7f837444398, type: 2}
+  - {fileID: 2100000, guid: 1affb2d50d0f2ed4cbdeb5f17c3530a7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
